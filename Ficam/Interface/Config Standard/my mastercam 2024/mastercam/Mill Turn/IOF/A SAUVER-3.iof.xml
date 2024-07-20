@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root>
+<IOFMessageLog>
+  <MsgGroups>
+    <MsgGroup>
+      <GroupId>-9990</GroupId>
+      <GroupName>Mastercam-IOF : opération 10 (10 2D UGV (Fraisage dynamique 2D))</GroupName>
+    </MsgGroup>
+    <MsgGroup>
+      <GroupId>-1000</GroupId>
+      <GroupName>Opération et parcours d'outil de lecture de base de données de NCI</GroupName>
+    </MsgGroup>
+    <MsgGroup>
+      <GroupId>-9</GroupId>
+      <GroupName>Traitement de données de mouvement machine IOF</GroupName>
+    </MsgGroup>
+    <MsgGroup>
+      <GroupId>-1</GroupId>
+      <GroupName>Général</GroupName>
+    </MsgGroup>
+    <MsgGroup>
+      <GroupId>10</GroupId>
+      <GroupName>Opération 10 (10 2D UGV (Fraisage dynamique 2D))</GroupName>
+    </MsgGroup>
+    <MsgGroup>
+      <GroupId>2000</GroupId>
+      <GroupName>Validation de l'information de décalage</GroupName>
+    </MsgGroup>
+    <MsgGroup>
+      <GroupId>2040</GroupId>
+      <GroupName>Traitement des données de position de dégagement.</GroupName>
+    </MsgGroup>
+    <MsgGroup>
+      <GroupId>20010</GroupId>
+      <GroupName>Calcul du timing du mouvement.</GroupName>
+    </MsgGroup>
+  </MsgGroups>
+  <Messages>
+    <Message>
+      <GroupNum>-1</GroupNum>
+      <MessageCode></MessageCode>
+      <PrimaryMessage>1 opérations sélectionnées pour la conversion BNCI / IOF.</PrimaryMessage>
+      <AuxMessage></AuxMessage>
+      <Type>Info</Type>
+      <IsInternal>0</IsInternal>
+    </Message>
+    <Message>
+      <GroupNum>-1</GroupNum>
+      <MessageCode></MessageCode>
+      <PrimaryMessage>1 opérations sélectionnées pour la conversion BNCI / IOF.</PrimaryMessage>
+      <AuxMessage></AuxMessage>
+      <Type>Info</Type>
+      <IsInternal>0</IsInternal>
+    </Message>
+    <Message>
+      <GroupNum>-9990</GroupNum>
+      <MessageCode>IGAC3001</MessageCode>
+      <PrimaryMessage>Erreur ArcCheck : longueur d'arc trop faible.</PrimaryMessage>
+      <AuxMessage>Le générateur de parcours a produit un arc dont la longueur de corde est plus faible que la longueur autorisée. (longueur = 0.00206496, seuil = 0.01).  Ce problème est résolu en évitant l'arc.</AuxMessage>
+      <Type>Warning</Type>
+      <IsInternal>0</IsInternal>
+    </Message>
+    <Message>
+      <GroupNum>-9990</GroupNum>
+      <MessageCode>IGAC3001</MessageCode>
+      <PrimaryMessage>Erreur ArcCheck : longueur d'arc trop faible.</PrimaryMessage>
+      <AuxMessage>Le générateur de parcours a produit un arc dont la longueur de corde est plus faible que la longueur autorisée. (longueur = 0.00362342, seuil = 0.01).  Ce problème est résolu en évitant l'arc.</AuxMessage>
+      <Type>Warning</Type>
+      <IsInternal>0</IsInternal>
+    </Message>
+    <Message>
+      <GroupNum>-9990</GroupNum>
+      <MessageCode>IGAC3001</MessageCode>
+      <PrimaryMessage>Erreur ArcCheck : longueur d'arc trop faible.</PrimaryMessage>
+      <AuxMessage>Le générateur de parcours a produit un arc dont la longueur de corde est plus faible que la longueur autorisée. (longueur = 0.00367451, seuil = 0.01).  Ce problème est résolu en évitant l'arc.</AuxMessage>
+      <Type>Warning</Type>
+      <IsInternal>0</IsInternal>
+    </Message>
+    <Message>
+      <GroupNum>-9990</GroupNum>
+      <MessageCode>IGAC3001</MessageCode>
+      <PrimaryMessage>Erreur ArcCheck : longueur d'arc trop faible.</PrimaryMessage>
+      <AuxMessage>Le générateur de parcours a produit un arc dont la longueur de corde est plus faible que la longueur autorisée. (longueur = 0.00367688, seuil = 0.01).  Ce problème est résolu en évitant l'arc.</AuxMessage>
+      <Type>Warning</Type>
+      <IsInternal>0</IsInternal>
+    </Message>
+    <Message>
+      <GroupNum>-9990</GroupNum>
+      <MessageCode>IGAC3001</MessageCode>
+      <PrimaryMessage>Erreur ArcCheck : longueur d'arc trop faible.</PrimaryMessage>
+      <AuxMessage>Le générateur de parcours a produit un arc dont la longueur de corde est plus faible que la longueur autorisée. (longueur = 0.00446707, seuil = 0.01).  Ce problème est résolu en évitant l'arc.</AuxMessage>
+      <Type>Warning</Type>
+      <IsInternal>0</IsInternal>
+    </Message>
+    <Message>
+      <GroupNum>-9990</GroupNum>
+      <MessageCode>IGAC3001</MessageCode>
+      <PrimaryMessage>Erreur ArcCheck : longueur d'arc trop faible.</PrimaryMessage>
+      <AuxMessage>Le générateur de parcours a produit un arc dont la longueur de corde est plus faible que la longueur autorisée. (longueur = 0.00633029, seuil = 0.01).  Ce problème est résolu en évitant l'arc.</AuxMessage>
+      <Type>Warning</Type>
+      <IsInternal>0</IsInternal>
+    </Message>
+    <Message>
+      <GroupNum>-9990</GroupNum>
+      <MessageCode>IGAC3001</MessageCode>
+      <PrimaryMessage>Erreur ArcCheck : longueur d'arc trop faible.</PrimaryMessage>
+      <AuxMessage>Le générateur de parcours a produit un arc dont la longueur de corde est plus faible que la longueur autorisée. (longueur = 0.00239499, seuil = 0.01).  Ce problème est résolu en évitant l'arc.</AuxMessage>
+      <Type>Warning</Type>
+      <IsInternal>0</IsInternal>
+    </Message>
+    <Message>
+      <GroupNum>-9990</GroupNum>
+      <MessageCode>IGAC3001</MessageCode>
+      <PrimaryMessage>Erreur ArcCheck : longueur d'arc trop faible.</PrimaryMessage>
+      <AuxMessage>Le générateur de parcours a produit un arc dont la longueur de corde est plus faible que la longueur autorisée. (longueur = 0.00633021, seuil = 0.01).  Ce problème est résolu en évitant l'arc.</AuxMessage>
+      <Type>Warning</Type>
+      <IsInternal>0</IsInternal>
+    </Message>
+    <Message>
+      <GroupNum>-9990</GroupNum>
+      <MessageCode>IGAC3001</MessageCode>
+      <PrimaryMessage>Erreur ArcCheck : longueur d'arc trop faible.</PrimaryMessage>
+      <AuxMessage>Le générateur de parcours a produit un arc dont la longueur de corde est plus faible que la longueur autorisée. (longueur = 0.00239362, seuil = 0.01).  Ce problème est résolu en évitant l'arc.</AuxMessage>
+      <Type>Warning</Type>
+      <IsInternal>0</IsInternal>
+    </Message>
+    <Message>
+      <GroupNum>-9990</GroupNum>
+      <MessageCode>IGAC3001</MessageCode>
+      <PrimaryMessage>Erreur ArcCheck : longueur d'arc trop faible.</PrimaryMessage>
+      <AuxMessage>Le générateur de parcours a produit un arc dont la longueur de corde est plus faible que la longueur autorisée. (longueur = 0.00631099, seuil = 0.01).  Ce problème est résolu en évitant l'arc.</AuxMessage>
+      <Type>Warning</Type>
+      <IsInternal>0</IsInternal>
+    </Message>
+    <Message>
+      <GroupNum>-9990</GroupNum>
+      <MessageCode>IGAC3001</MessageCode>
+      <PrimaryMessage>Erreur ArcCheck : longueur d'arc trop faible.</PrimaryMessage>
+      <AuxMessage>Le générateur de parcours a produit un arc dont la longueur de corde est plus faible que la longueur autorisée. (longueur = 0.00904274, seuil = 0.01).  Ce problème est résolu en évitant l'arc.</AuxMessage>
+      <Type>Warning</Type>
+      <IsInternal>0</IsInternal>
+    </Message>
+    <Message>
+      <GroupNum>-9990</GroupNum>
+      <MessageCode>IGAC3001</MessageCode>
+      <PrimaryMessage>Erreur ArcCheck : longueur d'arc trop faible.</PrimaryMessage>
+      <AuxMessage>Le générateur de parcours a produit un arc dont la longueur de corde est plus faible que la longueur autorisée. (longueur = 0.00619276, seuil = 0.01).  Ce problème est résolu en évitant l'arc.</AuxMessage>
+      <Type>Warning</Type>
+      <IsInternal>0</IsInternal>
+    </Message>
+    <Message>
+      <GroupNum>-9990</GroupNum>
+      <MessageCode>IGAC3001</MessageCode>
+      <PrimaryMessage>Erreur ArcCheck : longueur d'arc trop faible.</PrimaryMessage>
+      <AuxMessage>Le générateur de parcours a produit un arc dont la longueur de corde est plus faible que la longueur autorisée. (longueur = 0.00483692, seuil = 0.01).  Ce problème est résolu en évitant l'arc.</AuxMessage>
+      <Type>Warning</Type>
+      <IsInternal>0</IsInternal>
+    </Message>
+    <Message>
+      <GroupNum>-9</GroupNum>
+      <MessageCode></MessageCode>
+      <PrimaryMessage>Traitement document...</PrimaryMessage>
+      <AuxMessage></AuxMessage>
+      <Type>Info</Type>
+      <IsInternal>0</IsInternal>
+    </Message>
+    <Message>
+      <GroupNum>-9</GroupNum>
+      <MessageCode></MessageCode>
+      <PrimaryMessage>Prétraitement du flux 0...</PrimaryMessage>
+      <AuxMessage></AuxMessage>
+      <Type>Info</Type>
+      <IsInternal>0</IsInternal>
+    </Message>
+    <Message>
+      <GroupNum>10</GroupNum>
+      <MessageCode></MessageCode>
+      <PrimaryMessage>Opération 10 (10 2D UGV (Fraisage dynamique 2D))</PrimaryMessage>
+      <AuxMessage></AuxMessage>
+      <Type>Info</Type>
+      <IsInternal>0</IsInternal>
+    </Message>
+    <Message>
+      <GroupNum>10</GroupNum>
+      <MessageCode></MessageCode>
+      <PrimaryMessage>Classification du type d'opération .</PrimaryMessage>
+      <AuxMessage></AuxMessage>
+      <Type>Info</Type>
+      <IsInternal>1</IsInternal>
+    </Message>
+    <Message>
+      <GroupNum>10</GroupNum>
+      <MessageCode></MessageCode>
+      <PrimaryMessage>Lancement du Préprocesseur Fraisage face polaire G12.</PrimaryMessage>
+      <AuxMessage></AuxMessage>
+      <Type>Info</Type>
+      <IsInternal>1</IsInternal>
+    </Message>
+    <Message>
+      <GroupNum>10</GroupNum>
+      <MessageCode>IGAC3001</MessageCode>
+      <PrimaryMessage>Erreur ArcCheck : longueur d'arc trop faible.</PrimaryMessage>
+      <AuxMessage>Le générateur de parcours a produit un arc dont la longueur de corde est plus faible que la longueur autorisée. (longueur = 0.00757718, seuil = 0.01).  Ce problème est résolu en évitant l'arc.</AuxMessage>
+      <Type>Warning</Type>
+      <IsInternal>0</IsInternal>
+    </Message>
+    <Message>
+      <GroupNum>10</GroupNum>
+      <MessageCode>IGAC3001</MessageCode>
+      <PrimaryMessage>Erreur ArcCheck : longueur d'arc trop faible.</PrimaryMessage>
+      <AuxMessage>Le générateur de parcours a produit un arc dont la longueur de corde est plus faible que la longueur autorisée. (longueur = 0.00813917, seuil = 0.01).  Ce problème est résolu en évitant l'arc.</AuxMessage>
+      <Type>Warning</Type>
+      <IsInternal>0</IsInternal>
+    </Message>
+    <Message>
+      <GroupNum>10</GroupNum>
+      <MessageCode>IGAC3001</MessageCode>
+      <PrimaryMessage>Erreur ArcCheck : longueur d'arc trop faible.</PrimaryMessage>
+      <AuxMessage>Le générateur de parcours a produit un arc dont la longueur de corde est plus faible que la longueur autorisée. (longueur = 0.00837493, seuil = 0.01).  Ce problème est résolu en évitant l'arc.</AuxMessage>
+      <Type>Warning</Type>
+      <IsInternal>0</IsInternal>
+    </Message>
+    <Message>
+      <GroupNum>10</GroupNum>
+      <MessageCode>IGAC3001</MessageCode>
+      <PrimaryMessage>Erreur ArcCheck : longueur d'arc trop faible.</PrimaryMessage>
+      <AuxMessage>Le générateur de parcours a produit un arc dont la longueur de corde est plus faible que la longueur autorisée. (longueur = 0.00636585, seuil = 0.01).  Ce problème est résolu en évitant l'arc.</AuxMessage>
+      <Type>Warning</Type>
+      <IsInternal>0</IsInternal>
+    </Message>
+    <Message>
+      <GroupNum>10</GroupNum>
+      <MessageCode>IGAC3001</MessageCode>
+      <PrimaryMessage>Erreur ArcCheck : longueur d'arc trop faible.</PrimaryMessage>
+      <AuxMessage>Le générateur de parcours a produit un arc dont la longueur de corde est plus faible que la longueur autorisée. (longueur = 0.000213635, seuil = 0.01).  Ce problème est résolu en évitant l'arc.</AuxMessage>
+      <Type>Warning</Type>
+      <IsInternal>0</IsInternal>
+    </Message>
+    <Message>
+      <GroupNum>10</GroupNum>
+      <MessageCode>IGAC3001</MessageCode>
+      <PrimaryMessage>Erreur ArcCheck : longueur d'arc trop faible.</PrimaryMessage>
+      <AuxMessage>Le générateur de parcours a produit un arc dont la longueur de corde est plus faible que la longueur autorisée. (longueur = 0.00506347, seuil = 0.01).  Ce problème est résolu en évitant l'arc.</AuxMessage>
+      <Type>Warning</Type>
+      <IsInternal>0</IsInternal>
+    </Message>
+    <Message>
+      <GroupNum>10</GroupNum>
+      <MessageCode>IGAC3001</MessageCode>
+      <PrimaryMessage>Erreur ArcCheck : longueur d'arc trop faible.</PrimaryMessage>
+      <AuxMessage>Le générateur de parcours a produit un arc dont la longueur de corde est plus faible que la longueur autorisée. (longueur = 0.00636585, seuil = 0.01).  Ce problème est résolu en évitant l'arc.</AuxMessage>
+      <Type>Warning</Type>
+      <IsInternal>0</IsInternal>
+    </Message>
+    <Message>
+      <GroupNum>10</GroupNum>
+      <MessageCode></MessageCode>
+      <PrimaryMessage>Lancement du Préprocesseur Fraisage polaire 'Long'.</PrimaryMessage>
+      <AuxMessage></AuxMessage>
+      <Type>Info</Type>
+      <IsInternal>1</IsInternal>
+    </Message>
+    <Message>
+      <GroupNum>20010</GroupNum>
+      <MessageCode></MessageCode>
+      <PrimaryMessage>Début de Phase de synchronisation d'opération.</PrimaryMessage>
+      <AuxMessage></AuxMessage>
+      <Type>Info</Type>
+      <IsInternal>0</IsInternal>
+    </Message>
+    <Message>
+      <GroupNum>10</GroupNum>
+      <MessageCode></MessageCode>
+      <PrimaryMessage>Fin de Phase de synchronisation d'opération.</PrimaryMessage>
+      <AuxMessage></AuxMessage>
+      <Type>Info</Type>
+      <IsInternal>0</IsInternal>
+    </Message>
+  </Messages>
+</IOFMessageLog>

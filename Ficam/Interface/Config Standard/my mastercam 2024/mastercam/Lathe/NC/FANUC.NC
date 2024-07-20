@@ -1,0 +1,96 @@
+( T )
+(=============================)
+(---------           ---------)
+(-------- CLIENT      --------)
+(-------- REF         --------)
+(------- OPERATION     -------)
+(---  TCN MAZAK ST50N    -----)
+(--- PROG INIT AL          ---)
+(- VALIDER LE         PAR     )
+(SAUV. LE         A        AL )
+(=============================)
+G54
+G0 G40 G99 F.5
+G0 G53 X0.
+G0 G53 Z-180.
+G40 G80 G99
+G50 S500 (VITESSE DE BROCHE MAXI)
+ 
+ 
+ 
+N10
+(TOURNAGE)
+T0101.1 G54
+( OD ROUGH RIGHT - 80 DEG. )
+( PLAQUETTE CNMG 12 04 08 )
+G0 G99 G18
+M202
+G97 S500 M4
+G0 X46.726 Z0. M8
+G96 S150 M4
+G1 X-1.6 F0.4
+G0 Z2.
+G97 S300
+M9
+G0 G53 X0
+G0 G53 Z-180.
+M01
+ 
+ 
+ 
+N20
+(TOURNAGE)
+T1212.12 G54
+( OD RIGHT 55 DEG )
+( PLAQUETTE DNMG 15 06 08 )
+G0 G99 G18
+M202
+G97 S500 M4
+G0 X40.4 Z4.5 M8
+G96 S150 M4
+G1 Z2.5 F0.4
+Z-10.8
+X43.228 Z-9.386
+G0 X44.228
+G97 S300
+M9
+M5 (ARRET BROCHE GAUCHE)
+G0 G53 X0
+G0 G53 Z-180.
+M01
+ 
+ 
+ 
+N30
+(TOURNAGE)
+T0707.7 G54
+( DRILL 6. DIA. )
+( PLAQUETTE 6. DRILL )
+G0 G99 G18
+M202
+G97 S1000 M03
+G0 X0. Z5. M8
+G83 X0. Z-10. R-3. F0.3
+G0 G80
+G83 X0. Z-10. R-3. Q1. F0.3
+G0 G80
+Z2.
+G1 Z1. F0.3
+Z0.
+Z-1.
+Z-2.
+Z-3.
+Z-4.
+Z-5.
+Z-6.
+Z-7.
+Z-8.
+Z-9.
+Z-10.
+G0 Z2.
+Z5.
+M9
+G0 G53 X0.
+G0 G53 Z-180.
+M30
+%

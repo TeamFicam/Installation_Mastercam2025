@@ -1,0 +1,39 @@
+# ------------------------------------
+# Mastercam C-Hook Function Table File
+#
+# Ajuste_SciageApp.FT
+# ------------------------------------
+
+# The APPLICATION name MUST be a unique name and 
+# should be specific to your company and/or product.
+# Do NOT set this to be -> "Mastercam"
+APPLICATION "Ajuste_SciageApp"
+
+# Point to the locations of your function and resource libraries.
+FUNC_DLL "chooks\Ajuste_Sciage.dll"
+RES_DLL  "chooks\Ajuste_Sciage.dll"
+
+# The CATEGORY defines the name of the category your C-Hook will 
+# display under on the "Settings->Customize" dialog in Mastercam. 
+# You can specify a string from the Resources of your C-Hook project.
+# The 'CATEGORY ###' would tell Mastercam to pull the string (with ID = 101)
+# from the Resources (RES_DLL) of your project and use that for the Category.
+# CATEGORY 101
+# Or you can just specify it (as done here) as a "string" value ->
+CATEGORY "CHookWizard CHook"
+
+# The FUNCTION CPP block specifies the name of your entry point function and the 
+# Resource IDs for the tooltip string and icon images associated with this entry function.
+# A Function Table file may contain multiple FUNCTION CPP blocks.
+#
+# * Please note: 
+# * The image requirements have changed for Mastercam 2018!
+# * The large icon for use on the ribbon is now 32x32 pixel image.
+# * The image for the small icon must be a (16x16) PNG.
+# * The image for the large icon must be a (32x32) PNG.
+
+FUNCTION CPP "Ajuste_SciageEntry"
+ TIP  1
+ SPNG 18001
+ LPNG 18002
+END_FUNCTION

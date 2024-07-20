@@ -1,0 +1,1033 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NCConfigurations xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn://Mastercam/Extensions/NCConfigurations">
+  <NCConfigurations>
+    <NCConfiguration>
+      <BlockNumbering>
+        <Increment>5</Increment>
+        <LineSkipPrefixes />
+        <MaximumNumber>9999</MaximumNumber>
+        <NumberCommentedLines>false</NumberCommentedLines>
+        <NumberEmptyLines>false</NumberEmptyLines>
+        <Prefix>N</Prefix>
+        <StartNumber>5</StartNumber>
+      </BlockNumbering>
+      <CommentEnd>)</CommentEnd>
+      <CommentStart>(</CommentStart>
+      <ExtentAddressCharacters>
+        <Character>X</Character>
+        <Character>Y</Character>
+        <Character>Z</Character>
+        <Character>A</Character>
+        <Character>B</Character>
+        <Character>C</Character>
+        <Character>S</Character>
+        <Character>F</Character>
+      </ExtentAddressCharacters>
+      <FileExtensions>
+        <Extension>nc</Extension>
+      </FileExtensions>
+      <FontsAndColors>
+        <FontFamilyName>Courier New</FontFamilyName>
+        <FontSize>12</FontSize>
+        <Styles />
+      </FontsAndColors>
+      <MaximumStreamCount>1</MaximumStreamCount>
+      <MultiStreamNCFilePaths xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+      <Name>Fraiseuse Fanuc</Name>
+      <PostStreamsAsSeparateFiles>false</PostStreamsAsSeparateFiles>
+      <StreamEndPattern>
+        <IsRegex>false</IsRegex>
+        <Text>M30</Text>
+      </StreamEndPattern>
+      <StreamStartPattern>
+        <IsRegex>true</IsRegex>
+        <Text>O0*[1-9]</Text>
+      </StreamStartPattern>
+      <SyncPointPattern>
+        <IsRegex>true</IsRegex>
+        <Text>P([1-9][0-9]{0,2})</Text>
+      </SyncPointPattern>
+      <ToolCalloutPattern>
+        <IsRegex>true</IsRegex>
+        <Text>T([0-9]+)\s*(M0?6)?</Text>
+      </ToolCalloutPattern>
+    </NCConfiguration>
+    <NCConfiguration>
+      <BlockNumbering>
+        <Increment>5</Increment>
+        <LineSkipPrefixes />
+        <MaximumNumber>9999</MaximumNumber>
+        <NumberCommentedLines>false</NumberCommentedLines>
+        <NumberEmptyLines>false</NumberEmptyLines>
+        <Prefix>N</Prefix>
+        <StartNumber>5</StartNumber>
+      </BlockNumbering>
+      <CommentEnd>)</CommentEnd>
+      <CommentStart>(</CommentStart>
+      <ExtentAddressCharacters>
+        <Character>X</Character>
+        <Character>Y</Character>
+        <Character>Z</Character>
+        <Character>A</Character>
+        <Character>B</Character>
+        <Character>C</Character>
+        <Character>S</Character>
+        <Character>F</Character>
+      </ExtentAddressCharacters>
+      <FileExtensions>
+        <Extension>nc</Extension>
+      </FileExtensions>
+      <FontsAndColors>
+        <FontFamilyName>Courier New</FontFamilyName>
+        <FontSize>12</FontSize>
+        <Styles />
+      </FontsAndColors>
+      <MaximumStreamCount>1</MaximumStreamCount>
+      <MultiStreamNCFilePaths xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+      <Name>Fraiseuse Haas</Name>
+      <PostStreamsAsSeparateFiles>false</PostStreamsAsSeparateFiles>
+      <StreamEndPattern>
+        <IsRegex>false</IsRegex>
+        <Text>M30</Text>
+      </StreamEndPattern>
+      <StreamStartPattern>
+        <IsRegex>true</IsRegex>
+        <Text>O0*[1-9]</Text>
+      </StreamStartPattern>
+      <SyncPointPattern>
+        <IsRegex>true</IsRegex>
+        <Text>P([1-9][0-9]{0,2})</Text>
+      </SyncPointPattern>
+      <ToolCalloutPattern>
+        <IsRegex>true</IsRegex>
+        <Text>T([0-9]+)\s*(M0?6)?</Text>
+      </ToolCalloutPattern>
+    </NCConfiguration>
+    <NCConfiguration>
+      <BlockNumbering>
+        <Increment>5</Increment>
+        <LineSkipPrefixes />
+        <MaximumNumber>9999</MaximumNumber>
+        <NumberCommentedLines>false</NumberCommentedLines>
+        <NumberEmptyLines>false</NumberEmptyLines>
+        <Prefix>N</Prefix>
+        <StartNumber>5</StartNumber>
+      </BlockNumbering>
+      <CommentEnd>)</CommentEnd>
+      <CommentStart>(</CommentStart>
+      <ExtentAddressCharacters>
+        <Character>X</Character>
+        <Character>Y</Character>
+        <Character>Z</Character>
+        <Character>A</Character>
+        <Character>B</Character>
+        <Character>C</Character>
+        <Character>S</Character>
+        <Character>F</Character>
+      </ExtentAddressCharacters>
+      <FileExtensions>
+        <Extension>nc</Extension>
+      </FileExtensions>
+      <FontsAndColors>
+        <FontFamilyName>Courier New</FontFamilyName>
+        <FontSize>12</FontSize>
+        <Styles />
+      </FontsAndColors>
+      <MaximumStreamCount>1</MaximumStreamCount>
+      <MultiStreamNCFilePaths xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+      <Name>Fraiseuse Mori Seiki</Name>
+      <PostStreamsAsSeparateFiles>false</PostStreamsAsSeparateFiles>
+      <StreamEndPattern>
+        <IsRegex>false</IsRegex>
+        <Text>M30</Text>
+      </StreamEndPattern>
+      <StreamStartPattern>
+        <IsRegex>true</IsRegex>
+        <Text>O0*[1-9]</Text>
+      </StreamStartPattern>
+      <SyncPointPattern>
+        <IsRegex>true</IsRegex>
+        <Text>P([1-9][0-9]{0,2})</Text>
+      </SyncPointPattern>
+      <ToolCalloutPattern>
+        <IsRegex>true</IsRegex>
+        <Text>T([0-9]+)\s*(M0?6)?</Text>
+      </ToolCalloutPattern>
+    </NCConfiguration>
+    <NCConfiguration>
+      <BlockNumbering>
+        <Increment>5</Increment>
+        <LineSkipPrefixes />
+        <MaximumNumber>9999</MaximumNumber>
+        <NumberCommentedLines>false</NumberCommentedLines>
+        <NumberEmptyLines>false</NumberEmptyLines>
+        <Prefix>N</Prefix>
+        <StartNumber>5</StartNumber>
+      </BlockNumbering>
+      <CommentEnd>)</CommentEnd>
+      <CommentStart>(</CommentStart>
+      <ExtentAddressCharacters>
+        <Character>X</Character>
+        <Character>Y</Character>
+        <Character>Z</Character>
+        <Character>A</Character>
+        <Character>B</Character>
+        <Character>C</Character>
+        <Character>S</Character>
+        <Character>F</Character>
+      </ExtentAddressCharacters>
+      <FileExtensions>
+        <Extension>min</Extension>
+      </FileExtensions>
+      <FontsAndColors>
+        <FontFamilyName>Courier New</FontFamilyName>
+        <FontSize>12</FontSize>
+        <Styles />
+      </FontsAndColors>
+      <MaximumStreamCount>1</MaximumStreamCount>
+      <MultiStreamNCFilePaths xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+      <Name>Fraiseuse Okuma</Name>
+      <PostStreamsAsSeparateFiles>false</PostStreamsAsSeparateFiles>
+      <StreamEndPattern>
+        <IsRegex>false</IsRegex>
+        <Text>M30</Text>
+      </StreamEndPattern>
+      <StreamStartPattern>
+        <IsRegex>true</IsRegex>
+        <Text>O0*[1-9]</Text>
+      </StreamStartPattern>
+      <SyncPointPattern>
+        <IsRegex>true</IsRegex>
+        <Text>P([1-9][0-9]{0,2})</Text>
+      </SyncPointPattern>
+      <ToolCalloutPattern>
+        <IsRegex>true</IsRegex>
+        <Text>T([0-9]+)\s*(M0?6)?</Text>
+      </ToolCalloutPattern>
+    </NCConfiguration>
+    <NCConfiguration>
+      <BlockNumbering>
+        <Increment>5</Increment>
+        <LineSkipPrefixes />
+        <MaximumNumber>9999</MaximumNumber>
+        <NumberCommentedLines>false</NumberCommentedLines>
+        <NumberEmptyLines>false</NumberEmptyLines>
+        <Prefix>N</Prefix>
+        <StartNumber>5</StartNumber>
+      </BlockNumbering>
+      <CommentEnd></CommentEnd>
+      <CommentStart>;</CommentStart>
+      <ExtentAddressCharacters>
+        <Character>X</Character>
+        <Character>Y</Character>
+        <Character>Z</Character>
+        <Character>A</Character>
+        <Character>B</Character>
+        <Character>C</Character>
+        <Character>S</Character>
+        <Character>F</Character>
+      </ExtentAddressCharacters>
+      <FileExtensions>
+        <Extension>mpf</Extension>
+      </FileExtensions>
+      <FontsAndColors>
+        <FontFamilyName>Courier New</FontFamilyName>
+        <FontSize>12</FontSize>
+        <Styles />
+      </FontsAndColors>
+      <MaximumStreamCount>1</MaximumStreamCount>
+      <MultiStreamNCFilePaths xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+      <Name>Fraiseuse Siemens</Name>
+      <PostStreamsAsSeparateFiles>false</PostStreamsAsSeparateFiles>
+      <StreamEndPattern>
+        <IsRegex>false</IsRegex>
+        <Text>M30</Text>
+      </StreamEndPattern>
+      <StreamStartPattern>
+        <IsRegex>true</IsRegex>
+        <Text>O0*[1-9]</Text>
+      </StreamStartPattern>
+      <SyncPointPattern>
+        <IsRegex>true</IsRegex>
+        <Text>P([1-9][0-9]{0,2})</Text>
+      </SyncPointPattern>
+      <ToolCalloutPattern>
+        <IsRegex>true</IsRegex>
+        <Text>T[0-9]+|T\s*=\s*".*"</Text>
+      </ToolCalloutPattern>
+    </NCConfiguration>
+    <NCConfiguration>
+      <BlockNumbering>
+        <Increment>5</Increment>
+        <LineSkipPrefixes />
+        <MaximumNumber>9999</MaximumNumber>
+        <NumberCommentedLines>false</NumberCommentedLines>
+        <NumberEmptyLines>false</NumberEmptyLines>
+        <Prefix>N</Prefix>
+        <StartNumber>5</StartNumber>
+      </BlockNumbering>
+      <CommentEnd>)</CommentEnd>
+      <CommentStart>(</CommentStart>
+      <ExtentAddressCharacters>
+        <Character>X</Character>
+        <Character>Y</Character>
+        <Character>Z</Character>
+        <Character>A</Character>
+        <Character>B</Character>
+        <Character>C</Character>
+        <Character>S</Character>
+        <Character>F</Character>
+      </ExtentAddressCharacters>
+      <FileExtensions>
+        <Extension>nc</Extension>
+      </FileExtensions>
+      <FontsAndColors>
+        <FontFamilyName>Courier New</FontFamilyName>
+        <FontSize>12</FontSize>
+        <Styles />
+      </FontsAndColors>
+      <MaximumStreamCount>1</MaximumStreamCount>
+      <MultiStreamNCFilePaths xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+      <Name>Fraiseuse Fadal</Name>
+      <PostStreamsAsSeparateFiles>false</PostStreamsAsSeparateFiles>
+      <StreamEndPattern>
+        <IsRegex>false</IsRegex>
+        <Text>M30</Text>
+      </StreamEndPattern>
+      <StreamStartPattern>
+        <IsRegex>true</IsRegex>
+        <Text>O0*[1-9]</Text>
+      </StreamStartPattern>
+      <SyncPointPattern>
+        <IsRegex>true</IsRegex>
+        <Text>P([1-9][0-9]{0,2})</Text>
+      </SyncPointPattern>
+      <ToolCalloutPattern>
+        <IsRegex>true</IsRegex>
+        <Text>T([0-9]+)\s*(M0?6)?</Text>
+      </ToolCalloutPattern>
+    </NCConfiguration>
+    <NCConfiguration>
+      <BlockNumbering>
+        <Increment>5</Increment>
+        <LineSkipPrefixes />
+        <MaximumNumber>9999</MaximumNumber>
+        <NumberCommentedLines>false</NumberCommentedLines>
+        <NumberEmptyLines>false</NumberEmptyLines>
+        <Prefix>N</Prefix>
+        <StartNumber>5</StartNumber>
+      </BlockNumbering>
+      <CommentEnd></CommentEnd>
+      <CommentStart>(T)</CommentStart>
+      <ExtentAddressCharacters>
+        <Character>X</Character>
+        <Character>Y</Character>
+        <Character>Z</Character>
+        <Character>A</Character>
+        <Character>B</Character>
+        <Character>C</Character>
+        <Character>S</Character>
+        <Character>F</Character>
+      </ExtentAddressCharacters>
+      <FileExtensions>
+        <Extension>nc</Extension>
+      </FileExtensions>
+      <FontsAndColors>
+        <FontFamilyName>Courier New</FontFamilyName>
+        <FontSize>12</FontSize>
+        <Styles />
+      </FontsAndColors>
+      <MaximumStreamCount>1</MaximumStreamCount>
+      <MultiStreamNCFilePaths xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+      <Name>Fraiseuse Dynapath</Name>
+      <PostStreamsAsSeparateFiles>false</PostStreamsAsSeparateFiles>
+      <StreamEndPattern>
+        <IsRegex>false</IsRegex>
+        <Text>M30</Text>
+      </StreamEndPattern>
+      <StreamStartPattern>
+        <IsRegex>true</IsRegex>
+        <Text>O0*[1-9]</Text>
+      </StreamStartPattern>
+      <SyncPointPattern>
+        <IsRegex>true</IsRegex>
+        <Text>P([1-9][0-9]{0,2})</Text>
+      </SyncPointPattern>
+      <ToolCalloutPattern>
+        <IsRegex>true</IsRegex>
+        <Text>M03\s*T[0-9]+</Text>
+      </ToolCalloutPattern>
+    </NCConfiguration>
+    <NCConfiguration>
+      <BlockNumbering>
+        <Increment>5</Increment>
+        <LineSkipPrefixes />
+        <MaximumNumber>9999</MaximumNumber>
+        <NumberCommentedLines>false</NumberCommentedLines>
+        <NumberEmptyLines>false</NumberEmptyLines>
+        <Prefix>N</Prefix>
+        <StartNumber>5</StartNumber>
+      </BlockNumbering>
+      <CommentEnd></CommentEnd>
+      <CommentStart>;</CommentStart>
+      <ExtentAddressCharacters>
+        <Character>X</Character>
+        <Character>Y</Character>
+        <Character>Z</Character>
+        <Character>A</Character>
+        <Character>B</Character>
+        <Character>C</Character>
+        <Character>S</Character>
+        <Character>F</Character>
+      </ExtentAddressCharacters>
+      <FileExtensions>
+        <Extension>nc</Extension>
+      </FileExtensions>
+      <FontsAndColors>
+        <FontFamilyName>Courier New</FontFamilyName>
+        <FontSize>12</FontSize>
+        <Styles />
+      </FontsAndColors>
+      <MaximumStreamCount>1</MaximumStreamCount>
+      <MultiStreamNCFilePaths xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+      <Name>Fraiseuse Heidenhain</Name>
+      <PostStreamsAsSeparateFiles>false</PostStreamsAsSeparateFiles>
+      <StreamEndPattern>
+        <IsRegex>false</IsRegex>
+        <Text>M30</Text>
+      </StreamEndPattern>
+      <StreamStartPattern>
+        <IsRegex>true</IsRegex>
+        <Text>O0*[1-9]</Text>
+      </StreamStartPattern>
+      <SyncPointPattern>
+        <IsRegex>true</IsRegex>
+        <Text>P([1-9][0-9]{0,2})</Text>
+      </SyncPointPattern>
+      <ToolCalloutPattern>
+        <IsRegex>true</IsRegex>
+        <Text>(T([0-9]+)\s*(M0?6)?)|(TOOL\sCALL\s*[0-9]+)</Text>
+      </ToolCalloutPattern>
+    </NCConfiguration>
+    <NCConfiguration>
+      <BlockNumbering>
+        <Increment>5</Increment>
+        <LineSkipPrefixes />
+        <MaximumNumber>9999</MaximumNumber>
+        <NumberCommentedLines>false</NumberCommentedLines>
+        <NumberEmptyLines>false</NumberEmptyLines>
+        <Prefix>N</Prefix>
+        <StartNumber>5</StartNumber>
+      </BlockNumbering>
+      <CommentEnd>)</CommentEnd>
+      <CommentStart>(</CommentStart>
+      <ExtentAddressCharacters>
+        <Character>X</Character>
+        <Character>Y</Character>
+        <Character>Z</Character>
+        <Character>A</Character>
+        <Character>B</Character>
+        <Character>C</Character>
+        <Character>S</Character>
+        <Character>F</Character>
+      </ExtentAddressCharacters>
+      <FileExtensions>
+        <Extension>nc</Extension>
+      </FileExtensions>
+      <FontsAndColors>
+        <FontFamilyName>Courier New</FontFamilyName>
+        <FontSize>12</FontSize>
+        <Styles />
+      </FontsAndColors>
+      <MaximumStreamCount>1</MaximumStreamCount>
+      <MultiStreamNCFilePaths xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+      <Name>Tour Fanuc</Name>
+      <PostStreamsAsSeparateFiles>false</PostStreamsAsSeparateFiles>
+      <StreamEndPattern>
+        <IsRegex>false</IsRegex>
+        <Text>M30</Text>
+      </StreamEndPattern>
+      <StreamStartPattern>
+        <IsRegex>true</IsRegex>
+        <Text>O0*[1-9]</Text>
+      </StreamStartPattern>
+      <SyncPointPattern>
+        <IsRegex>true</IsRegex>
+        <Text>P([1-9][0-9]{0,2})</Text>
+      </SyncPointPattern>
+      <ToolCalloutPattern>
+        <IsRegex>true</IsRegex>
+        <Text>T([0-9]+)\s*(M0?6)?</Text>
+      </ToolCalloutPattern>
+    </NCConfiguration>
+    <NCConfiguration>
+      <BlockNumbering>
+        <Increment>5</Increment>
+        <LineSkipPrefixes />
+        <MaximumNumber>9999</MaximumNumber>
+        <NumberCommentedLines>false</NumberCommentedLines>
+        <NumberEmptyLines>false</NumberEmptyLines>
+        <Prefix>N</Prefix>
+        <StartNumber>5</StartNumber>
+      </BlockNumbering>
+      <CommentEnd>)</CommentEnd>
+      <CommentStart>(</CommentStart>
+      <ExtentAddressCharacters>
+        <Character>X</Character>
+        <Character>Y</Character>
+        <Character>Z</Character>
+        <Character>A</Character>
+        <Character>B</Character>
+        <Character>C</Character>
+        <Character>S</Character>
+        <Character>F</Character>
+      </ExtentAddressCharacters>
+      <FileExtensions>
+        <Extension>nc</Extension>
+      </FileExtensions>
+      <FontsAndColors>
+        <FontFamilyName>Courier New</FontFamilyName>
+        <FontSize>12</FontSize>
+        <Styles />
+      </FontsAndColors>
+      <MaximumStreamCount>1</MaximumStreamCount>
+      <MultiStreamNCFilePaths xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+      <Name>Tour Haas</Name>
+      <PostStreamsAsSeparateFiles>false</PostStreamsAsSeparateFiles>
+      <StreamEndPattern>
+        <IsRegex>false</IsRegex>
+        <Text>M30</Text>
+      </StreamEndPattern>
+      <StreamStartPattern>
+        <IsRegex>true</IsRegex>
+        <Text>O0*[1-9]</Text>
+      </StreamStartPattern>
+      <SyncPointPattern>
+        <IsRegex>true</IsRegex>
+        <Text>P([1-9][0-9]{0,2})</Text>
+      </SyncPointPattern>
+      <ToolCalloutPattern>
+        <IsRegex>true</IsRegex>
+        <Text>T([0-9]+)\s*(M0?6)?</Text>
+      </ToolCalloutPattern>
+    </NCConfiguration>
+    <NCConfiguration>
+      <BlockNumbering>
+        <Increment>5</Increment>
+        <LineSkipPrefixes />
+        <MaximumNumber>9999</MaximumNumber>
+        <NumberCommentedLines>false</NumberCommentedLines>
+        <NumberEmptyLines>false</NumberEmptyLines>
+        <Prefix>N</Prefix>
+        <StartNumber>5</StartNumber>
+      </BlockNumbering>
+      <CommentEnd>)</CommentEnd>
+      <CommentStart>(</CommentStart>
+      <ExtentAddressCharacters>
+        <Character>X</Character>
+        <Character>Y</Character>
+        <Character>Z</Character>
+        <Character>A</Character>
+        <Character>B</Character>
+        <Character>C</Character>
+        <Character>S</Character>
+        <Character>F</Character>
+      </ExtentAddressCharacters>
+      <FileExtensions>
+        <Extension>nc</Extension>
+      </FileExtensions>
+      <FontsAndColors>
+        <FontFamilyName>Courier New</FontFamilyName>
+        <FontSize>12</FontSize>
+        <Styles />
+      </FontsAndColors>
+      <MaximumStreamCount>1</MaximumStreamCount>
+      <MultiStreamNCFilePaths xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+      <Name>Tour Mori Seiki</Name>
+      <PostStreamsAsSeparateFiles>false</PostStreamsAsSeparateFiles>
+      <StreamEndPattern>
+        <IsRegex>false</IsRegex>
+        <Text>M30</Text>
+      </StreamEndPattern>
+      <StreamStartPattern>
+        <IsRegex>true</IsRegex>
+        <Text>O0*[1-9]</Text>
+      </StreamStartPattern>
+      <SyncPointPattern>
+        <IsRegex>true</IsRegex>
+        <Text>P([1-9][0-9]{0,2})</Text>
+      </SyncPointPattern>
+      <ToolCalloutPattern>
+        <IsRegex>true</IsRegex>
+        <Text>T([0-9]+)\s*(M0?6)?</Text>
+      </ToolCalloutPattern>
+    </NCConfiguration>
+    <NCConfiguration>
+      <BlockNumbering>
+        <Increment>5</Increment>
+        <LineSkipPrefixes />
+        <MaximumNumber>9999</MaximumNumber>
+        <NumberCommentedLines>false</NumberCommentedLines>
+        <NumberEmptyLines>false</NumberEmptyLines>
+        <Prefix>N</Prefix>
+        <StartNumber>5</StartNumber>
+      </BlockNumbering>
+      <CommentEnd>)</CommentEnd>
+      <CommentStart>(</CommentStart>
+      <ExtentAddressCharacters>
+        <Character>X</Character>
+        <Character>Y</Character>
+        <Character>Z</Character>
+        <Character>A</Character>
+        <Character>B</Character>
+        <Character>C</Character>
+        <Character>S</Character>
+        <Character>F</Character>
+      </ExtentAddressCharacters>
+      <FileExtensions>
+        <Extension>min</Extension>
+      </FileExtensions>
+      <FontsAndColors>
+        <FontFamilyName>Courier New</FontFamilyName>
+        <FontSize>12</FontSize>
+        <Styles />
+      </FontsAndColors>
+      <MaximumStreamCount>1</MaximumStreamCount>
+      <MultiStreamNCFilePaths xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+      <Name>Tour Okuma</Name>
+      <PostStreamsAsSeparateFiles>false</PostStreamsAsSeparateFiles>
+      <StreamEndPattern>
+        <IsRegex>false</IsRegex>
+        <Text>M30</Text>
+      </StreamEndPattern>
+      <StreamStartPattern>
+        <IsRegex>true</IsRegex>
+        <Text>O0*[1-9]</Text>
+      </StreamStartPattern>
+      <SyncPointPattern>
+        <IsRegex>true</IsRegex>
+        <Text>P([1-9][0-9]{0,2})</Text>
+      </SyncPointPattern>
+      <ToolCalloutPattern>
+        <IsRegex>true</IsRegex>
+        <Text>T([0-9]+)\s*(M0?6)?</Text>
+      </ToolCalloutPattern>
+    </NCConfiguration>
+    <NCConfiguration>
+      <BlockNumbering>
+        <Increment>5</Increment>
+        <LineSkipPrefixes />
+        <MaximumNumber>9999</MaximumNumber>
+        <NumberCommentedLines>false</NumberCommentedLines>
+        <NumberEmptyLines>false</NumberEmptyLines>
+        <Prefix>N</Prefix>
+        <StartNumber>5</StartNumber>
+      </BlockNumbering>
+      <CommentEnd></CommentEnd>
+      <CommentStart>;</CommentStart>
+      <ExtentAddressCharacters>
+        <Character>X</Character>
+        <Character>Y</Character>
+        <Character>Z</Character>
+        <Character>A</Character>
+        <Character>B</Character>
+        <Character>C</Character>
+        <Character>S</Character>
+        <Character>F</Character>
+      </ExtentAddressCharacters>
+      <FileExtensions>
+        <Extension>mpf</Extension>
+      </FileExtensions>
+      <FontsAndColors>
+        <FontFamilyName>Courier New</FontFamilyName>
+        <FontSize>12</FontSize>
+        <Styles />
+      </FontsAndColors>
+      <MaximumStreamCount>1</MaximumStreamCount>
+      <MultiStreamNCFilePaths xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+      <Name>Tour Siemens</Name>
+      <PostStreamsAsSeparateFiles>false</PostStreamsAsSeparateFiles>
+      <StreamEndPattern>
+        <IsRegex>false</IsRegex>
+        <Text>M30</Text>
+      </StreamEndPattern>
+      <StreamStartPattern>
+        <IsRegex>true</IsRegex>
+        <Text>O0*[1-9]</Text>
+      </StreamStartPattern>
+      <SyncPointPattern>
+        <IsRegex>true</IsRegex>
+        <Text>P([1-9][0-9]{0,2})</Text>
+      </SyncPointPattern>
+      <ToolCalloutPattern>
+        <IsRegex>true</IsRegex>
+        <Text>T[0-9]+|T\s*=\s*".*"</Text>
+      </ToolCalloutPattern>
+    </NCConfiguration>
+    <NCConfiguration>
+      <BlockNumbering>
+        <Increment>5</Increment>
+        <LineSkipPrefixes />
+        <MaximumNumber>9999</MaximumNumber>
+        <NumberCommentedLines>false</NumberCommentedLines>
+        <NumberEmptyLines>false</NumberEmptyLines>
+        <Prefix>N</Prefix>
+        <StartNumber>5</StartNumber>
+      </BlockNumbering>
+      <CommentEnd>n</CommentEnd>
+      <CommentStart>;</CommentStart>
+      <ExtentAddressCharacters>
+        <Character>X</Character>
+        <Character>Y</Character>
+        <Character>Z</Character>
+        <Character>A</Character>
+        <Character>B</Character>
+        <Character>C</Character>
+        <Character>S</Character>
+        <Character>F</Character>
+      </ExtentAddressCharacters>
+      <FileExtensions>
+        <Extension>nc</Extension>
+      </FileExtensions>
+      <FontsAndColors>
+        <FontFamilyName>Courier New</FontFamilyName>
+        <FontSize>12</FontSize>
+        <Styles />
+      </FontsAndColors>
+      <MaximumStreamCount>1</MaximumStreamCount>
+      <MultiStreamNCFilePaths xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+      <Name>Tour Heidenhain</Name>
+      <PostStreamsAsSeparateFiles>false</PostStreamsAsSeparateFiles>
+      <StreamEndPattern>
+        <IsRegex>false</IsRegex>
+        <Text>M30</Text>
+      </StreamEndPattern>
+      <StreamStartPattern>
+        <IsRegex>true</IsRegex>
+        <Text>O0*[1-9]</Text>
+      </StreamStartPattern>
+      <SyncPointPattern>
+        <IsRegex>true</IsRegex>
+        <Text>P([1-9][0-9]{0,2})</Text>
+      </SyncPointPattern>
+      <ToolCalloutPattern>
+        <IsRegex>true</IsRegex>
+        <Text>(T([0-9]+)\s*(M0?6)?)|(TOOL\sCALL\s*[0-9]+)</Text>
+      </ToolCalloutPattern>
+    </NCConfiguration>
+    <NCConfiguration>
+      <BlockNumbering>
+        <Increment>5</Increment>
+        <LineSkipPrefixes />
+        <MaximumNumber>9999</MaximumNumber>
+        <NumberCommentedLines>false</NumberCommentedLines>
+        <NumberEmptyLines>false</NumberEmptyLines>
+        <Prefix>N</Prefix>
+        <StartNumber>5</StartNumber>
+      </BlockNumbering>
+      <CommentEnd>)</CommentEnd>
+      <CommentStart>(</CommentStart>
+      <ExtentAddressCharacters>
+        <Character>X</Character>
+        <Character>Y</Character>
+        <Character>Z</Character>
+        <Character>A</Character>
+        <Character>B</Character>
+        <Character>C</Character>
+        <Character>S</Character>
+        <Character>F</Character>
+      </ExtentAddressCharacters>
+      <FileExtensions>
+        <Extension>nc</Extension>
+      </FileExtensions>
+      <FontsAndColors>
+        <FontFamilyName>Courier New</FontFamilyName>
+        <FontSize>12</FontSize>
+        <Styles />
+      </FontsAndColors>
+      <MaximumStreamCount>1</MaximumStreamCount>
+      <MultiStreamNCFilePaths xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+      <Name>Router Fanuc</Name>
+      <PostStreamsAsSeparateFiles>false</PostStreamsAsSeparateFiles>
+      <StreamEndPattern>
+        <IsRegex>false</IsRegex>
+        <Text>M30</Text>
+      </StreamEndPattern>
+      <StreamStartPattern>
+        <IsRegex>true</IsRegex>
+        <Text>O0*[1-9]</Text>
+      </StreamStartPattern>
+      <SyncPointPattern>
+        <IsRegex>true</IsRegex>
+        <Text>P([1-9][0-9]{0,2})</Text>
+      </SyncPointPattern>
+      <ToolCalloutPattern>
+        <IsRegex>true</IsRegex>
+        <Text>T([0-9]+)\s*(M0?6)?</Text>
+      </ToolCalloutPattern>
+    </NCConfiguration>
+    <NCConfiguration>
+      <BlockNumbering>
+        <Increment>5</Increment>
+        <LineSkipPrefixes />
+        <MaximumNumber>9999</MaximumNumber>
+        <NumberCommentedLines>false</NumberCommentedLines>
+        <NumberEmptyLines>false</NumberEmptyLines>
+        <Prefix>N</Prefix>
+        <StartNumber>5</StartNumber>
+      </BlockNumbering>
+      <CommentEnd>)</CommentEnd>
+      <CommentStart>(</CommentStart>
+      <ExtentAddressCharacters>
+        <Character>X</Character>
+        <Character>Y</Character>
+        <Character>Z</Character>
+        <Character>A</Character>
+        <Character>B</Character>
+        <Character>C</Character>
+        <Character>S</Character>
+        <Character>F</Character>
+      </ExtentAddressCharacters>
+      <FileExtensions>
+        <Extension>nc</Extension>
+      </FileExtensions>
+      <FontsAndColors>
+        <FontFamilyName>Courier New</FontFamilyName>
+        <FontSize>12</FontSize>
+        <Styles />
+      </FontsAndColors>
+      <MaximumStreamCount>1</MaximumStreamCount>
+      <MultiStreamNCFilePaths xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+      <Name>Router Techno</Name>
+      <PostStreamsAsSeparateFiles>false</PostStreamsAsSeparateFiles>
+      <StreamEndPattern>
+        <IsRegex>false</IsRegex>
+        <Text>M30</Text>
+      </StreamEndPattern>
+      <StreamStartPattern>
+        <IsRegex>true</IsRegex>
+        <Text>O0*[1-9]</Text>
+      </StreamStartPattern>
+      <SyncPointPattern>
+        <IsRegex>true</IsRegex>
+        <Text>P([1-9][0-9]{0,2})</Text>
+      </SyncPointPattern>
+      <ToolCalloutPattern>
+        <IsRegex>true</IsRegex>
+        <Text>T([0-9]+)\s*(M0?6)?</Text>
+      </ToolCalloutPattern>
+    </NCConfiguration>
+    <NCConfiguration>
+      <BlockNumbering>
+        <Increment>5</Increment>
+        <LineSkipPrefixes />
+        <MaximumNumber>9999</MaximumNumber>
+        <NumberCommentedLines>false</NumberCommentedLines>
+        <NumberEmptyLines>false</NumberEmptyLines>
+        <Prefix>N</Prefix>
+        <StartNumber>5</StartNumber>
+      </BlockNumbering>
+      <CommentEnd>)</CommentEnd>
+      <CommentStart>(</CommentStart>
+      <ExtentAddressCharacters>
+        <Character>X</Character>
+        <Character>Y</Character>
+        <Character>Z</Character>
+        <Character>A</Character>
+        <Character>B</Character>
+        <Character>C</Character>
+        <Character>S</Character>
+        <Character>F</Character>
+      </ExtentAddressCharacters>
+      <FileExtensions>
+        <Extension>nc</Extension>
+      </FileExtensions>
+      <FontsAndColors>
+        <FontFamilyName>Courier New</FontFamilyName>
+        <FontSize>12</FontSize>
+        <Styles />
+      </FontsAndColors>
+      <MaximumStreamCount>1</MaximumStreamCount>
+      <MultiStreamNCFilePaths xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+      <Name>EDM Makino</Name>
+      <PostStreamsAsSeparateFiles>false</PostStreamsAsSeparateFiles>
+      <StreamEndPattern>
+        <IsRegex>false</IsRegex>
+        <Text>M30</Text>
+      </StreamEndPattern>
+      <StreamStartPattern>
+        <IsRegex>true</IsRegex>
+        <Text>O0*[1-9]</Text>
+      </StreamStartPattern>
+      <SyncPointPattern>
+        <IsRegex>true</IsRegex>
+        <Text>P([1-9][0-9]{0,2})</Text>
+      </SyncPointPattern>
+      <ToolCalloutPattern>
+        <IsRegex>true</IsRegex>
+        <Text>M0?6</Text>
+      </ToolCalloutPattern>
+    </NCConfiguration>
+    <NCConfiguration>
+      <BlockNumbering>
+        <Increment>5</Increment>
+        <LineSkipPrefixes />
+        <MaximumNumber>9999</MaximumNumber>
+        <NumberCommentedLines>false</NumberCommentedLines>
+        <NumberEmptyLines>false</NumberEmptyLines>
+        <Prefix>N</Prefix>
+        <StartNumber>5</StartNumber>
+      </BlockNumbering>
+      <CommentEnd>)</CommentEnd>
+      <CommentStart>(</CommentStart>
+      <ExtentAddressCharacters>
+        <Character>X</Character>
+        <Character>Y</Character>
+        <Character>Z</Character>
+        <Character>A</Character>
+        <Character>B</Character>
+        <Character>C</Character>
+        <Character>S</Character>
+        <Character>F</Character>
+      </ExtentAddressCharacters>
+      <FileExtensions>
+        <Extension>nc</Extension>
+      </FileExtensions>
+      <FontsAndColors>
+        <FontFamilyName>Courier New</FontFamilyName>
+        <FontSize>12</FontSize>
+        <Styles />
+      </FontsAndColors>
+      <MaximumStreamCount>1</MaximumStreamCount>
+      <MultiStreamNCFilePaths xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+      <Name>EDM Mitsubishi</Name>
+      <PostStreamsAsSeparateFiles>false</PostStreamsAsSeparateFiles>
+      <StreamEndPattern>
+        <IsRegex>false</IsRegex>
+        <Text>M30</Text>
+      </StreamEndPattern>
+      <StreamStartPattern>
+        <IsRegex>true</IsRegex>
+        <Text>O0*[1-9]</Text>
+      </StreamStartPattern>
+      <SyncPointPattern>
+        <IsRegex>true</IsRegex>
+        <Text>P([1-9][0-9]{0,2})</Text>
+      </SyncPointPattern>
+      <ToolCalloutPattern>
+        <IsRegex>true</IsRegex>
+        <Text>M20</Text>
+      </ToolCalloutPattern>
+    </NCConfiguration>
+    <NCConfiguration>
+      <BlockNumbering>
+        <Increment>5</Increment>
+        <LineSkipPrefixes />
+        <MaximumNumber>9999</MaximumNumber>
+        <NumberCommentedLines>false</NumberCommentedLines>
+        <NumberEmptyLines>false</NumberEmptyLines>
+        <Prefix>N</Prefix>
+        <StartNumber>5</StartNumber>
+      </BlockNumbering>
+      <CommentEnd>)</CommentEnd>
+      <CommentStart>(</CommentStart>
+      <ExtentAddressCharacters>
+        <Character>X</Character>
+        <Character>Y</Character>
+        <Character>Z</Character>
+        <Character>A</Character>
+        <Character>B</Character>
+        <Character>C</Character>
+        <Character>S</Character>
+        <Character>F</Character>
+      </ExtentAddressCharacters>
+      <FileExtensions>
+        <Extension>nc</Extension>
+      </FileExtensions>
+      <FontsAndColors>
+        <FontFamilyName>Courier New</FontFamilyName>
+        <FontSize>12</FontSize>
+        <Styles />
+      </FontsAndColors>
+      <MaximumStreamCount>1</MaximumStreamCount>
+      <MultiStreamNCFilePaths xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+      <Name>Multiflux Générique</Name>
+      <PostStreamsAsSeparateFiles>false</PostStreamsAsSeparateFiles>
+      <StreamEndPattern>
+        <IsRegex>false</IsRegex>
+        <Text>M30</Text>
+      </StreamEndPattern>
+      <StreamStartPattern>
+        <IsRegex>true</IsRegex>
+        <Text>O0*[1-9]</Text>
+      </StreamStartPattern>
+      <SyncPointPattern>
+        <IsRegex>true</IsRegex>
+        <Text>P([1-9][0-9]{0,2})</Text>
+      </SyncPointPattern>
+      <ToolCalloutPattern>
+        <IsRegex>true</IsRegex>
+        <Text>T([0-9][0-9]{0,3}).?M0?6</Text>
+      </ToolCalloutPattern>
+    </NCConfiguration>
+    <NCConfiguration>
+      <BlockNumbering>
+        <Increment>2</Increment>
+        <LineSkipPrefixes>
+          <Prefix>%</Prefix>
+          <Prefix>;</Prefix>
+          <Prefix>:</Prefix>
+          <Prefix>(</Prefix>
+        </LineSkipPrefixes>
+        <MaximumNumber>999999</MaximumNumber>
+        <NumberCommentedLines>true</NumberCommentedLines>
+        <NumberEmptyLines>false</NumberEmptyLines>
+        <Prefix>N</Prefix>
+        <StartNumber>2</StartNumber>
+      </BlockNumbering>
+      <CommentEnd></CommentEnd>
+      <CommentStart>;</CommentStart>
+      <ExtentAddressCharacters>
+        <Character>X</Character>
+        <Character>Y</Character>
+        <Character>Z</Character>
+        <Character>B1</Character>
+        <Character>C3</Character>
+        <Character>C4</Character>
+        <Character>S1</Character>
+        <Character>S2</Character>
+        <Character>S3</Character>
+        <Character>S4</Character>
+        <Character>F</Character>
+      </ExtentAddressCharacters>
+      <FileExtensions>
+        <Extension>ARC</Extension>
+      </FileExtensions>
+      <FontsAndColors>
+        <FontFamilyName>Courier New</FontFamilyName>
+        <FontSize>12</FontSize>
+        <Styles />
+      </FontsAndColors>
+      <MaximumStreamCount>2</MaximumStreamCount>
+      <MultiStreamNCFilePaths xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" i:nil="true" />
+      <Name>DMG Mori Seiki CLX 450 TC_S</Name>
+      <PostStreamsAsSeparateFiles>false</PostStreamsAsSeparateFiles>
+      <StreamEndPattern>
+        <IsRegex>true</IsRegex>
+        <Text>;ENDSTREAM</Text>
+      </StreamEndPattern>
+      <StreamStartPattern>
+        <IsRegex>true</IsRegex>
+        <Text>%_N_([1-2]000)_MPF</Text>
+      </StreamStartPattern>
+      <SyncPointPattern>
+        <IsRegex>true</IsRegex>
+        <Text>P([1-9][0-9]{0,2})</Text>
+      </SyncPointPattern>
+      <ToolCalloutPattern>
+        <IsRegex>true</IsRegex>
+        <Text>^(?=[T]).*$</Text>
+      </ToolCalloutPattern>
+    </NCConfiguration>
+  </NCConfigurations>
+</NCConfigurations>
