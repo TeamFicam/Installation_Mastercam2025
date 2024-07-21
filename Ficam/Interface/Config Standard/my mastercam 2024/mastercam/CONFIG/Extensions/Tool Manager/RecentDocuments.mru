@@ -1,3 +1,0 @@
-<DocumentReferenceCollection xmlns="http://schemas.actiprosoftware.com/winfx/xaml/shared">
-	<DocumentReference Description="C:\Users\Public\Documents\Shared Mastercam 2024\mill\Tools" ImageSourceLarge="pack://application:,,,/UXSharedResources;component/Icons/Bitmaps.Shell/NewDocumentToolDatabase64.png" LastOpenedDateTime="2024-01-22T15:21:10.9753028+01:00" Location="C:\Users\Public\Documents\Shared Mastercam 2024\mill\Tools\mill_mm.tooldb" Name="mill_mm.tooldb" Tag="ToolManager.Database.ImportExport.ToolDatabaseFileImporter, ToolManager.Database, Version=26.0.0.0, Culture=neutral, PublicKeyToken=null" RecentDocumentManager.Index="1" />
-</DocumentReferenceCollection>

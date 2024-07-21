@@ -1,6 +1,0 @@
-[
-  {
-    "CodeToMatch": "System.Drawing.Image img = this.IMAGE_HOLDER.Image;",
-    "UpdatedCode": "System.Drawing.Image img = (System.Drawing.Image)this.IMAGE_HOLDER.Image;"
-  }
-]
