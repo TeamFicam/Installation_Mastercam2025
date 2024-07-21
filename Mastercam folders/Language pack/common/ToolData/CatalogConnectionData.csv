@@ -1,0 +1,14 @@
+BT,30,35,40,45,50
+BT Big Plus,30,40,50
+CAT,30,40,45,50,60
+CAT Big Plus,40,50
+Capto,C10,C3,C4,C5,C6,C8
+Cylindrical,1 in,1-1/2 in,1-1/4 in,1-3/4 in,1/2 in,1/4 in,10 mm,12 mm,16 mm,2 in,20 mm,25 mm,3/16 in,3/4 in,3/8 in,32 mm,4 mm,40 mm,5 mm,5/16 in,5/32 in,5/8 in,50 mm,6 mm,8 mm
+DV,30,40,50
+DV Big Plus,30,40,50
+HSK,100A,125A,160B,25E,32C,32E,40A,40C,40E,50A,50C,50E,63A,63C,63E,63F,80A,80F
+KM,32TS,40TS,50TS,63TS,63XMZ,80ATC,80TS,Micro,Mini
+KM4X,100,63
+NMTB,30,40,50
+Square,1 in,1-1/2 in,1-1/4 in,1/2 in,10 mm,12 mm,16 mm,2 in,20 mm,25 mm,3/4 in,3/8 in,32 mm,40 mm,5/16 in,5/8 in,8 mm
+VDI,B1,B2,B3,B4,B5,B6,C1,C2,C3,C4

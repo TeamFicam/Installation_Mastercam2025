@@ -1,0 +1,740 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SETUPSHEET>
+  <COMPANY>Acme</COMPANY>
+  <USER>Jim Smith</USER>
+  <BUILD>17.0.0.0</BUILD>
+  <SIM>111-D</SIM>
+  <SOURCE>MASTERCAM</SOURCE>
+  <UNITS>English</UNITS>
+  <VERSION>2019</VERSION>
+  <DATE-LONG>Friday, October 03, 2014</DATE-LONG>
+  <DATE-SHORT>10/3/2014</DATE-SHORT>
+  <TIME>1:58 PM</TIME>
+  <YEAR>2014</YEAR>
+  <MCXFILE-LONG>..\SST\SAMPLES\ROUTER\ROUTER.MCAM</MCXFILE-LONG>
+  <MCXFILE-SHORT>ROUTER.MCAM</MCXFILE-SHORT>
+  <MCXFILE-NAME>ROUTER</MCXFILE-NAME>
+  <MCXFILE-EXT>MCAM</MCXFILE-EXT>
+  <DESCRIPTION>ABC Test Project</DESCRIPTION>
+  <CUSTOMER>ABC Manufacturing Company</CUSTOMER>
+  <PROGRAMMER>John Barker</PROGRAMMER>
+  <DRAWING-NUMBER>12345</DRAWING-NUMBER>
+  <DRAWING-REVISION>E</DRAWING-REVISION>
+  <NOTE1>_</NOTE1>
+  <NOTE2>_</NOTE2>
+  <NOTE3>_</NOTE3>
+  <DIALOG1>_</DIALOG1>
+  <DIALOG2>_</DIALOG2>
+  <DIALOG3>_</DIALOG3>
+  <DIALOG4>_</DIALOG4>
+  <DIALOG5>_</DIALOG5>
+  <DIALOG6>87-654-32</DIALOG6>
+  <DIALOG7>_</DIALOG7>
+  <DIALOG8>ROUTER</DIALOG8>
+  <IMAGE>..\SST\SAMPLES\ROUTER\SCREEN.BMP</IMAGE>
+  <MACHINE-GROUP-NAME>Machine Group</MACHINE-GROUP-NAME>
+  <MACHINE-NAME>ROUTER DEFAULT</MACHINE-NAME>
+  <MACHINE-TYPE>R</MACHINE-TYPE>
+  <NCFILE>
+    <NCIFILE-LONG>T.NCI</NCIFILE-LONG>
+    <NCIFILE-SHORT>T.NCI</NCIFILE-SHORT>
+    <NCIFILE-NAME>T</NCIFILE-NAME>
+    <NCIFILE-EXT>NCI</NCIFILE-EXT>
+    <NCFILE-LONG>T.NC</NCFILE-LONG>
+    <NCFILE-SHORT>T.NC</NCFILE-SHORT>
+    <NCFILE-NAME>T</NCFILE-NAME>
+    <NCFILE-EXT>NC</NCFILE-EXT>
+    <OPERATION>
+      <NAME>Contour (2D), op_idn #2</NAME>
+      <OPERATION-R>
+        <TOOLPATH-GROUP-NAME>Toolpath Group</TOOLPATH-GROUP-NAME>
+        <NAME>Contour (2D)</NAME>
+        <OPIDN>2</OPIDN>
+        <OPNUM>1</OPNUM>
+        <OPCODE>1</OPCODE>
+        <IMAGE>..\SST\SAMPLES\ROUTER\OPERATION2.BMP</IMAGE>
+        <COOLANT-OP>Off</COOLANT-OP>
+        <COOLANT-TL>Off</COOLANT-TL>
+        <COOLANT>Off</COOLANT>
+        <CLEARANCE-ACTIVE>NO</CLEARANCE-ACTIVE>
+        <CLEARANCE-PLANE>2.0</CLEARANCE-PLANE>
+        <COMP2TIP>NO</COMP2TIP>
+        <DEPTH>0.0</DEPTH>
+        <FEED-PLANE>0.1</FEED-PLANE>
+        <PROG-NUM>0</PROG-NUM>
+        <RAPID-RETRACT>NO</RAPID-RETRACT>
+        <RETRACT-ACTIVE>YES</RETRACT-ACTIVE>
+        <RETRACT-PLANE>0.25</RETRACT-PLANE>
+        <SEQ-INCR>2</SEQ-INCR>
+        <SEQ-NUM>100</SEQ-NUM>
+        <STOCK-TO-LEAVE>0.0</STOCK-TO-LEAVE>
+        <STOCK-TO-LEAVE-XY>0.0</STOCK-TO-LEAVE-XY>
+        <STOCK-TO-LEAVE-Z>0.0</STOCK-TO-LEAVE-Z>
+        <STOCK-TO-LEAVE-CHK>0.0</STOCK-TO-LEAVE-CHK>
+        <TIME-LONG>0 HOURS, 0 MINUTES, 14 SECONDS</TIME-LONG>
+        <TIME-SHORT>00:00:14</TIME-SHORT>
+        <TOP-STOCK>0.0</TOP-STOCK>
+        <TOLERANCE>0.001</TOLERANCE>
+        <TOTAL-TOLERANCE>0.002</TOTAL-TOLERANCE>
+        <MAX-STEPOVER>NA</MAX-STEPOVER>
+        <MAXSTEP>NA</MAXSTEP>
+        <MAX-STEPDOWN>NA</MAX-STEPDOWN>
+        <CC-DIRECTION>Left</CC-DIRECTION>
+        <CC-ROLL>Sharp</CC-ROLL>
+        <CC-TYPE>Computer</CC-TYPE>
+        <HOMEPOS>10.0, 10.0, 10.0</HOMEPOS>
+        <FEEDRATE>200.0 inch/min</FEEDRATE>
+        <FEEDRATE-VALUE>200.0</FEEDRATE-VALUE>
+        <SPINDLE-SPEED>18000 RPM</SPINDLE-SPEED>
+        <SPINDLE-SPEED-VALUE>18000</SPINDLE-SPEED-VALUE>
+        <TPLANE-ACTIVE>YES</TPLANE-ACTIVE>
+        <TPLANE-ORIGIN>0.0, 0.0, 0.0</TPLANE-ORIGIN>
+        <TPLANE-ORIGIN-WORLD>0.0, 0.0, 0.0</TPLANE-ORIGIN-WORLD>
+        <TPLANE-ORIGIN-VIEW>0.0, 0.0, 0.0</TPLANE-ORIGIN-VIEW>
+        <TPLANE-PLANE-NAME>Top</TPLANE-PLANE-NAME>
+        <TPLANE-PLANE-NUMBER>1</TPLANE-PLANE-NUMBER>
+        <TPLANE-VIEW>Top</TPLANE-VIEW>
+        <TPLANE-VNUM>1</TPLANE-VNUM>
+        <TPLANE-WOFF>0</TPLANE-WOFF>
+        <TPLANE-WOFF-GCODE>G54</TPLANE-WOFF-GCODE>
+        <CPLANE-ACTIVE>YES</CPLANE-ACTIVE>
+        <CPLANE-ORIGIN>0.0, 0.0, 0.0</CPLANE-ORIGIN>
+        <CPLANE-ORIGIN-WORLD>0.0, 0.0, 0.0</CPLANE-ORIGIN-WORLD>
+        <CPLANE-ORIGIN-VIEW>0.0, 0.0, 0.0</CPLANE-ORIGIN-VIEW>
+        <CPLANE-PLANE-NAME>Top</CPLANE-PLANE-NAME>
+        <CPLANE-PLANE-NUMBER>1</CPLANE-PLANE-NUMBER>
+        <CPLANE-VIEW>Top</CPLANE-VIEW>
+        <CPLANE-VNUM>1</CPLANE-VNUM>
+        <WCS-ACTIVE>YES</WCS-ACTIVE>
+        <WCS-ORIGIN>0.0, 0.0, 0.0</WCS-ORIGIN>
+        <WCS-ORIGIN-WORLD>0.0, 0.0, 0.0</WCS-ORIGIN-WORLD>
+        <WCS-ORIGIN-VIEW>0.0, 0.0, 0.0</WCS-ORIGIN-VIEW>
+        <WCS-PLANE-NAME>Top</WCS-PLANE-NAME>
+        <WCS-PLANE-NUMBER>1</WCS-PLANE-NUMBER>
+        <WCS-VIEW>Top</WCS-VIEW>
+        <WCS-VNUM>1</WCS-VNUM>
+        <MISC-REAL-1>0.0</MISC-REAL-1>
+        <MISC-REAL-2>0.0</MISC-REAL-2>
+        <MISC-REAL-3>0.0</MISC-REAL-3>
+        <MISC-REAL-4>0.0</MISC-REAL-4>
+        <MISC-REAL-5>0.0</MISC-REAL-5>
+        <MISC-REAL-6>0.0</MISC-REAL-6>
+        <MISC-REAL-7>0.0</MISC-REAL-7>
+        <MISC-REAL-8>0.0</MISC-REAL-8>
+        <MISC-REAL-9>0.0</MISC-REAL-9>
+        <MISC-REAL-10>0.0</MISC-REAL-10>
+        <MISC-INT-1>2</MISC-INT-1>
+        <MISC-INT-2>0</MISC-INT-2>
+        <MISC-INT-3>0</MISC-INT-3>
+        <MISC-INT-4>0</MISC-INT-4>
+        <MISC-INT-5>0</MISC-INT-5>
+        <MISC-INT-6>1</MISC-INT-6>
+        <MISC-INT-7>0</MISC-INT-7>
+        <MISC-INT-8>0</MISC-INT-8>
+        <MISC-INT-9>0</MISC-INT-9>
+        <MISC-INT-10>0</MISC-INT-10>
+        <MIN-X>-3.1287</MIN-X>
+        <MIN-Y>7.0922</MIN-Y>
+        <MIN-Z>0.0</MIN-Z>
+        <MAX-X>10.1213</MAX-X>
+        <MAX-Y>20.3422</MAX-Y>
+        <MAX-Z>0.1</MAX-Z>
+        <TOOL>
+          <TOOL-R>
+            <COMMENT>1/4 STRAIGHT BIT</COMMENT>
+            <TIME-LONG>0 HOURS, 0 MINUTES, 14 SECONDS</TIME-LONG>
+            <TIME-SHORT>00:00:14</TIME-SHORT>
+            <COOLANT-OP>Off</COOLANT-OP>
+            <COOLANT-TL>Off</COOLANT-TL>
+            <COOLANT>Off</COOLANT>
+            <CORNER-RADIUS>0.0</CORNER-RADIUS>
+            <CORNER-RADIUS-TYPE>None</CORNER-RADIUS-TYPE>
+            <DESCRIPTION>#1:1 - 0.2500 STRAIGHT -   1/4 STRAIGHT BIT</DESCRIPTION>
+            <NAME>1/4 STRAIGHT BIT</NAME>
+            <DIAMETER>0.25</DIAMETER>
+            <RADIUS>0.125</RADIUS>
+            <DIAMETER-OFFSET>1</DIAMETER-OFFSET>
+            <FLUTES>2</FLUTES>
+            <LENGTH-OFFSET>1</LENGTH-OFFSET>
+            <MATERIAL>HSS</MATERIAL>
+            <METRIC>NO</METRIC>
+            <MC>FLATMILL.MCX-9</MC>
+            <NUMBER>1</NUMBER>
+            <ALIAS>T0101</ALIAS>
+            <STATION>-1</STATION>
+            <ACTIVE-SPINDLE>Left</ACTIVE-SPINDLE>
+            <ACTIVE-TURRET>Left</ACTIVE-TURRET>
+            <FEEDRATE>200.0 inch/min</FEEDRATE>
+            <FEEDRATE-VALUE>200.0</FEEDRATE-VALUE>
+            <PLUNGE>100.0 inch/min</PLUNGE>
+            <PLUNGE-VALUE>100.0</PLUNGE-VALUE>
+            <RETRACT>100.0 inch/min</RETRACT>
+            <RETRACT-VALUE>100.0</RETRACT-VALUE>
+            <SPINDLE-SPEED-MAX>18000 RPM</SPINDLE-SPEED-MAX>
+            <SPINDLE-SPEED-MAX-VALUE>18000</SPINDLE-SPEED-MAX-VALUE>
+            <TIP-ANGLE>180.0</TIP-ANGLE>
+            <TYPE>Straight</TYPE>
+            <AGGREGATE>NO</AGGREGATE>
+            <ARBOR-DIAMETER>0.25</ARBOR-DIAMETER>
+            <ARBOR-RADIUS>0.125</ARBOR-RADIUS>
+            <OVERALL-LENGTH>3.0</OVERALL-LENGTH>
+            <FLUTE-LENGTH>2.0</FLUTE-LENGTH>
+            <FPT>0.0056</FPT>
+            <OVERALL-DIA>0.25</OVERALL-DIA>
+            <OVERALL-DIAMETER>0.25</OVERALL-DIAMETER>
+            <OVERALL-RADIUS>0.125</OVERALL-RADIUS>
+            <PILOT-DIAMETER>0.0</PILOT-DIAMETER>
+            <PILOT-RADIUS>0.0</PILOT-RADIUS>
+            <SFM>1178.0105</SFM>
+            <SHANK-DIAMETER>0.25</SHANK-DIAMETER>
+            <SHANK-RADIUS>0.125</SHANK-RADIUS>
+            <SHOULDER-LENGTH>2.5</SHOULDER-LENGTH>
+            <SPINDLE-DIRECTION>CW</SPINDLE-DIRECTION>
+            <SPINDLE-SPEED>18000 RPM</SPINDLE-SPEED>
+            <SPINDLE-SPEED-VALUE>18000</SPINDLE-SPEED-VALUE>
+            <ROUGH-X>0.0</ROUGH-X>
+            <ROUGH-Z>0.0</ROUGH-Z>
+            <FINISH-X>0.0</FINISH-X>
+            <FINISH-Z>0.0</FINISH-Z>
+            <OUT-DIA>NA</OUT-DIA>
+            <ANGLE>NA</ANGLE>
+            <CHIP-BREAK>NA</CHIP-BREAK>
+            <DWELL>NA</DWELL>
+            <PECK-CLR>NA</PECK-CLR>
+            <PECK1>NA</PECK1>
+            <PECK2>NA</PECK2>
+            <ROOT-DIA>NA</ROOT-DIA>
+            <THD-COUNT>NA</THD-COUNT>
+            <THD-PITCH>NA</THD-PITCH>
+            <THREADS>NA</THREADS>
+            <SHIFT>NA</SHIFT>
+            <IMAGE3D>..\SST\SAMPLES\ROUTER\MTOOL3DH30.BMP</IMAGE3D>
+            <IMAGE2D>..\SST\SAMPLES\ROUTER\MTOOL2D30.BMP</IMAGE2D>
+            <BITMAP>..\SST\SAMPLES\ROUTER\_TTB11.BMP</BITMAP>
+            <IMAGE>..\SST\SAMPLES\ROUTER\MTOOL3DH30.BMP</IMAGE>
+            <HOLDER-DIAMETER-TOP>2.0</HOLDER-DIAMETER-TOP>
+            <HOLDER-DIAMETER-BOTTOM>2.0</HOLDER-DIAMETER-BOTTOM>
+            <HOLDER-DIAMETER-MIN>2.0</HOLDER-DIAMETER-MIN>
+            <HOLDER-DIAMETER-MAX>2.0</HOLDER-DIAMETER-MAX>
+            <HOLDER-DIAMETER>2.0</HOLDER-DIAMETER>
+            <HOLDER-LENGTH>1.0</HOLDER-LENGTH>
+            <HOLDER-NAME>DEFAULT HOLDER</HOLDER-NAME>
+            <HOLDER-LIB>NA</HOLDER-LIB>
+            <MIN-X>-3.1287</MIN-X>
+            <MIN-Y>7.0922</MIN-Y>
+            <MIN-Z>0.0</MIN-Z>
+            <MAX-X>10.1213</MAX-X>
+            <MAX-Y>20.3422</MAX-Y>
+            <MAX-Z>0.1</MAX-Z>
+          </TOOL-R>
+        </TOOL>
+        <OFFSET>
+          <GCODE>G54</GCODE>
+          <NUMBER>0</NUMBER>
+          <ORIGIN>0.0, 0.0, 0.0</ORIGIN>
+          <ORIGIN-WORLD>0.0, 0.0, 0.0</ORIGIN-WORLD>
+          <ORIGIN-VIEW>0.0, 0.0, 0.0</ORIGIN-VIEW>
+          <PLANE-NAME>Top</PLANE-NAME>
+          <PLANE-NUMBER>1</PLANE-NUMBER>
+          <VIEW>Top</VIEW>
+          <VNUM>1</VNUM>
+        </OFFSET>
+      </OPERATION-R>
+    </OPERATION>
+    <OPERATION>
+      <NAME>Router Block Drill - Drill/Counterbore, op_idn #1</NAME>
+      <OPERATION-R>
+        <TOOLPATH-GROUP-COMMENT>_</TOOLPATH-GROUP-COMMENT>
+        <TOOLPATH-GROUP-NAME>Toolpath Group</TOOLPATH-GROUP-NAME>
+        <NAME>Router Block Drill - Drill/Counterbore</NAME>
+        <OPIDN>1</OPIDN>
+        <OPNUM>2</OPNUM>
+        <OPCODE>306</OPCODE>
+        <IMAGE>..\SST\SAMPLES\ROUTER\OPERATION1.BMP</IMAGE>
+        <COOLANT-OP>Off</COOLANT-OP>
+        <COOLANT-TL>Off</COOLANT-TL>
+        <COOLANT>Off</COOLANT>
+        <CLEARANCE-ACTIVE>NO</CLEARANCE-ACTIVE>
+        <CLEARANCE-PLANE>2.0</CLEARANCE-PLANE>
+        <COMP2TIP>NO</COMP2TIP>
+        <DEPTH>0.0</DEPTH>
+        <FEED-PLANE>0.25</FEED-PLANE>
+        <PROG-NUM>0</PROG-NUM>
+        <RAPID-RETRACT>NO</RAPID-RETRACT>
+        <RETRACT-ACTIVE>YES</RETRACT-ACTIVE>
+        <RETRACT-PLANE>10.0</RETRACT-PLANE>
+        <SEQ-INCR>2</SEQ-INCR>
+        <SEQ-NUM>100</SEQ-NUM>
+        <STOCK-TO-LEAVE>0.0</STOCK-TO-LEAVE>
+        <STOCK-TO-LEAVE-XY>0.0</STOCK-TO-LEAVE-XY>
+        <STOCK-TO-LEAVE-Z>0.0</STOCK-TO-LEAVE-Z>
+        <STOCK-TO-LEAVE-CHK>0.0</STOCK-TO-LEAVE-CHK>
+        <TIME-LONG>0 HOURS, 2 MINUTES, 30 SECONDS</TIME-LONG>
+        <TIME-SHORT>00:02:30</TIME-SHORT>
+        <TOP-STOCK>0.0</TOP-STOCK>
+        <TOLERANCE>0.0001</TOLERANCE>
+        <TOTAL-TOLERANCE>0.0011</TOTAL-TOLERANCE>
+        <MAX-STEPOVER>NA</MAX-STEPOVER>
+        <MAXSTEP>NA</MAXSTEP>
+        <MAX-STEPDOWN>NA</MAX-STEPDOWN>
+        <CC-DIRECTION>Left</CC-DIRECTION>
+        <CC-ROLL>Sharp</CC-ROLL>
+        <CC-TYPE>Off</CC-TYPE>
+        <HOMEPOS>0.0, 0.0, 0.0</HOMEPOS>
+        <FEEDRATE>10.0 inch/min</FEEDRATE>
+        <FEEDRATE-VALUE>10.0</FEEDRATE-VALUE>
+        <SPINDLE-SPEED>1000 RPM</SPINDLE-SPEED>
+        <SPINDLE-SPEED-VALUE>1000</SPINDLE-SPEED-VALUE>
+        <TPLANE-ACTIVE>YES</TPLANE-ACTIVE>
+        <TPLANE-ORIGIN>0.0, 0.0, 0.0</TPLANE-ORIGIN>
+        <TPLANE-ORIGIN-WORLD>0.0, 0.0, 0.0</TPLANE-ORIGIN-WORLD>
+        <TPLANE-ORIGIN-VIEW>0.0, 0.0, 0.0</TPLANE-ORIGIN-VIEW>
+        <TPLANE-PLANE-NAME>Top</TPLANE-PLANE-NAME>
+        <TPLANE-PLANE-NUMBER>1</TPLANE-PLANE-NUMBER>
+        <TPLANE-VIEW>Top</TPLANE-VIEW>
+        <TPLANE-VNUM>1</TPLANE-VNUM>
+        <TPLANE-WOFF>0</TPLANE-WOFF>
+        <TPLANE-WOFF-GCODE>G54</TPLANE-WOFF-GCODE>
+        <CPLANE-ACTIVE>YES</CPLANE-ACTIVE>
+        <CPLANE-ORIGIN>0.0, 0.0, 0.0</CPLANE-ORIGIN>
+        <CPLANE-ORIGIN-WORLD>0.0, 0.0, 0.0</CPLANE-ORIGIN-WORLD>
+        <CPLANE-ORIGIN-VIEW>0.0, 0.0, 0.0</CPLANE-ORIGIN-VIEW>
+        <CPLANE-PLANE-NAME>Top</CPLANE-PLANE-NAME>
+        <CPLANE-PLANE-NUMBER>1</CPLANE-PLANE-NUMBER>
+        <CPLANE-VIEW>Top</CPLANE-VIEW>
+        <CPLANE-VNUM>1</CPLANE-VNUM>
+        <WCS-ACTIVE>YES</WCS-ACTIVE>
+        <WCS-ORIGIN>0.0, 0.0, 0.0</WCS-ORIGIN>
+        <WCS-ORIGIN-WORLD>0.0, 0.0, 0.0</WCS-ORIGIN-WORLD>
+        <WCS-ORIGIN-VIEW>0.0, 0.0, 0.0</WCS-ORIGIN-VIEW>
+        <WCS-PLANE-NAME>Top</WCS-PLANE-NAME>
+        <WCS-PLANE-NUMBER>1</WCS-PLANE-NUMBER>
+        <WCS-VIEW>Top</WCS-VIEW>
+        <WCS-VNUM>1</WCS-VNUM>
+        <MISC-REAL-1>0.0</MISC-REAL-1>
+        <MISC-REAL-2>0.0</MISC-REAL-2>
+        <MISC-REAL-3>0.0</MISC-REAL-3>
+        <MISC-REAL-4>0.0</MISC-REAL-4>
+        <MISC-REAL-5>0.0</MISC-REAL-5>
+        <MISC-REAL-6>0.0</MISC-REAL-6>
+        <MISC-REAL-7>0.0</MISC-REAL-7>
+        <MISC-REAL-8>0.0</MISC-REAL-8>
+        <MISC-REAL-9>0.0</MISC-REAL-9>
+        <MISC-REAL-10>0.0</MISC-REAL-10>
+        <MISC-INT-1>2</MISC-INT-1>
+        <MISC-INT-2>0</MISC-INT-2>
+        <MISC-INT-3>0</MISC-INT-3>
+        <MISC-INT-4>0</MISC-INT-4>
+        <MISC-INT-5>0</MISC-INT-5>
+        <MISC-INT-6>1</MISC-INT-6>
+        <MISC-INT-7>0</MISC-INT-7>
+        <MISC-INT-8>0</MISC-INT-8>
+        <MISC-INT-9>0</MISC-INT-9>
+        <MISC-INT-10>0</MISC-INT-10>
+        <MIN-X>-0.7723</MIN-X>
+        <MIN-Y>9.3401</MIN-Y>
+        <MIN-Z>0.0</MIN-Z>
+        <MAX-X>8.2277</MAX-X>
+        <MAX-Y>18.3401</MAX-Y>
+        <MAX-Z>0.25</MAX-Z>
+        <TOOL>
+          <TOOL-B>
+            <COMMENT>Drill Block</COMMENT>
+            <DESCRIPTION>#100:1 - BLOCK DRILL - DRILL BLOCK</DESCRIPTION>
+            <NAME>DRILL BLOCK</NAME>
+            <TIME-LONG>0 HOURS, 3 MINUTES, 17 SECONDS</TIME-LONG>
+            <TIME-SHORT>00:03:17</TIME-SHORT>
+            <MIN-X>NA</MIN-X>
+            <MIN-Y>NA</MIN-Y>
+            <MIN-Z>NA</MIN-Z>
+            <MAX-X>NA</MAX-X>
+            <MAX-Y>NA</MAX-Y>
+            <MAX-Z>NA</MAX-Z>
+            <IMAGE>..\SST\SAMPLES\ROUTER\BLOCK100.BMP</IMAGE>
+            <METRIC>NO</METRIC>
+            <NUMBER>100</NUMBER>
+            <OFFSET>0.0, 0.0, 0.0</OFFSET>
+            <STATION>
+              <AGGREGATE>NO</AGGREGATE>
+              <DESCRIPTION>#1:2 - 0.2500 DRILL</DESCRIPTION>
+              <NAME>1/4 DRILL</NAME>
+              <DIAMETER>0.25</DIAMETER>
+              <RADIUS>0.125</RADIUS>
+              <NUMBER>1</NUMBER>
+              <OFFSET>0.0, 0.0, 0.0</OFFSET>
+              <TYPE>Drill</TYPE>
+              <PLANE-NAME>Top</PLANE-NAME>
+              <PLANE-NUMBER>0</PLANE-NUMBER>
+              <VIEW>Top</VIEW>
+              <VNUM>0</VNUM>
+            </STATION>
+            <STATION>
+              <AGGREGATE>NO</AGGREGATE>
+              <DESCRIPTION>#2:3 - 0.2500 DRILL</DESCRIPTION>
+              <NAME>1/4 DRILL</NAME>
+              <DIAMETER>0.25</DIAMETER>
+              <RADIUS>0.125</RADIUS>
+              <NUMBER>2</NUMBER>
+              <OFFSET>1.2598, 0.0, 0.0</OFFSET>
+              <TYPE>Drill</TYPE>
+              <VIEW>TOP</VIEW>
+              <VNUM>1</VNUM>
+            </STATION>
+            <STATION>
+              <AGGREGATE>NO</AGGREGATE>
+              <DESCRIPTION>#3:4 - 0.2500 DRILL</DESCRIPTION>
+              <NAME>1/4 DRILL</NAME>
+              <DIAMETER>0.25</DIAMETER>
+              <RADIUS>0.125</RADIUS>
+              <NUMBER>3</NUMBER>
+              <OFFSET>2.5196, 0.0, 0.0</OFFSET>
+              <TYPE>Drill</TYPE>
+              <VIEW>FRONT</VIEW>
+              <VNUM>2</VNUM>
+            </STATION>
+            <STATION>
+              <AGGREGATE>NO</AGGREGATE>
+              <DESCRIPTION>#4:5 - 0.2500 DRILL</DESCRIPTION>
+              <NAME>1/4 DRILL</NAME>
+              <DIAMETER>0.25</DIAMETER>
+              <RADIUS>0.125</RADIUS>
+              <NUMBER>4</NUMBER>
+              <OFFSET>3.7794, 0.0, 0.0</OFFSET>
+              <TYPE>Drill</TYPE>
+              <VIEW>BACK</VIEW>
+              <VNUM>3</VNUM>
+            </STATION>
+            <STATION>
+              <AGGREGATE>NO</AGGREGATE>
+              <DESCRIPTION>#5:6 - 0.2500 DRILL</DESCRIPTION>
+              <NAME>1/4 DRILL</NAME>
+              <DIAMETER>0.25</DIAMETER>
+              <RADIUS>0.125</RADIUS>
+              <NUMBER>5</NUMBER>
+              <OFFSET>5.0392, 0.0, 0.0</OFFSET>
+              <TYPE>Drill</TYPE>
+              <VIEW>BOTTOM</VIEW>
+              <VNUM>4</VNUM>
+            </STATION>
+            <STATION>
+              <AGGREGATE>NO</AGGREGATE>
+              <DESCRIPTION>#6:7 - 0.2500 DRILL</DESCRIPTION>
+              <NAME>1/4 DRILL</NAME>
+              <DIAMETER>0.25</DIAMETER>
+              <RADIUS>0.125</RADIUS>
+              <NUMBER>6</NUMBER>
+              <OFFSET>0.0, -1.2598, 0.0</OFFSET>
+              <TYPE>Drill</TYPE>
+              <VIEW>RIGHT SIDE</VIEW>
+              <VNUM>5</VNUM>
+            </STATION>
+            <STATION>
+              <AGGREGATE>NO</AGGREGATE>
+              <DESCRIPTION>#7:8 - 0.2500 DRILL -</DESCRIPTION>
+              <NAME>1/4 DRILL</NAME>
+              <DIAMETER>0.25</DIAMETER>
+              <RADIUS>0.125</RADIUS>
+              <NUMBER>7</NUMBER>
+              <OFFSET>0.0, -2.5196, 0.0</OFFSET>
+              <TYPE>Drill</TYPE>
+              <VIEW>LEFT SIDE</VIEW>
+              <VNUM>6</VNUM>
+            </STATION>
+            <STATION>
+              <AGGREGATE>NO</AGGREGATE>
+              <DESCRIPTION>#8:9 - 0.2500 DRILL -</DESCRIPTION>
+              <NAME>1/4 DRILL</NAME>
+              <DIAMETER>0.25</DIAMETER>
+              <RADIUS>0.125</RADIUS>
+              <NUMBER>8</NUMBER>
+              <OFFSET>0.0, -3.7794, 0.0</OFFSET>
+              <TYPE>Drill</TYPE>
+              <VIEW>ISO</VIEW>
+              <VNUM>7</VNUM>
+            </STATION>
+            <STATION>
+              <AGGREGATE>NO</AGGREGATE>
+              <DESCRIPTION>#9:10 - 0.2500 DRILL -</DESCRIPTION>
+              <NAME>1/4 DRILL</NAME>
+              <DIAMETER>0.25</DIAMETER>
+              <RADIUS>0.125</RADIUS>
+              <NUMBER>9</NUMBER>
+              <OFFSET>0.0, -5.0392, 0.0</OFFSET>
+              <TYPE>Drill</TYPE>
+              <VIEW>_</VIEW>
+              <VNUM>8</VNUM>
+            </STATION>
+            <MIN-X>-0.7723</MIN-X>
+            <MIN-Y>9.3401</MIN-Y>
+            <MIN-Z>0.0</MIN-Z>
+            <MAX-X>8.2277</MAX-X>
+            <MAX-Y>18.3401</MAX-Y>
+            <MAX-Z>0.25</MAX-Z>
+          </TOOL-B>
+        </TOOL>
+        <OFFSET>
+          <GCODE>G54</GCODE>
+          <NUMBER>0</NUMBER>
+          <ORIGIN>0.0, 0.0, 0.0</ORIGIN>
+          <ORIGIN-WORLD>0.0, 0.0, 0.0</ORIGIN-WORLD>
+          <ORIGIN-VIEW>0.0, 0.0, 0.0</ORIGIN-VIEW>
+          <PLANE-NAME>Top</PLANE-NAME>
+          <PLANE-NUMBER>1</PLANE-NUMBER>
+          <VIEW>Top</VIEW>
+          <VNUM>1</VNUM>
+        </OFFSET>
+      </OPERATION-R>
+    </OPERATION>
+    <TOOLS>
+      <SORT>NO</SORT>
+      <TOOL>
+        <TOOL-R>
+          <COMMENT>1/4 STRAIGHT BIT</COMMENT>
+          <TIME-LONG>0 HOURS, 0 MINUTES, 14 SECONDS</TIME-LONG>
+          <TIME-SHORT>00:00:14</TIME-SHORT>
+          <COOLANT-OP>Off</COOLANT-OP>
+          <COOLANT-TL>Off</COOLANT-TL>
+          <COOLANT>Off</COOLANT>
+          <CORNER-RADIUS>0.0</CORNER-RADIUS>
+          <CORNER-RADIUS-TYPE>None</CORNER-RADIUS-TYPE>
+          <DESCRIPTION>#1:1 - 0.2500 STRAIGHT -   1/4 STRAIGHT BIT</DESCRIPTION>
+          <NAME>1/4 STRAIGHT BIT</NAME>
+          <DIAMETER>0.25</DIAMETER>
+          <RADIUS>0.125</RADIUS>
+          <DIAMETER-OFFSET>1</DIAMETER-OFFSET>
+          <FLUTES>2</FLUTES>
+          <LENGTH-OFFSET>1</LENGTH-OFFSET>
+          <MATERIAL>HSS</MATERIAL>
+          <METRIC>NO</METRIC>
+          <MC>FLATMILL.MCX-9</MC>
+          <NUMBER>1</NUMBER>
+          <ALIAS>T0101</ALIAS>
+          <STATION>-1</STATION>
+          <ACTIVE-SPINDLE>Left</ACTIVE-SPINDLE>
+          <ACTIVE-TURRET>Left</ACTIVE-TURRET>
+          <FEEDRATE>200.0 inch/min</FEEDRATE>
+          <FEEDRATE-VALUE>200.0</FEEDRATE-VALUE>
+          <PLUNGE>100.0 inch/min</PLUNGE>
+          <PLUNGE-VALUE>100.0</PLUNGE-VALUE>
+          <RETRACT>100.0 inch/min</RETRACT>
+          <RETRACT-VALUE>100.0</RETRACT-VALUE>
+          <SPINDLE-SPEED-MAX>18000 RPM</SPINDLE-SPEED-MAX>
+          <SPINDLE-SPEED-MAX-VALUE>18000</SPINDLE-SPEED-MAX-VALUE>
+          <TIP-ANGLE>180.0</TIP-ANGLE>
+          <TYPE>Straight</TYPE>
+          <AGGREGATE>NO</AGGREGATE>
+          <ARBOR-DIAMETER>0.25</ARBOR-DIAMETER>
+          <ARBOR-RADIUS>0.125</ARBOR-RADIUS>
+          <OVERALL-LENGTH>3.0</OVERALL-LENGTH>
+          <FLUTE-LENGTH>2.0</FLUTE-LENGTH>
+          <FPT>0.0056</FPT>
+          <OVERALL-DIA>0.25</OVERALL-DIA>
+          <OVERALL-DIAMETER>0.25</OVERALL-DIAMETER>
+          <OVERALL-RADIUS>0.125</OVERALL-RADIUS>
+          <PILOT-DIAMETER>0.0</PILOT-DIAMETER>
+          <PILOT-RADIUS>0.0</PILOT-RADIUS>
+          <SFM>1178.0105</SFM>
+          <SHANK-DIAMETER>0.25</SHANK-DIAMETER>
+          <SHANK-RADIUS>0.125</SHANK-RADIUS>
+          <SHOULDER-LENGTH>2.5</SHOULDER-LENGTH>
+          <SPINDLE-DIRECTION>CW</SPINDLE-DIRECTION>
+          <SPINDLE-SPEED>18000 RPM</SPINDLE-SPEED>
+          <SPINDLE-SPEED-VALUE>18000</SPINDLE-SPEED-VALUE>
+          <ROUGH-X>0.0</ROUGH-X>
+          <ROUGH-Z>0.0</ROUGH-Z>
+          <FINISH-X>0.0</FINISH-X>
+          <FINISH-Z>0.0</FINISH-Z>
+          <OUT-DIA>NA</OUT-DIA>
+          <ANGLE>NA</ANGLE>
+          <CHIP-BREAK>NA</CHIP-BREAK>
+          <DWELL>NA</DWELL>
+          <PECK-CLR>NA</PECK-CLR>
+          <PECK1>NA</PECK1>
+          <PECK2>NA</PECK2>
+          <ROOT-DIA>NA</ROOT-DIA>
+          <THD-COUNT>NA</THD-COUNT>
+          <THD-PITCH>NA</THD-PITCH>
+          <THREADS>NA</THREADS>
+          <SHIFT>NA</SHIFT>
+          <IMAGE3D>..\SST\SAMPLES\ROUTER\MTOOL3DH30.BMP</IMAGE3D>
+          <IMAGE2D>..\SST\SAMPLES\ROUTER\MTOOL2D30.BMP</IMAGE2D>
+          <BITMAP>..\SST\SAMPLES\ROUTER\_TTB11.BMP</BITMAP>
+          <IMAGE>..\SST\SAMPLES\ROUTER\MTOOL3DH30.BMP</IMAGE>
+          <HOLDER-DIAMETER-TOP>2.0</HOLDER-DIAMETER-TOP>
+          <HOLDER-DIAMETER-BOTTOM>2.0</HOLDER-DIAMETER-BOTTOM>
+          <HOLDER-DIAMETER-MIN>2.0</HOLDER-DIAMETER-MIN>
+          <HOLDER-DIAMETER-MAX>2.0</HOLDER-DIAMETER-MAX>
+          <HOLDER-DIAMETER>2.0</HOLDER-DIAMETER>
+          <HOLDER-LENGTH>1.0</HOLDER-LENGTH>
+          <HOLDER-NAME>DEFAULT HOLDER</HOLDER-NAME>
+          <HOLDER-LIB>NA</HOLDER-LIB>
+          <MIN-X>-3.1287</MIN-X>
+          <MIN-Y>7.0922</MIN-Y>
+          <MIN-Z>0.0</MIN-Z>
+          <MAX-X>10.1213</MAX-X>
+          <MAX-Y>20.3422</MAX-Y>
+          <MAX-Z>0.1</MAX-Z>
+          <OP>
+            <NAME>Contour (2D)</NAME>
+            <OPIDN>2</OPIDN>
+            <OPNUM>1</OPNUM>
+          </OP>
+        </TOOL-R>
+      </TOOL>
+      <TOOL>
+        <TOOL-B>
+          <COMMENT>Drill Block</COMMENT>
+          <DESCRIPTION>#100:1 - BLOCK DRILL - DRILL BLOCK</DESCRIPTION>
+          <NAME>DRILL BLOCK</NAME>
+          <TIME-LONG>0 HOURS, 0 MINUTES, 0 SECONDS</TIME-LONG>
+          <TIME-SHORT>00:00:00</TIME-SHORT>
+          <MIN-X>-0.7723</MIN-X>
+          <MIN-Y>9.3401</MIN-Y>
+          <MIN-Z>0.0</MIN-Z>
+          <MAX-X>8.2277</MAX-X>
+          <MAX-Y>18.3401</MAX-Y>
+          <MAX-Z>0.25</MAX-Z>
+          <IMAGE>..\SST\SAMPLES\ROUTER\BLOCK100.BMP</IMAGE>
+          <METRIC>NO</METRIC>
+          <NUMBER>100</NUMBER>
+          <OFFSET>0.0, 0.0, 0.0</OFFSET>
+          <STATION>
+            <AGGREGATE>NO</AGGREGATE>
+            <DESCRIPTION>#1:2 - 0.2500 DRILL</DESCRIPTION>
+            <NAME>1/4 DRILL</NAME>
+            <DIAMETER>0.25</DIAMETER>
+            <RADIUS>0.125</RADIUS>
+            <NUMBER>1</NUMBER>
+            <OFFSET>0.0, 0.0, 0.0</OFFSET>
+            <TYPE>Drill</TYPE>
+            <VIEW>_</VIEW>
+            <VNUM>0</VNUM>
+          </STATION>
+          <STATION>
+            <AGGREGATE>NO</AGGREGATE>
+            <DESCRIPTION>#2:3 - 0.2500 DRILL</DESCRIPTION>
+            <NAME>1/4 DRILL</NAME>
+            <DIAMETER>0.25</DIAMETER>
+            <RADIUS>0.125</RADIUS>
+            <NUMBER>2</NUMBER>
+            <OFFSET>1.2598, 0.0, 0.0</OFFSET>
+            <TYPE>Drill</TYPE>
+            <VIEW>TOP</VIEW>
+            <VNUM>1</VNUM>
+          </STATION>
+          <STATION>
+            <AGGREGATE>NO</AGGREGATE>
+            <DESCRIPTION>#3:4 - 0.2500 DRILL</DESCRIPTION>
+            <NAME>1/4 DRILL</NAME>
+            <DIAMETER>0.25</DIAMETER>
+            <RADIUS>0.125</RADIUS>
+            <NUMBER>3</NUMBER>
+            <OFFSET>2.5196, 0.0, 0.0</OFFSET>
+            <TYPE>Drill</TYPE>
+            <VIEW>FRONT</VIEW>
+            <VNUM>2</VNUM>
+          </STATION>
+          <STATION>
+            <AGGREGATE>NO</AGGREGATE>
+            <DESCRIPTION>#4:5 - 0.2500 DRILL</DESCRIPTION>
+            <NAME>1/4 DRILL</NAME>
+            <DIAMETER>0.25</DIAMETER>
+            <RADIUS>0.125</RADIUS>
+            <NUMBER>4</NUMBER>
+            <OFFSET>3.7794, 0.0, 0.0</OFFSET>
+            <TYPE>Drill</TYPE>
+            <VIEW>BACK</VIEW>
+            <VNUM>3</VNUM>
+          </STATION>
+          <STATION>
+            <AGGREGATE>NO</AGGREGATE>
+            <DESCRIPTION>#5:6 - 0.2500 DRILL</DESCRIPTION>
+            <NAME>1/4 DRILL</NAME>
+            <DIAMETER>0.25</DIAMETER>
+            <RADIUS>0.125</RADIUS>
+            <NUMBER>5</NUMBER>
+            <OFFSET>5.0392, 0.0, 0.0</OFFSET>
+            <TYPE>Drill</TYPE>
+            <VIEW>BOTTOM</VIEW>
+            <VNUM>4</VNUM>
+          </STATION>
+          <STATION>
+            <AGGREGATE>NO</AGGREGATE>
+            <DESCRIPTION>#6:7 - 0.2500 DRILL</DESCRIPTION>
+            <NAME>1/4 DRILL</NAME>
+            <DIAMETER>0.25</DIAMETER>
+            <RADIUS>0.125</RADIUS>
+            <NUMBER>6</NUMBER>
+            <OFFSET>0.0, -1.2598, 0.0</OFFSET>
+            <TYPE>Drill</TYPE>
+            <VIEW>RIGHT SIDE</VIEW>
+            <VNUM>5</VNUM>
+          </STATION>
+          <STATION>
+            <AGGREGATE>NO</AGGREGATE>
+            <DESCRIPTION>#7:8 - 0.2500 DRILL</DESCRIPTION>
+            <NAME>1/4 DRILL</NAME>
+            <DIAMETER>0.25</DIAMETER>
+            <RADIUS>0.125</RADIUS>
+            <NUMBER>7</NUMBER>
+            <OFFSET>0.0, -2.5196, 0.0</OFFSET>
+            <TYPE>Drill</TYPE>
+            <VIEW>LEFT SIDE</VIEW>
+            <VNUM>6</VNUM>
+          </STATION>
+          <STATION>
+            <AGGREGATE>NO</AGGREGATE>
+            <DESCRIPTION>#8:9 - 0.2500 DRILL</DESCRIPTION>
+            <NAME>1/4 DRILL</NAME>
+            <DIAMETER>0.25</DIAMETER>
+            <RADIUS>0.125</RADIUS>
+            <NUMBER>8</NUMBER>
+            <OFFSET>0.0, -3.7794, 0.0</OFFSET>
+            <TYPE>Drill</TYPE>
+            <VIEW>ISO</VIEW>
+            <VNUM>7</VNUM>
+          </STATION>
+          <STATION>
+            <AGGREGATE>NO</AGGREGATE>
+            <DESCRIPTION>#9:10 - 0.2500 DRILL</DESCRIPTION>
+            <NAME>1/4 DRILL</NAME>
+            <DIAMETER>0.25</DIAMETER>
+            <RADIUS>0.125</RADIUS>
+            <NUMBER>9</NUMBER>
+            <OFFSET>0.0, -5.0392, 0.0</OFFSET>
+            <TYPE>Drill</TYPE>
+            <VIEW>_</VIEW>
+            <VNUM>8</VNUM>
+          </STATION>
+          <MIN-X>NA</MIN-X>
+          <MIN-Y>NA</MIN-Y>
+          <MIN-Z>NA</MIN-Z>
+          <MAX-X>NA</MAX-X>
+          <MAX-Y>NA</MAX-Y>
+          <MAX-Z>NA</MAX-Z>
+        </TOOL-B>
+      </TOOL>
+    </TOOLS>
+    <OFFSETS>
+      <OFFSET>
+        <GCODE>G54</GCODE>
+        <NUMBER>0</NUMBER>
+        <ORIGIN>0.0, 0.0, 0.0</ORIGIN>
+        <ORIGIN-WORLD>0.0, 0.0, 0.0</ORIGIN-WORLD>
+        <ORIGIN-VIEW>0.0, 0.0, 0.0</ORIGIN-VIEW>
+        <PLANE-NAME>Top</PLANE-NAME>
+        <PLANE-NUMBER>1</PLANE-NUMBER>
+        <VIEW>Top</VIEW>
+        <VNUM>1</VNUM>
+      </OFFSET>
+    </OFFSETS>
+    <MIN-X>-3.1287</MIN-X>
+    <MIN-Y>7.0922</MIN-Y>
+    <MIN-Z>0.0</MIN-Z>
+    <MAX-X>10.1213</MAX-X>
+    <MAX-Y>20.3422</MAX-Y>
+    <MAX-Z>0.25</MAX-Z>
+    <TIME-LONG>0 HOURS, 2 MINUTES, 45 SECONDS</TIME-LONG>
+    <TIME-SHORT>00:02:45</TIME-SHORT>
+  </NCFILE>
+</SETUPSHEET>

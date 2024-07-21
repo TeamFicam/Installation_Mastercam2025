@@ -1,0 +1,163 @@
+# 				Metric Relief Groove Table
+#
+# Copyright (C) 2022 CNC Software, LLC.  All rights reserved.
+#
+# comments start with a # sign and can be put anywhere in the table
+#
+# table format is as follows:
+# 1st line: name to appear in selection list in double quotes (ex. "M12")
+#
+# 2nd line in general:
+# column 1: index of type of relief groove
+# 0 = DIN 76 T1 Shape A
+# 1 = DIN 76 T1 Shape C
+# 2 = DIN 509 Shape E
+# 3 = DIN 509 Shape F
+#
+# 2nd line remaining columns: table specific
+#
+# 2nd line (DIN 76 T1 Shape A):
+# 0  d  P dg  g   r
+# 2nd line (DIN 76 T1 Shape C):
+# 1  d  P dg  g   r
+# 2nd line (DIN 509 Shape E):
+# 2  d  r1  t1  f1  g
+# 2nd line (DIN 509 Shape F):
+# 3  d  r1  t1  f1  g
+
+# DIN 76 T1 Shape A table (M1 - M64)
+"M1"
+0        1.0         .25        0.6         0.9        0.12
+"M2"
+0        2.0         .4         1.3         1.4        0.2
+"M3"
+0        3.0         .5         2.2         1.75       0.2
+"M4"
+0        4.0         .7         2.9         2.45       0.4
+"M5"
+0        5.0         .8         3.7         2.8        0.4
+"M6"
+0        6.0        1.0         4.4         3.5        0.6
+"M8"
+0        8.0        1.25        6.0         4.4        0.6
+"M10"
+0       10.0        1.5         7.7         5.2        0.8
+"M12"
+0       12.0        1.75        9.4         6.1        1.0
+"M16"
+0       16.0        2.0         13.0         7.0        1.0
+"M20"
+0       20.0        2.5        16.4         8.7        1.2
+"M24"
+0       24.0        3.0         19.6        10.5        1.6
+"M30"
+0       30.0        3.5         25.0        12.0        1.6
+"M36"
+0       36.0        4.0         30.3        14.0        2.0
+"M42"
+0       42.0        4.5         35.6        16.0        2.0
+"M48"
+0       48.0        5.0         41.0        17.5        2.5
+"M56"
+0       56.0        5.5         48.3        19.0        3.2
+"M64"
+0       64.0        6.0         55.7        21.0        3.2
+
+# DIN 76 T1 Shape C table (M1 - M64)
+"M1"
+1        1.0         .25         1.1         1.4        0.12
+"M2"
+1        2.0         .4          2.2         2.2        0.2
+"M3"
+1        3.0         .5          3.3         2.7       0.2
+"M4"
+1        4.0         .7          4.3         3.8       0.4
+"M5"
+1        5.0         .8          5.3         4.2        0.4
+"M6"
+1        6.0        1.0          6.5         5.2        0.6
+"M8"
+1        8.0        1.25         8.5         6.7        0.6
+"M10"
+1       10.0        1.5         10.5         7.8        0.8
+"M12"
+1       12.0        1.75        12.5         9.1        1.0
+"M16"
+1       16.0        2.0         16.5        10.3        1.0
+"M20"
+1       20.0        2.5         20.5        13.0        1.2
+"M24"
+1       24.0        3.0         24.5        15.2        1.6
+"M30"
+1       30.0        3.5         30.5        17.7        2.0
+"M36"
+1       36.0        4.0         36.5        20.0        2.0
+"M42"
+1       42.0        4.5         42.5        23.0        2.0
+"M48"
+1       48.0        5.0         48.5        26.0        2.5
+"M56"
+1       56.0        5.5         56.5        28.0        3.2
+"M64"
+1       64.0        6.0         64.5        30.0        3.2
+
+# DIN 509 Shape E table 
+"Normal Stress:   OD < 1.6mm   (1.0mm)"
+2        1.0        0.1          0.1         0.5        0.8
+"Normal Stress:   1.6mm < OD <= 3.0mm   (2.0mm)"
+2        2.0        0.2          0.1         1.0        0.9
+"Normal Stress:   3.0mm < OD <= 10.0mm   (6.0mm)"
+2        6.0        0.4          0.2         2.0        1.1
+"Normal Stress:   10.0mm < OD <= 18.0mm   (12.0mm)"
+2       12.0        0.6          0.2         2.0        1.4
+"Normal Stress:   10.0mm < OD <= 18.0mm   (16.0mm)"
+2       16.0        0.6          0.2         2.0        1.4
+"Normal Stress:   18.0mm < OD <= 80.0mm   (25.0mm)"
+2       25.0        0.6          0.3         2.5        2.1
+"Normal Stress:   18.0mm < OD <= 80.0mm   (50.0mm)"
+2       50.0        0.6          0.3         2.5        2.1
+"Normal Stress:   OD > 80.0mm   (100.0mm)"
+2      100.0        0.8          0.4         2.5        2.1
+"High Stress:   18.0mm < OD <= 50.0mm   (25.0mm)"
+2      25.0         1.0          0.2         2.5        1.8
+"High Stress:   18.0mm < OD <= 50.0mm   (50.0mm)"
+2      50.0         1.0          0.2         2.5        1.8
+"High Stress:   50.0mm < OD <= 80.0mm   (60.0mm)"
+2      60.0         1.6          0.3         4.0        3.1
+"High Stress:   50.0mm < OD <= 80.0mm   (75.0mm)"
+2      75.0         1.6          0.3         4.0        3.1
+"High Stress:   80.0mm < OD <= 125.0mm   (100.0mm)"
+2     100.0         2.5          0.4         5.0        4.8
+"High Stress:   OD >  125.0mm   (150.0mm)"
+2     150.0         4.0          0.5         7.0        6.4
+
+# DIN 509 Shape F table
+"Normal Stress:   OD < 1.6mm   (1.0mm)"
+3        1.0        0.1          0.1         0.5        0.8
+"Normal Stress:   1.6mm < OD <= 3.0mm   (2.0mm)"
+3        2.0        0.2          0.1         1.0        0.9
+"Normal Stress:   3.0mm < OD <= 10.0mm   (6.0mm)"
+3        6.0        0.4          0.2         2.0        1.1
+"Normal Stress:   10.0mm < OD <= 18.0mm   (12.0mm)"
+3       12.0        0.6          0.2         2.0        1.4
+"Normal Stress:   10.0mm < OD <= 18.0mm   (16.0mm)"
+3       16.0        0.6          0.2         2.0        1.4
+"Normal Stress:   18.0mm < OD <= 80.0mm   (25.0mm)"
+3       25.0        0.6          0.3         2.5        2.1
+"Normal Stress:   18.0mm < OD <= 80.0mm   (50.0mm)"
+3       50.0        0.6          0.3         2.5        2.1
+"Normal Stress:   OD > 80.0mm   (100.0mm)"
+3      100.0        1.0          0.4         2.5        2.1
+"High Stress:   18.0mm < OD <= 50.0mm   (25.0mm)"
+3      25.0         1.0          0.2         2.5        1.8
+"High Stress:   18.0mm < OD <= 50.0mm   (50.0mm)"
+3      50.0         1.0          0.2         2.5        1.8
+"High Stress:   50.0mm < OD <= 80.0mm   (60.0mm)"
+3      60.0         1.6          0.3         4.0        3.1
+"High Stress:   50.0mm < OD <= 80.0mm   (75.0mm)"
+3      75.0         1.6          0.3         4.0        3.1
+"High Stress:   80.0mm < OD <= 125.0mm   (100.0mm)"
+3     100.0         2.5          0.4         5.0        4.8
+"High Stress:   OD >  125.0mm   (150.0mm)"
+3     150.0         4.0          0.5         7.0        6.4
+

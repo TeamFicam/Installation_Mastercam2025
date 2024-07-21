@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<HST_Formula_Data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<toolpath name="Area clearance" target="AREACLEAR">
+		<page name="Cut parameters" target="CUT_PARAMETERS__PAGE">
+			<group name="Stepdown" target="STEPDOWN__GROUP">
+				<param name="Stepdown" target="STEPDOWN">(@STEPDOWN)</param>
+				<param name="Min stepdown" target="MINIMUM_STEPDOWN">(@MINIMUM_STEPDOWN)</param>
+				<param name="Max profile stepover" target="MAXIMUM_STEPOVER">(@MAXIMUM_STEPOVER)</param>
+			</group>
+			<group name="XY stepover" target="XY_STEPOVER__GROUP">
+				<param name="Max" target="PERCENT_MAXIMUM">(@PERCENT_MAXIMUM)</param>
+				<param name="Min" target="PERCENT_MINIMUM">(@PERCENT_MINIMUM)</param>
+			</group>
+			<group name="Smoothing" target="SMOOTHING__GROUP">
+				<param name="Max radius" target="MAXIMUM_RADIUS">(@MAXIMUM_RADIUS)</param>
+				<param name="Profile tolerance" target="PROFILE_TOLERANCE">(@PROFILE_TOLERANCE)</param>
+				<param name="Offset tolerance" target="OFFSET_TOLERANCE">(@OFFSET_TOLERANCE)</param>
+			</group>
+			<group name="Keep tool down within" target="KEEP_TOOL_DOWN_WITHIN__GROUP">
+				<param name="Distance" target="KEEP_TOOL_DOWN_DISTANCE">(@KEEP_TOOL_DOWN_DISTANCE)</param>
+				<param name="% of tool diameter" target="KEEP_TOOL_DOWN_PERCENT">(@KEEP_TOOL_DOWN_PERCENT)</param>
+			</group>
+		</page>
+		<page name="Transitions" target="TRANSITIONS__PAGE">
+			<group name="Profile ramp" target="PROFILE_RAMP__GROUP">
+				<param name="Profile ramp" target="MINIMUM_PROFILE">(@MINIMUM_PROFILE)</param>
+			</group>
+			<group name="Entry helix" target="ENTRY_HELIX__GROUP">
+				<param name="Radius" target="ENTRY_HELIX_RADIUS">(@ENTRY_HELIX_RADIUS)</param>
+			</group>
+		</page>
+		<page name="Linking page" target="LINKING__PAGE">
+			<group name="Retracts" target="RETRACTS__GROUP">
+				<param name="Curl up" target="CURL_UP">(@CURL_UP)</param>
+				<param name="Curl down" target="CURL_DOWN">(@CURL_DOWN)</param>
+				<param name="Part clearance" target="PART_CLEARANCE">(@PART_CLEARANCE)</param>
+			</group>
+			<group name="Leads" target="LEADS__GROUP">
+				<param name="Max trimming distance" target="MAX_TRIMMING_DISTANCE">(@MAX_TRIMMING_DISTANCE)</param>
+			</group>
+		</page>
+	</toolpath>
+
+	<toolpath name="Waterline" target="WATERLINE">
+		<page name="Cut parameters" target="CUT_PARAMETERS__PAGE">
+			<group name="Stepdown" target="STEPDOWN__GROUP">
+				<param name="Stepdown" target="STEPDOWN">(@STEPDOWN)</param>
+				<param name="Min stepdown" target="MINIMUM_STEPDOWN">(@MINIMUM_STEPDOWN)</param>
+				<param name="Max profile stepover" target="MAXIMUM_STEPOVER">(@MAXIMUM_STEPOVER)</param>
+			</group>
+			<group name="Smoothing" target="SMOOTHING__GROUP">
+				<param name="Max radius" target="MAXIMUM_RADIUS">(@MAXIMUM_RADIUS)</param>
+				<param name="Profile tolerance" target="PROFILE_TOLERANCE">(@PROFILE_TOLERANCE)</param>
+				<param name="Offset tolerance" target="OFFSET_TOLERANCE">(@PROFILE_TOLERANCE)</param>
+			</group>
+			<group name="Keep tool down within" target="KEEP_TOOL_DOWN_WITHIN__GROUP">
+				<param name="Distance" target="KEEP_TOOL_DOWN_DISTANCE">(@KEEP_TOOL_DOWN_DISTANCE)</param>
+				<param name="% of tool diameter" target="KEEP_TOOL_DOWN_PERCENT">(@KEEP_TOOL_DOWN_PERCENT)</param>
+			</group>
+		</page>
+		<page name="Linking page" target="LINKING__PAGE">
+			<group name="Retracts" target="RETRACTS__GROUP">
+				<param name="Curl up" target="CURL_UP">(@CURL_UP)</param>
+				<param name="Curl down" target="CURL_DOWN">(@CURL_DOWN)</param>
+				<param name="Part clearance" target="PART_CLEARANCE">(@PART_CLEARANCE)</param>
+			</group>
+			<group name="Leads" target="LEADS__GROUP">
+				<param name="Horizontal arc entry" target="HORIZONTAL_ARC_ENTRY">(@HORIZONTAL_ARC_ENTRY)</param>
+				<param name="Max trimming distance" target="MAX_TRIMMING_DISTANCE">(Max (@MAX_TRIMMING_DISTANCE)</param>
+			</group>
+		</page>
+	</toolpath>
+	<toolpath name="Scallop" target="SCALLOP">
+		<page name="Cut parameters" target="CUT_PARAMETERS__PAGE">
+			<group name="Stepover" target="STEPOVER__GROUP">
+				<param name="Stepover" target="STEPOVER">(@STEPOVER)</param>
+			</group>
+			<group name="Keep tool down within" target="KEEP_TOOL_DOWN_WITHIN__GROUP">
+				<param name="Distance" target="KEEP_TOOL_DOWN_DISTANCE">(@KEEP_TOOL_DOWN_DISTANCE)</param>
+				<param name="% of tool diameter" target="KEEP_TOOL_DOWN_PERCENT">(@KEEP_TOOL_DOWN_PERCENT)</param>
+			</group>
+		</page>
+		<page name="Linking page" target="LINKING__PAGE">
+			<group name="Leads" target="LEADS__GROUP">
+				<param name="Max trimming distance" target="MAX_TRIMMING_DISTANCE">(@MAX_TRIMMING_DISTANCE)</param>
+			</group>
+		</page>
+	</toolpath>
+	<toolpath name="Horizontal Area" target="HORIZONTAL_AREA">
+		<page name="Cut parameters" target="CUT_PARAMETERS__PAGE">
+			<group name="Depth cuts" target="DEPTH_CUTS__GROUP">
+				<param name="Stepdown" target="DEPTH_CUTS_STEPDOWN">(@DEPTH_CUTS_STEPDOWN)</param>
+			</group>
+			<group name="XY stepover" target="XY_STEPOVER__GROUP">
+				<param name="Max" target="PERCENT_MAXIMUM">(@PERCENT_MAXIMUM)</param>
+				<param name="Min" target="PERCENT_MINIMUM">(@PERCENT_MINIMUM)</param>
+			</group>
+			<group name="Smoothing" target="SMOOTHING__GROUP">
+				<param name="Max radius" target="MAXIMUM_RADIUS">(@MAXIMUM_RADIUS)</param>
+				<param name="Profile tolerance" target="PROFILE_TOLERANCE">(@PROFILE_TOLERANCE)</param>
+				<param name="Offset tolerance" target="OFFSET_TOLERANCE">(@OFFSET_TOLERANCE)</param>
+			</group>
+			<group name="Keep tool down within" target="KEEP_TOOL_DOWN_WITHIN__GROUP">
+				<param name="Distance" target="KEEP_TOOL_DOWN_DISTANCE">(@KEEP_TOOL_DOWN_DISTANCE)</param>
+				<param name="% of tool diameter" target="KEEP_TOOL_DOWN_PERCENT">(@KEEP_TOOL_DOWN_PERCENT)</param>
+			</group>
+		</page>
+		<page name="Transitions" target="TRANSITIONS__PAGE">
+			<group name="Profile ramp" target="PROFILE_RAMP__GROUP">
+				<param name="Preferred profile length" target="MINIMUM_PROFILE">(@MINIMUM_PROFILE)</param>
+			</group>
+			<group name="Entry helix" target="ENTRY_HELIX__GROUP">
+				<param name="Radius" target="ENTRY_HELIX_RADIUS">(@ENTRY_HELIX_RADIUS)</param>
+			</group>
+		</page>
+		<page name="Linking page" target="LINKING__PAGE">
+			<group name="Leads" target="LEADS__GROUP">
+				<param name="Max trimming distance" target="MAX_TRIMMING_DISTANCE">(@MAX_TRIMMING_DISTANCE)</param>
+			</group>
+		</page>
+	</toolpath>
+	<toolpath name="Raster" target="RASTER">
+		<page name="Cut parameters" target="CUT_PARAMETERS__PAGE">
+			<group name="Stepover" target="STEPOVER__GROUP">
+				<param name="Stepover" target="STEPOVER">(@STEPOVER)</param>
+			</group>
+			<group name="Keep tool down within" target="KEEP_TOOL_DOWN_WITHIN__GROUP">
+				<param name="Distance" target="KEEP_TOOL_DOWN_DISTANCE">(@KEEP_TOOL_DOWN_DISTANCE)</param>
+				<param name="% of tool diameter" target="KEEP_TOOL_DOWN_PERCENT">(@KEEP_TOOL_DOWN_PERCENT)</param>
+			</group>
+		</page>
+		<page name="Linking page" target="LINKING__PAGE">
+			<group name="Retracts" target="RETRACTS__GROUP">
+				<param name="Curl up" target="CURL_UP">(@CURL_UP)</param>
+				<param name="Curl down" target="CURL_DOWN">(@CURL_DOWN)</param>
+				<param name="Part clearance" target="PART_CLEARANCE">(@PART_CLEARANCE)</param>
+			</group>
+			<group name="Leads" target="LEADS__GROUP">
+				<param name="Max trimming distance" target="MAX_TRIMMING_DISTANCE">(@MAX_TRIMMING_DISTANCE)</param>
+			</group>
+		</page>
+	</toolpath>
+	<toolpath name="Pencil" target="PENCIL">
+		<page name="Cut parameters" target="CUT_PARAMETERS__PAGE">
+			<group name="Stepover" target="STEPOVER__GROUP">
+				<param name="Stepover" target="STEPOVER">(@STEPOVER)</param>
+			</group>
+			<group name="Keep tool down within" target="KEEP_TOOL_DOWN_WITHIN__GROUP">
+				<param name="Distance" target="KEEP_TOOL_DOWN_DISTANCE">(@KEEP_TOOL_DOWN_DISTANCE)</param>
+				<param name="% of tool diameter" target="KEEP_TOOL_DOWN_PERCENT">(@KEEP_TOOL_DOWN_PERCENT)</param>
+			</group>
+		</page>
+		<page name="Linking page" target="LINKING__PAGE">
+			<group name="Retracts" target="RETRACTS__GROUP">
+				<param name="Curl up" target="CURL_UP">(@CURL_UP)</param>
+				<param name="Curl down" target="CURL_DOWN">(@CURL_DOWN)</param>
+				<param name="Part clearance" target="PART_CLEARANCE">(@PART_CLEARANCE)</param>
+			</group>
+			<group name="Leads" target="LEADS__GROUP">
+				<param name="Max trimming distance" target="MAX_TRIMMING_DISTANCE">(@MAX_TRIMMING_DISTANCE)</param>
+			</group>
+		</page>
+	</toolpath>
+	<toolpath name="Radial" target="RADIAL">
+		<page name="Cut parameters" target="CUT_PARAMETERS__PAGE">
+			<group name="Passes" target="PASSES__GROUP">
+				<param name="Stepover" target="STEPOVER">(@STEPOVER)</param>
+			</group>
+			<group name="Keep tool down within" target="KEEP_TOOL_DOWN_WITHIN__GROUP">
+				<param name="Distance" target="KEEP_TOOL_DOWN_DISTANCE">(@KEEP_TOOL_DOWN_DISTANCE)</param>
+				<param name="% of tool diameter" target="KEEP_TOOL_DOWN_PERCENT">(@KEEP_TOOL_DOWN_PERCENT)</param>
+			</group>
+		</page>
+		<page name="Linking page" target="LINKING__PAGE">
+			<group name="Leads" target="LEADS__GROUP">
+				<param name="Max trimming distance" target="MAX_TRIMMING_DISTANCE">(@MAX_TRIMMING_DISTANCE)</param>
+			</group>
+		</page>
+	</toolpath>
+	<toolpath name="Spiral" target="SPIRAL">
+		<page name="Cut parameters" target="CUT_PARAMETERS__PAGE">
+			<group name="Passes" target="PASSES__GROUP">
+				<param name="Stepover" target="STEPOVER">(@STEPOVER)</param>
+			</group>
+			<group name="Keep tool down within" target="KEEP_TOOL_DOWN_WITHIN__GROUP">
+				<param name="Distance" target="KEEP_TOOL_DOWN_DISTANCE">(@KEEP_TOOL_DOWN_DISTANCE)</param>
+				<param name="% of tool diameter" target="KEEP_TOOL_DOWN_PERCENT">(@KEEP_TOOL_DOWN_PERCENT)</param>
+			</group>
+		</page>
+		<page name="Linking page" target="LINKING__PAGE">
+			<group name="Leads" target="LEADS__GROUP">
+				<param name="Max trimming distance" target="MAX_TRIMMING_DISTANCE">(@MAX_TRIMMING_DISTANCE)</param>
+			</group>
+		</page>
+	</toolpath>
+</HST_Formula_Data>

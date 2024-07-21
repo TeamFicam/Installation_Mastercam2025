@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<machine_definition>
+    <machine_data name="1_5XMAGNUM_VMCTTBC" version="1.8" units="metric">
+        <view_transform initialvalue="1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000" />
+    </machine_data>
+    <axis id="B" type="rotation" x="0.00000000" y="1.00000000" z="0.00000000" minvalue="-1000.000000" maxvalue="1000.000000" valuetype="cont" initial_value="0.000000" rzx="0.00000000" rzy="0.00000000" rzz="0.00000000">
+        <geometry name="B1" geo="5xmagnum_vttbc_b1.stl" clrr="0.00000000" clrg="0.50196081" clrb="0.50196081" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+        <geometry name="B2" geo="5xmagnum_vttbc_b2.stl" clrr="1.00000000" clrg="0.98431373" clrb="0.94117647" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+        <geometry name="B3" geo="5xmagnum_vttbc_b3.stl" clrr="1.00000000" clrg="0.98431373" clrb="0.94117647" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+        <axis id="C" type="rotation" x="0.00000000" y="0.00000000" z="1.00000000" minvalue="-1000.000000" maxvalue="1000.000000" valuetype="cont" initial_value="0.000000" rzx="0.00000000" rzy="0.00000000" rzz="0.00000000">
+            <geometry name="C1" geo="5xmagnum_vttbc_c1.stl" clrr="1.00000000" clrg="0.98431373" clrb="0.94117647" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+            <geometry name="C2" geo="5xmagnum_vttbc_c2.stl" clrr="0.75294119" clrg="0.86274511" clrb="0.75294119" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+            <transform id="workpiece_transform" initialvalue="1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000">
+                <geometry name="fixture" geo="fixture.stl" clrr="0.50196081" clrg="0.00000000" clrb="0.50196081" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="fixture" />
+                <geometry name="initialstock" geo="stock.stl" clrr="0.43137255" clrg="0.65882355" clrb="1.00000000" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="initialstock" />
+                <geometry name="stock" geo="stock.stl" clrr="0.43137255" clrg="0.65882355" clrb="1.00000000" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="stock" />
+                <geometry name="toolpath" geo="toolpath.asc" clrr="0.00000000" clrg="0.00000000" clrb="0.00000000" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="toolpath" />
+                <geometry name="workpiece" geo="werkstueck.stl" clrr="0.41176471" clrg="0.41176471" clrb="0.41176471" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="tablereflection.bmp" objtype="workpiece" />
+            </transform>
+        </axis>
+    </axis>
+    <axis id="X" type="translation" x="1.00000000" y="0.00000000" z="0.00000000" minvalue="-381.000000" maxvalue="381.000000" valuetype="cont" initial_value="0.000000">
+        <geometry name="X1" geo="5xmagnum_vttbc_x1.stl" clrr="0.75294119" clrg="0.86274511" clrb="0.75294119" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+        <axis id="Y" type="translation" x="0.00000000" y="1.00000000" z="0.00000000" minvalue="-254.000000" maxvalue="254.000000" valuetype="cont" initial_value="0.000000">
+            <geometry name="Y1" geo="5xmagnum_vttbc_y1.stl" clrr="0.00000000" clrg="0.50196081" clrb="0.50196081" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+            <axis id="Z" type="translation" x="0.00000000" y="0.00000000" z="1.00000000" minvalue="0.000000" maxvalue="637.540000" valuetype="cont" initial_value="0.000000">
+                <geometry name="Z1" geo="5xmagnum_vttbc_z1.stl" clrr="0.75294119" clrg="0.86274511" clrb="0.75294119" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+                <geometry name="Z2" geo="5xmagnum_vttbc_z2.stl" clrr="1.00000000" clrg="0.98431373" clrb="0.94117647" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+                <transform id="holder_transform" initialvalue="1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000">
+                    <geometry name="tool" geo="tool.stl" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="tablereflection.bmp" objtype="tool" cuttr="1.00000000" cuttg="1.00000000" cuttb="0.00000000" noncuttr="0.86274511" noncuttg="0.86274511" noncuttb="0.86274511" arborr="0.66274512" arborg="0.66274512" arborb="0.66274512" holderr="0.41176471" holderg="0.41176471" holderb="0.41176471" />
+                </transform>
+            </axis>
+        </axis>
+    </axis>
+    <geometry name="mh_BASE1" geo="5xmagnum_vttbc_base1.stl" clrr="1.00000000" clrg="0.98431373" clrb="0.94117647" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+    <geometry name="mh_BASE2" geo="5xmagnum_vttbc_base2.stl" clrr="0.75294119" clrg="0.86274511" clrb="0.75294119" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+    <geometry name="mh_BASE3" geo="5xmagnum_vttbc_base3.stl" clrr="0.00000000" clrg="0.50196081" clrb="0.50196081" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+    <geometry name="mh_BASE4" geo="5xmagnum_vttbc_base4.stl" clrr="0.65098041" clrg="0.79215688" clrb="0.94117647" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+    <geometry name="mh_BASE5" geo="5xmagnum_vttbc_base5.stl" clrr="1.00000000" clrg="1.00000000" clrb="0.00000000" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+    <geometry name="mh_BASE6" geo="5xmagnum_vttbc_base6.stl" clrr="1.00000000" clrg="0.98431373" clrb="0.94117647" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+    <geometry name="mh_BASE7" geo="5xmagnum_vttbc_base7.stl" clrr="0.00000000" clrg="0.50196081" clrb="0.50196081" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+    <collcheck id="cc1" name="cc1" group1="X1,Y1,Z1,Z2,tool" dynamic1="true" dynamic2="true" active="true" group2="B1,B2,B3,C1,C2,workpiece,fixture" />
+</machine_definition>

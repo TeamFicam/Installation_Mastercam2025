@@ -1,0 +1,121 @@
+; Renishaw Productivity+ Custom Macro
+; Definition File for Non-Contact Toolsetting Broken Tool Detection - Plunge Checking
+; Version: 0.01. $Revision: $
+
+[FileType]
+; Do NOT remove this section or this Custom Macro will not load
+Product		Renishaw Productivity+
+File		Custom Macro
+Version		0.07.002
+
+[MachineType]
+MACHINETYPE OKUMA
+
+[Toolsetting Type]
+"Non Contact"
+
+; Definition File Language - language of displayable text strings in this file
+[Language]
+English
+
+; Existing Menu Item in application that Custom Macro name and its Parent Menu are to appear under
+; FIELD CAN BE OMITTED
+[Existing Menu]
+"Tool setting"
+
+; Parent Menu - used as parent menu item text. ID MUST BE UNIQUE FOR EACH CUSTOM MACRO!
+; FIELD CAN BE OMITTED
+[Parent Menu]					
+"Non Contact (NC1, NC2, NC4...)"
+
+; Custom Macro Name - used as menu item text
+; FIELD IS COMPULSORY
+[Custom Macro]
+; Name							ID
+"Broken Tool - Plunge (Okuma)"			48871
+
+; This field specifies the default name given to a statement of this type
+; The name must NOT include any of the following characters and cannot start with a numeric character
+; {}[]/\:<>@~#-=+()*&^%$£!"`¬|;,.'?
+[Default Statement Name]
+"Broken_Tool_Check_Plunge"
+
+; Name or Program Number of macro
+[MacroID]
+9863
+
+; Properties - Do not use ID 1
+; Name										ID	Datatype	Default		Range		Category	Output Parameter	Metafile ID (optional)	Help Text			
+[Properties]
+"Use Current Tool Change ID (T)"			30	YESNO		YES			{NA}		100				-				11052					"When this value is set to 'Yes' the current tool change ID is used as the Length Offset Number. When set to 'No' you can specfy a Length Offset number."
+"Tool Length Offset Number (T)"				31	INT			0			GT0:LE999	100				CM_T			11052					"Length Offset Number. This is the offset location in which the measured tool length is stored."
+
+"Do Tolerance Check (H)"					20	YESNO		NO			{NA}		100				-				11052					"Set this value to 'Yes' to perform a tolerance check and pass the tolerance value to the toolsetting macro."
+"Tolerance (H)"								21	LINEAR		0.5			{NA}		100				CM_H			11052					"Tolerance value that defines when the tool is defined as broken."
+
+"Prevent Out of Tolerance Alarms (M1)"		22	YESNO		NO			{NA}		100				-				11052					"Tool out of tolerance flag. Setting this value to 'Yes' will not raise an Out of Tolerance alarm, but set a variable flag when tool is out of tolerance."
+"Flag to Prevent Out Of Tol Alarms (M1)"	33	INT			1			GT0:LE999	100				CM_M			11052					"The default value for this function is 1 and does not need to be altered. The Out Of Tol alarm will be prevented and a variable flag set if the tool is out of tolerance."
+
+"Use Default Spindle Speed (S)"				23	YESNO		YES			{NA}		100				-				11052					"Use the tool setting macro's default value for Spindle Speed. Set this value to 'Yes' to specify a custom Spindle Speed."
+"Spindle Speed (S)"							24	INT			3150		GT0			100				CM_S			11052					"Spindle speed at which checking for a broken tool takes place. Measurement cycles are optimised for a spindle speed of 3150 rev/min, though some tools (e.g. those that are unbalanced or large) must be run at slower speeds. It is responsibility of the User to set the spindle speed accordingly, with the minimum speed being 800 rev/min."
+
+"Use Radial Step-over (Y)"					29	YESNO		NO			{NA}		100				-				11052					"To include a radial step-over distance set this flag to 'Yes'."
+"Radial Step-over (Y)"						32	LINEAR		0.0			{NA}		100				CM_Y			11052					"Radial step-over distance. This is the offset across the beam at which measurement takes place. The value must be less than the radius of the tool. The tool always comes down first on the beam centre-line."
+
+"Retract To Safety Plane (Z)"				26	YESNO		NO			{NA}		100				-				11052					"When this value is set to 'Yes' the tool will be retracted in the spindle axis by the value specified in the Safety Plane property."
+"Safety Plane (Z)"							27	LINEAR		0.0			{NA}		100				CM_Z			11052					"Safety plane height. The distance in the spindle axis to which the tool is retracted."
+
+[Visibility]
+PROPERTIES	21
+CTRL_PROPS		20 ("Do Tolerance Check (H)")
+CTRL_VALUES		2 ("YES")
+
+PROPERTIES	22
+CTRL_PROPS		20 ("Do Tolerance Check (H)")
+CTRL_VALUES		2 ("YES")
+
+PROPERTIES	24
+CTRL_PROPS		23 ("Use Default Spindle Speed (S)")
+CTRL_VALUES		1 ("NO")
+
+PROPERTIES	27
+CTRL_PROPS		26 ("Retract To Safety Plane (Z)")
+CTRL_VALUES		2 ("YES")
+
+PROPERTIES	32
+CTRL_PROPS		29 ("Use Radial Step-over (Y)")
+CTRL_VALUES		2 ("YES")
+
+PROPERTIES	31
+CTRL_PROPS		30 ("Use Current Tool Change ID")
+CTRL_VALUES		1 ("NO")
+
+PROPERTIES	33
+CTRL_PROPS		22 ("Prevent Out of Tolerance Alarms (M1)")
+CTRL_VALUES		2 ("YES")
+
+[Enums]
+; ENUM_NAME - name of enum set
+; ENUM_ITEM - item text, ID and index
+; N.B. When post processing, the selected enum item ID will be outputted with the Output Parameter.
+;	e.g.	enum type			: YESNO
+;			selected enum item	: YES
+;			enum item value		: 1
+;			Output Parameter	: CM_B
+;			Output				= B1
+;												ID		Index (order in which they will appear)
+ENUM_NAME		TOL_ALARM						
+ENUM_ITEM		"Yes"							0		0
+ENUM_ITEM		"No"							1		1
+
+[Categories]
+; Name							ID
+"Nominals"						100
+
+[Resources]
+; File name of resource DLL containing metafiles (optional)
+PP_tsToolSettingRes.dll
+
+; The post processor section to call when post processing occurs
+[Post Section]
+TOOLSETTING_CUSTOMMACRO_TOOL_CHANGE_APPLY_H

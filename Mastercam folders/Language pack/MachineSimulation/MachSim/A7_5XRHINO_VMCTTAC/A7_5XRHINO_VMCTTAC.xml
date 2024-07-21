@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<machine_definition>
+    <machine_data name="A8_5XRHINO_VMCTTAC" version="1.7" units="metric" />
+    <axis id="Y" type="translation" x="0.00000000" y="-1.00000000" z="0.00000000" minvalue="-381.000000" maxvalue="381.000000" valuetype="cont" initial_value="0.000000">
+        <axis id="X" type="translation" x="-1.00000000" y="0.00000000" z="0.00000000" minvalue="-762.000000" maxvalue="762.000000" valuetype="cont" initial_value="0.000000">
+            <axis id="A" type="rotation" x="-1.00000000" y="0.00000000" z="0.00000000" minvalue="-90.000000" maxvalue="120.000000" valuetype="cont" initial_value="0.000000" rzx="0.00000000" rzy="0.00000000" rzz="-12.69999981">
+                <geometry name="A1" geo="rhino_iv_5x_a1.stl" clrr="1.00000000" clrg="0.98431373" clrb="0.94117647" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="tablereflection.bmp" objtype="geometry" />
+                <geometry name="A2" geo="rhino_iv_5x_a2.stl" clrr="0.00000000" clrg="0.50196081" clrb="0.50196081" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="tablereflection.bmp" objtype="geometry" />
+                <axis id="B" type="rotation" x="0.00000000" y="0.00000000" z="-1.00000000" minvalue="-100000.000000" maxvalue="100000.000000" valuetype="cont" initial_value="0.000000" rzx="0.00000000" rzy="0.00000000" rzz="0.00000000">
+                    <geometry name="B1" geo="rhino_iv_5x_c1.stl" clrr="1.00000000" clrg="0.98431373" clrb="0.94117647" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="tablereflection.bmp" objtype="geometry" />
+                    <transform id="workpiece_transform" initialvalue="1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000">
+                        <geometry name="fixture" geo="fixture.stl" clrr="0.50196081" clrg="0.00000000" clrb="0.50196081" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="fixture" />
+                        <geometry name="initialstock" geo="stock.stl" clrr="0.43137255" clrg="0.65882355" clrb="1.00000000" alpha="0.4" reflectivity="0.0" reflectivityBitmapFileName="" objtype="initialstock" />
+                        <geometry name="stock" geo="stock.stl" clrr="0.43137255" clrg="0.65882355" clrb="1.00000000" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="stock" />
+                        <geometry name="toolpath" geo="toolpath.asc" clrr="0.00000000" clrg="0.00000000" clrb="0.00000000" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="toolpath" />
+                        <geometry name="workpiece" geo="werkstueck.stl" clrr="0.50196081" clrg="0.50196081" clrb="0.00000000" alpha="0.0" reflectivity="0.1" reflectivityBitmapFileName="tablereflection.bmp" objtype="workpiece" />
+                    </transform>
+                </axis>
+            </axis>
+            <geometry name="X1" geo="rhino_iv_5x_x1.stl" clrr="1.00000000" clrg="0.98431373" clrb="0.94117647" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="tablereflection.bmp" objtype="geometry" />
+            <geometry name="X2" geo="rhino_iv_5x_x2.stl" clrr="0.00000000" clrg="0.50196081" clrb="0.50196081" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="tablereflection.bmp" objtype="geometry" />
+            <geometry name="X3" geo="rhino_iv_5x_x3.stl" clrr="0.75294119" clrg="0.86274511" clrb="0.75294119" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="tablereflection.bmp" objtype="geometry" />
+            <geometry name="X4" geo="rhino_iv_5x_x4.stl" clrr="0.00000000" clrg="0.00000000" clrb="0.00000000" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="tablereflection.bmp" objtype="geometry" />
+        </axis>
+        <geometry name="Y1" geo="rhino_iv_5x_y1.stl" clrr="1.00000000" clrg="0.98431373" clrb="0.94117647" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="tablereflection.bmp" objtype="geometry" />
+        <geometry name="Y2" geo="rhino_iv_5x_y2.stl" clrr="0.00000000" clrg="0.00000000" clrb="0.00000000" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="tablereflection.bmp" objtype="geometry" />
+    </axis>
+    <axis id="Z" type="translation" x="0.00000000" y="0.00000000" z="1.00000000" minvalue="-200.000006" maxvalue="762.000000" valuetype="cont" initial_value="0.000000">
+        <geometry name="Z1" geo="rhino_iv_5x_z1.stl" clrr="0.00000000" clrg="0.50196081" clrb="0.50196081" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="tablereflection.bmp" objtype="geometry" />
+        <geometry name="Z2" geo="rhino_iv_5x_z2.stl" clrr="1.00000000" clrg="0.98431373" clrb="0.94117647" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="tablereflection.bmp" objtype="geometry" />
+        <geometry name="Z3" geo="rhino_iv_5x_z3.stl" clrr="0.00000000" clrg="0.00000000" clrb="0.00000000" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="tablereflection.bmp" objtype="geometry" />
+        <geometry name="Z4" geo="rhino_iv_5x_z4.stl" clrr="1.00000000" clrg="0.98431373" clrb="0.94117647" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="tablereflection.bmp" objtype="geometry" />
+        <geometry name="Z5" geo="rhino_iv_5x_z5.stl" clrr="0.00000000" clrg="0.00000000" clrb="1.00000000" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="tablereflection.bmp" objtype="geometry" />
+        <geometry name="Z6" geo="rhino_iv_5x_z6.stl" clrr="1.00000000" clrg="0.00000000" clrb="0.00000000" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="tablereflection.bmp" objtype="geometry" />
+        <transform id="holder_transform" initialvalue="1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000">
+            <geometry name="tool" geo="tool.stl" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="tablereflection.bmp" objtype="tool" cuttr="1.00000000" cuttg="1.00000000" cuttb="0.00000000" cutta="0.00000000" cuttrefl="0.09999999" noncuttr="0.75294119" noncuttg="0.75294119" noncuttb="0.75294119" noncutta="0.00000000" noncuttrefl="0.10000000" arborr="0.62745100" arborg="0.62745100" arborb="0.64313728" arbora="0.00000000" arborrefl="0.09999999" holderr="0.50196081" holderg="0.50196081" holderb="0.50196081" holdera="0.00000000" holderrefl="0.00000000" />
+        </transform>
+    </axis>
+    <geometry name="mh_Base1" geo="rhino_iv_5x_base1.stl" clrr="0.75294119" clrg="0.86274511" clrb="0.75294119" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="tablereflection.bmp" objtype="geometry" />
+    <geometry name="mh_Base2" geo="rhino_iv_5x_base2.stl" clrr="1.00000000" clrg="0.98431373" clrb="0.94117647" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="tablereflection.bmp" objtype="geometry" />
+    <geometry name="mh_Base3" geo="rhino_iv_5x_base3.stl" clrr="0.00000000" clrg="0.50196081" clrb="0.50196081" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="tablereflection.bmp" objtype="geometry" />
+    <geometry name="mh_Base4" geo="rhino_iv_5x_base4.stl" clrr="1.00000000" clrg="0.98431373" clrb="0.94117647" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="tablereflection.bmp" objtype="geometry" />
+    <geometry name="mh_Base5" geo="rhino_iv_5x_base5.stl" clrr="0.00000000" clrg="0.00000000" clrb="0.00000000" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="tablereflection.bmp" objtype="geometry" />
+    <geometry name="mh_Base6" geo="rhino_iv_5x_base6.stl" clrr="1.00000000" clrg="0.50196081" clrb="0.75294119" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="tablereflection.bmp" objtype="geometry" />
+    <geometry name="mh_Base7" geo="rhino_iv_5x_base7.stl" clrr="0.00000000" clrg="0.50196081" clrb="0.50196081" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="tablereflection.bmp" objtype="geometry" />
+    <geometry name="mh_Base8" geo="rhino_iv_5x_base8.stl" clrr="0.00000000" clrg="0.50196081" clrb="0.50196081" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="tablereflection.bmp" objtype="geometry" />
+    <collcheck id="cc1" name="cc1" group1="Z1,Z2,Z3,Z4,Z5,Z6,tool" dynamic1="true" dynamic2="true" active="true" group2="A1,A2,B1,X1,X2,X3,X4,Y1,Y2,workpiece" />
+</machine_definition>

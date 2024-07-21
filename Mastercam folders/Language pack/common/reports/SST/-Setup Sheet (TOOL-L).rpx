@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.2" PrintWidth="9360" DocumentName="ActiveReports Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-family: Arial; font-style: normal; font-variant: inherit; font-weight: normal; font-size: 10pt; font-size-adjust: inherit; font-stretch: inherit; color: rgb(0,0,0); background-repeat: inherit; background-attachment: inherit; opacity: inherit; word-spacing: inherit; letter-spacing: inherit; text-decoration: none; vertical-align: inherit; text-transform: inherit; text-align: inherit; text-indent: inherit; unicode-bidi: inherit; line-height: inherit; white-space: inherit; ddo-char-set: 0" />
+    <Style Name="Heading1" Value="font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: bold; font-size: 16pt; font-size-adjust: inherit; font-stretch: inherit" />
+    <Style Name="Heading2" Value="font-family: Times New Roman; font-style: italic; font-variant: inherit; font-weight: bold; font-size: 14pt; font-size-adjust: inherit; font-stretch: inherit" />
+    <Style Name="Heading3" Value="font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: bold; font-size: 13pt; font-size-adjust: inherit; font-stretch: inherit" />
+  </StyleSheet>
+  <Sections>
+    <Section Type="Detail" Name="Detail" Height="7319" BackColor="16777215" KeepTogether="1" CanShrink="1">
+      <Control Type="AR.Shape" Name="Shape1" Left="90" Top="360" Width="5040" Height="3600" BackColor="16777215" RoundingRadius="9.999999" />
+      <Control Type="AR.Label" Name="Label" Left="180" Top="2250" Width="1980" Height="270" Caption="OFFSET:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox1" DataField="OFFSET-FRONT" Left="2250" Top="2250" Width="2790" Height="270" Text="OFFSET-FRONT" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label3" Left="180" Top="2520" Width="1980" Height="270" Caption="OFFSET (BACK):" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox3" DataField="OFFSET-BACK" Left="2250" Top="2520" Width="2790" Height="270" Text="OFFSET-BACK" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label4" Left="180" Top="450" Width="1980" Height="270" Caption="TOP TURRET:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox4" DataField="TOP-TURRET" Left="2250" Top="450" Width="2790" Height="270" Text="TOP-TURRET" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label6" Left="180" Top="2880" Width="1980" Height="270" Caption="INSERT UP:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox6" DataField="INSERT-UP" Left="2250" Top="2880" Width="2790" Height="270" Text="INSERT-UP" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label7" Left="180" Top="3240" Width="1980" Height="270" Caption="COOLANT:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox7" DataField="COOLANT" Left="2250" Top="3240" Width="2790" Height="270" Text="COOLANT" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label8" Left="180" Top="810" Width="1980" Height="270" Caption="ACTIVE SPINDLE:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox8" DataField="ACTIVE-SPINDLE" Left="2250" Top="810" Width="2790" Height="270" Text="ACTIVE-SPINDLE" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label11" Left="180" Top="1350" Width="1980" Height="270" Caption="SPINDLE SPEED:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox11" DataField="SPINDLE-SPEED" Left="2250" Top="1350" Width="2790" Height="270" Text="SPINDLE-SPEED" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label12" Left="180" Top="1080" Width="1980" Height="270" Caption="SPINDLE DIRECTION:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox12" DataField="SPINDLE-DIRECTION" Left="2250" Top="1080" Width="2790" Height="270" Text="SPINDLE-DIRECTION" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox13" DataField="FAST-FEED" Left="2250" Top="1620" Width="2790" Height="270" Text="FAST-FEED" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox" DataField="DESCRIPTION" Left="2250" Top="0" Width="7020" Height="270" Text="DESCRIPTION" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt; font-style: italic; font-weight: bold" />
+      <Control Type="AR.Label" Name="Label21" Left="90" Top="0" Width="2070" Height="270" Caption="TOOL INFO" Style="font-family: Arial Unicode MS; font-size: 8.25pt; font-style: italic; font-weight: normal" />
+      <Control Type="AR.Line" Name="Line" X1="9270" Y1="270" X2="90" Y2="270" />
+      <Control Type="AR.Label" Name="Label13" Left="180" Top="1620" Width="1980" Height="270" Caption="FAST FEED:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Subreport" Name="srpt_HOLDER" DataField="HOLDER" Tag="HOLDER" Left="0" Top="4032" Width="9360" Height="1584" CanGrow="0" CanShrink="0" ReportName="-Setup Sheet (LATHE-TOOL-HOLDER).rpx" />
+      <Control Type="AR.Subreport" Name="srpt_CUSTOM" DataField="CUSTOM" Tag="CUSTOM" Left="0" Top="4032" Width="9360" Height="1584" CanGrow="0" CanShrink="0" ReportName="-Setup Sheet (LATHE-TOOL-CUSTOM).rpx" />
+      <Control Type="AR.Subreport" Name="srpt_INSERT" DataField="INSERT" Tag="INSERT" Left="0" Top="5688" Width="9360" Height="1346.4" CanGrow="0" CanShrink="0" ReportName="-Setup Sheet (LATHE-TOOL-INSERT).rpx" />
+      <Control Type="AR.Subreport" Name="srpt_DRILL" DataField="DRILL" Tag="DRILL" Left="0" Top="5688" Width="9360" Height="1346.4" CanGrow="0" CanShrink="0" ReportName="-Setup Sheet (LATHE-TOOL-DRILL).rpx" />
+      <Control Type="AR.Subreport" Name="srpt_OP" DataField="OP" Tag="OP" BorderLeftStyle="1" BorderTopStyle="1" BorderRightStyle="1" BorderBottomStyle="1" Left="89.28001" Top="7120.8" Width="9180" Height="90" ReportName="-Setup Sheet (OP).rpx" />
+      <Control Type="AR.Label" Name="Label1" Left="180" Top="1890" Width="1980" Height="270" Caption="SLOW FEED:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox2" DataField="SLOW-FEED" Left="2250" Top="1890" Width="2790" Height="270" Text="SLOW-FEED" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="IMAGE_FILENAME" DataField="IMAGE" Visible="0" Left="5310" Top="3600" Width="3870" Height="270" Text="IMAGE_FILENAME" Multiline="0" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 9.75pt; text-align: center; white-space: nowrap" />
+      <Control Type="AR.Label" Name="IMAGE_NOT_FOUND" BorderLeftStyle="3" BorderTopStyle="3" BorderRightStyle="3" BorderBottomStyle="3" Left="6210" Top="1890" Width="2340" Height="630" Caption="IMAGE NOT AVAILABLE" Style="font-family: Arial Unicode MS; font-size: 8.25pt; text-align: center; vertical-align: middle" />
+      <Control Type="AR.Image" Name="IMAGE_HOLDER" Left="5220" Top="360" Width="4050" Height="3600" LineStyle="1" SizeMode="2" />
+      <Control Type="AR.Field" Name="TextBox5" DataField="TIME-SHORT" Left="2250" Top="3600" Width="2790" Height="270" Text="TIME-SHORT" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label5" Left="180" Top="3600" Width="1980" Height="270" Caption="TIME:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Subreport" Name="srpt_CUSTOM3D" DataField="CUSTOM3D" Tag="CUSTOM3D" Left="0" Top="4032" Width="9360" Height="1584" CanGrow="0" CanShrink="0" ReportName="-Setup Sheet (LATHE-TOOL-CUSTOM3D).rpx" />
+    </Section>
+  </Sections>
+  <ReportComponentTray />
+  <DataSources>
+    <XmlDataSource FileURL="..\SST\SAMPLES\LATHE\SSL-MT.xml" Pattern="//TOOL-L" />
+  </DataSources>
+  <PageSettings />
+  <Parameters />
+</ActiveReportsLayout>

@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- ISolidsHoleOperation::DepthMethod -->
+  <xs:simpleType name="typeDepthMethod">
+    <xs:restriction base="xs:NMTOKEN">
+      <xs:enumeration value="Distance"/>
+      <xs:enumeration value="ThroughAll"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="typeBottomAngle">
+    <xs:restriction base="xs:decimal">
+      <xs:minInclusive value="0.0"/>
+      <xs:maxInclusive value="179.0"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="typeEdgeTreatmentStyle">
+    <xs:restriction base="xs:NMTOKEN">
+      <xs:enumeration value="Chamfer"/>
+      <xs:enumeration value="Fillet"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="typeAngle">
+    <xs:restriction base="xs:decimal">
+      <xs:minInclusive value="1.0"/>
+      <xs:maxInclusive value="179.0"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="typePositiveDouble">
+    <xs:restriction base="xs:double">
+      <xs:minInclusive value="0.5e-5"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="typeColorIndex">
+    <xs:restriction base="xs:unsignedByte" />
+  </xs:simpleType>
+
+  <!-- Chamfer -->
+  <xs:complexType name="typeChamfer">
+    <xs:attribute name="IsMetric" type="xs:boolean" use="required" />
+    <!-- Diameter represents a percentage value, and is deprecated. -->
+    <xs:attribute name="Diameter" type="typePositiveDouble" use="optional" />
+    <!-- DiameterAbsolute represents an absolute diameter value. -->
+    <xs:attribute name="DiameterAbsolute" type="typePositiveDouble" use="required" />
+    <xs:attribute name="Angle" type="typeAngle" use="required" />
+  </xs:complexType>
+
+  <!-- Edge Treatment Version-->
+  <xs:complexType name="typeEdgeTreatmentOptions">
+    <xs:attribute name="Style" type="typeEdgeTreatmentStyle" use="required" />
+    <xs:attribute name="Angle" type="typeAngle" use="required" />
+    <xs:attribute name="Radius" type="typePositiveDouble" use="required" />
+    <xs:attribute name="Distance" type="typePositiveDouble" use="required" />
+  </xs:complexType>
+
+  <!-- Edge Treatment Options-->
+  <xs:complexType name="typeEdgeTreatment">
+    <xs:sequence>
+      <!-- Add new version to support different data -->
+      <xs:choice minOccurs="0" maxOccurs="1">
+        <xs:element name="TopEdgeTreatment" type="typeEdgeTreatmentOptions"/>
+      </xs:choice>
+      <!-- Add new version to support different data -->
+      <xs:choice minOccurs="0" maxOccurs="1">
+        <xs:element name="BottomEdgeTreatment" type="typeEdgeTreatmentOptions"/>
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- ISolidsHoleOperation -->
+  <xs:complexType name="typeOperation">
+    <xs:sequence>
+      <xs:choice minOccurs="0" maxOccurs="1">
+        <xs:element name="TopChamfer" type="typeChamfer"/>
+        <xs:element name="EdgeTreatment" type="typeEdgeTreatment"/>
+      </xs:choice>
+      <xs:choice minOccurs="0" maxOccurs="1">
+        <xs:element name="Counterbore" type="typeCounterbore"/>
+        <xs:element name="Counterdrill" type="typeCounterdrill"/>
+        <xs:element name="Countersink" type="typeCountersink"/>
+        <xs:element name="Taper" type="typeTaper"/>
+        <xs:element name="Custom" type="typeCustom"/>
+      </xs:choice>
+    </xs:sequence>
+    <xs:attribute name="Name" type="xs:string" use="required" />
+    <xs:attribute name="IsMetric" type="xs:boolean" use="required" />
+    <xs:attribute name="Diameter" type="typePositiveDouble" use="required" />
+    <xs:attribute name="SetDepthBy" type="typeDepthMethod" use="required" />
+    <xs:attribute name="Depth" type="typePositiveDouble" use="required" />
+    <xs:attribute name="BottomAngle" type="typeBottomAngle" use="required" />
+    <xs:attribute name="ColorIndex" type="typeColorIndex" use="optional" />
+  </xs:complexType>
+
+  <!-- ISolidsHoleCounterboreStyle -->
+  <xs:complexType name="typeCounterbore">
+    <xs:attribute name="IsMetric" type="xs:boolean" use="required" />
+    <xs:attribute name="Depth" type="typePositiveDouble" use="required" />
+    <xs:attribute name="Diameter" type="typePositiveDouble" use="required" />
+  </xs:complexType>
+
+  <!-- ISolidsHoleCounterdrillStyle -->
+  <xs:complexType name="typeCounterdrill">
+    <xs:attribute name="IsMetric" type="xs:boolean" use="required" />
+    <xs:attribute name="Angle" type="typeAngle" use="required" />
+    <xs:attribute name="Depth" type="typePositiveDouble" use="required" />
+    <xs:attribute name="Diameter" type="typePositiveDouble" use="required" />
+  </xs:complexType>
+
+  <!-- ISolidsHoleCountersinkStyle -->
+  <xs:complexType name="typeCountersink">
+    <xs:attribute name="IsMetric" type="xs:boolean" use="required" />
+    <xs:attribute name="Angle" type="typeAngle" use="required" />
+    <xs:attribute name="Diameter" type="typePositiveDouble" use="required" />
+  </xs:complexType>
+
+  <!-- ISolidsHoleTaperStyle -->
+  <xs:complexType name="typeTaper">
+    <xs:attribute name="IsMetric" type="xs:boolean" use="required" />
+    <xs:attribute name="Angle" type="typeAngle" use="required" />
+  </xs:complexType>
+
+  <!-- ISolidsHoleCustomSegment -->
+  <xs:complexType name="typeSegment">
+    <xs:attribute name="TopDiameter" type="typePositiveDouble" use="required" />
+    <xs:attribute name="Depth" type="typePositiveDouble" use="required" />
+    <xs:attribute name="BottomDiameter" type="typePositiveDouble" use="required" />
+  </xs:complexType>
+
+  <!-- ISolidsHoleCustomStyle -->
+  <xs:complexType name="typeCustom">
+    <xs:sequence>
+      <xs:element name="Segments">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Segment" type="typeSegment" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="IsMetric" type="xs:boolean" use="required" />
+  </xs:complexType>
+
+  <!-- ISolidsHoleOperationCategory -->
+  <xs:complexType name="typeCategory">
+    <xs:sequence>
+      <xs:element name="Presets">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Preset" type="typeOperation" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="Name" type="xs:string" use="required" />
+  </xs:complexType>
+
+  <!-- XML Root -->
+  <xs:element name="Categories">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Category" type="typeCategory" maxOccurs="unbounded" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

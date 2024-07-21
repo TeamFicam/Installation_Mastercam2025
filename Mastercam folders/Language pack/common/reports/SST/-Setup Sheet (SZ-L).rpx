@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.1" PrintWidth="9360" DocumentName="ActiveReports Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-family: Arial; font-style: normal; font-variant: inherit; font-weight: normal; font-size: 10pt; font-size-adjust: inherit; font-stretch: inherit; color: rgb(0,0,0); background-repeat: inherit; background-attachment: inherit; opacity: inherit; word-spacing: inherit; letter-spacing: inherit; text-decoration: none; vertical-align: inherit; text-transform: inherit; text-align: inherit; text-indent: inherit; unicode-bidi: inherit; line-height: inherit; white-space: inherit; ddo-char-set: 0" />
+    <Style Name="Heading1" Value="font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: bold; font-size: 16pt; font-size-adjust: inherit; font-stretch: inherit" />
+    <Style Name="Heading2" Value="font-family: Times New Roman; font-style: italic; font-variant: inherit; font-weight: bold; font-size: 14pt; font-size-adjust: inherit; font-stretch: inherit" />
+    <Style Name="Heading3" Value="font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: bold; font-size: 13pt; font-size-adjust: inherit; font-stretch: inherit" />
+  </StyleSheet>
+  <Sections>
+    <Section Type="Detail" Name="Detail" Height="11790" BackColor="16777215" KeepTogether="1" CanGrow="0">
+      <Control Type="AR.Shape" Name="Shape2" Left="4679.28" Top="8107.2" Width="4590" Height="1530" BackColor="16777215" RoundingRadius="9.999999" />
+      <Control Type="AR.Shape" Name="Shape4" Left="4679.28" Top="5677.2" Width="4590" Height="2340" BackColor="16777215" RoundingRadius="9.999999" />
+      <Control Type="AR.Shape" Name="Shape5" Left="89.28005" Top="8107.2" Width="4500" Height="1530" BackColor="16777215" RoundingRadius="9.999999" />
+      <Control Type="AR.Shape" Name="Shape1" Left="89.28005" Top="5677.2" Width="4500" Height="2340" BackColor="16777215" RoundingRadius="9.999999" />
+      <Control Type="AR.Label" Name="Label3" Left="269.2801" Top="8467.2" Width="1800" Height="270" Caption="OUTSIDE DIAMETER:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label11" Left="269.2801" Top="8737.2" Width="1800" Height="270" Caption="INSIDE DIAMETER:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label12" Left="269.2801" Top="9007.2" Width="1800" Height="270" Caption="LENGTH:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label13" Left="269.2801" Top="9277.2" Width="1800" Height="270" Caption="Z REFERENCE:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label10" Left="179.2801" Top="8197.2" Width="1890" Height="270" Caption="STOCK (LEFT):" Style="font-family: Arial Unicode MS; font-size: 8.25pt; font-style: normal; font-weight: bold" />
+      <Control Type="AR.Field" Name="IMAGE_FILENAME" DataField="IMAGE" Visible="0" Left="179.2801" Top="4417.2" Width="9000" Height="360" Text="IMAGE_FILENAME" Multiline="0" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 9.75pt; text-align: center; white-space: nowrap" />
+      <Control Type="AR.Label" Name="IMAGE_NOT_FOUND" BorderLeftStyle="3" BorderTopStyle="3" BorderRightStyle="3" BorderBottomStyle="3" Left="3149.28" Top="2527.2" Width="2880" Height="900" Caption="IMAGE NOT AVAILABLE" Style="font-family: Arial; font-size: 8.25pt; text-align: center; vertical-align: middle" />
+      <Control Type="AR.Image" Name="IMAGE_HOLDER" Left="89.28005" Top="97.20016" Width="9180" Height="5490" LineStyle="1" SizeMode="2" />
+      <Control Type="AR.Label" Name="Label19" Left="179.2801" Top="5767.2" Width="1890" Height="270" Caption="CHUCK (LEFT):" Style="font-family: Arial Unicode MS; font-size: 8.25pt; font-style: normal; font-weight: bold" />
+      <Control Type="AR.Label" Name="Label23" Left="269.2801" Top="6037.2" Width="1800" Height="270" Caption="GRIP LENGTH:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox22" DataField="CHUCK-LH-ACTIVE" Left="2069.28" Top="5767.2" Width="2520" Height="270" Text="CHUCK-LH-ACTIVE" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label20" Left="269.2801" Top="6307.2" Width="1800" Height="270" Caption="HEIGHT:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label21" Left="269.2801" Top="6577.2" Width="1800" Height="270" Caption="WIDTH:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label22" Left="269.2801" Top="6847.2" Width="1800" Height="270" Caption="THICKNESS:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label24" Left="269.2801" Top="7117.2" Width="1800" Height="270" Caption="REFERENCE:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label25" Left="269.2801" Top="7387.2" Width="1800" Height="270" Caption="HSTEP:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label26" Left="269.2801" Top="7657.2" Width="1800" Height="270" Caption="VSTEP:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox26" DataField="CHUCK-RH-ACTIVE" Left="6659.28" Top="5767.2" Width="2520" Height="270" Text="CHUCK-RH-ACTIVE" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label33" Left="4769.28" Top="5767.2" Width="1890" Height="270" Caption="CHUCK (RIGHT):" Style="font-family: Arial Unicode MS; font-size: 8.25pt; font-style: normal; font-weight: bold" />
+      <Control Type="AR.Label" Name="Label27" Left="4859.28" Top="6037.2" Width="1800" Height="270" Caption="GRIP LENGTH:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label28" Left="4859.28" Top="7657.2" Width="1800" Height="270" Caption="VSTEP:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox20" DataField="CHUCK-LH-GRIP" Left="2069.28" Top="6037.2" Width="2520" Height="270" Text="CHUCK-LH-GRIP" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox16" DataField="STOCK-LH-ACTIVE" Left="2069.28" Top="8197.2" Width="2520" Height="270" Text="STOCK-LH-ACTIVE" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label32" Left="4859.28" Top="7117.2" Width="1800" Height="270" Caption="REFERENCE:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox28" DataField="CHUCK-RH-HSTEP" Left="6659.28" Top="7387.2" Width="2520" Height="270" Text="CHUCK-RH-HSTEP" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label6" Left="4859.28" Top="9277.2" Width="1800" Height="270" Caption="Z REFERENCE:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox30" DataField="CHUCK-RH-THICKNESS" Left="6659.28" Top="6847.2" Width="2520" Height="270" Text="CHUCK-RH-THICKNESS" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox32" DataField="CHUCK-RH-POINT" Left="6659.28" Top="7117.2" Width="2520" Height="270" Text="CHUCK-RH-POINT" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox29" DataField="CHUCK-RH-GRIP" Left="6659.28" Top="6037.2" Width="2520" Height="270" Text="CHUCK-RH-GRIP" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label7" Left="4769.28" Top="8197.2" Width="1890" Height="270" Caption="STOCK (RIGHT):" Style="font-family: Arial Unicode MS; font-size: 8.25pt; font-style: normal; font-weight: bold" />
+      <Control Type="AR.Field" Name="TextBox6" DataField="STOCK-RH-ZREF" Left="6659.28" Top="9277.2" Width="2520" Height="270" Text="STOCK-RH-ZREF" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox11" DataField="STOCK-LH-ID" Left="2069.28" Top="8737.2" Width="2520" Height="270" Text="STOCK-LH-ID" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox17" DataField="STOCK-RH-ACTIVE" Left="6659.28" Top="8197.2" Width="2520" Height="270" Text="STOCK-RH-ACTIVE" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox12" DataField="STOCK-LH-LENGTH" Left="2069.28" Top="9007.2" Width="2520" Height="270" Text="STOCK-LH-LENGTH" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox2" DataField="STOCK-RH-OD" Left="6659.28" Top="8467.2" Width="2520" Height="270" Text="STOCK-RH-OD" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox19" DataField="CHUCK-LH-WIDTH" Left="2069.28" Top="6577.2" Width="2520" Height="270" Text="CHUCK-LH-WIDTH" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox5" DataField="STOCK-RH-LENGTH" Left="6659.28" Top="9007.2" Width="2520" Height="270" Text="STOCK-RH-LENGTH" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label2" Left="4859.28" Top="8467.2" Width="1800" Height="270" Caption="OUTSIDE DIAMETER:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox21" DataField="CHUCK-LH-THICKNESS" Left="2069.28" Top="6847.2" Width="2520" Height="270" Text="CHUCK-LH-THICKNESS" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox33" DataField="CHUCK-RH-HEIGHT" Left="6659.28" Top="6307.2" Width="2520" Height="270" Text="CHUCK-RH-HEIGHT" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label5" Left="4859.28" Top="9007.2" Width="1800" Height="270" Caption="LENGTH:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox31" DataField="CHUCK-RH-VSTEP" Left="6659.28" Top="7657.2" Width="2520" Height="270" Text="CHUCK-RH-VSTEP" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox27" DataField="CHUCK-RH-WIDTH" Left="6659.28" Top="6577.2" Width="2520" Height="270" Text="CHUCK-RH-WIDTH" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label4" Left="4859.28" Top="8737.2" Width="1800" Height="270" Caption="INSIDE DIAMETER:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label31" Left="4859.28" Top="6847.2" Width="1800" Height="270" Caption="THICKNESS:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label34" Left="4859.28" Top="6307.2" Width="1800" Height="270" Caption="HEIGHT:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox23" DataField="CHUCK-LH-POINT" Left="2069.28" Top="7117.2" Width="2520" Height="270" Text="CHUCK-LH-POINT" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox3" DataField="STOCK-LH-OD" Left="2069.28" Top="8467.2" Width="2520" Height="270" Text="STOCK-LH-OD" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox13" DataField="STOCK-LH-ZREF" Left="2069.28" Top="9277.2" Width="2520" Height="270" Text="STOCK-LH-ZREF" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox4" DataField="STOCK-RH-ID" Left="6659.28" Top="8737.2" Width="2520" Height="270" Text="STOCK-RH-ID" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox25" DataField="CHUCK-LH-VSTEP" Left="2069.28" Top="7657.2" Width="2520" Height="270" Text="CHUCK-LH-VSTEP" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label29" Left="4859.28" Top="6577.2" Width="1800" Height="270" Caption="WIDTH:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label30" Left="4859.28" Top="7387.2" Width="1800" Height="270" Caption="HSTEP:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox18" DataField="CHUCK-LH-HEIGHT" Left="2069.28" Top="6307.2" Width="2520" Height="270" Text="CHUCK-LH-HEIGHT" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox24" DataField="CHUCK-LH-HSTEP" Left="2069.28" Top="7387.2" Width="2520" Height="270" Text="CHUCK-LH-HSTEP" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+    </Section>
+  </Sections>
+  <ReportComponentTray />
+  <DataSources>
+    <XmlDataSource FileURL="..\SST\SAMPLES\LATHE\SSL-MT.xml" Pattern="//SZ-L" />
+  </DataSources>
+  <PageSettings />
+  <Parameters />
+</ActiveReportsLayout>

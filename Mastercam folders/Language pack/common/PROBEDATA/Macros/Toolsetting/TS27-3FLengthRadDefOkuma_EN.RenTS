@@ -1,0 +1,206 @@
+; Renishaw Productivity+ Custom Macro
+; Do NOT remove the preceeding line or this macro will not load
+; Definition File for TS27/R Contact Toolsetting Tool Length/Diameter Setting
+; Version: 0.01.
+
+[FileType]
+; Do NOT remove this section or this Custom Macro will not load
+Product		Renishaw Productivity+
+File		Custom Macro
+Version		0.07.002
+
+[MachineType]
+MACHINETYPE OKUMA
+
+[Toolsetting Type]
+"Contact"
+
+; Definition File Language - language of displayable text strings in this file
+[Language]
+English
+
+; Existing Menu Item in application that Custom Macro name and its Parent Menu are to appear under
+; FIELD CAN BE OMITTED
+[Existing Menu]
+"Tool setting"
+
+; Parent Menu - used as parent menu item text 
+; FIELD CAN BE OMITTED
+[Parent Menu]
+"Contact (TS27R, TS20, OTS...)"
+
+; Custom Macro Name - used as menu item text. ID MUST BE UNIQUE FOR EACH CUSTOM MACRO!
+; FIELD IS COMPULSORY
+[Custom Macro]
+; Name										ID
+"Five-Face Tool Length/Diameter (Okuma)"						48881
+
+; This field specifies the default name given to a statement of this type
+; The name must NOT include any of the following characters and cannot start with a numeric character
+; {}[]/\:<>@~#-=+()*&^%$£!"`¬|;,.'?
+[Default Statement Name]
+"Length_Diameter"
+
+; Name or Program Number of macro
+[MacroID]
+9857
+
+; Properties - Do not use IDs 1-19
+; Name											ID	Datatype	Default		Range	    	Category	Output Parameter	Metafile ID (optional)	Help Text			
+[Properties]
+"Measurement Type (B)"							20	MEAS_TYPE	1			{NA}		     100				CM_B				12150				"Type of Measurement to perform."
+
+"Do Tolerance Check (H)"						21	YESNO		NO			{NA}		     100				-					12150				"Set this value to 'Yes' to perform a tolerance check and pass the tolerance value to the toolsetting macro."
+"Tolerance (H)"									22	LINEAR		0.0			{NA}		     100				CM_H				12150				"Will not update tool offset if tool is found to be out of tolerance."
+
+"Tool Out of Tolerance Flag (M)"				23	YESNO		NO			{NA}		     100				-					12150				"Set this value to 'Yes' to use a broken tool flag"
+"M1 Prevents alarm"								24	LINEAR		1			{NA}		     100				CM_M				12150				"Tool broken/out of tolerance flag. This flag will prevent an alarm from being raised on the machine when a tool is found to be broken/out of tolerence."
+
+"Include Nominal Tool Diameter (D)"				32	YESNO		NO			{NA}		     101				-					12150				"The cutter diameter. Set this value to 'Yes' to specify a Cutter Diameter. Setting this value to the tool diameter will offset the tool on the datum stylus and cause tool rotation."
+"Tool Diameter (D)"								33	LINEAR		0			NE0		         101				CM_D				12150				"Use a positive value for right-handed cutting tools and a negative value for left-handed tools. Example: D80 defines an 80 mm (3.150 in) diameter right-handed cutting tool."
+
+"Use Current Tool Change ID (T)"				27	YESNO		YES			{NA}		     100				-					12150				"When this value is set to 'Yes' the current tool change ID is used for the Length Offset number. When set to 'No' you can specify a different Length Offset number."
+"Tool Length Offset Number (T)"					28	INT			0			GT0:LE999	     100				CM_T				12150				"Length Offset Number. This is the offset location in which the measured tool length is stored."
+
+"Use Default Length Overtravel (Q)"				25	YESNO		YES			{NA}		     100				-					12150				"Use the toolsetting macro's default value for Length Overtravel. Set this value to 'No' to specify a custom Length Overtravel."
+"Length Overtravel (Q)"							26	LINEAR		5.0			{NA}		     100				CM_Q				12150				"Length Overtravel."
+
+"Use An experience value for length (K)"		34	YESNO		NO			{NA}		     102				-					12150				"Set this value to 'Yes' to set an Experience Value For the tool length. This value is the difference between the measured lenght and the effective length of the tool when under load during cutting."
+"Experience value for length (K)"				35	LINEAR		0.0			{NA}		     102				CM_K				12150				"Experience value for length."
+
+"Use Default Depth (Z)"							36	YESNO		YES			{NA}		     103				-					12150				"Use the default value for Depth when performing the diameter measurement. Set this value to 'No' to specify a custom value."
+"Depth for Diameter Measure (Z)"				37	LINEAR		5.0			{NA}		     103				CM_Z				12150				"Depth for the diameter measurement from the top of the stylus, Default value 5.0mm (0.197 in)."
+
+"Tool offset to be updated (E)"					40	YESNO		NO			{NA}			 103				-					12150				"If your machine tool has Type A tool offsets (only one column), set this value to 'Yes' to specify the tool offset number to be updated. NOTE. If Your machine has more than one column (Type B or C tool offsets) do not use this option as the current tool change ID will be updated."
+"Tool Offset (E)"								41	INT			0			GT0:LE999		 103				CM_E				12150				"Tool offset to be updated. Use for Type A (one column) tool offsets only."
+
+"Use An experience value for Cutter Dia/rad (J)"42	YESNO		NO			{NA}			 103				-					12150				"Set this value to 'Yes' to set an Experience Value For the tool diameter/radius. This value is the difference between the measured size of the tool and the actual size when under load during cutting."
+"Experience value for Dia/rad (J)"				43	LINEAR		0.0			GT0				 103				CM_J				12150				"Size adjustment to compensate for cutting conditions. "
+
+"Use Extra Z clearance above the stylus (W)"	44	YESNO		NO			{NA}		     103				-					12150				"The extra Z clearance above the stylus when setting a diameter"
+"Extra Z clearance above the stylus (W)"		45	LINEAR		0			GT0			     103				CM_W				12150				"EXAMPLE.. W20.0 will position the tool 20 mm (0.787 in) + #114 above the stylus."
+
+"Use the approximate tool length value (Y)"		46	YESNO		NO			{NA}			 100				-					12150				"Set this value to 'Yes' to specify an approximate tool length"
+"Approximate tool length value (Y)"				51	LINEAR		0.0			GT0:LE999		 100				CM_Y				12150				"Approximate tool length."
+
+"Tool Diameter (D)"								48	LINEAR		0			GT0				 100				CM_D				12150				"The cutter diameter. Use a positive value for right-handed cutting tools and a negative value for left-handed tools. Example: D80 defines an 80 mm (3.150 in) diameter right-handed cutting tool."
+
+"Use Incremental Radial distance (U)"			49	YESNO		NO			{NA}			 104				-					12150				"Sets an incremental distance for positioning the cutter under the stylus."
+"Incremental Radial distance (U)"				50	LINEAR		2			GT0:LE999		 104				CM_U				12150				"Incremental distance under the stylus Default value: 2 mm (0.079 in)."
+
+
+[Visibility]
+PROPERTIES	101
+CTRL_PROPS		20 ("Measurement Type")
+CTRL_VALUES		1 ("Tool Length")
+
+PROPERTIES	102
+CTRL_PROPS		20 ("Measurement Type")
+CTRL_VALUES		1 ("Tool Length")
+CTRL_VALUES		3 ("Tool Length and Diameter")
+CTRL_VALUES		4 ("Tool Length feeding upwards")
+
+PROPERTIES	103
+CTRL_PROPS		20 ("Measurement Type")
+CTRL_VALUES		2 ("Tool Diameter")
+CTRL_VALUES		3 ("Tool Length and Diameter")
+
+PROPERTIES	104
+CTRL_PROPS		20 ("Measurement Type")
+CTRL_VALUES		4 ("Tool Length feeding upwards")
+
+PROPERTIES	32
+CTRL_PROPS		20 ("Measurement Type")
+CTRL_VALUES		1 ("Tool Length")
+
+PROPERTIES	48
+CTRL_PROPS		20 ("Measurement Type")
+CTRL_VALUES		2 ("Tool Diameter")
+CTRL_VALUES		3 ("Tool Length and Diameter")
+CTRL_VALUES		4 ("Tool Length feeding upwards")
+
+PROPERTIES	33
+CTRL_PROPS		32 ("Include Nominal Tool Diameter (D)")
+CTRL_VALUES		2 ("YES")
+
+PROPERTIES	50
+CTRL_PROPS		49 ("Incremental Radial distance (U)")
+CTRL_VALUES		2	("YES")
+
+PROPERTIES	41
+CTRL_PROPS		40 ("Tool Offset")
+CTRL_VALUES		2	("YES")
+
+PROPERTIES	43
+CTRL_PROPS		42 ("Experience value for Dia/rad")
+CTRL_VALUES		2 ("YES")
+
+PROPERTIES	45
+CTRL_PROPS		44 ("Use Extra Z clearance above the stylus")
+CTRL_VALUES		2 ("YES")
+
+PROPERTIES	51
+CTRL_PROPS		46 ("Use the approximate tool length value ")
+CTRL_VALUES		2 ("YES")
+
+PROPERTIES	39
+CTRL_PROPS		38 ("Use Approximate Tool Length")
+CTRL_VALUES		2	("YES")
+
+PROPERTIES	22
+CTRL_PROPS		21 ("Do Tolerance Check")
+CTRL_VALUES		2 ("YES")
+
+PROPERTIES	24
+CTRL_PROPS		23 ("Write Broken Tool Flag")
+CTRL_VALUES		2 ("YES")
+
+PROPERTIES	26
+CTRL_PROPS		25 ("Use Default Length Overtravel")
+CTRL_VALUES		1 ("NO")
+
+PROPERTIES	28
+CTRL_PROPS		27 ("Use Current Tool Change ID")
+CTRL_VALUES		1 ("NO")
+
+PROPERTIES	30
+CTRL_PROPS		29 ("Use Default Radial Clearance")
+CTRL_VALUES		1 ("NO")
+
+PROPERTIES	35
+CTRL_PROPS		34 ("Include Size Adjustment for Cutter")
+CTRL_VALUES		2 ("YES")
+
+PROPERTIES	37
+CTRL_PROPS		36 ("Use Default Depth")
+CTRL_VALUES		1 ("NO")
+
+[Enums]
+; N.B. When post processing, the selected enum item ID will be outputted with the Output Parameter.
+;	e.g.	enum type			: YESNO
+;			selected enum item	: YES
+;			enum item value		: 1
+;			Output Parameter	: CM_B
+;			Output				= B1
+;												ID		Index (order in which they will appear)
+ENUM_NAME		MEAS_TYPE						
+ENUM_ITEM		"Tool Length"					1		0
+ENUM_ITEM		"Tool Diameter"					2		1
+ENUM_ITEM		"Tool Length and Diameter"		3		2
+ENUM_ITEM		"Tool Length feeding upwards"	4		3
+
+[Categories]
+; Name							ID
+"Nominals"						100
+"Optional Inputs"				101
+"Length Measurement"			102
+"Diameter Measurement"			103
+"Tool Length feeding upwards"	104
+
+[Resources]
+; Path and File name of resource DLL containing metafiles (optional)
+PP_tsToolSettingRes.dll
+
+; The post processor section to call when post processing occurs
+[Post Section]
+TOOLSETTING_CUSTOMMACRO

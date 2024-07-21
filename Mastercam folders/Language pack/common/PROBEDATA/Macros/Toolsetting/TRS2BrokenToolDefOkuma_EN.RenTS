@@ -1,0 +1,125 @@
+; Renishaw Productivity+ Custom Macro
+; Definition File for Non-Contact Toolsetting Broken Tool Detection - Plunge Checking
+; Version: 0.01. $Revision: $
+
+[FileType]
+; Do NOT remove this section or this Custom Macro will not load
+Product		Renishaw Productivity+
+File		Custom Macro
+Version		0.07.002
+
+[MachineType]
+MACHINETYPE OKUMA
+
+[Toolsetting Type]
+"Non Contact"
+
+; Definition File Language - language of displayable text strings in this file
+[Language]
+English
+
+; Existing Menu Item in application that Custom Macro name and its Parent Menu are to appear under
+; FIELD CAN BE OMITTED
+[Existing Menu]
+"Tool setting"
+
+; Parent Menu - used as parent menu item text. ID MUST BE UNIQUE FOR EACH CUSTOM MACRO!
+; FIELD CAN BE OMITTED
+[Parent Menu]					
+"Broken Tool Detection (TRS1/TRS2)"
+
+; Custom Macro Name - used as menu item text
+; FIELD IS COMPULSORY
+[Custom Macro]
+; Name							ID
+"TRS2 (Okuma)"							48877
+
+; This field specifies the default name given to a statement of this type
+; The name must NOT include any of the following characters and cannot start with a numeric character
+; {}[]/\:<>@~#-=+()*&^%$£!"`¬|;,.'?
+[Default Statement Name]
+"TRS2_Broken_Tool_Check"
+
+; Name or Program Number of macro
+[MacroID]
+1000
+
+; Properties - Do not use ID 1
+; Name												ID	Datatype	Default		Range			Category	Output Parameter	Metafile ID (optional)	Help Text			
+[Properties]
+"Use Default Tolerance (H)"							20	YESNO		YES			{NA}			100				-				12100					"Set this value to 'No' to pass the desired tolerance value to the toolsetting macro."
+"Tolerance (H)"										21	LINEAR		3.0			{NA}			100				CM_H			12100					"Tolerance value that defines when the tool is defined as broken. Note: If the H input is used with a minus value assigned then the tool check position will be the tool length plus the tolerance value."
+
+"Use Broken Tool Flag (M1)"							22	YESNO		NO			{NA}			100				-				12100					"Set this value to 'Yes' to use a broken tool flag
+"Show Out of Tolerance Alarms (M1)"					23	INT			1			GT0:LT2			100				CM_M			12100					"Tool broken/out of tolerance flag. This flag will prevent an alarm from being raised on the machine when a tool is found to be broken/out of tolerance."
+
+"Spindle Speed (S)"									24	RPM			5000		[NA]			100				CM_S			12100					"Spindle speed at which checking for a broken tool takes place. Values of 200,1000 or 5000 rev/min can only be used."
+
+"Retract To Safety Plane (Z)"						26	YESNO		NO			{NA}			100				-				12100					"When this value is set to 'Yes' the tool will be retracted in the spindle axis by the value specified in the Safety Plane property."
+"Safety Plane (Z)"									27	LINEAR		0.0			GT0				100				CM_Z			12100					"Safety plane height. The distance in the spindle axis to which the tool is retracted."
+
+"Use X Axis Incremental Adjustment Distance  (I)"	28	YESNO		NO			{NA}			100				-				12100					"To use an incremental adjustment distance in the X axis set this flag to 'YES'."
+"X Axis Incremental Adjustment Distance (I)"		32	LINEAR		0.0			{NA}			100				CM_I			12100					"Allows the reflection point on the tool to be individually adjusted to attain maximum feedback. NOTE: Only valid if a X move is used to position the tool to its checking position."
+
+"Use Y Axis Incremental Adjustment Distance  (J)"	30	YESNO		NO			{NA}			100				-				12100					"To use an incremental adjustment distance in the Y axis set this flag to 'YES'."
+"Y Axis Incremental Adjustment Distance (J)"		33	LINEAR		0.0			{NA}			100				CM_J			12100					"Allows the reflection point on the tool to be individually adjusted to attain maximum feedback. NOTE: Only valid if a Y move is used to position the tool to its checking position."
+
+
+
+[Visibility]
+PROPERTIES	21
+CTRL_PROPS		20 ("Use Default Tolerance (H)")
+CTRL_VALUES		1 ("NO")
+
+PROPERTIES	23
+CTRL_PROPS		22 ("Use Broken Tool Flag (M1)")
+CTRL_VALUES		2 ("YES")
+
+PROPERTIES	27
+CTRL_PROPS		26 ("Retract To Safety Plane (Z)")
+CTRL_VALUES		2 ("YES")
+
+PROPERTIES	32
+CTRL_PROPS		28 ("Use X Axis Incremental Adjustment Distance  (I)")
+CTRL_VALUES		2 ("YES")
+
+PROPERTIES	33
+CTRL_PROPS		30 ("Use Y Axis Incremental Adjustment Distance  (J)")
+CTRL_VALUES		2 ("YES")
+
+
+[Enums]
+; ENUM_NAME - name of enum set
+; ENUM_ITEM - item text, ID and index
+; N.B. When post processing, the selected enum item ID will be outputted with the Output Parameter.
+;	e.g.	enum type			: YESNO
+;			selected enum item	: YES
+;			enum item value		: 1
+;			Output Parameter	: CM_B
+;			Output				= B1
+;												ID		Index (order in which they will appear)
+;ENUM_NAME		TOL_ALARM						
+;ENUM_ITEM		"Yes"							1		1
+
+ENUM_NAME		RPM					
+ENUM_ITEM		"200"				200		0
+ENUM_ITEM		"1000"				1000	1
+ENUM_ITEM		"5000"				5000	2
+
+
+
+
+
+
+
+[Categories]
+; Name							ID
+"Nominals"						100
+
+[Resources]
+; File name of resource DLL containing metafiles (optional)
+PP_tsToolSettingRes.dll
+
+; The post processor section to call when post processing occurs
+[Post Section]
+TOOLSETTING_CUSTOMMACRO_TOOL_CHANGE_APPLY_H

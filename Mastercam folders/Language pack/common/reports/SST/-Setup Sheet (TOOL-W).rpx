@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.1" PrintWidth="9360" DocumentName="ActiveReports Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-family: Arial; font-style: normal; font-variant: inherit; font-weight: normal; font-size: 10pt; font-size-adjust: inherit; font-stretch: inherit; color: rgb(0,0,0); background-repeat: inherit; background-attachment: inherit; opacity: inherit; word-spacing: inherit; letter-spacing: inherit; text-decoration: none; vertical-align: inherit; text-transform: inherit; text-align: inherit; text-indent: inherit; unicode-bidi: inherit; line-height: inherit; white-space: inherit; ddo-char-set: 0" />
+    <Style Name="Heading1" Value="font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: bold; font-size: 16pt; font-size-adjust: inherit; font-stretch: inherit" />
+    <Style Name="Heading2" Value="font-family: Times New Roman; font-style: italic; font-variant: inherit; font-weight: bold; font-size: 14pt; font-size-adjust: inherit; font-stretch: inherit" />
+    <Style Name="Heading3" Value="font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: bold; font-size: 13pt; font-size-adjust: inherit; font-stretch: inherit" />
+  </StyleSheet>
+  <Sections>
+    <Section Type="Detail" Name="Detail" Height="5400" BackColor="16777215" KeepTogether="1">
+      <Control Type="AR.Shape" Name="Shape2" Left="90" Top="900" Width="9180" Height="360" BackColor="16777215" RoundingRadius="9.999999" />
+      <Control Type="AR.Shape" Name="Shape1" Left="90" Top="360" Width="9180" Height="450" BackColor="16777215" RoundingRadius="9.999999" />
+      <Control Type="AR.Label" Name="Label10" Left="180" Top="450" Width="1080" Height="270" Caption="LIBRARY:" Style="font-family: Arial Unicode MS; font-size: 8.25pt; font-weight: normal" />
+      <Control Type="AR.Field" Name="TextBox" DataField="LIBRARY-NAME" Left="2250" Top="450" Width="6660" Height="270" Text="LIBRARY-NAME" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label1" Left="90" Top="0" Width="9180" Height="270" Caption="PASS INFO (POWER SETTINGS)" Style="font-family: Arial Unicode MS; font-size: 8.25pt; font-style: italic; font-weight: normal" />
+      <Control Type="AR.Line" Name="Line" X1="9270" Y1="270" X2="90" Y2="270" />
+      <Control Type="AR.Label" Name="Label4" Left="180" Top="990" Width="1800" Height="270" Caption="NUMBER" Style="font-family: Arial Unicode MS; font-size: 8.25pt; font-weight: normal" />
+      <Control Type="AR.Label" Name="Label2" Left="2250" Top="990" Width="1800" Height="270" Caption="CONDITION CODE" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label3" Left="4230" Top="990" Width="1800" Height="270" Caption="OFFSET" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Subreport" Name="srpt_PASS" DataField="PASS" Tag="PASS" BorderLeftStyle="1" BorderTopStyle="1" BorderRightStyle="1" BorderBottomStyle="1" Left="90" Top="1260" Width="9180" Height="90" ReportName="-Setup Sheet (WIRE-PASS).rpx" />
+    </Section>
+  </Sections>
+  <ReportComponentTray />
+  <DataSources>
+    <XmlDataSource FileURL="..\SST\SAMPLES\WIRE\SSW-MT.xml" Pattern="//TOOL-W" />
+  </DataSources>
+  <PageSettings />
+  <Parameters />
+</ActiveReportsLayout>

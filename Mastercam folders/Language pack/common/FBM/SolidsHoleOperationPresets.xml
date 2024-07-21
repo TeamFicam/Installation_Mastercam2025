@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Categories>
+	<Category Name="Number Drills">
+		<Presets>
+			<Preset Name="97" IsMetric="false" Diameter="0.0059" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="96" IsMetric="false" Diameter="0.0063" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="95" IsMetric="false" Diameter="0.0067" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="94" IsMetric="false" Diameter="0.0071" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="93" IsMetric="false" Diameter="0.0075" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="92" IsMetric="false" Diameter="0.0079" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="91" IsMetric="false" Diameter="0.0083" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="90" IsMetric="false" Diameter="0.0087" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="89" IsMetric="false" Diameter="0.0091" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="88" IsMetric="false" Diameter="0.0095" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="87" IsMetric="false" Diameter="0.01" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="86" IsMetric="false" Diameter="0.0105" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="85" IsMetric="false" Diameter="0.011" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="84" IsMetric="false" Diameter="0.0115" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="83" IsMetric="false" Diameter="0.012" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="82" IsMetric="false" Diameter="0.0125" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="81" IsMetric="false" Diameter="0.013" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="80" IsMetric="false" Diameter="0.014" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="79" IsMetric="false" Diameter="0.0145" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="78" IsMetric="false" Diameter="0.016" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="77" IsMetric="false" Diameter="0.018" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="76" IsMetric="false" Diameter="0.02" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="75" IsMetric="false" Diameter="0.021" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="74" IsMetric="false" Diameter="0.0225" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="73" IsMetric="false" Diameter="0.024" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="72" IsMetric="false" Diameter="0.025" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="71" IsMetric="false" Diameter="0.026" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="70" IsMetric="false" Diameter="0.028" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="69" IsMetric="false" Diameter="0.0292" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="68" IsMetric="false" Diameter="0.031" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="67" IsMetric="false" Diameter="0.032" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="66" IsMetric="false" Diameter="0.033" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="65" IsMetric="false" Diameter="0.035" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="64" IsMetric="false" Diameter="0.036" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="63" IsMetric="false" Diameter="0.037" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="62" IsMetric="false" Diameter="0.038" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="61" IsMetric="false" Diameter="0.039" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="60" IsMetric="false" Diameter="0.04" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="59" IsMetric="false" Diameter="0.041" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="58" IsMetric="false" Diameter="0.042" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="57" IsMetric="false" Diameter="0.043" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="56" IsMetric="false" Diameter="0.0456" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="55" IsMetric="false" Diameter="0.052" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="54" IsMetric="false" Diameter="0.055" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="53" IsMetric="false" Diameter="0.0595" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="52" IsMetric="false" Diameter="0.0635" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="51" IsMetric="false" Diameter="0.067" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="50" IsMetric="false" Diameter="0.07" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="49" IsMetric="false" Diameter="0.073" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="48" IsMetric="false" Diameter="0.076" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="47" IsMetric="false" Diameter="0.0781" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="46" IsMetric="false" Diameter="0.081" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="45" IsMetric="false" Diameter="0.082" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="44" IsMetric="false" Diameter="0.086" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="43" IsMetric="false" Diameter="0.089" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="42" IsMetric="false" Diameter="0.0935" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="41" IsMetric="false" Diameter="0.096" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="40" IsMetric="false" Diameter="0.098" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="39" IsMetric="false" Diameter="0.0995" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="38" IsMetric="false" Diameter="0.1015" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="37" IsMetric="false" Diameter="0.104" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="36" IsMetric="false" Diameter="0.1065" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="35" IsMetric="false" Diameter="0.11" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="34" IsMetric="false" Diameter="0.111" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="33" IsMetric="false" Diameter="0.113" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="32" IsMetric="false" Diameter="0.116" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="31" IsMetric="false" Diameter="0.12" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="30" IsMetric="false" Diameter="0.1285" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="29" IsMetric="false" Diameter="0.136" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="28" IsMetric="false" Diameter="0.1405" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="27" IsMetric="false" Diameter="0.144" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="26" IsMetric="false" Diameter="0.147" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="25" IsMetric="false" Diameter="0.1495" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="24" IsMetric="false" Diameter="0.152" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="23" IsMetric="false" Diameter="0.154" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="22" IsMetric="false" Diameter="0.157" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="21" IsMetric="false" Diameter="0.159" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="20" IsMetric="false" Diameter="0.161" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="19" IsMetric="false" Diameter="0.166" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="18" IsMetric="false" Diameter="0.1695" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="17" IsMetric="false" Diameter="0.173" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="16" IsMetric="false" Diameter="0.177" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="15" IsMetric="false" Diameter="0.18" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="14" IsMetric="false" Diameter="0.182" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="13" IsMetric="false" Diameter="0.185" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="12" IsMetric="false" Diameter="0.189" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="11" IsMetric="false" Diameter="0.191" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="10" IsMetric="false" Diameter="0.1935" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="9" IsMetric="false" Diameter="0.196" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="8" IsMetric="false" Diameter="0.199" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="7" IsMetric="false" Diameter="0.201" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="6" IsMetric="false" Diameter="0.204" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="5" IsMetric="false" Diameter="0.2055" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="4" IsMetric="false" Diameter="0.209" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="3" IsMetric="false" Diameter="0.213" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="2" IsMetric="false" Diameter="0.221" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="1" IsMetric="false" Diameter="0.228" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+		</Presets>
+	</Category>
+	<Category Name="Letter Drills">
+		<Presets>
+			<Preset Name="A" IsMetric="false" Diameter="0.234" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="B" IsMetric="false" Diameter="0.238" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="C" IsMetric="false" Diameter="0.242" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="E" IsMetric="false" Diameter="0.25" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="F" IsMetric="false" Diameter="0.257" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="G" IsMetric="false" Diameter="0.261" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="H" IsMetric="false" Diameter="0.266" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="I" IsMetric="false" Diameter="0.272" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="J" IsMetric="false" Diameter="0.277" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="K" IsMetric="false" Diameter="0.281" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="L" IsMetric="false" Diameter="0.29" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="M" IsMetric="false" Diameter="0.295" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="N" IsMetric="false" Diameter="0.302" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="O" IsMetric="false" Diameter="0.316" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="P" IsMetric="false" Diameter="0.322" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="Q" IsMetric="false" Diameter="0.332" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="R" IsMetric="false" Diameter="0.339" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="S" IsMetric="false" Diameter="0.348" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="T" IsMetric="false" Diameter="0.358" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="U" IsMetric="false" Diameter="0.368" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="V" IsMetric="false" Diameter="0.377" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="W" IsMetric="false" Diameter="0.386" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="X" IsMetric="false" Diameter="0.397" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="Y" IsMetric="false" Diameter="0.404" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="Z" IsMetric="false" Diameter="0.413" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+		</Presets>
+	</Category>
+	<Category Name="Fractional / Decimal">
+		<Presets>
+			<Preset Name="1/64 - .0156" IsMetric="false" Diameter="0.0156" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="1/32 - .0312" IsMetric="false" Diameter="0.0312" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="3/64 - .0469" IsMetric="false" Diameter="0.0469" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="1/16 - .0625" IsMetric="false" Diameter="0.0625" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="5/64 - .0781" IsMetric="false" Diameter="0.0781" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="3/32 - .0938" IsMetric="false" Diameter="0.0938" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="7/64 - .1094" IsMetric="false" Diameter="0.1094" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="1/8 - .125" IsMetric="false" Diameter="0.125" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="5/32 - .1562" IsMetric="false" Diameter="0.1562" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="11/64 - .1719" IsMetric="false" Diameter="0.1719" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="3/16 - .1875" IsMetric="false" Diameter="0.1875" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="13/64 - .2031" IsMetric="false" Diameter="0.20314" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="7/32 - .2188" IsMetric="false" Diameter="0.2188" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="15/64 - .2344" IsMetric="false" Diameter="0.2344" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="1/4 - .250" IsMetric="false" Diameter="0.25" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="17/64 - .2656" IsMetric="false" Diameter="0.2656" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="9/32 - .2812" IsMetric="false" Diameter="0.2812" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="19/64 - .2969" IsMetric="false" Diameter="0.2969" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="5/16 - .3125" IsMetric="false" Diameter="0.3125" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="21/64 - .3281" IsMetric="false" Diameter="0.3281" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="11/32 - .3438" IsMetric="false" Diameter="0.3438" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="23/64 - .3594" IsMetric="false" Diameter="0.3594" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="3/8 - .375" IsMetric="false" Diameter="0.375" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="25/64 - .3906" IsMetric="false" Diameter="0.3906" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="13/32 - .4062" IsMetric="false" Diameter="0.4062" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="27/64 - .4219" IsMetric="false" Diameter="0.4219" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="7/16 - .4375" IsMetric="false" Diameter="0.4375" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="29/64 - .4531" IsMetric="false" Diameter="0.4531" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="15/32 - .4688" IsMetric="false" Diameter="0.4688" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="31/64 - .4844" IsMetric="false" Diameter="0.4844" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="1/2 - .5" IsMetric="false" Diameter="0.5" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="33/64 - .5156" IsMetric="false" Diameter="0.5156" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="17/32 - .5312" IsMetric="false" Diameter="0.5312" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="35/64 - .5469" IsMetric="false" Diameter="0.5469" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="9/16 - .5625" IsMetric="false" Diameter="0.5625" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="37/64 - .5781" IsMetric="false" Diameter="0.5781" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="19/32 - .5938" IsMetric="false" Diameter="0.5938" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="39/64 - .6094" IsMetric="false" Diameter="0.6094" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="5/8 - .625" IsMetric="false" Diameter="0.625" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="41/64 - .6406" IsMetric="false" Diameter="0.6406" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="21/32 - .6562" IsMetric="false" Diameter="0.6562" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="43/64 - .6719" IsMetric="false" Diameter="0.6719" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="11/16 - .6875" IsMetric="false" Diameter="0.6875" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="45/64 - .7031" IsMetric="false" Diameter="0.7031" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="23/32 - .7188" IsMetric="false" Diameter="0.7188" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="47/64 - .7344" IsMetric="false" Diameter="0.7344" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="3/4 - .75" IsMetric="false" Diameter="0.75" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="49/64 - .7656" IsMetric="false" Diameter="0.7656" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="25/32 - .7812" IsMetric="false" Diameter="0.7812" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="51/64 - .7969" IsMetric="false" Diameter="0.7969" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="13/16 - .8125" IsMetric="false" Diameter="0.8125" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="53/64 - .8281" IsMetric="false" Diameter="0.8281" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="27/32 - .8438" IsMetric="false" Diameter="0.8438" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="55/64 - .8594" IsMetric="false" Diameter="0.8594" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="7/8 - .875" IsMetric="false" Diameter="0.875" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="57/64 - .8906" IsMetric="false" Diameter="0.8906" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="29/32 - .9062" IsMetric="false" Diameter="0.9062" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="59/64 - .9219" IsMetric="false" Diameter="0.9219" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="15/16 - .9375" IsMetric="false" Diameter="0.9375" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="61/64 - .9531" IsMetric="false" Diameter="0.9531" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="31/32 - .9688" IsMetric="false" Diameter="0.9688" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="63/64 - .9844" IsMetric="false" Diameter="0.9844" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+			<Preset Name="1 - 1.0" IsMetric="false" Diameter="1" SetDepthBy="Distance" Depth="1" BottomAngle="118"></Preset>
+		</Presets>
+	</Category>
+	<Category Name="Tap Drills - UNF">
+		<Presets>
+			<Preset Name="0-80 UNF - .0469" IsMetric="false" Diameter="0.0469" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.11" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="0-72 UNF - .0465" IsMetric="false" Diameter="0.0465" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.11" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="1-72 UNF - .0595" IsMetric="false" Diameter="0.0595" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.123" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="2-64 UNF - .07" IsMetric="false" Diameter="0.07" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.136" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="3-56 UNF - .082" IsMetric="false" Diameter="0.082" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.149" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="4-48 UNF - .0935" IsMetric="false" Diameter="0.0935" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.162" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="5-44 UNF - .104" IsMetric="false" Diameter="0.104" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.175" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="6-40 UNF - .113" IsMetric="false" Diameter="0.113" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.188" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="8-36 UNF - .136" IsMetric="false" Diameter="0.136" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.214" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="10-32 UNF - .159" IsMetric="false" Diameter="0.159" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.24" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="12-28 UNF - .182" IsMetric="false" Diameter="0.182" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.266" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="1/4-28 UNF - .213" IsMetric="false" Diameter="0.213" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.3" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="3/8-24 UNF - .332" IsMetric="false" Diameter="0.332" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.425" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="7/16-20 UNF - .3906" IsMetric="false" Diameter="0.3906" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.4875" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="1/2-20 UNF - .4531" IsMetric="false" Diameter="0.4531" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.55" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="9/16-18 UNF - .5156" IsMetric="false" Diameter="0.5156" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.6125" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="5/8-18 UNF - .5781" IsMetric="false" Diameter="0.5781" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.675" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="3/4-16 UNF - .6875" IsMetric="false" Diameter="0.6875" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.8" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="7/8-14 UNF - .8125" IsMetric="false" Diameter="0.8125" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.925" Angle="90"></TopChamfer>
+			</Preset>
+		</Presets>
+	</Category>
+	<Category Name="Tap Drills - UNC">
+		<Presets>
+			<Preset Name="1-64 UNC - .0595" IsMetric="false" Diameter="0.0595" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.123" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="2-56 UNC - .07" IsMetric="false" Diameter="0.07" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.136" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="3-48 UNC - .0785" IsMetric="false" Diameter="0.0785" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.149" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="4-40 UNC - .089" IsMetric="false" Diameter="0.089" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.162" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="5-40 UNC - .1015" IsMetric="false" Diameter="0.1015" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.175" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="6-32 UNC - .1065" IsMetric="false" Diameter="0.1065" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.188" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="8-32 UNC - .136" IsMetric="false" Diameter="0.136" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.214" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="10-24 UNC - .1495" IsMetric="false" Diameter="0.1495" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.24" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="12-24 UNC - .177" IsMetric="false" Diameter="0.177" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.266" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="1/4-20 UNC - .201" IsMetric="false" Diameter="0.201" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.3" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="5/16-18 UNC - .257" IsMetric="false" Diameter="0.257" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.3625" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="3/8-16 UNC - .3125" IsMetric="false" Diameter="0.3125" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.425" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="7/16-14 UNC - .368" IsMetric="false" Diameter="0.368" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.487" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="1/2-13 UNC - .4219" IsMetric="false" Diameter="0.4219" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.55" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="9/16-12 UNC - .4844" IsMetric="false" Diameter="0.4844" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.6125" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="5/8-11 UNC - .5312" IsMetric="false" Diameter="0.5312" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.675" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="3/4-10 UNC - .6562" IsMetric="false" Diameter="0.6562" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.8" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="13/16-10 UNC - .7187" IsMetric="false" Diameter="0.7187" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.825" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="7/8-9 UNC - .7656" IsMetric="false" Diameter="0.7656" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.925" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="15/16-9 UNC - .8281" IsMetric="false" Diameter="0.8281" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="0.9625" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="1-8 UNC - .875" IsMetric="false" Diameter="0.875" SetDepthBy="Distance" Depth="1" BottomAngle="118">
+				<TopChamfer IsMetric="false" DiameterAbsolute="1.05" Angle="90"></TopChamfer>
+			</Preset>
+		</Presets>
+	</Category>
+	<Category Name="Metric Drills">
+		<Presets>
+			<Preset Name="0.1 mm - Drill" IsMetric="true" Diameter="0.1" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="0.175 mm - Drill" IsMetric="true" Diameter="0.175" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="0.2 mm - Drill" IsMetric="true" Diameter="0.2" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="0.21 mm - Drill" IsMetric="true" Diameter="0.21" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="0.245 mm - Drill" IsMetric="true" Diameter="0.245" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="0.28 mm - Drill" IsMetric="true" Diameter="0.28" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="0.3 mm - Drill" IsMetric="true" Diameter="0.3" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="0.315 mm - Drill" IsMetric="true" Diameter="0.315" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="0.35 mm - Drill" IsMetric="true" Diameter="0.35" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="0.38 mm - Drill" IsMetric="true" Diameter="0.38" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="0.4 mm - Drill" IsMetric="true" Diameter="0.4" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="0.42 mm - Drill" IsMetric="true" Diameter="0.42" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="0.45 mm - Drill" IsMetric="true" Diameter="0.45" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="0.5 mm - Drill" IsMetric="true" Diameter="0.5" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="0.55 mm - Drill" IsMetric="true" Diameter="0.55" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="0.56 mm - Drill" IsMetric="true" Diameter="0.56" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="0.6 mm - Drill" IsMetric="true" Diameter="0.6" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="0.63 mm - Drill" IsMetric="true" Diameter="0.63" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="0.65 mm - Drill" IsMetric="true" Diameter="0.65" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="0.7 mm - Drill" IsMetric="true" Diameter="0.7" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="0.75 mm - Drill" IsMetric="true" Diameter="0.75" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="0.8 mm - Drill" IsMetric="true" Diameter="0.8" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="0.85 mm - Drill" IsMetric="true" Diameter="0.85" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="0.9 mm - Drill" IsMetric="true" Diameter="0.9" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="0.95 mm - Drill" IsMetric="true" Diameter="0.95" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="1 mm - Drill" IsMetric="true" Diameter="1" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="1.1 mm - Drill" IsMetric="true" Diameter="1.1" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="1.15 mm - Drill" IsMetric="true" Diameter="1.15" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="1.2 mm - Drill" IsMetric="true" Diameter="1.2" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="1.25 mm - Drill" IsMetric="true" Diameter="1.25" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="1.3 mm - Drill" IsMetric="true" Diameter="1.3" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="1.35 mm - Drill" IsMetric="true" Diameter="1.35" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="1.4 mm - Drill" IsMetric="true" Diameter="1.4" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="1.45 mm - Drill" IsMetric="true" Diameter="1.45" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="1.5 mm - Drill" IsMetric="true" Diameter="1.5" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="1.55 mm - Drill" IsMetric="true" Diameter="1.55" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="1.6 mm - Drill" IsMetric="true" Diameter="1.6" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="1.65 mm - Drill" IsMetric="true" Diameter="1.65" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="1.7 mm - Drill" IsMetric="true" Diameter="1.7" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="1.75 mm - Drill" IsMetric="true" Diameter="1.75" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="1.8 mm - Drill" IsMetric="true" Diameter="1.8" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="1.85 mm - Drill" IsMetric="true" Diameter="1.85" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="1.9 mm - Drill" IsMetric="true" Diameter="1.9" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="1.95 mm - Drill" IsMetric="true" Diameter="1.95" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="2 mm - Drill" IsMetric="true" Diameter="2" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="2.1 mm - Drill" IsMetric="true" Diameter="2.1" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="2.15 mm - Drill" IsMetric="true" Diameter="2.15" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="2.2 mm - Drill" IsMetric="true" Diameter="2.2" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="2.25 mm - Drill" IsMetric="true" Diameter="2.25" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="2.3 mm - Drill" IsMetric="true" Diameter="2.3" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="2.35 mm - Drill" IsMetric="true" Diameter="2.35" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="2.4 mm - Drill" IsMetric="true" Diameter="2.4" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="2.45 mm - Drill" IsMetric="true" Diameter="2.45" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="2.5 mm - Drill" IsMetric="true" Diameter="2.5" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="2.6 mm - Drill" IsMetric="true" Diameter="2.6" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="2.65 mm - Drill" IsMetric="true" Diameter="2.65" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="2.7 mm - Drill" IsMetric="true" Diameter="2.7" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="2.8 mm - Drill" IsMetric="true" Diameter="2.8" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="2.9 mm - Drill" IsMetric="true" Diameter="2.9" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="3 mm - Drill" IsMetric="true" Diameter="3" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="3.1 mm - Drill" IsMetric="true" Diameter="3.1" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="3.15 mm - Drill" IsMetric="true" Diameter="3.15" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="3.3 mm - Drill" IsMetric="true" Diameter="3.3" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="3.5 mm - Drill" IsMetric="true" Diameter="3.5" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="3.6 mm - Drill" IsMetric="true" Diameter="3.6" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="3.7 mm - Drill" IsMetric="true" Diameter="3.7" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="3.8 mm - Drill" IsMetric="true" Diameter="3.8" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="3.9 mm - Drill" IsMetric="true" Diameter="3.9" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="4 mm - Drill" IsMetric="true" Diameter="4" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="4.1 mm - Drill" IsMetric="true" Diameter="4.1" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="4.2 mm - Drill" IsMetric="true" Diameter="4.2" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="4.3 mm - Drill" IsMetric="true" Diameter="4.3" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="4.4 mm - Drill" IsMetric="true" Diameter="4.4" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="4.5 mm - Drill" IsMetric="true" Diameter="4.5" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="4.6 mm - Drill" IsMetric="true" Diameter="4.6" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="4.7 mm - Drill" IsMetric="true" Diameter="4.7" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="4.8 mm - Drill" IsMetric="true" Diameter="4.8" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="4.9 mm - Drill" IsMetric="true" Diameter="4.9" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="5 mm - Drill" IsMetric="true" Diameter="5" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="5.1 mm - Drill" IsMetric="true" Diameter="5.1" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="5.2 mm - Drill" IsMetric="true" Diameter="5.2" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="5.25 mm - Drill" IsMetric="true" Diameter="5.25" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="5.3 mm - Drill" IsMetric="true" Diameter="5.3" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="5.4 mm - Drill" IsMetric="true" Diameter="5.4" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="5.5 mm - Drill" IsMetric="true" Diameter="5.5" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="5.6 mm - Drill" IsMetric="true" Diameter="5.6" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="5.7 mm - Drill" IsMetric="true" Diameter="5.7" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="5.75 mm - Drill" IsMetric="true" Diameter="5.75" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="5.8 mm - Drill" IsMetric="true" Diameter="5.8" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="5.9 mm - Drill" IsMetric="true" Diameter="5.9" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="6 mm - Drill" IsMetric="true" Diameter="6" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="6.1 mm - Drill" IsMetric="true" Diameter="6.1" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="6.2 mm - Drill" IsMetric="true" Diameter="6.2" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="6.25 mm - Drill" IsMetric="true" Diameter="6.25" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="6.3 mm - Drill" IsMetric="true" Diameter="6.3" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="6.4 mm - Drill" IsMetric="true" Diameter="6.4" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="6.5 mm - Drill" IsMetric="true" Diameter="6.5" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="6.6 mm - Drill" IsMetric="true" Diameter="6.6" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="6.7 mm - Drill" IsMetric="true" Diameter="6.7" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="6.75 mm - Drill" IsMetric="true" Diameter="6.75" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="6.8 mm - Drill" IsMetric="true" Diameter="6.8" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="6.9 mm - Drill" IsMetric="true" Diameter="6.9" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="7 mm - Drill" IsMetric="true" Diameter="7" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="7.1 mm - Drill" IsMetric="true" Diameter="7.1" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="7.2 mm - Drill" IsMetric="true" Diameter="7.2" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="7.25 mm - Drill" IsMetric="true" Diameter="7.25" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="7.3 mm - Drill" IsMetric="true" Diameter="7.3" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="7.4 mm - Drill" IsMetric="true" Diameter="7.4" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="7.5 mm - Drill" IsMetric="true" Diameter="7.5" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="7.6 mm - Drill" IsMetric="true" Diameter="7.6" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="7.7 mm - Drill" IsMetric="true" Diameter="7.7" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="7.75 mm - Drill" IsMetric="true" Diameter="7.75" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="7.8 mm - Drill" IsMetric="true" Diameter="7.8" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="7.9 mm - Drill" IsMetric="true" Diameter="7.9" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="8 mm - Drill" IsMetric="true" Diameter="8" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="8.1 mm - Drill" IsMetric="true" Diameter="8.1" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="8.2 mm - Drill" IsMetric="true" Diameter="8.2" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="8.25 mm - Drill" IsMetric="true" Diameter="8.25" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="8.3 mm - Drill" IsMetric="true" Diameter="8.3" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="8.4 mm - Drill" IsMetric="true" Diameter="8.4" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="8.5 mm - Drill" IsMetric="true" Diameter="8.5" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="8.6 mm - Drill" IsMetric="true" Diameter="8.6" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="8.7 mm - Drill" IsMetric="true" Diameter="8.7" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="8.75 mm - Drill" IsMetric="true" Diameter="8.75" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="8.8 mm - Drill" IsMetric="true" Diameter="8.8" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="8.9 mm - Drill" IsMetric="true" Diameter="8.9" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="9 mm - Drill" IsMetric="true" Diameter="9" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="9.1 mm - Drill" IsMetric="true" Diameter="9.1" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="9.2 mm - Drill" IsMetric="true" Diameter="9.2" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="9.25 mm - Drill" IsMetric="true" Diameter="9.25" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="9.3 mm - Drill" IsMetric="true" Diameter="9.3" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="9.4 mm - Drill" IsMetric="true" Diameter="9.4" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="9.5 mm - Drill" IsMetric="true" Diameter="9.5" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="9.6 mm - Drill" IsMetric="true" Diameter="9.6" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="9.7 mm - Drill" IsMetric="true" Diameter="9.7" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="9.75 mm - Drill" IsMetric="true" Diameter="9.75" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="9.8 mm - Drill" IsMetric="true" Diameter="9.8" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="9.9 mm - Drill" IsMetric="true" Diameter="9.9" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="10 mm - Drill" IsMetric="true" Diameter="10" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="10.2 mm - Drill" IsMetric="true" Diameter="10.2" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="10.25 mm - Drill" IsMetric="true" Diameter="10.25" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="10.3 mm - Drill" IsMetric="true" Diameter="10.3" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="10.5 mm - Drill" IsMetric="true" Diameter="10.5" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="10.75 mm - Drill" IsMetric="true" Diameter="10.75" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="10.8 mm - Drill" IsMetric="true" Diameter="10.8" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="11 mm - Drill" IsMetric="true" Diameter="11" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="11.25 mm - Drill" IsMetric="true" Diameter="11.25" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="11.5 mm - Drill" IsMetric="true" Diameter="11.5" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="12 mm - Drill" IsMetric="true" Diameter="12" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="12.5 mm - Drill" IsMetric="true" Diameter="12.5" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="12.75 mm - Drill" IsMetric="true" Diameter="12.75" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="13 mm - Drill" IsMetric="true" Diameter="13" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="13.25 mm - Drill" IsMetric="true" Diameter="13.25" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="13.5 mm - Drill" IsMetric="true" Diameter="13.5" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="14 mm - Drill" IsMetric="true" Diameter="14" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="14.5 mm - Drill" IsMetric="true" Diameter="14.5" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="14.75 mm - Drill" IsMetric="true" Diameter="14.75" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="15 mm - Drill" IsMetric="true" Diameter="15" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="15.25 mm - Drill" IsMetric="true" Diameter="15.25" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="15.5 mm - Drill" IsMetric="true" Diameter="15.5" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="16 mm - Drill" IsMetric="true" Diameter="16" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="16.5 mm - Drill" IsMetric="true" Diameter="16.5" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="16.75 mm - Drill" IsMetric="true" Diameter="16.75" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="17 mm - Drill" IsMetric="true" Diameter="17" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="17.25 mm - Drill" IsMetric="true" Diameter="17.25" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="17.5 mm - Drill" IsMetric="true" Diameter="17.5" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="18 mm - Drill" IsMetric="true" Diameter="18" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="18.5 mm - Drill" IsMetric="true" Diameter="18.5" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="19 mm - Drill" IsMetric="true" Diameter="19" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="19.25 mm - Drill" IsMetric="true" Diameter="19.25" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="19.5 mm - Drill" IsMetric="true" Diameter="19.5" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="20 mm - Drill" IsMetric="true" Diameter="20" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="20.5 mm - Drill" IsMetric="true" Diameter="20.5" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="21 mm - Drill" IsMetric="true" Diameter="21" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="21.25 mm - Drill" IsMetric="true" Diameter="21.25" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="21.5 mm - Drill" IsMetric="true" Diameter="21.5" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="22 mm - Drill" IsMetric="true" Diameter="22" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="22.5 mm - Drill" IsMetric="true" Diameter="22.5" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="23 mm - Drill" IsMetric="true" Diameter="23" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="23.25 mm - Drill" IsMetric="true" Diameter="23.25" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="23.5 mm - Drill" IsMetric="true" Diameter="23.5" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="24 mm - Drill" IsMetric="true" Diameter="24" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="24.5 mm - Drill" IsMetric="true" Diameter="24.5" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+			<Preset Name="25 mm - Drill" IsMetric="true" Diameter="25" SetDepthBy="Distance" Depth="25" BottomAngle="118"></Preset>
+		</Presets>
+	</Category>
+	<Category Name="Metric Coarse Tap Drills">
+		<Presets>
+			<Preset Name="M1x0.25" IsMetric="true" Diameter="0.75" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="1.25" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M1.1x0.25" IsMetric="true" Diameter="0.85" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="1.25" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M1.2x0.25" IsMetric="true" Diameter="0.95" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="1.25" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M1.4x0.3" IsMetric="true" Diameter="1.1" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="1.45" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M1.6x0.35" IsMetric="true" Diameter="1.25" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="1.65" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M1.7x0.35" IsMetric="true" Diameter="1.3" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="1.75" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M1.8x0.35" IsMetric="true" Diameter="1.45" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="1.85" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M2x0.4" IsMetric="true" Diameter="1.6" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="2.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M2.2x0.45" IsMetric="true" Diameter="1.75" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="2.25" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M2.5x0.45" IsMetric="true" Diameter="2.05" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="2.55" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M2.6x0.45" IsMetric="true" Diameter="2.1" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="2.65" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M3x0.5" IsMetric="true" Diameter="2.5" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="3.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M3.5x0.6" IsMetric="true" Diameter="2.9" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="3.55" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M4x0.7" IsMetric="true" Diameter="3.3" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="4.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M4.5x0.75" IsMetric="true" Diameter="3.75" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="4.55" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M5x0.8" IsMetric="true" Diameter="4.2" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="5.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M6x1" IsMetric="true" Diameter="5" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="6.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M7x1" IsMetric="true" Diameter="6" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="7.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M8x1.25" IsMetric="true" Diameter="6.8" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="8.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M9x1.25" IsMetric="true" Diameter="7.75" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="9.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M10x1.5" IsMetric="true" Diameter="8.5" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="10.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M11x1.5" IsMetric="true" Diameter="9.5" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="11.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M12x1.75" IsMetric="true" Diameter="10.25" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="12.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M14x2" IsMetric="true" Diameter="12" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="14.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M16x2" IsMetric="true" Diameter="14" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="16.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M17x1.5" IsMetric="true" Diameter="15.5" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="17.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M18x2.5" IsMetric="true" Diameter="15.5" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="18.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M20x2.5" IsMetric="true" Diameter="17.5" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="20.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M22x2.5" IsMetric="true" Diameter="19.5" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="22.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M24x3" IsMetric="true" Diameter="21" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="24.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M27x3" IsMetric="true" Diameter="24" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="27.05" Angle="90"></TopChamfer>
+			</Preset>
+		</Presets>
+	</Category>
+	<Category Name="Metric Fine Tap Drills">
+		<Presets>
+			<Preset Name="M2.5x0.35" IsMetric="true" Diameter="2.15" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="2.55" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M3x0.35" IsMetric="true" Diameter="2.65" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="3.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M3.5x0.35" IsMetric="true" Diameter="3.15" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="3.55" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M4x0.35" IsMetric="true" Diameter="3.6" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="4.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M4x0.5" IsMetric="true" Diameter="3.5" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="4.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M4.5x0.5" IsMetric="true" Diameter="4" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="4.55" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M5x0.5" IsMetric="true" Diameter="4.5" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="5.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M5.5x0.5" IsMetric="true" Diameter="5" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="5.55" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M6x0.75" IsMetric="true" Diameter="5.25" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="6.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M7x0.75" IsMetric="true" Diameter="6.25" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="7.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M8x1" IsMetric="true" Diameter="7.5" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="8.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M8x0.75" IsMetric="true" Diameter="7.25" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="8.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M8x0.5" IsMetric="true" Diameter="7.5" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="8.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M9x1" IsMetric="true" Diameter="8" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="9.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M9x0.75" IsMetric="true" Diameter="8.25" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="9.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M10x1.25" IsMetric="true" Diameter="8.75" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="10.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M10x1" IsMetric="true" Diameter="9" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="10.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M10x0.75" IsMetric="true" Diameter="9.25" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="10.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M11x1" IsMetric="true" Diameter="10" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="11.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M11x0.75" IsMetric="true" Diameter="10.25" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="11.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M12x1.5" IsMetric="true" Diameter="10.5" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="12.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M12x1.25" IsMetric="true" Diameter="10.75" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="12.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M12x1" IsMetric="true" Diameter="11" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="12.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M12x0.75" IsMetric="true" Diameter="11.25" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="12.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M14x1.5" IsMetric="true" Diameter="12.5" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="14.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M14x1.25" IsMetric="true" Diameter="12.75" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="14.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M14x1" IsMetric="true" Diameter="13" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="14.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M15x1" IsMetric="true" Diameter="14" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="15.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M16x1.5" IsMetric="true" Diameter="14.5" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="16.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M16x1" IsMetric="true" Diameter="15" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="16.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M17x1" IsMetric="true" Diameter="16" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="17.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M18x2" IsMetric="true" Diameter="16" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="18.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M18x1.5" IsMetric="true" Diameter="16.5" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="18.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M18x1" IsMetric="true" Diameter="17" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="18.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M20x2" IsMetric="true" Diameter="18" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="20.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M20x1.5" IsMetric="true" Diameter="18.5" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="20.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M20x1" IsMetric="true" Diameter="19" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="20.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M22x2" IsMetric="true" Diameter="20" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="22.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M22x1.5" IsMetric="true" Diameter="20.5" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="22.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M22x1" IsMetric="true" Diameter="21" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="22.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M24x2" IsMetric="true" Diameter="22" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="24.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M24x1.5" IsMetric="true" Diameter="22.5" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="24.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M25x2" IsMetric="true" Diameter="23" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="25.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M25x1.5" IsMetric="true" Diameter="23.5" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="25.05" Angle="90"></TopChamfer>
+			</Preset>
+			<Preset Name="M25x1" IsMetric="true" Diameter="24" SetDepthBy="Distance" Depth="25" BottomAngle="118">
+				<TopChamfer IsMetric="true" DiameterAbsolute="25.05" Angle="90"></TopChamfer>
+			</Preset>
+		</Presets>
+	</Category>
+	<Category Name="Socket Head Cap Screws - Inch">
+		<Presets>
+			<Preset Name="0 - Cap Screw Hole" IsMetric="false" Diameter="0.073" SetDepthBy="ThroughAll" Depth="1" BottomAngle="118">
+				<Counterbore IsMetric="false" Depth="0.06" Diameter="0.125"></Counterbore>
+			</Preset>
+			<Preset Name="1 - Cap Screw Hole" IsMetric="false" Diameter="0.089" SetDepthBy="ThroughAll" Depth="0.9" BottomAngle="118">
+				<Counterbore IsMetric="false" Depth="0.073" Diameter="0.1562"></Counterbore>
+			</Preset>
+			<Preset Name="2 - Cap Screw Hole" IsMetric="false" Diameter="0.1065" SetDepthBy="ThroughAll" Depth="0.9" BottomAngle="118">
+				<Counterbore IsMetric="false" Depth="0.086" Diameter="0.1875"></Counterbore>
+			</Preset>
+			<Preset Name="3 - Cap Screw Hole" IsMetric="false" Diameter="0.12" SetDepthBy="ThroughAll" Depth="0.9" BottomAngle="118">
+				<Counterbore IsMetric="false" Depth="0.099" Diameter="0.2188"></Counterbore>
+			</Preset>
+			<Preset Name="4 - Cap Screw Hole" IsMetric="false" Diameter="0.136" SetDepthBy="ThroughAll" Depth="0.9" BottomAngle="118">
+				<Counterbore IsMetric="false" Depth="0.112" Diameter="0.2188"></Counterbore>
+			</Preset>
+			<Preset Name="5 - Cap Screw Hole" IsMetric="false" Diameter="0.154" SetDepthBy="ThroughAll" Depth="0.9" BottomAngle="118">
+				<Counterbore IsMetric="false" Depth="0.125" Diameter="0.25"></Counterbore>
+			</Preset>
+			<Preset Name="6 - Cap Screw Hole" IsMetric="false" Diameter="0.1695" SetDepthBy="ThroughAll" Depth="0.7" BottomAngle="118">
+				<Counterbore IsMetric="false" Depth="0.138" Diameter="0.2812"></Counterbore>
+			</Preset>
+			<Preset Name="8 - Cap Screw Hole" IsMetric="false" Diameter="0.1935" SetDepthBy="ThroughAll" Depth="0.7" BottomAngle="118">
+				<Counterbore IsMetric="false" Depth="0.164" Diameter="0.3125"></Counterbore>
+			</Preset>
+			<Preset Name="10 - Cap Screw Hole" IsMetric="false" Diameter="0.221" SetDepthBy="ThroughAll" Depth="0.7" BottomAngle="118">
+				<Counterbore IsMetric="false" Depth="0.191" Diameter="0.375"></Counterbore>
+			</Preset>
+			<Preset Name="1/4 - Cap Screw Hole" IsMetric="false" Diameter="0.281" SetDepthBy="ThroughAll" Depth="0.7" BottomAngle="118">
+				<Counterbore IsMetric="false" Depth="0.25" Diameter="0.4375"></Counterbore>
+			</Preset>
+			<Preset Name="5/16 - Cap Screw Hole" IsMetric="false" Diameter="0.3438" SetDepthBy="ThroughAll" Depth="0.7" BottomAngle="118">
+				<Counterbore IsMetric="false" Depth="0.3125" Diameter="0.5312"></Counterbore>
+			</Preset>
+			<Preset Name="3/8 - Cap Screw Hole" IsMetric="false" Diameter="0.4062" SetDepthBy="ThroughAll" Depth="0.6" BottomAngle="118">
+				<Counterbore IsMetric="false" Depth="0.375" Diameter="0.625"></Counterbore>
+			</Preset>
+			<Preset Name="7/16 - Cap Screw Hole" IsMetric="false" Diameter="0.4688" SetDepthBy="ThroughAll" Depth="0.6" BottomAngle="118">
+				<Counterbore IsMetric="false" Depth="0.4375" Diameter="0.7188"></Counterbore>
+			</Preset>
+			<Preset Name="1/2 - Cap Screw Hole" IsMetric="false" Diameter="0.5312" SetDepthBy="ThroughAll" Depth="0.6" BottomAngle="118">
+				<Counterbore IsMetric="false" Depth="0.5" Diameter="0.8125"></Counterbore>
+			</Preset>
+			<Preset Name="5/8 - Cap Screw Hole" IsMetric="false" Diameter="0.6562" SetDepthBy="ThroughAll" Depth="0.6" BottomAngle="118">
+				<Counterbore IsMetric="false" Depth="0.625" Diameter="1"></Counterbore>
+			</Preset>
+			<Preset Name="3/4 - Cap Screw Hole" IsMetric="false" Diameter="0.78125" SetDepthBy="ThroughAll" Depth="0.6" BottomAngle="118">
+				<Counterbore IsMetric="false" Depth="0.75" Diameter="1.1875"></Counterbore>
+			</Preset>
+			<Preset Name="7/8 - Cap Screw Hole" IsMetric="false" Diameter="0.9062" SetDepthBy="ThroughAll" Depth="0.6" BottomAngle="118">
+				<Counterbore IsMetric="false" Depth="0.875" Diameter="1.375"></Counterbore>
+			</Preset>
+			<Preset Name="1 - Cap Screw Hole" IsMetric="false" Diameter="1.0312" SetDepthBy="ThroughAll" Depth="0.6" BottomAngle="118">
+				<Counterbore IsMetric="false" Depth="1" Diameter="1.625"></Counterbore>
+			</Preset>
+		</Presets>
+	</Category>
+	<Category Name="Socket Head Cap Screws - Metric">
+		<Presets>
+			<Preset Name="1.6 mm - Cap Screw Hole" IsMetric="true" Diameter="1.95" SetDepthBy="ThroughAll" Depth="25" BottomAngle="118">
+				<Counterbore IsMetric="true" Depth="1.6" Diameter="3.5"></Counterbore>
+			</Preset>
+			<Preset Name="2 mm - Cap Screw Hole" IsMetric="true" Diameter="2.4" SetDepthBy="ThroughAll" Depth="25" BottomAngle="118">
+				<Counterbore IsMetric="true" Depth="2" Diameter="4.4"></Counterbore>
+			</Preset>
+			<Preset Name="2.5 mm - Cap Screw Hole" IsMetric="true" Diameter="3" SetDepthBy="ThroughAll" Depth="25" BottomAngle="118">
+				<Counterbore IsMetric="true" Depth="2.5" Diameter="5.4"></Counterbore>
+			</Preset>
+			<Preset Name="3 mm - Cap Screw Hole" IsMetric="true" Diameter="3.7" SetDepthBy="ThroughAll" Depth="25" BottomAngle="118">
+				<Counterbore IsMetric="true" Depth="3" Diameter="6.5"></Counterbore>
+			</Preset>
+			<Preset Name="4 mm - Cap Screw Hole" IsMetric="true" Diameter="4.8" SetDepthBy="ThroughAll" Depth="25" BottomAngle="118">
+				<Counterbore IsMetric="true" Depth="4" Diameter="8.25"></Counterbore>
+			</Preset>
+			<Preset Name="5 mm - Cap Screw Hole" IsMetric="true" Diameter="5.8" SetDepthBy="ThroughAll" Depth="25" BottomAngle="118">
+				<Counterbore IsMetric="true" Depth="5" Diameter="9.75"></Counterbore>
+			</Preset>
+			<Preset Name="6 mm - Cap Screw Hole" IsMetric="true" Diameter="6.8" SetDepthBy="ThroughAll" Depth="25" BottomAngle="118">
+				<Counterbore IsMetric="true" Depth="6" Diameter="11.25"></Counterbore>
+			</Preset>
+			<Preset Name="8 mm - Cap Screw Hole" IsMetric="true" Diameter="8.8" SetDepthBy="ThroughAll" Depth="25" BottomAngle="118">
+				<Counterbore IsMetric="true" Depth="8" Diameter="14.25"></Counterbore>
+			</Preset>
+			<Preset Name="10 mm - Cap Screw Hole" IsMetric="true" Diameter="10.8" SetDepthBy="ThroughAll" Depth="25" BottomAngle="118">
+				<Counterbore IsMetric="true" Depth="10" Diameter="17.25"></Counterbore>
+			</Preset>
+			<Preset Name="12 mm - Cap Screw Hole" IsMetric="true" Diameter="12.8" SetDepthBy="ThroughAll" Depth="25" BottomAngle="118">
+				<Counterbore IsMetric="true" Depth="12" Diameter="19.25"></Counterbore>
+			</Preset>
+			<Preset Name="16 mm - Cap Screw Hole" IsMetric="true" Diameter="16.75" SetDepthBy="ThroughAll" Depth="25" BottomAngle="118">
+				<Counterbore IsMetric="true" Depth="16" Diameter="25.5"></Counterbore>
+			</Preset>
+			<Preset Name="20 mm - Cap Screw Hole" IsMetric="true" Diameter="20.75" SetDepthBy="ThroughAll" Depth="25" BottomAngle="118">
+				<Counterbore IsMetric="true" Depth="20" Diameter="31.5"></Counterbore>
+			</Preset>
+			<Preset Name="24 mm - Cap Screw Hole" IsMetric="true" Diameter="24.75" SetDepthBy="ThroughAll" Depth="25" BottomAngle="118">
+				<Counterbore IsMetric="true" Depth="24" Diameter="37.5"></Counterbore>
+			</Preset>
+		</Presets>
+	</Category>
+</Categories>

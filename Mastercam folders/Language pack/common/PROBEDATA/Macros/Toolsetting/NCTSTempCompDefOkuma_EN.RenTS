@@ -1,0 +1,137 @@
+; Renishaw Productivity+ Custom Macro
+; Do NOT remove the preceeding line or this macro will not load
+; Definition File for Non-Contact Toolsetting Temperature Compensation Tracking
+; Version: 0.01. 
+
+[FileType]
+; Do NOT remove this section or this Custom Macro will not load
+Product		Renishaw Productivity+
+File		Custom Macro
+Version		0.07.002
+
+[MachineType]
+MACHINETYPE OKUMA
+
+[Toolsetting Type]
+"Non Contact"
+
+; Definition File Language - language of displayable text strings in this file
+[Language]
+English
+
+; Existing Menu Item in application that Custom Macro name and its Parent Menu are to appear under
+; FIELD CAN BE OMITTED
+[Existing Menu]
+"Tool setting"
+
+; Parent Menu - used as parent menu item text. 
+; FIELD CAN BE OMITTED
+[Parent Menu]					
+"Non Contact (NC1, NC2, NC4...)"
+
+; Custom Macro Name - used as menu item text. ID MUST BE UNIQUE FOR EACH CUSTOM MACRO!
+; FIELD IS COMPULSORY
+[Custom Macro]
+; Name										ID
+"Temperature Compensation (Okuma)"					48874
+
+; This field specifies the default name given to a statement of this type
+; The name must NOT include any of the following characters and cannot start with a numeric character
+; {}[]/\:<>@~#-=+()*&^%$£!"`¬|;,.'?
+[Default Statement Name]
+"Temperature_Compensation"
+
+; Name or Program Number of macro
+[MacroID]
+9861
+
+; Properties - Do not use ID 1
+; Name									ID	Datatype	Default		Range		Category	Output Parameter	Metafile ID 	Help Text			
+[Properties]
+"Axis to Measure (B)"					20	AXIS_TYPE	4			{NA}		100				CM_B				11055		"Select which axis to perform temperature compensation tracking in. Spindle Axis Only performs a beam find and length measurement in the spindle axis only. Radial-Measuring Axis Only performs a beam find and radial measurement only. Spindle and Radial Axis performs both operations."
+
+"Work Offset Number (C)"				21	LINEAR		0			GE52		100				CM_C				11055		"Work offset number used to track axis growth due to temperature effects. This must be the same as that used with the B1 input for calibration. Refer to the C input description in 'Calibrating the NC1 (macro O9861)' for controller/offset options."
+
+"Perform Tolerance Check (H)"			22	YESNO		NO			{NA}		100				-					11055		"Setting this value to 'Yes' means the macro will perform a tolerance check using the value of Tolerance."
+"Tolerance (H)"							23	LINEAR		0			{NA}		100				CM_H				11055		"The tolerance for the maximum variation of temperature changes."
+
+"Use Default Overtravel Distance (Q)"	24	YESNO		YES			{NA}		100				-					11055		"Use the toolsetting macro's default value for Overtravel Distance. Set this value to 'No' to specify a custom Overtravel Distance."
+"Overtravel Distance (Q)"				25	LINEAR		5.0			GT0			100				CM_Q				11055		"The overtravel distance and radial clearance value. Overtravel Distance is the distance through the beam that the tool is permitted to move before a Beam Not Cut alarm is initiated. Radial clearance is the distance between the tool and the beam when moving down the side of the beam."
+
+"Use Default Spindle Speed (S)"			26	YESNO		YES			{NA}		100				-					11055		"Use the toolsetting macro's default value for Spindle Speed. Set this value to 'No' to specify a custom Spindle Speed."
+"Spindle Speed (S)"						27	INT			3150		GT0			100				CM_S				11055		"Spindle speed at which profile checking takes place. Measurement cycles are optimised for a spindle speed of 3150 rev/min, though some tools (e.g. those that are unbalanced or large) must be run at slower speeds. It is responsibility of the User to set the spindle speed accordingly, with the minimum speed being 800 rev/min."
+
+"Use Current Tool Change ID (T)"		28	YESNO		YES			{NA}		100				-					11051		"If this value is set to 'Yes' the current tool change ID is used as the offset location in which the measured tool length is stored. Setting this value to 'No' allows a custom value to be input."
+"Length Offset Number (T)"				29	INT			0			GT0			100				CM_T				11051		"Length Offset Number. This is the offset location in which the measured tool length is stored. The default value is the current tool change ID."
+
+"Use Default Reference Length (K)"		30	YESNO		YES			{NA}		101				-					11055		"If set to 'Yes' the macro will use the default length for the calibration tool as stored on the NC. Set this value to 'No' to specify a custom length."
+"Reference Length (K)"					31	LINEAR		0.0			GE0			101				CM_K				11055		"The reference length of the calibration tool. The default value is the value in the selected tool offset register."
+
+"Use a Radial Step-over (Y)"			32	YESNO		NO			{NA}		101				-					11055		"If set to 'Yes' the macro will use the default Radial step-over for length calibration."
+"Radial Step-over Value (Y)"			33	LINEAR		0.0			{NA}		101				CM_Y				11055		"Radial step-over for length calibration. This is the offset across the beam at which measurement takes place. The tool always comes down first on the beam centre-line. The default value is on-centre."
+
+"Reference Diameter (R)"				34	LINEAR		0.0			GT0			102				CM_R				11055		"The reference diameter of the calibration tool."
+
+[Visibility]
+PROPERTIES	101
+CTRL_PROPS		20 ("Axis to Measure")	
+CTRL_VALUES		4 ("Spindle Axis Only")				
+CTRL_VALUES		6 ("Spindle and Radial Axis")	
+
+PROPERTIES	102
+CTRL_PROPS		20 ("Axis to Measure")
+CTRL_VALUES		5 ("Radial-Measuring Axis Only")				
+CTRL_VALUES		6 ("Spindle and Radial Axis")	
+
+PROPERTIES	23
+CTRL_PROPS		22 ("Perform Tolerance Check")
+CTRL_VALUES		2 ("YES")
+
+PROPERTIES	25
+CTRL_PROPS		24 ("Use Default Overtravel Distance")
+CTRL_VALUES		1 ("NO")
+
+PROPERTIES	27
+CTRL_PROPS		26 ("Use Default Spindle Speed")
+CTRL_VALUES		1 ("NO")
+
+PROPERTIES	29
+CTRL_PROPS		28 ("Use Current Tool Change ID")
+CTRL_VALUES		1 ("NO")
+
+PROPERTIES	31
+CTRL_PROPS		30 ("Use Default Reference Length (K)")
+CTRL_VALUES		1 ("NO")
+
+PROPERTIES	33
+CTRL_PROPS		32 ("Use a Radial Step-over (Y)")
+CTRL_VALUES		2 ("YES")
+
+[Enums]
+; ENUM_NAME - name of enum set
+; ENUM_ITEM - item text, ID and index
+; N.B. When post processing, the selected enum item ID will be outputted with the Output Parameter.
+;	e.g.	enum type			: YESNO
+;			selected enum item	: YES
+;			enum item value		: 1
+;			Output Parameter	: CM_B
+;			Output				= B1
+;													ID		Index (order in which they will appear)
+ENUM_NAME	AXIS_TYPE
+ENUM_ITEM	"Spindle Axis Only"						4		0
+ENUM_ITEM	"Radial-Measuring Axis Only"			5		1
+ENUM_ITEM	"Spindle and Radial Axis"				6		2	
+
+[Categories]
+; Name							ID
+"Nominals"						100
+"Spindle Axis Measurement"		101
+"Radial Axis Measurement"		102
+
+[Resources]
+; File name of resource DLL containing metafiles (optional)
+PP_tsToolSettingRes.dll
+
+; The post processor section to call when post processing occurs
+[Post Section]
+TOOLSETTING_CUSTOMMACRO

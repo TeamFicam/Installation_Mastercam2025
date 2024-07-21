@@ -1,0 +1,8562 @@
+# ALL Mastercam products should use "Mastercam" as their APPLICATION name.
+
+APPLICATION Mastercam
+
+# 2D TOOLPATHS ////////////////////////////////////////////////////////////
+
+FUNC_DLL "MCMILL.DLL"
+RES_DLL  "OPMANRES.DLL"
+CATEGORY 3325
+
+FUNCTION CPP "drill_assoc"
+	RES_DLL  "OPMANRES.DLL"
+	SPNG 5807
+	LPNG 25062
+	TIP 32770
+	FCAT  "2D Toolpaths"
+	FNAME "Drill"
+END_FUNCTION
+
+FUNCTION CPP "ChamferDrillAssoc"
+	RES_DLL  "OPMANRES.DLL"
+	SPNG 8721
+	LPNG 25672
+	TIP 32770
+	FCAT  "2D Toolpaths"
+	FNAME "ChamferDrill"
+END_FUNCTION
+
+FUNCTION CPP "AdvancedDrillAssoc"
+	RES_DLL  "OPMANRES.DLL"
+	SPNG 8720
+	LPNG 25671
+	TIP 32770
+	FCAT  "2D Toolpaths"
+	FNAME "AdvancedDrill"
+END_FUNCTION
+
+FUNCTION CPP "ctour_assoc"
+	RES_DLL  "OPMANRES.DLL"
+	SPNG 5808
+	LPNG 25053
+	TIP 32771
+	FCAT  "2D Toolpaths"
+	FNAME "Contour"
+END_FUNCTION
+
+FUNCTION CPP "chamfer_assoc"
+	RES_DLL  "OPMANRES.DLL"
+	SPNG 28086
+	LPNG 26001
+	TIP 137
+	FCAT  "2D Toolpaths"
+	FNAME "Model Chamfer"
+END_FUNCTION
+
+FUNCTION CPP "pock_assoc"
+	RES_DLL  "OPMANRES.DLL"
+	SPNG 5809
+	LPNG 25054
+	TIP 32772
+	FCAT  "2D Toolpaths"
+	FNAME "Pocket"
+END_FUNCTION
+
+FUNCTION CPP "face_assoc"
+	RES_DLL  "OPMANRES.DLL"
+	SPNG 5812
+	LPNG 25055
+	TIP 32773
+	FCAT  "2D Toolpaths"
+	FNAME "Face"
+END_FUNCTION
+
+FUNCTION CPP "sawmill_assoc"
+	SPNG 5814
+	LPNG 5815
+	TIP 32786
+	FCAT  "2D Toolpaths"
+	FNAME "Saw"
+END_FUNCTION
+
+FUNCTION CPP "hmm_2d_DynamicArea"
+	RES_DLL  "OPMANRES.DLL"
+	SPNG 6285
+	LPNG 25057
+	TIP 4221
+	FCAT  "2D Toolpaths"
+	FNAME "Dynamic Area"
+END_FUNCTION
+
+FUNCTION CPP "hmm_2d_DynamicContour"
+	RES_DLL  "OPMANRES.DLL"
+	SPNG 5816
+	LPNG 25059
+	TIP 4227
+	FCAT  "2D Toolpaths"
+	FNAME "Dynamic Contour"
+END_FUNCTION
+
+FUNCTION CPP "hmm_2d_AreaMill"
+	RES_DLL  "OPMANRES.DLL"
+	SPNG 5818
+	LPNG 25058
+	TIP 4233
+	FCAT  "2D Toolpaths"
+	FNAME "Area"
+END_FUNCTION
+
+FUNCTION CPP "hmm_2d_PeelMill"
+	RES_DLL  "OPMANRES.DLL"
+	SPNG 5822
+	LPNG 25060
+	TIP 4239
+	FCAT  "2D Toolpaths"
+	FNAME "Peel"
+END_FUNCTION
+
+FUNCTION CPP "hmm_2d_BlendMill"
+	RES_DLL  "OPMANRES.DLL"
+	SPNG 5824
+	LPNG 25061
+	TIP 4242
+	FCAT  "2D Toolpaths"
+	FNAME "Blend"
+END_FUNCTION
+
+FUNCTION CPP "circmill"
+	RES_DLL  "OPMANRES.DLL"
+	SPNG 5826
+	LPNG 25063
+	TIP 32774
+	FCAT  "2D Toolpaths"
+	FNAME "Cirmill"
+END_FUNCTION
+
+FUNCTION CPP "thread_mill"
+	RES_DLL  "OPMANRES.DLL"
+	SPNG 5828
+	LPNG 25066
+	TIP 32775
+	FCAT  "2D Toolpaths"
+	FNAME "Thread Mill"
+END_FUNCTION
+
+FUNCTION CPP "slotmill"
+	RES_DLL  "OPMANRES.DLL"
+	SPNG 5830
+	LPNG 25056
+	TIP 32776
+	FCAT  "2D Toolpaths"
+	FNAME "Slot Mill"
+END_FUNCTION
+
+FUNCTION CPP "helix_bore"
+	RES_DLL  "OPMANRES.DLL"
+	SPNG 5832
+	LPNG 25065
+	TIP 32777
+	FCAT  "2D Toolpaths"
+	FNAME "Helix Bore"
+END_FUNCTION
+
+FUNCTION CPP "pro_drill"
+	SPNG 5834
+	LPNG 5835
+	TIP 32778
+	FCAT  "2D Toolpaths"
+	FNAME "Auto Drill"
+END_FUNCTION
+
+FUNCTION CPP "start_hole_dialog"
+	SPNG 5836
+	LPNG 5837
+	TIP 32779
+	FCAT  "2D Toolpaths"
+	FNAME "Start Hole"
+END_FUNCTION
+
+FUNCTION CPP "manual_entry_toolpath_dialog"
+	SPNG 5838
+	LPNG 5839
+	TIP 32780
+	FCAT  "2D Toolpaths"
+	FNAME "Manual Entry"
+END_FUNCTION
+
+FUNCTION CPP "point_toolpath_dialog"
+	RES_DLL  "OPMANRES.DLL"
+	SPNG 5840
+	LPNG 25064
+	TIP 32781
+	FCAT  "2D Toolpaths"
+	FNAME "Point"
+END_FUNCTION
+
+FUNCTION CPP "trim_toolpath_dialog"
+	SPNG 5842
+	LPNG 5843
+	TIP 32782
+	FCAT  "2D Toolpaths"
+	FNAME "Trim"
+END_FUNCTION
+
+FUNCTION CPP "xform_toolpath_dialog"
+	SPNG 5844
+	LPNG 5845
+	TIP 32783
+	FCAT  "2D Toolpaths"
+	FNAME "Transform"
+END_FUNCTION
+
+#FUNCTION CPP "solid_drill_toolpath_dialog"
+#	SBMP IDB_solid_drill_toolpath_dialog_16
+#	LBMP IDB_solid_drill_toolpath_dialog_24
+#	TIP  ID_TOOLPATH_SOLID_DRILL
+#	FCAT  "2D Toolpaths"
+#	FNAME ""
+#END_FUNCTION
+
+FUNCTION CPP "fbm_drill_toolpath_dialog"
+	SPNG 5846
+	LPNG 5847
+	UICALLBACK "OnUpdateFBMToolbar"
+	TIP 169
+	FCAT  "2D Toolpaths"
+	FNAME "FBM Drill"
+END_FUNCTION
+
+FUNCTION CPP "fbm_pocket_toolpath_dialog"
+	SPNG 5848
+	LPNG 5849
+	UICALLBACK "OnUpdateFBMToolbar"
+	TIP 170
+	FCAT  "2D Toolpaths"
+	FNAME "FBM Mill"
+END_FUNCTION
+
+#FUNCTION CPP "fbm_contour_toolpath_dialog"
+#	SBMP IDB_fbm_contour_toolpath_dialog_16
+#	LBMP IDB_fbm_contour_toolpath_dialog_24
+#	TIP  IDS_TOOLPATH_FBM_CONTOUR
+#	FCAT  "2D Toolpaths"
+#	FNAME "FBM Mill"
+#END_FUNCTION
+
+
+FUNCTION CPP "safelink_toolpath_dialog"
+	SPNG 6455
+	LPNG 6456
+	TIP 32816
+	FCAT  "2D Toolpaths"
+	FNAME "Safelink"
+END_FUNCTION
+
+///TPEDIT
+FUNCTION CPP "DoTPEdit"
+	HIDDEN
+	FCAT  "Hidden"
+	FNAME ""
+END_FUNCTION
+
+RES_DLL  "MCROUTERRES.DLL"
+
+FUNCTION CPP "multi_drill_assoc"		        
+	SPNG 325
+	LPNG 326
+	TIP 32768
+	FCAT  "2D Toolpaths"
+	FNAME "Block Drilling"
+END_FUNCTION
+
+# Stock Model ////////////////////////////////////////////////////////////
+
+FUNC_DLL "MCMILL.DLL"
+RES_DLL  "OPMANRES.DLL"
+CATEGORY 3371
+
+FUNCTION CPP "stock_model_dialog"
+	SPNG 5850
+	LPNG 5851
+	UICALLBACK "OnUpdateStockModelToolbar"
+	TIP 173
+	FCAT  "Stock Model"
+	FNAME "Stock Model"
+END_FUNCTION
+
+FUNCTION CPP "stock_model_compare_dialog"
+	SPNG 5852
+	LPNG 5853
+	UICALLBACK "OnUpdateStockModelCompareToolbar"
+	TIP 101
+	FCAT  "Stock Model"
+	FNAME "Compare Stock Model"
+END_FUNCTION
+
+FUNCTION CPP "stock_model_export_dialog"
+	SPNG 5854
+	LPNG 5855
+	UICALLBACK "OnUpdateStockModelExportToolbar"
+	TIP 115
+	FCAT  "Stock Model"
+	FNAME "Export Stock Model to File"
+END_FUNCTION
+
+FUNCTION CPP "stock_model_convert_pmesh_dialog"
+	SPNG 5856
+	LPNG 5857
+	UICALLBACK "OnUpdateStockModelPmeshToolbar"
+	TIP 118
+	FCAT  "Stock Model"
+	FNAME "Convert Stock Model to Mesh"
+END_FUNCTION
+
+# ANALYZE /////////////////////////////////////////////////////////////////
+
+FUNC_DLL "MCCADUTIL.DLL"
+RES_DLL  "MCCADUTILRES.DLL"
+CATEGORY 3326
+
+FUNCTION CPP "AnalyzeStart"
+	SPNG 4798
+	LPNG 4799
+	TIP 3327
+	INLINE
+	FCAT  "Analyze"
+	FNAME "Entity"
+END_FUNCTION
+
+FUNCTION CPP "AnalyzePtStart"
+	SPNG 4802
+	LPNG 4803
+	TIP 32787
+	INLINE
+	FCAT  "Analyze"
+	FNAME "Position"
+END_FUNCTION
+
+FUNCTION CPP "AnalyzeBtwnPtStart"
+	SPNG 4792
+	LPNG 4793
+	TIP 32788
+	INLINE
+	FCAT  "Analyze"
+	FNAME "Distance"
+END_FUNCTION
+
+FUNCTION CPP "AnalyzeDistanceAlongStart"
+	SPNG 4851
+	LPNG 4852
+	TIP 32846
+	INLINE
+	FCAT  "Analyze"
+	FNAME "Distance Along"
+END_FUNCTION
+
+FUNCTION CPP "AnalyzeSolidPropsStart"
+	SPNG 4804
+	LPNG 4805
+	TIP 32789
+	INLINE
+	FCAT  "Analyze"
+	FNAME "Solid / Mesh Properties"
+END_FUNCTION
+
+FUNCTION CPP "AnalyzeAngleStart"
+	SPNG 4780
+	LPNG 4781
+	TIP 32790
+	INLINE
+	FCAT  "Analyze"
+	FNAME "Angle"
+END_FUNCTION
+
+FUNCTION CPP "AnalyzeNumberStart"
+	SPNG 4800
+	LPNG 4801
+	TIP 32791
+	INLINE
+	FCAT  "Analyze"
+	FNAME "Number"
+END_FUNCTION
+
+FUNCTION CPP "AnalyzeSurfaceAreaStart"
+	SPNG 4806
+	LPNG 4807
+	TIP 32792
+	INLINE
+	FCAT  "Analyze"
+	FNAME "Surface Area"
+END_FUNCTION
+
+FUNCTION CPP "Analyze2dAreaStart"
+	SPNG 4778
+	LPNG 4779
+	TIP 32793
+	INLINE
+	FCAT  "Analyze"
+	FNAME "2D Area"
+END_FUNCTION
+
+FUNCTION CPP "AnalyzeDbStart"
+	SPNG 4790
+	LPNG 4791
+	TIP 32794
+	INLINE
+	FCAT  "Analyze"
+	FNAME "Database"
+END_FUNCTION
+
+FUNCTION CPP "AnalyzeDynoStart"
+	SPNG 4796
+	LPNG 4797
+	TIP 32795
+	INLINE
+	FCAT  "Analyze"
+	FNAME "Dynamic"
+END_FUNCTION
+
+FUNCTION CPP "AnalyzeToolpath"
+	SPNG 1003
+	LPNG 1004
+	TIP 3328
+	FCAT  "Analyze"
+	FNAME "Toolpath"
+END_FUNCTION
+
+FUNCTION CPP "AnalyzeTestSurfacesStart"
+	SPNG 4808
+	LPNG 4809
+	TIP 32796
+	INLINE
+	FCAT  "Analyze"
+	FNAME "Test Surfaces"
+END_FUNCTION
+
+FUNCTION CPP "AnalyzeCheckSolidStart"
+	SPNG 4784
+	LPNG 4785
+	TIP 32797
+	INLINE
+	FCAT  "Analyze"
+	FNAME "Check Solid"
+END_FUNCTION
+
+FUNCTION CPP "AnalyzeContourStart"
+	SPNG 4786
+	LPNG 4787
+	TIP 32798
+	INLINE
+	FCAT  "Analyze"
+	FNAME "Contour"
+END_FUNCTION
+
+FUNCTION CPP "AnalyzeChainStart"
+	SPNG 4782
+	LPNG 4783
+	TIP 32799
+	INLINE
+	FCAT  "Analyze"
+	FNAME "Chain"
+END_FUNCTION
+
+FUNCTION CPP "SurfaceCurvatureAnalysis"
+	SPNG 4788
+	LPNG 4789
+	TIP 4171
+	FCAT  "Analyze"
+	FNAME "Curvature"
+END_FUNCTION
+
+FUNCTION CPP "SurfaceDraftAngleAnalysis"
+	SPNG 4794
+	LPNG 4795
+	TIP 4172
+	FCAT  "Analyze"
+	FNAME "Draft Angle"
+END_FUNCTION
+
+# AUTOCURSOR ////////////////////////////////////////////////////////////////////
+
+FUNC_DLL "EXE"
+RES_DLL  "OPMANRES.DLL"
+CATEGORY 3328
+
+FUNCTION CPP "AutoCursor_Default"
+	HIDDEN
+	SPNG 5880
+	LPNG 5881
+	UICALLBACK "OnUpdateAutoCursor"
+	TIP 3340
+	NOTASK
+	INLINE
+	FCAT  "AutoCursor"
+	FNAME "AutoCursor" 
+END_FUNCTION
+
+FUNCTION CPP "AutoCursor_Origin"
+	SPNG 5858
+	LPNG 5859
+	UICALLBACK "OnUpdateAutoCursor"
+	TIP 3329
+	INLINE
+	FCAT  "AutoCursor"
+	FNAME "Origin"
+END_FUNCTION
+
+FUNCTION CPP "AutoCursor_Center"
+	SPNG 5860
+	LPNG 5861
+	UICALLBACK "OnUpdateAutoCursor"
+	TIP 3330
+	NOTASK
+	INLINE
+	FCAT  "AutoCursor"
+	FNAME "Center"
+END_FUNCTION
+
+FUNCTION CPP "AutoCursor_Center_Lock"
+	SPNG 5860
+	LPNG 5861
+	UICALLBACK "OnUpdateAutoCursor"
+	TIP 3348
+	NOTASK
+	INLINE
+	FCAT  "AutoCursor"
+	FNAME "Lock Center"
+END_FUNCTION
+
+FUNCTION CPP "AutoCursor_FaceCenter"
+	SPNG 8697
+	LPNG 8698
+	UICALLBACK "OnUpdateAutoCursor"
+	TIP 457
+	NOTASK
+	INLINE
+	FCAT  "AutoCursor"
+	FNAME "Face Center"
+END_FUNCTION
+
+FUNCTION CPP "AutoCursor_FaceCenter_Lock"
+	SPNG 8697
+	LPNG 8698
+	UICALLBACK "OnUpdateAutoCursor"
+	TIP 458
+	NOTASK
+	INLINE
+	FCAT  "AutoCursor"
+	FNAME "Lock Face Center"
+END_FUNCTION
+
+FUNCTION CPP "AutoCursor_Endpoints"
+	SPNG 5862
+	LPNG 5863
+	UICALLBACK "OnUpdateAutoCursor"
+	TIP 3331
+	NOTASK
+	INLINE
+	FCAT  "AutoCursor"
+	FNAME "Endpoints"
+END_FUNCTION
+
+FUNCTION CPP "AutoCursor_Endpoints_Lock"
+	SPNG 5862
+	LPNG 5863
+	UICALLBACK "OnUpdateAutoCursor"
+	TIP 3358
+	NOTASK
+	INLINE
+	FCAT  "AutoCursor"
+	FNAME "Lock Endpoints"
+END_FUNCTION
+
+FUNCTION CPP "AutoCursor_Intersect"
+	SPNG 5864
+	LPNG 5865
+	UICALLBACK "OnUpdateAutoCursor"
+	TIP 3332
+	INLINE
+	FCAT  "AutoCursor"
+	FNAME "Intersection"
+END_FUNCTION
+
+FUNCTION CPP "AutoCursor_Intersect_Lock"
+	SPNG 5864
+	LPNG 5865
+	UICALLBACK "OnUpdateAutoCursor"
+	TIP 3363
+	INLINE
+	FCAT  "AutoCursor"
+	FNAME "Lock Intersection"
+END_FUNCTION
+
+FUNCTION CPP "AutoCursor_Midpoint"
+	SPNG 5866
+	LPNG 5867
+	UICALLBACK "OnUpdateAutoCursor"
+	TIP 3333
+	NOTASK
+	INLINE
+	FCAT  "AutoCursor"
+	FNAME "Midpoint"
+END_FUNCTION
+
+FUNCTION CPP "AutoCursor_Midpoint_Lock"
+	SPNG 5866
+	LPNG 5867
+	UICALLBACK "OnUpdateAutoCursor"
+	TIP 3372
+	NOTASK
+	INLINE
+	FCAT  "AutoCursor"
+	FNAME "Lock Midpoint"
+END_FUNCTION
+
+FUNCTION CPP "AutoCursor_Midpoint2"
+	SPNG 7204
+	LPNG 7205
+	UICALLBACK "OnUpdateAutoCursor"
+	TIP 361
+	INLINE
+	FCAT  "AutoCursor"
+	FNAME "Midpoint 2 pts"
+END_FUNCTION
+
+FUNCTION CPP "AutoCursor_Midpoint2_Lock"
+	SPNG 7204
+	LPNG 7205
+	UICALLBACK "OnUpdateAutoCursor"
+	TIP 362
+	INLINE
+	FCAT  "AutoCursor"
+	FNAME "Lock Midpoint 2 pts"
+END_FUNCTION
+
+FUNCTION CPP "AutoCursor_Point"
+	SPNG 5868
+	LPNG 5869
+	UICALLBACK "OnUpdateAutoCursor"
+	TIP 3334
+	NOTASK
+	INLINE
+	FCAT  "AutoCursor"
+	FNAME "Point"
+END_FUNCTION
+
+FUNCTION CPP "AutoCursor_Point_Lock"
+	SPNG 5868
+	LPNG 5869
+	UICALLBACK "OnUpdateAutoCursor"
+	TIP 3373
+	NOTASK
+	INLINE
+	FCAT  "AutoCursor"
+	FNAME "Lock Point"
+END_FUNCTION
+
+FUNCTION CPP "AutoCursor_Quad"
+	SPNG 5870
+	LPNG 5871
+	UICALLBACK "OnUpdateAutoCursor"
+	TIP 3335
+	NOTASK
+	INLINE
+	FCAT  "AutoCursor"
+	FNAME "Quadrant"
+END_FUNCTION
+
+FUNCTION CPP "AutoCursor_Quad_Lock"
+	SPNG 5870
+	LPNG 5871
+	UICALLBACK "OnUpdateAutoCursor"
+	TIP 3374
+	NOTASK
+	INLINE
+	FCAT  "AutoCursor"
+	FNAME "Lock Quadrant"
+END_FUNCTION
+
+FUNCTION CPP "AutoCursor_Nearest"
+	SPNG 5872
+	LPNG 5873
+	UICALLBACK "OnUpdateAutoCursor"
+	TIP 3336
+	NOTASK
+	INLINE
+	FCAT  "AutoCursor"
+	FNAME "Nearest"
+END_FUNCTION
+
+FUNCTION CPP "AutoCursor_Relative"
+	SPNG 5874
+	LPNG 5875
+	UICALLBACK "OnUpdateAutoCursor"
+	TIP 3337
+	NOTASK
+	INLINE
+	FCAT  "AutoCursor"
+	FNAME "Relative"
+END_FUNCTION
+
+FUNCTION CPP "AutoCursor_Along_Relative"
+	SPNG 5882
+	LPNG 5883
+	UICALLBACK "OnUpdateAutoCursor"
+	TIP 3341
+	NOTASK
+	INLINE
+	FCAT  "AutoCursor"
+	FNAME "Along"
+END_FUNCTION
+
+FUNCTION CPP "AutoCursor_Tangent"
+	SPNG 5876
+	LPNG 5877
+	UICALLBACK "OnUpdateAutoCursor"
+	TIP 3338
+	INLINE
+	FCAT  "AutoCursor"
+	FNAME "Tangent"
+END_FUNCTION
+
+FUNCTION CPP "AutoCursor_Perpend"
+	SPNG 5878
+	LPNG 5879
+	UICALLBACK "OnUpdateAutoCursor"
+	TIP 3339
+	INLINE
+	FCAT  "AutoCursor"
+	FNAME "Perpendicular"
+END_FUNCTION
+
+FUNCTION CPP "AutoCursor_TmpMidPnt"
+	SPNG 6463
+	LPNG 6464
+	UICALLBACK "OnUpdateAutoCursor"
+	TIP 360
+	NOTASK
+	INLINE
+	FCAT  "AutoCursor"
+	FNAME "Temporary Midpoints" 
+END_FUNCTION
+
+FUNCTION CPP "doAutocursorDlg"
+	SPNG 5880
+	LPNG 5881
+	UICALLBACK "OnUpdateAutoCursor"
+	TIP 3340
+	INLINE
+	FCAT  "AutoCursor"
+	FNAME "AutoCursor" 
+END_FUNCTION
+
+FUNCTION CPP "AutoCursorFastPoint"
+	HIDDEN
+	SPNG 6432
+	LPNG 6433
+	UICALLBACK "OnUpdateAutoCursor"
+	TIP 1584
+	INLINE
+	FCAT  "AutoCursor"
+	FNAME "Fast Point"
+END_FUNCTION
+
+# C-AXIS TOOLPATHS ////////////////////////////////////////////////////////
+
+FUNC_DLL "MCLATHE.DLL"
+RES_DLL  "MCLATHERES.DLL"
+CATEGORY 3906
+
+FUNCTION CPP "caxis_face_contour"
+	SPNG 5375
+	LPNG 5376
+	TIP 32768
+	FCAT  "C-Axis Toolpaths"
+	FNAME "Face Contour"
+END_FUNCTION
+
+FUNCTION CPP "caxis_cross_contour"
+	SPNG 5377
+	LPNG 5378
+	TIP 32769
+	FCAT  "C-Axis Toolpaths"
+	FNAME "Cross Contour"
+END_FUNCTION
+
+FUNCTION CPP "caxis_contour"
+	SPNG 5379
+	LPNG 5380
+	TIP 32770
+	FCAT  "C-Axis Toolpaths"
+	FNAME "C-Axis Contour"
+END_FUNCTION
+
+FUNCTION CPP "caxis_face_drill"
+	SPNG 5381
+	LPNG 5382
+	TIP 32771
+	FCAT  "C-Axis Toolpaths"
+	FNAME "Face Drill"
+END_FUNCTION
+
+FUNCTION CPP "caxis_cross_drill"
+	SPNG 5383
+	LPNG 5384
+	TIP 32772
+	FCAT  "C-Axis Toolpaths"
+	FNAME "Cross Drill"
+END_FUNCTION
+
+FUNCTION CPP "caxis_drill"
+	SPNG 5385
+	LPNG 5386
+	TIP 32773
+	FCAT  "C-Axis Toolpaths"
+	FNAME "C-Axis Drill"
+END_FUNCTION
+
+
+# CONSTRUCTION ATTRIBUTES /////////////////////////////////////////////////
+
+FUNC_DLL "EXE"
+RES_DLL "OPMANRES.DLL"
+CATEGORY 3342
+
+FUNCTION CPP "OnScreenChangeWireframeColor"
+	HIDDEN
+	CALL_FUNC "OnScreenChangeColor"
+	PARAM 0
+	SPNG 5884
+	LPNG 5885
+	TIP 33081
+	INLINE
+	FCAT  "Construction Attributes"
+	FNAME "Set Wireframe Color"
+END_FUNCTION
+
+FUNCTION CPP "OnScreenChangeSolidsColor"
+	HIDDEN
+	CALL_FUNC "OnScreenChangeColor"
+	PARAM 1
+	SPNG 5884
+	LPNG 5885
+	TIP 33595
+	INLINE
+	FCAT  "Construction Attributes"
+	FNAME "Set Solid Color"
+END_FUNCTION
+
+FUNCTION CPP "OnScreenChangeSurfacesColor"
+	HIDDEN
+	CALL_FUNC "OnScreenChangeColor"
+	PARAM 2
+	SPNG 5884
+	LPNG 5885
+	TIP 33596
+	INLINE
+	FCAT  "Construction Attributes"
+	FNAME "Set Surface Color"
+END_FUNCTION
+
+FUNCTION CPP "OnScreenAttributes"
+	SPNG 5888
+	LPNG 5889
+	TIP 33083
+	INLINE
+	FCAT  "Construction Attributes"
+	FNAME "Attributes"
+END_FUNCTION
+
+FUNCTION CPP "OnScreenZDepth"
+	SPNG 5892
+	LPNG 5893
+	INLINE
+	TIP 33084
+	FCAT  "Construction Attributes"
+	FNAME "Construction Depth"
+END_FUNCTION
+
+FUNCTION CPP "OnScreen2D3DToggle"
+	SPNG 5894
+	LPNG 5895
+	INLINE
+	TIP 33086
+	FCAT  "Construction Attributes"
+	FNAME "Toggle 2D/3D"
+END_FUNCTION
+
+FUNCTION CPP "RunEntityAttributesManagerDlg"
+	SPNG 33604
+	LPNG 33605
+	TIP 33603
+	FCAT  "Construction Attributes"
+	FNAME "Attribute Manager" 
+END_FUNCTION
+
+# CONSTRUCTION PLANE MANIPULATION //////////////////////////////////////////////
+
+FUNC_DLL "EXE"
+RES_DLL "OPMANRES.DLL"
+CATEGORY 3343
+
+FUNCTION CPP "OnCPlaneTop"
+	SPNG 5896
+	LPNG 5897
+	TIP 32813
+	INLINE
+	FCAT  "Construction Plane"
+	FNAME "Top Cplane"
+END_FUNCTION
+
+FUNCTION CPP "OnCPlaneBottom"
+	SPNG 5916
+	LPNG 5917
+	TIP 33261
+	INLINE
+	FCAT  "Construction Plane"
+	FNAME "Bottom Cplane"
+END_FUNCTION
+
+FUNCTION CPP "OnCPlaneFront"
+	SPNG 5898
+	LPNG 5899
+	TIP 32814
+	INLINE
+	FCAT  "Construction Plane"
+	FNAME "Front Cplane"
+END_FUNCTION
+
+FUNCTION CPP "OnCPlaneBack"
+	SPNG 5918
+	LPNG 5919
+	TIP 33260
+	INLINE
+	FCAT  "Construction Plane"
+	FNAME "Back Cplane"
+END_FUNCTION
+
+FUNCTION CPP "OnCPlaneSide"
+	SPNG 5900
+	LPNG 5901
+	TIP 32815
+	INLINE
+	FCAT  "Construction Plane"
+	FNAME "Right Cplane"
+END_FUNCTION
+
+FUNCTION CPP "OnCPlaneLeftSide"
+	SPNG 5920
+	LPNG 5921
+	TIP 33262
+	INLINE
+	FCAT  "Construction Plane"
+	FNAME "Left Cplane"
+END_FUNCTION
+
+FUNCTION CPP "OnCPlaneIso"
+	SPNG 5922
+	LPNG 5923
+	TIP 33263
+	INLINE
+	FCAT  "Construction Plane"
+	FNAME "Isometric Cplane"
+END_FUNCTION
+
+FUNCTION CPP "OnCPlaneIsoRev"
+	SPNG 5924
+	LPNG 5925
+	TIP 33049
+	INLINE
+	FCAT  "Construction Plane"
+	FNAME "Isometric Reverse Cplane"
+END_FUNCTION
+
+FUNCTION CPP "OnCPlaneTrimetric"
+	SPNG 5926
+	LPNG 5927
+	TIP 33050
+	INLINE
+	FCAT  "Construction Plane"
+	FNAME "Trimetric Cplane"
+END_FUNCTION
+
+FUNCTION CPP "OnCplaneLathe_XP_ZP"
+	SPNG 26016
+	LPNG 26017
+	TIP 25528
+	HIDDEN
+	INLINE
+	FCAT  "Construction Plane"
+	FNAME "+X+Z"
+END_FUNCTION
+
+FUNCTION CPP "OnCplaneLathe_XM_ZP"
+	SPNG 26018
+	LPNG 26019
+	TIP 25526
+	HIDDEN
+	INLINE
+	FCAT  "Construction Plane"
+	FNAME "-X+Z"
+END_FUNCTION
+
+FUNCTION CPP "OnCplaneLathe_XP_ZM"
+	SPNG 26020
+	LPNG 26021
+	TIP 25527
+	HIDDEN
+	INLINE
+	FCAT  "Construction Plane"
+	FNAME "+X-Z"
+END_FUNCTION
+
+FUNCTION CPP "OnCplaneLathe_XM_ZM"
+	SPNG 26022
+	LPNG 26023
+	TIP 25525
+	HIDDEN
+	INLINE
+	FCAT  "Construction Plane"
+	FNAME "-X-Z"
+END_FUNCTION
+
+FUNCTION CPP "OnCplaneLathe_DP_ZP"
+	SPNG 26024
+	LPNG 26025
+	TIP 25524
+	HIDDEN
+	INLINE
+	FCAT  "Construction Plane"
+	FNAME "+D+Z"
+END_FUNCTION
+
+FUNCTION CPP "OnCplaneLathe_DM_ZP"
+	SPNG 26026
+	LPNG 26027
+	TIP 25522
+	HIDDEN
+	INLINE
+	FCAT  "Construction Plane"
+	FNAME "-D+Z"
+END_FUNCTION
+
+FUNCTION CPP "OnCplaneLathe_DP_ZM"
+	SPNG 26028
+	LPNG 26029
+	TIP 25523
+	HIDDEN
+	INLINE
+	FCAT  "Construction Plane"
+	FNAME "+D-Z"
+END_FUNCTION
+
+FUNCTION CPP "OnCplaneLathe_DM_ZM"
+	SPNG 26030
+	LPNG 26031
+	TIP 25521
+	HIDDEN
+	INLINE
+	FCAT  "Construction Plane"
+	FNAME "-D-Z"
+END_FUNCTION
+
+FUNCTION CPP "OnCPlaneEqualsTPlane"
+	TIP 33018
+	INLINE
+	HIDDEN
+	FCAT  "Construction Plane"
+	FNAME "Cplane = Tplane"
+END_FUNCTION
+
+
+# DRAFTING ////////////////////////////////////////////////////////////////
+
+FUNC_DLL "MCCAD.DLL"
+RES_DLL  "OPMANRES.DLL"
+CATEGORY 3344
+
+FUNCTION CPP "doDraft_REGENERATE_AUTOMATIC"
+	SPNG 5938
+	LPNG 5939
+	UICALLBACK "OnUpdateDraftingToolbar"
+	TIP 38024
+	INTERRUPT_INLINE
+	FCAT  "Drafting"
+	FNAME "Automatic Dimension Regen"
+END_FUNCTION
+
+FUNCTION CPP "doDraft_REGENERATE_VALIDATE"
+	SPNG 5940
+	LPNG 5941
+	TIP 38026
+	UICALLBACK "OnUpdateDraftingToolbar"
+	INTERRUPT_INLINE
+	FCAT  "Drafting"
+	FNAME "Validate Dimension Regen"
+END_FUNCTION
+
+FUNCTION CPP "doDraft_REGENERATE_SELECTION"
+	SPNG 5942
+	LPNG 5943
+	UICALLBACK "OnUpdateDraftingToolbar"
+	TIP 38025
+	INTERRUPT_INLINE
+	FCAT  "Drafting"
+	FNAME "Select Dimension for Regen"
+END_FUNCTION
+
+FUNCTION CPP "doDraft_REGENERATE_ALL"
+	SPNG 5944
+	LPNG 5945
+	UICALLBACK "OnUpdateDraftingToolbar"
+	TIP 38023
+	INTERRUPT_INLINE
+	FCAT  "Drafting"
+	FNAME "Regen All Dimensions"
+END_FUNCTION
+
+FUNCTION CPP "doDraft_DIMENSION_HORIZONTAL"
+	SPNG 5946
+	LPNG 5947
+	UICALLBACK "OnUpdateDraftingToolbar"
+	TIP 38006
+	INTERRUPT_INLINE
+	FCAT  "Drafting"
+	FNAME "Horizontal Dimension"
+END_FUNCTION
+
+FUNCTION CPP "doDraft_DIMENSION_VERTICAL"
+	SPNG 5948
+	LPNG 5949
+	UICALLBACK "OnUpdateDraftingToolbar"
+	TIP 38017
+	INTERRUPT_INLINE
+	FCAT  "Drafting"
+	FNAME "Vertical Dimension"
+END_FUNCTION
+
+FUNCTION CPP "doDraft_DIMENSION_PARALLEL"
+	SPNG 5950
+	LPNG 5951
+	UICALLBACK "OnUpdateDraftingToolbar"
+	TIP 38013
+	INTERRUPT_INLINE
+	FCAT  "Drafting"
+	FNAME "Parallel Dimension"
+END_FUNCTION
+
+FUNCTION CPP "doDraft_DIMENSION_BASELINE"
+	SPNG 5952
+	LPNG 5953
+	UICALLBACK "OnUpdateDraftingToolbar"
+	TIP 38003
+	INTERRUPT_INLINE
+	FCAT  "Drafting"
+	FNAME "Baseline Dimension"
+END_FUNCTION
+
+FUNCTION CPP "doDraft_DIMENSION_CHAINED"
+	SPNG 5954
+	LPNG 5955
+	UICALLBACK "OnUpdateDraftingToolbar"
+	TIP 38004
+	INTERRUPT_INLINE
+	FCAT  "Drafting"
+	FNAME "Chained Dimension"
+END_FUNCTION
+
+FUNCTION CPP "doDraft_DIMENSION_ANGULAR"
+	SPNG 5956
+	LPNG 5957
+	UICALLBACK "OnUpdateDraftingToolbar"
+	TIP 38002
+	INTERRUPT_INLINE
+	FCAT  "Drafting"
+	FNAME "Angular Dimension"
+END_FUNCTION
+
+FUNCTION CPP "doDraft_DIMENSION_CIRCULAR"
+	SPNG 5958
+	LPNG 5959
+	UICALLBACK "OnUpdateDraftingToolbar"
+	TIP 38005
+	INTERRUPT_INLINE
+	FCAT  "Drafting"
+	FNAME "Circular Dimension"
+END_FUNCTION
+
+FUNCTION CPP "doDraft_DIMENSION_PERPENDICULAR"
+	SPNG 5960
+	LPNG 5961
+	UICALLBACK "OnUpdateDraftingToolbar"
+	TIP 38014
+	INTERRUPT_INLINE
+	FCAT  "Drafting"
+	FNAME "Perpendicular Dimension"
+END_FUNCTION
+
+FUNCTION CPP "doDraft_DIMENSION_TANGENT"
+	SPNG 5962
+	LPNG 5963
+	UICALLBACK "OnUpdateDraftingToolbar"
+	TIP 38016
+	INTERRUPT_INLINE
+	FCAT  "Drafting"
+	FNAME "Tangent Dimension"
+END_FUNCTION
+
+FUNCTION CPP "doDraft_DIMENSION_ORD_HORIZ"
+	SPNG 5964
+	LPNG 5965
+	UICALLBACK "OnUpdateDraftingToolbar"
+	TIP 38009
+	INTERRUPT_INLINE
+	FCAT  "Drafting"
+	FNAME "Horizontal Ordinate Dimension"
+END_FUNCTION
+
+FUNCTION CPP "doDraft_DIMENSION_ORD_VERT"
+	SPNG 5966
+	LPNG 5967
+	UICALLBACK "OnUpdateDraftingToolbar"
+	TIP 38011
+	INTERRUPT_INLINE
+	FCAT  "Drafting"
+	FNAME "Vertical Ordinate Dimension"
+END_FUNCTION
+
+FUNCTION CPP "doDraft_DIMENSION_ORD_PARA"
+	SPNG 5968
+	LPNG 5969
+	UICALLBACK "OnUpdateDraftingToolbar"
+	TIP 38010
+	INTERRUPT_INLINE
+	FCAT  "Drafting"
+	FNAME "Parallel Ordinate Dimension"
+END_FUNCTION
+
+FUNCTION CPP "doDraft_DIMENSION_ORD_EXIST"
+	SPNG 5970
+	LPNG 5971
+	UICALLBACK "OnUpdateDraftingToolbar"
+	TIP 38008
+	INTERRUPT_INLINE
+	FCAT  "Drafting"
+	FNAME "Add to an Existing Ordinate Dimension"
+END_FUNCTION
+
+FUNCTION CPP "doDraft_DIMENSION_ORD_WINDOW"
+	SPNG 5972
+	LPNG 5973
+	UICALLBACK "OnUpdateDraftingToolbar"
+	TIP 38012
+	INTERRUPT_INLINE
+	FCAT  "Drafting"
+	FNAME "Window Ordinate Dimension"
+END_FUNCTION
+
+FUNCTION CPP "doDraft_DIMENSION_ORD_ALIGN"
+	SPNG 5974
+	LPNG 5975
+	UICALLBACK "OnUpdateDraftingToolbar"
+	TIP 38007
+	INTERRUPT_INLINE
+	FCAT  "Drafting"
+	FNAME "Align Ordinate Dimension"
+END_FUNCTION
+
+FUNCTION CPP "doDraft_DIMENSION_POINT"
+	SPNG 5976
+	LPNG 5977
+	UICALLBACK "OnUpdateDraftingToolbar"
+	TIP 38015
+	INTERRUPT_INLINE
+	FCAT  "Drafting"
+	FNAME "Point Dimension"
+END_FUNCTION
+
+FUNCTION CPP "doDraft_MULTI_EDIT"
+	SPNG 5978
+	LPNG 5979
+	UICALLBACK "OnUpdateDraftingToolbar"
+	TIP 38021
+	INTERRUPT_INLINE
+	FCAT  "Drafting"
+	FNAME "Dimension Multi-Edit"
+END_FUNCTION
+
+FUNCTION CPP "doDraft_WITNESS"
+	SPNG 5980
+	LPNG 5981
+	UICALLBACK "OnUpdateDraftingToolbar"
+	TIP 38028
+	INTERRUPT_INLINE
+	FCAT  "Drafting"
+	FNAME "Create Witness Line"
+END_FUNCTION
+
+FUNCTION CPP "doDraft_HOLETABLE"
+	SPNG 6198
+	LPNG 6199
+	UICALLBACK "OnUpdateDraftingToolbar"
+	TIP 38074
+	INTERRUPT_INLINE
+	FCAT  "Drafting"
+	FNAME "Hole Table"
+END_FUNCTION
+
+FUNCTION CPP "doDraft_LEADER"
+	SPNG 5982
+	LPNG 5983
+	UICALLBACK "OnUpdateDraftingToolbar"
+	TIP 38020
+	INTERRUPT_INLINE
+	FCAT  "Drafting"
+	FNAME "Create Leader"
+END_FUNCTION
+
+FUNCTION CPP "doDraft_NOTE"
+	SPNG 5984
+	LPNG 5985
+	UICALLBACK "OnUpdateDraftingToolbar"
+	TIP 38022
+	INTERRUPT_INLINE
+	FCAT  "Drafting"
+	FNAME "Create Note"
+END_FUNCTION
+
+FUNCTION CPP "doDraft_HATCH"
+	SPNG 5986
+	LPNG 5987
+	UICALLBACK "OnUpdateDraftingToolbar"
+	TIP 38019
+	INTERRUPT_INLINE
+	FCAT  "Drafting"
+	FNAME "Create X-Hatch"
+END_FUNCTION
+
+FUNCTION CPP "doDraft_SMART"
+	SPNG 5988
+	LPNG 5989
+	UICALLBACK "OnUpdateDraftingToolbar"
+	TIP 38027
+	INTERRUPT_INLINE
+	FCAT  "Drafting"
+	FNAME "Smart Dimension"
+END_FUNCTION
+
+FUNCTION CPP "doDraft_GLOBALS"
+	SPNG 5990
+	LPNG 5991
+	UICALLBACK "OnUpdateDraftingToolbar"
+	TIP 38018
+	INTERRUPT_INLINE
+	FCAT  "Drafting"
+	FNAME "Drafting Options"
+END_FUNCTION
+
+FUNCTION CPP "doDraft_ASSOC"
+	SPNG 6664
+	LPNG 6665
+	UICALLBACK "OnUpdateDraftingToolbar"
+	TIP 38073
+	INTERRUPT_INLINE
+	FCAT  "Drafting"
+	FNAME "Drafting Assoc"
+END_FUNCTION
+
+FUNCTION CPP "ConvertLegacyNote"
+	SPNG 8738
+	LPNG 8739
+	UICALLBACK "OnUpdateDraftingToolbar"
+	TIP 38075
+	INTERRUPT_INLINE
+	FCAT  "Drafting"
+	FNAME "Convert Legacy Note"
+END_FUNCTION
+
+FUNCTION CPP "doDraft_ALIGN"
+	SPNG 28083
+	LPNG 28084
+	UICALLBACK "OnUpdateDraftingToolbar"
+	TIP 38072
+	INTERRUPT_INLINE
+	FCAT  "Drafting"
+	FNAME "Align Note"
+END_FUNCTION
+
+
+
+# EDIT ////////////////////////////////////////////////////////////////////
+
+FUNC_DLL "EXE"
+RES_DLL  "OPMANRES.DLL"
+CATEGORY 3345
+
+FUNCTION CPP "Delete"
+	HIDDEN
+	SPNG 26014
+	LPNG 26015
+	TIP 33090
+	FCAT  "Edit"
+	FNAME "Delete"
+END_FUNCTION
+
+FUNCTION CPP "set_main_from_entity"
+	SPNG 4866
+	LPNG 4867
+	TIP 33135
+	INLINE
+	FCAT  "Edit"
+	FNAME "Set Main From Entity"
+END_FUNCTION
+
+FUNCTION WIN "OnEditCut"
+	WINCMD 0xE123
+	SPNG 4862
+	LPNG 4863
+	TIP 4028
+	INLINE
+	FCAT  "Edit"
+	FNAME "Cut"
+END_FUNCTION
+
+FUNCTION WIN "OnEditCopy"
+	WINCMD 0xE122
+	SPNG 4860
+	LPNG 4861
+	TIP 4027
+	INLINE
+	FCAT  "Edit"
+	FNAME "Copy"
+END_FUNCTION
+
+FUNCTION WIN "OnEditPaste"
+	WINCMD 0xE125
+	SPNG 4868
+	LPNG 4869
+	TIP 4029
+	INTERRUPT_INLINE
+	FCAT  "Edit"
+	FNAME "Paste"
+END_FUNCTION 
+
+FUNC_DLL "MCCORE.DLL"
+
+FUNCTION CPP "SelectAllMask"
+	SPNG 4892
+	LPNG 4893
+	TIP 32910
+	INLINE
+	FCAT  "Edit"
+	FNAME "Select All"
+END_FUNCTION
+
+FUNCTION CPP "UndoEvent"
+	ENABLED F
+	UICALLBACK "OnUpdateUndoEvent"
+	SPNG 4888
+	LPNG 4889
+	TIP 33112
+	FCAT  "Edit"
+	FNAME "Undo"
+END_FUNCTION
+
+FUNCTION CPP "RedoEvent"
+	ENABLED F
+	UICALLBACK "OnUpdateRedoEvent"
+	SPNG 4880
+	LPNG 4881
+	TIP 33113
+	FCAT  "Edit"
+	FNAME "Redo"
+END_FUNCTION
+
+FUNC_DLL "MCCADUTIL.DLL"
+RES_DLL  "MCCADUTILRES.DLL"
+
+FUNCTION CPP "undelete_single"
+	ENABLED F
+	UICALLBACK "OnUpdateUndeleteSingle"
+	SPNG 6505
+	LPNG 6506
+	TIP 33109
+	INTERRUPT_INLINE
+	FCAT  "Edit"
+	FNAME "Undelete Entity"
+END_FUNCTION
+
+FUNCTION CPP "delete_entities"
+	SPNG 4876
+	LPNG 4877
+	TIP 32935
+	FCAT  "Edit"
+	FNAME "Delete Entities"
+END_FUNCTION
+
+FUNCTION CPP "delete_all_nonassoc"
+	PARAM 1
+	SPNG 4878
+	LPNG 4879
+	TIP 32936
+	FCAT  "Edit"
+	FNAME "Delete Non-Associative Entities"
+END_FUNCTION
+
+FUNCTION CPP "delete_duplicates_basic"
+	PARAM 0
+	SPNG 4872
+	LPNG 4873
+	TIP 33031
+	FCAT  "Edit"
+	FNAME "Delete Duplicates"
+END_FUNCTION
+
+FUNCTION CPP "delete_duplicates_advanced"
+	PARAM 0
+	SPNG 4874
+	LPNG 4875
+	TIP 33035
+	FCAT  "Edit"
+	FNAME "Delete Duplicates (Advanced)"
+END_FUNCTION
+
+FUNCTION CPP "cpts_nurbs"
+	SPNG 4914
+	LPNG 4915
+	TIP 3617
+	INTERRUPT_INLINE
+	FCAT  "Edit"
+	FNAME "Modify Spline"
+END_FUNCTION
+
+FUNCTION CPP "UntrimSpline"
+	SPNG 1010
+	LPNG 1009
+	TIP 3618
+	INTERRUPT_INLINE
+	FCAT  "Edit"
+	FNAME "Untrim Spline"
+END_FUNCTION
+
+FUNCTION CPP "RefitSpline"
+	SPNG 1018
+	LPNG 1019
+	TIP 3619
+	INTERRUPT_INLINE
+	FCAT  "Edit"
+	FNAME "Refit Spline"
+END_FUNCTION
+
+FUNCTION CPP "EditSpline"
+	FUNC_DLL "MCCAD.DLL"
+	RES_DLL  "MCCADRES.DLL"
+	SPNG 1024
+	LPNG 1025
+	TIP 3620
+	INTERRUPT_INLINE
+	FCAT  "Edit"
+	FNAME "Edit Spline"
+END_FUNCTION
+
+FUNCTION CPP "simplify"
+	FUNC_DLL "MCCAD.DLL"
+	RES_DLL  "MCCADRES.DLL"
+	SPNG 8928
+	LPNG 8929
+	RES_DLL  "MCCADUTILRES.DLL"
+	TIP 33132
+	INTERRUPT_INLINE
+	FCAT  "Edit"
+	FNAME "Simplify Spline"
+END_FUNCTION
+
+FUNCTION CPP "x_2_nurbs"
+	SPNG 4898
+	LPNG 4899
+	TIP 32940
+	INTERRUPT_INLINE
+	FCAT  "Edit"
+	FNAME "Convert to NURBS"
+END_FUNCTION
+
+FUNCTION CPP "join_selected_entities"
+	SPNG 4900
+	LPNG 4901
+	TIP 32937
+	INTERRUPT_INLINE
+	FCAT  "Edit"
+	FNAME "Join Selected Entities"
+END_FUNCTION
+
+FUNCTION CPP "WireframeDivide"
+	SPNG 4926
+	LPNG 4927
+	TIP 33668
+	INTERRUPT_INLINE
+	FCAT  "Edit"
+	FNAME "Divide"
+END_FUNCTION
+
+FUNCTION CPP "WireframeTrimToEntities"
+	SPNG 4902
+	LPNG 4903
+	TIP 33107
+	INTERRUPT_INLINE
+	FCAT  "Edit"
+	FNAME "Trim to Entities"
+END_FUNCTION
+
+FUNCTION CPP "WireframeTrimToPoint"
+	SPNG 4928
+	LPNG 4929
+	TIP 33110
+	INTERRUPT_INLINE
+	FCAT  "Edit"
+	FNAME "Trim to Point"
+END_FUNCTION
+
+FUNCTION CPP "WireframeModifyLength"
+	SPNG 4930
+	LPNG 4931
+	TIP 33111
+	INTERRUPT_INLINE
+	FCAT  "Edit"
+	FNAME "Modify Length"
+END_FUNCTION
+
+FUNCTION CPP "WireframeModifyVector"
+	SPNG 4932
+	LPNG 4933
+	TIP 33112
+	INTERRUPT_INLINE
+	FCAT  "Edit"
+	FNAME "Modify Vector"
+END_FUNCTION
+
+FUNCTION CPP "WireframeTrimMany"
+	SPNG 4904
+	LPNG 4905
+	TIP 32956
+	INTERRUPT_INLINE
+	FCAT  "Edit"
+	FNAME "Trim Many"
+END_FUNCTION
+
+FUNCTION CPP "WireframeBreakManyPieces"
+	SPNG 4894
+	LPNG 4895
+	TIP 32965
+	INTERRUPT_INLINE
+	FCAT  "Edit"
+	FNAME "Break Many"
+END_FUNCTION
+
+FUNCTION CPP "Break2Pieces"
+	SPNG 4896
+	LPNG 4897
+	TIP 4041
+	INTERRUPT_INLINE
+	FCAT  "Edit"
+	FNAME "Break Two Pieces"
+END_FUNCTION
+
+FUNCTION CPP "BreakAtPoints"
+	SPNG 4925
+	LPNG 4924
+	TIP 4042
+	INTERRUPT_INLINE
+	FCAT  "Edit"
+	FNAME "Break At Points"
+END_FUNCTION
+
+FUNCTION CPP "break_at_inters"
+	SPNG 4906
+	LPNG 4907
+	TIP 32966
+	INTERRUPT_INLINE
+	FCAT  "Edit"
+	FNAME "Break at Intersection"
+END_FUNCTION
+
+FUNCTION CPP "orient_normals"
+    SPNG 4920
+    LPNG 4921
+	TIP 256
+    INTERRUPT_INLINE
+	FCAT  "Edit"
+	FNAME "Orient Normals"
+END_FUNCTION
+
+FUNCTION CPP "set_normals"
+	SPNG 4922
+	LPNG 4923
+	TIP 33403
+	INTERRUPT_INLINE
+	FCAT  "Edit"
+	FNAME "Set Normal"
+END_FUNCTION
+
+FUNCTION CPP "change_normals"
+	SPNG 4918
+	LPNG 4919
+	TIP 33405
+	INTERRUPT_INLINE
+	FCAT  "Edit"
+	FNAME "Change Normal"
+END_FUNCTION
+
+FUNCTION CPP "close_arc"
+	SPNG 4912
+	LPNG 4913
+	TIP 32957
+	INTERRUPT_INLINE
+	FCAT  "Edit"
+	FNAME "Close Arc"
+END_FUNCTION
+
+FUNCTION CPP "break_draft_XH_CD"
+	SPNG 4910
+	LPNG 4911
+	TIP 32968
+	INTERRUPT_INLINE
+	FCAT  "Edit"
+	FNAME "Break Drafting into Lines"
+END_FUNCTION
+
+FUNCTION CPP "break_circles"
+	SPNG 4908
+	LPNG 4909
+	TIP 32971
+	INTERRUPT_INLINE
+	FCAT  "Edit"
+	FNAME "Break Circles"
+END_FUNCTION
+
+# MESH ////////////////////////////////////////////////////////////////////
+
+FUNC_DLL "MCCADUTIL.DLL"
+RES_DLL  "MCCADUTILRES.DLL"
+CATEGORY 349
+
+FUNCTION CPP "MeshTrimToPlane"
+	SPNG 327
+	LPNG 328
+	TIP 329
+	INTERRUPT_INLINE
+	FCAT  "Mesh"
+	FNAME "Mesh Trim to Plane"
+END_FUNCTION
+
+FUNCTION CPP "MeshTrimToSurface"
+	SPNG 345
+	LPNG 346
+	TIP 348
+	INTERRUPT_INLINE
+	FCAT  "Mesh"
+	FNAME "Mesh Trim to Surface"
+END_FUNCTION
+
+FUNCTION CPP "MeshTrimToChains"
+	SPNG 522
+	LPNG 523
+	TIP 524
+	INTERRUPT_INLINE
+	FCAT  "Mesh"
+	FNAME "Mesh Trim to Chains"
+END_FUNCTION
+
+FUNCTION CPP "MeshDecimation"
+	SPNG 353
+	LPNG 354
+	TIP 355
+	INTERRUPT_INLINE
+	FCAT  "Mesh"
+	FNAME "Mesh Decimation"
+END_FUNCTION
+
+FUNCTION CPP "MeshExplodeMesh"
+	SPNG 511
+	LPNG 512
+	TIP 513
+	INTERRUPT_INLINE
+	FCAT  "Mesh"
+	FNAME "Mesh Explode Mesh"
+END_FUNCTION
+
+FUNCTION CPP "MeshCheck"
+	SPNG 566
+	LPNG 567
+	TIP 568
+	INTERRUPT_INLINE
+	FCAT  "Mesh"
+	FNAME "Check Mesh"
+END_FUNCTION
+
+FUNCTION CPP "MeshSmoothArea"
+	SPNG 557
+	LPNG 558
+	TIP 559
+	INTERRUPT_INLINE
+	FCAT  "Mesh"
+	FNAME "Mesh Smooth Area"
+END_FUNCTION
+
+FUNCTION CPP "MeshSmoothHoleEdges"
+	SPNG 553
+	LPNG 554
+	TIP 555
+	INTERRUPT_INLINE
+	FCAT  "Mesh"
+	FNAME "Mesh Smooth Free Edges"
+END_FUNCTION
+
+FUNCTION CPP "MeshRefine"
+	SPNG 357
+	LPNG 358
+	TIP 360
+	INTERRUPT_INLINE
+	FCAT  "Mesh"
+	FNAME "Mesh Refine"
+END_FUNCTION
+
+FUNCTION CPP "MeshFillHoles"
+	SPNG 374
+	LPNG 375
+	TIP 371
+	INTERRUPT_INLINE
+	FCAT  "Mesh"
+	FNAME "Mesh Fill Holes"
+END_FUNCTION
+
+FUNCTION CPP "MeshModifyFacetColor"
+	SPNG 385
+	LPNG 386
+	TIP 387
+	INTERRUPT_INLINE
+	FCAT  "Mesh"
+	FNAME "Mesh Change Facet Color"
+END_FUNCTION
+
+FUNCTION CPP "MeshModifyFacets"
+	SPNG 572
+	LPNG 573
+	TIP 575
+	INTERRUPT_INLINE
+	FCAT  "Mesh"
+	FNAME "Modify Mesh Facets"
+END_FUNCTION
+
+FUNCTION CPP "MeshOffset"
+	SPNG 412
+	LPNG 413
+	TIP 411
+	INTERRUPT_INLINE
+	FCAT  "Mesh"
+	FNAME "Mesh Offset"
+END_FUNCTION
+
+FUNC_DLL "MCCAD.DLL"
+RES_DLL  "MCCADRES.DLL"
+
+FUNCTION CPP "MeshFromEntities"
+	SPNG 10449
+	LPNG 10450
+	TIP 22096
+	INTERRUPT_INLINE
+	FCAT  "Mesh"
+	FNAME "Mesh From Entities"
+END_FUNCTION
+
+# FILE ////////////////////////////////////////////////////////////////////
+
+FUNC_DLL "EXE"
+RES_DLL  "OPMANRES.DLL"
+CATEGORY 3346
+
+FUNCTION WIN "OnFileNew"
+	WINCMD 0xE100
+	SPNG 5617
+	LPNG 5618
+	TIP 4019
+	FCAT  "File"
+	FNAME "New"
+END_FUNCTION
+
+FUNCTION WIN "OnFileOpen"
+	WINCMD 0xE101
+	SPNG 5619
+	LPNG 5620
+	TIP 4020
+	FCAT  "File"
+	FNAME "Open"
+END_FUNCTION
+
+FUNCTION WIN "OnFileSave"
+	WINCMD 0xE103
+	SPNG 5621
+	LPNG 5622
+	TIP 4021
+	FCAT  "File"
+	FNAME "Save"
+END_FUNCTION
+
+FUNCTION CPP "OnFilePrint"
+	SPNG 5623
+	LPNG 5624
+	TIP 4023
+	FCAT  "File"
+	FNAME "Print"
+END_FUNCTION
+
+FUNCTION WIN "OnFileExit"
+	HIDDEN
+	WINCMD 0xE141
+	TIP 4026
+	SPNG 5627
+	LPNG 5628
+	FCAT  "File"
+	FNAME "Exit"
+END_FUNCTION
+
+FUNCTION CPP "OpenExternal"
+	TIP 33098
+	SPNG 5629
+	LPNG 5630
+	FCAT  "File"
+	FNAME "Open in Editor"
+END_FUNCTION
+
+FUNCTION WIN "OnFileSaveAs"
+	WINCMD 0xE104
+	TIP 4022
+	SPNG 5631
+	LPNG 5632
+	FCAT  "File"
+	FNAME "Save As"
+END_FUNCTION
+
+FUNCTION CPP "SaveSome"
+	SPNG 5633
+	LPNG 5634
+	TIP 33092
+	FCAT  "File"
+	FNAME "Save Some"
+END_FUNCTION
+
+FUNCTION CPP "FileProperties"
+	HIDDEN
+	SPNG 5635
+	LPNG 5636
+	TIP 32974
+	FCAT  "File"
+	FNAME "Properties"
+END_FUNCTION
+
+FUNCTION CPP "run_user_app"
+	CALL_FUNC "run_user_app"
+	PARAM 0
+	SPNG 5637
+	LPNG 5638
+	TIP 33001
+	FCAT  "File"
+	FNAME "Run Add-In"
+END_FUNCTION
+
+FUNCTION CPP "run_user_add_in"
+	CALL_FUNC "run_user_app"
+	PARAM 1
+	SPNG 60239
+	LPNG 60240
+	TIP 33002
+	FCAT  "File"
+	FNAME "Run User Add-In"
+END_FUNCTION
+
+FUNCTION CPP "OnUserAddInPathConfiguration"
+	SPNG 60241
+	LPNG 60242
+	TIP 33003
+	FCAT  "File"
+	FNAME "Add-In File Path Setting"
+END_FUNCTION
+
+FUNCTION CPP "ImportDir"
+	FUNC_DLL "MCCORE.DLL"
+	CALL_FUNC "ImportExportDir"
+	PARAM 0
+	SPNG 5639
+	LPNG 5640
+	TIP 32972
+	FCAT  "File"
+	FNAME "Import Folder"
+END_FUNCTION
+
+FUNCTION CPP "ExportDir"
+	FUNC_DLL "MCCORE.DLL"
+	CALL_FUNC "ImportExportDir"
+	PARAM 1
+	SPNG 5641
+	LPNG 5642
+	TIP 32973
+	FCAT  "File"
+	FNAME "Export Folder"
+END_FUNCTION
+
+FUNCTION CPP "OnOpenUserData"
+	SPNG 5643
+	LPNG 5644
+	TIP 57610
+	FCAT  "File"
+	FNAME "Open User Folder"
+END_FUNCTION
+
+FUNCTION CPP "OnOpenSharedData"
+	SPNG 5645
+	LPNG 5646
+	TIP 57611
+	FCAT  "File"
+	FNAME "Open Shared Folder"
+END_FUNCTION
+
+FUNCTION CPP "UpdateFolder"
+	FUNC_DLL "MCCORE.DLL"
+	CALL_FUNC "UpdateFolder"
+	SPNG 5649
+	LPNG 5650
+	TIP 33440
+	FCAT  "File"
+	FNAME "Update Folder"
+END_FUNCTION
+
+FUNCTION CPP "ZipToGoWizard"
+	FUNC_DLL "MCCORE.DLL"
+	RES_DLL "MCCORERES.DLL"
+	CALL_FUNC "CreateZipToGoWizard"
+	SPNG 10599
+	LPNG 10600
+	TIP 632
+	FCAT  "File"
+	FNAME "ZipToGo Wizard"
+END_FUNCTION
+
+FUNCTION CPP "InstallContentFiles"
+	FUNC_DLL "MCCORE.DLL"
+	CALL_FUNC "InstallContentFiles"
+	HIDDEN
+	FCAT  "Hidden"
+	FNAME "Install Content Files"
+END_FUNCTION
+
+FUNC_DLL "MCCADUTIL.DLL"
+RES_DLL  "MCCADUtilRes.DLL"
+
+FUNCTION CPP "DoPattern"
+	TIP 33012
+	SPNG 6283
+	LPNG 6284
+	FCAT  "File"
+	FNAME "Merge/Pattern"
+END_FUNCTION
+
+FUNC_DLL "MCCORE.DLL"
+RES_DLL  "MCCORERES.DLL"
+
+FUNCTION CPP "AutoSaveParams"
+	SPNG 10417
+	LPNG 10418
+	TIP 2942
+	FCAT  "File"
+	FNAME "Autosave Parameters"
+END_FUNCTION
+
+FUNCTION CPP "ProjectManager"
+	FUNC_DLL "MCMachineDef.DLL"
+	RES_DLL  "MCMachineDefRes.DLL"
+	SPNG 2394
+	LPNG 2395
+	TIP 2103
+	FCAT  "File"
+	FNAME "Project Manager"
+END_FUNCTION
+
+FUNC_DLL "APPS\MCFileUpdateTracking.dll"
+RES_DLL  "MCFileUpdateTrackingRes.dll"
+
+
+FUNCTION CPP "ChangeRecognition_EntryPoint"
+	SPNG 141
+	LPNG 142
+	TIP 2001
+	FCAT  "File"
+	FNAME "Change Recognition"
+END_FUNCTION
+
+FUNCTION CPP "FileTracking_Dialog"
+	SPNG 143
+	LPNG 144
+	TIP 2002
+	FCAT  "File"
+	FNAME "Tracking Options"
+END_FUNCTION
+
+FUNCTION CPP "FileTracking_Check"
+	SPNG 145
+	LPNG 146
+	TIP 2004
+	FCAT  "File"
+	FNAME "Check All Tracked Files"
+END_FUNCTION
+
+FUNCTION CPP "FileTracking_CheckCurrentFile"
+	SPNG 147
+	LPNG 148
+	TIP 2003
+	FCAT  "File"
+	FNAME "Check Current File"
+END_FUNCTION
+
+
+# General Selection ////////////////////////////////////////////////////////////////////
+
+FUNC_DLL "EXE"
+RES_DLL  "OPMANRES.DLL"
+CATEGORY 3347
+
+FUNCTION CPP "GSInvertSelection"
+	UICALLBACK "OnUpdateGSInvertSelection"	
+	SPNG 5653
+	LPNG 5654
+	TIP 1918
+	INLINE
+	FCAT  "General Selection"
+	FNAME "Invert Selection"
+END_FUNCTION
+
+FUNCTION CPP "GSSelStandard"
+	CALL_FUNC "GSSelLockMode"
+	PARAM 0
+	UICALLBACK "OnUpdateGSSelLockMode"
+	SPNG 5655
+	LPNG 5656
+	TIP 1911
+	INLINE
+	FCAT  "General Selection"
+	FNAME "Standard Selection"
+END_FUNCTION
+
+FUNCTION CPP "GSSelChain"
+	CALL_FUNC "GSSelLockMode"
+	PARAM 1
+	UICALLBACK "OnUpdateGSSelLockMode"
+	SPNG 5657
+	LPNG 5658
+	TIP 1905
+	RIGHT_MOUSE
+	INLINE
+	FCAT  "General Selection"
+	FNAME "Chain Selection"
+END_FUNCTION
+
+FUNCTION CPP "GSSelWindow"
+	CALL_FUNC "GSSelLockMode"
+	PARAM 2
+	UICALLBACK "OnUpdateGSSelLockMode"
+	SPNG 5659
+	LPNG 5660
+	TIP 1906
+	RIGHT_MOUSE
+	INLINE
+	FCAT  "General Selection"
+	FNAME "Window Selection"
+END_FUNCTION
+
+FUNCTION CPP "GSSelPolygon"
+	CALL_FUNC "GSSelLockMode"
+	PARAM 3
+	UICALLBACK "OnUpdateGSSelLockMode"
+	SPNG 5661
+	LPNG 5662
+	TIP 1907
+	RIGHT_MOUSE
+	INLINE
+	FCAT  "General Selection"
+	FNAME "Polygon Selection"
+END_FUNCTION
+
+FUNCTION CPP "GSSelSingle"
+	CALL_FUNC "GSSelLockMode"
+	PARAM 4
+	UICALLBACK "OnUpdateGSSelLockMode"
+	SPNG 5663
+	LPNG 5664
+	TIP 1908
+	RIGHT_MOUSE
+	INLINE
+	FCAT  "General Selection"
+	FNAME "Single Selection"
+END_FUNCTION
+
+FUNCTION CPP "GSSelArea"
+	CALL_FUNC "GSSelLockMode"
+	PARAM 5
+	UICALLBACK "OnUpdateGSSelLockMode"
+	SPNG 5665
+	LPNG 5666
+	TIP 1909
+	RIGHT_MOUSE
+	INLINE
+	FCAT  "General Selection"
+	FNAME "Area Selection"
+END_FUNCTION
+
+FUNCTION CPP "GSSelVector"
+	CALL_FUNC "GSSelLockMode"
+	PARAM 6
+	UICALLBACK "OnUpdateGSSelLockMode"
+	SPNG 5667
+	LPNG 5668
+	TIP 1910
+	RIGHT_MOUSE
+	INLINE
+	FCAT  "General Selection"
+	FNAME "Vector Selection"
+END_FUNCTION
+
+FUNCTION CPP "GSSelectionWindow"
+	CALL_FUNC "GSSelectionWindowMode"
+	PARAM 0
+	SPNG 5655
+	LPNG 5656
+	TIP 1911
+	INLINE
+	FCAT  "General Selection"
+	FNAME "Standard Selection"
+END_FUNCTION
+
+FUNCTION CPP "GSSelectionModeIn"
+	CALL_FUNC "GSSelectionWindowMode"
+	PARAM 1
+	SPNG 6438
+	LPNG 6439
+	TIP 1557
+	RIGHT_MOUSE
+	INLINE
+	FCAT  "General Selection"
+	FNAME "Selection Mode In"
+END_FUNCTION
+
+FUNCTION CPP "GSSelectionModeInPlus"
+	CALL_FUNC "GSSelectionWindowMode"
+	PARAM 2
+	SPNG 6440
+	LPNG 6441
+	TIP 1559
+	RIGHT_MOUSE
+	INLINE
+	FCAT  "General Selection"
+	FNAME "Selection Mode In Plus"
+END_FUNCTION
+
+FUNCTION CPP "GSSelectionModeIntersect"
+	CALL_FUNC "GSSelectionWindowMode"
+	PARAM 3
+	SPNG 6442
+	LPNG 6443
+	TIP 1561
+	RIGHT_MOUSE
+	INLINE
+	FCAT  "General Selection"
+	FNAME "Selection Mode Intersect"
+END_FUNCTION
+
+FUNCTION CPP "GSSelectionModeOutPlus"
+	CALL_FUNC "GSSelectionWindowMode"
+	PARAM 4
+	SPNG 6448
+	LPNG 6449
+	TIP 1560
+	RIGHT_MOUSE
+	INLINE
+	FCAT  "General Selection"
+	FNAME "Selection Mode Out Plus"
+END_FUNCTION
+
+FUNCTION CPP "GSSelectionModeOut"
+	CALL_FUNC "GSSelectionWindowMode"
+	PARAM 5
+	SPNG 6446
+	LPNG 6447
+	TIP 1558
+	RIGHT_MOUSE
+	INLINE
+	FCAT  "General Selection"
+	FNAME "Selection Mode Out"
+END_FUNCTION
+
+FUNCTION CPP "GSACTmpCtrPnt"
+	UICALLBACK "OnUpdateGSACTmpCtrPnt"
+	SPNG 5805
+	LPNG 5806
+	TIP 2916
+	INLINE
+	FCAT  "General Selection"
+	FNAME "Mark Center"
+END_FUNCTION
+
+FUNCTION CPP "GSUnSelectAll"
+	UICALLBACK "OnUpdateGSUnSelectAll"
+	SPNG 5669
+	LPNG 5670
+	TIP 1912
+	INLINE
+	FCAT  "General Selection"
+	FNAME "Unselect All"
+END_FUNCTION
+
+FUNCTION CPP "GSEndSelection"
+	UICALLBACK "OnUpdateGSEndSelection"
+	SPNG 5671
+	LPNG 5672
+	TIP 1913
+	INLINE
+	FCAT  "General Selection"
+	FNAME "End Selection"
+END_FUNCTION
+
+FUNCTION CPP "GSSolidActivate"
+	UICALLBACK "OnUpdateGSSolidActivate"
+	SPNG 5673
+	LPNG 5674
+	TIP 1914
+	INLINE
+	FCAT  "General Selection"
+	FNAME "Activate Solid Selection"
+END_FUNCTION
+
+FUNCTION CPP "GSSolidEdge"
+	UICALLBACK "OnUpdateGSSolidEdge"
+	SPNG 5675
+	LPNG 5676
+	TIP 1915
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Select Edge"
+END_FUNCTION
+
+FUNCTION CPP "GSSolidFace"
+	UICALLBACK "OnUpdateGSSolidFace"
+	SPNG 5677
+	LPNG 5678
+	TIP 1916
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Select Face"
+END_FUNCTION
+
+FUNCTION CPP "GSSolidBody"
+	UICALLBACK "OnUpdateGSSolidBody"
+	SPNG 5679
+	LPNG 5680
+	TIP 1917
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Select Body"
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskPoints"
+	PARAM 0
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 5681
+	LPNG 5682
+	TIP 1919
+	RIGHT_MOUSE
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Points"	
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskPointsOnly"
+	CALL_FUNC "QuickMaskPoints"
+	PARAM 1
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 5681
+	LPNG 5682
+	TIP 2011
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Points Only"	
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskPointsAll"
+	CALL_FUNC "QuickMaskPoints"
+	PARAM 2
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 5681
+	LPNG 5682
+	TIP 2022
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Points All"	
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskLines"
+	PARAM 0
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 5683
+	LPNG 5684
+	TIP 1920
+	RIGHT_MOUSE	
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Lines"
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskLinesOnly"
+	CALL_FUNC "QuickMaskLines"
+	PARAM 1
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 5683
+	LPNG 5684
+	TIP 2010
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Lines Only"
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskLinesAll"
+	CALL_FUNC "QuickMaskLines"
+	PARAM 2
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 5683
+	LPNG 5684
+	TIP 2021
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Lines All"
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskArcs"
+	PARAM 0
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 5685
+	LPNG 5686
+	TIP 1921
+	RIGHT_MOUSE
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Arcs"
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskArcsOnly"
+	CALL_FUNC "QuickMaskArcs"
+	PARAM 1
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 5685
+	LPNG 5686
+	TIP 1933
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Arcs Only"
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskArcsAll"
+	CALL_FUNC "QuickMaskArcs"
+	PARAM 2
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 5685
+	LPNG 5686
+	TIP 2017
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Arcs All"
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskSplines"
+	PARAM 0
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 5687
+	LPNG 5688
+	TIP 1922
+	RIGHT_MOUSE
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Splines"
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskSplinesOnly"
+	CALL_FUNC "QuickMaskSplines"
+	PARAM 1
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 5687
+	LPNG 5688
+	TIP 2013
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Splines Only"
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskSplinesAll"
+	CALL_FUNC "QuickMaskSplines"
+	PARAM 2
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 5687
+	LPNG 5688
+	TIP 2024
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Splines All"
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskSurfaceCurves"
+	PARAM 0
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 5689
+	LPNG 5690
+	TIP 1923
+	RIGHT_MOUSE
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Surface Curves"
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskSurfaceCurvesOnly"
+	CALL_FUNC "QuickMaskSurfaceCurves"
+	PARAM 1
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 5689
+	LPNG 5690
+	TIP 2014
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Surface Curves Only"
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskSurfaceCurvesAll"
+	CALL_FUNC "QuickMaskSurfaceCurves"
+	PARAM 2
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 5689
+	LPNG 5690
+	TIP 2025
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Surface Curves All"
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskSurfaces"
+	PARAM 0
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 5691
+	LPNG 5692
+	TIP 1924
+	RIGHT_MOUSE
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Surfaces"
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskSurfacesOnly"
+	CALL_FUNC "QuickMaskSurfaces"
+	PARAM 1
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 5691
+	LPNG 5692
+	TIP 2015
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Surfaces Only"
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskSurfacesAll"
+	CALL_FUNC "QuickMaskSurfaces"
+	PARAM 2
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 5691
+	LPNG 5692
+	TIP 2026
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Surfaces All"
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskDrafting"
+	PARAM 0
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 5693
+	LPNG 5694
+	TIP 1925
+	RIGHT_MOUSE
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Drafting"
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskDraftingOnly"
+	CALL_FUNC "QuickMaskDrafting"
+	PARAM 1
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 5693
+	LPNG 5694
+	TIP 1953
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Drafting Only"
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskDraftingAll"
+	CALL_FUNC "QuickMaskDrafting"
+	PARAM 2
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 5693
+	LPNG 5694
+	TIP 2019
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Drafting All"
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskPolygonalMeshes"
+	PARAM 0
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 6457
+	LPNG 6458
+	TIP 59395
+	RIGHT_MOUSE
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Polygonal Meshes"
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskPolygonalMeshesOnly"
+	CALL_FUNC "QuickMaskPolygonalMeshes"
+	PARAM 1
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 6457
+	LPNG 6458
+	TIP 59400
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Polygonal Meshes Only"
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskPolygonalMeshesAll"
+	CALL_FUNC "QuickMaskPolygonalMeshes"
+	PARAM 2
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 6457
+	LPNG 6458
+	TIP 59401
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Polygonal Meshes All"
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskSolid"
+	PARAM 0
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 5695
+	LPNG 5696
+	TIP 1926
+	RIGHT_MOUSE
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Solid"
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskSolidOnly"
+	CALL_FUNC "QuickMaskSolid"
+	PARAM 1
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 5695
+	LPNG 5696
+	TIP 2012
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Solid Only"
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskSolidAll"
+	CALL_FUNC "QuickMaskSolid"
+	PARAM 2
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 5695
+	LPNG 5696
+	TIP 2023
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Solid All"
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskWireframe"
+	PARAM 0
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 5697
+	LPNG 5698
+	TIP 1927
+	RIGHT_MOUSE
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Wireframe"
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskWireframeOnly"
+	CALL_FUNC "QuickMaskWireframe"
+	PARAM 1
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 5697
+	LPNG 5698
+	TIP 2016
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Wireframe Only"
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskWireframeAll"
+	CALL_FUNC "QuickMaskWireframe"
+	PARAM 2
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 5697
+	LPNG 5698
+	TIP 2027
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Wireframe All"
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskColor"
+	PARAM 0
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 6622
+	LPNG 6623
+	TIP 1928
+	RIGHT_MOUSE
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Color"
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskColorOnly"
+	CALL_FUNC "QuickMaskColor"
+	PARAM 1
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 6622
+	LPNG 6623
+	TIP 1934
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Color Only"
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskColorAll"
+	CALL_FUNC "QuickMaskColor"
+	PARAM 2
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 6622
+	LPNG 6623
+	TIP 2018
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Color All"
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskLevel"
+	PARAM 0
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 6624
+	LPNG 6625
+	TIP 1929
+	RIGHT_MOUSE
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Level"
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskLevelOnly"
+	CALL_FUNC "QuickMaskLevel"
+	PARAM 1
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 6624
+	LPNG 6625
+	TIP 2009
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Level Only"
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskLevelAll"
+	CALL_FUNC "QuickMaskLevel"
+	PARAM 2
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 6624
+	LPNG 6625
+	TIP 2020
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Level All"
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskResult"
+	PARAM 0
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 5703
+	LPNG 5704
+	TIP 1930
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Result"
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskGroup"
+	PARAM 0
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 5705
+	LPNG 5706
+	TIP 1931
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Group"
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskLast"
+	UICALLBACK "OnUpdateQuickMaskLast"
+	SPNG 5707
+	LPNG 5708
+	TIP 1935
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Last"
+END_FUNCTION
+
+FUNCTION CPP "QuickMaskNamedGroups"
+	UICALLBACK "OnUpdateQuickMask"
+	SPNG 5709
+	LPNG 5710
+	TIP 4205
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Quick Mask Named Group"
+END_FUNCTION
+
+FUNCTION CPP "ClearAllMasking"
+	UICALLBACK "OnUpdateClearAllMasking"
+	SPNG 5711
+	LPNG 5712
+	TIP 1932
+	INLINE
+	NOTASK
+	FCAT  "General Selection"
+	FNAME "Clear All Masking"
+END_FUNCTION
+
+FUNC_DLL "MCCORE.DLL"
+
+FUNCTION CPP "SelectOnlyDialog"
+	SPNG 6444
+	LPNG 6445
+	TIP 1580
+	INLINE
+	FCAT  "General Selection"
+	FNAME "Select Only"
+END_FUNCTION
+
+FUNCTION CPP "SelectAllDialog"
+	SPNG 6436
+	LPNG 6437
+	TIP 1579
+	INLINE
+	FCAT  "General Selection"
+	FNAME "Select All"
+END_FUNCTION
+
+# MCCAD /////////////////////////////////////////////////////////
+FUNC_DLL "MCCAD.DLL"
+RES_DLL  "MCCADRES.DLL"
+CATEGORY 3348
+
+# PRIMITIVES //////////////////////////////////////////////////////////////
+FUNCTION CPP "create_cylinder_surface"
+	PARAM 0
+	CALL_FUNC "create_cylinder"
+	SPNG 10437
+	LPNG 10438
+	TIP 5903
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Cylinder"
+END_FUNCTION
+
+FUNCTION CPP "create_cylinder_solid"
+	PARAM 1
+	CALL_FUNC "create_cylinder"
+	SPNG 10437
+	LPNG 10438
+	TIP 5962
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Solid Cylinder"
+END_FUNCTION
+
+FUNCTION CPP "create_cylinder_mesh"
+	PARAM 2
+	CALL_FUNC "create_cylinder"
+	SPNG 1037
+	LPNG 1038
+	TIP 5980
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Mesh Cylinder"
+END_FUNCTION
+
+FUNCTION CPP "create_cone_surface"
+	PARAM 0
+	CALL_FUNC "create_cone"
+	SPNG 10439
+	LPNG 10440
+	TIP 5912
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Cone"
+END_FUNCTION
+
+FUNCTION CPP "create_cone_solid"
+	PARAM 1
+	CALL_FUNC "create_cone"
+	SPNG 10439
+	LPNG 10440
+	TIP 5993
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Solid Cone"
+END_FUNCTION
+
+FUNCTION CPP "create_cone_mesh"
+	PARAM 2
+	CALL_FUNC "create_cone"
+	SPNG 10439
+	LPNG 10440
+	TIP 5981
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Mesh Cone"
+END_FUNCTION
+
+FUNCTION CPP "create_block_surface"
+	PARAM 0
+	CALL_FUNC "create_block"
+	SPNG 10441
+	LPNG 10442
+	TIP 5916
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Block"
+END_FUNCTION
+
+FUNCTION CPP "create_block_solid"
+	PARAM 1
+	CALL_FUNC "create_block"
+	SPNG 10441
+	LPNG 10442
+	TIP 5994
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Solid Block"
+END_FUNCTION
+
+FUNCTION CPP "create_block_mesh"
+	PARAM 2
+	CALL_FUNC "create_block"
+	SPNG 1035
+	LPNG 1036
+	TIP 5982
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Mesh Block"
+END_FUNCTION
+
+FUNCTION CPP "create_sphere_surface"
+	PARAM 0
+	CALL_FUNC "create_sphere"
+	SPNG 10443
+	LPNG 10444
+	TIP 5920
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Sphere"
+END_FUNCTION
+
+FUNCTION CPP "create_sphere_solid"
+	PARAM 1
+	CALL_FUNC "create_sphere"
+	SPNG 10443
+	LPNG 10444
+	TIP 5995
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Solid Sphere"
+END_FUNCTION
+
+FUNCTION CPP "create_sphere_mesh"
+	PARAM 2
+	CALL_FUNC "create_sphere"
+	SPNG 10443
+	LPNG 10444
+	TIP 5983
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Mesh Sphere"
+END_FUNCTION
+
+FUNCTION CPP "create_torus_surface"
+	PARAM 0
+	CALL_FUNC "create_torus"
+	SPNG 10445
+	LPNG 10446
+	TIP 5923
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Torus"
+END_FUNCTION
+
+FUNCTION CPP "create_torus_solid"
+	PARAM 1
+	CALL_FUNC "create_torus"
+	SPNG 10445
+	LPNG 10446
+	TIP 5996
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Solid Torus"
+END_FUNCTION
+
+FUNCTION CPP "create_torus_mesh"
+	PARAM 2
+	CALL_FUNC "create_torus"
+	SPNG 10445
+	LPNG 10446
+	TIP 5984
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Mesh Torus"
+END_FUNCTION
+
+# GEOMETRY ////////////////////////////////////////////////////////////////
+
+FUNC_DLL "MCCAD.DLL"
+RES_DLL  "MCCADRES.DLL"
+CATEGORY 3348
+
+# SKETCHER //////////////////////////////////////////////////////
+
+FUNCTION CPP "sketcher_line_1"
+	SPNG 4680
+	LPNG 4681
+	TIP 32858
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Line Endpoint"
+END_FUNCTION
+
+FUNCTION CPP "create_a_line_Closest"
+	SPNG 4682
+	LPNG 4683
+	TIP 32866
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Line Closest"
+END_FUNCTION
+
+FUNCTION CPP "sketcher_line_3"
+	SPNG 4684
+	LPNG 4685
+	TIP 32865
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Line Bisect"
+END_FUNCTION
+
+FUNCTION CPP "sketcher_line_4"
+	SPNG 4686
+	LPNG 4687
+	TIP 32864
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Line Perpendicular"
+END_FUNCTION
+
+FUNCTION CPP "sketcher_line_5"
+	SPNG 4688
+	LPNG 4689
+	TIP 32861
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Line Parallel"
+END_FUNCTION
+
+FUNCTION CPP "sketcher_line_6"
+	SPNG 4690
+	LPNG 4691
+	TIP 100
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Line Tangent Through Point"
+END_FUNCTION
+
+FUNCTION CPP "WireframePointPosition"
+	CALL_FUNC "WireframePointPosition"
+	PARAM 0
+	SPNG 4692
+	LPNG 4693
+	TIP 32875
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Point Position"
+END_FUNCTION
+
+FUNCTION CPP "WireframePointDynamic"
+	SPNG 4698
+	LPNG 4699
+	TIP 32879
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Point Dynamic"
+END_FUNCTION
+
+FUNCTION CPP "WireframeLineNormalPoint"
+	SPNG 1022
+	LPNG 1023
+	TIP 32402
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Line Normal to Point"
+END_FUNCTION
+
+FUNCTION CPP "WireframeLineNormalChain"
+	SPNG 1026
+	LPNG 1027
+	TIP 32403
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Line Normal Along Chain"
+END_FUNCTION
+
+FUNCTION CPP "WireframeLineNormalGrid"
+	SPNG 1118
+	LPNG 1119
+	TIP 32404
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Line Normal to Grid"
+END_FUNCTION
+
+FUNCTION CPP "WireframePointNodePoints"
+	SPNG 4702
+	LPNG 4703
+	TIP 32877
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Node Points"
+END_FUNCTION
+
+FUNCTION CPP "WireframePointSegment"
+	SPNG 4704
+	LPNG 4705
+	TIP 32880
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Point Segment"
+END_FUNCTION
+
+FUNCTION CPP "WireframePointEndpoints"
+	CALL_FUNC "WireframePointEndpoints"
+	PARAM 1
+	SPNG 4700
+	LPNG 4701
+	TIP 3555
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Point Endpoints"
+END_FUNCTION
+
+FUNCTION CPP "WireframePointSmallArcs"
+	SPNG 4706
+	LPNG 4707
+	TIP 32886
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Point Small Arcs"
+END_FUNCTION
+
+FUNCTION CPP "sketcher_arc_1"
+	SPNG 4720
+	LPNG 4721
+	TIP 32896
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Circle Edge Point"
+END_FUNCTION
+
+FUNCTION CPP "sketcher_arc_2"
+	SPNG 4758
+	LPNG 4759
+	TIP 32899
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Circle Center Point"
+END_FUNCTION
+
+FUNCTION CPP "sketcher_arc_3"
+	SPNG 4712
+	LPNG 4713
+	TIP 32892
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Arc Polar"
+END_FUNCTION
+
+FUNCTION CPP "sketcher_arc_4"
+	SPNG 4710
+	LPNG 4711
+	TIP 32893
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Arc Endpoints"
+END_FUNCTION
+
+FUNCTION CPP "sketcher_arc_5"
+	SPNG 4708
+	LPNG 4709
+	TIP 32894
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Arc 3 Points"
+END_FUNCTION
+
+FUNCTION CPP "sketcher_arc_6"
+	SPNG 4716
+	LPNG 4717
+	TIP 1160
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Arc Tangent"
+END_FUNCTION
+
+FUNCTION CPP "sketcher_arc_7"
+	SPNG 4714
+	LPNG 4715
+	TIP 1161
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Arc Polar Endpoints"
+END_FUNCTION
+
+FUNCTION CPP "sketcher_fillet_1"
+	SPNG 4734
+	LPNG 4735
+	TIP 32919
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Fillet Entities"
+END_FUNCTION
+
+FUNCTION CPP "sketcher_fillet_2"
+	SPNG 4732
+	LPNG 4733
+	TIP 32915
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Fillet Chain"
+END_FUNCTION
+
+FUNCTION CPP "sketcher_chamfer_1"
+	SPNG 4724
+	LPNG 4725
+	TIP 32932
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Chamfer Entities"
+END_FUNCTION
+
+FUNCTION CPP "sketcher_chamfer_2"
+	SPNG 4722
+	LPNG 4723
+	TIP 32933
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Chamfer Chain"
+END_FUNCTION
+
+FUNCTION CPP "sketcher_spline_1"
+	SPNG 4730
+	LPNG 4731
+	TIP 32911
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Manual Spline"
+END_FUNCTION
+
+FUNCTION CPP "sketcher_spline_2"
+	SPNG 4726
+	LPNG 4727
+	TIP 32912
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Automatic Spline"
+END_FUNCTION
+
+FUNCTION CPP "sketcher_spline_3"
+	SPNG 4736
+	LPNG 4737
+	TIP 32913
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Spline from Curves"
+END_FUNCTION
+
+FUNCTION CPP "sketcher_spline_4"
+	SPNG 4728
+	LPNG 4729
+	TIP 32914
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Blended Spline"
+END_FUNCTION
+
+FUNCTION CPP "sketcher_curve_1"
+	SPNG 4744
+	LPNG 4745
+	TIP 1214
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Curve on One Edge"
+END_FUNCTION
+
+FUNCTION CPP "sketcher_curve_2"
+	SPNG 4738
+	LPNG 4739
+	TIP 33036
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Constant Parameter Curve"
+END_FUNCTION
+
+FUNCTION CPP "sketcher_curve_3"
+	SPNG 4750
+	LPNG 4751
+	TIP 33037
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Flowline Curve"
+END_FUNCTION
+
+FUNCTION CPP "sketcher_curve_4"
+	SPNG 4748
+	LPNG 4749
+	TIP 33038
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Dynamic Curve"
+END_FUNCTION
+
+FUNCTION CPP "sketcher_curve_5"
+	SPNG 4746
+	LPNG 4747
+	TIP 33039
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Curve Slice"
+END_FUNCTION
+
+FUNCTION CPP "WireframeCurveSliceAlongCurve"
+	SPNG 464
+	LPNG 465
+	TIP 466
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Curve Slice Along Curve"
+END_FUNCTION
+
+FUNCTION CPP "sketcher_curve_6"
+	SPNG 4756
+	LPNG 4757
+	TIP 33158
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Surface Curve"
+END_FUNCTION
+
+FUNCTION CPP "sketcher_curve_7"
+	SPNG 4752
+	LPNG 4753
+	TIP 33041
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Part Line Curve"
+END_FUNCTION
+
+FUNCTION CPP "sketcher_curve_8"
+	SPNG 5499
+	LPNG 5500
+	TIP 33040
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Curve at Intersection"
+END_FUNCTION
+
+FUNCTION CPP "sketcher_curve_9"
+	SPNG 4742
+	LPNG 4743
+	TIP 1156
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Curve on All Edges"
+END_FUNCTION
+
+FUNCTION CPP "WireframeCurveCenter"
+	SPNG 4740
+	LPNG 4741
+	TIP 229
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Curve Center"
+END_FUNCTION
+
+FUNCTION CPP "sketcher_rect"
+	SPNG 4754
+	LPNG 4755
+	TIP 32905
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Rectangle"
+END_FUNCTION
+
+FUNCTION CPP "create_rectangle"
+	SPNG 10421
+	LPNG 10422
+	TIP 5843
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Rectangular Shapes"
+END_FUNCTION
+
+FUNCTION CPP "create_polygon"
+	SPNG 10423
+	LPNG 10424
+	TIP 5851
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Polygon"
+END_FUNCTION
+
+FUNCTION CPP "create_ellipse"
+	SPNG 10425
+	LPNG 10426
+	TIP 5854
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Ellipse"
+END_FUNCTION
+
+FUNCTION CPP "create_bbox"
+	SPNG 10427
+	LPNG 10428
+	TIP 5927
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Bounding Box"
+END_FUNCTION
+
+FUNCTION CPP "create_letters"
+	SPNG 10429
+	LPNG 10430
+	TIP 6698
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Letters"
+END_FUNCTION
+
+FUNCTION CPP "create_spiral"
+	SPNG 10433
+	LPNG 10434
+	TIP 6702
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Spiral"
+END_FUNCTION
+
+FUNCTION CPP "create_helix"
+	SPNG 10431
+	LPNG 10432
+	TIP 6705
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Helix"
+END_FUNCTION
+
+FUNCTION CPP "OnBoltCircle"
+	PARAM 0
+	SPNG 10435
+	LPNG 10436
+	TIP 11177
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Bolt Circle"
+END_FUNCTION
+
+FUNCTION CPP "create_SilhouetteBoundary"
+	SPNG 1523
+	LPNG 1524
+	TIP 40021
+	FCAT  "Geometry"
+	FNAME "Silhouette Boundary"
+END_FUNCTION
+
+FUNC_DLL "MCCORE.DLL"
+
+# HELP ////////////////////////////////////////////////////////////////////
+
+FUNC_DLL "EXE"
+RES_DLL  "OPMANRES.DLL"
+CATEGORY 3349
+
+FUNCTION CPP "OnRegisterMastercamDotCom"
+	TIP 33442
+	SPNG 4776
+	LPNG 4777
+	INLINE
+	FCAT  "Help"
+	FNAME "Register on Mastercam.com"
+END_FUNCTION
+
+FUNCTION WIN "OnAppAbout"
+	HIDDEN
+	WINCMD 0xE140
+	SPNG 4760
+	LPNG 4761
+	TIP 4025
+	INLINE
+	FCAT  "Help"
+	FNAME "About"
+END_FUNCTION
+
+FUNCTION CPP "OnHelp"
+	TIP 32835
+	SPNG 6421
+	LPNG 6422
+	INLINE
+	FCAT  "Help"
+	FNAME "Help"
+END_FUNCTION
+
+FUNCTION CPP "OnCustomerFeedback"
+	TIP 33441
+	SPNG 4764
+	LPNG 4765
+	INLINE
+	FCAT  "Help"
+	FNAME "Customer Feedback Program"
+END_FUNCTION
+
+FUNCTION CPP "OnWhatsNew"
+	TIP 32830
+	SPNG 4774
+	LPNG 4775
+	INLINE
+	FCAT  "Help"
+	FNAME "What's New"
+END_FUNCTION
+
+FUNCTION CPP "OnDisplayResolvedIssues"
+	TIP 32841
+	SPNG 6635
+	LPNG 6636
+	INLINE
+	FCAT  "Help"
+	FNAME "Resolved Issues"
+END_FUNCTION
+
+FUNCTION CPP "OnHelpUpdates"
+	TIP 32869
+	SPNG 4772
+	LPNG 4773
+	INLINE
+	FCAT  "Help"
+	FNAME "Check for Mastercam Updates"
+END_FUNCTION
+
+FUNCTION CPP "OnTutorials"
+	TIP 33525
+	SPNG 6453
+	LPNG 6454
+	INLINE
+	FCAT  "Help"
+	FNAME "Tutorials"
+END_FUNCTION
+
+FUNCTION CPP "OnMyMastercam"
+	FUNC_DLL "MCCore.DLL"
+	TIP 33663
+	SPNG 33606
+	LPNG 33607
+	INLINE
+	NOTASK
+	FCAT  "Help"
+	FNAME "myMastercam"
+END_FUNCTION
+
+FUNCTION CPP "RunProductFeedbackBrowser"
+	FUNC_DLL "MCCore.DLL"
+	TIP 507
+	SPNG 4764
+	LPNG 4765
+	INLINE
+	NOTASK
+	HIDDEN
+	FCAT  "Help"
+	FNAME "Product Feedback"
+END_FUNCTION
+
+FUNCTION CPP "OnMastercamU"
+	TIP 33664
+	SPNG 8658
+	LPNG 8659
+	INLINE
+	FCAT  "Help"
+	FNAME "Mastercam U"
+END_FUNCTION
+
+FUNCTION CPP "OnCommunityApp"
+	TIP 33665
+	SPNG 8652
+	LPNG 8653
+	INLINE
+	FCAT  "Help"
+	FNAME "Community App"
+END_FUNCTION
+
+FUNCTION CPP "OnForums"
+	TIP 33666
+	SPNG 8654
+	LPNG 8655
+	INLINE
+	FCAT  "Help"
+	FNAME "Forums"
+END_FUNCTION
+
+FUNCTION CPP "OnKnowledgeBase"
+	TIP 33667
+	SPNG 8656
+	LPNG 8657
+	INLINE
+	FCAT  "Help"
+	FNAME "Knowledge Base"
+END_FUNCTION
+
+
+# LATHE GEOMETRY CREATION /////////////////////////////////////////////////////////
+
+FUNC_DLL "MCCAD.DLL"
+RES_DLL  "MCCADRES.DLL"
+CATEGORY 3907
+
+FUNCTION CPP "MakeReliefGrooves"
+	SPNG 5387
+	LPNG 5388
+	TIP 32849
+	INTERRUPT_INLINE
+	FCAT  "Lathe Geometry Creation"
+	FNAME "Relief Groove"
+END_FUNCTION
+
+FUNC_DLL "MCCAD.DLL"
+RES_DLL  "MCCADRES.DLL"
+CATEGORY 3907
+
+FUNCTION CPP "create_TurnProfile"
+	SPNG 1521
+	LPNG 1522
+	TIP 40022
+	FCAT  "Lathe Geometry Creation"
+	FNAME "Turn Profile"
+END_FUNCTION
+
+
+# LATHE TOOLPATHS /////////////////////////////////////////////////////////
+
+FUNC_DLL "MCLATHE.DLL"
+RES_DLL  "MCLATHERES.DLL"
+CATEGORY 3908
+
+FUNCTION CPP "lathe_thread"
+	SPNG 5391
+	LPNG 5392
+	TIP 32797
+	FCAT  "Lathe Toolpaths"
+	FNAME "Thread"
+END_FUNCTION
+
+FUNCTION CPP "CreateLatheThreadCustom"
+	SPNG 5575
+	LPNG 5576
+	TIP 32837
+	FCAT  "Lathe Toolpaths"
+	FNAME "Custom Thread"
+END_FUNCTION
+
+FUNCTION CPP "CreateLatheBAxisContourTurning"
+	SPNG 5605
+	LPNG 5606
+	TIP 32841
+	FCAT  "Lathe Toolpaths"
+	FNAME "Lathe B-axis Contour Turning"
+END_FUNCTION
+
+FUNCTION CPP "lathe_steadyrest"
+	SPNG 5393
+	LPNG 5394
+	TIP 32798
+	FCAT  "Lathe Toolpaths"
+	FNAME "Steady Rest"
+END_FUNCTION
+
+FUNCTION CPP "lathe_stock_flip"
+	SPNG 5395
+	LPNG 5396
+	TIP 32799
+	FCAT  "Lathe Toolpaths"
+	FNAME "Stock Flip"
+END_FUNCTION
+
+FUNCTION CPP "lathe_stock_xfer"
+	SPNG 5397
+	LPNG 5398
+	TIP 32800
+	FCAT  "Lathe Toolpaths"
+	FNAME "Stock Transfer"
+END_FUNCTION
+
+FUNCTION CPP "lathe_barfeed"
+	SPNG 5399
+	LPNG 5400
+	TIP 32809
+	FCAT  "Lathe Toolpaths"
+	FNAME "Stock Advance"
+END_FUNCTION
+
+FUNCTION CPP "lathe_tailstock"
+	SPNG 5401
+	LPNG 5402
+	TIP 32801
+	FCAT  "Lathe Toolpaths"
+	FNAME "Tailstock"
+END_FUNCTION
+
+FUNCTION CPP "lathe_easy_finish"
+	SPNG 5403
+	LPNG 5404
+	TIP 32803
+	FCAT  "Lathe Toolpaths"
+	FNAME "Quick Finish"
+END_FUNCTION
+
+FUNCTION CPP "lathe_easy_groove"
+	SPNG 5405
+	LPNG 5406
+	TIP 32804
+	FCAT  "Lathe Toolpaths"
+	FNAME "Quick Groove"
+END_FUNCTION
+
+FUNCTION CPP "lathe_easy_rough"
+	SPNG 5407
+	LPNG 5408
+	TIP 32805
+	FCAT  "Lathe Toolpaths"
+	FNAME "Quick Rough"
+END_FUNCTION
+
+FUNCTION CPP "lathe_rough"
+	SPNG 5409
+	LPNG 5410
+	TIP 32806
+	FCAT  "Lathe Toolpaths"
+	FNAME "Rough"
+END_FUNCTION
+
+FUNCTION CPP "lathe_canned_pattern"
+	SPNG 5411
+	LPNG 5412
+	TIP 32807
+	FCAT  "Lathe Toolpaths"
+	FNAME "Pattern Repeat"
+END_FUNCTION
+
+FUNCTION CPP "lathe_nc_point"
+	SPNG 5413
+	LPNG 5414
+	TIP 32808
+	FCAT  "Lathe Toolpaths"
+	FNAME "Point"
+END_FUNCTION
+
+FUNCTION CPP "lathe_finish"
+	SPNG 5415
+	LPNG 5416
+	TIP 32802
+	FCAT  "Lathe Toolpaths"
+	FNAME "Finish"
+END_FUNCTION
+
+FUNCTION CPP "lathe_canned_finish"
+	SPNG 5417
+	LPNG 5418
+	TIP 32810
+	FCAT  "Lathe Toolpaths"
+	FNAME "Canned Finish"
+END_FUNCTION
+
+FUNCTION CPP "lathe_canned_groove"
+	SPNG 5419
+	LPNG 5420
+	TIP 32811
+	FCAT  "Lathe Toolpaths"
+	FNAME "Canned Groove"
+END_FUNCTION
+
+FUNCTION CPP "lathe_canned_rough"
+	SPNG 5421
+	LPNG 5422
+	TIP 32812
+	FCAT  "Lathe Toolpaths"
+	FNAME "Canned Rough"
+END_FUNCTION
+
+FUNCTION CPP "lathe_chuck_clamp"
+	SPNG 5423
+	LPNG 5424
+	TIP 32813
+	FCAT  "Lathe Toolpaths"
+	FNAME "Chuck"
+END_FUNCTION
+
+FUNCTION CPP "lathe_cutoff"
+	SPNG 5425
+	LPNG 5426
+	TIP 32814
+	FCAT  "Lathe Toolpaths"
+	FNAME "Cutoff"
+END_FUNCTION
+
+FUNCTION CPP "lathe_drill"
+	SPNG 5427
+	LPNG 5428
+	TIP 32815
+	FCAT  "Lathe Toolpaths"
+	FNAME "Drill"
+END_FUNCTION
+
+FUNCTION CPP "lathe_face"
+	SPNG 5429
+	LPNG 5430
+	TIP 32816
+	FCAT  "Lathe Toolpaths"
+	FNAME "Face"
+END_FUNCTION
+
+FUNCTION CPP "lathe_groove"
+	SPNG 5431
+	LPNG 5432
+	TIP 32817
+	FCAT  "Lathe Toolpaths"
+	FNAME "Groove"
+END_FUNCTION
+
+FUNCTION CPP "lathe_plunge_turn"
+	SPNG 5433
+	LPNG 5434
+	TIP 32864
+	FCAT  "Lathe Toolpaths"
+	FNAME "Plunge Turn"
+END_FUNCTION
+
+FUNCTION CPP "lathe_dynamic_rough"
+	SPNG 5435
+	LPNG 5436
+	TIP 32886
+	FCAT  "Lathe Toolpaths"
+	FNAME "Dynamic Rough"
+END_FUNCTION
+
+FUNCTION CPP "lathe_contour_rough"
+	SPNG 5465
+	LPNG 5466
+	TIP 32887
+	FCAT  "Lathe Toolpaths"
+	FNAME "Contour Rough"
+END_FUNCTION
+
+FUNCTION CPP "CreateLathePrimeTurning"
+	SPNG 6334
+	LPNG 6335
+	TIP 32904
+	FCAT  "Lathe Toolpaths"
+	FNAME "PrimeTurning"
+END_FUNCTION
+
+FUNCTION CPP "MakeCView"
+	SPNG 5437
+	LPNG 5438
+	TIP 32850
+	FCAT  "Lathe Toolpaths"
+	FNAME "Cview Utility"
+END_FUNCTION
+
+FUNCTION CPP "LatheStockView"
+	SPNG 25556
+	LPNG 25557
+	TIP 32851
+	FCAT  "Lathe Toolpaths"
+	FNAME "Lathe Stock View"
+END_FUNCTION
+
+FUNCTION CPP "MtMiscOpMgr"
+	SPNG 5439
+	LPNG 5440
+	TIP 32879
+	FCAT  "Lathe Toolpaths"
+	FNAME "Pickoff/Pull/Cutoff (MT)"
+END_FUNCTION
+
+FUNCTION CPP "RunAlignToZ"
+	RES_DLL  "MCLATHERES.DLL"
+	SPNG 25669
+	LPNG 25670
+	TIP 32888
+	FCAT  "Lathe Toolpaths"
+	FNAME "Align to Z"
+END_FUNCTION
+
+FUNC_DLL "apps\PickoffSetup.dll"
+RES_DLL "PickoffSetupRes.dll"
+FUNCTION CPP "PickoffSetupEntry"
+    SPNG 18049
+    LPNG 18050
+    TIP 1
+	FCAT  "Lathe Toolpaths"
+    FNAME "PickOff SetUp"
+END_FUNCTION
+
+# MILL-TURN /////////////////////////////////////////////////////////
+
+FUNC_DLL "MCLATHE.DLL"
+RES_DLL  "MCLATHERES.DLL"
+CATEGORY 3909
+
+FUNCTION CPP "MtPOCO"
+	SPNG 5441
+	LPNG 5442
+	UICALLBACK "OnUpdatePartHandlingToolbar"
+	TIP 32880
+	FCAT  "Mill-Turn"
+	FNAME "Pickoff/Cutoff (MT)"
+END_FUNCTION
+
+FUNCTION CPP "MtPickoff"
+	SPNG 5443
+	LPNG 5444
+	UICALLBACK "OnUpdatePartHandlingToolbar"
+	TIP 32881
+	FCAT  "Mill-Turn"
+	FNAME "Pickoff (MT)"
+END_FUNCTION
+
+FUNCTION CPP "MtStockPull"
+	SPNG 5445
+	LPNG 5446
+	UICALLBACK "OnUpdatePartHandlingToolbar"
+	TIP 32883
+	FCAT  "Mill-Turn"
+	FNAME "Stock Pull (MT)"
+END_FUNCTION
+
+FUNCTION CPP "MtTailstockOps"
+	SPNG 6519
+	LPNG 6520
+	UICALLBACK "OnUpdatePartHandlingToolbar"
+	TIP 111
+	FCAT  "Mill-Turn"
+	FNAME "Tailstock Ops (MT)"
+END_FUNCTION
+
+FUNCTION CPP "MtBarFeed"
+	SPNG 5447
+	LPNG 5448
+	TIP 32870
+	FCAT  "Mill-Turn"
+	FNAME "Bar Feed (MT)"
+END_FUNCTION
+
+FUNCTION CPP "MtSpindleGrip"
+	SPNG 5449
+	LPNG 5450
+	TIP 32871
+	FCAT  "Mill-Turn"
+	FNAME "Spindle Clamping (MT)"
+END_FUNCTION
+
+FUNCTION CPP "MtSpindleMove"
+	SPNG 5451
+	LPNG 5452
+	TIP 32872
+	FCAT  "Mill-Turn"
+	FNAME "Spindle Move (MT)"
+END_FUNCTION
+
+FUNCTION CPP "MtSpindleSync"
+	SPNG 5453
+	LPNG 5454
+	TIP 32873
+	FCAT  "Mill-Turn"
+	FNAME "Spindle Sync (MT)"
+END_FUNCTION
+
+FUNCTION CPP "MtTailstock"
+	SPNG 5455
+	LPNG 5456
+	UICALLBACK "OnUpdatePartHandlingToolbar"
+	TIP 32876
+	FCAT  "Mill-Turn"
+	FNAME "Tailstock (MT)"
+END_FUNCTION
+
+FUNCTION CPP "MtTurret"
+	SPNG 5457
+	LPNG 5458
+	TIP 32878
+	FCAT  "Mill-Turn"
+	FNAME "Turret Park (MT)"
+END_FUNCTION
+
+FUNCTION CPP "MtCenterPointTp"
+	SPNG 5486
+	LPNG 5487
+	UICALLBACK "OnUpdatePartHandlingToolbar"
+	TIP 131
+	FCAT  "Mill-Turn"
+	FNAME "Center Tool Point (MT)"
+END_FUNCTION
+
+FUNCTION CPP "lathe_pinch_turn"
+	SPNG 5463
+	LPNG 5463
+	TIP 32818
+	FCAT  "Mill-Turn"
+	FNAME "Pinch Turn"
+END_FUNCTION
+
+FUNCTION CPP "MTSteadyRest"
+	SPNG 5578
+	LPNG 5579
+	TIP 32906
+	FCAT  "Mill-Turn"
+	FNAME "Steady Rest (MT)"
+END_FUNCTION
+
+FUNCTION CPP "MTSteadyRestPoint"
+	SPNG 5580
+	LPNG 5581
+	TIP 32907
+	FCAT  "Mill-Turn"
+	FNAME "Steady Rest Point (MT)"
+END_FUNCTION
+
+
+
+# MACHINE DEFINITION //////////////////////////////////////////////////////
+
+FUNC_DLL "MCCORE.DLL"
+RES_DLL  "MCCORERES.DLL"
+CATEGORY 7583
+
+FUNCTION CPP "RunMachineDefinitionManager"
+	SPNG 10450
+	LPNG 10451
+	TIP 32930
+	FCAT  "Machine Definition"
+	FNAME "Machine Definition Manager"
+END_FUNCTION
+
+FUNCTION CPP "RunControlDefinitionManager"
+	SPNG 10447
+	LPNG 10448
+	TIP 32931
+	FCAT  "Control Definition"
+	FNAME "Control Definition Manager"
+END_FUNCTION
+
+FUNCTION CPP "RunMillToolManager"
+	SPNG 10452
+	LPNG 10453
+	TIP 32932
+	FCAT  "Tool Manager"
+	FNAME "Mill Tool Manager"
+END_FUNCTION
+
+FUNCTION CPP "RunLatheToolManager"
+	SPNG 10454
+	LPNG 10455
+	TIP 32934
+	FCAT  "Tool Manager"
+	FNAME "Lathe Tool Manager"
+END_FUNCTION
+
+FUNCTION CPP "RunMaterialManager"
+	SPNG 10456
+	LPNG 10457
+	TIP 32936
+	FCAT  "Material Manager"
+	FNAME "Material Manager"
+END_FUNCTION
+
+FUNCTION CPP "CreateMtTooplanes"
+	SPNG 10458
+	LPNG 10459
+	TIP 12113
+	FCAT  "Toolplanes"
+	FNAME "Toolplanes"
+END_FUNCTION
+
+
+# MULTI SURFACE TOOLPATHS /////////////////////////////////////////////////
+
+FUNC_DLL "MCMSURF.DLL"
+RES_DLL  "OPMANRES.DLL"
+CATEGORY 3350
+
+FUNCTION CPP "CheckHolder"
+	RES_DLL  "MCMSurfRes.dll"
+	SPNG 105
+	LPNG 106
+	TIP 269
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Check Holder"
+END_FUNCTION
+
+FUNCTION CPP "CheckToolReach"
+	RES_DLL  "MCMSurfRes.dll"
+	SPNG 1611
+	LPNG 1612
+	TIP 520
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Check Tool Reach"
+END_FUNCTION
+
+# MULTI SURFACE FINISH TOOLPATHS ////////////////////////////////
+
+FUNCTION CPP "msurf_parallel_toolbar"
+	SPNG 6305
+	LPNG 6306
+	TIP 33358
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Finish Parallel"
+END_FUNCTION
+
+FUNCTION CPP "msurf_steep_parallel_toolbar"
+	SPNG 6307
+	LPNG 6308
+	TIP 33359
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Finish Parallel Steep"
+END_FUNCTION
+
+FUNCTION CPP "msurf_radial_toolbar"
+	SPNG 6309
+	LPNG 6310
+	TIP 33360
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Finish Radial"
+END_FUNCTION
+
+FUNCTION CPP "msurf_project_toolbar"
+	SPNG 6311
+	LPNG 6312
+	TIP 33361
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Finish Project"
+END_FUNCTION
+
+FUNCTION CPP "msurf_blend_toolbar"
+	SPNG 8700
+	LPNG 8701
+	TIP 33365
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Finish Blend"
+END_FUNCTION
+
+FUNCTION CPP "msurf_flowline_toolbar"
+	SPNG 6315
+	LPNG 6316
+	TIP 33362
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Finish Flowline"
+END_FUNCTION
+
+FUNCTION CPP "msurf_contour_toolbar"
+	SPNG 6317
+	LPNG 6318
+	TIP 33363
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Finish Contour"
+END_FUNCTION
+
+FUNCTION CPP "msurf_shallow_toolbar"
+	SPNG 6319
+	LPNG 6320
+	TIP 33364
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Finish Shallow"
+END_FUNCTION
+
+FUNCTION CPP "msurf_pencil_toolbar"
+	SPNG 6321
+	LPNG 6322
+	TIP 33352
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Finish Pencil"
+END_FUNCTION
+
+FUNCTION CPP "msurf_leftover_toolbar"
+	SPNG 6323
+	LPNG 6324
+	TIP 33353
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Finish Leftover"
+END_FUNCTION
+
+FUNCTION CPP "msurf_scallop_toolbar"
+	SPNG 6325
+	LPNG 6326
+	TIP 33354
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Finish Scallop"
+END_FUNCTION
+
+FUNCTION CPP "msurf_radial_1_toolbar"
+	SPNG 6327
+	LPNG 6328
+	TIP 33377
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Finish One Surface Radial"
+END_FUNCTION
+
+FUNCTION CPP "msurf_project_1_toolbar"
+	SPNG 6329
+	LPNG 6330
+	TIP 33376
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Finish One Surface Project"
+END_FUNCTION
+
+FUNCTION CPP "msurf_blend_1_toolbar"
+	SPNG 6331
+	LPNG 6332
+	TIP 33374
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Finish One Surface Blend"
+END_FUNCTION
+
+FUNCTION CPP "msurf_flowline_1_toolbar"
+	SPNG 6333
+	LPNG 6334
+	TIP 33375
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Finish One Surface Flowline"
+END_FUNCTION
+
+FUNCTION CPP "msurf_contour_1_toolbar"
+	SPNG 6335
+	LPNG 6336
+	TIP 33373
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Finish One Surface Contour"
+END_FUNCTION
+
+FUNCTION CPP "msurf_steep_parallel_1_toolbar"
+	SPNG 6337
+	LPNG 6338
+	TIP 33407
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Finish One Surface Parallel Steep"
+END_FUNCTION
+
+FUNCTION CPP "msurf_shallow_1_toolbar"
+	SPNG 6339
+	LPNG 6340
+	TIP 33409
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Finish One Surface Shallow"
+END_FUNCTION
+   
+FUNCTION CPP "msurf_scallop_1_toolbar"
+	SPNG 6341
+	LPNG 6342
+	TIP 33411
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Finish One Surface Scallop"
+END_FUNCTION
+   
+FUNCTION CPP "msurf_leftover_1_toolbar"
+	SPNG 6343
+	LPNG 6344
+	TIP 33413
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Finish One Surface Leftover"
+END_FUNCTION
+   
+FUNCTION CPP "msurf_pencil_1_toolbar"
+	SPNG 6345
+	LPNG 6346
+	TIP 33415
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Finish One Surface Pencil"
+END_FUNCTION
+
+# MULTI SURFACE ROUGH TOOLPATHS ////////////////////////////////
+
+FUNCTION CPP "msurf_rgh_parallel_1_toolbar"
+	SPNG 6347
+	LPNG 6348
+	TIP 33367
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Rough One Surface Parallel"
+END_FUNCTION
+
+FUNCTION CPP "msurf_rgh_parallel_toolbar"
+	SPNG 6353
+	LPNG 6354
+	TIP 33093
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Rough Parallel"
+END_FUNCTION
+
+FUNCTION CPP "msurf_rgh_radial_1_toolbar"
+	SPNG 6351
+	LPNG 6352
+	TIP 33368
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Rough One Surface Radial"
+END_FUNCTION
+
+FUNCTION CPP "msurf_rgh_radial_toolbar"
+	SPNG 6357
+	LPNG 6358
+	TIP 33094
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Rough Radial"
+END_FUNCTION
+
+FUNCTION CPP "msurf_rgh_project_1_toolbar"
+	SPNG 6349
+	LPNG 6350
+	TIP 33369
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Rough One Surface Project"
+END_FUNCTION
+
+FUNCTION CPP "msurf_rgh_project_toolbar"
+	SPNG 6355
+	LPNG 25075
+	TIP 33095
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Rough Project"
+END_FUNCTION
+
+FUNCTION CPP "msurf_rgh_flowline_1_toolbar"
+	SPNG 6359
+	LPNG 6360
+	TIP 33370
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Rough One Surface Flowline"
+END_FUNCTION
+
+FUNCTION CPP "msurf_rgh_flowline_toolbar"
+	SPNG 6361
+	LPNG 6362
+	TIP 33096
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Rough Flowline"
+END_FUNCTION
+
+FUNCTION CPP "msurf_rgh_contour_1_toolbar"
+	SPNG 6363
+	LPNG 6364
+	TIP 33371
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Rough One Surface Contour"
+END_FUNCTION
+
+FUNCTION CPP "msurf_rgh_contour_toolbar"
+	SPNG 6365
+	LPNG 6366
+	TIP 33097
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Rough Contour"
+END_FUNCTION
+
+FUNCTION CPP "msurf_restmill_toolbar"
+	SPNG 6367
+	LPNG 6368
+	TIP 33355
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Rough Restmill"
+END_FUNCTION
+
+FUNCTION CPP "msurf_pocket_toolbar"
+	SPNG 6369
+	LPNG 6370
+	TIP 33356
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Rough Pocket"
+END_FUNCTION
+
+FUNCTION CPP "msurf_pocket_light_toolbar"
+	SPNG 6369
+	LPNG 6370
+	TIP 33366
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Rough Multisurface Pocket"
+END_FUNCTION
+
+FUNCTION CPP "msurf_pocket_1_toolbar"
+	SPNG 6373
+	LPNG 6374
+	TIP 33372
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Rough One Surface Pocket"
+END_FUNCTION
+
+FUNCTION CPP "msurf_plunge_toolbar"
+	SPNG 6375
+	LPNG 6376
+	TIP 33357
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Rough Plunge"
+END_FUNCTION
+
+FUNCTION CPP "msurf_plunge_1_toolbar"
+	SPNG 6377
+	LPNG 6378
+	TIP 33417
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Rough One Surface Plunge"
+END_FUNCTION
+   
+FUNCTION CPP "msurf_restmill_1_toolbar"
+	SPNG 6379
+	LPNG 6380
+	TIP 33419
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Rough One Surface Restmill"
+END_FUNCTION
+   
+   
+# MULTI SURFACE HMM TOOLPATHS ////////////////////////////////
+
+#FUNCTION CPP "msurf_hmm_toolbar"
+#	SBMP  IDB_msurf_hmm_toolbar_16
+#	LBMP  IDB_msurf_hmm_toolbar_24
+#	TIP   ID_TOOLPATH_MSURF_HMM
+#	FCAT  "Multi Surface Toolpaths"
+#	FNAME "" 
+#END_FUNCTION
+
+FUNCTION CPP "msurf_hmm_opti_core_toolbar" 
+	RES_DLL  "OPMANRES.DLL"
+	SPNG 6387
+	LPNG 25072
+	TIP 4254
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "OptiCore"
+END_FUNCTION
+
+FUNCTION CPP "msurf_hmm_core_rough_toolbar"
+	RES_DLL  "OPMANRES.DLL"
+	SPNG 6381
+	LPNG 25068
+	TIP 4245
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Core Rough"
+END_FUNCTION
+
+FUNCTION CPP "msurf_hmm_waterline_toolbar"
+	RES_DLL  "OPMANRES.DLL"
+	SPNG 6393
+	LPNG 25081
+	TIP 4263
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Waterline"
+END_FUNCTION
+
+FUNCTION CPP "msurf_hmm_scallop_toolbar"
+	RES_DLL  "OPMANRES.DLL"
+	SPNG 6395
+	LPNG 25079
+	TIP 4266
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Scallop"
+END_FUNCTION
+
+FUNCTION CPP "msurf_hmm_horizontal_area_toolbar"
+	RES_DLL  "OPMANRES.DLL"
+	SPNG 6397
+	LPNG 25069
+	TIP 4269
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Horizontal Area"
+END_FUNCTION
+
+FUNCTION CPP "msurf_hmm_raster_toolbar"
+	RES_DLL  "OPMANRES.DLL"
+	SPNG 6399
+	LPNG 25077
+	TIP 4272
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Raster"
+END_FUNCTION
+
+FUNCTION CPP "msurf_hmm_pencil_toolbar"
+	RES_DLL  "OPMANRES.DLL"
+	SPNG 6401
+	LPNG 25074
+	TIP 4275
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Pencil"
+END_FUNCTION
+
+FUNCTION CPP "msurf_hmm_spiral_toolbar"
+	RES_DLL  "OPMANRES.DLL"
+	SPNG 6403
+	LPNG 25080
+	TIP 4278
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Spiral"
+END_FUNCTION
+
+FUNCTION CPP "msurf_hmm_radial_toolbar"
+	RES_DLL  "OPMANRES.DLL"
+	SPNG 6405
+	LPNG 25076
+	TIP 4281
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Radial"
+END_FUNCTION
+
+FUNCTION CPP "msurf_hmm_hybrid_toolbar"
+	RES_DLL  "OPMANRES.DLL"
+	SPNG 6407
+	LPNG 25070
+	TIP 4284
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Hybrid"
+END_FUNCTION
+
+FUNCTION CPP "msurf_hmm_project_toolbar"
+	RES_DLL  "OPMANRES.DLL"
+	SPNG 6355
+	LPNG 25075
+	TIP 4507
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Project"
+END_FUNCTION
+
+FUNCTION CPP "msurf_hmm_blend_toolbar"
+	RES_DLL  "OPMANRES.DLL"
+	SPNG 6313
+	LPNG 28089
+	TIP 4509
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Blend"
+END_FUNCTION
+
+FUNCTION CPP "msurf_hmm_equal_scallop_toolbar"
+	RES_DLL  "OPMANRES.DLL"
+	SPNG 28088
+	LPNG 25082
+	TIP 4267
+	FCAT  "Multi Surface Toolpaths"
+	FNAME "Equal Scallop"
+END_FUNCTION
+
+# MULTI SURFACE REFINE TOOLPATH ADVERT. /////////////////////////
+
+#FUNCTION CPP "msurf_refine_toolpath_adv"
+#	SBMP  IDB_msurf_refine_toolpath_adv_16
+#	LBMP  IDB_msurf_refine_toolpath_adv_24
+#	TIP   ID_REFINE_TOOLPATH_ADV
+#	FCAT  "Multi Surface Toolpaths"
+#	FNAME ""
+#END_FUNCTION
+
+# MULTIAXIS TOOLPATH UI ////////////////////////////////////////
+
+FUNC_DLL  "MCUI5AX.DLL"
+RES_DLL   "OPMANRES.DLL"
+CATEGORY 3351
+
+FUNCTION CPP "multiaxui_toolbar"
+ 	SPNG 6295
+ 	LPNG 6296
+ 	TIP 33384
+ 	FCAT  "Multi-Axis Toolpaths"
+ 	FNAME "Multiaxis"
+END_FUNCTION
+
+FUNCTION CPP "TriangularToolpathEntry"
+	SPNG 6511
+	LPNG 25680
+	TIP 33612
+	FCAT  "Multi-Axis Toolpaths"
+	FNAME "TriangularToolpath"
+END_FUNCTION
+
+FUNCTION CPP "RoughingToolpathEntry"
+	SPNG 6513
+	LPNG 25684
+	TIP 33613
+	FCAT  "Multi-Axis Toolpaths"
+	FNAME "RoughingToolpath"
+END_FUNCTION
+
+FUNCTION CPP "ConvertTo5axToolpathEntry"
+	SPNG 6517
+	LPNG 25687
+	TIP 33615
+	FCAT  "Multi-Axis Toolpaths"
+	FNAME "ConvertTo5axToolpath"
+END_FUNCTION
+
+FUNCTION CPP "PortExpertToolpathEntry"
+	SPNG 6519
+	LPNG 25690
+	TIP 33616
+	FCAT  "Multi-Axis Toolpaths"
+	FNAME "PortExpertToolpath"
+END_FUNCTION
+
+FUNCTION CPP "BladeExpertToolpathEntry"
+	SPNG 6521
+	LPNG 25691
+	TIP 33617
+	FCAT  "Multi-Axis Toolpaths"
+	FNAME "BladeExpertToolpath"
+END_FUNCTION
+
+FUNCTION CPP "RotaryAdvancedToolpathEntry"
+	SPNG 6637
+ 	LPNG 25692
+	TIP 33627
+	FCAT  "Multi-Axis Toolpaths"
+	FNAME "RotaryAdvancedToolpath"
+END_FUNCTION
+
+FUNCTION CPP "DeburrToolpathEntry"
+	SPNG 8695
+ 	LPNG 25693
+	TIP 33671
+	FCAT  "Multi-Axis Toolpaths"
+	FNAME "DeburrToolpath"
+END_FUNCTION
+
+FUNCTION CPP "AutomaticRoughingToolpathEntry"
+	SPNG 8718
+ 	LPNG 25685
+	TIP 33672
+	FCAT  "Multi-Axis Toolpaths"
+	FNAME "AutomaticRoughingToolpath"
+END_FUNCTION
+
+FUNCTION CPP "UnifiedMultiaxisToolpathEntry"
+	SPNG 8726
+ 	LPNG 25673
+	TIP 33706
+	FCAT  "Multi-Axis Toolpaths"
+	FNAME "UnifiedMultiaxisToolpath"
+END_FUNCTION
+
+FUNCTION CPP "SwarfToolpathEntry"
+	SPNG 6523
+	LPNG 25676
+	TIP 33618
+	FCAT  "Multi-Axis Toolpaths"
+	FNAME "SwarfToolpath"
+END_FUNCTION
+
+FUNCTION CPP "Rotary4axEntry"
+	SPNG 6525
+	LPNG 25688
+	TIP 33619
+	FCAT  "Multi-Axis Toolpaths"
+	FNAME "Rotary4ax"
+END_FUNCTION
+
+FUNCTION CPP "Curve5axEntry"
+	SPNG 6529
+	LPNG 25675
+	TIP 33621
+	FCAT  "Multi-Axis Toolpaths"
+	FNAME "Curve5ax"
+END_FUNCTION
+
+FUNCTION CPP "Flow5axEntry"
+	SPNG 6533
+	LPNG 25681
+	TIP 33623
+	FCAT  "Multi-Axis Toolpaths"
+	FNAME "Flow5ax"
+END_FUNCTION
+
+FUNCTION CPP "Msurf5axEntry"
+	SPNG 6535
+	LPNG 25682
+	TIP 33624
+	FCAT  "Multi-Axis Toolpaths"
+	FNAME "Msurf5ax"
+END_FUNCTION
+
+FUNCTION CPP "Port5axEntry"
+	SPNG 6537
+	LPNG 25683
+	TIP 33625
+	FCAT  "Multi-Axis Toolpaths"
+	FNAME "Port5ax"
+END_FUNCTION
+
+FUNCTION CPP "Swarf5axClassicEntry"
+	SPNG 6539
+	LPNG 25689
+	TIP 33626
+	FCAT  "Multi-Axis Toolpaths"
+	FNAME "Swarf5axClassic"
+END_FUNCTION
+
+# SETUP SHEET /////////////////////////////////////////////////////////////
+
+FUNC_DLL "MCCORE.DLL"
+RES_DLL  "OPMANRES.DLL"
+CATEGORY 171
+
+FUNCTION CPP "setup_sheet"
+	SPNG 5994
+	LPNG 5995
+	TIP 3584
+	FCAT  "Utilities"
+	FNAME "Setup Sheet"
+END_FUNCTION
+
+FUNCTION CPP "imageRIBBON"
+	SPNG 5996
+	LPNG 5997
+	TIP 4145
+	INLINE
+	FCAT  "Utilities"
+	FNAME "Setup Sheet Image Capture"
+END_FUNCTION
+
+FUNCTION CPP "imageCLEAR"
+	SPNG 5992
+	LPNG 5993
+	TIP 4146
+	INLINE
+	FCAT  "Utilities"
+	FNAME "Clear Setup Sheet Image List"
+END_FUNCTION
+
+# NESTING /////////////////////////////////////////////////////////////////
+
+FUNC_DLL "MCCORE.DLL"
+RES_DLL  "OPMANRES.DLL"
+CATEGORY 3352
+
+FUNCTION CPP "do_nest_cfg"
+	SPNG 5998
+	LPNG 5999
+	UICALLBACK "OnUpdateNestingToolbar"
+	TIP 38029
+	FCAT  "Nesting"
+	FNAME "Nesting Configuration"
+END_FUNCTION
+
+FUNCTION CPP "do_nest_g"
+	SPNG 6000
+	LPNG 6001
+	UICALLBACK "OnUpdateNestingToolbar"
+	TIP 38030
+	FCAT  "Nesting"
+	FNAME "Geometry Nesting"
+END_FUNCTION
+
+FUNCTION CPP "do_nest_t"
+	SPNG 6010
+	LPNG 6011
+	UICALLBACK "OnUpdateNestingToolbar"
+	TIP 38033
+	FCAT  "Nesting"
+	FNAME "Toolpath Nesting"
+END_FUNCTION
+
+FUNCTION CPP "do_nest_m"
+	SPNG 6002
+	LPNG 6003
+	UICALLBACK "OnUpdateNestingToolbar"
+	TIP 38031
+	FCAT  "Nesting"
+	FNAME "McLink Nesting"
+END_FUNCTION
+
+FUNCTION CPP "do_nest_r"
+	SPNG 6008
+	LPNG 6009
+	UICALLBACK "OnUpdateNestingToolbar"
+	TIP 38032
+	FCAT  "Nesting"
+	FNAME "Nesting Report"
+END_FUNCTION
+
+# PLANES MANIPULATION //////////////////////////////////////////////////////
+
+FUNC_DLL "EXE"
+RES_DLL "OPMANRES.DLL"
+CATEGORY 3353
+
+FUNCTION CPP "OnPlanesTop"
+	SPNG 4968
+	LPNG 4969
+	TIP 33241
+	INLINE
+	FCAT  "Planes"
+	FNAME "Top (WCS)"
+END_FUNCTION
+
+FUNCTION CPP "OnPlanesFront"
+	SPNG 4960
+	LPNG 4961
+	TIP 33242
+	INLINE
+	FCAT  "Planes"
+	FNAME "Front (WCS)"
+END_FUNCTION
+
+FUNCTION CPP "OnPlanesBack"
+	SPNG 4956
+	LPNG 4957
+	TIP 33243
+	INLINE
+	FCAT  "Planes"
+	FNAME "Back (WCS)"
+END_FUNCTION
+
+FUNCTION CPP "OnPlanesBottom"
+	SPNG 4958
+	LPNG 4959
+	TIP 33244
+	INLINE
+	FCAT  "Planes"
+	FNAME "Bottom (WCS)"
+END_FUNCTION
+
+FUNCTION CPP "OnPlanesSide"
+	SPNG 4966
+	LPNG 4967
+	TIP 33245
+	INLINE
+	FCAT  "Planes"
+	FNAME "Right (WCS)"
+END_FUNCTION
+
+FUNCTION CPP "OnPlanesLeft"
+	SPNG 4964
+	LPNG 4965
+	TIP 33246
+	INLINE
+	FCAT  "Planes"
+	FNAME "Left (WCS)"
+END_FUNCTION
+
+FUNCTION CPP "OnPlanesIso"
+	SPNG 4962
+	LPNG 4963
+	TIP 33247
+	INLINE
+	FCAT  "Planes"
+	FNAME "Isometric (WCS)"
+END_FUNCTION
+
+FUNCTION CPP "OnPlanesIsoRev"
+	SPNG 6179
+	LPNG 6180
+	TIP 6177
+	INLINE
+	FCAT  "Planes"
+	FNAME "Isometric Reverse (WCS)"
+END_FUNCTION
+
+FUNCTION CPP "OnPlanesTrimetric"
+	SPNG 6181
+	LPNG 6182
+	TIP 6178
+	INLINE
+	FCAT  "Planes"
+	FNAME "Trimetric (WCS)"
+END_FUNCTION
+
+FUNCTION CPP "OnPlanesGeometry"
+	SPNG 6038
+	LPNG 6039
+	TIP 33249
+	INLINE
+	FCAT  "Planes"
+	FNAME "Plane from geometry"
+END_FUNCTION
+
+FUNCTION CPP "OnPlanesSolidface"
+	SPNG 6042
+	LPNG 6043
+	TIP 33250
+	INLINE
+	FCAT  "Planes"
+	FNAME "Plane From solid face"
+END_FUNCTION
+
+FUNCTION CPP "OnPlanesDynamic"
+	SPNG 6040
+	LPNG 6041
+	TIP 33433
+	INLINE
+	FCAT  "Planes"
+	FNAME "Dynamic plane"
+END_FUNCTION
+
+FUNCTION CPP "OnPlanesNormal"
+	SPNG 6048
+	LPNG 6049
+	TIP 33256
+	INLINE
+	FCAT  "Planes"
+	FNAME "Plane From line normal"
+END_FUNCTION
+
+FUNCTION CPP "OnPlanesEqualsGView"
+	SPNG 6050
+	LPNG 6051
+	TIP 33252
+	INLINE
+	FCAT  "Planes"
+	FNAME "Plane from gview"
+END_FUNCTION
+
+FUNCTION CPP "OnPlanesLathe_XP_ZP"
+	SPNG 6054
+	LPNG 6055
+	TIP 33264
+	INLINE
+	FCAT  "Planes"
+	FNAME "+X+Z"
+END_FUNCTION
+
+FUNCTION CPP "OnPlanesLathe_XM_ZP"
+	SPNG 6056
+	LPNG 6057
+	TIP 33265
+	INLINE
+	FCAT  "Planes"
+	FNAME "-X+Z"
+END_FUNCTION
+
+FUNCTION CPP "OnPlanesLathe_XP_ZM"
+	SPNG 6058
+	LPNG 6059
+	TIP 33266
+	INLINE
+	FCAT  "Planes"
+	FNAME "+X-Z"
+END_FUNCTION
+
+FUNCTION CPP "OnPlanesLathe_XM_ZM"
+	SPNG 6060
+	LPNG 6061
+	TIP 33267
+	INLINE
+	FCAT  "Planes"
+	FNAME "-X-Z"
+END_FUNCTION
+
+FUNCTION CPP "OnPlanesLathe_DP_ZP"
+	SPNG 6062
+	LPNG 6063
+	TIP 33268
+	INLINE
+	FCAT  "Planes"
+	FNAME "+D+Z"
+END_FUNCTION
+
+FUNCTION CPP "OnPlanesLathe_DM_ZP"
+	SPNG 6064
+	LPNG 6065
+	TIP 33269
+	INLINE
+	FCAT  "Planes"
+	FNAME "-D+Z"
+END_FUNCTION
+
+FUNCTION CPP "OnPlanesLathe_DP_ZM"
+	SPNG 6066
+	LPNG 6067
+	TIP 33270
+	INLINE
+	FCAT  "Planes"
+	FNAME "+D-Z"
+END_FUNCTION
+
+FUNCTION CPP "OnPlanesLathe_DM_ZM"
+	SPNG 6068
+	LPNG 6069
+	TIP 33271
+	INLINE
+	FCAT  "Planes"
+	FNAME "-D-Z"
+END_FUNCTION
+
+FUNCTION CPP "OnPlanesFindBack"
+	SPNG 6648
+	LPNG 6649
+	TIP 6665
+	FCAT "Planes"
+	FNAME "Find back (WCS)"
+END_FUNCTION
+
+FUNCTION CPP "OnPlanesFindBottom"
+	SPNG 6650
+	LPNG 6651
+	TIP 6666
+	FCAT "Planes"
+	FNAME "Find bottom (WCS)"
+END_FUNCTION
+
+FUNCTION CPP "OnPlanesFindFront"
+	SPNG 6652
+	LPNG 6653
+	TIP 6667
+	FCAT "Planes"
+	FNAME "Find front (WCS)"
+END_FUNCTION
+
+FUNCTION CPP "OnPlanesFindGeom"
+	SPNG 6654
+	LPNG 6655
+	TIP 6668
+	FCAT "Planes"
+	FNAME "Find from geometry"
+END_FUNCTION
+
+FUNCTION CPP "OnPlanesFindLeft"
+	SPNG 6656
+	LPNG 6657
+	TIP 6669
+	FCAT "Planes"
+	FNAME "Find left (WCS)"
+END_FUNCTION
+
+FUNCTION CPP "OnPlanesFindAll"
+	SPNG 6658
+	LPNG 6659
+	TIP 6670
+	FCAT "Planes"
+	FNAME "Select plane from all planes"
+END_FUNCTION
+
+FUNCTION CPP "OnPlanesFindSelected"
+	SPNG 6658
+	LPNG 6659
+	TIP 6646
+	FCAT "Planes"
+	FNAME "Select plane from selected planes"
+END_FUNCTION
+
+FUNCTION CPP "OnPlanesFindDisplayed"
+	SPNG 6658
+	LPNG 6659
+	TIP 6647
+	FCAT "Planes"
+	FNAME "Select plane from displayed planes"
+END_FUNCTION
+
+FUNCTION CPP "OnPlanesFindRight"
+	SPNG 6660
+	LPNG 6661
+	TIP 6671
+	FCAT "Planes"
+	FNAME "Find right (WCS)"
+END_FUNCTION
+
+FUNCTION CPP "OnPlanesFindTop"
+	SPNG 6662
+	LPNG 6663
+	TIP 6672
+	FCAT "Planes"
+	FNAME "Find top (WCS)"
+END_FUNCTION
+
+FUNCTION CPP "OnPlanesQuickCplane"
+	SPNG 6711
+	LPNG 6712
+	TIP 6626
+	INLINE
+	FCAT "Planes"
+	FNAME "Quick Cplane"
+END_FUNCTION
+
+# ROUTER CREATE ///////////////////////////////////////////////////////////
+
+FUNC_DLL "MCCAD.DLL"
+RES_DLL  "MCCADRES.DLL"
+CATEGORY 267
+
+FUNCTION CPP "DoStairDlg"
+	SPNG 329
+	LPNG 330
+	TIP 32779
+	INTERRUPT_INLINE
+	FCAT  "Router Creation Utilities"
+	FNAME "Stair Geometry"
+END_FUNCTION
+
+FUNCTION CPP "DoDoorDlg"
+	SPNG 327
+	LPNG 328
+	TIP 32780
+	INTERRUPT_INLINE
+	FCAT  "Router Creation Utilities"
+	FNAME "Door Geometry"
+END_FUNCTION
+
+FUNC_DLL "MCCADUTIL.DLL"
+RES_DLL  "OPMANRES.DLL"
+
+CATEGORY 3347
+FUNCTION CPP "DoAutoSync"
+	SPNG 6076
+	LPNG 6077
+	TIP 33108
+	INTERRUPT_INLINE
+	FCAT  "Geometry"
+	FNAME "Autosync Rails"
+END_FUNCTION
+
+# SCREEN //////////////////////////////////////////////////////////////////
+
+FUNC_DLL "EXE"
+RES_DLL  "OPMANRES.DLL"
+CATEGORY 3354
+
+FUNCTION CPP "ShowAxesIbeam"
+	CALL_FUNC "ShowHideAxesIbeam"
+	PARAM 1
+	INLINE
+	HIDDEN
+	FCAT  "Hidden"
+	FNAME "Show Axes & Ibeam"
+END_FUNCTION
+
+FUNCTION CPP "HideAxesIbeam"
+	CALL_FUNC "ShowHideAxesIbeam"
+	PARAM 0
+	INLINE
+	HIDDEN
+	FCAT  "Hidden"
+	FNAME "Hide Axes & Ibeam"
+END_FUNCTION
+
+FUNCTION CPP "CaptureScreen"
+	CALL_FUNC "CaptureScreen"
+	PARAM 0
+	INLINE
+	HIDDEN
+	FCAT  "Hidden"
+	FNAME "Capture Screen"
+END_FUNCTION
+
+FUNCTION CPP "RecalcLayout"
+	CALL_FUNC "RecalcLayout"
+	PARAM 0
+	INLINE
+	HIDDEN
+	FCAT  "Hidden"
+	FNAME "Recalculate Layout"
+END_FUNCTION
+
+FUNCTION CPP "OnHideToolpath"
+	HIDDEN
+	SPNG 6078
+	LPNG 6079
+	TIP 33342
+	INLINE
+	FCAT  "Screen"
+	FNAME "Toggle Display of Selected Operations"
+END_FUNCTION
+
+FUNCTION CPP "OnHide"
+	SPNG 6080
+	LPNG 6081
+	TIP 33118
+	INLINE
+	FCAT  "Screen"
+	FNAME "Hide Entity"
+END_FUNCTION
+
+FUNCTION CPP "OnHideMore"
+	SPNG 6082
+	LPNG 6083
+	TIP 33119
+	UICALLBACK "OnUpdateHideMore"
+	INLINE
+	FCAT  "Screen"
+	FNAME "Hide More Entities"
+END_FUNCTION
+
+FUNCTION CPP "OnUnhideSome"
+	SPNG 6084
+	LPNG 6085
+	TIP 33120
+	UICALLBACK "OnUpdateUnhideSome"
+	INLINE
+	FCAT  "Screen"
+	FNAME "Unhide Some"
+END_FUNCTION
+
+FUNCTION CPP "OnScreenGrid"
+	SPNG 6086
+	LPNG 6087
+	TIP 32860
+	INLINE
+	FCAT  "Screen"
+	FNAME "Grid Settings"
+END_FUNCTION
+
+FUNCTION CPP "OnScreenRegenerate"
+	SPNG 6088
+	LPNG 6089
+	TIP 33117
+	INLINE
+	FCAT  "Screen"
+	FNAME "Regenerate Display List"
+END_FUNCTION
+
+FUNCTION CPP "screen_statistics"
+	FUNC_DLL "MCCORE.DLL"
+	RES_DLL  "MCCORERES.DLL"
+	SPNG 5672
+	LPNG 10461
+	TIP 33007
+	INLINE
+	FCAT  "Screen"
+	FNAME "Statistics"
+END_FUNCTION
+
+FUNCTION CPP "ClearColors"
+	TIP 33019
+	SPNG 6090
+	LPNG 6091
+	INTERRUPT_INLINE
+	FCAT  "Screen"
+	FNAME "Clear Colors"
+END_FUNCTION
+
+FUNCTION CPP "ToClipboard"
+	TIP 33091
+	SPNG 6092
+	LPNG 6093
+	INLINE
+	FCAT  "Screen"
+	FNAME "Copy Image to Clipboard"
+END_FUNCTION
+
+FUNCTION CPP "OnDisplayInfo"
+	SPNG 6497
+	LPNG 6498
+	UICALLBACK "OnUpdateDisplayInfo"
+	TIP 32840
+	INLINE
+	FCAT  "Screen"
+	FNAME "Show Axes"
+END_FUNCTION
+
+FUNCTION CPP "OnToggleShowGrid"
+	SPNG 6493
+	LPNG 6494
+	TIP 349
+	UICALLBACK "OnToggleShowGridCallback"
+	INLINE
+	FCAT  "Screen"
+	FNAME "Show Grid"
+END_FUNCTION
+
+FUNCTION CPP "OnToggleSnapToGrid"
+	SPNG 6495
+	LPNG 6496
+	TIP 346
+	UICALLBACK "OnToggleSnapToGridCallback"
+	INLINE
+	FCAT  "Screen"
+	FNAME "Snap to Grid"
+END_FUNCTION
+
+FUNCTION CPP "OnDrawWorldAxesLinesToggle"
+	HIDDEN
+	SPNG 6497
+	LPNG 6498
+	TIP 350
+	UICALLBACK "OnDrawWorldAxesLinesToggleCallback"
+	INLINE
+	FCAT  "Screen"
+	FNAME "World Axes Toggle"
+END_FUNCTION
+
+FUNCTION CPP "OnDrawTPlaneAxesLinesToggle"
+	HIDDEN
+	SPNG 6497
+	LPNG 6498
+	TIP 3059
+	UICALLBACK "OnDrawTPlaneAxesLinesToggleCallback"
+	INLINE
+	FCAT  "Screen"
+	FNAME "TPlane Axes Toggle"
+END_FUNCTION
+
+FUNCTION CPP "OnDrawCPlaneAxesLinesToggle"
+	HIDDEN
+	SPNG 6497
+	LPNG 6498
+	TIP 3280
+	UICALLBACK "OnDrawCPlaneAxesLinesToggleCallback"
+	INLINE
+	FCAT  "Screen"
+	FNAME "CPlane Axes Toggle"
+END_FUNCTION
+
+FUNCTION CPP "OnDrawWCSPlaneAxesLinesToggle"
+	HIDDEN
+	SPNG 6497
+	LPNG 6498
+	TIP 3058
+	UICALLBACK "OnDrawWCSPlaneAxesLinesToggleCallback"
+	INLINE
+	FCAT  "Screen"
+	FNAME "WCS Axes Toggle"
+END_FUNCTION
+
+FUNCTION CPP "OnDrawTPlaneAxesGnomonToggle"
+	HIDDEN
+	SPNG 6499
+	LPNG 6500
+	TIP 3059
+	UICALLBACK "OnDrawTPlaneAxesGnomonToggleCallback"
+	INLINE
+	FCAT  "Screen"
+	FNAME "TPlane Gnomon Toggle"
+END_FUNCTION
+
+FUNCTION CPP "OnDrawCPlaneAxesGnomonToggle"
+	HIDDEN
+	SPNG 6499
+	LPNG 6500
+	TIP 3280
+	UICALLBACK "OnDrawCPlaneAxesGnomonToggleCallback"
+	INLINE
+	FCAT  "Screen"
+	FNAME "CPlane Gnomon Toggle"
+END_FUNCTION
+
+FUNCTION CPP "OnDrawWCSPlaneAxesGnomonToggle"
+	HIDDEN
+	SPNG 6499
+	LPNG 6500
+	TIP 3058
+	UICALLBACK "OnDrawWCSPlaneAxesGnomonToggleCallback"
+	INLINE
+	FCAT  "Screen"
+	FNAME "WCS Gnomon Toggle"
+END_FUNCTION
+
+FUNCTION CPP "OnDrawCTPlaneAxesCornersToggle"
+	HIDDEN
+	SPNG 6499
+	LPNG 6500
+	TIP 1643
+	UICALLBACK "OnDrawCTPlaneAxesCornersUpdate"
+	INLINE
+	FCAT  "Screen"
+	FNAME "C/T Corners Toggle"
+END_FUNCTION
+
+FUNCTION CPP "OnShowPlaneNamesToggle"
+	HIDDEN
+	SPNG 6499
+	LPNG 6500
+	TIP 1644
+	UICALLBACK "OnShowPlaneNamesUpdate"
+	INLINE
+	FCAT  "Screen"
+	FNAME "Show Plane Names"
+END_FUNCTION
+
+FUNCTION CPP "OnUseOriginColorsToggle"
+	HIDDEN
+	SPNG 6499
+	LPNG 6500
+	TIP 1644
+	UICALLBACK "OnUseOriginColorsUpdate"
+	INLINE
+	FCAT  "Screen"
+	FNAME "Use Origin Colors"
+END_FUNCTION
+
+FUNCTION CPP "OnWCSAxesToggle"
+	SPNG 6499
+	LPNG 6500
+	UICALLBACK "OnUpdateWCSAxesToggle"
+	TIP 32843
+	INLINE
+	FCAT  "Screen"
+	FNAME "Show Gnomons"
+END_FUNCTION
+
+FUNCTION CPP "OnGnomonAlwaysToggle"
+	HIDDEN
+	SPNG 6499
+	LPNG 6500
+	TIP 1644
+	UICALLBACK "OnGnomonAlwaysUpdate"
+	INLINE
+	FCAT  "Screen"
+	FNAME "Selected Planes"
+END_FUNCTION
+
+FUNCTION CPP "OnDisplayArcCenterPts"
+	SPNG 6104
+	LPNG 6105
+	TIP 32849
+	UICALLBACK "OnUpdateDisplayArcCenterPts"
+	INLINE
+	NOTASK
+	FCAT  "Screen"
+	FNAME "Toggle Arc Center Point Display"
+END_FUNCTION
+
+FUNCTION CPP "OnDisplayEndpoints"
+	SPNG 33668
+	LPNG 33669
+	TIP 32872
+	UICALLBACK "OnUpdateDisplayEndpoints"
+	INLINE
+	NOTASK
+	FCAT  "Screen"
+	FNAME "Toggle Endpoints Display"
+END_FUNCTION
+
+FUNCTION CPP "OnGeometryDisplayConfiguration"
+	SPNG 60243
+	LPNG 60244
+	TIP 197
+	INLINE
+	FCAT  "Screen"
+	FNAME "Geometry Display Settings"
+END_FUNCTION
+
+FUNCTION CPP "ViewOpManager"
+	SPNG 6106
+	LPNG 6107
+	TIP 32867
+	UICALLBACK "UpdateViewOpManager"
+	INLINE
+	FCAT  "Screen"
+	FNAME "Toggle Toolpaths Manager"
+END_FUNCTION
+
+FUNCTION CPP "ViewSolidsManager"
+	SPNG 6106
+	LPNG 6107
+	TIP 33548
+	UICALLBACK "UpdateViewSolidsManager"
+	INLINE
+	FCAT  "Screen"
+	FNAME "Toggle Solids Manager"
+END_FUNCTION
+
+FUNCTION CPP "ViewPlanesManager"
+	SPNG 6106
+	LPNG 6107
+	TIP 33551
+	UICALLBACK "UpdateViewPlanesManager"
+	INLINE
+	FCAT  "Screen"
+	FNAME "Toggle Planes Manager"
+END_FUNCTION
+
+FUNCTION CPP "OnScreenLevels"
+	SPNG 6106
+	LPNG 6107
+	UICALLBACK "OnUpdateScreenLevels"
+	INLINE
+	TIP 33085
+	FCAT  "Screen"
+	FNAME "Toggle Levels Manager"
+END_FUNCTION
+
+FUNCTION CPP "ViewArtManager"
+	SPNG 6106
+	LPNG 6107
+	TIP 33552
+	UICALLBACK "UpdateViewArtManager"
+	INLINE
+	FCAT  "Screen"
+	FNAME "Toggle Art Manager"
+END_FUNCTION
+
+FUNCTION CPP "run_group_dialog"
+	SPNG 6106
+	LPNG 6107
+	INLINE
+	TIP 33082
+	FCAT  "Screen"
+	FNAME "Toggle Groups Manager"
+END_FUNCTION
+
+FUNCTION CPP "ViewRecentFunctionsManager"
+	SPNG 6106
+	LPNG 6107
+	TIP 33553
+	UICALLBACK "UpdateViewRecentFunctionsManager"
+	INLINE
+	FCAT  "Screen"
+	FNAME "Toggle Recently Used Functions Manager"
+END_FUNCTION
+
+FUNCTION CPP "ChangeWireframeColor"
+	CALL_FUNC "ChangeEntityColor"
+	PARAM 0
+	SPNG 6108
+	LPNG 6109
+	INLINE
+	TIP 3909
+	FCAT  "Screen"
+	FNAME "Change Wireframe Color"
+END_FUNCTION
+
+FUNCTION CPP "ChangeSolidsColor"
+	CALL_FUNC "ChangeEntityColor"
+	PARAM 1
+	SPNG 6108
+	LPNG 6109
+	INLINE
+	TIP 33597
+	FCAT  "Screen"
+	FNAME "Change Solid Color"
+END_FUNCTION
+
+FUNCTION CPP "ChangeSurfacesColor"
+	CALL_FUNC "ChangeEntityColor"
+	PARAM 2
+	SPNG 6108
+	LPNG 6109
+	INLINE
+	TIP 33598
+	FCAT  "Screen"
+	FNAME "Change Surface Color"
+END_FUNCTION
+
+FUNCTION CPP "ChangeSelectedWireframeColor"
+	PARAM -1
+	SPNG 6639
+	LPNG 6640
+	INLINE
+	TIP 352
+	FCAT  "Screen"
+	FNAME "Change Selected Wireframe Entity Color"
+END_FUNCTION
+
+FUNCTION CPP "ChangeSelectedWireframeColorWithPicker"
+	SPNG 6639
+	LPNG 6640
+	INLINE
+	TIP 355
+	FCAT  "Screen"
+	FNAME "Change Selected Wireframe Entity Color with Color Picker"
+END_FUNCTION
+
+FUNCTION CPP "ChangeSelectedSolidsColor"
+	PARAM -1
+	SPNG 6641
+	LPNG 6642
+	INLINE
+	TIP 354
+	FCAT  "Screen"
+	FNAME "Change Selected Solid Entity Color"
+END_FUNCTION
+
+FUNCTION CPP "ChangeSelectedSolidsColorWithPicker"
+	SPNG 6641
+	LPNG 6642
+	INLINE
+	TIP 356
+	FCAT  "Screen"
+	FNAME "Change Selected Solid Entity Color with Color Picker"
+END_FUNCTION
+
+FUNCTION CPP "ChangeSelectedSurfacesColor"
+	PARAM -1
+	SPNG 6643
+	LPNG 6644
+	INLINE
+	TIP 353
+	FCAT  "Screen"
+	FNAME "Change Selected Surface Entity Color"
+END_FUNCTION
+
+FUNCTION CPP "ChangeSelectedSurfacesColorWithPicker"
+	SPNG 6643
+	LPNG 6644
+	INLINE
+	TIP 357
+	FCAT  "Screen"
+	FNAME "Change Selected Surface Entity Color with Color Picker"
+END_FUNCTION
+
+FUNCTION CPP "ChangeSelectedMeshColor"
+	PARAM -1
+	SPNG 6503
+	LPNG 6506
+	INLINE
+	TIP 544
+	FCAT  "Screen"
+	FNAME "Change Selected Mesh Entity Color"
+END_FUNCTION
+
+FUNCTION CPP "ChangeSelectedMeshColorWithPicker"
+	SPNG 6503
+	LPNG 6506
+	INLINE
+	TIP 549
+	FCAT  "Screen"
+	FNAME "Change Selected Mesh Entity Color with Color Picker"
+END_FUNCTION
+
+FUNCTION CPP "ChangeEntityLevel"
+	SPNG 6110
+	LPNG 6111
+	TIP 3925
+	INLINE
+	FCAT  "Screen"
+	FNAME "Change Entity Level"
+END_FUNCTION
+
+FUNCTION CPP "ChangeEntityAttribs"
+	SPNG 6112
+	LPNG 6113
+	TIP 3926
+	INLINE
+	FCAT  "Screen"
+	FNAME "Change Entity Attributes"
+END_FUNCTION
+
+FUNCTION CPP "ChangeEntityPointStyle"
+	SPNG 6114
+	LPNG 6115
+	TIP 3908
+	INLINE
+	FCAT  "Screen"
+	FNAME "Change Point Style"
+END_FUNCTION
+
+FUNCTION CPP "ChangeEntityLineStyle"
+	SPNG 6116
+	LPNG 6117
+	TIP 3907
+	INLINE
+	FCAT  "Screen"
+	FNAME "Change Line Style"
+END_FUNCTION
+
+FUNCTION CPP "ChangeEntityLineWidth"
+	SPNG 6118
+	LPNG 6119
+	TIP 3906
+	INLINE
+	FCAT  "Screen"
+	FNAME "Change Line Width"
+END_FUNCTION
+
+FUNCTION CPP "ChangeSelectedEntityPointStyle"
+	PARAM -1
+	SPNG 6114
+	LPNG 6115
+	TIP 358
+	INLINE
+	FCAT  "Screen"
+	FNAME "Change Selected Entity Point Style"
+END_FUNCTION
+
+FUNCTION CPP "ChangeSelectedEntityLineStyle"
+	PARAM -1
+	SPNG 6116
+	LPNG 6117
+	TIP 359
+	INLINE
+	FCAT  "Screen"
+	FNAME "Change Selected Entity Line Style"
+END_FUNCTION
+
+FUNCTION CPP "ChangeSelectedEntityLineWidth"
+	PARAM -1
+	SPNG 6118
+	LPNG 6119
+	TIP 365
+	INLINE
+	FCAT  "Screen"
+	FNAME "Change Selected Entity Line Width"
+END_FUNCTION
+
+FUNCTION CPP "OnShowToolToggle"
+	SPNG 8729
+	LPNG 8730
+	TIP 8735
+	UICALLBACK "OnShowToolToggleCallback"
+	INLINE
+	FCAT  "Screen"
+	FNAME "Show Tool"
+END_FUNCTION
+
+FUNCTION CPP "OnShowToolDrawToolToggle"
+	HIDDEN
+	SPNG 8731
+	LPNG 8732
+	TIP 8736
+	UICALLBACK "OnShowToolDrawToolToggleCallback"
+	INLINE
+	FCAT  "Screen"
+	FNAME "Tool Display Toggle"
+END_FUNCTION
+
+FUNCTION CPP "OnShowToolDrawHolderToggle"
+	HIDDEN
+	SPNG 8733
+	LPNG 8734
+	TIP 8737
+	UICALLBACK "OnShowToolDrawHolderToggleCallback"
+	INLINE
+	FCAT  "Screen"
+	FNAME "Holder Display Toggle"
+END_FUNCTION
+
+FUNCTION CPP "OnShowToolDisplayInFrontToggle"
+	HIDDEN
+	TIP 8740
+	UICALLBACK "OnShowToolDisplayInFrontToggleCallback"
+	INLINE
+	FCAT  "Screen"
+	FNAME "Tool Display in Front Toggle"
+END_FUNCTION
+
+FUNCTION CPP "OnShowToolSnapToAutoCursorToggle"
+	HIDDEN
+	TIP 8741
+	UICALLBACK "OnShowToolSnapToAutoCursorToggleCallback"
+	INLINE
+	FCAT  "Screen"
+	FNAME "Snap Tool to AutoCursor Positions Toggle"
+END_FUNCTION
+
+FUNCTION CPP "OnShowToolDisplayFromSelectedOperationToggle"
+	HIDDEN
+	TIP 8742
+	UICALLBACK "OnShowToolDisplayFromSelectedOperationToggleCallback"
+	INLINE
+	FCAT  "Screen"
+	FNAME "Tool From Selected Operation Toggle"
+END_FUNCTION
+
+FUNC_DLL "MCCADUTIL.DLL"
+RES_DLL  "MCCADUtilRes.DLL"
+
+FUNCTION CPP "blank_entities"
+	SPNG 6120
+	LPNG 6121
+	TIP 33029
+	INTERRUPT_INLINE
+	FCAT  "Screen"
+	FNAME "Blank Entity"
+END_FUNCTION
+
+FUNCTION CPP "unblank_entities"
+	SPNG 6122
+	LPNG 6123
+	TIP 33030
+	INTERRUPT_INLINE
+	FCAT  "Screen"
+	FNAME "Un-Blank Entity"
+END_FUNCTION
+
+FUNC_DLL "MCCAD.DLL"
+RES_DLL  "MCCADRES.DLL"
+
+FUNC_DLL "EXE"
+RES_DLL  "OPMANRES.DLL"
+
+
+# TOOLS ///////////////////////////////////////////////////////////////////
+
+FUNC_DLL "EXE"
+RES_DLL  "OPMANRES.DLL"
+CATEGORY 3355
+
+FUNCTION CPP "ConfigureX"
+	TIP 32890
+	SPNG 6128
+	LPNG 6129
+	FCAT  "Settings"
+	FNAME "Configuration"
+END_FUNCTION
+
+FUNCTION CPP "Customize"
+	TIP 33087
+	SPNG 6130
+	LPNG 6131
+	FCAT  "Settings"
+	FNAME "Customize"
+END_FUNCTION
+
+FUNCTION CPP "CompactAndRepairFile"
+	TIP 3869
+	SPNG 6132
+	LPNG 6133
+	FCAT  "Settings"
+	FNAME "Compact and Repair File"
+END_FUNCTION
+
+FUNCTION CPP "OnNetHASPLicensing"
+	TIP 3870
+	SPNG 6134
+	LPNG 6135
+	FCAT  "Settings"
+	FNAME "Network Licensing"
+END_FUNCTION
+
+FUNCTION CPP "OnLicenseInfo"
+	HIDDEN
+	TIP 3870
+	FCAT "Settings"
+	FNAME "License Information"
+END_FUNCTION
+
+FUNC_DLL "MCCORE.DLL"
+FUNCTION CPP "ToggleVerifySelect"
+	SPNG 6136
+	LPNG 6137
+	UICALLBACK "OnUpdateToggleVerifySelect"
+	TIP 32994
+	INLINE
+	FCAT  "Settings"
+	FNAME "Verify Selection"
+END_FUNCTION
+
+FUNC_DLL "EXE"
+FUNCTION CPP "vbscript_run"
+	TIP 33196
+	SPNG 6138
+	LPNG 6139
+	FCAT  "Settings"
+	FNAME "Run VBScript"
+END_FUNCTION
+
+FUNCTION CPP "ReloadCurrentWorkspace"
+	HIDDEN
+	FCAT  "Hidden"
+	FNAME ""
+END_FUNCTION
+
+# VIEWSHEETS /////////////////////////////////////////////////////////////////
+
+FUNC_DLL "EXE"
+RES_DLL  "OPMANRES.DLL"
+CATEGORY 3500
+
+FUNCTION CPP "ToggleWorksheetsEnabled"
+	ENABLED F
+	UICALLBACK "WorksheetOnOffStatusCheck"
+	SPNG 6142
+	LPNG 6143
+	TIP 4051
+	FCAT  "Viewsheets"
+	FNAME "Viewsheets Enabled"
+END_FUNCTION
+
+FUNCTION CPP "NewWorksheet"
+	ENABLED F
+	UICALLBACK "AllWorksheetEnabled"
+	SPNG 6144
+	LPNG 6145
+	TIP 4044
+	FCAT  "Viewsheets"
+	FNAME "Create New Viewsheet"
+END_FUNCTION
+
+FUNCTION CPP "CopyCurrentWorksheet"
+	ENABLED F
+	UICALLBACK "AllWorksheetEnabled"
+	SPNG 6146
+	LPNG 6147
+	TIP 4045
+	FCAT  "Viewsheets"
+	FNAME "Copy Current Viewsheet"
+END_FUNCTION
+
+FUNCTION CPP "RenameCurrentWorksheet"
+	ENABLED F
+	UICALLBACK "MainWorksheetEnabled"
+	SPNG 6148
+	LPNG 6149
+	TIP 4047
+	FCAT  "Viewsheets"
+	FNAME "Rename Current Viewsheet"
+END_FUNCTION
+
+FUNCTION CPP "DeleteCurrentWorksheet"
+	ENABLED F
+	UICALLBACK "CanDeleteCurrentViewsheet"
+	SPNG 6150
+	LPNG 6151
+	TIP 4046
+	FCAT  "Viewsheets"
+	FNAME "Delete Current Viewsheet"
+END_FUNCTION
+
+FUNCTION CPP "RestoreCurrentWorksheetBookmark"
+	ENABLED F
+	UICALLBACK "DoesCurrentWorksheetHaveBookmark"
+	SPNG 6152
+	LPNG 6153
+	TIP 4057
+	FCAT  "Viewsheets"
+	FNAME "Restore Bookmark"
+END_FUNCTION
+
+FUNCTION CPP "SaveCurrentWorksheetBookmark"
+	ENABLED F
+	UICALLBACK "AllWorksheetEnabled"
+	SPNG 6154
+	LPNG 6155
+	TIP 4055
+	FCAT  "Viewsheets"
+	FNAME "Save Bookmark"
+END_FUNCTION
+
+FUNCTION CPP "ViewsheetGroupOpen"
+	HIDDEN
+	INLINE
+	SPNG 5615
+	LPNG 5616
+	FCAT  "Viewsheets"
+	FNAME "ViewsheetGroupOpen"
+END_FUNCTION
+
+FUNCTION CPP "ViewsheetGroupClosed"
+	HIDDEN
+	INLINE
+	SPNG 5613
+	LPNG 5614
+	FCAT  "Viewsheets"
+	FNAME "ViewsheetGroupClosed"
+END_FUNCTION
+
+FUNCTION CPP "ConfigureViewsheets"
+	HIDDEN
+	INLINE
+	FCAT  "View"
+	FNAME ""
+END_FUNCTION
+
+# SHADING /////////////////////////////////////////////////////////////////
+
+FUNC_DLL "EXE"
+RES_DLL  "OPMANRES.DLL"
+CATEGORY 3356
+
+FUNCTION CPP "OnMeshShowTriangleEdges"
+	SPNG 8744
+	LPNG 8745
+	UICALLBACK "OnUpdateMeshShowTriangleEdges"
+	TIP 259
+	INLINE
+	FCAT  "View"
+	FNAME "Mesh Facet Edges"
+END_FUNCTION
+
+FUNCTION CPP "onToggleSurfaceBacksideShading"
+	TIP 59394
+	SPNG 6293
+	LPNG 6294
+	UICALLBACK "OnUpdateSurfaceBacksideShading"
+	INLINE
+	FCAT  "View"
+	FNAME "Toggle Surface Backside Shading"
+END_FUNCTION
+
+FUNCTION CPP "OnStatusDisplayWireAll"
+	HIDDEN
+	SPNG 6158
+	LPNG 6159
+	TIP 33126
+	UICALLBACK "OnUpdateDisplayWireAll"
+	INLINE
+	FCAT  "View"
+	FNAME "Wireframe"
+END_FUNCTION
+
+FUNCTION CPP "OnShadeWire"
+	SPNG 6158
+	LPNG 6159
+	TIP 33126
+	INLINE
+	FCAT  "View"
+	FNAME "Wireframe"
+END_FUNCTION
+
+FUNCTION CPP "OnStatusDisplayWireDimmed"
+	HIDDEN
+	SPNG 6160
+	LPNG 6161
+	TIP 33127
+	UICALLBACK "OnUpdateDisplayWireDimmed"
+	INLINE
+	FCAT  "View"
+	FNAME "Dimmed Wireframe"
+END_FUNCTION
+
+FUNCTION CPP "OnShadeWireDimmed"
+	SPNG 6160
+	LPNG 6161
+	TIP 33127
+	INLINE
+	FCAT  "View"
+	FNAME "Dimmed Wireframe"
+END_FUNCTION
+
+FUNCTION CPP "OnStatusDisplayWireHidden"
+	HIDDEN
+	SPNG 6162
+	LPNG 6163
+	TIP 33128
+	UICALLBACK "OnUpdateDisplayWireHidden"
+	INLINE
+	FCAT  "View"
+	FNAME "No Hidden Wireframe"
+END_FUNCTION
+
+FUNCTION CPP "OnShadeWireHidden"
+	SPNG 6162
+	LPNG 6163
+	TIP 33128
+	INLINE
+	FCAT  "View"
+	FNAME "No Hidden Wireframe"
+END_FUNCTION
+
+FUNCTION CPP "OnStatusDisplayShadedOutlined"
+	HIDDEN
+	SPNG 6164
+	LPNG 6165
+	TIP 33129
+	UICALLBACK "OnUpdateDisplayShadedOutlined"
+	INLINE
+	FCAT  "View"
+	FNAME "Outline Shaded"
+END_FUNCTION
+
+FUNCTION CPP "OnShadeShadedOutline"
+	SPNG 6164
+	LPNG 6165
+	TIP 33129
+	INLINE
+	FCAT  "View"
+	FNAME "Outline Shaded"
+END_FUNCTION
+
+FUNCTION CPP "OnStatusDisplayShadedAll"
+	HIDDEN
+	SPNG 6166
+	LPNG 6167
+	TIP 33130
+	UICALLBACK "OnUpdateDisplayShadedAll"
+	INLINE
+	FCAT  "View"
+	FNAME "Shaded"
+END_FUNCTION
+
+FUNCTION CPP "OnShadeShaded"
+	SPNG 6166
+	LPNG 6167
+	TIP 33130
+	INLINE
+	FCAT  "View"
+	FNAME "Shaded"
+END_FUNCTION
+
+FUNCTION CPP "ConfigureShading"
+	SPNG 7206
+	LPNG 7207
+	TIP 33131
+	INLINE
+	FCAT  "View"
+	FNAME "Shading Settings"
+END_FUNCTION
+
+FUNCTION CPP "OnShadeToggle"
+	SPNG 6168
+	LPNG 6169
+	TIP 33124
+	INLINE
+	FCAT  "View"
+	FNAME "Shading Toggle"
+END_FUNCTION
+
+FUNCTION CPP "OnShadeTranslucentToggle"
+	SPNG 6170
+	LPNG 6171
+	UICALLBACK "OnUpdateShadeTranslucentToggle"
+	TIP 33133
+	INLINE
+	FCAT  "View"
+	FNAME "Shading Translucency Toggle"
+END_FUNCTION
+
+FUNCTION CPP "OnToggleRenderMaterial"
+	SPNG 6545
+	LPNG 6546
+	UICALLBACK "OnUpdateRenderMaterial"
+	TIP 423
+	INLINE
+	FCAT  "View"
+	FNAME "Material Rendering Toggle"
+END_FUNCTION
+
+
+FUNCTION CPP "ApplyCurrentMaterialAppearance"
+	INLINE
+	HIDDEN
+	FCAT  "View"
+	FNAME "Apply Current Material Appearance"
+END_FUNCTION
+
+
+FUNCTION CPP "ApplyMaterialAppearance"
+	INLINE
+	HIDDEN
+	FCAT  "View"
+	FNAME "Apply Material Appearance"
+END_FUNCTION
+
+
+FUNC_DLL "MCLATHE.DLL"
+RES_DLL  "MCLATHERES.DLL"
+
+CATEGORY 155
+
+FUNCTION CPP "StockShow"
+	SPNG 5461
+	LPNG 5462
+	UICALLBACK "OnUpdateStockShow"
+	TIP 32885
+	FCAT  "Stock Model"
+	FNAME "Stock Display Toggle"
+END_FUNCTION
+
+FUNCTION CPP "StockShade"
+	SPNG 5459
+	LPNG 5460
+	UICALLBACK "OnUpdateStockShade"
+	TIP 32884
+	FCAT  "Stock Model"
+	FNAME "Lathe Stock Shading Toggle"
+END_FUNCTION
+
+FUNCTION CPP "ToggleFitStock"
+	SPNG 5461
+	LPNG 5462
+	UICALLBACK "OnUpdateToggleFitStock"
+	TIP 145
+	FCAT  "Stock Model"
+	FNAME "Stock Fit"
+END_FUNCTION
+
+FUNCTION CPP "ToggleLatheLeftStockDisplay"
+	SPNG 5461
+	LPNG 5462
+	UICALLBACK "OnUpdateToggleLatheLeftStockDisplay"
+	TIP 147
+	FCAT  "Stock Model"
+	FNAME "Stock Display Toggle Left Stock"
+END_FUNCTION
+
+FUNCTION CPP "ToggleLatheLeftChuckDisplay"
+	SPNG 5461
+	LPNG 5462
+	UICALLBACK "OnUpdateToggleLatheLeftChuckDisplay"
+	TIP 149
+	FCAT  "Stock Model"
+	FNAME "Stock Display Toggle Left Chuck"
+END_FUNCTION
+
+FUNCTION CPP "ToggleLatheRightStockDisplay"
+	SPNG 5461
+	LPNG 5462
+	UICALLBACK "OnUpdateToggleLatheRightStockDisplay"
+	TIP 148
+	FCAT  "Stock Model"
+	FNAME "Stock Display Toggle Right Stock"
+END_FUNCTION
+
+FUNCTION CPP "ToggleLatheRightChuckDisplay"
+	SPNG 5461
+	LPNG 5462
+	UICALLBACK "OnUpdateToggleLatheRightChuckDisplay"
+	TIP 150
+	FCAT  "Stock Model"
+	FNAME "Stock Display Toggle Right Chuck"
+END_FUNCTION
+
+FUNCTION CPP "ToggleLatheTailstockDisplay"
+	SPNG 5461
+	LPNG 5462
+	UICALLBACK "OnUpdateToggleLatheTailstockDisplay"
+	TIP 152
+	FCAT  "Stock Model"
+	FNAME "Stock Display Tailstock"
+END_FUNCTION
+
+FUNCTION CPP "ToggleLatheSteadyRestDisplay"
+	SPNG 5461
+	LPNG 5462
+	UICALLBACK "OnUpdateToggleLatheSteadyRestDisplay"
+	TIP 154
+	FCAT  "Stock Model"
+	FNAME "Stock Display Toggle Steady Rest"
+END_FUNCTION
+
+FUNCTION CPP "ToggleMtCenterDisplay"
+	SPNG 5461
+	LPNG 5462
+	UICALLBACK "OnUpdateToggleMtCenterDisplay"
+	TIP 151
+	FCAT  "Stock Model"
+	FNAME "Stock Display Toggle Center Tool"
+END_FUNCTION
+
+# SOLIDS //////////////////////////////////////////////////////////////////
+
+FUNC_DLL "MCGEOMSLD.DLL"
+RES_DLL  "OPMANRES.DLL"
+CATEGORY 3357
+
+FUNCTION CPP "OnSolidsSelectBack"
+	HIDDEN
+	SPNG 4557
+	LPNG 4558
+	UICALLBACK "OnUpdateSolidsSelectBack"
+	TIP 32993
+	FCAT  "Solids"
+	FNAME "Select From Back"
+	NOTASK
+	INLINE
+END_FUNCTION
+
+FUNCTION CPP "OnSolidsSelectLast"
+	HIDDEN
+	SPNG 4563
+	LPNG 4564
+	UICALLBACK "OnUpdateSolidsSelectLast"
+	TIP 32995
+	INLINE
+	FCAT  "Solids"
+	FNAME "Select Last"
+END_FUNCTION
+
+FUNC_DLL "MCGEOMSLD.DLL"
+RES_DLL  "MCGEOMSLDRES.DLL"
+
+FUNCTION CPP "sldRegenAll"
+	SPNG 4563
+	LPNG 4564
+	TIP 3256
+	FCAT  "Solids"
+	FNAME "Regen All"
+END_FUNCTION	
+
+FUNCTION CPP "sld_newExtrude"
+	SPNG 5772
+	LPNG 5773
+	TIP 32975
+	FCAT  "Solids"
+	FNAME "Extrude"
+END_FUNCTION
+
+FUNCTION CPP "sld_newRevolve"
+	SPNG 5774
+	LPNG 5775
+	TIP 32976
+	FCAT  "Solids"
+	FNAME "Revolve"
+END_FUNCTION
+
+FUNCTION CPP "sld_newSweepV8"
+	SPNG 5776
+	LPNG 5777
+	TIP 32977
+	FCAT  "Solids"
+	FNAME "Sweep"
+END_FUNCTION
+
+FUNCTION CPP "sld_newLoft"
+	SPNG 5778
+	LPNG 5779
+	TIP 32978
+	FCAT  "Solids"
+	FNAME "Loft"
+END_FUNCTION
+
+FUNCTION CPP "sld_do_fillet"
+	SPNG 5780
+	LPNG 5781
+	TIP 32979
+	FCAT  "Solids"
+	FNAME "Fillet"
+END_FUNCTION
+
+FUNCTION CPP "sld_do_variable_fillet"
+	SPNG 5782
+	LPNG 5783
+	TIP 33480
+	FCAT  "Solids"
+	FNAME "Variable Fillet"
+END_FUNCTION
+
+FUNCTION CPP "sld_do_face_face_fillet"
+	SPNG 5784
+	LPNG 5785
+	TIP 33210
+	FCAT  "Solids"
+	FNAME "Face to Face Fillet"
+END_FUNCTION
+
+FUNCTION CPP "sldChamferOneDist"
+	CALL_FUNC "sldChamfer"
+	PARAM 0
+	SPNG 5786
+	LPNG 5787
+	TIP 33007
+	FCAT  "Solids"
+	FNAME "One Distance Chamfer"
+END_FUNCTION
+
+FUNCTION CPP "sldChamferTwoDist"
+	CALL_FUNC "sldChamfer"
+	PARAM 1
+	SPNG 5788
+	LPNG 5789
+	TIP 33008
+	FCAT  "Solids"
+	FNAME "Two Distance Chamfer"
+END_FUNCTION
+
+FUNCTION CPP "sldChamferDistAngle"
+	CALL_FUNC "sldChamfer"
+	PARAM 2
+	SPNG 5790
+	LPNG 5791
+	TIP 33009
+	FCAT  "Solids"
+	FNAME "Distance and Angle Chamfer"
+END_FUNCTION
+
+FUNCTION CPP "sld_do_shell"
+	SPNG 5792
+	LPNG 5793
+	TIP 32981
+	FCAT  "Solids"
+	FNAME "Shell"
+END_FUNCTION
+
+FUNCTION CPP "sld_do_boolean"
+	SPNG 5794
+	LPNG 5795
+	TIP 32982
+	FCAT  "Solids"
+	FNAME "Boolean"
+END_FUNCTION
+
+#FUNCTION CPP "sld_newDraftFace"
+#	SBMP  IDB_sld_newDraftFace_16
+#	LBMP  IDB_sld_newDraftFace_24
+#	TIP   ID_SOLIDS_DRAFTFACES
+#	FCAT  "Solids"
+#	FNAME "Draft Faces"
+#END_FUNCTION
+
+FUNCTION CPP "sld_newDraftFace_0"
+	CALL_FUNC "sld_newDraftFace"
+	PARAM 0
+	SPNG 5797
+	LPNG 5798
+	TIP 33529
+	FCAT  "Solids"
+	FNAME "Draft to top face"
+END_FUNCTION
+
+FUNCTION CPP "sld_newDraftFace_1"
+	CALL_FUNC "sld_newDraftFace"
+	PARAM 1
+	SPNG 5713
+	LPNG 5714
+	TIP 33530
+	FCAT  "Solids"
+	FNAME "Draft to Z plane"
+END_FUNCTION
+
+FUNCTION CPP "sld_newDraftFace_2"
+	CALL_FUNC "sld_newDraftFace"
+	PARAM 2
+	SPNG 5715
+	LPNG 5716
+	TIP 33531
+	FCAT  "Solids"
+	FNAME "Draft to top edge"
+END_FUNCTION
+
+FUNCTION CPP "sld_newDraftFace_3"
+	CALL_FUNC "sld_newDraftFace"
+	PARAM 3
+	SPNG 5717
+	LPNG 5718
+	TIP 33532
+	FCAT  "Solids"
+	FNAME "Draft to extrude"
+END_FUNCTION
+
+FUNCTION CPP "sld_newTrimToPlane"
+    SPNG 5719
+   	LPNG 5720
+    TIP 33473
+	FCAT  "Solids"
+	FNAME "Trim To Plane"	
+END_FUNCTION
+
+FUNCTION CPP "sld_newTrimToSurfSheet"
+	SPNG 5721
+	LPNG 5722
+	TIP 32985
+	FCAT  "Solids"
+	FNAME "Trim To Surface/Sheet"
+END_FUNCTION
+
+FUNCTION CPP "do_solid_layout"
+	SPNG 5799
+	LPNG 5800
+	TIP 32986
+	FCAT  "Solids"
+	FNAME "Layout"
+END_FUNCTION
+
+FUNCTION CPP "sld_do_feature_detect"
+	SPNG 5801
+	LPNG 5802
+	TIP 32987
+	FCAT  "Solids"
+	FNAME "Add History"
+END_FUNCTION
+
+FUNCTION CPP "sld_do_hole_axis"
+	SPNG 5725
+	LPNG 5726
+	TIP 33513
+	FCAT  "Solids"
+	FNAME "Hole Axis"
+END_FUNCTION
+
+FUNCTION CPP "SldDoHole"
+	SPNG 8688
+	LPNG 8689
+	TIP 33514
+	FCAT  "Solids"
+	FNAME "Hole"
+END_FUNCTION
+
+FUNCTION CPP "SldFindHoles"
+	SPNG 107
+	LPNG 110
+	TIP 106
+	FCAT  "Solids"
+	FNAME "Find Holes"
+END_FUNCTION
+
+FUNCTION CPP "sld_do_solid_disassemble"
+	SPNG 6459
+	LPNG 6460
+	TIP 33079
+	FCAT  "Solids"
+	FNAME "Solid Disassemble"
+END_FUNCTION
+
+FUNCTION CPP "SldAlignToFace"
+	SPNG 6461
+	LPNG 6462
+	TIP 33080
+	FCAT  "Solids"
+	FNAME "Solid Align To Face"
+END_FUNCTION
+
+FUNCTION CPP "SldAlignToPlane"
+	SPNG 6470
+	LPNG 6471
+	TIP 33110
+	FCAT  "Solids"
+	FNAME "Solid Align To Plane"
+END_FUNCTION
+
+FUNCTION CPP "SldSolidPosition"
+	SPNG 6478
+	LPNG 6479
+	TIP 33111
+	FCAT  "Solids"
+	FNAME "Solid Position"
+END_FUNCTION
+
+FUNCTION CPP "sld_do_stitching"
+	SPNG 5803
+	LPNG 5804
+	TIP 33032
+	FCAT  "Solids"
+	FNAME "From Surfaces"
+END_FUNCTION
+
+FUNCTION CPP "sld_do_thicken"
+	SPNG 5727
+	LPNG 4520
+	TIP 33033
+	FCAT  "Solids"
+	FNAME "Thicken"
+END_FUNCTION
+
+FUNCTION CPP "sld_do_face_removal"
+	SPNG 5729
+	LPNG 5730
+	TIP 33034
+	FCAT  "Solids"
+	FNAME "Remove Faces"
+END_FUNCTION
+
+FUNCTION CPP "sld_pattern_rect"
+	CALL_FUNC "sld_do_pattern"
+	PARAM 0
+	SPNG 4525
+	LPNG 4526
+	TIP 1175
+	FCAT  "Solids"
+	FNAME "Rectangular Pattern"
+END_FUNCTION
+
+FUNCTION CPP "sld_pattern_circ"
+	CALL_FUNC "sld_do_pattern"
+	PARAM 1
+	SPNG 4527
+	LPNG 4528
+	TIP 1177
+	FCAT  "Solids"
+	FNAME "Circular Pattern"
+END_FUNCTION
+
+FUNCTION CPP "sld_pattern_manual"
+	CALL_FUNC "sld_do_pattern"
+	PARAM 2
+	SPNG 4529
+	LPNG 4530
+	TIP 1178
+	FCAT  "Solids"
+	FNAME "Manual Pattern"
+END_FUNCTION
+
+FUNCTION CPP "sld_changeFaceColor"
+	CALL_FUNC "SldChangeFaceColor"
+	SPNG 4531
+	LPNG 4532
+	TIP 1159
+	FCAT  "Solids"
+	FNAME "Change Solid Face Color"
+END_FUNCTION
+
+FUNCTION CPP "sld_setOpColor"
+	CALL_FUNC "sld_pick_and_set_operation_color"
+	SPNG 4535
+	LPNG 4536
+	TIP 1164
+	FCAT  "Solids"
+	FNAME "Set Solid Feature Color"
+END_FUNCTION
+
+FUNCTION CPP "sld_clearOpColor"
+	CALL_FUNC "sld_pick_and_clear_operation_color"
+	SPNG 4537
+	LPNG 4538
+	TIP 1166
+	FCAT  "Solids"
+	FNAME "Clear Solid Feature Color"
+END_FUNCTION
+
+FUNCTION CPP "sld_clearAllColor"
+	CALL_FUNC "sld_pick_and_clear_all_color"
+	SPNG 4539
+	LPNG 4540
+	TIP 1168
+	FCAT  "Solids"
+	FNAME "Clear All Solid Face and Feature Colors"
+END_FUNCTION
+
+FUNCTION CPP "sld_remove_history_task"
+	SPNG 4541
+	LPNG 4542
+	TIP 1180
+	FCAT  "Solids"
+	FNAME "Remove All Solid History Operations"
+END_FUNCTION
+
+FUNCTION CPP "sld_modify_blend"
+	SPNG 5749
+	LPNG 5750
+	TIP 1181
+	FCAT  "Solids"
+	FNAME "Modify Solid Fillets"
+END_FUNCTION
+
+FUNCTION CPP "sld_remove_blend"
+	SPNG 4549
+	LPNG 5752
+	TIP 1183
+	FCAT  "Solids"
+	FNAME "Remove Solid Fillets"
+END_FUNCTION
+
+FUNCTION CPP "sld_modify_feature"
+	SPNG 4545
+	LPNG 4546
+	TIP 1623
+	FCAT  "Solids"
+	FNAME "Modify Solid Feature"
+END_FUNCTION
+
+FUNCTION CPP "SldImpression"
+	SPNG 6475
+	LPNG 6476
+	TIP 27672
+	FCAT  "Solids"
+	FNAME "Create Solid Impression"
+END_FUNCTION
+
+FUNCTION CPP "sld_simplify"
+	SPNG 4551
+	LPNG 4552
+	TIP 1184
+	FCAT  "Solids"
+	FNAME "Simplify Solid Body"
+END_FUNCTION
+
+FUNCTION CPP "SldOptimize"
+	SPNG 4553
+	LPNG 4554
+	TIP 1214
+	FCAT  "Solids"
+	FNAME "Optimize Solid Body"
+END_FUNCTION
+
+FUNCTION CPP "SldRepairSmallFaces"
+	SPNG 6487
+	LPNG 6488
+	TIP 1217
+	FCAT  "Solids"
+	FNAME "Repair Small Faces"
+END_FUNCTION
+
+FUNCTION CPP "sldPushPullMove"
+	SPNG 5757
+	LPNG 5758
+	TIP 1186
+	FCAT  "Solids"
+	FNAME "Move Solid Faces"
+END_FUNCTION
+
+FUNCTION CPP "sldPushPullOffset"
+	SPNG 5759
+	LPNG 5760
+	TIP 1189
+	FCAT  "Solids"
+	FNAME "Push/Pull Solid Faces"
+END_FUNCTION
+
+FUNCTION CPP "sldSplitFace"
+	SPNG 6291
+	LPNG 6292
+	TIP 1187
+	FCAT  "Solids"
+	FNAME "Split Solid Faces"
+END_FUNCTION
+
+FUNCTION CPP "WireframeModifyAtIntersection"
+	SPNG 6468
+	LPNG 6469
+	TIP 33123
+	FCAT  "Solids"
+	FNAME "Modify At Intersection"
+END_FUNCTION
+
+FUNCTION CPP "OnSolidsSelectActivate"
+	INLINE
+	HIDDEN
+	FCAT  "Solids"
+	FNAME "Toggle Solid Selection"
+END_FUNCTION
+
+FUNCTION CPP "OnSolidsSelectEdge"
+	INLINE
+	HIDDEN
+	NOTASK
+	FCAT  "Solids"
+	FNAME "Select Edge Filter"
+END_FUNCTION
+
+FUNCTION CPP "OnSolidsSelectFace"
+	INLINE
+	HIDDEN
+	NOTASK
+	FCAT  "Solids"
+	FNAME "Select Face Filter"
+END_FUNCTION
+
+FUNCTION CPP "OnSolidsSelectBody"
+	INLINE
+	HIDDEN
+	NOTASK
+	FCAT  "Solids"
+	FNAME "Select Body Filter"
+END_FUNCTION
+
+#FUNCTION CPP "OnSolidsSelectLoop"
+#	SBMP  IDB_OnSolidsSelectLoop_16
+#	LBMP  IDB_OnSolidsSelectLoop_24
+#	UICALLBACK "OnUpdateSolidsSelectLoop"
+#	TIP   ID_SOLIDS_SELECT_LOOP
+#	INLINE
+#	FCAT  "Solids"
+#	FNAME ""
+#END_FUNCTION
+
+#FUNCTION CPP "OnSolidsSelectPartial"
+#	SBMP  IDB_OnSolidsSelectPartial_16
+#	LBMP  IDB_OnSolidsSelectPartial_24
+#	UICALLBACK "OnUpdateSolidsSelectPartial"
+#	TIP   ID_SOLIDS_SELECT_PARTIAL
+#	INLINE
+#	FCAT  "Solids"
+#	FNAME ""
+#END_FUNCTION
+
+FUNCTION CPP "OnSolidsSelectReverse"
+	HIDDEN
+	SPNG 5763
+	LPNG 5764
+	UICALLBACK "OnUpdateSolidsSelectReverse"
+	TIP 33067
+	INLINE
+	FCAT  "Solids"
+	FNAME "Reverse Direction"
+END_FUNCTION
+
+FUNCTION CPP "OnSolidsSelectEnd"
+	HIDDEN
+	SPNG 4567
+	LPNG 4568
+	UICALLBACK "OnUpdateSolidsSelectEnd"
+	TIP 32996
+	INLINE
+	FCAT  "Solids"
+	FNAME "End Selection"
+END_FUNCTION
+
+FUNCTION CPP "OnSolidsSelectCancel"
+	HIDDEN
+	SPNG 4565
+	LPNG 4566
+	UICALLBACK "OnUpdateSolidsSelectCancel"
+	TIP 32997
+	INLINE
+	FCAT  "Solids"
+	FNAME "Cancel Selection"
+END_FUNCTION
+
+FUNC_DLL "MCCAD.DLL"
+RES_DLL  "MCCADRES.DLL"
+
+FUNCTION CPP "sld_convert_to_surfs"
+	SPNG 5723
+	LPNG 5724
+	TIP 1158
+	INTERRUPT_INLINE
+	FCAT  "Solids"
+	FNAME "Surfaces from Solids"
+END_FUNCTION
+
+# SURFACES ////////////////////////////////////////////////////////////////
+
+FUNC_DLL "MCCAD.DLL"
+RES_DLL  "MCCADRES.DLL"
+CATEGORY 3358
+
+FUNCTION CPP "ExtrudeSurface"
+	SPNG 6180
+	LPNG 6181
+	TIP 33195
+	INTERRUPT_INLINE
+	FCAT  "Surfaces"
+	FNAME "Extruded"
+END_FUNCTION
+
+FUNCTION CPP "ExtendTrimmedEdge"
+	SPNG 4856
+	LPNG 4857
+	TIP 33138
+	INTERRUPT_INLINE
+	FCAT  "Surfaces"
+	FNAME "Extend Trimmed Edges"
+END_FUNCTION
+
+FUNCTION CPP "FenceSurfCreation"
+	SPNG 4842
+	LPNG 4843
+	TIP 33136
+	INTERRUPT_INLINE
+	FCAT  "Surfaces"
+	FNAME "Fence"
+END_FUNCTION
+
+FUNCTION CPP "NetSurfCreation"
+	SPNG 4846
+	LPNG 4847
+	TIP 33134
+	INTERRUPT_INLINE
+	FCAT  "Surfaces"
+	FNAME "Net Surface"
+END_FUNCTION
+
+FUNCTION CPP "RuledLoftedSurfaces"	
+	SPNG 4852
+	LPNG 4853
+	TIP 33149
+	INTERRUPT_INLINE
+	FCAT  "Surfaces"
+	FNAME "Ruled/Lofted"
+END_FUNCTION
+
+FUNCTION CPP "RevolvedSurfaces"
+	SPNG 4850
+	LPNG 4851
+	TIP 33150
+	INTERRUPT_INLINE
+	FCAT  "Surfaces"
+	FNAME "Revolved"
+END_FUNCTION
+
+FUNCTION CPP "OffsetSurfaces"
+	SPNG 4848
+	LPNG 4849
+	TIP 33162
+	INTERRUPT_INLINE
+	FCAT  "Surfaces"
+	FNAME "Offset"
+END_FUNCTION
+
+FUNCTION CPP "SweptSurfaces"
+	SPNG 4854
+	LPNG 4855
+	TIP 33163
+	INTERRUPT_INLINE
+	FCAT  "Surfaces"
+	FNAME "Swept"
+END_FUNCTION
+
+FUNCTION CPP "FlatBoundarySurfaces"
+	SPNG 5531
+	LPNG 5532
+	TIP 33164
+	INTERRUPT_INLINE
+	FCAT  "Surfaces"
+	FNAME "Flat Boundary"
+END_FUNCTION
+
+FUNCTION CPP "UnTrimSurfaces"
+	SPNG 4858
+	LPNG 4859
+	TIP 33186
+	INTERRUPT_INLINE
+	FCAT  "Surfaces"
+	FNAME "Un-Trim"
+END_FUNCTION
+
+FUNCTION CPP "SurfaceExtend"
+	SPNG 6196
+	LPNG 6197
+	TIP 33400
+	INTERRUPT_INLINE
+	FCAT  "Surfaces"
+	FNAME "Extend"
+END_FUNCTION
+
+FUNCTION CPP "RemoveBoundary"
+	SPNG 6172
+	LPNG 6173
+	TIP 33188
+	INTERRUPT_INLINE
+	FCAT  "Surfaces"
+	FNAME "Remove Boundary"
+END_FUNCTION
+
+FUNCTION CPP "FillHoles"
+	SPNG 6174
+	LPNG 6175
+	TIP 33189
+	INTERRUPT_INLINE
+	FCAT  "Surfaces"
+	FNAME "Fill Holes"
+END_FUNCTION
+
+FUNCTION CPP "SplitSurface"
+	SPNG 6176
+	LPNG 6177
+	TIP 33193
+	INTERRUPT_INLINE
+	FCAT  "Surfaces"
+	FNAME "Split"
+END_FUNCTION
+
+FUNCTION CPP "trim_surface_1"
+	SPNG 6182
+	LPNG 6183
+	TIP 33200
+	INTERRUPT_INLINE
+	FCAT  "Surfaces"
+	FNAME "Trim to Surfaces"
+END_FUNCTION
+
+FUNCTION CPP "trim_surface_2"
+	SPNG 6184
+	LPNG 6185
+	TIP 33201
+	INTERRUPT_INLINE
+	FCAT  "Surfaces"
+	FNAME "Trim to Curves"
+END_FUNCTION
+
+FUNCTION CPP "trim_surface_3"
+	SPNG 6186
+	LPNG 6187
+	TIP 33203
+	INTERRUPT_INLINE
+	FCAT  "Surfaces"
+	FNAME "Trim to Plane"
+END_FUNCTION
+
+FUNCTION CPP "SurfaceFilletToSurface"
+	SPNG 6188
+	LPNG 6189
+	TIP 33207
+	INTERRUPT_INLINE
+	FCAT  "Surfaces"
+	FNAME "Fillet to Surfaces"
+END_FUNCTION
+
+FUNCTION CPP "SurfaceFilletToCurve"
+	SPNG 6190
+	LPNG 6191
+	TIP 33208
+	INTERRUPT_INLINE
+	FCAT  "Surfaces"
+	FNAME "Fillet to Curves"
+END_FUNCTION
+
+FUNCTION CPP "SurfaceFilletToPlane"
+	SPNG 6192
+	LPNG 6193
+	TIP 33209
+	INTERRUPT_INLINE
+	FCAT  "Surfaces"
+	FNAME "Fillet to Plane"
+END_FUNCTION
+
+FUNCTION CPP "DraftSurface"
+	SPNG 6178
+	LPNG 6179
+	TIP 33194
+	INTERRUPT_INLINE
+	FCAT  "Surfaces"
+	FNAME "Draft"
+END_FUNCTION
+
+FUNCTION CPP "blend_2_surfs"
+	SPNG 6194
+	LPNG 6195
+	TIP 33398
+	INTERRUPT_INLINE
+	FCAT  "Surfaces"
+	FNAME "Two Surface Blend"
+END_FUNCTION
+
+FUNCTION CPP "blend_3_surfs"
+	SPNG 6198
+	LPNG 6199
+	TIP 33399
+	INTERRUPT_INLINE
+	FCAT  "Surfaces"
+	FNAME "Three Surface Blend"
+END_FUNCTION
+
+FUNCTION CPP "EditSurface"
+	SPNG 1201
+	LPNG 1028
+	TIP 3621
+	INTERRUPT_INLINE
+	FCAT  "Surfaces"
+	FNAME "Edit Surface"
+END_FUNCTION
+
+FUNCTION CPP "ReflowSurfaceUV"
+	SPNG 1030
+	LPNG 1029
+	TIP 126
+	INTERRUPT_INLINE
+	FCAT  "Surfaces"
+	FNAME "Reflow UV"
+END_FUNCTION
+
+FUNCTION CPP "EditSurfaceUV"
+	SPNG 1032
+	LPNG 1031
+	TIP 136
+	INTERRUPT_INLINE
+	FCAT  "Surfaces"
+	FNAME "Edit UV"
+END_FUNCTION
+
+FUNCTION CPP "OverflowSurfaceUV"
+	SPNG 1033
+	LPNG 1034
+	TIP 148
+	INTERRUPT_INLINE
+	FCAT  "Surfaces"
+	FNAME "Overflow UV"
+END_FUNCTION
+
+FUNCTION CPP "blend_3_fils"
+	SPNG 6200
+	LPNG 6201
+	TIP 33401
+	INTERRUPT_INLINE
+	FCAT  "Surfaces"
+	FNAME "Three Fillet Blend"
+END_FUNCTION
+
+FUNCTION CPP "PowerSurface"
+	SPNG 10448
+	LPNG 10447
+	TIP 33187
+	INTERRUPT_INLINE
+	FCAT  "Surfaces"
+	FNAME "Power Surface"
+END_FUNCTION
+
+
+# TOOL PLANE MANIPULATION //////////////////////////////////////////////////////
+
+FUNC_DLL "EXE"
+RES_DLL "OPMANRES.DLL"
+CATEGORY 3359
+
+FUNCTION CPP "OnTPlaneTop"
+	SPNG 6202
+	LPNG 6203
+	TIP 32819
+	INLINE
+	FCAT  "Tool Plane"
+	FNAME "Top Tplane"
+END_FUNCTION
+
+FUNCTION CPP "OnTPlaneBottom"
+	SPNG 5928
+	LPNG 5929
+	TIP 33051
+	INLINE
+	FCAT  "Tool Plane"
+	FNAME "Bottom Tplane"
+END_FUNCTION
+
+FUNCTION CPP "OnTPlaneFront"
+	SPNG 6204
+	LPNG 6205
+	TIP 32820
+	INLINE
+	FCAT  "Tool Plane"
+	FNAME "Front Tplane"
+END_FUNCTION
+
+FUNCTION CPP "OnTPlaneBack"
+	SPNG 5930
+	LPNG 5931
+	TIP 33052
+	INLINE
+	FCAT  "Tool Plane"
+	FNAME "Back Tplane"
+END_FUNCTION
+
+FUNCTION CPP "OnTPlaneLeft"
+	SPNG 6120
+	LPNG 6122
+	TIP 33211
+	INLINE
+	FCAT  "Tool Plane"
+	FNAME "Left Tplane"
+END_FUNCTION
+
+FUNCTION CPP "OnTPlaneSide"
+	SPNG 6206
+	LPNG 6207
+	TIP 32821
+	INLINE
+	FCAT  "Tool Plane"
+	FNAME "Right Tplane"
+END_FUNCTION
+
+FUNCTION CPP "OnTPlaneIso"
+	SPNG 6124
+	LPNG 6125
+	TIP 33212
+	INLINE
+	FCAT  "Tool Plane"
+	FNAME "Isometric Tplane"
+END_FUNCTION
+
+FUNCTION CPP "OnTPlaneIsoRev"
+	SPNG 6126
+	LPNG 6172
+	TIP 33213
+	INLINE
+	FCAT  "Tool Plane"
+	FNAME "Isometric Reverse Tplane"
+END_FUNCTION
+
+FUNCTION CPP "OnTPlaneTrimetric"
+	SPNG 6173
+	LPNG 6174
+	TIP 33214
+	INLINE
+	FCAT  "Tool Plane"
+	FNAME "Trimetric Tplane"
+END_FUNCTION
+
+# VIEW MANIPULATION ///////////////////////////////////////////////////////
+
+FUNC_DLL "EXE"
+RES_DLL  "OPMANRES.DLL"
+CATEGORY 3360
+
+FUNCTION CPP "OnScreenFit"
+	SPNG 4928
+	LPNG 4929
+	TIP 32826
+	INLINE
+	NOTASK
+	FCAT  "View"
+	FNAME "Fit"
+END_FUNCTION
+
+FUNCTION CPP "OnScreenPan"
+	SPNG 4932
+	LPNG 4933
+	TIP 32891
+	INLINE
+	FCAT  "View"
+	FNAME "Pan"
+END_FUNCTION
+
+FUNCTION CPP "OnScreenUnzoom"
+	SPNG 4940
+	LPNG 4941
+	TIP 32825
+	INLINE
+	FCAT  "View"
+	FNAME "Un-Zoom .8"
+END_FUNCTION
+
+FUNCTION CPP "OnScreenUnzoomPrevious"
+	SPNG 5543
+	LPNG 5544
+	TIP 32839
+	INLINE
+	FCAT  "View"
+	FNAME "Un-Zoom Previous"
+END_FUNCTION
+
+FUNCTION CPP "OnScreenZoomTarget"
+	SPNG 4952
+	LPNG 4953
+	TIP 33139
+	INLINE
+	FCAT  "View"
+	FNAME "Zoom Target"
+END_FUNCTION
+
+FUNCTION CPP "OnScreenZoom"
+	SPNG 4954
+	LPNG 4955
+	TIP 33140
+	INLINE
+	FCAT  "View"
+	FNAME "Zoom Window"
+END_FUNCTION
+
+FUNCTION CPP "OnScreenZoomSelected"
+	SPNG 4950
+	LPNG 4951
+	TIP 33141
+	INLINE
+	FCAT  "View"
+	FNAME "Zoom Selected"
+END_FUNCTION
+
+FUNCTION CPP "OnViewDynamicRotation"
+	SPNG 4926
+	LPNG 4927
+	TIP 33143
+	INLINE
+	FCAT  "Plane Manipulation"
+	FNAME "Dynamic Rotation"
+END_FUNCTION
+
+FUNCTION CPP "OnViewPreviousView"
+	SPNG 4936
+	LPNG 4937
+	TIP 33144
+	INLINE
+	FCAT  "Plane Manipulation"
+	FNAME "Previous View"
+END_FUNCTION
+
+FUNCTION CPP "OnViewNormal"
+	SPNG 4930
+	LPNG 4931
+	TIP 33145
+	INLINE
+	FCAT  "Plane Manipulation"
+	FNAME "View From Line Normal"
+END_FUNCTION
+
+FUNCTION CPP "OnGviewGeometrySelect"
+	SPNG 4938
+	LPNG 4939
+	TIP 33607
+	INLINE
+	FCAT  "Plane Manipulation"
+	FNAME "Set View Associated with Geometry"
+END_FUNCTION
+
+FUNCTION CPP "OnViewEntity"
+	SPNG 4944
+	LPNG 4945
+	TIP 33147
+	INLINE
+	FCAT  "Plane Manipulation"
+	FNAME "View From Entity"
+END_FUNCTION
+
+FUNCTION CPP "OnViewSolidface"
+	SPNG 4946
+	LPNG 4947
+	TIP 33148
+	INLINE
+	FCAT  "Plane Manipulation"
+	FNAME "View From Solid Face"
+END_FUNCTION
+
+FUNCTION CPP "OnViewFlipXForY"
+	SPNG 4970
+	LPNG 4971
+	TIP 33160
+	INLINE
+	FCAT  "Plane Manipulation"
+	FNAME "Flip View X for Y"
+END_FUNCTION
+
+FUNCTION CPP "OnViewFlipXForZ"
+	SPNG 4972
+	LPNG 4973
+	TIP 33159
+	INLINE
+	FCAT  "Plane Manipulation"
+	FNAME "Flip View X for Z"
+END_FUNCTION
+
+FUNCTION CPP "OnViewFlipYForZ"
+	SPNG 4974
+	LPNG 4975
+	TIP 33161
+	INLINE
+	FCAT  "Plane Manipulation"
+	FNAME "Flip View Y for Z"
+END_FUNCTION
+
+FUNCTION CPP "OnViewTop"
+	SPNG 6012
+	LPNG 6013
+	TIP 33152
+	INLINE
+	FCAT  "View"
+	FNAME "Top (WCS)"
+END_FUNCTION
+
+FUNCTION CPP "OnViewLeft"
+	SPNG 6014
+	LPNG 6015
+	TIP 33154
+	INLINE
+	FCAT  "View"
+	FNAME "Left (WCS)"
+END_FUNCTION
+
+FUNCTION CPP "OnViewBack"
+	SPNG 6016
+	LPNG 6017
+	TIP 33151
+	INLINE
+	FCAT  "View"
+	FNAME "Back (WCS)"
+END_FUNCTION
+
+FUNCTION CPP "OnViewFront"
+	SPNG 6018
+	LPNG 6019
+	TIP 33153
+	INLINE
+	FCAT  "View"
+	FNAME "Front (WCS)"
+END_FUNCTION
+
+FUNCTION CPP "OnViewRight"
+	SPNG 6020
+	LPNG 6021
+	TIP 33155
+	INLINE
+	FCAT  "View"
+	FNAME "Right (WCS)"
+END_FUNCTION
+
+FUNCTION CPP "OnViewBottom"
+	SPNG 6022
+	LPNG 6023
+	TIP 33156
+	INLINE
+	FCAT  "View"
+	FNAME "Bottom (WCS)"
+END_FUNCTION
+
+FUNCTION CPP "OnViewIsometric"
+	SPNG 6024
+	LPNG 6025
+	TIP 33157
+	INLINE
+	FCAT  "View"
+	FNAME "Isometric (WCS)"
+END_FUNCTION
+
+FUNCTION CPP "OnViewIsoRev"
+	SPNG 6189
+	LPNG 6190
+	TIP 33215
+	INLINE
+	FCAT  "View"
+	FNAME "Isometric Reverse (WCS)"
+END_FUNCTION
+
+FUNCTION CPP "OnViewTrimetric"
+	SPNG 6191
+	LPNG 6192
+	TIP 33216
+	INLINE
+	FCAT  "View"
+	FNAME "Trimetric (WCS)"
+END_FUNCTION
+
+FUNCTION CPP "OnViewRotate"
+	SPNG 6026
+	LPNG 6027
+	TIP 33062
+	INLINE
+	FCAT  "View"
+	FNAME "Rotate Gview"
+END_FUNCTION
+
+FUNCTION CPP "OnViewEqualsCPlane"
+	SPNG 6028
+	LPNG 6029
+	TIP 32811
+	INLINE
+	FCAT  "View"
+	FNAME "Gview = Cplane"
+END_FUNCTION
+
+FUNCTION CPP "OnViewEqualsTPlane"
+	SPNG 6030
+	LPNG 6031
+	TIP 32812
+	INLINE
+	FCAT  "View"
+	FNAME "Gview = Tplane"
+END_FUNCTION
+
+FUNCTION CPP "OnGViewSave"
+	SPNG 6032
+	LPNG 6033
+	UICALLBACK "OnUpdateGViewSave"
+	TIP 33183
+	INLINE
+	FCAT  "View"
+	FNAME "Save Graphics View"
+END_FUNCTION
+
+FUNCTION CPP "OnToggleSectionViewDisplay"
+	SPNG 8693
+	LPNG 8694
+	UICALLBACK "OnUpdateSectionViewDisplay"
+	TIP 424
+	INLINE
+	FCAT  "View"
+	FNAME "Section View Toggle"
+END_FUNCTION
+
+FUNCTION CPP "OnToggleSectionViewDisplayCaps"
+	HIDDEN
+	UICALLBACK "OnUpdateSectionViewDisplayCaps"
+	TIP 443
+	INLINE
+	FCAT  "View"
+	FNAME "Show Caps"
+END_FUNCTION
+
+FUNCTION CPP "OnToggleSectionViewDisplayWireframe"
+	HIDDEN
+	UICALLBACK "OnUpdateSectionViewDisplayWireframe"
+	TIP 372
+	INLINE
+	FCAT  "View"
+	FNAME "Section View Toggle Wires"
+END_FUNCTION
+
+FUNCTION CPP "OnToggleSectionViewDisplayShaded"
+	HIDDEN
+	UICALLBACK "OnUpdateSectionViewDisplayShaded"
+	TIP 426
+	INLINE
+	FCAT  "View"
+	FNAME "Section View Toggle Shaded"
+END_FUNCTION
+
+FUNCTION CPP "OnToggleSectionViewDisplayStockModel"
+	HIDDEN
+	UICALLBACK "OnUpdateSectionViewDisplayStockModel"
+	TIP 425
+	INLINE
+	FCAT  "View"
+	FNAME "Section View Toggle Stock Model"
+END_FUNCTION
+
+FUNCTION CPP "OnToggleSectionViewDisplayStockPrimitive"
+	HIDDEN
+	UICALLBACK "OnUpdateSectionViewDisplayStockPrimitive"
+	TIP 427
+	INLINE
+	FCAT  "View"
+	FNAME "Section View Toggle Stock Primitive"
+END_FUNCTION
+
+FUNCTION CPP "OnToggleSectionViewDisplayToolpath"
+	HIDDEN
+	UICALLBACK "OnUpdateSectionViewDisplayToolpath"
+	TIP 364
+	INLINE
+	FCAT  "View"
+	FNAME "Section View Toggle Toolpath"
+END_FUNCTION
+
+FUNCTION CPP "SbSelectRotationPosition"
+	SPNG 6034
+	LPNG 6035
+	TIP 3316
+	INLINE
+	FCAT  "Settings"
+	FNAME "Select Motion Controller Rotation Position"
+END_FUNCTION
+
+# WCS MANIPULATION ////////////////////////////////////////////////////////
+
+FUNC_DLL "EXE"
+RES_DLL "OPMANRES.DLL"
+CATEGORY 3361
+
+FUNCTION CPP "OnWCSTop"
+	SPNG 26033
+	LPNG 26032
+	TIP 33165
+	INLINE
+	FCAT  "WCS"
+	FNAME "Top WCS"
+END_FUNCTION
+
+FUNCTION CPP "OnWCSFront"
+	SPNG 26034
+	LPNG 26035
+	TIP 33166
+	INLINE
+	FCAT  "WCS"
+	FNAME "Front WCS"
+END_FUNCTION
+
+FUNCTION CPP "OnWCSBack"
+	SPNG 26036
+	LPNG 26037
+	TIP 33167
+	INLINE
+	FCAT  "WCS"
+	FNAME "Back WCS"
+END_FUNCTION
+
+FUNCTION CPP "OnWCSBottom"
+	SPNG 26038
+	LPNG 26039
+	TIP 33168
+	INLINE
+	FCAT  "WCS"
+	FNAME "Bottom WCS"
+END_FUNCTION
+
+FUNCTION CPP "OnWCSRight"
+	SPNG 26040
+	LPNG 26041
+	TIP 33169
+	INLINE
+	FCAT  "WCS"
+	FNAME "Right WCS"
+END_FUNCTION
+
+FUNCTION CPP "OnWCSLeft"
+	SPNG 26042
+	LPNG 26043
+	TIP 33170
+	INLINE
+	FCAT  "WCS"
+	FNAME "Left WCS"
+END_FUNCTION
+
+FUNCTION CPP "OnWCSIsometric"
+	SPNG 6243
+	LPNG 6244
+	TIP 33172
+	INLINE
+	FCAT  "WCS"
+	FNAME "Isometric WCS"
+END_FUNCTION
+
+FUNCTION CPP "OnWCSIsoRev"
+	SPNG 6185
+	LPNG 6186
+	TIP 6175
+	INLINE
+	FCAT  "WCS"
+	FNAME "Isometric Reverse WCS"
+END_FUNCTION
+
+FUNCTION CPP "OnWCSTrimetric"
+	SPNG 6187
+	LPNG 6188
+	TIP 6176
+	INLINE
+	FCAT  "WCS"
+	FNAME "Trimetric WCS"
+END_FUNCTION
+
+FUNCTION CPP "OnWCSEqualsCPlane"
+	SPNG 6259
+	LPNG 6260
+	TIP 33178
+	INLINE
+	FCAT  "WCS"
+	FNAME "WCS = Cplane"
+END_FUNCTION
+
+FUNCTION CPP "OnWCSEqualsTPlane"
+	SPNG 6261
+	LPNG 6262
+	TIP 33179
+	INLINE
+	FCAT  "WCS"
+	FNAME "WCS = Tplane"
+END_FUNCTION
+
+# WIREFRAME TOOLPATHS /////////////////////////////////////////////////////
+
+FUNC_DLL "MCMILL.DLL"
+RES_DLL  "OPMANRES.DLL"
+CATEGORY 3362
+
+FUNCTION CPP "ruled_toolbar"
+	SPNG 6271
+	LPNG 6272
+	TIP 33099
+	FCAT  "Wireframe Toolpaths"
+	FNAME "Ruled"
+END_FUNCTION
+
+FUNCTION CPP "loft_toolbar"
+	SPNG 6273
+	LPNG 6274
+	TIP 33104
+	FCAT  "Wireframe Toolpaths"
+	FNAME "Lofted"
+END_FUNCTION
+
+FUNCTION CPP "coons_toolbar"
+	SPNG 6275
+	LPNG 6276
+	TIP 33103
+	FCAT  "Wireframe Toolpaths"
+	FNAME "Coons"
+END_FUNCTION
+
+FUNCTION CPP "swept2D_toolbar"
+	SPNG 6277
+	LPNG 6278
+	TIP 33102
+	FCAT  "Wireframe Toolpaths"
+	FNAME "Swept 2D"
+END_FUNCTION
+
+FUNCTION CPP "swept3D_toolbar"
+	SPNG 6279
+	LPNG 6280
+	TIP 33101
+	FCAT  "Wireframe Toolpaths"
+	FNAME "Swept 3D"
+END_FUNCTION
+
+FUNCTION CPP "revolved_toolbar"
+	SPNG 6281
+	LPNG 6282
+	TIP 33100
+	FCAT  "Wireframe Toolpaths"
+	FNAME "Revolved"
+END_FUNCTION
+
+
+
+# XFORM ///////////////////////////////////////////////////////////////////
+
+FUNC_DLL "MCCADUTIL.DLL"
+RES_DLL  "MCCADUtilRes.DLL"
+CATEGORY 3363
+
+FUNCTION CPP "do_xform_trans"
+	SPNG 4820
+	LPNG 4821
+	TIP 32943
+	FCAT  "Transform"
+	FNAME "Translate"
+END_FUNCTION
+
+FUNCTION CPP "do_xform_stretch"
+	SPNG 4816
+	LPNG 4817
+	TIP 33280
+	FCAT  "Transform"
+	FNAME "Stretch"
+END_FUNCTION
+
+FUNCTION CPP "do_xform_trans3d"
+	SPNG 4818
+	LPNG 4819
+	TIP 32944
+	FCAT  "Transform"
+	FNAME "Translate 3D"
+END_FUNCTION
+
+FUNCTION CPP "do_xform_mirror"
+	SPNG 4810
+	LPNG 4811
+	TIP 32945
+	FCAT  "Transform"
+	FNAME "Mirror"
+END_FUNCTION
+
+FUNCTION CPP "do_xform_rotate"
+	SPNG 4812
+	LPNG 4813
+	TIP 32946
+	FCAT  "Transform"
+	FNAME "Rotate"
+END_FUNCTION
+
+FUNCTION CPP "do_xform_scale"
+	SPNG 4814
+	LPNG 4815
+	TIP 32947
+	FCAT  "Transform"
+	FNAME "Scale"
+END_FUNCTION
+
+FUNCTION CPP "do_xform_offset"
+	SPNG 4822
+	LPNG 4823
+	TIP 32948
+	FCAT  "Transform"
+	FNAME "Offset"
+END_FUNCTION
+
+FUNCTION CPP "do_xform_offset_ctour"
+	SPNG 4824
+	LPNG 4825
+	TIP 32949
+	FCAT  "Transform"
+	FNAME "Offset Contour"
+END_FUNCTION
+
+FUNCTION CPP "do_xform_project"
+	SPNG 4826
+	LPNG 4827
+	TIP 32950
+	FCAT  "Transform"
+	FNAME "Project"
+END_FUNCTION
+
+FUNCTION CPP "do_xform_array"
+	SPNG 4828
+	LPNG 4829
+	TIP 32951
+	FCAT  "Transform"
+	FNAME "Rectangular Array"
+END_FUNCTION
+
+FUNCTION CPP "do_xform_roll"
+	SPNG 4830
+	LPNG 4831
+	TIP 32958
+	FCAT  "Transform"
+	FNAME "Roll"
+END_FUNCTION
+
+FUNCTION CPP "do_xform_movetoorigin"
+	SPNG 4838
+	LPNG 4839
+	TIP 32961
+	FCAT  "Transform"
+	FNAME "Move to Origin"
+END_FUNCTION
+
+FUNCTION CPP "TransformDistribute"
+	SPNG 4836
+	LPNG 4837
+	TIP 33475
+	FCAT  "Transform"
+	FNAME "Distribute"
+END_FUNCTION
+
+FUNCTION CPP "DynamicXform"
+	SPNG 10462
+	LPNG 10463
+	TIP 422
+	FCAT  "Transform"
+	FNAME "Dynamic Transform"
+END_FUNCTION
+
+FUNC_DLL "EXE"
+RES_DLL  "OPMANRES.DLL"
+
+FUNCTION CPP "OnScreenCombineViews"
+	SPNG 6094
+	LPNG 6095
+	TIP 33114
+	INLINE
+	FCAT  "Screen"
+	FNAME "Combine Views"
+END_FUNCTION
+
+
+# WIRE TOOLPATHS //////////////////////////////////////////////////////////
+
+FUNC_DLL "MCWIRE.DLL"
+RES_DLL  "MCWIRERES.DLL"
+CATEGORY 107
+
+FUNCTION CPP "wctour_assoc"
+	SPNG 2293
+	LPNG 2294
+	TIP 32771
+	FCAT  "Wirepath"
+	FNAME "Contour"
+END_FUNCTION
+
+FUNCTION CPP "wdrill_assoc"
+	FUNC_DLL  "MCMILL.DLL"
+	CALL_FUNC "drill_assoc"
+	PARAM 2
+	SPNG 2289
+	LPNG 2290
+	TIP 32773
+	FCAT  "Wirepath"
+	FNAME "Canned"
+END_FUNCTION
+
+FUNCTION CPP "wruled_assoc"
+	SPNG 2287
+	LPNG 2288
+	TIP 32776
+	FCAT  "Wirepath"
+	FNAME "4 Axis"
+END_FUNCTION
+
+FUNCTION CPP "nocore_assoc"
+	SPNG 2295
+	LPNG 2296
+	TIP 32777
+	FCAT  "Wirepath"
+	FNAME "No Core"
+END_FUNCTION
+
+FUNCTION CPP "misc_wncpoint"
+	SPNG 2297
+	LPNG 2298
+	TIP 32769
+	FCAT  "Wirepath"
+	FNAME "Point"
+END_FUNCTION
+
+FUNCTION CPP "wcollar_assoc"
+	SPNG 2291
+	LPNG 2292
+	TIP 32780
+	FCAT  "Wirepath"
+	FNAME "Collar"
+END_FUNCTION
+
+# BACKPLOT ////////////////////////////////////////////////////////////////
+
+FUNC_DLL "EXE"
+RES_DLL  "OPMANRES.DLL"
+CATEGORY "Hidden"
+
+FUNCTION CPP "backplot"
+	HIDDEN
+	FCAT  "Hidden"
+	FNAME ""
+END_FUNCTION
+
+# Machine Type  ///////////////////////////////////////////////////////////
+
+FUNC_DLL "EXE"
+RES_DLL  "OPMANRES.DLL"
+CATEGORY "Hidden"
+
+FUNCTION CPP "MTCommand"
+	HIDDEN
+	FCAT  "Hidden"
+	FNAME ""
+END_FUNCTION
+
+FUNCTION CPP "MTDesign"
+	HIDDEN
+	FCAT  "Hidden"
+	FNAME ""
+END_FUNCTION
+
+FUNCTION CPP "OnOpenMruFile"
+	HIDDEN
+	FCAT  "Hidden"
+	FNAME ""
+END_FUNCTION
+
+FUNCTION CPP "EditTool"
+	HIDDEN
+	FCAT  "Hidden"
+	FNAME ""
+END_FUNCTION
+
+FUNCTION CPP "EditGeometry"
+	HIDDEN
+	FCAT  "Hidden"
+	FNAME ""
+END_FUNCTION
+
+FUNCTION CPP "PopupIcon"
+	HIDDEN
+	SPNG 6541
+	LPNG 6542
+	FCAT  "Hidden"
+	FNAME ""
+END_FUNCTION
+
+# TOOL MANAGER ///////////////////////////////////////////////////////
+
+FUNC_DLL "MCTOOL.DLL"
+RES_DLL  "MCTOOLRES.DLL"
+
+FUNCTION CPP "RunHolderDesigner"
+	HIDDEN
+	FCAT  "Tool Manager"
+	FNAME "Holder Designer"
+END_FUNCTION
+
+FUNCTION CPP "RunInsertDesigner"
+	HIDDEN
+	FCAT  "Tool Manager"
+	FNAME "Insert Designer"
+END_FUNCTION
+
+# TOOLPATHS MANAGER ///////////////////////////////////////////////////////
+
+FUNC_DLL "EXE"
+RES_DLL  "OPMANRES.DLL"
+CATEGORY 3375
+
+FUNCTION CPP "OMselectAllOperations"
+	SPNG 6673
+	LPNG 6674
+	TIP 33333
+	INLINE
+	FCAT  "Toolpaths Manager"
+	FNAME "Select all operations"
+END_FUNCTION
+
+FUNCTION CPP "OMselectDirtyOperations"
+	SPNG 6675
+	LPNG 6676
+	TIP 33334
+	INLINE
+	FCAT  "Toolpaths Manager"
+	FNAME "Select all dirty operations"
+END_FUNCTION
+
+FUNCTION CPP "OMregenSelectedOperations"
+	SPNG 6677
+	LPNG 6678
+	TIP 33335
+	FCAT  "Toolpaths Manager"
+	FNAME "Regenerate all selected operations"
+END_FUNCTION
+
+FUNCTION CPP "OMregenDirtyOperations"
+	SPNG 6679
+	LPNG 6680
+	TIP 33336
+	FCAT  "Toolpaths Manager"
+	FNAME "Regenerate all dirty operations"
+END_FUNCTION
+
+FUNCTION CPP "OMUseDependents"
+	SPNG 8702
+	LPNG 8703
+	UICALLBACK "OnUpdateOMUseDependents"
+	TIP 850
+	INLINE
+	FCAT "Toolpaths Manager"
+	FNAME "Dependent Operations"
+END_FUNCTION
+
+FUNCTION CPP "OMSelectDependents"
+	HIDDEN
+	UICALLBACK "OnUpdateOMSelectDependents"
+	TIP 851
+	INLINE
+	FCAT "Toolpaths Manager"
+	FNAME "Select Dependent Operations"
+END_FUNCTION
+
+FUNCTION CPP "OMRegenDependents"
+	HIDDEN
+	UICALLBACK "OnUpdateOMRegenDependents"
+	TIP 852
+	INLINE
+	FCAT "Toolpaths Manager"
+	FNAME "Regenerate Dependent Operations"
+END_FUNCTION
+
+FUNCTION CPP "OMbackplotSelectedOperations"
+	SPNG 6627
+	LPNG 6627
+	TIP 33337
+	FCAT  "Toolpaths Manager"
+	FNAME "Backplot Selected Operations"
+END_FUNCTION
+
+FUNCTION CPP "OMverifySelectedOperations"
+	SPNG 6633
+	LPNG 6634
+	TIP 33338
+	FCAT  "Toolpaths Manager"
+	FNAME "Verify Selected Operations"
+END_FUNCTION
+
+FUNCTION CPP "OMSimulatateSelectedOperations"
+	SPNG 6709
+	LPNG 6710
+	TIP 33526
+	FCAT  "Toolpaths Manager"
+	FNAME "Simulate Selected Operations"
+END_FUNCTION
+
+FUNCTION CPP "OMUBVSOptions"
+	SPNG 6629
+	LPNG 6629
+	TIP 33521
+	FCAT  "Toolpaths Manager"
+	FNAME "Simulator Options"
+END_FUNCTION
+
+FUNCTION CPP "OMpostSelectedOperations"
+	SPNG 6631
+	LPNG 6632
+	TIP 33339
+	FCAT  "Toolpaths Manager"
+	FNAME "Post Selected Operations"
+END_FUNCTION
+
+FUNCTION CPP "OMhighFeed"
+	UICALLBACK "OnUpdateHighFeed"
+	SPNG 6681
+	LPNG 6682
+	TIP 33340
+	FCAT  "Toolpaths Manager"
+	FNAME "Highfeed"
+END_FUNCTION
+
+FUNCTION CPP "OMdeleteAllOperationsAndTools"
+	SPNG 6683
+	LPNG 6684
+	TIP 33350
+	FCAT  "Toolpaths Manager"
+	FNAME "Delete all operations, groups and tools"
+END_FUNCTION
+
+FUNCTION CPP "OMlockSelectedOperations"
+	SPNG 6685
+	LPNG 6686
+	TIP 33341
+	INLINE
+	FCAT  "Toolpaths Manager"
+	FNAME "Toggle locking on selected operations"
+END_FUNCTION
+
+FUNCTION CPP "OMtoolpathDisplaySelectedOperations"
+	SPNG 6687
+	LPNG 6688
+	TIP 33342
+	INLINE
+	FCAT  "Toolpaths Manager"'
+	FNAME "Toggle display on selected operations"
+END_FUNCTION
+
+FUNCTION CPP "OMpostGhostSelectedOperations"
+	SPNG 6689
+	LPNG 6690
+	TIP 33343
+	INLINE
+	FCAT  "Toolpaths Manager"
+	FNAME "Toggle posting on selected operations"
+END_FUNCTION
+
+FUNCTION CPP "OMarrowDown"
+	SPNG 6691
+	LPNG 6692
+	TIP 33344
+	INLINE
+	FCAT  "Toolpaths Manager"
+	FNAME "Move insert arrow down one item"
+END_FUNCTION
+
+FUNCTION CPP "OMarrowUp"
+	SPNG 6693
+	LPNG 6694
+	TIP 33345
+	INLINE
+	FCAT  "Toolpaths Manager"
+	FNAME "Move insert arrow up one item"
+END_FUNCTION
+
+FUNCTION CPP "OMarrowRight"
+	SPNG 6695
+	LPNG 6696
+	TIP 33346
+	INLINE
+	FCAT  "Toolpaths Manager"
+	FNAME "Position insert arrow after selected operation"
+END_FUNCTION
+
+FUNCTION CPP "OMarrowLeft"
+	SPNG 6697
+	LPNG 6698
+	TIP 33347
+	INLINE
+	FCAT  "Toolpaths Manager"
+	FNAME "Scroll window so insert arrow is visible"
+END_FUNCTION
+
+FUNCTION CPP "OMdisplayBnci"
+	UICALLBACK "OnUpdateDisplayBnci"
+	SPNG 6699
+	LPNG 6700
+	TIP 33348
+	INLINE
+	FCAT  "Toolpaths Manager"
+	FNAME "Only display selected toolpaths"
+END_FUNCTION
+
+FUNCTION CPP "OMdisplayGeom"
+	UICALLBACK "OnUpdateDisplayGeom"
+	SPNG 6701
+	LPNG 6702
+	TIP 33349
+	INLINE
+	FCAT  "Toolpaths Manager"
+	FNAME "Only display associative geometry"
+END_FUNCTION
+
+FUNCTION CPP "OMloadTools"
+	ENABLED F
+	UICALLBACK "OnUpdateLoadTools"
+	SPNG 6705
+	LPNG 6706
+	TIP 33549
+	FCAT  "Toolpaths Manager"
+	FNAME "Set up tools on this machine"
+END_FUNCTION
+
+FUNCTION CPP "OMeditReferencePositions"
+	ENABLED F
+	UICALLBACK "OnUpdateEditReferencePositions"
+	SPNG 6707
+	LPNG 6708
+	TIP 33550
+	FCAT  "Toolpaths Manager"
+	FNAME "Edit reference positions"
+END_FUNCTION
+
+FUNCTION CPP "OMimportNCI"
+	SPNG 8679
+	LPNG 8680
+	TIP 3861
+	FCAT  "Operations Manager"
+	FNAME "Import NCI"
+END_FUNCTION
+
+FUNCTION CPP "RunBatch"
+	FUNC_DLL "MCMILL.DLL"
+	RES_DLL  "OPMANRES.DLL"
+	SPNG 8724
+	LPNG 8725
+	TIP 132
+	FCAT  "Operations Manager"
+	FNAME "Batch Operations"
+END_FUNCTION
+
+FUNCTION CPP "ConfigureAdvancedToolpathDisplay"
+	HIDDEN
+	TIP 351
+	INLINE
+	FCAT  "Operations Manager"
+	FNAME "Advanced Toolpath Display Settings"
+END_FUNCTION
+
+FUNCTION CPP "ConfigureToolsHoldersColors"
+	HIDDEN
+	TIP 8735
+	INLINE
+	FCAT  "Screen"
+	FNAME "Tools and Holders"
+END_FUNCTION
+
+FUNCTION CPP "OnToggleAdvancedToolpathDisplay"
+	UICALLBACK "OnUpdateAdvancedToolpathDisplay"
+	SPNG 8691
+	LPNG 8692
+	TIP 419
+	INLINE
+	FCAT  "Operations Manager"
+	FNAME "Advanced Toolpath Display Toggle"
+END_FUNCTION
+
+FUNCTION CPP "OnToggleAdvancedToolpathDisplayMidpoints"
+	UICALLBACK "OnUpdateAdvancedToolpathDisplayMidpoints"
+	HIDDEN
+	TIP 418
+	INLINE
+	FCAT  "Operations Manager"
+	FNAME "Midpoints"
+END_FUNCTION
+
+FUNCTION CPP "OnToggleAdvancedToolpathDisplayEndpoints"
+	UICALLBACK "OnUpdateAdvancedToolpathDisplayEndpoints"
+	HIDDEN
+	TIP 417
+	INLINE
+	FCAT  "Operations Manager"
+	FNAME "Endpoints"
+END_FUNCTION
+
+FUNCTION CPP "OnToggleAdvancedToolpathDisplayVectors"
+	UICALLBACK "OnUpdateAdvancedToolpathDisplayVectors"
+	HIDDEN
+	TIP 416
+	INLINE
+	FCAT  "Operations Manager"
+	FNAME "Vectors"
+END_FUNCTION
+
+FUNCTION CPP "OnToggleAdvancedToolpathDisplayDrillCircles"
+	UICALLBACK "OnUpdateAdvancedToolpathDisplayDrillCircles"
+	HIDDEN
+	TIP 529
+	INLINE
+	FCAT  "Operations Manager"
+	FNAME "Drill Tool Diameter"
+END_FUNCTION
+
+FUNCTION CPP "OnToggleAdvancedToolpathDisplayRapids"
+	UICALLBACK "OnUpdateAdvancedToolpathDisplayRapids"
+	HIDDEN
+	TIP 154
+	INLINE
+	FCAT  "Operations Manager"
+	FNAME "Rapid Motion"
+END_FUNCTION
+
+FUNCTION CPP "OnToggleAdvancedToolpathDisplayCutting"
+	UICALLBACK "OnUpdateAdvancedToolpathDisplayCutting"
+	HIDDEN
+	TIP 110
+	INLINE
+	FCAT  "Operations Manager"
+	FNAME "Cutting Motion"
+END_FUNCTION
+
+FUNCTION CPP "OnToggleAdvancedToolpathDisplayRetracts"
+	UICALLBACK "OnUpdateAdvancedToolpathDisplayRetracts"
+	HIDDEN
+	TIP 421
+	INLINE
+	FCAT  "Operations Manager"
+	FNAME "Retract Motion"
+END_FUNCTION
+
+FUNCTION CPP "OnToggleAdvancedToolpathDisplayEntries"
+	UICALLBACK "OnUpdateAdvancedToolpathDisplayEntries"
+	HIDDEN
+	TIP 412
+	INLINE
+	FCAT  "Operations Manager"
+	FNAME "Entry Motion"
+END_FUNCTION
+
+FUNCTION CPP "OnToggleAdvancedToolpathDisplayExits"
+	UICALLBACK "OnUpdateAdvancedToolpathDisplayExits"
+	HIDDEN
+	TIP 413
+	INLINE
+	FCAT  "Operations Manager"
+	FNAME "Exit Motion"
+END_FUNCTION
+
+FUNCTION CPP "OnToggleAdvancedToolpathDisplayMicrolifts"
+	UICALLBACK "OnUpdateAdvancedToolpathDisplayMicrolifts"
+	HIDDEN
+	TIP 422
+	INLINE
+	FCAT  "Operations Manager"
+	FNAME "Microlift Motion"
+END_FUNCTION
+
+FUNCTION CPP "OnToggleAdvancedToolpathDisplayTransitions"
+	UICALLBACK "OnUpdateAdvancedToolpathDisplayTransitions"
+	HIDDEN
+	TIP 414
+	INLINE
+	FCAT  "Operations Manager"
+	FNAME "Transition Motion"
+END_FUNCTION
+
+FUNCTION CPP "OnToggleAdvancedToolpathDisplayDirty"
+	UICALLBACK "OnUpdateAdvancedToolpathDisplayDirty"
+	HIDDEN
+	TIP 547
+	INLINE
+	FCAT  "Operations Manager"
+	FNAME "Dirty Toolpath Motion"
+END_FUNCTION
+
+
+# OPMANAGER ///////////////////////////////////////////////////////////////
+FUNC_DLL "MCCORE.DLL"
+RES_DLL  "MCCORERES.DLL"
+CATEGORY "Hidden"
+
+FUNCTION CPP "highfeed"
+	HIDDEN
+	FCAT  "Hidden"
+	FNAME ""
+END_FUNCTION
+
+FUNCTION CPP "EditOperation"
+	HIDDEN
+	FCAT  "Hidden"
+	FNAME "Edit Operation"
+END_FUNCTION
+
+FUNCTION CPP "EditLatheOperation"
+	HIDDEN
+	FCAT  "Hidden"
+	FNAME "Edit Lathe Operation"
+END_FUNCTION
+
+FUNCTION CPP "EditOperationCoolant2d"
+	CALL_FUNC "EditOperation"
+	PARAM 15
+	HIDDEN
+	FCAT  "Hidden"
+	FNAME ""
+END_FUNCTION
+
+FUNCTION CPP "EditOperationCoolant3d"
+	CALL_FUNC "EditOperation"
+	PARAM 13
+	HIDDEN
+	FCAT  "Hidden"
+	FNAME ""
+END_FUNCTION
+
+FUNCTION CPP "EditLatheOperationCoolant2d"
+	CALL_FUNC "EditLatheOperation"
+	PARAM 15
+	HIDDEN
+	FCAT  "Hidden"
+	FNAME ""
+END_FUNCTION
+
+FUNCTION CPP "EditLatheOperationCoolant3d"
+	CALL_FUNC "EditLatheOperation"
+	PARAM 13
+	HIDDEN
+	FCAT  "Hidden"
+	FNAME ""
+END_FUNCTION
+
+# OPMANAGER TOOLBAR BUTTONS  /////////////////////////////////////////////////
+
+FUNC_DLL "EXE"
+RES_DLL  "OPMANRES.DLL"
+CATEGORY "Hidden"
+
+FUNCTION CPP "OMhelp"
+	INLINE
+	HIDDEN
+	FCAT  "Operations Manager"
+	FNAME "Help"
+END_FUNCTION
+
+FUNCTION CPP "OMOnCut"
+	HIDDEN
+	FCAT  "Operations Manager"
+	FNAME "Cut"
+END_FUNCTION
+
+FUNCTION CPP "OMOnPaste"
+	HIDDEN
+	FCAT  "Operations Manager"
+	FNAME "Paste"
+END_FUNCTION
+
+FUNCTION CPP "OMOnCopy"
+	HIDDEN
+	FCAT  "Operations Manager"
+	FNAME "Copy"
+END_FUNCTION
+
+FUNCTION CPP "OMSelectAll"
+	HIDDEN
+	FCAT  "Operations Manager"
+	FNAME "Select All"
+END_FUNCTION
+
+FUNCTION CPP "OMOnDeleteKey"
+	HIDDEN
+	FCAT  "Operations Manager"
+	FNAME "Delete"
+END_FUNCTION
+
+FUNCTION CPP "OMOnUnDelete"
+	HIDDEN
+	FCAT  "Operations Manager"
+	FNAME "Un-Delete"
+END_FUNCTION
+
+FUNCTION CPP "OMOnEKey"
+	HIDDEN
+	FCAT  "Operations Manager"
+	FNAME ""
+END_FUNCTION
+
+FUNCTION CPP "OMOnTKey"
+	HIDDEN
+	FCAT  "Operations Manager"
+	FNAME ""
+END_FUNCTION
+
+FUNCTION CPP "OMOnPKey"
+	HIDDEN
+	FCAT  "Operations Manager"
+	FNAME ""
+END_FUNCTION
+
+FUNCTION CPP "OMOnLKey"
+	HIDDEN
+	FCAT  "Operations Manager"
+	FNAME ""
+END_FUNCTION
+
+FUNCTION CPP "OMOnAssocDump"
+	HIDDEN
+	FCAT  "Operations Manager"
+	FNAME ""
+END_FUNCTION
+
+FUNCTION CPP "EditGroupPropertiesDlg"
+	HIDDEN
+	FCAT  "Hidden"
+	FNAME ""
+END_FUNCTION
+
+# MCMultiThread - Enable/disable multi-threaded toolpath manager in Mastercam
+
+FUNC_DLL "MCCore.DLL"
+RES_DLL  "MCCoreRes.DLL"
+CATEGORY 10132
+
+FUNCTION CPP "ToggleMultiThreading"
+	UICALLBACK "OnUpdateToggleMultiThreading"
+	SPNG 10464
+	LPNG 10465
+	TIP 10133
+	FCAT  "Multi-Thread Toolpath Manager"
+	FNAME "Toggle Multi-Threading"
+END_FUNCTION
+
+FUNCTION CPP "ToggleMultiThreadDialog"
+	UICALLBACK "OnUpdateToggleMultiThreadDialog"
+	SPNG 10466
+	LPNG 10467
+	TIP 10134
+	INLINE
+	FCAT  "Multi-Thread Toolpath Manager"
+	FNAME "Toggle Multi-Threading Manager"
+END_FUNCTION
+
+CATEGORY 10624
+
+FUNCTION CPP "DeleteAllSyncInfo"
+   SPNG 10468
+   LPNG 10469
+   TIP 10625
+   FCAT  "IOF Utilities"
+   FNAME "Delete All Sync Data"
+END_FUNCTION
+
+# Graphics Overlay ////////////////////////////////////////////////////////
+
+FUNC_DLL "MCCORE.DLL"
+RES_DLL  "MCCORERES.DLL"
+
+FUNCTION CPP "ShowGraphicsOverlay"
+	CALL_FUNC "ShowHideGraphicsOverlay"
+	PARAM 1
+	INLINE
+	HIDDEN
+	FCAT  "Hidden"
+	FNAME "ShowGraphicsOverlay"
+END_FUNCTION
+
+FUNCTION CPP "HideGraphicsOverlay"
+	CALL_FUNC "ShowHideGraphicsOverlay"
+	PARAM 0
+	INLINE
+	HIDDEN
+	FCAT  "Hidden"
+	FNAME "HideGraphicsOverlay"
+END_FUNCTION

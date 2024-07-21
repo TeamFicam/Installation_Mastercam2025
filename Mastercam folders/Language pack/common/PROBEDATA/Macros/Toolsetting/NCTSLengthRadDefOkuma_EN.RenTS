@@ -1,0 +1,182 @@
+; Renishaw Productivity+ Custom Macro
+; Do NOT remove the preceeding line or this macro will not load
+; Definition File for Non-Contact Toolsetting Tool Length/Diameter Setting
+; Version: 0.01.
+
+[FileType]
+; Do NOT remove this section or this Custom Macro will not load
+Product		Renishaw Productivity+
+File		Custom Macro
+Version		0.07.002
+
+[MachineType]
+MACHINETYPE OKUMA
+
+[Toolsetting Type]
+"Non Contact"
+
+; Definition File Language - language of displayable text strings in this file
+[Language]
+English
+
+; Existing Menu Item in application that Custom Macro name and its Parent Menu are to appear under
+; FIELD CAN BE OMITTED
+[Existing Menu]
+"Tool setting"
+
+; Parent Menu - used as parent menu item text 
+; FIELD CAN BE OMITTED
+[Parent Menu]
+"Non Contact (NC1, NC2, NC4...)"
+
+; Custom Macro Name - used as menu item text. ID MUST BE UNIQUE FOR EACH CUSTOM MACRO!
+; FIELD IS COMPULSORY
+[Custom Macro]
+; Name										ID
+"Tool Length/Diameter (Okuma)"						48870
+
+; This field specifies the default name given to a statement of this type
+; The name must NOT include any of the following characters and cannot start with a numeric character
+; {}[]/\:<>@~#-=+()*&^%$£!"`¬|;,.'?
+[Default Statement Name]
+"Length_Diameter"
+
+; Name or Program Number of macro
+[MacroID]
+9862
+
+; Properties - Do not use IDs 1-19
+; Name										ID	Datatype	Default		Range		Category	Output Parameter	Metafile ID (optional)	Help Text			
+[Properties]
+"Measurement Type (B)"						20	MEAS_TYPE	1			{NA}		100				CM_B				11058				"Type of Measurement to perform."
+
+"Do Tolerance Check (H)"					21	YESNO		NO			{NA}		100				-					11058				"Set this value to 'Yes' to perform a tolerance check and pass the tolerance value to the tool setting macro."
+"Tolerance (H)"								22	LINEAR		0.0			GT0			100				CM_H				11058				"Tolerance value that defines when the tool length/diameter is out of tolerance."
+
+"Prevent Out of Tolerance Alarms (M1)"		23	YESNO		NO			{NA}		100				-					11058				"Tool out of tolerance flag. Setting this value to 'Yes' will not raise an Out of Tolerance alarm, but set a variable flag when tool is out of tolerance."
+"Flag to Prevent Out Of Tol Alarms (M1)"	45	INT			1			GT0:LE999	100				CM_M				11058				"The default value for this function is 1 and does not need to be altered. The Out Of Tol alarm will be prevented and a variable flag set if the tool is out of tolerance."
+
+"Use Default Overtravel Distance (Q)"		24	YESNO		YES			{NA}		100				-					11058				"Use the toolsetting macro's default value for Overtravel Distance. Set this value to 'No' to specify a custom Overtravel Distance."
+"Overtravel Distance (Q)"					25	LINEAR		5.0			{NA}		100				CM_Q				11058				"Overtravel distance is the distance through the beam that the tool is permitted to move before a Beam Not Cut alarm is initiated."
+
+"Use Default Spindle Speed (S)"				26	YESNO		YES			{NA}		100				-					11058				"Use the toolsetting macro's default value for Spindle Speed. Set this value to 'No' to specify a custom Spindle Speed."
+"Spindle Speed (S)"							27	INT			3150		GE1			100				CM_S				11058				"Spindle speed at which length/diameter measurement takes place. Measurement cycles are optimised for a spindle speed of 3150 rev/min, though some tools (e.g. those that are unbalanced or large) must be run at slower speeds. It is responsibility of the User to set the spindle speed accordingly, with the minimum speed being 800 rev/min."
+
+"Use Experience Value For Length (J)"		28	YESNO		NO			{NA}		101				-					11058				"Set this value to 'Yes' to pass the Experience Value For Length parameter to the macro."
+"Experience Value For Length (J)"			29	LINEAR		0.0			{NA}		101				CM_J				11058				"This value is the difference between the measured length of the tool and the effective length when the tool is under load during the cutting process."
+
+"Use Current Tool Change ID (T)"			30	YESNO		YES			{NA}		101				-					11058				"When this value is set to 'Yes' the current tool change ID is used as the Length Offset Number. When set to 'No' you can specfy a Length Offset number."
+"Tool Length Offset Number (T)"				31	INT			0			GT0:LE999	101				CM_T				11058				"Length Offset Number. This is the offset location in which the measured tool length is stored."
+
+"Use A Radial Step-over (Y)"				43	YESNO		NO			{NA}		101				-					11058				"Set to 'Yes' to enter a value for the offset across the beam at which length measurement takes place. Set to 'No' to use default."
+"Radial Step-over (Y)"						32	LINEAR		0.			{NA}		101				CM_Y				11058				"Radial step-over for length setting. This is the offset across the beam at which length measurement takes place. The value must be less than the radius of the tool. The tool always comes down first on the beam centre-line."
+
+"Use Diameter Offset Number (D)"			41	YESNO		NO			{NA}		102				-					11058				"Set this value to 'Yes' to pass an offset location in which the measured tool diameter/radius is stored."
+"Tool Diameter Offset Number (D)"			33	INT			0			GT0:LE999	102				CM_D				11058				"Diameter Offset Number. This is the offset location in which the measured tool diameter/radius is stored."
+
+"Use Experience Value For Diameter (I)"		34	YESNO		NO			{NA}		102				-					11058				"Set this value to 'Yes' to pass the Experience Value For Diameter parameter to the macro."
+"Experience Value For Diameter (I)"			35	LINEAR		0.0			{NA}		102				CM_I				11058				"This value is the difference between the measured diameter/radius of the tool and the actual diameter/radius when the tool is under load during the cutting process."
+
+"Specify Tool Diameter (R)"					36	YESNO		NO			{NA}		102				-					11058				"When setting the tool's diameter/radius you do not have to specify the nominal diameter of the tool as the macro will use a predefined maximum value. However by specifying a nominal diameter the cycle time can be reduced."
+"Tool Diameter (R)"							37	LINEAR		0.0			GT0			102				CM_R				11058				"This is the nominal diameter of the tool."
+
+"Use Spindle Axis Search Distance (X)"		40	YESNO		NO			{NA}		102				-					11058				"Set this value to 'Yes' to pass a search distance to the macro"
+"Spindle Axis Search Distance (X)"			38	LINEAR		0			GT0			102				CM_X				11058				"Spindle Axis Search Distance. This defines a search distance above the Z-input measuring height, which can be used to find a radial high spot on the cutter. It is suitable for single-point boring bars and cutters with irregular radial profiles. Cycle time is increased using this input.
+
+"Include a Measuring Height (Z)"			44	YESNO		NO			{NA}		102				-				11058				"Measuring height of tool. This is the Z-axis position from the end face of the tool at which measurement takes place."
+"Measuring Height (Z)"						39	LINEAR		5.0			{NA}		102				CM_Z				11058				"Measuring height of tool. This is the Z-axis position from the end face of the tool at which measurement takes place."
+
+[Visibility]
+PROPERTIES	101
+CTRL_PROPS		20 ("Measurement Type")	
+CTRL_VALUES		1 ("Tool Length")				
+CTRL_VALUES		3 ("Tool Length and Radius")	
+
+PROPERTIES	102
+CTRL_PROPS		20 ("Measurement Type")			
+CTRL_VALUES		2 ("Tool Radius")					
+CTRL_VALUES		3 ("Tool Length and Radius")
+
+PROPERTIES	22
+CTRL_PROPS		21 ("Do Tolerance Check")
+CTRL_VALUES		2 ("YES")
+
+PROPERTIES	23
+CTRL_PROPS		21 ("Do Tolerance Check")
+CTRL_VALUES		2 ("YES")
+
+PROPERTIES	39
+CTRL_PROPS		44 ("Include a Measuring Height (Z)")
+CTRL_VALUES		2 ("NO")
+
+PROPERTIES	32
+CTRL_PROPS		43 ("Use A Radial Step-over (Y)")
+CTRL_VALUES		2 ("NO")
+
+PROPERTIES	25
+CTRL_PROPS		24 ("Use Default Overtravel Distance")
+CTRL_VALUES		1 ("NO")
+
+PROPERTIES	27
+CTRL_PROPS		26 ("Use Default Spindle Speed ")
+CTRL_VALUES		1 ("NO")
+
+PROPERTIES	29
+CTRL_PROPS		28 ("Use Experience Value For Length")
+CTRL_VALUES		2 ("YES")
+
+PROPERTIES	31
+CTRL_PROPS		30 ("Use Current Tool Change ID")
+CTRL_VALUES		1 ("NO")
+
+PROPERTIES	35
+CTRL_PROPS		34 ("Use Experience Value For Diameter")
+CTRL_VALUES		2 ("YES")
+
+PROPERTIES	37
+CTRL_PROPS		36 ("Specify Tool Diameter")
+CTRL_VALUES		2 ("YES")
+
+PROPERTIES	38
+CTRL_PROPS		40 ("Use Spindle Axis Search Distance")
+CTRL_VALUES		2 ("YES")
+
+PROPERTIES	33
+CTRL_PROPS		41 ("Use Diameter Offset Number")
+CTRL_VALUES		2 ("YES")
+
+PROPERTIES	45
+CTRL_PROPS		23 ("Prevent Out of Tolerance Alarms (M1)")
+CTRL_VALUES		2 ("YES")
+
+[Enums]
+; N.B. When post processing, the selected enum item ID will be outputted with the Output Parameter.
+;	e.g.	enum type			: YESNO
+;			selected enum item	: YES
+;			enum item value		: 1
+;			Output Parameter	: CM_B
+;			Output				= B1
+;												ID		Index (order in which they will appear)
+ENUM_NAME		MEAS_TYPE						
+ENUM_ITEM		"Tool Length"					1		0
+ENUM_ITEM		"Tool Radius/Diameter"			2		1
+ENUM_ITEM		"Tool Length and Radius"		3		2
+
+ENUM_NAME		TOL_ALARM						
+ENUM_ITEM		"Yes"							0		0
+ENUM_ITEM		"No"							1		1
+
+
+[Categories]
+; Name							ID
+"Nominals"						100
+"Length Measurement"			101
+"Radius Measurement"			102
+
+[Resources]
+; File name of resource DLL containing metafiles (optional)
+PP_tsToolSettingRes.dll
+
+; The post processor section to call when post processing occurs
+[Post Section]
+TOOLSETTING_CUSTOMMACRO

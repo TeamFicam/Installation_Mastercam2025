@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.5" PrintWidth="9360" DocumentName="ActiveReports Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-family: Arial; font-style: normal; font-variant: inherit; font-weight: normal; font-size: 10pt; font-size-adjust: inherit; font-stretch: inherit; color: rgb(0,0,0); background-repeat: inherit; background-attachment: inherit; opacity: inherit; word-spacing: inherit; letter-spacing: inherit; text-decoration: none; vertical-align: inherit; text-transform: inherit; text-align: inherit; text-indent: inherit; unicode-bidi: inherit; line-height: inherit; white-space: inherit; ddo-char-set: 0" />
+    <Style Name="Heading1" Value="font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: bold; font-size: 16pt; font-size-adjust: inherit; font-stretch: inherit" />
+    <Style Name="Heading2" Value="font-family: Times New Roman; font-style: italic; font-variant: inherit; font-weight: bold; font-size: 14pt; font-size-adjust: inherit; font-stretch: inherit" />
+    <Style Name="Heading3" Value="font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: bold; font-size: 13pt; font-size-adjust: inherit; font-stretch: inherit" />
+  </StyleSheet>
+  <Sections>
+    <Section Type="Detail" Name="Detail" Height="1320" BackColor="16777215" KeepTogether="1">
+      <Control Type="AR.Label" Name="Label8" Left="0" Top="0" Width="7110" Height="270" Caption="TOOL LIST" Style="font-family: Arial Unicode MS; font-size: 9.75pt; font-style: normal; font-weight: bold" />
+      <Control Type="AR.Field" Name="DATE" DataField="DATE-SHORT" Left="7200" Top="0" Width="1080" Height="270" Text="DATE-SHORT" Style="font-family: Arial Unicode MS; font-size: 9.75pt; text-align: left" />
+      <Control Type="AR.Field" Name="TIME" DataField="TIME" Left="8300" Top="0" Width="1080" Height="270" Text="TIME" Style="font-family: Arial Unicode MS; font-size: 9.75pt; text-align: right" />
+      <Control Type="AR.Field" Name="LIBNAME" DataField="LIBNAME" Left="0" Top="270" Width="7110" Height="494.64" Text="LIBNAME" Style="font-family: Arial Unicode MS; font-size: 9.75pt; font-style: italic; font-weight: normal" />
+      <Control Type="AR.Label" Name="Label1" Left="7200" Top="270" Width="1080" Height="270" Caption="FILTERED:" Style="text-align: left; vertical-align: top" />
+      <Control Type="AR.Field" Name="FILTER" DataField="FILTER" Left="8568" Top="270" Width="792.0004" Height="270.72" Text="FILTER" Style="text-align: right" />
+      <Control Type="AR.Line" Name="Line6" X1="0" Y1="270" X2="9360" Y2="270" />
+      <Control Type="AR.Label" Name="Label7" Left="7200" Top="764.64" Width="1728" Height="270.72" Caption="Holder" Style="font-family: Arial Unicode MS; font-size: 9.75pt" />
+      <Control Type="AR.Label" Name="Label6" Left="4824" Top="764.64" Width="864.0001" Height="270.72" Caption="Rad." Style="font-family: Arial Unicode MS; font-size: 9.75pt" />
+      <Control Type="AR.Label" Name="Label2" Left="90.72" Top="764.64" Width="630.72" Height="270.72" Caption="#" Style="font-family: Arial Unicode MS; font-size: 9.75pt" />
+      <Control Type="AR.Label" Name="Label4" Left="3960" Top="764.64" Width="864.0001" Height="270.72" Caption="Dia." Style="font-family: Arial Unicode MS; font-size: 9.75pt" />
+      <Control Type="AR.Label" Name="Label5" Left="720" Top="764.64" Width="3240" Height="270.72" Caption="Tool Name" Style="font-family: Arial Unicode MS; font-size: 9.75pt" />
+      <Control Type="AR.Label" Name="Label9" Left="5760" Top="764.64" Width="1728" Height="270.72" Caption="Assembly" Style="font-family: Arial Unicode MS; font-size: 9.75pt" />
+      <Control Type="AR.Line" Name="Line2" X1="0" Y1="764.64" X2="9360" Y2="764.64" />
+      <Control Type="AR.Subreport" Name="srpt_TOOL" DataField="TOOL" Tag="TOOL" Left="0" Top="1124.64" Width="9360" Height="90" ReportName="-Tool List (MILL-OPMGR).rpx" />
+      <Control Type="AR.Line" Name="Line1" X1="90" Y1="1034.64" X2="9270" Y2="1034.64" />
+    </Section>
+  </Sections>
+  <ReportComponentTray />
+  <DataSources>
+    <XmlDataSource FileURL="..\SST\SAMPLES\MILL\SSM.xml" Pattern="//TOOLS" />
+  </DataSources>
+  <PageSettings />
+  <Parameters />
+</ActiveReportsLayout>

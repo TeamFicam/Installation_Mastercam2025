@@ -1,0 +1,83 @@
+﻿info CPPE4000: Processing Sync Manager Token during Job: JobNumber set to value .
+
+info CPPE4000: Processing Sync Manager Token during Job: ProgrammerName set to value .
+
+info CPPE4000: Processing Sync Manager Token during Job: MaxPolarFeed set to value 2500.
+
+info CPPE4000: Processing Sync Manager Token during Job: MCoolantBed set to value Off.
+
+info CPPE4000: Processing Sync Manager Token during Job: SyncSeqNumInc set to value 1.
+
+info CPPE4000: Processing Sync Manager Token during Job: SyncSeqNumMax set to value 999.
+
+info CPPE4000: Processing Sync Manager Token during Job: SyncSeqNumStart set to value 900.
+
+info CPPE4000: Processing Sync Manager Token during Job: OutputOpName set to value False.
+
+info CPPE4000: Processing Sync Manager Token during Job: SeqNumInc set to value 1.
+
+info CPPE4000: Processing Sync Manager Token during Job: SeqNumMax set to value 9999.
+
+info CPPE4000: Processing Sync Manager Token during Job: SeqNumStart set to value 1.
+
+info CPPE4000: Processing Sync Manager Token during Job: SeqNumType set to value Manual.
+
+info CPPE4000: Processing Sync Manager Token during Job: SpindleSyncMode set to value PhaseSync.
+
+info CPPE4000: Processing Sync Manager Token during Job: TorqueSkipMode set to value False.
+
+info CPPE4000: Processing Sync Manager Token during Operation: ClampBrake set to value Automatic.
+
+info CPPE4001: Processing Sync Manager Token during Operation: ClampBrake.Next set to value Null from operation Next.
+
+info CPPE4000: Processing Sync Manager Token during Operation: CoolantStrategy set to value M08_bf_Appr_And_M09_bf_Retr.
+
+info CPPE4001: Processing Sync Manager Token during Operation: CoolantStrategy.Next set to value Null from operation Next.
+
+info CPPE4000: Processing Sync Manager Token during Operation: FeedRateType set to value Mastercam.
+
+info CPPE4001: Processing Sync Manager Token during Operation: FeedRateType.Next set to value Null from operation Next.
+
+info CPPE4000: Processing Sync Manager Token during Operation: G68OutputOriginShift set to value False.
+
+info CPPE4001: Processing Sync Manager Token during Operation: G68OutputOriginShift.Next set to value Null from operation Next.
+
+info CPPE4000: Processing Sync Manager Token during Operation: HSMode set to value Off.
+
+info CPPE4001: Processing Sync Manager Token during Operation: HSMode.Next set to value Null from operation Next.
+
+info CPPE4000: Processing Sync Manager Token during Operation: HSMRValue set to value 5.
+
+info CPPE4001: Processing Sync Manager Token during Operation: HSMRValue.Next set to value Null from operation Next.
+
+info CPPE4000: Processing Sync Manager Token during Operation: MCAxisSync set to value Off.
+
+info CPPE4001: Processing Sync Manager Token during Operation: MCAxisSync.Next set to value Null from operation Next.
+
+info CPPE4000: Processing Sync Manager Token during Operation: IsPlaneRotation set to value False.
+
+info CPPE4001: Processing Sync Manager Token during Operation: IsPlaneRotation.Next set to value Null from operation Next.
+
+info CPPE4000: Processing Sync Manager Token during Tool Change: ToolNumOverridden set to value 0.
+
+info CPPE4001: Processing Sync Manager Token during Tool Change: ToolNumOverridden.Next set to value Null from operation Next.
+
+info CPPE4000: Processing Sync Manager Token during Approach: ApproachStrategy set to value ZFirst.
+
+info CPPE4001: Processing Sync Manager Token during Approach: ApproachStrategy.Next set to value Null from operation Next.
+
+info CPPE4000: Processing Sync Manager Token during Operation: IsDebugBreakPointSyncManager set to value False.
+
+info CPPE4000: Processing Sync Manager Token during Tool Change: IsDebugBreakPointSyncManager set to value False.
+
+info CPPE4000: Processing Sync Manager Token during Approach: IsDebugBreakPointSyncManager set to value False.
+
+info CPPE4000: Processing Sync Manager Token during Motion: IsDebugBreakPointSyncManager set to value False.
+
+info CPPE4000: Processing Sync Manager Token during Retract: RetractStrategy set to value XFirst.
+
+info CPPE4001: Processing Sync Manager Token during Retract: RetractStrategy.Next set to value Null from operation Next.
+
+info CPPE4000: Processing Sync Manager Token during Retract: IsDebugBreakPointSyncManager set to value False.
+
+

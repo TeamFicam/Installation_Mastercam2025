@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<machine_definition>
+    <machine_data name="9_5XBOSTO_VMCHTBA" version="1.8" units="metric">
+        <view_transform initialvalue="1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000" />
+    </machine_data>
+    <axis id="Y" type="translation" x="0.00000000" y="-1.00000000" z="0.00000000" minvalue="-300.000010" maxvalue="300.000010" valuetype="cont" initial_value="0.000000">
+        <axis id="X" type="translation" x="-1.00000000" y="0.00000000" z="0.00000000" minvalue="-200.000006" maxvalue="1066.800000" valuetype="cont" initial_value="0.000000">
+            <axis id="A" type="rotation" x="1.00000000" y="0.00000000" z="0.00000000" minvalue="-100000.000000" maxvalue="100000.000000" valuetype="cont" initial_value="0.000000" rzx="0.00000000" rzy="0.00000000" rzz="0.00000000">
+                <geometry name="A1" geo="5xbosto_vhtba_a1.stl" clrr="0.00000000" clrg="0.50196081" clrb="0.50196081" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+                <geometry name="A2" geo="5xbosto_vhtba_a2.stl" clrr="0.00000000" clrg="0.50196081" clrb="0.50196081" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+                <geometry name="JAWS" geo="5xbosto_vhtba_jaws.stl" clrr="1.00000000" clrg="0.98431373" clrb="0.94117647" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+                <transform id="workpiece_transform" initialvalue="1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000">
+                    <geometry name="fixture" geo="fixture.stl" clrr="0.50196081" clrg="0.00000000" clrb="0.50196081" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="fixture" />
+                    <geometry name="initialstock" geo="stock.stl" clrr="0.43137255" clrg="0.65882355" clrb="1.00000000" alpha="0.4" reflectivity="0.0" reflectivityBitmapFileName="" objtype="initialstock" />
+                    <geometry name="stock" geo="stock.stl" clrr="0.43137255" clrg="0.65882355" clrb="1.00000000" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="stock" />
+                    <geometry name="toolpath" geo="toolpath.asc" clrr="0.00000000" clrg="0.00000000" clrb="0.00000000" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="toolpath" />
+                    <geometry name="workpiece" geo="werkstueck.stl" clrr="0.41176471" clrg="0.41176471" clrb="0.41176471" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="tablereflection.bmp" objtype="workpiece" />
+                </transform>
+            </axis>
+            <axis id="U" type="translation" x="1.00000000" y="0.00000000" z="0.00000000" minvalue="-254.000000" maxvalue="600.000000" valuetype="cont" initial_value="0.000000">
+                <geometry name="TAIL1" geo="5xbosto_vhtba_tail1.stl" clrr="0.75294119" clrg="0.86274511" clrb="0.75294119" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+                <geometry name="TAIL2" geo="5xbosto_vhtba_tail2.stl" clrr="0.00000000" clrg="0.50196081" clrb="0.50196081" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+                <geometry name="TAIL3" geo="5xbosto_vhtba_tail3.stl" clrr="1.00000000" clrg="0.98431373" clrb="0.94117647" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+            </axis>
+            <geometry name="X1" geo="5xbosto_vhtba_x1.stl" clrr="1.00000000" clrg="0.98431373" clrb="0.94117647" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+            <geometry name="X2" geo="5xbosto_vhtba_x2.stl" clrr="0.75294119" clrg="0.86274511" clrb="0.75294119" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+            <geometry name="X3" geo="5xbosto_vhtba_x3.stl" clrr="0.00000000" clrg="0.50196081" clrb="0.50196081" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+            <geometry name="X4" geo="5xbosto_vhtba_x4.stl" clrr="0.75294119" clrg="0.86274511" clrb="0.75294119" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+        </axis>
+    </axis>
+    <axis id="Z" type="translation" x="0.00000000" y="0.00000000" z="1.00000000" minvalue="-100.000000" maxvalue="800.000000" valuetype="cont" initial_value="0.000000">
+        <axis id="B" type="rotation" x="0.00000000" y="-1.00000000" z="0.00000000" minvalue="-89.000000" maxvalue="30.000000" valuetype="cont" initial_value="0.000000" rzx="0.00000000" rzy="0.00000000" rzz="-133.35000610">
+            <geometry name="B1" geo="5xbosto_vhtba_b1.stl" clrr="0.75294119" clrg="0.86274511" clrb="0.75294119" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+            <geometry name="B2" geo="5xbosto_vhtba_b2.stl" clrr="1.00000000" clrg="0.98431373" clrb="0.94117647" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+            <geometry name="B3" geo="5xbosto_vhtba_b3.stl" clrr="0.00000000" clrg="0.50196081" clrb="0.50196081" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+            <transform id="holder_transform" initialvalue="1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000">
+                <geometry name="tool" geo="tool.stl" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="tablereflection.bmp" objtype="tool" cuttr="1.00000000" cuttg="1.00000000" cuttb="0.00000000" noncuttr="0.86274511" noncuttg="0.86274511" noncuttb="0.86274511" arborr="0.66274512" arborg="0.66274512" arborb="0.66274512" holderr="0.41176471" holderg="0.41176471" holderb="0.41176471" />
+            </transform>
+        </axis>
+        <geometry name="Z1" geo="5xbosto_vhtba_z1.stl" clrr="0.00000000" clrg="0.50196081" clrb="0.50196081" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+        <geometry name="Z2" geo="5xbosto_vhtba_z2.stl" clrr="1.00000000" clrg="0.98431373" clrb="0.94117647" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+    </axis>
+    <collcheck id="cc1" name="cc1" group1="B1,B2,B3,Z1,Z2,tool" dynamic1="true" dynamic2="true" active="true" group2="A1,A2,JAWS,TAIL1,TAIL2,TAIL3,X1,X2,X3,X4,workpiece,fixture" />
+</machine_definition>

@@ -1,0 +1,3649 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SETUPSHEET>
+  <COMPANY>Acme</COMPANY>
+  <USER>Jim Kirk</USER>
+  <BUILD>17.0.0.0</BUILD>
+  <SIM>111-D</SIM>
+  <SOURCE>MASTERCAM</SOURCE>
+  <UNITS>English</UNITS>
+  <VERSION>2019</VERSION>
+  <DATE-LONG>Monday, October 06, 2014</DATE-LONG>
+  <DATE-SHORT>10/6/2014</DATE-SHORT>
+  <TIME>5:37 PM</TIME>
+  <YEAR>2014</YEAR>
+  <MCXFILE-LONG>..\SST\SAMPLES\MILLTURN\MILLTURN.MCAM</MCXFILE-LONG>
+  <MCXFILE-SHORT>MILLTURN.MCAM</MCXFILE-SHORT>
+  <MCXFILE-PATH>..\SST\SAMPLES\MILLTURN</MCXFILE-PATH>
+  <MCXFILE-NAME>MILLTURN</MCXFILE-NAME>
+  <MCXFILE-EXT>MCAM</MCXFILE-EXT>
+  <DESCRIPTION>ABC Test Project</DESCRIPTION>
+  <CUSTOMER>ABC Manufacturing Company</CUSTOMER>
+  <PROGRAMMER>John Barker</PROGRAMMER>
+  <DRAWING-NUMBER>12345</DRAWING-NUMBER>
+  <DRAWING-REVISION>E</DRAWING-REVISION>
+  <NOTE1>_</NOTE1>
+  <NOTE2>_</NOTE2>
+  <NOTE3>_</NOTE3>
+  <DIALOG1>_</DIALOG1>
+  <DIALOG2>_</DIALOG2>
+  <DIALOG3>_</DIALOG3>
+  <DIALOG4>_</DIALOG4>
+  <DIALOG5>_</DIALOG5>
+  <DIALOG6>87-654-32</DIALOG6>
+  <DIALOG7>_</DIALOG7>
+  <DIALOG8>LATHE</DIALOG8>
+  <IMAGE>..\SST\SAMPLES\MILLTURN\SCREEN.BMP</IMAGE>
+  <MACHINE-GROUP-NAME>Machine Group-1</MACHINE-GROUP-NAME>
+  <MACHINE-NAME>Lathe Default</MACHINE-NAME>
+  <MACHINE-TYPE>L</MACHINE-TYPE>
+  <SZ>
+    <SZ-L>
+      <IMAGE>..\SST\SAMPLES\MILLTURN\SZ2.BMP</IMAGE>
+      <MATERIAL>STEEL meter - 4140 - 400 BHN</MATERIAL>
+      <MATERIAL-COMMENT>MEDIUM CARBON - FREE MACHINING</MATERIAL-COMMENT>
+      <CHUCK-LH-ACTIVE>YES</CHUCK-LH-ACTIVE>
+      <CHUCK-LH-GRIP>0.0</CHUCK-LH-GRIP>
+      <CHUCK-LH-HEIGHT>2.0</CHUCK-LH-HEIGHT>
+      <CHUCK-LH-HSTEP>0.25</CHUCK-LH-HSTEP>
+      <CHUCK-LH-POINT>D-1.5, Z0.8365</CHUCK-LH-POINT>
+      <CHUCK-LH-THICKNESS>0.625</CHUCK-LH-THICKNESS>
+      <CHUCK-LH-VSTEP>0.5</CHUCK-LH-VSTEP>
+      <CHUCK-LH-WIDTH>1.5</CHUCK-LH-WIDTH>
+      <CHUCK-RH-ACTIVE>NO</CHUCK-RH-ACTIVE>
+      <CHUCK-RH-GRIP>NA</CHUCK-RH-GRIP>
+      <CHUCK-RH-HEIGHT>NA</CHUCK-RH-HEIGHT>
+      <CHUCK-RH-HSTEP>NA</CHUCK-RH-HSTEP>
+      <CHUCK-RH-POINT>NA</CHUCK-RH-POINT>
+      <CHUCK-RH-THICKNESS>NA</CHUCK-RH-THICKNESS>
+      <CHUCK-RH-VSTEP>NA</CHUCK-RH-VSTEP>
+      <CHUCK-RH-WIDTH>NA</CHUCK-RH-WIDTH>
+      <STOCK-LH-ACTIVE>YES</STOCK-LH-ACTIVE>
+      <STOCK-LH-AXIS>X</STOCK-LH-AXIS>
+      <STOCK-LH-ID>0.0</STOCK-LH-ID>
+      <STOCK-LH-IDN>NA</STOCK-LH-IDN>
+      <STOCK-LH-LENGTH>3.0</STOCK-LH-LENGTH>
+      <STOCK-LH-NAME>NA</STOCK-LH-NAME>
+      <STOCK-LH-OD>1.673</STOCK-LH-OD>
+      <STOCK-LH-DIAMETER>1.673</STOCK-LH-DIAMETER>
+      <STOCK-LH-RADIUS>0.8365</STOCK-LH-RADIUS>
+      <STOCK-LH-SHAPE>Cylinder</STOCK-LH-SHAPE>
+      <STOCK-LH-XYZ>NA</STOCK-LH-XYZ>
+      <STOCK-LH-ZREF>1.007</STOCK-LH-ZREF>
+      <STOCK-RH-ACTIVE>NO</STOCK-RH-ACTIVE>
+      <STOCK-RH-AXIS>NA</STOCK-RH-AXIS>
+      <STOCK-RH-ID>NA</STOCK-RH-ID>
+      <STOCK-RH-IDN>NA</STOCK-RH-IDN>
+      <STOCK-RH-LENGTH>NA</STOCK-RH-LENGTH>
+      <STOCK-RH-NAME>NA</STOCK-RH-NAME>
+      <STOCK-RH-OD>NA</STOCK-RH-OD>
+      <STOCK-RH-DIAMETER>NA</STOCK-RH-DIAMETER>
+      <STOCK-RH-RADIUS>NA</STOCK-RH-RADIUS>
+      <STOCK-RH-SHAPE>NA</STOCK-RH-SHAPE>
+      <STOCK-RH-XYZ>NA</STOCK-RH-XYZ>
+      <STOCK-RH-ZREF>NA</STOCK-RH-ZREF>
+    </SZ-L>
+  </SZ>
+  <NCFILE>
+    <NCIFILE-LONG></NCIFILE-LONG>
+    <NCIFILE-SHORT>T.NCI</NCIFILE-SHORT>
+    <NCIFILE-PATH></NCIFILE-PATH>
+    <NCIFILE-NAME>T</NCIFILE-NAME>
+    <NCIFILE-EXT>NCI</NCIFILE-EXT>
+    <NCFILE-LONG></NCFILE-LONG>
+    <NCFILE-SHORT>T.NC</NCFILE-SHORT>
+    <NCFILE-PATH></NCFILE-PATH>
+    <NCFILE-NAME>T</NCFILE-NAME>
+    <NCFILE-EXT>NC</NCFILE-EXT>
+    <OPERATION>
+      <NAME>Lathe Face</NAME>
+      <OPERATION-L>
+        <TOOLPATH-GROUP-NAME>Toolpath Group #1</TOOLPATH-GROUP-NAME>
+        <NAME>Lathe Face</NAME>
+        <OPIDN>1</OPIDN>
+        <OPNUM>1</OPNUM>
+        <OPCODE>66</OPCODE>
+        <TIME-LONG>0 HOURS, 0 MINUTES, 2 SECONDS</TIME-LONG>
+        <TIME-SHORT>00:00:02</TIME-SHORT>
+        <PROG-NUM>1</PROG-NUM>
+        <SEQ-NUM>1</SEQ-NUM>
+        <SEQ-INCR>1</SEQ-INCR>
+        <MISC-REAL-1>0.0</MISC-REAL-1>
+        <MISC-REAL-2>0.0</MISC-REAL-2>
+        <MISC-REAL-3>0.0</MISC-REAL-3>
+        <MISC-REAL-4>0.0</MISC-REAL-4>
+        <MISC-REAL-5>0.0</MISC-REAL-5>
+        <MISC-REAL-6>0.0</MISC-REAL-6>
+        <MISC-REAL-7>0.0</MISC-REAL-7>
+        <MISC-REAL-8>0.0</MISC-REAL-8>
+        <MISC-REAL-9>0.0</MISC-REAL-9>
+        <MISC-REAL-10>0.0</MISC-REAL-10>
+        <MISC-INT-1>0</MISC-INT-1>
+        <MISC-INT-2>0</MISC-INT-2>
+        <MISC-INT-3>0</MISC-INT-3>
+        <MISC-INT-4>0</MISC-INT-4>
+        <MISC-INT-5>0</MISC-INT-5>
+        <MISC-INT-6>0</MISC-INT-6>
+        <MISC-INT-7>0</MISC-INT-7>
+        <MISC-INT-8>0</MISC-INT-8>
+        <MISC-INT-9>0</MISC-INT-9>
+        <MISC-INT-10>0</MISC-INT-10>
+        <HOMEPOS>D10.0, Z10.0</HOMEPOS>
+        <STOCK-TO-LEAVE-X>NA</STOCK-TO-LEAVE-X>
+        <STOCK-TO-LEAVE-Z>0.0</STOCK-TO-LEAVE-Z>
+        <IMAGE>..\SST\SAMPLES\MILLTURN\OPERATION1.BMP</IMAGE>
+        <COOLANT-OP>Flood</COOLANT-OP>
+        <COOLANT-TL>Flood</COOLANT-TL>
+        <COOLANT>Flood</COOLANT>
+        <BND-MIN-CLEARANCE>0.05</BND-MIN-CLEARANCE>
+        <EEV-MIN-CLEARANCE>0.02</EEV-MIN-CLEARANCE>
+        <ENTRY-ANGLE>0.0</ENTRY-ANGLE>
+        <ENTRY-POINT-ACTIVE>NO</ENTRY-POINT-ACTIVE>
+        <ENTRY-POINT>D0.0, Z0.0</ENTRY-POINT>
+        <EXIT-ANGLE>0.0</EXIT-ANGLE>
+        <LEFT-CHUCK-ID>2153</LEFT-CHUCK-ID>
+        <LEFT-STOCK-ID>2152</LEFT-STOCK-ID>
+        <RETRACT-POINT-ACTIVE>NO</RETRACT-POINT-ACTIVE>
+        <RIGHT-CHUCK-ID>0</RIGHT-CHUCK-ID>
+        <RIGHT-STOCK-ID>0</RIGHT-STOCK-ID>
+        <STEADYREST-ID>0</STEADYREST-ID>
+        <TAILSTOCK-ID>0</TAILSTOCK-ID>
+        <TOOL>
+          <TOOL-L>
+            <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLB20.BMP</IMAGE>
+            <SPINDLE-SPEED-MAX>5000 RPM</SPINDLE-SPEED-MAX>
+            <SPINDLE-SPEED-MAX-VALUE>5000</SPINDLE-SPEED-MAX-VALUE>
+            <DESCRIPTION>T0120:1: General Turning Tool - SCLCR 16-3D [CCMT 32.52]</DESCRIPTION>
+            <TYPE>General Turning Tool</TYPE>
+            <INSERT-UP>NO</INSERT-UP>
+            <METRIC>NO</METRIC>
+            <NAME>SCLCR 16-3D [CCMT 32.52]</NAME>
+            <NUMBER>1</NUMBER>
+            <SLOT>20</SLOT>
+            <STATION>1</STATION>
+            <TOP-TURRET>YES</TOP-TURRET>
+            <ALIAS>T0101</ALIAS>
+            <INFO>R0.0313</INFO>
+            <ACTIVE-SPINDLE>Left</ACTIVE-SPINDLE>
+            <ACTIVE-TURRET>Right</ACTIVE-TURRET>
+            <OFFSET-FRONT>1</OFFSET-FRONT>
+            <OFFSET-BACK>NA</OFFSET-BACK>
+            <HOMEPOS>D16.0, Z7.0</HOMEPOS>
+            <FAST-FEED>0.012 inch/rev</FAST-FEED>
+            <FAST-FEED-VALUE>0.012</FAST-FEED-VALUE>
+            <SLOW-FEED>0.0045 inch/rev</SLOW-FEED>
+            <SLOW-FEED-VALUE>0.0045</SLOW-FEED-VALUE>
+            <SPINDLE-SPEED>400 CSS</SPINDLE-SPEED>
+            <SPINDLE-SPEED-VALUE>400</SPINDLE-SPEED-VALUE>
+            <SPINDLE-DIRECTION>CCW</SPINDLE-DIRECTION>
+            <PCTMATLCSS>100.0</PCTMATLCSS>
+            <PCTMATLREV>100.0</PCTMATLREV>
+            <COOLANT-OP>Flood</COOLANT-OP>
+            <COOLANT-TL>Flood</COOLANT-TL>
+            <COOLANT>Flood</COOLANT>
+            <CLEARANCE-ANGLE>5.0</CLEARANCE-ANGLE>
+            <RAKE-ANGLE>85.0</RAKE-ANGLE>
+            <WIDTH>1.2813</WIDTH>
+            <HEIGHT>0.83</HEIGHT>
+            <CENTER>0.03125, 0.03125</CENTER>
+            <COMPENSATION>Theoretical Sharp Corner</COMPENSATION>
+            <CENTER-COMP>NO</CENTER-COMP>
+            <CSS>YES</CSS>
+            <FACINGTOOL>NO</FACINGTOOL>
+            <HOLDER-ORIENT>1</HOLDER-ORIENT>
+            <IDTOOL>NO</IDTOOL>
+            <INSERT-TYPE>0</INSERT-TYPE>
+            <INVERTED>NO</INVERTED>
+            <LEFTHANDTOOL>NO</LEFTHANDTOOL>
+            <NEWTOOL>NO</NEWTOOL>
+            <NOSE-RADIUS>0.0313</NOSE-RADIUS>
+            <ODTOOL>YES</ODTOOL>
+            <ORIENT>1</ORIENT>
+            <ROUNDSHANKHOLDER>NO</ROUNDSHANKHOLDER>
+            <SHARPCORNERCOMP>YES</SHARPCORNERCOMP>
+            <TIPCOMP>NO</TIPCOMP>
+            <TURRET-ANGLE>0.0</TURRET-ANGLE>
+            <TWOPNTCOMP>NO</TWOPNTCOMP>
+            <HOLDER>
+              <ANGLE>0.0</ANGLE>
+              <CE-END>5.0</CE-END>
+              <CE-SIDE>-5.0</CE-SIDE>
+              <CHAMFER-HEIGHT>0.0</CHAMFER-HEIGHT>
+              <CHAMFER-WIDTH>0.0</CHAMFER-WIDTH>
+              <HAND>Right</HAND>
+              <HEAD-LENGTH>0.83</HEAD-LENGTH>
+              <HEAD-WIDTH>0.25</HEAD-WIDTH>
+              <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLH20.BMP</IMAGE>
+              <LENGTH>6.0</LENGTH>
+              <METRIC>NO</METRIC>
+              <NAME>SCLCR 16-3D</NAME>
+              <ORIENTATION>Vertical</ORIENTATION>
+              <SHANK-HEIGHT>1.0</SHANK-HEIGHT>
+              <SHANK-ROUND>NO</SHANK-ROUND>
+              <SHANK-WIDTH>1.0</SHANK-WIDTH>
+              <SHAPE>9</SHAPE>
+              <TOOLTYPE>General Turning Tool</TOOLTYPE>
+              <WIDTH>1.25</WIDTH>
+            </HOLDER>
+            <INSERT>
+              <IC-DIAMETER>0.375</IC-DIAMETER>
+              <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLI20.BMP</IMAGE>
+              <TYPE>0</TYPE>
+              <LENGTH>0.375</LENGTH>
+              <MATERIAL>Carbide</MATERIAL>
+              <METRIC>NO</METRIC>
+              <NAME>CCMT 32.52</NAME>
+              <RADIUS>0.0313</RADIUS>
+              <SHAPE>C (80 deg. diamond)</SHAPE>
+              <THICKNESS>0.1563</THICKNESS>
+              <WIDTH>0.1563</WIDTH>
+              <ANGLE>NA</ANGLE>
+              <BACKOFF-PCT>NA</BACKOFF-PCT>
+              <CUT-LENGTH>NA</CUT-LENGTH>
+              <END-LENGTH>NA</END-LENGTH>
+              <FINISH-ALLOW>NA</FINISH-ALLOW>
+              <FIRST-DOC>NA</FIRST-DOC>
+              <HEIGHT>NA</HEIGHT>
+              <LAST-DOC>NA</LAST-DOC>
+              <PITCH>NA</PITCH>
+              <POINT-LOC>NA</POINT-LOC>
+              <PULLOFF>NA</PULLOFF>
+              <SHANK-WIDTH>NA</SHANK-WIDTH>
+              <SPRING-CUTS>NA</SPRING-CUTS>
+              <STOCK-CLEARANCE>NA</STOCK-CLEARANCE>
+              <STYLE>NA</STYLE>
+              <THD-EXTERNAL>NA</THD-EXTERNAL>
+              <THD-FLAT-WIDTH>NA</THD-FLAT-WIDTH>
+              <THD-TYPE>NA</THD-TYPE>
+              <RELIEF-ANGLE>C (7 deg.)</RELIEF-ANGLE>
+              <XSECTION>Q</XSECTION>
+              <FINISH-DOC>0.01</FINISH-DOC>
+              <OVERLAP>0.01</OVERLAP>
+              <RETRACT>0.0</RETRACT>
+              <ROUGH-DOC>0.06</ROUGH-DOC>
+              <X-OVERCUT>0.0</X-OVERCUT>
+            </INSERT>
+            <TIME-LONG>0 HOURS, 0 MINUTES, 2 SECONDS</TIME-LONG>
+            <TIME-SHORT>00:00:02</TIME-SHORT>
+            <MIN-X>0.9819</MIN-X>
+            <MIN-Y>0.0</MIN-Y>
+            <MIN-Z>0.0</MIN-Z>
+            <MAX-X>0.9821</MAX-X>
+            <MAX-Y>0.9365</MAX-Y>
+            <MAX-Z>0.0</MAX-Z>
+          </TOOL-L>
+        </TOOL>
+        <OFFSET>
+          <GCODE>G54</GCODE>
+          <NUMBER>0</NUMBER>
+          <ORIGIN>D0.0, Z0.0</ORIGIN>
+          <ORIGIN-WORLD>0.0, 0.0, 0.0</ORIGIN-WORLD>
+          <ORIGIN-VIEW>D0.0, Z0.0</ORIGIN-VIEW>
+          <PLANE-NAME>Right side</PLANE-NAME>
+          <PLANE-NUMBER>5</PLANE-NUMBER>
+          <VIEW>Right side</VIEW>
+          <VNUM>5</VNUM>
+        </OFFSET>
+      </OPERATION-L>
+    </OPERATION>
+    <OPERATION>
+      <NAME>Lathe Rough</NAME>
+      <OPERATION-L>
+        <TOOLPATH-GROUP-NAME>Toolpath Group #1</TOOLPATH-GROUP-NAME>
+        <NAME>Lathe Rough</NAME>
+        <OPIDN>2</OPIDN>
+        <OPNUM>2</OPNUM>
+        <OPCODE>60</OPCODE>
+        <TIME-LONG>0 HOURS, 0 MINUTES, 33 SECONDS</TIME-LONG>
+        <TIME-SHORT>00:00:33</TIME-SHORT>
+        <PROG-NUM>1</PROG-NUM>
+        <SEQ-NUM>1</SEQ-NUM>
+        <SEQ-INCR>1</SEQ-INCR>
+        <MISC-REAL-1>0.0</MISC-REAL-1>
+        <MISC-REAL-2>0.0</MISC-REAL-2>
+        <MISC-REAL-3>0.0</MISC-REAL-3>
+        <MISC-REAL-4>0.0</MISC-REAL-4>
+        <MISC-REAL-5>0.0</MISC-REAL-5>
+        <MISC-REAL-6>0.0</MISC-REAL-6>
+        <MISC-REAL-7>0.0</MISC-REAL-7>
+        <MISC-REAL-8>0.0</MISC-REAL-8>
+        <MISC-REAL-9>0.0</MISC-REAL-9>
+        <MISC-REAL-10>0.0</MISC-REAL-10>
+        <MISC-INT-1>0</MISC-INT-1>
+        <MISC-INT-2>0</MISC-INT-2>
+        <MISC-INT-3>0</MISC-INT-3>
+        <MISC-INT-4>0</MISC-INT-4>
+        <MISC-INT-5>0</MISC-INT-5>
+        <MISC-INT-6>0</MISC-INT-6>
+        <MISC-INT-7>0</MISC-INT-7>
+        <MISC-INT-8>0</MISC-INT-8>
+        <MISC-INT-9>0</MISC-INT-9>
+        <MISC-INT-10>0</MISC-INT-10>
+        <HOMEPOS>D10.0, Z10.0</HOMEPOS>
+        <STOCK-TO-LEAVE-X>0.01</STOCK-TO-LEAVE-X>
+        <STOCK-TO-LEAVE-Z>0.005</STOCK-TO-LEAVE-Z>
+        <IMAGE>..\SST\SAMPLES\MILLTURN\OPERATION2.BMP</IMAGE>
+        <COOLANT-OP>Flood</COOLANT-OP>
+        <COOLANT-TL>Flood</COOLANT-TL>
+        <COOLANT>Flood</COOLANT>
+        <BND-MIN-CLEARANCE>0.05</BND-MIN-CLEARANCE>
+        <EEV-MIN-CLEARANCE>0.02</EEV-MIN-CLEARANCE>
+        <ENTRY-ANGLE>0.0</ENTRY-ANGLE>
+        <ENTRY-POINT-ACTIVE>NO</ENTRY-POINT-ACTIVE>
+        <ENTRY-POINT>D0.0, Z0.0</ENTRY-POINT>
+        <EXIT-ANGLE>0.0</EXIT-ANGLE>
+        <LEFT-CHUCK-ID>2155</LEFT-CHUCK-ID>
+        <LEFT-STOCK-ID>2154</LEFT-STOCK-ID>
+        <RETRACT-POINT-ACTIVE>NO</RETRACT-POINT-ACTIVE>
+        <RIGHT-CHUCK-ID>0</RIGHT-CHUCK-ID>
+        <RIGHT-STOCK-ID>0</RIGHT-STOCK-ID>
+        <STEADYREST-ID>0</STEADYREST-ID>
+        <TAILSTOCK-ID>0</TAILSTOCK-ID>
+        <TOOL>
+          <TOOL-L>
+            <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLB20.BMP</IMAGE>
+            <SPINDLE-SPEED-MAX>5000 RPM</SPINDLE-SPEED-MAX>
+            <SPINDLE-SPEED-MAX-VALUE>5000</SPINDLE-SPEED-MAX-VALUE>
+            <DESCRIPTION>T0120:1: General Turning Tool - SCLCR 16-3D [CCMT 32.52]</DESCRIPTION>
+            <TYPE>General Turning Tool</TYPE>
+            <INSERT-UP>NO</INSERT-UP>
+            <METRIC>NO</METRIC>
+            <NAME>SCLCR 16-3D [CCMT 32.52]</NAME>
+            <NUMBER>1</NUMBER>
+            <SLOT>20</SLOT>
+            <STATION>1</STATION>
+            <TOP-TURRET>YES</TOP-TURRET>
+            <ALIAS>T0101</ALIAS>
+            <INFO>R0.0313</INFO>
+            <ACTIVE-SPINDLE>Left</ACTIVE-SPINDLE>
+            <ACTIVE-TURRET>Right</ACTIVE-TURRET>
+            <OFFSET-FRONT>1</OFFSET-FRONT>
+            <OFFSET-BACK>NA</OFFSET-BACK>
+            <HOMEPOS>D16.0, Z7.0</HOMEPOS>
+            <FAST-FEED>0.0158 inch/rev</FAST-FEED>
+            <FAST-FEED-VALUE>0.0158</FAST-FEED-VALUE>
+            <SLOW-FEED>0.0045 inch/rev</SLOW-FEED>
+            <SLOW-FEED-VALUE>0.0045</SLOW-FEED-VALUE>
+            <SPINDLE-SPEED>400 CSS</SPINDLE-SPEED>
+            <SPINDLE-SPEED-VALUE>400</SPINDLE-SPEED-VALUE>
+            <SPINDLE-DIRECTION>CCW</SPINDLE-DIRECTION>
+            <PCTMATLCSS>100.0</PCTMATLCSS>
+            <PCTMATLREV>100.0</PCTMATLREV>
+            <COOLANT-OP>Flood</COOLANT-OP>
+            <COOLANT-TL>Flood</COOLANT-TL>
+            <COOLANT>Flood</COOLANT>
+            <CLEARANCE-ANGLE>5.0</CLEARANCE-ANGLE>
+            <RAKE-ANGLE>85.0</RAKE-ANGLE>
+            <WIDTH>1.2813</WIDTH>
+            <HEIGHT>0.83</HEIGHT>
+            <CENTER>0.03125, 0.03125</CENTER>
+            <COMPENSATION>Theoretical Sharp Corner</COMPENSATION>
+            <CENTER-COMP>NO</CENTER-COMP>
+            <CSS>YES</CSS>
+            <FACINGTOOL>NO</FACINGTOOL>
+            <HOLDER-ORIENT>1</HOLDER-ORIENT>
+            <IDTOOL>NO</IDTOOL>
+            <INSERT-TYPE>0</INSERT-TYPE>
+            <INVERTED>NO</INVERTED>
+            <LEFTHANDTOOL>NO</LEFTHANDTOOL>
+            <NEWTOOL>NO</NEWTOOL>
+            <NOSE-RADIUS>0.0313</NOSE-RADIUS>
+            <ODTOOL>YES</ODTOOL>
+            <ORIENT>1</ORIENT>
+            <ROUNDSHANKHOLDER>NO</ROUNDSHANKHOLDER>
+            <SHARPCORNERCOMP>YES</SHARPCORNERCOMP>
+            <TIPCOMP>NO</TIPCOMP>
+            <TURRET-ANGLE>0.0</TURRET-ANGLE>
+            <TWOPNTCOMP>NO</TWOPNTCOMP>
+            <HOLDER>
+              <ANGLE>0.0</ANGLE>
+              <CE-END>0.0</CE-END>
+              <CE-SIDE>0.0</CE-SIDE>
+              <CHAMFER-HEIGHT>0.0</CHAMFER-HEIGHT>
+              <CHAMFER-WIDTH>0.0</CHAMFER-WIDTH>
+              <HAND>Right</HAND>
+              <HEAD-LENGTH>0.83</HEAD-LENGTH>
+              <HEAD-WIDTH>0.25</HEAD-WIDTH>
+              <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLH20.BMP</IMAGE>
+              <LENGTH>6.0</LENGTH>
+              <METRIC>NO</METRIC>
+              <NAME>SCLCR 16-3D</NAME>
+              <ORIENTATION>Vertical</ORIENTATION>
+              <SHANK-HEIGHT>1.0</SHANK-HEIGHT>
+              <SHANK-ROUND>NO</SHANK-ROUND>
+              <SHANK-WIDTH>1.0</SHANK-WIDTH>
+              <SHAPE>9</SHAPE>
+              <TOOLTYPE>General Turning Tool</TOOLTYPE>
+              <WIDTH>1.25</WIDTH>
+            </HOLDER>
+            <INSERT>
+              <IC-DIAMETER>0.375</IC-DIAMETER>
+              <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLI20.BMP</IMAGE>
+              <TYPE>0</TYPE>
+              <LENGTH>0.375</LENGTH>
+              <MATERIAL>Carbide</MATERIAL>
+              <METRIC>NO</METRIC>
+              <NAME>CCMT 32.52</NAME>
+              <RADIUS>0.0313</RADIUS>
+              <SHAPE>C (80 deg. diamond)</SHAPE>
+              <THICKNESS>0.1563</THICKNESS>
+              <WIDTH>0.1563</WIDTH>
+              <ANGLE>NA</ANGLE>
+              <BACKOFF-PCT>NA</BACKOFF-PCT>
+              <CUT-LENGTH>NA</CUT-LENGTH>
+              <END-LENGTH>NA</END-LENGTH>
+              <FINISH-ALLOW>NA</FINISH-ALLOW>
+              <FIRST-DOC>NA</FIRST-DOC>
+              <HEIGHT>NA</HEIGHT>
+              <LAST-DOC>NA</LAST-DOC>
+              <PITCH>NA</PITCH>
+              <POINT-LOC>NA</POINT-LOC>
+              <PULLOFF>NA</PULLOFF>
+              <SHANK-WIDTH>NA</SHANK-WIDTH>
+              <SPRING-CUTS>NA</SPRING-CUTS>
+              <STOCK-CLEARANCE>NA</STOCK-CLEARANCE>
+              <STYLE>NA</STYLE>
+              <THD-EXTERNAL>NA</THD-EXTERNAL>
+              <THD-FLAT-WIDTH>NA</THD-FLAT-WIDTH>
+              <THD-TYPE>NA</THD-TYPE>
+              <RELIEF-ANGLE>C (7 deg.)</RELIEF-ANGLE>
+              <XSECTION>Q</XSECTION>
+              <FINISH-DOC>0.01</FINISH-DOC>
+              <OVERLAP>0.01</OVERLAP>
+              <RETRACT>0.0</RETRACT>
+              <ROUGH-DOC>0.06</ROUGH-DOC>
+              <X-OVERCUT>0.0</X-OVERCUT>
+            </INSERT>
+            <TIME-LONG>0 HOURS, 0 MINUTES, 33 SECONDS</TIME-LONG>
+            <TIME-SHORT>00:00:33</TIME-SHORT>
+            <MIN-X>-0.419</MIN-X>
+            <MIN-Y>0.0</MIN-Y>
+            <MIN-Z>0.0</MIN-Z>
+            <MAX-X>1.132</MAX-X>
+            <MAX-Y>0.9072</MAX-Y>
+            <MAX-Z>0.0</MAX-Z>
+          </TOOL-L>
+        </TOOL>
+        <OFFSET>
+          <GCODE>G54</GCODE>
+          <NUMBER>0</NUMBER>
+          <ORIGIN>D0.0, Z0.0</ORIGIN>
+          <ORIGIN-WORLD>0.0, 0.0, 0.0</ORIGIN-WORLD>
+          <ORIGIN-VIEW>D0.0, Z0.0</ORIGIN-VIEW>
+          <PLANE-NAME>Right side</PLANE-NAME>
+          <PLANE-NUMBER>5</PLANE-NUMBER>
+          <VIEW>Right side</VIEW>
+          <VNUM>5</VNUM>
+        </OFFSET>
+      </OPERATION-L>
+    </OPERATION>
+    <OPERATION>
+      <NAME>Lathe Drill</NAME>
+      <OPERATION-L>
+        <TOOLPATH-GROUP-NAME>Toolpath Group #1</TOOLPATH-GROUP-NAME>
+        <NAME>Lathe Drill</NAME>
+        <OPIDN>3</OPIDN>
+        <OPNUM>3</OPNUM>
+        <OPCODE>64</OPCODE>
+        <TIME-LONG>0 HOURS, 0 MINUTES, 15 SECONDS</TIME-LONG>
+        <TIME-SHORT>00:00:15</TIME-SHORT>
+        <PROG-NUM>1</PROG-NUM>
+        <SEQ-NUM>1</SEQ-NUM>
+        <SEQ-INCR>1</SEQ-INCR>
+        <MISC-REAL-1>0.0</MISC-REAL-1>
+        <MISC-REAL-2>0.0</MISC-REAL-2>
+        <MISC-REAL-3>0.0</MISC-REAL-3>
+        <MISC-REAL-4>0.0</MISC-REAL-4>
+        <MISC-REAL-5>0.0</MISC-REAL-5>
+        <MISC-REAL-6>0.0</MISC-REAL-6>
+        <MISC-REAL-7>0.0</MISC-REAL-7>
+        <MISC-REAL-8>0.0</MISC-REAL-8>
+        <MISC-REAL-9>0.0</MISC-REAL-9>
+        <MISC-REAL-10>0.0</MISC-REAL-10>
+        <MISC-INT-1>0</MISC-INT-1>
+        <MISC-INT-2>0</MISC-INT-2>
+        <MISC-INT-3>0</MISC-INT-3>
+        <MISC-INT-4>0</MISC-INT-4>
+        <MISC-INT-5>0</MISC-INT-5>
+        <MISC-INT-6>0</MISC-INT-6>
+        <MISC-INT-7>0</MISC-INT-7>
+        <MISC-INT-8>0</MISC-INT-8>
+        <MISC-INT-9>0</MISC-INT-9>
+        <MISC-INT-10>0</MISC-INT-10>
+        <HOMEPOS>D10.0, Z10.0</HOMEPOS>
+        <STOCK-TO-LEAVE-X>NA</STOCK-TO-LEAVE-X>
+        <STOCK-TO-LEAVE-Z>NA</STOCK-TO-LEAVE-Z>
+        <IMAGE>..\SST\SAMPLES\MILLTURN\OPERATION3.BMP</IMAGE>
+        <COOLANT-OP>Flood</COOLANT-OP>
+        <COOLANT-TL>Flood</COOLANT-TL>
+        <COOLANT>Flood</COOLANT>
+        <BND-MIN-CLEARANCE>0.05</BND-MIN-CLEARANCE>
+        <EEV-MIN-CLEARANCE>0.02</EEV-MIN-CLEARANCE>
+        <ENTRY-ANGLE>0.0</ENTRY-ANGLE>
+        <ENTRY-POINT-ACTIVE>NO</ENTRY-POINT-ACTIVE>
+        <ENTRY-POINT>D0.0, Z0.0</ENTRY-POINT>
+        <EXIT-ANGLE>0.0</EXIT-ANGLE>
+        <LEFT-CHUCK-ID>2157</LEFT-CHUCK-ID>
+        <LEFT-STOCK-ID>2156</LEFT-STOCK-ID>
+        <RETRACT-POINT-ACTIVE>NO</RETRACT-POINT-ACTIVE>
+        <RIGHT-CHUCK-ID>0</RIGHT-CHUCK-ID>
+        <RIGHT-STOCK-ID>0</RIGHT-STOCK-ID>
+        <STEADYREST-ID>0</STEADYREST-ID>
+        <TAILSTOCK-ID>0</TAILSTOCK-ID>
+        <TOOL>
+          <TOOL-L>
+            <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLB310.BMP</IMAGE>
+            <SPINDLE-SPEED-MAX>5000 RPM</SPINDLE-SPEED-MAX>
+            <SPINDLE-SPEED-MAX-VALUE>5000</SPINDLE-SPEED-MAX-VALUE>
+            <DESCRIPTION>T20310:20: Drilling Tool - Lathe Tool #310</DESCRIPTION>
+            <TYPE>Drilling Tool</TYPE>
+            <INSERT-UP>YES</INSERT-UP>
+            <METRIC>NO</METRIC>
+            <NAME>Lathe Tool #310</NAME>
+            <NUMBER>20</NUMBER>
+            <SLOT>310</SLOT>
+            <STATION>20</STATION>
+            <TOP-TURRET>NO</TOP-TURRET>
+            <ALIAS>T2020</ALIAS>
+            <INFO>0.656 Dia.</INFO>
+            <ACTIVE-SPINDLE>Left</ACTIVE-SPINDLE>
+            <ACTIVE-TURRET>Right</ACTIVE-TURRET>
+            <OFFSET-FRONT>20</OFFSET-FRONT>
+            <OFFSET-BACK>NA</OFFSET-BACK>
+            <HOMEPOS>D16.0, Z7.0</HOMEPOS>
+            <FAST-FEED>0.0032 inch/rev</FAST-FEED>
+            <FAST-FEED-VALUE>0.0032</FAST-FEED-VALUE>
+            <SLOW-FEED>0.0 inch/min</SLOW-FEED>
+            <SLOW-FEED-VALUE>0.0</SLOW-FEED-VALUE>
+            <SPINDLE-SPEED>1450 RPM</SPINDLE-SPEED>
+            <SPINDLE-SPEED-VALUE>1450</SPINDLE-SPEED-VALUE>
+            <SPINDLE-DIRECTION>CCW</SPINDLE-DIRECTION>
+            <PCTMATLCSS>100.0</PCTMATLCSS>
+            <PCTMATLREV>100.0</PCTMATLREV>
+            <COOLANT-OP>Flood</COOLANT-OP>
+            <COOLANT-TL>Flood</COOLANT-TL>
+            <COOLANT>Flood</COOLANT>
+            <CLEARANCE-ANGLE>0.0</CLEARANCE-ANGLE>
+            <RAKE-ANGLE>0.0</RAKE-ANGLE>
+            <WIDTH>0.0</WIDTH>
+            <HEIGHT>0.0</HEIGHT>
+            <CENTER>0.0, -0.0</CENTER>
+            <COMPENSATION>Tip of Radius on C/L</COMPENSATION>
+            <CENTER-COMP>NO</CENTER-COMP>
+            <CSS>NO</CSS>
+            <FACINGTOOL>NO</FACINGTOOL>
+            <HOLDER-ORIENT>8</HOLDER-ORIENT>
+            <IDTOOL>YES</IDTOOL>
+            <INSERT-TYPE>4</INSERT-TYPE>
+            <INVERTED>NO</INVERTED>
+            <LEFTHANDTOOL>NO</LEFTHANDTOOL>
+            <NEWTOOL>NO</NEWTOOL>
+            <NOSE-RADIUS>0.0</NOSE-RADIUS>
+            <ODTOOL>NO</ODTOOL>
+            <ORIENT>8</ORIENT>
+            <ROUNDSHANKHOLDER>NO</ROUNDSHANKHOLDER>
+            <SHARPCORNERCOMP>NO</SHARPCORNERCOMP>
+            <TIPCOMP>YES</TIPCOMP>
+            <TURRET-ANGLE>0.0</TURRET-ANGLE>
+            <TWOPNTCOMP>NO</TWOPNTCOMP>
+            <HOLDER>
+              <ANGLE>0.0</ANGLE>
+              <CE-END>0.0</CE-END>
+              <CE-SIDE>0.0</CE-SIDE>
+              <CHAMFER-HEIGHT>0.5</CHAMFER-HEIGHT>
+              <CHAMFER-WIDTH>0.5</CHAMFER-WIDTH>
+              <HAND>Right</HAND>
+              <HEAD-LENGTH>5.0</HEAD-LENGTH>
+              <HEAD-WIDTH>2.0</HEAD-WIDTH>
+              <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLH310.BMP</IMAGE>
+              <LENGTH>10.0</LENGTH>
+              <METRIC>NO</METRIC>
+              <ORIENTATION>Horizontal</ORIENTATION>
+              <SHANK-HEIGHT>0.0</SHANK-HEIGHT>
+              <SHANK-ROUND>NO</SHANK-ROUND>
+              <SHANK-WIDTH>0.0</SHANK-WIDTH>
+              <SHAPE>0</SHAPE>
+              <TOOLTYPE>Drilling Tool</TOOLTYPE>
+              <WIDTH>2.0</WIDTH>
+            </HOLDER>
+            <DRILL>
+              <CHAMFER-HEIGHT>0.1</CHAMFER-HEIGHT>
+              <CUT-LENGTH>5.0</CUT-LENGTH>
+              <FLUTE-ANGLE>30.0</FLUTE-ANGLE>
+              <FLUTE-LENGTH>2.0</FLUTE-LENGTH>
+              <MATERIAL>Carbide</MATERIAL>
+              <NUMBER-OF-FLUTES>2</NUMBER-OF-FLUTES>
+              <NUMBER-OF-THREADS>16.0</NUMBER-OF-THREADS>
+              <SHANK-DIAMETER>0.5</SHANK-DIAMETER>
+              <SHOULDER-ANGLE>60.0</SHOULDER-ANGLE>
+              <TAP-TYPE>1</TAP-TYPE>
+              <TIP-ANGLE>118.0</TIP-ANGLE>
+              <TIP-DIAMETER>0.25</TIP-DIAMETER>
+              <TIP-LENGTH>0.3</TIP-LENGTH>
+              <CYCLE>0</CYCLE>
+              <DIAMETER>0.656</DIAMETER>
+              <DWELL>0.0</DWELL>
+              <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLI310.BMP</IMAGE>
+              <PECK-1>0.0</PECK-1>
+              <PECK-2>0.0</PECK-2>
+              <PECK-CLEARANCE>0.0</PECK-CLEARANCE>
+              <PITCH>0.0625</PITCH>
+              <RETRACT>0.05</RETRACT>
+              <TYPE>Reamer</TYPE>
+            </DRILL>
+            <TIME-LONG>0 HOURS, 0 MINUTES, 15 SECONDS</TIME-LONG>
+            <TIME-SHORT>00:00:15</TIME-SHORT>
+            <MIN-X>0.0</MIN-X>
+            <MIN-Y>-0.0001</MIN-Y>
+            <MIN-Z>0.0</MIN-Z>
+            <MAX-X>1.2</MAX-X>
+            <MAX-Y>0.0001</MAX-Y>
+            <MAX-Z>0.0</MAX-Z>
+          </TOOL-L>
+        </TOOL>
+        <OFFSET>
+          <GCODE>G54</GCODE>
+          <NUMBER>0</NUMBER>
+          <ORIGIN>D0.0, Z0.0</ORIGIN>
+          <ORIGIN-WORLD>0.0, 0.0, 0.0</ORIGIN-WORLD>
+          <ORIGIN-VIEW>D0.0, Z0.0</ORIGIN-VIEW>
+          <PLANE-NAME>Right side</PLANE-NAME>
+          <PLANE-NUMBER>5</PLANE-NUMBER>
+          <VIEW>Right side</VIEW>
+          <VNUM>5</VNUM>
+        </OFFSET>
+      </OPERATION-L>
+    </OPERATION>
+    <OPERATION>
+      <NAME>Lathe Finish</NAME>
+      <OPERATION-L>
+        <TOOLPATH-GROUP-NAME>Toolpath Group #1</TOOLPATH-GROUP-NAME>
+        <NAME>Lathe Finish</NAME>
+        <OPIDN>4</OPIDN>
+        <OPNUM>4</OPNUM>
+        <OPCODE>61</OPCODE>
+        <TIME-LONG>0 HOURS, 0 MINUTES, 3 SECONDS</TIME-LONG>
+        <TIME-SHORT>00:00:03</TIME-SHORT>
+        <PROG-NUM>1</PROG-NUM>
+        <SEQ-NUM>1</SEQ-NUM>
+        <SEQ-INCR>1</SEQ-INCR>
+        <MISC-REAL-1>0.0</MISC-REAL-1>
+        <MISC-REAL-2>0.0</MISC-REAL-2>
+        <MISC-REAL-3>0.0</MISC-REAL-3>
+        <MISC-REAL-4>0.0</MISC-REAL-4>
+        <MISC-REAL-5>0.0</MISC-REAL-5>
+        <MISC-REAL-6>0.0</MISC-REAL-6>
+        <MISC-REAL-7>0.0</MISC-REAL-7>
+        <MISC-REAL-8>0.0</MISC-REAL-8>
+        <MISC-REAL-9>0.0</MISC-REAL-9>
+        <MISC-REAL-10>0.0</MISC-REAL-10>
+        <MISC-INT-1>0</MISC-INT-1>
+        <MISC-INT-2>0</MISC-INT-2>
+        <MISC-INT-3>0</MISC-INT-3>
+        <MISC-INT-4>0</MISC-INT-4>
+        <MISC-INT-5>0</MISC-INT-5>
+        <MISC-INT-6>0</MISC-INT-6>
+        <MISC-INT-7>0</MISC-INT-7>
+        <MISC-INT-8>0</MISC-INT-8>
+        <MISC-INT-9>0</MISC-INT-9>
+        <MISC-INT-10>0</MISC-INT-10>
+        <HOMEPOS>D10.0, Z10.0</HOMEPOS>
+        <STOCK-TO-LEAVE-X>0.0</STOCK-TO-LEAVE-X>
+        <STOCK-TO-LEAVE-Z>0.0</STOCK-TO-LEAVE-Z>
+        <IMAGE>..\SST\SAMPLES\MILLTURN\OPERATION4.BMP</IMAGE>
+        <COOLANT-OP>Flood</COOLANT-OP>
+        <COOLANT-TL>Flood</COOLANT-TL>
+        <COOLANT>Flood</COOLANT>
+        <BND-MIN-CLEARANCE>0.05</BND-MIN-CLEARANCE>
+        <EEV-MIN-CLEARANCE>0.02</EEV-MIN-CLEARANCE>
+        <ENTRY-ANGLE>0.0</ENTRY-ANGLE>
+        <ENTRY-POINT-ACTIVE>NO</ENTRY-POINT-ACTIVE>
+        <ENTRY-POINT>D0.0, Z0.0</ENTRY-POINT>
+        <EXIT-ANGLE>0.0</EXIT-ANGLE>
+        <LEFT-CHUCK-ID>2159</LEFT-CHUCK-ID>
+        <LEFT-STOCK-ID>2158</LEFT-STOCK-ID>
+        <RETRACT-POINT-ACTIVE>NO</RETRACT-POINT-ACTIVE>
+        <RIGHT-CHUCK-ID>0</RIGHT-CHUCK-ID>
+        <RIGHT-STOCK-ID>0</RIGHT-STOCK-ID>
+        <STEADYREST-ID>0</STEADYREST-ID>
+        <TAILSTOCK-ID>0</TAILSTOCK-ID>
+        <TOOL>
+          <TOOL-L>
+            <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLB65.BMP</IMAGE>
+            <SPINDLE-SPEED-MAX>5000 RPM</SPINDLE-SPEED-MAX>
+            <SPINDLE-SPEED-MAX-VALUE>5000</SPINDLE-SPEED-MAX-VALUE>
+            <DESCRIPTION>T0265:2: General Turning Tool -  PDJNR 2525M 11 [R04]</DESCRIPTION>
+            <TYPE>General Turning Tool</TYPE>
+            <INSERT-UP>NO</INSERT-UP>
+            <METRIC>NO</METRIC>
+            <NAME>PDJNR 2525M 11 [R04]</NAME>
+            <NUMBER>2</NUMBER>
+            <SLOT>65</SLOT>
+            <STATION>59</STATION>
+            <TOP-TURRET>YES</TOP-TURRET>
+            <ALIAS>T0202</ALIAS>
+            <INFO>R0.0157</INFO>
+            <ACTIVE-SPINDLE>Left</ACTIVE-SPINDLE>
+            <ACTIVE-TURRET>Right</ACTIVE-TURRET>
+            <OFFSET-FRONT>2</OFFSET-FRONT>
+            <OFFSET-BACK>NA</OFFSET-BACK>
+            <HOMEPOS>D500.0, Z125.0</HOMEPOS>
+            <FAST-FEED>0.003 inch/rev</FAST-FEED>
+            <FAST-FEED-VALUE>0.003</FAST-FEED-VALUE>
+            <SLOW-FEED>0.0039 inch/rev</SLOW-FEED>
+            <SLOW-FEED-VALUE>0.0039</SLOW-FEED-VALUE>
+            <SPINDLE-SPEED>600 CSS</SPINDLE-SPEED>
+            <SPINDLE-SPEED-VALUE>600</SPINDLE-SPEED-VALUE>
+            <SPINDLE-DIRECTION>CCW</SPINDLE-DIRECTION>
+            <PCTMATLCSS>100.0</PCTMATLCSS>
+            <PCTMATLREV>100.0</PCTMATLREV>
+            <COOLANT-OP>Flood</COOLANT-OP>
+            <COOLANT-TL>Flood</COOLANT-TL>
+            <COOLANT>Flood</COOLANT>
+            <CLEARANCE-ANGLE>32.0</CLEARANCE-ANGLE>
+            <RAKE-ANGLE>87.0</RAKE-ANGLE>
+            <WIDTH>32.4</WIDTH>
+            <HEIGHT>30.0</HEIGHT>
+            <CENTER>0.4, 0.4</CENTER>
+            <COMPENSATION>Theoretical Sharp Corner</COMPENSATION>
+            <CENTER-COMP>NO</CENTER-COMP>
+            <CSS>YES</CSS>
+            <FACINGTOOL>NO</FACINGTOOL>
+            <HOLDER-ORIENT>1</HOLDER-ORIENT>
+            <IDTOOL>NO</IDTOOL>
+            <INSERT-TYPE>0</INSERT-TYPE>
+            <INVERTED>NO</INVERTED>
+            <LEFTHANDTOOL>NO</LEFTHANDTOOL>
+            <NEWTOOL>NO</NEWTOOL>
+            <NOSE-RADIUS>0.4</NOSE-RADIUS>
+            <ODTOOL>YES</ODTOOL>
+            <ORIENT>1</ORIENT>
+            <ROUNDSHANKHOLDER>NO</ROUNDSHANKHOLDER>
+            <SHARPCORNERCOMP>YES</SHARPCORNERCOMP>
+            <TIPCOMP>NO</TIPCOMP>
+            <TURRET-ANGLE>0.0</TURRET-ANGLE>
+            <TWOPNTCOMP>NO</TWOPNTCOMP>
+            <HOLDER>
+              <ANGLE>0.0</ANGLE>
+              <CE-END>32.0</CE-END>
+              <CE-SIDE>-3.0</CE-SIDE>
+              <CHAMFER-HEIGHT>0.0</CHAMFER-HEIGHT>
+              <CHAMFER-WIDTH>0.0</CHAMFER-WIDTH>
+              <HAND>Right</HAND>
+              <HEAD-LENGTH>30.0</HEAD-LENGTH>
+              <HEAD-WIDTH>6.0</HEAD-WIDTH>
+              <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLH65.BMP</IMAGE>
+              <LENGTH>150.0</LENGTH>
+              <METRIC>YES</METRIC>
+              <NAME>PDJNR 2525M 11</NAME>
+              <ORIENTATION>Vertical</ORIENTATION>
+              <SHANK-HEIGHT>25.0</SHANK-HEIGHT>
+              <SHANK-ROUND>NO</SHANK-ROUND>
+              <SHANK-WIDTH>25.0</SHANK-WIDTH>
+              <SHAPE>7</SHAPE>
+              <TOOLTYPE>General Turning Tool</TOOLTYPE>
+              <WIDTH>32.0</WIDTH>
+            </HOLDER>
+            <INSERT>
+              <IC-DIAMETER>11.0</IC-DIAMETER>
+              <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLI65.BMP</IMAGE>
+              <TYPE>0</TYPE>
+              <LENGTH>11.0</LENGTH>
+              <MATERIAL>Carbide</MATERIAL>
+              <METRIC>YES</METRIC>
+              <NAME>DNMG 11 04 04</NAME>
+              <RADIUS>0.0157</RADIUS>
+              <SHAPE>D (55 deg. diamond)</SHAPE>
+              <THICKNESS>4.76</THICKNESS>
+              <WIDTH>5.0</WIDTH>
+              <ANGLE>NA</ANGLE>
+              <BACKOFF-PCT>NA</BACKOFF-PCT>
+              <CUT-LENGTH>NA</CUT-LENGTH>
+              <END-LENGTH>NA</END-LENGTH>
+              <FINISH-ALLOW>NA</FINISH-ALLOW>
+              <FIRST-DOC>NA</FIRST-DOC>
+              <HEIGHT>NA</HEIGHT>
+              <LAST-DOC>NA</LAST-DOC>
+              <PITCH>NA</PITCH>
+              <POINT-LOC>NA</POINT-LOC>
+              <PULLOFF>NA</PULLOFF>
+              <SHANK-WIDTH>NA</SHANK-WIDTH>
+              <SPRING-CUTS>NA</SPRING-CUTS>
+              <STOCK-CLEARANCE>NA</STOCK-CLEARANCE>
+              <STYLE>NA</STYLE>
+              <THD-EXTERNAL>NA</THD-EXTERNAL>
+              <THD-FLAT-WIDTH>NA</THD-FLAT-WIDTH>
+              <THD-TYPE>NA</THD-TYPE>
+              <RELIEF-ANGLE>N (0 deg.)</RELIEF-ANGLE>
+              <XSECTION>E</XSECTION>
+              <FINISH-DOC>0.25</FINISH-DOC>
+              <OVERLAP>0.25</OVERLAP>
+              <RETRACT>0.0</RETRACT>
+              <ROUGH-DOC>2.0</ROUGH-DOC>
+              <X-OVERCUT>0.0</X-OVERCUT>
+            </INSERT>
+            <TIME-LONG>0 HOURS, 0 MINUTES, 3 SECONDS</TIME-LONG>
+            <TIME-SHORT>00:00:03</TIME-SHORT>
+            <MIN-X>-0.0032</MIN-X>
+            <MIN-Y>0.0</MIN-Y>
+            <MIN-Z>0.0</MIN-Z>
+            <MAX-X>0.1555</MAX-X>
+            <MAX-Y>0.7153</MAX-Y>
+            <MAX-Z>0.0</MAX-Z>
+          </TOOL-L>
+        </TOOL>
+        <OFFSET>
+          <GCODE>G54</GCODE>
+          <NUMBER>0</NUMBER>
+          <ORIGIN>D0.0, Z0.0</ORIGIN>
+          <ORIGIN-WORLD>0.0, 0.0, 0.0</ORIGIN-WORLD>
+          <ORIGIN-VIEW>D0.0, Z0.0</ORIGIN-VIEW>
+          <PLANE-NAME>Right side</PLANE-NAME>
+          <PLANE-NUMBER>5</PLANE-NUMBER>
+          <VIEW>Right side</VIEW>
+          <VNUM>5</VNUM>
+        </OFFSET>
+      </OPERATION-L>
+    </OPERATION>
+    <OPERATION>
+      <NAME>Lathe Finish</NAME>
+      <OPERATION-L>
+        <TOOLPATH-GROUP-NAME>Toolpath Group #1</TOOLPATH-GROUP-NAME>
+        <NAME>Lathe Finish</NAME>
+        <OPIDN>5</OPIDN>
+        <OPNUM>5</OPNUM>
+        <OPCODE>61</OPCODE>
+        <TIME-LONG>0 HOURS, 0 MINUTES, 21 SECONDS</TIME-LONG>
+        <TIME-SHORT>00:00:21</TIME-SHORT>
+        <PROG-NUM>1</PROG-NUM>
+        <SEQ-NUM>1</SEQ-NUM>
+        <SEQ-INCR>1</SEQ-INCR>
+        <MISC-REAL-1>0.0</MISC-REAL-1>
+        <MISC-REAL-2>0.0</MISC-REAL-2>
+        <MISC-REAL-3>0.0</MISC-REAL-3>
+        <MISC-REAL-4>0.0</MISC-REAL-4>
+        <MISC-REAL-5>0.0</MISC-REAL-5>
+        <MISC-REAL-6>0.0</MISC-REAL-6>
+        <MISC-REAL-7>0.0</MISC-REAL-7>
+        <MISC-REAL-8>0.0</MISC-REAL-8>
+        <MISC-REAL-9>0.0</MISC-REAL-9>
+        <MISC-REAL-10>0.0</MISC-REAL-10>
+        <MISC-INT-1>0</MISC-INT-1>
+        <MISC-INT-2>0</MISC-INT-2>
+        <MISC-INT-3>0</MISC-INT-3>
+        <MISC-INT-4>0</MISC-INT-4>
+        <MISC-INT-5>0</MISC-INT-5>
+        <MISC-INT-6>0</MISC-INT-6>
+        <MISC-INT-7>0</MISC-INT-7>
+        <MISC-INT-8>0</MISC-INT-8>
+        <MISC-INT-9>0</MISC-INT-9>
+        <MISC-INT-10>0</MISC-INT-10>
+        <HOMEPOS>D10.0, Z10.0</HOMEPOS>
+        <STOCK-TO-LEAVE-X>0.0</STOCK-TO-LEAVE-X>
+        <STOCK-TO-LEAVE-Z>0.0</STOCK-TO-LEAVE-Z>
+        <IMAGE>..\SST\SAMPLES\MILLTURN\OPERATION5.BMP</IMAGE>
+        <COOLANT-OP>Flood</COOLANT-OP>
+        <COOLANT-TL>Flood</COOLANT-TL>
+        <COOLANT>Flood</COOLANT>
+        <BND-MIN-CLEARANCE>0.05</BND-MIN-CLEARANCE>
+        <EEV-MIN-CLEARANCE>0.02</EEV-MIN-CLEARANCE>
+        <ENTRY-ANGLE>0.0</ENTRY-ANGLE>
+        <ENTRY-POINT-ACTIVE>NO</ENTRY-POINT-ACTIVE>
+        <ENTRY-POINT>D0.0, Z0.0</ENTRY-POINT>
+        <EXIT-ANGLE>0.0</EXIT-ANGLE>
+        <LEFT-CHUCK-ID>2161</LEFT-CHUCK-ID>
+        <LEFT-STOCK-ID>2160</LEFT-STOCK-ID>
+        <RETRACT-POINT-ACTIVE>NO</RETRACT-POINT-ACTIVE>
+        <RIGHT-CHUCK-ID>0</RIGHT-CHUCK-ID>
+        <RIGHT-STOCK-ID>0</RIGHT-STOCK-ID>
+        <STEADYREST-ID>0</STEADYREST-ID>
+        <TAILSTOCK-ID>0</TAILSTOCK-ID>
+        <TOOL>
+          <TOOL-L>
+            <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLB65.BMP</IMAGE>
+            <SPINDLE-SPEED-MAX>5000 RPM</SPINDLE-SPEED-MAX>
+            <SPINDLE-SPEED-MAX-VALUE>5000</SPINDLE-SPEED-MAX-VALUE>
+            <DESCRIPTION>T0265:2: General Turning Tool -  PDJNR 2525M 11 [R04]</DESCRIPTION>
+            <TYPE>General Turning Tool</TYPE>
+            <INSERT-UP>NO</INSERT-UP>
+            <METRIC>NO</METRIC>
+            <NAME>PDJNR 2525M 11 [R04]</NAME>
+            <NUMBER>2</NUMBER>
+            <SLOT>65</SLOT>
+            <STATION>2</STATION>
+            <TOP-TURRET>YES</TOP-TURRET>
+            <ALIAS>T0202</ALIAS>
+            <INFO>R0.0157</INFO>
+            <ACTIVE-SPINDLE>Left</ACTIVE-SPINDLE>
+            <ACTIVE-TURRET>Right</ACTIVE-TURRET>
+            <OFFSET-FRONT>2</OFFSET-FRONT>
+            <OFFSET-BACK>NA</OFFSET-BACK>
+            <HOMEPOS>D500.0, Z125.0</HOMEPOS>
+            <FAST-FEED>0.003 inch/rev</FAST-FEED>
+            <FAST-FEED-VALUE>0.003</FAST-FEED-VALUE>
+            <SLOW-FEED>0.0039 inch/rev</SLOW-FEED>
+            <SLOW-FEED-VALUE>0.0039</SLOW-FEED-VALUE>
+            <SPINDLE-SPEED>600 CSS</SPINDLE-SPEED>
+            <SPINDLE-SPEED-VALUE>600</SPINDLE-SPEED-VALUE>
+            <SPINDLE-DIRECTION>CCW</SPINDLE-DIRECTION>
+            <PCTMATLCSS>100.0</PCTMATLCSS>
+            <PCTMATLREV>100.0</PCTMATLREV>
+            <COOLANT-OP>Flood</COOLANT-OP>
+            <COOLANT-TL>Flood</COOLANT-TL>
+            <COOLANT>Flood</COOLANT>
+            <CLEARANCE-ANGLE>32.0</CLEARANCE-ANGLE>
+            <RAKE-ANGLE>87.0</RAKE-ANGLE>
+            <WIDTH>32.4</WIDTH>
+            <HEIGHT>30.0</HEIGHT>
+            <CENTER>0.4, 0.4</CENTER>
+            <COMPENSATION>Theoretical Sharp Corner</COMPENSATION>
+            <CENTER-COMP>NO</CENTER-COMP>
+            <CSS>YES</CSS>
+            <FACINGTOOL>NO</FACINGTOOL>
+            <HOLDER-ORIENT>1</HOLDER-ORIENT>
+            <IDTOOL>NO</IDTOOL>
+            <INSERT-TYPE>0</INSERT-TYPE>
+            <INVERTED>NO</INVERTED>
+            <LEFTHANDTOOL>NO</LEFTHANDTOOL>
+            <NEWTOOL>NO</NEWTOOL>
+            <NOSE-RADIUS>0.4</NOSE-RADIUS>
+            <ODTOOL>YES</ODTOOL>
+            <ORIENT>1</ORIENT>
+            <ROUNDSHANKHOLDER>NO</ROUNDSHANKHOLDER>
+            <SHARPCORNERCOMP>YES</SHARPCORNERCOMP>
+            <TIPCOMP>NO</TIPCOMP>
+            <TURRET-ANGLE>0.0</TURRET-ANGLE>
+            <TWOPNTCOMP>NO</TWOPNTCOMP>
+            <HOLDER>
+              <ANGLE>0.0</ANGLE>
+              <CE-END>32.0</CE-END>
+              <CE-SIDE>0.0</CE-SIDE>
+              <CHAMFER-HEIGHT>0.0</CHAMFER-HEIGHT>
+              <CHAMFER-WIDTH>0.0</CHAMFER-WIDTH>
+              <HAND>Right</HAND>
+              <HEAD-LENGTH>30.0</HEAD-LENGTH>
+              <HEAD-WIDTH>6.0</HEAD-WIDTH>
+              <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLH65.BMP</IMAGE>
+              <LENGTH>150.0</LENGTH>
+              <METRIC>YES</METRIC>
+              <NAME>PDJNR 2525M 11</NAME>
+              <ORIENTATION>Vertical</ORIENTATION>
+              <SHANK-HEIGHT>25.0</SHANK-HEIGHT>
+              <SHANK-ROUND>NO</SHANK-ROUND>
+              <SHANK-WIDTH>25.0</SHANK-WIDTH>
+              <SHAPE>7</SHAPE>
+              <TOOLTYPE>General Turning Tool</TOOLTYPE>
+              <WIDTH>32.0</WIDTH>
+            </HOLDER>
+            <INSERT>
+              <IC-DIAMETER>11.0</IC-DIAMETER>
+              <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLI65.BMP</IMAGE>
+              <TYPE>0</TYPE>
+              <LENGTH>11.0</LENGTH>
+              <MATERIAL>Carbide</MATERIAL>
+              <METRIC>YES</METRIC>
+              <NAME>DNMG 11 04 04</NAME>
+              <RADIUS>0.0157</RADIUS>
+              <SHAPE>D (55 deg. diamond)</SHAPE>
+              <THICKNESS>4.76</THICKNESS>
+              <WIDTH>5.0</WIDTH>
+              <ANGLE>NA</ANGLE>
+              <BACKOFF-PCT>NA</BACKOFF-PCT>
+              <CUT-LENGTH>NA</CUT-LENGTH>
+              <END-LENGTH>NA</END-LENGTH>
+              <FINISH-ALLOW>NA</FINISH-ALLOW>
+              <FIRST-DOC>NA</FIRST-DOC>
+              <HEIGHT>NA</HEIGHT>
+              <LAST-DOC>NA</LAST-DOC>
+              <PITCH>NA</PITCH>
+              <POINT-LOC>NA</POINT-LOC>
+              <PULLOFF>NA</PULLOFF>
+              <SHANK-WIDTH>NA</SHANK-WIDTH>
+              <SPRING-CUTS>NA</SPRING-CUTS>
+              <STOCK-CLEARANCE>NA</STOCK-CLEARANCE>
+              <STYLE>NA</STYLE>
+              <THD-EXTERNAL>NA</THD-EXTERNAL>
+              <THD-FLAT-WIDTH>NA</THD-FLAT-WIDTH>
+              <THD-TYPE>NA</THD-TYPE>
+              <RELIEF-ANGLE>N (0 deg.)</RELIEF-ANGLE>
+              <XSECTION>E</XSECTION>
+              <FINISH-DOC>0.25</FINISH-DOC>
+              <OVERLAP>0.25</OVERLAP>
+              <RETRACT>0.0</RETRACT>
+              <ROUGH-DOC>2.0</ROUGH-DOC>
+              <X-OVERCUT>0.0</X-OVERCUT>
+            </INSERT>
+            <TIME-LONG>0 HOURS, 0 MINUTES, 21 SECONDS</TIME-LONG>
+            <TIME-SHORT>00:00:21</TIME-SHORT>
+            <MIN-X>-0.424</MIN-X>
+            <MIN-Y>0.0</MIN-Y>
+            <MIN-Z>0.0</MIN-Z>
+            <MAX-X>1.132</MAX-X>
+            <MAX-Y>0.9072</MAX-Y>
+            <MAX-Z>0.0</MAX-Z>
+          </TOOL-L>
+        </TOOL>
+        <OFFSET>
+          <GCODE>G54</GCODE>
+          <NUMBER>0</NUMBER>
+          <ORIGIN>D0.0, Z0.0</ORIGIN>
+          <ORIGIN-WORLD>0.0, 0.0, 0.0</ORIGIN-WORLD>
+          <ORIGIN-VIEW>D0.0, Z0.0</ORIGIN-VIEW>
+          <PLANE-NAME>Right side</PLANE-NAME>
+          <PLANE-NUMBER>5</PLANE-NUMBER>
+          <VIEW>Right side</VIEW>
+          <VNUM>5</VNUM>
+        </OFFSET>
+      </OPERATION-L>
+    </OPERATION>
+    <OPERATION>
+      <NAME>Lathe Rough</NAME>
+      <OPERATION-L>
+        <TOOLPATH-GROUP-NAME>Toolpath Group #1</TOOLPATH-GROUP-NAME>
+        <NAME>Lathe Rough</NAME>
+        <OPIDN>7</OPIDN>
+        <OPNUM>6</OPNUM>
+        <OPCODE>60</OPCODE>
+        <TIME-LONG>0 HOURS, 0 MINUTES, 10 SECONDS</TIME-LONG>
+        <TIME-SHORT>00:00:10</TIME-SHORT>
+        <PROG-NUM>1</PROG-NUM>
+        <SEQ-NUM>1</SEQ-NUM>
+        <SEQ-INCR>1</SEQ-INCR>
+        <MISC-REAL-1>0.0</MISC-REAL-1>
+        <MISC-REAL-2>0.0</MISC-REAL-2>
+        <MISC-REAL-3>0.0</MISC-REAL-3>
+        <MISC-REAL-4>0.0</MISC-REAL-4>
+        <MISC-REAL-5>0.0</MISC-REAL-5>
+        <MISC-REAL-6>0.0</MISC-REAL-6>
+        <MISC-REAL-7>0.0</MISC-REAL-7>
+        <MISC-REAL-8>0.0</MISC-REAL-8>
+        <MISC-REAL-9>0.0</MISC-REAL-9>
+        <MISC-REAL-10>0.0</MISC-REAL-10>
+        <MISC-INT-1>0</MISC-INT-1>
+        <MISC-INT-2>0</MISC-INT-2>
+        <MISC-INT-3>0</MISC-INT-3>
+        <MISC-INT-4>0</MISC-INT-4>
+        <MISC-INT-5>0</MISC-INT-5>
+        <MISC-INT-6>0</MISC-INT-6>
+        <MISC-INT-7>0</MISC-INT-7>
+        <MISC-INT-8>0</MISC-INT-8>
+        <MISC-INT-9>0</MISC-INT-9>
+        <MISC-INT-10>0</MISC-INT-10>
+        <HOMEPOS>D10.0, Z10.0</HOMEPOS>
+        <STOCK-TO-LEAVE-X>0.01</STOCK-TO-LEAVE-X>
+        <STOCK-TO-LEAVE-Z>0.005</STOCK-TO-LEAVE-Z>
+        <IMAGE>..\SST\SAMPLES\MILLTURN\OPERATION7.BMP</IMAGE>
+        <COOLANT-OP>Flood</COOLANT-OP>
+        <COOLANT-TL>Flood</COOLANT-TL>
+        <COOLANT>Flood</COOLANT>
+        <BND-MIN-CLEARANCE>0.05</BND-MIN-CLEARANCE>
+        <EEV-MIN-CLEARANCE>0.02</EEV-MIN-CLEARANCE>
+        <ENTRY-ANGLE>-57.2958</ENTRY-ANGLE>
+        <ENTRY-POINT-ACTIVE>NO</ENTRY-POINT-ACTIVE>
+        <ENTRY-POINT>D0.0, Z0.0</ENTRY-POINT>
+        <EXIT-ANGLE>0.0</EXIT-ANGLE>
+        <LEFT-CHUCK-ID>2163</LEFT-CHUCK-ID>
+        <LEFT-STOCK-ID>2162</LEFT-STOCK-ID>
+        <RETRACT-POINT-ACTIVE>NO</RETRACT-POINT-ACTIVE>
+        <RIGHT-CHUCK-ID>0</RIGHT-CHUCK-ID>
+        <RIGHT-STOCK-ID>0</RIGHT-STOCK-ID>
+        <STEADYREST-ID>0</STEADYREST-ID>
+        <TAILSTOCK-ID>0</TAILSTOCK-ID>
+        <TOOL>
+          <TOOL-L>
+            <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLB29.BMP</IMAGE>
+            <SPINDLE-SPEED-MAX>5000 RPM</SPINDLE-SPEED-MAX>
+            <SPINDLE-SPEED-MAX-VALUE>5000</SPINDLE-SPEED-MAX-VALUE>
+            <DESCRIPTION>T4429:44: Boring Bar - ID Finish .1875 dia. / 55 deg.</DESCRIPTION>
+            <TYPE>Boring Tool</TYPE>
+            <INSERT-UP>NO</INSERT-UP>
+            <METRIC>NO</METRIC>
+            <NAME>ID Finish .1875 dia. / 55 deg.</NAME>
+            <NUMBER>44</NUMBER>
+            <SLOT>29</SLOT>
+            <STATION>44</STATION>
+            <TOP-TURRET>YES</TOP-TURRET>
+            <ALIAS>T4444</ALIAS>
+            <INFO>R0.0078</INFO>
+            <ACTIVE-SPINDLE>Left</ACTIVE-SPINDLE>
+            <ACTIVE-TURRET>Right</ACTIVE-TURRET>
+            <OFFSET-FRONT>44</OFFSET-FRONT>
+            <OFFSET-BACK>NA</OFFSET-BACK>
+            <HOMEPOS>D16.0, Z7.0</HOMEPOS>
+            <FAST-FEED>0.0118 inch/rev</FAST-FEED>
+            <FAST-FEED-VALUE>0.0118</FAST-FEED-VALUE>
+            <SLOW-FEED>0.0 inch/min</SLOW-FEED>
+            <SLOW-FEED-VALUE>0.0</SLOW-FEED-VALUE>
+            <SPINDLE-SPEED>295 CSS</SPINDLE-SPEED>
+            <SPINDLE-SPEED-VALUE>295</SPINDLE-SPEED-VALUE>
+            <SPINDLE-DIRECTION>CCW</SPINDLE-DIRECTION>
+            <PCTMATLCSS>100.0</PCTMATLCSS>
+            <PCTMATLREV>100.0</PCTMATLREV>
+            <COOLANT-OP>Flood</COOLANT-OP>
+            <COOLANT-TL>Flood</COOLANT-TL>
+            <COOLANT>Flood</COOLANT>
+            <CLEARANCE-ANGLE>5.0</CLEARANCE-ANGLE>
+            <RAKE-ANGLE>60.0</RAKE-ANGLE>
+            <WIDTH>0.1172</WIDTH>
+            <HEIGHT>0.0983</HEIGHT>
+            <CENTER>0.00781, -0.00781</CENTER>
+            <COMPENSATION>Theoretical Sharp Corner</COMPENSATION>
+            <CENTER-COMP>NO</CENTER-COMP>
+            <CSS>NO</CSS>
+            <FACINGTOOL>NO</FACINGTOOL>
+            <HOLDER-ORIENT>8</HOLDER-ORIENT>
+            <IDTOOL>YES</IDTOOL>
+            <INSERT-TYPE>3</INSERT-TYPE>
+            <INVERTED>NO</INVERTED>
+            <LEFTHANDTOOL>NO</LEFTHANDTOOL>
+            <NEWTOOL>NO</NEWTOOL>
+            <NOSE-RADIUS>0.0078</NOSE-RADIUS>
+            <ODTOOL>NO</ODTOOL>
+            <ORIENT>8</ORIENT>
+            <ROUNDSHANKHOLDER>YES</ROUNDSHANKHOLDER>
+            <SHARPCORNERCOMP>YES</SHARPCORNERCOMP>
+            <TIPCOMP>NO</TIPCOMP>
+            <TURRET-ANGLE>0.0</TURRET-ANGLE>
+            <TWOPNTCOMP>NO</TWOPNTCOMP>
+            <HOLDER>
+              <ANGLE>0.0</ANGLE>
+              <CE-END>5.0</CE-END>
+              <CE-SIDE>-30.0</CE-SIDE>
+              <CHAMFER-HEIGHT>0.0938</CHAMFER-HEIGHT>
+              <CHAMFER-WIDTH>0.0938</CHAMFER-WIDTH>
+              <HAND>Right</HAND>
+              <HEAD-LENGTH>0.1875</HEAD-LENGTH>
+              <HEAD-WIDTH>1.25</HEAD-WIDTH>
+              <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLH29.BMP</IMAGE>
+              <LENGTH>4.0</LENGTH>
+              <METRIC>NO</METRIC>
+              <ORIENTATION>Horizontal</ORIENTATION>
+              <SHANK-HEIGHT>1.0</SHANK-HEIGHT>
+              <SHANK-ROUND>NO</SHANK-ROUND>
+              <SHANK-WIDTH>0.1875</SHANK-WIDTH>
+              <SHAPE>3</SHAPE>
+              <TOOLTYPE>Boring Tool</TOOLTYPE>
+              <WIDTH>0.1094</WIDTH>
+            </HOLDER>
+            <INSERT>
+              <IC-DIAMETER>0.0938</IC-DIAMETER>
+              <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLI29.BMP</IMAGE>
+              <TYPE>3</TYPE>
+              <LENGTH>0.0938</LENGTH>
+              <MATERIAL>Carbide</MATERIAL>
+              <METRIC>NO</METRIC>
+              <RADIUS>0.0078</RADIUS>
+              <SHAPE>D (55 deg. diamond)</SHAPE>
+              <THICKNESS>0.0781</THICKNESS>
+              <WIDTH>0.1563</WIDTH>
+              <ANGLE>NA</ANGLE>
+              <BACKOFF-PCT>NA</BACKOFF-PCT>
+              <CUT-LENGTH>NA</CUT-LENGTH>
+              <END-LENGTH>NA</END-LENGTH>
+              <FINISH-ALLOW>NA</FINISH-ALLOW>
+              <FIRST-DOC>NA</FIRST-DOC>
+              <HEIGHT>NA</HEIGHT>
+              <LAST-DOC>NA</LAST-DOC>
+              <PITCH>NA</PITCH>
+              <POINT-LOC>NA</POINT-LOC>
+              <PULLOFF>NA</PULLOFF>
+              <SHANK-WIDTH>NA</SHANK-WIDTH>
+              <SPRING-CUTS>NA</SPRING-CUTS>
+              <STOCK-CLEARANCE>NA</STOCK-CLEARANCE>
+              <STYLE>NA</STYLE>
+              <THD-EXTERNAL>NA</THD-EXTERNAL>
+              <THD-FLAT-WIDTH>NA</THD-FLAT-WIDTH>
+              <THD-TYPE>NA</THD-TYPE>
+              <RELIEF-ANGLE>N (0 deg.)</RELIEF-ANGLE>
+              <XSECTION>E</XSECTION>
+              <FINISH-DOC>0.01</FINISH-DOC>
+              <OVERLAP>0.01</OVERLAP>
+              <RETRACT>0.0</RETRACT>
+              <ROUGH-DOC>0.1</ROUGH-DOC>
+              <X-OVERCUT>0.0</X-OVERCUT>
+            </INSERT>
+            <TIME-LONG>0 HOURS, 0 MINUTES, 10 SECONDS</TIME-LONG>
+            <TIME-SHORT>00:00:10</TIME-SHORT>
+            <MIN-X>-0.015</MIN-X>
+            <MIN-Y>0.0</MIN-Y>
+            <MIN-Z>0.0</MIN-Z>
+            <MAX-X>1.0174</MAX-X>
+            <MAX-Y>0.4639</MAX-Y>
+            <MAX-Z>0.0</MAX-Z>
+          </TOOL-L>
+        </TOOL>
+        <OFFSET>
+          <GCODE>G54</GCODE>
+          <NUMBER>0</NUMBER>
+          <ORIGIN>D0.0, Z0.0</ORIGIN>
+          <ORIGIN-WORLD>0.0, 0.0, 0.0</ORIGIN-WORLD>
+          <ORIGIN-VIEW>D0.0, Z0.0</ORIGIN-VIEW>
+          <PLANE-NAME>Right side</PLANE-NAME>
+          <PLANE-NUMBER>5</PLANE-NUMBER>
+          <VIEW>Right side</VIEW>
+          <VNUM>5</VNUM>
+        </OFFSET>
+      </OPERATION-L>
+    </OPERATION>
+    <OPERATION>
+      <NAME>Lathe Finish</NAME>
+      <OPERATION-L>
+        <TOOLPATH-GROUP-NAME>Toolpath Group #1</TOOLPATH-GROUP-NAME>
+        <NAME>Lathe Finish</NAME>
+        <OPIDN>8</OPIDN>
+        <OPNUM>7</OPNUM>
+        <OPCODE>61</OPCODE>
+        <TIME-LONG>0 HOURS, 0 MINUTES, 4 SECONDS</TIME-LONG>
+        <TIME-SHORT>00:00:04</TIME-SHORT>
+        <PROG-NUM>1</PROG-NUM>
+        <SEQ-NUM>1</SEQ-NUM>
+        <SEQ-INCR>1</SEQ-INCR>
+        <MISC-REAL-1>0.0</MISC-REAL-1>
+        <MISC-REAL-2>0.0</MISC-REAL-2>
+        <MISC-REAL-3>0.0</MISC-REAL-3>
+        <MISC-REAL-4>0.0</MISC-REAL-4>
+        <MISC-REAL-5>0.0</MISC-REAL-5>
+        <MISC-REAL-6>0.0</MISC-REAL-6>
+        <MISC-REAL-7>0.0</MISC-REAL-7>
+        <MISC-REAL-8>0.0</MISC-REAL-8>
+        <MISC-REAL-9>0.0</MISC-REAL-9>
+        <MISC-REAL-10>0.0</MISC-REAL-10>
+        <MISC-INT-1>0</MISC-INT-1>
+        <MISC-INT-2>0</MISC-INT-2>
+        <MISC-INT-3>0</MISC-INT-3>
+        <MISC-INT-4>0</MISC-INT-4>
+        <MISC-INT-5>0</MISC-INT-5>
+        <MISC-INT-6>0</MISC-INT-6>
+        <MISC-INT-7>0</MISC-INT-7>
+        <MISC-INT-8>0</MISC-INT-8>
+        <MISC-INT-9>0</MISC-INT-9>
+        <MISC-INT-10>0</MISC-INT-10>
+        <HOMEPOS>D10.0, Z10.0</HOMEPOS>
+        <STOCK-TO-LEAVE-X>0.0</STOCK-TO-LEAVE-X>
+        <STOCK-TO-LEAVE-Z>0.0</STOCK-TO-LEAVE-Z>
+        <IMAGE>..\SST\SAMPLES\MILLTURN\OPERATION8.BMP</IMAGE>
+        <COOLANT-OP>Flood</COOLANT-OP>
+        <COOLANT-TL>Flood</COOLANT-TL>
+        <COOLANT>Flood</COOLANT>
+        <BND-MIN-CLEARANCE>0.05</BND-MIN-CLEARANCE>
+        <EEV-MIN-CLEARANCE>0.02</EEV-MIN-CLEARANCE>
+        <ENTRY-ANGLE>0.0</ENTRY-ANGLE>
+        <ENTRY-POINT-ACTIVE>NO</ENTRY-POINT-ACTIVE>
+        <ENTRY-POINT>D0.0, Z0.0</ENTRY-POINT>
+        <EXIT-ANGLE>0.0</EXIT-ANGLE>
+        <LEFT-CHUCK-ID>2165</LEFT-CHUCK-ID>
+        <LEFT-STOCK-ID>2164</LEFT-STOCK-ID>
+        <RETRACT-POINT-ACTIVE>NO</RETRACT-POINT-ACTIVE>
+        <RIGHT-CHUCK-ID>0</RIGHT-CHUCK-ID>
+        <RIGHT-STOCK-ID>0</RIGHT-STOCK-ID>
+        <STEADYREST-ID>0</STEADYREST-ID>
+        <TAILSTOCK-ID>0</TAILSTOCK-ID>
+        <TOOL>
+          <TOOL-L>
+            <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLB29.BMP</IMAGE>
+            <SPINDLE-SPEED-MAX>5000 RPM</SPINDLE-SPEED-MAX>
+            <SPINDLE-SPEED-MAX-VALUE>5000</SPINDLE-SPEED-MAX-VALUE>
+            <DESCRIPTION>T4429:44: Boring Bar - ID Finish .1875 dia. / 55 deg.</DESCRIPTION>
+            <TYPE>Boring Tool</TYPE>
+            <INSERT-UP>NO</INSERT-UP>
+            <METRIC>NO</METRIC>
+            <NAME>ID Finish .1875 dia. / 55 deg.</NAME>
+            <NUMBER>44</NUMBER>
+            <SLOT>29</SLOT>
+            <STATION>44</STATION>
+            <TOP-TURRET>YES</TOP-TURRET>
+            <ALIAS>T4444</ALIAS>
+            <INFO>R0.0078</INFO>
+            <ACTIVE-SPINDLE>Left</ACTIVE-SPINDLE>
+            <ACTIVE-TURRET>Right</ACTIVE-TURRET>
+            <OFFSET-FRONT>44</OFFSET-FRONT>
+            <OFFSET-BACK>NA</OFFSET-BACK>
+            <HOMEPOS>D16.0, Z7.0</HOMEPOS>
+            <FAST-FEED>0.0118 inch/rev</FAST-FEED>
+            <FAST-FEED-VALUE>0.0118</FAST-FEED-VALUE>
+            <SLOW-FEED>0.0 inch/min</SLOW-FEED>
+            <SLOW-FEED-VALUE>0.0</SLOW-FEED-VALUE>
+            <SPINDLE-SPEED>295 CSS</SPINDLE-SPEED>
+            <SPINDLE-SPEED-VALUE>295</SPINDLE-SPEED-VALUE>
+            <SPINDLE-DIRECTION>CCW</SPINDLE-DIRECTION>
+            <PCTMATLCSS>100.0</PCTMATLCSS>
+            <PCTMATLREV>100.0</PCTMATLREV>
+            <COOLANT-OP>Flood</COOLANT-OP>
+            <COOLANT-TL>Flood</COOLANT-TL>
+            <COOLANT>Flood</COOLANT>
+            <CLEARANCE-ANGLE>5.0</CLEARANCE-ANGLE>
+            <RAKE-ANGLE>60.0</RAKE-ANGLE>
+            <WIDTH>0.1172</WIDTH>
+            <HEIGHT>0.0983</HEIGHT>
+            <CENTER>0.00781, -0.00781</CENTER>
+            <COMPENSATION>Theoretical Sharp Corner</COMPENSATION>
+            <CENTER-COMP>NO</CENTER-COMP>
+            <CSS>NO</CSS>
+            <FACINGTOOL>NO</FACINGTOOL>
+            <HOLDER-ORIENT>8</HOLDER-ORIENT>
+            <IDTOOL>YES</IDTOOL>
+            <INSERT-TYPE>3</INSERT-TYPE>
+            <INVERTED>NO</INVERTED>
+            <LEFTHANDTOOL>NO</LEFTHANDTOOL>
+            <NEWTOOL>NO</NEWTOOL>
+            <NOSE-RADIUS>0.0078</NOSE-RADIUS>
+            <ODTOOL>NO</ODTOOL>
+            <ORIENT>8</ORIENT>
+            <ROUNDSHANKHOLDER>YES</ROUNDSHANKHOLDER>
+            <SHARPCORNERCOMP>YES</SHARPCORNERCOMP>
+            <TIPCOMP>NO</TIPCOMP>
+            <TURRET-ANGLE>0.0</TURRET-ANGLE>
+            <TWOPNTCOMP>NO</TWOPNTCOMP>
+            <HOLDER>
+              <ANGLE>0.0</ANGLE>
+              <CE-END>0.0</CE-END>
+              <CE-SIDE>0.0</CE-SIDE>
+              <CHAMFER-HEIGHT>0.0</CHAMFER-HEIGHT>
+              <CHAMFER-WIDTH>0.0</CHAMFER-WIDTH>
+              <HAND>Right</HAND>
+              <HEAD-LENGTH>1.5</HEAD-LENGTH>
+              <HEAD-WIDTH>1.25</HEAD-WIDTH>
+              <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLH29.BMP</IMAGE>
+              <LENGTH>4.0</LENGTH>
+              <METRIC>NO</METRIC>
+              <ORIENTATION>Horizontal</ORIENTATION>
+              <SHANK-HEIGHT>1.0</SHANK-HEIGHT>
+              <SHANK-ROUND>NO</SHANK-ROUND>
+              <SHANK-WIDTH>0.1875</SHANK-WIDTH>
+              <SHAPE>3</SHAPE>
+              <TOOLTYPE>Boring Tool</TOOLTYPE>
+              <WIDTH>0.1094</WIDTH>
+            </HOLDER>
+            <INSERT>
+              <IC-DIAMETER>0.0938</IC-DIAMETER>
+              <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLI29.BMP</IMAGE>
+              <TYPE>3</TYPE>
+              <LENGTH>0.0938</LENGTH>
+              <MATERIAL>Carbide</MATERIAL>
+              <METRIC>NO</METRIC>
+              <RADIUS>0.0078</RADIUS>
+              <SHAPE>D (55 deg. diamond)</SHAPE>
+              <THICKNESS>0.0781</THICKNESS>
+              <WIDTH>0.1563</WIDTH>
+              <ANGLE>NA</ANGLE>
+              <BACKOFF-PCT>NA</BACKOFF-PCT>
+              <CUT-LENGTH>NA</CUT-LENGTH>
+              <END-LENGTH>NA</END-LENGTH>
+              <FINISH-ALLOW>NA</FINISH-ALLOW>
+              <FIRST-DOC>NA</FIRST-DOC>
+              <HEIGHT>NA</HEIGHT>
+              <LAST-DOC>NA</LAST-DOC>
+              <PITCH>NA</PITCH>
+              <POINT-LOC>NA</POINT-LOC>
+              <PULLOFF>NA</PULLOFF>
+              <SHANK-WIDTH>NA</SHANK-WIDTH>
+              <SPRING-CUTS>NA</SPRING-CUTS>
+              <STOCK-CLEARANCE>NA</STOCK-CLEARANCE>
+              <STYLE>NA</STYLE>
+              <THD-EXTERNAL>NA</THD-EXTERNAL>
+              <THD-FLAT-WIDTH>NA</THD-FLAT-WIDTH>
+              <THD-TYPE>NA</THD-TYPE>
+              <RELIEF-ANGLE>N (0 deg.)</RELIEF-ANGLE>
+              <XSECTION>E</XSECTION>
+              <FINISH-DOC>0.01</FINISH-DOC>
+              <OVERLAP>0.01</OVERLAP>
+              <RETRACT>0.0</RETRACT>
+              <ROUGH-DOC>0.1</ROUGH-DOC>
+              <X-OVERCUT>0.0</X-OVERCUT>
+            </INSERT>
+            <TIME-LONG>0 HOURS, 0 MINUTES, 4 SECONDS</TIME-LONG>
+            <TIME-SHORT>00:00:04</TIME-SHORT>
+            <MIN-X>-0.02</MIN-X>
+            <MIN-Y>0.0</MIN-Y>
+            <MIN-Z>0.0</MIN-Z>
+            <MAX-X>1.006</MAX-X>
+            <MAX-Y>0.5222</MAX-Y>
+            <MAX-Z>0.0</MAX-Z>
+          </TOOL-L>
+        </TOOL>
+        <OFFSET>
+          <GCODE>G54</GCODE>
+          <NUMBER>0</NUMBER>
+          <ORIGIN>D0.0, Z0.0</ORIGIN>
+          <ORIGIN-WORLD>0.0, 0.0, 0.0</ORIGIN-WORLD>
+          <ORIGIN-VIEW>D0.0, Z0.0</ORIGIN-VIEW>
+          <PLANE-NAME>Right side</PLANE-NAME>
+          <PLANE-NUMBER>5</PLANE-NUMBER>
+          <VIEW>Right side</VIEW>
+          <VNUM>5</VNUM>
+        </OFFSET>
+      </OPERATION-L>
+    </OPERATION>
+    <OPERATION>
+      <NAME>C-Axis Cross Drill - Simple drill - no peck</NAME>
+      <OPERATION-M>
+        <TOOLPATH-GROUP-NAME>Toolpath Group #1</TOOLPATH-GROUP-NAME>
+        <NAME>C-Axis Cross Drill - Simple drill - no peck</NAME>
+        <OPIDN>11</OPIDN>
+        <OPNUM>8</OPNUM>
+        <OPCODE>56</OPCODE>
+        <COMMENT>C-axis Cross Drill</COMMENT>
+        <IMAGE>..\SST\SAMPLES\MILLTURN\OPERATION11.BMP</IMAGE>
+        <COOLANT-OP>Flood</COOLANT-OP>
+        <COOLANT-TL>Flood</COOLANT-TL>
+        <COOLANT>Flood</COOLANT>
+        <CLEARANCE-ACTIVE>NO</CLEARANCE-ACTIVE>
+        <CLEARANCE-PLANE>1.2</CLEARANCE-PLANE>
+        <COMP2TIP>NO</COMP2TIP>
+        <DEPTH>-0.31</DEPTH>
+        <FEED-PLANE>0.6002</FEED-PLANE>
+        <PROG-NUM>1</PROG-NUM>
+        <RAPID-RETRACT>NO</RAPID-RETRACT>
+        <RETRACT-ACTIVE>YES</RETRACT-ACTIVE>
+        <RETRACT-PLANE>0.0</RETRACT-PLANE>
+        <SEQ-INCR>1</SEQ-INCR>
+        <SEQ-NUM>1</SEQ-NUM>
+        <STOCK-TO-LEAVE>0.0</STOCK-TO-LEAVE>
+        <STOCK-TO-LEAVE-XY>0.0</STOCK-TO-LEAVE-XY>
+        <STOCK-TO-LEAVE-Z>0.0</STOCK-TO-LEAVE-Z>
+        <STOCK-TO-LEAVE-CHK>0.0</STOCK-TO-LEAVE-CHK>
+        <TIME-LONG>0 HOURS, 0 MINUTES, 7 SECONDS</TIME-LONG>
+        <TIME-SHORT>00:00:07</TIME-SHORT>
+        <TOP-STOCK>0.0</TOP-STOCK>
+        <TOLERANCE>0.0001</TOLERANCE>
+        <TOTAL-TOLERANCE>0.0011</TOTAL-TOLERANCE>
+        <MAX-STEPOVER>NA</MAX-STEPOVER>
+        <MAXSTEP>NA</MAXSTEP>
+        <MAX-STEPDOWN>NA</MAX-STEPDOWN>
+        <CC-DIRECTION>Left</CC-DIRECTION>
+        <CC-ROLL>Sharp</CC-ROLL>
+        <CC-TYPE>Off</CC-TYPE>
+        <HOMEPOS>10.0, 5.0, 0.0</HOMEPOS>
+        <FEEDRATE>5.0 inch/min</FEEDRATE>
+        <FEEDRATE-VALUE>5.0</FEEDRATE-VALUE>
+        <SPINDLE-SPEED>275 RPM</SPINDLE-SPEED>
+        <SPINDLE-SPEED-VALUE>275</SPINDLE-SPEED-VALUE>
+        <TPLANE-ACTIVE>YES</TPLANE-ACTIVE>
+        <TPLANE-ORIGIN>0.0, 0.0, 0.0</TPLANE-ORIGIN>
+        <TPLANE-ORIGIN-WORLD>0.0, 0.0, 0.0</TPLANE-ORIGIN-WORLD>
+        <TPLANE-ORIGIN-VIEW>0.0, 0.0, 0.0</TPLANE-ORIGIN-VIEW>
+        <TPLANE-PLANE-NAME>Back</TPLANE-PLANE-NAME>
+        <TPLANE-PLANE-NUMBER>3</TPLANE-PLANE-NUMBER>
+        <TPLANE-VIEW>Back</TPLANE-VIEW>
+        <TPLANE-VNUM>3</TPLANE-VNUM>
+        <TPLANE-WOFF>1</TPLANE-WOFF>
+        <TPLANE-WOFF-GCODE>G55</TPLANE-WOFF-GCODE>
+        <CPLANE-ACTIVE>YES</CPLANE-ACTIVE>
+        <CPLANE-ORIGIN>0.0, 0.0, 0.0</CPLANE-ORIGIN>
+        <CPLANE-ORIGIN-WORLD>0.0, 0.0, 0.0</CPLANE-ORIGIN-WORLD>
+        <CPLANE-ORIGIN-VIEW>0.0, 0.0, 0.0</CPLANE-ORIGIN-VIEW>
+        <CPLANE-PLANE-NAME>Back</CPLANE-PLANE-NAME>
+        <CPLANE-PLANE-NUMBER>3</CPLANE-PLANE-NUMBER>
+        <CPLANE-VIEW>Back</CPLANE-VIEW>
+        <CPLANE-VNUM>3</CPLANE-VNUM>
+        <WCS-ACTIVE>YES</WCS-ACTIVE>
+        <WCS-ORIGIN>0.0, 0.0, 0.0</WCS-ORIGIN>
+        <WCS-ORIGIN-WORLD>0.0, 0.0, 0.0</WCS-ORIGIN-WORLD>
+        <WCS-ORIGIN-VIEW>0.0, 0.0, 0.0</WCS-ORIGIN-VIEW>
+        <WCS-PLANE-NAME>Top</WCS-PLANE-NAME>
+        <WCS-PLANE-NUMBER>1</WCS-PLANE-NUMBER>
+        <WCS-VIEW>Top</WCS-VIEW>
+        <WCS-VNUM>1</WCS-VNUM>
+        <MISC-REAL-1>0.0</MISC-REAL-1>
+        <MISC-REAL-2>0.0</MISC-REAL-2>
+        <MISC-REAL-3>0.0</MISC-REAL-3>
+        <MISC-REAL-4>0.0</MISC-REAL-4>
+        <MISC-REAL-5>0.0</MISC-REAL-5>
+        <MISC-REAL-6>0.0</MISC-REAL-6>
+        <MISC-REAL-7>0.0</MISC-REAL-7>
+        <MISC-REAL-8>0.0</MISC-REAL-8>
+        <MISC-REAL-9>0.0</MISC-REAL-9>
+        <MISC-REAL-10>0.0</MISC-REAL-10>
+        <MISC-INT-1>0</MISC-INT-1>
+        <MISC-INT-2>0</MISC-INT-2>
+        <MISC-INT-3>0</MISC-INT-3>
+        <MISC-INT-4>0</MISC-INT-4>
+        <MISC-INT-5>0</MISC-INT-5>
+        <MISC-INT-6>0</MISC-INT-6>
+        <MISC-INT-7>0</MISC-INT-7>
+        <MISC-INT-8>0</MISC-INT-8>
+        <MISC-INT-9>0</MISC-INT-9>
+        <MISC-INT-10>0</MISC-INT-10>
+        <MIN-X>0.5119</MIN-X>
+        <MIN-Y>-0.2902</MIN-Y>
+        <MIN-Z>-0.0001</MIN-Z>
+        <MAX-X>0.5121</MAX-X>
+        <MAX-Y>0.6002</MAX-Y>
+        <MAX-Z>0.0001</MAX-Z>
+        <TOOL>
+          <TOOL-M>
+            <COMMENT>1/4 CENTERDRILL</COMMENT>
+            <TIME-LONG>0 HOURS, 0 MINUTES, 7 SECONDS</TIME-LONG>
+            <TIME-SHORT>00:00:07</TIME-SHORT>
+            <COOLANT-OP>Flood</COOLANT-OP>
+            <COOLANT-TL>Flood</COOLANT-TL>
+            <COOLANT>Flood</COOLANT>
+            <CORNER-RADIUS>0.0</CORNER-RADIUS>
+            <CORNER-RADIUS-TYPE>None</CORNER-RADIUS-TYPE>
+            <DESCRIPTION>#2:1 - 0.2500 CENTER DRILL - 1/4 CENTERDRILL</DESCRIPTION>
+            <NAME>1/4 CENTERDRILL</NAME>
+            <DIAMETER>0.25</DIAMETER>
+            <RADIUS>0.125</RADIUS>
+            <DIAMETER-OFFSET>2</DIAMETER-OFFSET>
+            <FLUTES>2</FLUTES>
+            <LENGTH-OFFSET>2</LENGTH-OFFSET>
+            <MATERIAL>HSS</MATERIAL>
+            <METRIC>NO</METRIC>
+            <MC>CTRDRILL.MCX-9</MC>
+            <NUMBER>2</NUMBER>
+            <ALIAS>T0202</ALIAS>
+            <STATION>-1</STATION>
+            <ACTIVE-SPINDLE>Left</ACTIVE-SPINDLE>
+            <ACTIVE-TURRET>Right</ACTIVE-TURRET>
+            <FEEDRATE>5.0 inch/min</FEEDRATE>
+            <FEEDRATE-VALUE>5.0</FEEDRATE-VALUE>
+            <PLUNGE>1.0696 inch/min</PLUNGE>
+            <PLUNGE-VALUE>1.0696</PLUNGE-VALUE>
+            <RETRACT>1.0696 inch/min</RETRACT>
+            <RETRACT-VALUE>1.0696</RETRACT-VALUE>
+            <SPINDLE-SPEED-MAX>10000 RPM</SPINDLE-SPEED-MAX>
+            <SPINDLE-SPEED-MAX-VALUE>10000</SPINDLE-SPEED-MAX-VALUE>
+            <TIP-ANGLE>90.0</TIP-ANGLE>
+            <TYPE>Center Drill</TYPE>
+            <AGGREGATE>NO</AGGREGATE>
+            <ARBOR-DIAMETER>0.25</ARBOR-DIAMETER>
+            <ARBOR-RADIUS>0.125</ARBOR-RADIUS>
+            <OVERALL-LENGTH>3.0</OVERALL-LENGTH>
+            <FLUTE-LENGTH>2.0</FLUTE-LENGTH>
+            <FPT>0.0091</FPT>
+            <OVERALL-DIA>0.25</OVERALL-DIA>
+            <OVERALL-DIAMETER>0.25</OVERALL-DIAMETER>
+            <OVERALL-RADIUS>0.125</OVERALL-RADIUS>
+            <PILOT-DIAMETER>0.0</PILOT-DIAMETER>
+            <PILOT-RADIUS>0.0</PILOT-RADIUS>
+            <SFM>17.9974</SFM>
+            <SHANK-DIAMETER>0.25</SHANK-DIAMETER>
+            <SHANK-RADIUS>0.125</SHANK-RADIUS>
+            <SHOULDER-LENGTH>2.5</SHOULDER-LENGTH>
+            <SPINDLE-DIRECTION>CW</SPINDLE-DIRECTION>
+            <SPINDLE-SPEED>275 RPM</SPINDLE-SPEED>
+            <SPINDLE-SPEED-VALUE>275</SPINDLE-SPEED-VALUE>
+            <ROUGH-X>NA</ROUGH-X>
+            <ROUGH-Z>NA</ROUGH-Z>
+            <FINISH-X>NA</FINISH-X>
+            <FINISH-Z>NA</FINISH-Z>
+            <OUT-DIA>NA</OUT-DIA>
+            <ANGLE>90.0</ANGLE>
+            <CHIP-BREAK>10.0</CHIP-BREAK>
+            <DWELL>0.0</DWELL>
+            <PECK-CLR>20.0</PECK-CLR>
+            <PECK1>0.0</PECK1>
+            <PECK2>0.0</PECK2>
+            <ROOT-DIA>NA</ROOT-DIA>
+            <THD-COUNT>NA</THD-COUNT>
+            <THD-PITCH>NA</THD-PITCH>
+            <THREADS>NA</THREADS>
+            <SHIFT>NA</SHIFT>
+            <IMAGE3D>..\SST\SAMPLES\MILLTURN\MTOOL3D1.BMP</IMAGE3D>
+            <IMAGE2D>..\SST\SAMPLES\MILLTURN\MTOOL2D1.BMP</IMAGE2D>
+            <BITMAP>..\SST\SAMPLES\MILLTURN\_TTC2.BMP</BITMAP>
+            <IMAGE>..\SST\SAMPLES\MILLTURN\MTOOL3D1.BMP</IMAGE>
+            <HOLDER-DIAMETER-TOP>0.0</HOLDER-DIAMETER-TOP>
+            <HOLDER-DIAMETER-BOTTOM>0.0</HOLDER-DIAMETER-BOTTOM>
+            <HOLDER-DIAMETER-MIN>0.0</HOLDER-DIAMETER-MIN>
+            <HOLDER-DIAMETER-MAX>0.0</HOLDER-DIAMETER-MAX>
+            <HOLDER-DIAMETER>0.0</HOLDER-DIAMETER>
+            <HOLDER-LENGTH>0.0</HOLDER-LENGTH>
+            <HOLDER-NAME>DEFAULT HOLDER</HOLDER-NAME>
+            <HOLDER-LIB>NA</HOLDER-LIB>
+            <MIN-X>0.5119</MIN-X>
+            <MIN-Y>-0.2902</MIN-Y>
+            <MIN-Z>-0.0001</MIN-Z>
+            <MAX-X>0.5121</MAX-X>
+            <MAX-Y>0.6002</MAX-Y>
+            <MAX-Z>0.0001</MAX-Z>
+          </TOOL-M>
+        </TOOL>
+        <OFFSET>
+          <GCODE>G55</GCODE>
+          <NUMBER>1</NUMBER>
+          <ORIGIN>0.0, 0.0, 0.0</ORIGIN>
+          <ORIGIN-WORLD>0.0, 0.0, 0.0</ORIGIN-WORLD>
+          <ORIGIN-VIEW>0.0, 0.0, 0.0</ORIGIN-VIEW>
+          <PLANE-NAME>Back</PLANE-NAME>
+          <PLANE-NUMBER>3</PLANE-NUMBER>
+          <VIEW>Back</VIEW>
+          <VNUM>3</VNUM>
+        </OFFSET>
+      </OPERATION-M>
+    </OPERATION>
+    <OPERATION>
+      <NAME>C-Axis Drill - Simple drill - no peck</NAME>
+      <OPERATION-M>
+        <TOOLPATH-GROUP-NAME>Toolpath Group #1</TOOLPATH-GROUP-NAME>
+        <NAME>C-Axis Drill - Simple drill - no peck</NAME>
+        <OPIDN>10</OPIDN>
+        <OPNUM>9</OPNUM>
+        <OPCODE>57</OPCODE>
+        <IMAGE>..\SST\SAMPLES\MILLTURN\OPERATION10.BMP</IMAGE>
+        <COOLANT-OP>Flood</COOLANT-OP>
+        <COOLANT-TL>Flood</COOLANT-TL>
+        <COOLANT>Flood</COOLANT>
+        <CLEARANCE-ACTIVE>NO</CLEARANCE-ACTIVE>
+        <CLEARANCE-PLANE>1.2</CLEARANCE-PLANE>
+        <COMP2TIP>NO</COMP2TIP>
+        <DEPTH>-0.4313</DEPTH>
+        <FEED-PLANE>1.186</FEED-PLANE>
+        <PROG-NUM>1</PROG-NUM>
+        <RAPID-RETRACT>NO</RAPID-RETRACT>
+        <RETRACT-ACTIVE>YES</RETRACT-ACTIVE>
+        <RETRACT-PLANE>0.0</RETRACT-PLANE>
+        <SEQ-INCR>1</SEQ-INCR>
+        <SEQ-NUM>1</SEQ-NUM>
+        <STOCK-TO-LEAVE>0.0</STOCK-TO-LEAVE>
+        <STOCK-TO-LEAVE-XY>0.0</STOCK-TO-LEAVE-XY>
+        <STOCK-TO-LEAVE-Z>0.0</STOCK-TO-LEAVE-Z>
+        <STOCK-TO-LEAVE-CHK>0.0</STOCK-TO-LEAVE-CHK>
+        <TIME-LONG>0 HOURS, 0 MINUTES, 19 SECONDS</TIME-LONG>
+        <TIME-SHORT>00:00:19</TIME-SHORT>
+        <TOP-STOCK>0.0</TOP-STOCK>
+        <TOLERANCE>0.0001</TOLERANCE>
+        <TOTAL-TOLERANCE>0.0011</TOTAL-TOLERANCE>
+        <MAX-STEPOVER>NA</MAX-STEPOVER>
+        <MAXSTEP>NA</MAXSTEP>
+        <MAX-STEPDOWN>NA</MAX-STEPDOWN>
+        <CC-DIRECTION>Left</CC-DIRECTION>
+        <CC-ROLL>Sharp</CC-ROLL>
+        <CC-TYPE>Off</CC-TYPE>
+        <HOMEPOS>10.0, 5.0, 0.0</HOMEPOS>
+        <FEEDRATE>5.0 inch/min</FEEDRATE>
+        <FEEDRATE-VALUE>5.0</FEEDRATE-VALUE>
+        <SPINDLE-SPEED>342 RPM</SPINDLE-SPEED>
+        <SPINDLE-SPEED-VALUE>342</SPINDLE-SPEED-VALUE>
+        <TPLANE-ACTIVE>YES</TPLANE-ACTIVE>
+        <TPLANE-ORIGIN>0.0, 0.0, 0.0</TPLANE-ORIGIN>
+        <TPLANE-ORIGIN-WORLD>0.0, 0.0, 0.0</TPLANE-ORIGIN-WORLD>
+        <TPLANE-ORIGIN-VIEW>-0.0, 0.0, 0.0</TPLANE-ORIGIN-VIEW>
+        <TPLANE-PLANE-NAME>NEW VIEW #2</TPLANE-PLANE-NAME>
+        <TPLANE-PLANE-NUMBER>20</TPLANE-PLANE-NUMBER>
+        <TPLANE-VIEW>NEW VIEW #2</TPLANE-VIEW>
+        <TPLANE-VNUM>20</TPLANE-VNUM>
+        <TPLANE-WOFF>2</TPLANE-WOFF>
+        <TPLANE-WOFF-GCODE>G56</TPLANE-WOFF-GCODE>
+        <CPLANE-ACTIVE>YES</CPLANE-ACTIVE>
+        <CPLANE-ORIGIN>0.0, 0.0, 0.0</CPLANE-ORIGIN>
+        <CPLANE-ORIGIN-WORLD>0.0, 0.0, 0.0</CPLANE-ORIGIN-WORLD>
+        <CPLANE-ORIGIN-VIEW>-0.0, 0.0, 0.0</CPLANE-ORIGIN-VIEW>
+        <CPLANE-PLANE-NAME>NEW VIEW #2</CPLANE-PLANE-NAME>
+        <CPLANE-PLANE-NUMBER>20</CPLANE-PLANE-NUMBER>
+        <CPLANE-VIEW>NEW VIEW #2</CPLANE-VIEW>
+        <CPLANE-VNUM>20</CPLANE-VNUM>
+        <WCS-ACTIVE>YES</WCS-ACTIVE>
+        <WCS-ORIGIN>0.0, 0.0, 0.0</WCS-ORIGIN>
+        <WCS-ORIGIN-WORLD>0.0, 0.0, 0.0</WCS-ORIGIN-WORLD>
+        <WCS-ORIGIN-VIEW>0.0, 0.0, 0.0</WCS-ORIGIN-VIEW>
+        <WCS-PLANE-NAME>Top</WCS-PLANE-NAME>
+        <WCS-PLANE-NUMBER>1</WCS-PLANE-NUMBER>
+        <WCS-VIEW>Top</WCS-VIEW>
+        <WCS-VNUM>1</WCS-VNUM>
+        <MISC-REAL-1>0.0</MISC-REAL-1>
+        <MISC-REAL-2>0.0</MISC-REAL-2>
+        <MISC-REAL-3>0.0</MISC-REAL-3>
+        <MISC-REAL-4>0.0</MISC-REAL-4>
+        <MISC-REAL-5>0.0</MISC-REAL-5>
+        <MISC-REAL-6>0.0</MISC-REAL-6>
+        <MISC-REAL-7>0.0</MISC-REAL-7>
+        <MISC-REAL-8>0.0</MISC-REAL-8>
+        <MISC-REAL-9>0.0</MISC-REAL-9>
+        <MISC-REAL-10>0.0</MISC-REAL-10>
+        <MISC-INT-1>0</MISC-INT-1>
+        <MISC-INT-2>0</MISC-INT-2>
+        <MISC-INT-3>0</MISC-INT-3>
+        <MISC-INT-4>0</MISC-INT-4>
+        <MISC-INT-5>0</MISC-INT-5>
+        <MISC-INT-6>0</MISC-INT-6>
+        <MISC-INT-7>0</MISC-INT-7>
+        <MISC-INT-8>0</MISC-INT-8>
+        <MISC-INT-9>0</MISC-INT-9>
+        <MISC-INT-10>0</MISC-INT-10>
+        <MIN-X>-0.0842</MIN-X>
+        <MIN-Y>0.064</MIN-Y>
+        <MIN-Z>-0.0001</MIN-Z>
+        <MAX-X>0.8434</MAX-X>
+        <MAX-Y>1.3888</MAX-Y>
+        <MAX-Z>0.0001</MAX-Z>
+        <TOOL>
+          <TOOL-M>
+            <COMMENT>#7 DRILL</COMMENT>
+            <TIME-LONG>0 HOURS, 0 MINUTES, 19 SECONDS</TIME-LONG>
+            <TIME-SHORT>00:00:19</TIME-SHORT>
+            <COOLANT-OP>Flood</COOLANT-OP>
+            <COOLANT-TL>Flood</COOLANT-TL>
+            <COOLANT>Flood</COOLANT>
+            <CORNER-RADIUS>0.0</CORNER-RADIUS>
+            <CORNER-RADIUS-TYPE>None</CORNER-RADIUS-TYPE>
+            <DESCRIPTION>#90:2 - 0.2010 DRILL - #7 DRILL</DESCRIPTION>
+            <NAME>#7 DRILL</NAME>
+            <DIAMETER>0.201</DIAMETER>
+            <RADIUS>0.1005</RADIUS>
+            <DIAMETER-OFFSET>90</DIAMETER-OFFSET>
+            <FLUTES>2</FLUTES>
+            <LENGTH-OFFSET>90</LENGTH-OFFSET>
+            <MATERIAL>HSS</MATERIAL>
+            <METRIC>NO</METRIC>
+            <MC>DRILL.MCX-9</MC>
+            <NUMBER>90</NUMBER>
+            <ALIAS>T9090</ALIAS>
+            <STATION>-1</STATION>
+            <ACTIVE-SPINDLE>Left</ACTIVE-SPINDLE>
+            <ACTIVE-TURRET>Right</ACTIVE-TURRET>
+            <FEEDRATE>5.0 inch/min</FEEDRATE>
+            <FEEDRATE-VALUE>5.0</FEEDRATE-VALUE>
+            <PLUNGE>0.0021 inch/min</PLUNGE>
+            <PLUNGE-VALUE>0.0021</PLUNGE-VALUE>
+            <RETRACT>0.0021 inch/min</RETRACT>
+            <RETRACT-VALUE>0.0021</RETRACT-VALUE>
+            <SPINDLE-SPEED-MAX>10000 RPM</SPINDLE-SPEED-MAX>
+            <SPINDLE-SPEED-MAX-VALUE>10000</SPINDLE-SPEED-MAX-VALUE>
+            <TIP-ANGLE>118.0</TIP-ANGLE>
+            <TYPE>Drill</TYPE>
+            <AGGREGATE>NO</AGGREGATE>
+            <ARBOR-DIAMETER>0.201</ARBOR-DIAMETER>
+            <ARBOR-RADIUS>0.1005</ARBOR-RADIUS>
+            <OVERALL-LENGTH>3.0</OVERALL-LENGTH>
+            <FLUTE-LENGTH>2.0</FLUTE-LENGTH>
+            <FPT>0.0073</FPT>
+            <OVERALL-DIA>0.201</OVERALL-DIA>
+            <OVERALL-DIAMETER>0.201</OVERALL-DIAMETER>
+            <OVERALL-RADIUS>0.1005</OVERALL-RADIUS>
+            <PILOT-DIAMETER>0.0</PILOT-DIAMETER>
+            <PILOT-RADIUS>0.0</PILOT-RADIUS>
+            <SFM>17.9953</SFM>
+            <SHANK-DIAMETER>0.201</SHANK-DIAMETER>
+            <SHANK-RADIUS>0.1005</SHANK-RADIUS>
+            <SHOULDER-LENGTH>2.5</SHOULDER-LENGTH>
+            <SPINDLE-DIRECTION>CW</SPINDLE-DIRECTION>
+            <SPINDLE-SPEED>342 RPM</SPINDLE-SPEED>
+            <SPINDLE-SPEED-VALUE>342</SPINDLE-SPEED-VALUE>
+            <ROUGH-X>NA</ROUGH-X>
+            <ROUGH-Z>NA</ROUGH-Z>
+            <FINISH-X>NA</FINISH-X>
+            <FINISH-Z>NA</FINISH-Z>
+            <OUT-DIA>NA</OUT-DIA>
+            <ANGLE>118.0</ANGLE>
+            <CHIP-BREAK>15.0</CHIP-BREAK>
+            <DWELL>0.0</DWELL>
+            <PECK-CLR>15.0</PECK-CLR>
+            <PECK1>30.0</PECK1>
+            <PECK2>0.0</PECK2>
+            <ROOT-DIA>NA</ROOT-DIA>
+            <THD-COUNT>NA</THD-COUNT>
+            <THD-PITCH>NA</THD-PITCH>
+            <THREADS>NA</THREADS>
+            <SHIFT>NA</SHIFT>
+            <IMAGE3D>..\SST\SAMPLES\MILLTURN\MTOOL3D2.BMP</IMAGE3D>
+            <IMAGE2D>..\SST\SAMPLES\MILLTURN\MTOOL2D2.BMP</IMAGE2D>
+            <BITMAP>..\SST\SAMPLES\MILLTURN\_TTC4.BMP</BITMAP>
+            <IMAGE>..\SST\SAMPLES\MILLTURN\MTOOL3D2.BMP</IMAGE>
+            <HOLDER-DIAMETER-TOP>0.0</HOLDER-DIAMETER-TOP>
+            <HOLDER-DIAMETER-BOTTOM>0.0</HOLDER-DIAMETER-BOTTOM>
+            <HOLDER-DIAMETER-MIN>0.0</HOLDER-DIAMETER-MIN>
+            <HOLDER-DIAMETER-MAX>0.0</HOLDER-DIAMETER-MAX>
+            <HOLDER-DIAMETER>0.0</HOLDER-DIAMETER>
+            <HOLDER-LENGTH>0.0</HOLDER-LENGTH>
+            <HOLDER-NAME>DEFAULT HOLDER</HOLDER-NAME>
+            <HOLDER-LIB>NA</HOLDER-LIB>
+            <MIN-X>-0.0842</MIN-X>
+            <MIN-Y>0.064</MIN-Y>
+            <MIN-Z>-0.0001</MIN-Z>
+            <MAX-X>0.8434</MAX-X>
+            <MAX-Y>1.3888</MAX-Y>
+            <MAX-Z>0.0001</MAX-Z>
+          </TOOL-M>
+        </TOOL>
+        <OFFSET>
+          <GCODE>G56</GCODE>
+          <NUMBER>2</NUMBER>
+          <ORIGIN>0.0, 0.0, 0.0</ORIGIN>
+          <ORIGIN-WORLD>0.0, 0.0, 0.0</ORIGIN-WORLD>
+          <ORIGIN-VIEW>0.0, 0.0, 0.0</ORIGIN-VIEW>
+          <PLANE-NUMBER>21</PLANE-NUMBER>
+          <VNUM>21</VNUM>
+        </OFFSET>
+      </OPERATION-M>
+    </OPERATION>
+    <OPERATION>
+      <NAME>C-Axis Drill - Simple drill - no peck</NAME>
+      <OPERATION-M>
+        <TOOLPATH-GROUP-NAME>Toolpath Group #1</TOOLPATH-GROUP-NAME>
+        <NAME>C-Axis Drill - Simple drill - no peck</NAME>
+        <OPIDN>9</OPIDN>
+        <OPNUM>10</OPNUM>
+        <OPCODE>57</OPCODE>
+        <COMMENT>C-axis Drill</COMMENT>
+        <IMAGE>..\SST\SAMPLES\MILLTURN\OPERATION9.BMP</IMAGE>
+        <COOLANT-OP>Flood</COOLANT-OP>
+        <COOLANT-TL>Flood</COOLANT-TL>
+        <COOLANT>Flood</COOLANT>
+        <CLEARANCE-ACTIVE>NO</CLEARANCE-ACTIVE>
+        <CLEARANCE-PLANE>1.2</CLEARANCE-PLANE>
+        <COMP2TIP>NO</COMP2TIP>
+        <DEPTH>-0.4313</DEPTH>
+        <FEED-PLANE>1.186</FEED-PLANE>
+        <PROG-NUM>1</PROG-NUM>
+        <RAPID-RETRACT>NO</RAPID-RETRACT>
+        <RETRACT-ACTIVE>YES</RETRACT-ACTIVE>
+        <RETRACT-PLANE>0.0</RETRACT-PLANE>
+        <SEQ-INCR>1</SEQ-INCR>
+        <SEQ-NUM>1</SEQ-NUM>
+        <STOCK-TO-LEAVE>0.0</STOCK-TO-LEAVE>
+        <STOCK-TO-LEAVE-XY>0.0</STOCK-TO-LEAVE-XY>
+        <STOCK-TO-LEAVE-Z>0.0</STOCK-TO-LEAVE-Z>
+        <STOCK-TO-LEAVE-CHK>0.0</STOCK-TO-LEAVE-CHK>
+        <TIME-LONG>0 HOURS, 0 MINUTES, 19 SECONDS</TIME-LONG>
+        <TIME-SHORT>00:00:19</TIME-SHORT>
+        <TOP-STOCK>0.0</TOP-STOCK>
+        <TOLERANCE>0.0001</TOLERANCE>
+        <TOTAL-TOLERANCE>0.0011</TOTAL-TOLERANCE>
+        <MAX-STEPOVER>NA</MAX-STEPOVER>
+        <MAXSTEP>NA</MAXSTEP>
+        <MAX-STEPDOWN>NA</MAX-STEPDOWN>
+        <CC-DIRECTION>Left</CC-DIRECTION>
+        <CC-ROLL>Sharp</CC-ROLL>
+        <CC-TYPE>Off</CC-TYPE>
+        <HOMEPOS>10.0, 5.0, 0.0</HOMEPOS>
+        <FEEDRATE>5.0 inch/min</FEEDRATE>
+        <FEEDRATE-VALUE>5.0</FEEDRATE-VALUE>
+        <SPINDLE-SPEED>1500 RPM</SPINDLE-SPEED>
+        <SPINDLE-SPEED-VALUE>1500</SPINDLE-SPEED-VALUE>
+        <TPLANE-ACTIVE>YES</TPLANE-ACTIVE>
+        <TPLANE-ORIGIN>0.0, 0.0, 0.0</TPLANE-ORIGIN>
+        <TPLANE-ORIGIN-WORLD>0.0, 0.0, 0.0</TPLANE-ORIGIN-WORLD>
+        <TPLANE-ORIGIN-VIEW>0.0, 0.0, 0.0</TPLANE-ORIGIN-VIEW>
+        <TPLANE-PLANE-NAME>NEW VIEW #1</TPLANE-PLANE-NAME>
+        <TPLANE-PLANE-NUMBER>19</TPLANE-PLANE-NUMBER>
+        <TPLANE-VIEW>NEW VIEW #1</TPLANE-VIEW>
+        <TPLANE-VNUM>19</TPLANE-VNUM>
+        <TPLANE-WOFF>3</TPLANE-WOFF>
+        <TPLANE-WOFF-GCODE>G57</TPLANE-WOFF-GCODE>
+        <CPLANE-ACTIVE>YES</CPLANE-ACTIVE>
+        <CPLANE-ORIGIN>0.0, 0.0, 0.0</CPLANE-ORIGIN>
+        <CPLANE-ORIGIN-WORLD>0.0, 0.0, 0.0</CPLANE-ORIGIN-WORLD>
+        <CPLANE-ORIGIN-VIEW>0.0, 0.0, 0.0</CPLANE-ORIGIN-VIEW>
+        <CPLANE-PLANE-NAME>NEW VIEW #1</CPLANE-PLANE-NAME>
+        <CPLANE-PLANE-NUMBER>19</CPLANE-PLANE-NUMBER>
+        <CPLANE-VIEW>NEW VIEW #1</CPLANE-VIEW>
+        <CPLANE-VNUM>19</CPLANE-VNUM>
+        <WCS-ACTIVE>YES</WCS-ACTIVE>
+        <WCS-ORIGIN>0.0, 0.0, 0.0</WCS-ORIGIN>
+        <WCS-ORIGIN-WORLD>0.0, 0.0, 0.0</WCS-ORIGIN-WORLD>
+        <WCS-ORIGIN-VIEW>0.0, 0.0, 0.0</WCS-ORIGIN-VIEW>
+        <WCS-PLANE-NAME>Top</WCS-PLANE-NAME>
+        <WCS-PLANE-NUMBER>1</WCS-PLANE-NUMBER>
+        <WCS-VIEW>Top</WCS-VIEW>
+        <WCS-VNUM>1</WCS-VNUM>
+        <MISC-REAL-1>0.0</MISC-REAL-1>
+        <MISC-REAL-2>0.0</MISC-REAL-2>
+        <MISC-REAL-3>0.0</MISC-REAL-3>
+        <MISC-REAL-4>0.0</MISC-REAL-4>
+        <MISC-REAL-5>0.0</MISC-REAL-5>
+        <MISC-REAL-6>0.0</MISC-REAL-6>
+        <MISC-REAL-7>0.0</MISC-REAL-7>
+        <MISC-REAL-8>0.0</MISC-REAL-8>
+        <MISC-REAL-9>0.0</MISC-REAL-9>
+        <MISC-REAL-10>0.0</MISC-REAL-10>
+        <MISC-INT-1>0</MISC-INT-1>
+        <MISC-INT-2>0</MISC-INT-2>
+        <MISC-INT-3>0</MISC-INT-3>
+        <MISC-INT-4>0</MISC-INT-4>
+        <MISC-INT-5>0</MISC-INT-5>
+        <MISC-INT-6>0</MISC-INT-6>
+        <MISC-INT-7>0</MISC-INT-7>
+        <MISC-INT-8>0</MISC-INT-8>
+        <MISC-INT-9>0</MISC-INT-9>
+        <MISC-INT-10>0</MISC-INT-10>
+        <MIN-X>0.3486</MIN-X>
+        <MIN-Y>-0.7706</MIN-Y>
+        <MIN-Z>-0.0001</MIN-Z>
+        <MAX-X>1.2762</MAX-X>
+        <MAX-Y>0.5542</MAX-Y>
+        <MAX-Z>0.0001</MAX-Z>
+        <TOOL>
+          <TOOL-M>
+            <COMMENT>#7 DRILL</COMMENT>
+            <TIME-LONG>0 HOURS, 0 MINUTES, 19 SECONDS</TIME-LONG>
+            <TIME-SHORT>00:00:19</TIME-SHORT>
+            <COOLANT-OP>Flood</COOLANT-OP>
+            <COOLANT-TL>Flood</COOLANT-TL>
+            <COOLANT>Flood</COOLANT>
+            <CORNER-RADIUS>0.0</CORNER-RADIUS>
+            <CORNER-RADIUS-TYPE>None</CORNER-RADIUS-TYPE>
+            <DESCRIPTION>#90:2 - 0.2010 DRILL - #7 DRILL</DESCRIPTION>
+            <NAME>#7 DRILL</NAME>
+            <DIAMETER>0.201</DIAMETER>
+            <RADIUS>0.1005</RADIUS>
+            <DIAMETER-OFFSET>90</DIAMETER-OFFSET>
+            <FLUTES>2</FLUTES>
+            <LENGTH-OFFSET>90</LENGTH-OFFSET>
+            <MATERIAL>HSS</MATERIAL>
+            <METRIC>NO</METRIC>
+            <MC>DRILL.MCX-9</MC>
+            <NUMBER>90</NUMBER>
+            <ALIAS>T9090</ALIAS>
+            <STATION>-1</STATION>
+            <ACTIVE-SPINDLE>Left</ACTIVE-SPINDLE>
+            <ACTIVE-TURRET>Right</ACTIVE-TURRET>
+            <FEEDRATE>5.0 inch/min</FEEDRATE>
+            <FEEDRATE-VALUE>5.0</FEEDRATE-VALUE>
+            <PLUNGE>0.0021 inch/min</PLUNGE>
+            <PLUNGE-VALUE>0.0021</PLUNGE-VALUE>
+            <RETRACT>0.0021 inch/min</RETRACT>
+            <RETRACT-VALUE>0.0021</RETRACT-VALUE>
+            <SPINDLE-SPEED-MAX>10000 RPM</SPINDLE-SPEED-MAX>
+            <SPINDLE-SPEED-MAX-VALUE>10000</SPINDLE-SPEED-MAX-VALUE>
+            <TIP-ANGLE>118.0</TIP-ANGLE>
+            <TYPE>Drill</TYPE>
+            <AGGREGATE>NO</AGGREGATE>
+            <ARBOR-DIAMETER>0.201</ARBOR-DIAMETER>
+            <ARBOR-RADIUS>0.1005</ARBOR-RADIUS>
+            <OVERALL-LENGTH>3.0</OVERALL-LENGTH>
+            <FLUTE-LENGTH>2.0</FLUTE-LENGTH>
+            <FPT>0.0017</FPT>
+            <OVERALL-DIA>0.201</OVERALL-DIA>
+            <OVERALL-DIAMETER>0.201</OVERALL-DIAMETER>
+            <OVERALL-RADIUS>0.1005</OVERALL-RADIUS>
+            <PILOT-DIAMETER>0.0</PILOT-DIAMETER>
+            <PILOT-RADIUS>0.0</PILOT-RADIUS>
+            <SFM>78.9267</SFM>
+            <SHANK-DIAMETER>0.201</SHANK-DIAMETER>
+            <SHANK-RADIUS>0.1005</SHANK-RADIUS>
+            <SHOULDER-LENGTH>2.5</SHOULDER-LENGTH>
+            <SPINDLE-DIRECTION>CW</SPINDLE-DIRECTION>
+            <SPINDLE-SPEED>1500 RPM</SPINDLE-SPEED>
+            <SPINDLE-SPEED-VALUE>1500</SPINDLE-SPEED-VALUE>
+            <ROUGH-X>NA</ROUGH-X>
+            <ROUGH-Z>NA</ROUGH-Z>
+            <FINISH-X>NA</FINISH-X>
+            <FINISH-Z>NA</FINISH-Z>
+            <OUT-DIA>NA</OUT-DIA>
+            <ANGLE>118.0</ANGLE>
+            <CHIP-BREAK>15.0</CHIP-BREAK>
+            <DWELL>0.0</DWELL>
+            <PECK-CLR>15.0</PECK-CLR>
+            <PECK1>30.0</PECK1>
+            <PECK2>0.0</PECK2>
+            <ROOT-DIA>NA</ROOT-DIA>
+            <THD-COUNT>NA</THD-COUNT>
+            <THD-PITCH>NA</THD-PITCH>
+            <THREADS>NA</THREADS>
+            <SHIFT>NA</SHIFT>
+            <IMAGE3D>..\SST\SAMPLES\MILLTURN\MTOOL3D2.BMP</IMAGE3D>
+            <IMAGE2D>..\SST\SAMPLES\MILLTURN\MTOOL2D2.BMP</IMAGE2D>
+            <BITMAP>..\SST\SAMPLES\MILLTURN\_TTC4.BMP</BITMAP>
+            <IMAGE>..\SST\SAMPLES\MILLTURN\MTOOL3D2.BMP</IMAGE>
+            <HOLDER-DIAMETER-TOP>0.0</HOLDER-DIAMETER-TOP>
+            <HOLDER-DIAMETER-BOTTOM>0.0</HOLDER-DIAMETER-BOTTOM>
+            <HOLDER-DIAMETER-MIN>0.0</HOLDER-DIAMETER-MIN>
+            <HOLDER-DIAMETER-MAX>0.0</HOLDER-DIAMETER-MAX>
+            <HOLDER-DIAMETER>0.0</HOLDER-DIAMETER>
+            <HOLDER-LENGTH>0.0</HOLDER-LENGTH>
+            <HOLDER-NAME>DEFAULT HOLDER</HOLDER-NAME>
+            <HOLDER-LIB>NA</HOLDER-LIB>
+            <MIN-X>0.3486</MIN-X>
+            <MIN-Y>-0.7706</MIN-Y>
+            <MIN-Z>-0.0001</MIN-Z>
+            <MAX-X>1.2762</MAX-X>
+            <MAX-Y>0.5542</MAX-Y>
+            <MAX-Z>0.0001</MAX-Z>
+          </TOOL-M>
+        </TOOL>
+        <OFFSET>
+          <GCODE>G57</GCODE>
+          <NUMBER>3</NUMBER>
+          <ORIGIN>0.0, 0.0, 0.0</ORIGIN>
+          <ORIGIN-WORLD>0.0, 0.0, 0.0</ORIGIN-WORLD>
+          <ORIGIN-VIEW>0.0, 0.0, 0.0</ORIGIN-VIEW>
+          <PLANE-NAME>NEW VIEW #1</PLANE-NAME>
+          <PLANE-NUMBER>19</PLANE-NUMBER>
+          <VIEW>NEW VIEW #1</VIEW>
+          <VNUM>19</VNUM>
+        </OFFSET>
+      </OPERATION-M>
+    </OPERATION>
+    <OPERATION>
+      <NAME>Contour (2D)</NAME>
+      <OPERATION-M>
+        <TOOLPATH-GROUP-NAME>Toolpath Group #1</TOOLPATH-GROUP-NAME>
+        <NAME>Contour (2D)</NAME>
+        <OPIDN>12</OPIDN>
+        <OPNUM>11</OPNUM>
+        <OPCODE>1</OPCODE>
+        <IMAGE>..\SST\SAMPLES\MILLTURN\OPERATION12.BMP</IMAGE>
+        <COOLANT-OP>Flood</COOLANT-OP>
+        <COOLANT-TL>Flood</COOLANT-TL>
+        <COOLANT>Flood</COOLANT>
+        <CLEARANCE-ACTIVE>NO</CLEARANCE-ACTIVE>
+        <CLEARANCE-PLANE>1.2</CLEARANCE-PLANE>
+        <COMP2TIP>YES</COMP2TIP>
+        <DEPTH>-0.31</DEPTH>
+        <FEED-PLANE>0.0</FEED-PLANE>
+        <PROG-NUM>1</PROG-NUM>
+        <RAPID-RETRACT>YES</RAPID-RETRACT>
+        <RETRACT-ACTIVE>YES</RETRACT-ACTIVE>
+        <RETRACT-PLANE>0.7</RETRACT-PLANE>
+        <SEQ-INCR>1</SEQ-INCR>
+        <SEQ-NUM>1</SEQ-NUM>
+        <STOCK-TO-LEAVE>0.0</STOCK-TO-LEAVE>
+        <STOCK-TO-LEAVE-XY>0.0</STOCK-TO-LEAVE-XY>
+        <STOCK-TO-LEAVE-Z>0.0</STOCK-TO-LEAVE-Z>
+        <STOCK-TO-LEAVE-CHK>0.0</STOCK-TO-LEAVE-CHK>
+        <TIME-LONG>0 HOURS, 0 MINUTES, 14 SECONDS</TIME-LONG>
+        <TIME-SHORT>00:00:14</TIME-SHORT>
+        <TOP-STOCK>0.0</TOP-STOCK>
+        <TOLERANCE>0.001</TOLERANCE>
+        <TOTAL-TOLERANCE>0.002</TOTAL-TOLERANCE>
+        <MAX-STEPOVER>NA</MAX-STEPOVER>
+        <MAXSTEP>NA</MAXSTEP>
+        <MAX-STEPDOWN>NA</MAX-STEPDOWN>
+        <CC-DIRECTION>Left</CC-DIRECTION>
+        <CC-ROLL>Sharp</CC-ROLL>
+        <CC-TYPE>Computer</CC-TYPE>
+        <HOMEPOS>10.0, 5.0, 0.0</HOMEPOS>
+        <FEEDRATE>5.0 inch/min</FEEDRATE>
+        <FEEDRATE-VALUE>5.0</FEEDRATE-VALUE>
+        <SPINDLE-SPEED>900 RPM</SPINDLE-SPEED>
+        <SPINDLE-SPEED-VALUE>900</SPINDLE-SPEED-VALUE>
+        <TPLANE-ACTIVE>YES</TPLANE-ACTIVE>
+        <TPLANE-ORIGIN>0.0, 0.0, 0.0</TPLANE-ORIGIN>
+        <TPLANE-ORIGIN-WORLD>0.0, 0.0, 0.0</TPLANE-ORIGIN-WORLD>
+        <TPLANE-ORIGIN-VIEW>0.0, 0.0, 0.0</TPLANE-ORIGIN-VIEW>
+        <TPLANE-PLANE-NAME>Top</TPLANE-PLANE-NAME>
+        <TPLANE-PLANE-NUMBER>1</TPLANE-PLANE-NUMBER>
+        <TPLANE-VIEW>Top</TPLANE-VIEW>
+        <TPLANE-VNUM>1</TPLANE-VNUM>
+        <TPLANE-WOFF>4</TPLANE-WOFF>
+        <TPLANE-WOFF-GCODE>G58</TPLANE-WOFF-GCODE>
+        <CPLANE-ACTIVE>YES</CPLANE-ACTIVE>
+        <CPLANE-ORIGIN>0.0, 0.0, 0.0</CPLANE-ORIGIN>
+        <CPLANE-ORIGIN-WORLD>0.0, 0.0, 0.0</CPLANE-ORIGIN-WORLD>
+        <CPLANE-ORIGIN-VIEW>0.0, 0.0, 0.0</CPLANE-ORIGIN-VIEW>
+        <CPLANE-PLANE-NAME>Top</CPLANE-PLANE-NAME>
+        <CPLANE-PLANE-NUMBER>1</CPLANE-PLANE-NUMBER>
+        <CPLANE-VIEW>Top</CPLANE-VIEW>
+        <CPLANE-VNUM>1</CPLANE-VNUM>
+        <WCS-ACTIVE>YES</WCS-ACTIVE>
+        <WCS-ORIGIN>0.0, 0.0, 0.0</WCS-ORIGIN>
+        <WCS-ORIGIN-WORLD>0.0, 0.0, 0.0</WCS-ORIGIN-WORLD>
+        <WCS-ORIGIN-VIEW>0.0, 0.0, 0.0</WCS-ORIGIN-VIEW>
+        <WCS-PLANE-NAME>Top</WCS-PLANE-NAME>
+        <WCS-PLANE-NUMBER>1</WCS-PLANE-NUMBER>
+        <WCS-VIEW>Top</WCS-VIEW>
+        <WCS-VNUM>1</WCS-VNUM>
+        <MISC-REAL-1>0.0</MISC-REAL-1>
+        <MISC-REAL-2>0.0</MISC-REAL-2>
+        <MISC-REAL-3>0.0</MISC-REAL-3>
+        <MISC-REAL-4>0.0</MISC-REAL-4>
+        <MISC-REAL-5>0.0</MISC-REAL-5>
+        <MISC-REAL-6>0.0</MISC-REAL-6>
+        <MISC-REAL-7>0.0</MISC-REAL-7>
+        <MISC-REAL-8>0.0</MISC-REAL-8>
+        <MISC-REAL-9>0.0</MISC-REAL-9>
+        <MISC-REAL-10>0.0</MISC-REAL-10>
+        <MISC-INT-1>0</MISC-INT-1>
+        <MISC-INT-2>0</MISC-INT-2>
+        <MISC-INT-3>0</MISC-INT-3>
+        <MISC-INT-4>0</MISC-INT-4>
+        <MISC-INT-5>0</MISC-INT-5>
+        <MISC-INT-6>0</MISC-INT-6>
+        <MISC-INT-7>0</MISC-INT-7>
+        <MISC-INT-8>0</MISC-INT-8>
+        <MISC-INT-9>0</MISC-INT-9>
+        <MISC-INT-10>0</MISC-INT-10>
+        <MIN-X>0.6795</MIN-X>
+        <MIN-Y>-0.1495</MIN-Y>
+        <MIN-Z>-0.31</MIN-Z>
+        <MAX-X>1.0758</MAX-X>
+        <MAX-Y>0.0705</MAX-Y>
+        <MAX-Z>0.0</MAX-Z>
+        <TOOL>
+          <TOOL-M>
+            <CHUCK>_</CHUCK>
+            <COMMENT>3/8 FLAT ENDMILL</COMMENT>
+            <TIME-LONG>0 HOURS, 0 MINUTES, 14 SECONDS</TIME-LONG>
+            <TIME-SHORT>00:00:14</TIME-SHORT>
+            <COOLANT-OP>Flood</COOLANT-OP>
+            <COOLANT-TL>Flood</COOLANT-TL>
+            <COOLANT>Flood</COOLANT>
+            <CORNER-RADIUS>0.0</CORNER-RADIUS>
+            <CORNER-RADIUS-TYPE>None</CORNER-RADIUS-TYPE>
+            <DESCRIPTION>#38:3 - 0.3750 ENDMILL1 FLAT - 3/8 FLAT ENDMILL</DESCRIPTION>
+            <NAME>3/8 FLAT ENDMILL</NAME>
+            <DIAMETER>0.375</DIAMETER>
+            <RADIUS>0.1875</RADIUS>
+            <DIAMETER-OFFSET>38</DIAMETER-OFFSET>
+            <FLUTES>4</FLUTES>
+            <LENGTH-OFFSET>38</LENGTH-OFFSET>
+            <MATERIAL>HSS</MATERIAL>
+            <METRIC>NO</METRIC>
+            <MC>FLATMILL.MCX-9</MC>
+            <NUMBER>38</NUMBER>
+            <ALIAS>T3838</ALIAS>
+            <STATION>38</STATION>
+            <ACTIVE-SPINDLE>Left</ACTIVE-SPINDLE>
+            <ACTIVE-TURRET>Right</ACTIVE-TURRET>
+            <FEEDRATE>5.0 inch/min</FEEDRATE>
+            <FEEDRATE-VALUE>5.0</FEEDRATE-VALUE>
+            <PLUNGE>5.0 inch/min</PLUNGE>
+            <PLUNGE-VALUE>5.0</PLUNGE-VALUE>
+            <RETRACT>5.0 inch/min</RETRACT>
+            <RETRACT-VALUE>5.0</RETRACT-VALUE>
+            <SPINDLE-SPEED-MAX>10000 RPM</SPINDLE-SPEED-MAX>
+            <SPINDLE-SPEED-MAX-VALUE>10000</SPINDLE-SPEED-MAX-VALUE>
+            <TIP-ANGLE>180.0</TIP-ANGLE>
+            <TYPE>Endmill1 Flat</TYPE>
+            <AGGREGATE>NO</AGGREGATE>
+            <ARBOR-DIAMETER>0.375</ARBOR-DIAMETER>
+            <ARBOR-RADIUS>0.1875</ARBOR-RADIUS>
+            <OVERALL-LENGTH>3.0</OVERALL-LENGTH>
+            <FLUTE-LENGTH>2.0</FLUTE-LENGTH>
+            <FPT>0.0014</FPT>
+            <OVERALL-DIA>0.375</OVERALL-DIA>
+            <OVERALL-DIAMETER>0.375</OVERALL-DIAMETER>
+            <OVERALL-RADIUS>0.1875</OVERALL-RADIUS>
+            <PILOT-DIAMETER>0.0</PILOT-DIAMETER>
+            <PILOT-RADIUS>0.0</PILOT-RADIUS>
+            <SFM>88.3508</SFM>
+            <SHANK-DIAMETER>0.375</SHANK-DIAMETER>
+            <SHANK-RADIUS>0.1875</SHANK-RADIUS>
+            <SHOULDER-LENGTH>2.5</SHOULDER-LENGTH>
+            <SPINDLE-DIRECTION>CW</SPINDLE-DIRECTION>
+            <SPINDLE-SPEED>900 RPM</SPINDLE-SPEED>
+            <SPINDLE-SPEED-VALUE>900</SPINDLE-SPEED-VALUE>
+            <ROUGH-X>50.0</ROUGH-X>
+            <ROUGH-Z>50.0</ROUGH-Z>
+            <FINISH-X>25.0</FINISH-X>
+            <FINISH-Z>25.0</FINISH-Z>
+            <OUT-DIA>NA</OUT-DIA>
+            <ANGLE>NA</ANGLE>
+            <CHIP-BREAK>NA</CHIP-BREAK>
+            <DWELL>NA</DWELL>
+            <PECK-CLR>NA</PECK-CLR>
+            <PECK1>NA</PECK1>
+            <PECK2>NA</PECK2>
+            <ROOT-DIA>NA</ROOT-DIA>
+            <THD-COUNT>NA</THD-COUNT>
+            <THD-PITCH>NA</THD-PITCH>
+            <THREADS>NA</THREADS>
+            <SHIFT>NA</SHIFT>
+            <IMAGE3D>..\SST\SAMPLES\MILLTURN\MTOOL3D3.BMP</IMAGE3D>
+            <IMAGE2D>..\SST\SAMPLES\MILLTURN\MTOOL2D3.BMP</IMAGE2D>
+            <BITMAP>..\SST\SAMPLES\MILLTURN\_TTC11.BMP</BITMAP>
+            <IMAGE>..\SST\SAMPLES\MILLTURN\MTOOL3D3.BMP</IMAGE>
+            <HOLDER-DIAMETER-TOP>0.0</HOLDER-DIAMETER-TOP>
+            <HOLDER-DIAMETER-BOTTOM>0.0</HOLDER-DIAMETER-BOTTOM>
+            <HOLDER-DIAMETER-MIN>0.0</HOLDER-DIAMETER-MIN>
+            <HOLDER-DIAMETER-MAX>0.0</HOLDER-DIAMETER-MAX>
+            <HOLDER-DIAMETER>0.0</HOLDER-DIAMETER>
+            <HOLDER-LENGTH>0.0</HOLDER-LENGTH>
+            <HOLDER-NAME>DEFAULT HOLDER</HOLDER-NAME>
+            <HOLDER-LIB>NA</HOLDER-LIB>
+            <MIN-X>0.6795</MIN-X>
+            <MIN-Y>-0.1495</MIN-Y>
+            <MIN-Z>-0.31</MIN-Z>
+            <MAX-X>1.0758</MAX-X>
+            <MAX-Y>0.0705</MAX-Y>
+            <MAX-Z>0.0</MAX-Z>
+          </TOOL-M>
+        </TOOL>
+        <OFFSET>
+          <GCODE>G58</GCODE>
+          <NUMBER>4</NUMBER>
+          <ORIGIN>0.0, 0.0, 0.0</ORIGIN>
+          <ORIGIN-WORLD>0.0, 0.0, 0.0</ORIGIN-WORLD>
+          <ORIGIN-VIEW>0.0, 0.0, 0.0</ORIGIN-VIEW>
+          <PLANE-NAME>Top</PLANE-NAME>
+          <PLANE-NUMBER>1</PLANE-NUMBER>
+          <VIEW>Top</VIEW>
+          <VNUM>1</VNUM>
+        </OFFSET>
+      </OPERATION-M>
+    </OPERATION>
+    <OPERATION>
+      <NAME>Contour (2D)</NAME>
+      <OPERATION-M>
+        <TOOLPATH-GROUP-NAME>Toolpath Group #1</TOOLPATH-GROUP-NAME>
+        <NAME>Contour (2D)</NAME>
+        <OPIDN>13</OPIDN>
+        <OPNUM>12</OPNUM>
+        <OPCODE>1</OPCODE>
+        <IMAGE>..\SST\SAMPLES\MILLTURN\OPERATION13.BMP</IMAGE>
+        <COOLANT-OP>Flood</COOLANT-OP>
+        <COOLANT-TL>Flood</COOLANT-TL>
+        <COOLANT>Flood</COOLANT>
+        <CLEARANCE-ACTIVE>NO</CLEARANCE-ACTIVE>
+        <CLEARANCE-PLANE>1.2</CLEARANCE-PLANE>
+        <COMP2TIP>YES</COMP2TIP>
+        <DEPTH>-0.31</DEPTH>
+        <FEED-PLANE>0.0</FEED-PLANE>
+        <PROG-NUM>1</PROG-NUM>
+        <RAPID-RETRACT>YES</RAPID-RETRACT>
+        <RETRACT-ACTIVE>YES</RETRACT-ACTIVE>
+        <RETRACT-PLANE>0.7</RETRACT-PLANE>
+        <SEQ-INCR>1</SEQ-INCR>
+        <SEQ-NUM>1</SEQ-NUM>
+        <STOCK-TO-LEAVE>0.0</STOCK-TO-LEAVE>
+        <STOCK-TO-LEAVE-XY>0.0</STOCK-TO-LEAVE-XY>
+        <STOCK-TO-LEAVE-Z>0.0</STOCK-TO-LEAVE-Z>
+        <STOCK-TO-LEAVE-CHK>0.0</STOCK-TO-LEAVE-CHK>
+        <TIME-LONG>0 HOURS, 0 MINUTES, 14 SECONDS</TIME-LONG>
+        <TIME-SHORT>00:00:14</TIME-SHORT>
+        <TOP-STOCK>0.0</TOP-STOCK>
+        <TOLERANCE>0.001</TOLERANCE>
+        <TOTAL-TOLERANCE>0.002</TOTAL-TOLERANCE>
+        <MAX-STEPOVER>NA</MAX-STEPOVER>
+        <MAXSTEP>NA</MAXSTEP>
+        <MAX-STEPDOWN>NA</MAX-STEPDOWN>
+        <CC-DIRECTION>Right</CC-DIRECTION>
+        <CC-ROLL>Sharp</CC-ROLL>
+        <CC-TYPE>Computer</CC-TYPE>
+        <HOMEPOS>10.0, 5.0, 0.0</HOMEPOS>
+        <FEEDRATE>5.0 inch/min</FEEDRATE>
+        <FEEDRATE-VALUE>5.0</FEEDRATE-VALUE>
+        <SPINDLE-SPEED>900 RPM</SPINDLE-SPEED>
+        <SPINDLE-SPEED-VALUE>900</SPINDLE-SPEED-VALUE>
+        <TPLANE-ACTIVE>YES</TPLANE-ACTIVE>
+        <TPLANE-ORIGIN>0.0, 0.0, 0.0</TPLANE-ORIGIN>
+        <TPLANE-ORIGIN-WORLD>0.0, 0.0, 0.0</TPLANE-ORIGIN-WORLD>
+        <TPLANE-ORIGIN-VIEW>0.0, 0.0, 0.0</TPLANE-ORIGIN-VIEW>
+        <TPLANE-PLANE-NAME>Bottom</TPLANE-PLANE-NAME>
+        <TPLANE-PLANE-NUMBER>4</TPLANE-PLANE-NUMBER>
+        <TPLANE-VIEW>Bottom</TPLANE-VIEW>
+        <TPLANE-VNUM>4</TPLANE-VNUM>
+        <TPLANE-WOFF>5</TPLANE-WOFF>
+        <TPLANE-WOFF-GCODE>G59</TPLANE-WOFF-GCODE>
+        <CPLANE-ACTIVE>YES</CPLANE-ACTIVE>
+        <CPLANE-ORIGIN>0.0, 0.0, 0.0</CPLANE-ORIGIN>
+        <CPLANE-ORIGIN-WORLD>0.0, 0.0, 0.0</CPLANE-ORIGIN-WORLD>
+        <CPLANE-ORIGIN-VIEW>0.0, 0.0, 0.0</CPLANE-ORIGIN-VIEW>
+        <CPLANE-PLANE-NAME>Bottom</CPLANE-PLANE-NAME>
+        <CPLANE-PLANE-NUMBER>4</CPLANE-PLANE-NUMBER>
+        <CPLANE-VIEW>Bottom</CPLANE-VIEW>
+        <CPLANE-VNUM>4</CPLANE-VNUM>
+        <WCS-ACTIVE>YES</WCS-ACTIVE>
+        <WCS-ORIGIN>0.0, 0.0, 0.0</WCS-ORIGIN>
+        <WCS-ORIGIN-WORLD>0.0, 0.0, 0.0</WCS-ORIGIN-WORLD>
+        <WCS-ORIGIN-VIEW>0.0, 0.0, 0.0</WCS-ORIGIN-VIEW>
+        <WCS-PLANE-NAME>Top</WCS-PLANE-NAME>
+        <WCS-PLANE-NUMBER>1</WCS-PLANE-NUMBER>
+        <WCS-VIEW>Top</WCS-VIEW>
+        <WCS-VNUM>1</WCS-VNUM>
+        <MISC-REAL-1>0.0</MISC-REAL-1>
+        <MISC-REAL-2>0.0</MISC-REAL-2>
+        <MISC-REAL-3>0.0</MISC-REAL-3>
+        <MISC-REAL-4>0.0</MISC-REAL-4>
+        <MISC-REAL-5>0.0</MISC-REAL-5>
+        <MISC-REAL-6>0.0</MISC-REAL-6>
+        <MISC-REAL-7>0.0</MISC-REAL-7>
+        <MISC-REAL-8>0.0</MISC-REAL-8>
+        <MISC-REAL-9>0.0</MISC-REAL-9>
+        <MISC-REAL-10>0.0</MISC-REAL-10>
+        <MISC-INT-1>0</MISC-INT-1>
+        <MISC-INT-2>0</MISC-INT-2>
+        <MISC-INT-3>0</MISC-INT-3>
+        <MISC-INT-4>0</MISC-INT-4>
+        <MISC-INT-5>0</MISC-INT-5>
+        <MISC-INT-6>0</MISC-INT-6>
+        <MISC-INT-7>0</MISC-INT-7>
+        <MISC-INT-8>0</MISC-INT-8>
+        <MISC-INT-9>0</MISC-INT-9>
+        <MISC-INT-10>0</MISC-INT-10>
+        <MIN-X>0.6795</MIN-X>
+        <MIN-Y>-0.1495</MIN-Y>
+        <MIN-Z>0.0</MIN-Z>
+        <MAX-X>1.0758</MAX-X>
+        <MAX-Y>0.0705</MAX-Y>
+        <MAX-Z>0.31</MAX-Z>
+        <TOOL>
+          <TOOL-M>
+            <COMMENT>3/8 FLAT ENDMILL</COMMENT>
+            <TIME-LONG>0 HOURS, 0 MINUTES, 14 SECONDS</TIME-LONG>
+            <TIME-SHORT>00:00:14</TIME-SHORT>
+            <COOLANT-OP>Flood</COOLANT-OP>
+            <COOLANT-TL>Flood</COOLANT-TL>
+            <COOLANT>Flood</COOLANT>
+            <CORNER-RADIUS>0.0</CORNER-RADIUS>
+            <CORNER-RADIUS-TYPE>None</CORNER-RADIUS-TYPE>
+            <DESCRIPTION>#38:3 - 0.3750 ENDMILL1 FLAT - 3/8 FLAT ENDMILL</DESCRIPTION>
+            <NAME>3/8 FLAT ENDMILL</NAME>
+            <DIAMETER>0.375</DIAMETER>
+            <RADIUS>0.1875</RADIUS>
+            <DIAMETER-OFFSET>38</DIAMETER-OFFSET>
+            <FLUTES>4</FLUTES>
+            <LENGTH-OFFSET>38</LENGTH-OFFSET>
+            <MATERIAL>HSS</MATERIAL>
+            <METRIC>NO</METRIC>
+            <MC>FLATMILL.MCX-9</MC>
+            <NUMBER>38</NUMBER>
+            <ALIAS>T3838</ALIAS>
+            <STATION>38</STATION>
+            <ACTIVE-SPINDLE>Left</ACTIVE-SPINDLE>
+            <ACTIVE-TURRET>Right</ACTIVE-TURRET>
+            <FEEDRATE>5.0 inch/min</FEEDRATE>
+            <FEEDRATE-VALUE>5.0</FEEDRATE-VALUE>
+            <PLUNGE>5.0 inch/min</PLUNGE>
+            <PLUNGE-VALUE>5.0</PLUNGE-VALUE>
+            <RETRACT>5.0 inch/min</RETRACT>
+            <RETRACT-VALUE>5.0</RETRACT-VALUE>
+            <SPINDLE-SPEED-MAX>10000 RPM</SPINDLE-SPEED-MAX>
+            <SPINDLE-SPEED-MAX-VALUE>10000</SPINDLE-SPEED-MAX-VALUE>
+            <TIP-ANGLE>180.0</TIP-ANGLE>
+            <TYPE>Endmill1 Flat</TYPE>
+            <AGGREGATE>NO</AGGREGATE>
+            <ARBOR-DIAMETER>0.375</ARBOR-DIAMETER>
+            <ARBOR-RADIUS>0.1875</ARBOR-RADIUS>
+            <OVERALL-LENGTH>3.0</OVERALL-LENGTH>
+            <FLUTE-LENGTH>2.0</FLUTE-LENGTH>
+            <FPT>0.0014</FPT>
+            <OVERALL-DIA>0.375</OVERALL-DIA>
+            <OVERALL-DIAMETER>0.375</OVERALL-DIAMETER>
+            <OVERALL-RADIUS>0.1875</OVERALL-RADIUS>
+            <PILOT-DIAMETER>0.0</PILOT-DIAMETER>
+            <PILOT-RADIUS>0.0</PILOT-RADIUS>
+            <SFM>88.3508</SFM>
+            <SHANK-DIAMETER>0.375</SHANK-DIAMETER>
+            <SHANK-RADIUS>0.1875</SHANK-RADIUS>
+            <SHOULDER-LENGTH>2.5</SHOULDER-LENGTH>
+            <SPINDLE-DIRECTION>CW</SPINDLE-DIRECTION>
+            <SPINDLE-SPEED>900 RPM</SPINDLE-SPEED>
+            <SPINDLE-SPEED-VALUE>900</SPINDLE-SPEED-VALUE>
+            <ROUGH-X>50.0</ROUGH-X>
+            <ROUGH-Z>50.0</ROUGH-Z>
+            <FINISH-X>25.0</FINISH-X>
+            <FINISH-Z>25.0</FINISH-Z>
+            <OUT-DIA>NA</OUT-DIA>
+            <ANGLE>NA</ANGLE>
+            <CHIP-BREAK>NA</CHIP-BREAK>
+            <DWELL>NA</DWELL>
+            <PECK-CLR>NA</PECK-CLR>
+            <PECK1>NA</PECK1>
+            <PECK2>NA</PECK2>
+            <ROOT-DIA>NA</ROOT-DIA>
+            <THD-COUNT>NA</THD-COUNT>
+            <THD-PITCH>NA</THD-PITCH>
+            <THREADS>NA</THREADS>
+            <SHIFT>NA</SHIFT>
+            <IMAGE3D>..\SST\SAMPLES\MILLTURN\MTOOL3D3.BMP</IMAGE3D>
+            <IMAGE2D>..\SST\SAMPLES\MILLTURN\MTOOL2D3.BMP</IMAGE2D>
+            <BITMAP>..\SST\SAMPLES\MILLTURN\_TTC11.BMP</BITMAP>
+            <IMAGE>..\SST\SAMPLES\MILLTURN\MTOOL3D3.BMP</IMAGE>
+            <HOLDER-DIAMETER-TOP>0.0</HOLDER-DIAMETER-TOP>
+            <HOLDER-DIAMETER-BOTTOM>0.0</HOLDER-DIAMETER-BOTTOM>
+            <HOLDER-DIAMETER-MIN>0.0</HOLDER-DIAMETER-MIN>
+            <HOLDER-DIAMETER-MAX>0.0</HOLDER-DIAMETER-MAX>
+            <HOLDER-DIAMETER>0.0</HOLDER-DIAMETER>
+            <HOLDER-LENGTH>0.0</HOLDER-LENGTH>
+            <HOLDER-NAME>DEFAULT HOLDER</HOLDER-NAME>
+            <HOLDER-LIB>NA</HOLDER-LIB>
+            <MIN-X>0.6795</MIN-X>
+            <MIN-Y>-0.1495</MIN-Y>
+            <MIN-Z>0.0</MIN-Z>
+            <MAX-X>1.0758</MAX-X>
+            <MAX-Y>0.0705</MAX-Y>
+            <MAX-Z>0.31</MAX-Z>
+          </TOOL-M>
+        </TOOL>
+        <OFFSET>
+          <GCODE>G59</GCODE>
+          <NUMBER>5</NUMBER>
+          <ORIGIN>0.0, 0.0, 0.0</ORIGIN>
+          <ORIGIN-WORLD>0.0, 0.0, 0.0</ORIGIN-WORLD>
+          <ORIGIN-VIEW>0.0, 0.0, 0.0</ORIGIN-VIEW>
+          <PLANE-NAME>Bottom</PLANE-NAME>
+          <PLANE-NUMBER>4</PLANE-NUMBER>
+          <VIEW>Bottom</VIEW>
+          <VNUM>4</VNUM>
+        </OFFSET>
+      </OPERATION-M>
+    </OPERATION>
+    <OPERATION>
+      <NAME>Lathe Drill</NAME>
+      <OPERATION-L>
+        <TOOLPATH-GROUP-NAME>Toolpath Group #1</TOOLPATH-GROUP-NAME>
+        <NAME>Lathe Drill</NAME>
+        <OPIDN>14</OPIDN>
+        <OPNUM>13</OPNUM>
+        <OPCODE>64</OPCODE>
+        <TIME-LONG>0 HOURS, 0 MINUTES, 0 SECONDS</TIME-LONG>
+        <TIME-SHORT>00:00:00</TIME-SHORT>
+        <PROG-NUM>1</PROG-NUM>
+        <SEQ-NUM>1</SEQ-NUM>
+        <SEQ-INCR>1</SEQ-INCR>
+        <MISC-REAL-1>0.0</MISC-REAL-1>
+        <MISC-REAL-2>0.0</MISC-REAL-2>
+        <MISC-REAL-3>0.0</MISC-REAL-3>
+        <MISC-REAL-4>0.0</MISC-REAL-4>
+        <MISC-REAL-5>0.0</MISC-REAL-5>
+        <MISC-REAL-6>0.0</MISC-REAL-6>
+        <MISC-REAL-7>0.0</MISC-REAL-7>
+        <MISC-REAL-8>0.0</MISC-REAL-8>
+        <MISC-REAL-9>0.0</MISC-REAL-9>
+        <MISC-REAL-10>0.0</MISC-REAL-10>
+        <MISC-INT-1>0</MISC-INT-1>
+        <MISC-INT-2>0</MISC-INT-2>
+        <MISC-INT-3>0</MISC-INT-3>
+        <MISC-INT-4>0</MISC-INT-4>
+        <MISC-INT-5>0</MISC-INT-5>
+        <MISC-INT-6>0</MISC-INT-6>
+        <MISC-INT-7>0</MISC-INT-7>
+        <MISC-INT-8>0</MISC-INT-8>
+        <MISC-INT-9>0</MISC-INT-9>
+        <MISC-INT-10>0</MISC-INT-10>
+        <HOMEPOS>D10.0, Z10.0</HOMEPOS>
+        <STOCK-TO-LEAVE-X>NA</STOCK-TO-LEAVE-X>
+        <STOCK-TO-LEAVE-Z>NA</STOCK-TO-LEAVE-Z>
+        <IMAGE>..\SST\SAMPLES\MILLTURN\OPERATION14.BMP</IMAGE>
+        <COOLANT-OP>Flood</COOLANT-OP>
+        <COOLANT-TL>Flood</COOLANT-TL>
+        <COOLANT>Flood</COOLANT>
+        <BND-MIN-CLEARANCE>0.05</BND-MIN-CLEARANCE>
+        <EEV-MIN-CLEARANCE>0.02</EEV-MIN-CLEARANCE>
+        <ENTRY-ANGLE>0.0</ENTRY-ANGLE>
+        <ENTRY-POINT-ACTIVE>NO</ENTRY-POINT-ACTIVE>
+        <ENTRY-POINT>D0.0, Z0.0</ENTRY-POINT>
+        <EXIT-ANGLE>0.0</EXIT-ANGLE>
+        <LEFT-CHUCK-ID>2167</LEFT-CHUCK-ID>
+        <LEFT-STOCK-ID>2166</LEFT-STOCK-ID>
+        <RETRACT-POINT-ACTIVE>NO</RETRACT-POINT-ACTIVE>
+        <RIGHT-CHUCK-ID>0</RIGHT-CHUCK-ID>
+        <RIGHT-STOCK-ID>0</RIGHT-STOCK-ID>
+        <STEADYREST-ID>0</STEADYREST-ID>
+        <TAILSTOCK-ID>0</TAILSTOCK-ID>
+        <TOOL>
+          <TOOL-L>
+            <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLB40.BMP</IMAGE>
+            <SPINDLE-SPEED-MAX>5000 RPM</SPINDLE-SPEED-MAX>
+            <SPINDLE-SPEED-MAX-VALUE>5000</SPINDLE-SPEED-MAX-VALUE>
+            <DESCRIPTION>T0340:3: Drilling Tool - Spot Tool .75 Dia.</DESCRIPTION>
+            <TYPE>Drilling Tool</TYPE>
+            <INSERT-UP>NO</INSERT-UP>
+            <METRIC>NO</METRIC>
+            <NAME>Spot Tool .75 Dia.</NAME>
+            <NUMBER>3</NUMBER>
+            <SLOT>40</SLOT>
+            <STATION>3</STATION>
+            <TOP-TURRET>YES</TOP-TURRET>
+            <ALIAS>T0303</ALIAS>
+            <INFO>0.75 Dia.</INFO>
+            <ACTIVE-SPINDLE>Left</ACTIVE-SPINDLE>
+            <ACTIVE-TURRET>Right</ACTIVE-TURRET>
+            <OFFSET-FRONT>3</OFFSET-FRONT>
+            <OFFSET-BACK>NA</OFFSET-BACK>
+            <HOMEPOS>D16.0, Z7.0</HOMEPOS>
+            <FAST-FEED>10.0 inch/rev</FAST-FEED>
+            <FAST-FEED-VALUE>10.0</FAST-FEED-VALUE>
+            <SLOW-FEED>0.0 inch/min</SLOW-FEED>
+            <SLOW-FEED-VALUE>0.0</SLOW-FEED-VALUE>
+            <SPINDLE-SPEED>800 RPM</SPINDLE-SPEED>
+            <SPINDLE-SPEED-VALUE>800</SPINDLE-SPEED-VALUE>
+            <SPINDLE-DIRECTION>CCW</SPINDLE-DIRECTION>
+            <PCTMATLCSS>100.0</PCTMATLCSS>
+            <PCTMATLREV>100.0</PCTMATLREV>
+            <COOLANT-OP>Flood</COOLANT-OP>
+            <COOLANT-TL>Flood</COOLANT-TL>
+            <COOLANT>Flood</COOLANT>
+            <CLEARANCE-ANGLE>0.0</CLEARANCE-ANGLE>
+            <RAKE-ANGLE>0.0</RAKE-ANGLE>
+            <WIDTH>0.0</WIDTH>
+            <HEIGHT>0.0</HEIGHT>
+            <CENTER>0.0, 0.0</CENTER>
+            <COMPENSATION>Tip of Radius on C/L</COMPENSATION>
+            <CENTER-COMP>NO</CENTER-COMP>
+            <CSS>NO</CSS>
+            <FACINGTOOL>NO</FACINGTOOL>
+            <HOLDER-ORIENT>5</HOLDER-ORIENT>
+            <IDTOOL>YES</IDTOOL>
+            <INSERT-TYPE>4</INSERT-TYPE>
+            <INVERTED>NO</INVERTED>
+            <LEFTHANDTOOL>NO</LEFTHANDTOOL>
+            <NEWTOOL>NO</NEWTOOL>
+            <NOSE-RADIUS>0.0</NOSE-RADIUS>
+            <ODTOOL>NO</ODTOOL>
+            <ORIENT>5</ORIENT>
+            <ROUNDSHANKHOLDER>NO</ROUNDSHANKHOLDER>
+            <SHARPCORNERCOMP>NO</SHARPCORNERCOMP>
+            <TIPCOMP>YES</TIPCOMP>
+            <TURRET-ANGLE>0.0</TURRET-ANGLE>
+            <TWOPNTCOMP>NO</TWOPNTCOMP>
+            <HOLDER>
+              <ANGLE>0.0</ANGLE>
+              <CE-END>0.0</CE-END>
+              <CE-SIDE>0.0</CE-SIDE>
+              <CHAMFER-HEIGHT>0.625</CHAMFER-HEIGHT>
+              <CHAMFER-WIDTH>0.625</CHAMFER-WIDTH>
+              <HAND>Right</HAND>
+              <HEAD-LENGTH>5.0</HEAD-LENGTH>
+              <HEAD-WIDTH>2.0</HEAD-WIDTH>
+              <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLH40.BMP</IMAGE>
+              <LENGTH>6.5</LENGTH>
+              <METRIC>NO</METRIC>
+              <ORIENTATION>Horizontal</ORIENTATION>
+              <SHANK-HEIGHT>0.0</SHANK-HEIGHT>
+              <SHANK-ROUND>NO</SHANK-ROUND>
+              <SHANK-WIDTH>0.0</SHANK-WIDTH>
+              <SHAPE>0</SHAPE>
+              <TOOLTYPE>Drilling Tool</TOOLTYPE>
+              <WIDTH>2.0</WIDTH>
+            </HOLDER>
+            <DRILL>
+              <CHAMFER-HEIGHT>0.1</CHAMFER-HEIGHT>
+              <CUT-LENGTH>1.5</CUT-LENGTH>
+              <FLUTE-ANGLE>30.0</FLUTE-ANGLE>
+              <FLUTE-LENGTH>1.5</FLUTE-LENGTH>
+              <MATERIAL>Carbide</MATERIAL>
+              <NUMBER-OF-FLUTES>2</NUMBER-OF-FLUTES>
+              <NUMBER-OF-THREADS>16.0</NUMBER-OF-THREADS>
+              <SHANK-DIAMETER>0.75</SHANK-DIAMETER>
+              <SHOULDER-ANGLE>60.0</SHOULDER-ANGLE>
+              <TAP-TYPE>1</TAP-TYPE>
+              <TIP-ANGLE>90.0</TIP-ANGLE>
+              <TIP-DIAMETER>0.25</TIP-DIAMETER>
+              <TIP-LENGTH>0.3</TIP-LENGTH>
+              <CYCLE>0</CYCLE>
+              <DIAMETER>0.75</DIAMETER>
+              <DWELL>0.0</DWELL>
+              <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLI40.BMP</IMAGE>
+              <PECK-1>0.25</PECK-1>
+              <PECK-2>0.2</PECK-2>
+              <PECK-CLEARANCE>0.02</PECK-CLEARANCE>
+              <PITCH>0.0625</PITCH>
+              <RETRACT>0.05</RETRACT>
+              <TYPE>Counterbore</TYPE>
+            </DRILL>
+            <TIME-LONG>0 HOURS, 0 MINUTES, 0 SECONDS</TIME-LONG>
+            <TIME-SHORT>00:00:00</TIME-SHORT>
+            <MIN-X>-0.1822</MIN-X>
+            <MIN-Y>-0.0001</MIN-Y>
+            <MIN-Z>0.0</MIN-Z>
+            <MAX-X>1.3</MAX-X>
+            <MAX-Y>0.0001</MAX-Y>
+            <MAX-Z>0.0</MAX-Z>
+          </TOOL-L>
+        </TOOL>
+        <OFFSET>
+          <GCODE>G54</GCODE>
+          <NUMBER>0</NUMBER>
+          <ORIGIN>D0.0, Z0.0</ORIGIN>
+          <ORIGIN-WORLD>0.0, 0.0, 0.0</ORIGIN-WORLD>
+          <ORIGIN-VIEW>D0.0, Z0.0</ORIGIN-VIEW>
+          <PLANE-NAME>Right side</PLANE-NAME>
+          <PLANE-NUMBER>5</PLANE-NUMBER>
+          <VIEW>Right side</VIEW>
+          <VNUM>5</VNUM>
+        </OFFSET>
+      </OPERATION-L>
+    </OPERATION>
+    <TOOLS>
+      <SORT>NO</SORT>
+      <TOOL>
+        <TOOL-L>
+          <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLB20.BMP</IMAGE>
+          <SPINDLE-SPEED-MAX>5000 RPM</SPINDLE-SPEED-MAX>
+          <SPINDLE-SPEED-MAX-VALUE>5000</SPINDLE-SPEED-MAX-VALUE>
+          <DESCRIPTION>T0120:1: General Turning Tool - SCLCR 16-3D [CCMT 32.52]</DESCRIPTION>
+          <TYPE>General Turning Tool</TYPE>
+          <INSERT-UP>NO</INSERT-UP>
+          <METRIC>NO</METRIC>
+          <NAME>SCLCR 16-3D [CCMT 32.52]</NAME>
+          <NUMBER>1</NUMBER>
+          <SLOT>20</SLOT>
+          <STATION>1</STATION>
+          <TOP-TURRET>YES</TOP-TURRET>
+          <ALIAS>T0101</ALIAS>
+          <INFO>R0.0313</INFO>
+          <ACTIVE-SPINDLE>Left</ACTIVE-SPINDLE>
+          <ACTIVE-TURRET>Right</ACTIVE-TURRET>
+          <OFFSET-FRONT>1</OFFSET-FRONT>
+          <OFFSET-BACK>NA</OFFSET-BACK>
+          <HOMEPOS>D16.0, Z7.0</HOMEPOS>
+          <FAST-FEED>0.012 inch/rev</FAST-FEED>
+          <FAST-FEED-VALUE>0.012</FAST-FEED-VALUE>
+          <SLOW-FEED>0.0045 inch/rev</SLOW-FEED>
+          <SLOW-FEED-VALUE>0.0045</SLOW-FEED-VALUE>
+          <SPINDLE-SPEED>400 CSS</SPINDLE-SPEED>
+          <SPINDLE-SPEED-VALUE>400</SPINDLE-SPEED-VALUE>
+          <SPINDLE-DIRECTION>CCW</SPINDLE-DIRECTION>
+          <PCTMATLCSS>100.0</PCTMATLCSS>
+          <PCTMATLREV>100.0</PCTMATLREV>
+          <COOLANT-OP>Flood</COOLANT-OP>
+          <COOLANT-TL>Flood</COOLANT-TL>
+          <COOLANT>Flood</COOLANT>
+          <CLEARANCE-ANGLE>5.0</CLEARANCE-ANGLE>
+          <RAKE-ANGLE>85.0</RAKE-ANGLE>
+          <WIDTH>1.2813</WIDTH>
+          <HEIGHT>0.83</HEIGHT>
+          <CENTER>0.03125, 0.03125</CENTER>
+          <COMPENSATION>Theoretical Sharp Corner</COMPENSATION>
+          <CENTER-COMP>NO</CENTER-COMP>
+          <CSS>YES</CSS>
+          <FACINGTOOL>NO</FACINGTOOL>
+          <HOLDER-ORIENT>5</HOLDER-ORIENT>
+          <IDTOOL>NO</IDTOOL>
+          <INSERT-TYPE>0</INSERT-TYPE>
+          <INVERTED>NO</INVERTED>
+          <LEFTHANDTOOL>NO</LEFTHANDTOOL>
+          <NEWTOOL>NO</NEWTOOL>
+          <NOSE-RADIUS>0.0313</NOSE-RADIUS>
+          <ODTOOL>YES</ODTOOL>
+          <ORIENT>1</ORIENT>
+          <ROUNDSHANKHOLDER>NO</ROUNDSHANKHOLDER>
+          <SHARPCORNERCOMP>YES</SHARPCORNERCOMP>
+          <TIPCOMP>NO</TIPCOMP>
+          <TURRET-ANGLE>0.0</TURRET-ANGLE>
+          <TWOPNTCOMP>NO</TWOPNTCOMP>
+          <HOLDER>
+            <ANGLE>0.0</ANGLE>
+            <CE-END>5.0</CE-END>
+            <CE-SIDE>-5.0</CE-SIDE>
+            <CHAMFER-HEIGHT>0.0</CHAMFER-HEIGHT>
+            <CHAMFER-WIDTH>0.0</CHAMFER-WIDTH>
+            <HAND>Right</HAND>
+            <HEAD-LENGTH>0.83</HEAD-LENGTH>
+            <HEAD-WIDTH>0.25</HEAD-WIDTH>
+            <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLH20.BMP</IMAGE>
+            <LENGTH>6.0</LENGTH>
+            <METRIC>NO</METRIC>
+            <NAME>SCLCR 16-3D</NAME>
+            <ORIENTATION>Vertical</ORIENTATION>
+            <SHANK-HEIGHT>1.0</SHANK-HEIGHT>
+            <SHANK-ROUND>NO</SHANK-ROUND>
+            <SHANK-WIDTH>1.0</SHANK-WIDTH>
+            <SHAPE>9</SHAPE>
+            <TOOLTYPE>General Turning Tool</TOOLTYPE>
+            <WIDTH>1.25</WIDTH>
+          </HOLDER>
+          <INSERT>
+            <IC-DIAMETER>0.375</IC-DIAMETER>
+            <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLI20.BMP</IMAGE>
+            <TYPE>0</TYPE>
+            <LENGTH>0.375</LENGTH>
+            <MATERIAL>Carbide</MATERIAL>
+            <METRIC>NO</METRIC>
+            <NAME>CCMT 32.52</NAME>
+            <RADIUS>0.0313</RADIUS>
+            <SHAPE>C (80 deg. diamond)</SHAPE>
+            <THICKNESS>0.1563</THICKNESS>
+            <WIDTH>0.1563</WIDTH>
+            <ANGLE>NA</ANGLE>
+            <BACKOFF-PCT>NA</BACKOFF-PCT>
+            <CUT-LENGTH>NA</CUT-LENGTH>
+            <END-LENGTH>NA</END-LENGTH>
+            <FINISH-ALLOW>NA</FINISH-ALLOW>
+            <FIRST-DOC>NA</FIRST-DOC>
+            <HEIGHT>NA</HEIGHT>
+            <LAST-DOC>NA</LAST-DOC>
+            <PITCH>NA</PITCH>
+            <POINT-LOC>NA</POINT-LOC>
+            <PULLOFF>NA</PULLOFF>
+            <SHANK-WIDTH>NA</SHANK-WIDTH>
+            <SPRING-CUTS>NA</SPRING-CUTS>
+            <STOCK-CLEARANCE>NA</STOCK-CLEARANCE>
+            <STYLE>NA</STYLE>
+            <THD-EXTERNAL>NA</THD-EXTERNAL>
+            <THD-FLAT-WIDTH>NA</THD-FLAT-WIDTH>
+            <THD-TYPE>NA</THD-TYPE>
+            <RELIEF-ANGLE>C (7 deg.)</RELIEF-ANGLE>
+            <XSECTION>Q</XSECTION>
+            <FINISH-DOC>0.01</FINISH-DOC>
+            <OVERLAP>0.01</OVERLAP>
+            <RETRACT>0.0</RETRACT>
+            <ROUGH-DOC>0.06</ROUGH-DOC>
+            <X-OVERCUT>0.0</X-OVERCUT>
+          </INSERT>
+          <TIME-LONG>0 HOURS, 0 MINUTES, 36 SECONDS</TIME-LONG>
+          <TIME-SHORT>00:00:36</TIME-SHORT>
+          <MIN-X>-0.419</MIN-X>
+          <MIN-Y>0.0</MIN-Y>
+          <MIN-Z>0.0</MIN-Z>
+          <MAX-X>1.132</MAX-X>
+          <MAX-Y>0.9365</MAX-Y>
+          <MAX-Z>0.0</MAX-Z>
+          <OP>
+            <NAME>Lathe Face</NAME>
+            <OPIDN>1</OPIDN>
+            <OPNUM>1</OPNUM>
+          </OP>
+          <OP>
+            <NAME>Lathe Rough</NAME>
+            <OPIDN>2</OPIDN>
+            <OPNUM>2</OPNUM>
+          </OP>
+        </TOOL-L>
+      </TOOL>
+      <TOOL>
+        <TOOL-L>
+          <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLB310.BMP</IMAGE>
+          <SPINDLE-SPEED-MAX>5000 RPM</SPINDLE-SPEED-MAX>
+          <SPINDLE-SPEED-MAX-VALUE>5000</SPINDLE-SPEED-MAX-VALUE>
+          <DESCRIPTION>T20310:20: Drilling Tool - Lathe Tool #310</DESCRIPTION>
+          <TYPE>Drilling Tool</TYPE>
+          <INSERT-UP>YES</INSERT-UP>
+          <METRIC>NO</METRIC>
+          <NAME>Lathe Tool #310</NAME>
+          <NUMBER>20</NUMBER>
+          <SLOT>310</SLOT>
+          <STATION>20</STATION>
+          <TOP-TURRET>NO</TOP-TURRET>
+          <ALIAS>T2020</ALIAS>
+          <INFO>0.656 Dia.</INFO>
+          <ACTIVE-SPINDLE>Left</ACTIVE-SPINDLE>
+          <ACTIVE-TURRET>Right</ACTIVE-TURRET>
+          <OFFSET-FRONT>20</OFFSET-FRONT>
+          <OFFSET-BACK>NA</OFFSET-BACK>
+          <HOMEPOS>D16.0, Z7.0</HOMEPOS>
+          <FAST-FEED>0.0032 inch/rev</FAST-FEED>
+          <FAST-FEED-VALUE>0.0032</FAST-FEED-VALUE>
+          <SLOW-FEED>0.0 inch/min</SLOW-FEED>
+          <SLOW-FEED-VALUE>0.0</SLOW-FEED-VALUE>
+          <SPINDLE-SPEED>1450 RPM</SPINDLE-SPEED>
+          <SPINDLE-SPEED-VALUE>1450</SPINDLE-SPEED-VALUE>
+          <SPINDLE-DIRECTION>CCW</SPINDLE-DIRECTION>
+          <PCTMATLCSS>100.0</PCTMATLCSS>
+          <PCTMATLREV>100.0</PCTMATLREV>
+          <COOLANT-OP>Flood</COOLANT-OP>
+          <COOLANT-TL>Flood</COOLANT-TL>
+          <COOLANT>Flood</COOLANT>
+          <CLEARANCE-ANGLE>0.0</CLEARANCE-ANGLE>
+          <RAKE-ANGLE>0.0</RAKE-ANGLE>
+          <WIDTH>0.0</WIDTH>
+          <HEIGHT>0.0</HEIGHT>
+          <CENTER>0.0, -0.0</CENTER>
+          <COMPENSATION>Tip of Radius on C/L</COMPENSATION>
+          <CENTER-COMP>NO</CENTER-COMP>
+          <CSS>NO</CSS>
+          <FACINGTOOL>NO</FACINGTOOL>
+          <HOLDER-ORIENT>8</HOLDER-ORIENT>
+          <IDTOOL>YES</IDTOOL>
+          <INSERT-TYPE>4</INSERT-TYPE>
+          <INVERTED>NO</INVERTED>
+          <LEFTHANDTOOL>NO</LEFTHANDTOOL>
+          <NEWTOOL>NO</NEWTOOL>
+          <NOSE-RADIUS>0.0</NOSE-RADIUS>
+          <ODTOOL>NO</ODTOOL>
+          <ORIENT>8</ORIENT>
+          <ROUNDSHANKHOLDER>NO</ROUNDSHANKHOLDER>
+          <SHARPCORNERCOMP>NO</SHARPCORNERCOMP>
+          <TIPCOMP>YES</TIPCOMP>
+          <TURRET-ANGLE>0.0</TURRET-ANGLE>
+          <TWOPNTCOMP>NO</TWOPNTCOMP>
+          <HOLDER>
+            <ANGLE>0.0</ANGLE>
+            <CE-END>0.0</CE-END>
+            <CE-SIDE>0.0</CE-SIDE>
+            <CHAMFER-HEIGHT>0.5</CHAMFER-HEIGHT>
+            <CHAMFER-WIDTH>0.5</CHAMFER-WIDTH>
+            <HAND>Right</HAND>
+            <HEAD-LENGTH>5.0</HEAD-LENGTH>
+            <HEAD-WIDTH>2.0</HEAD-WIDTH>
+            <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLH310.BMP</IMAGE>
+            <LENGTH>10.0</LENGTH>
+            <METRIC>NO</METRIC>
+            <ORIENTATION>Horizontal</ORIENTATION>
+            <SHANK-HEIGHT>0.0</SHANK-HEIGHT>
+            <SHANK-ROUND>NO</SHANK-ROUND>
+            <SHANK-WIDTH>0.0</SHANK-WIDTH>
+            <SHAPE>0</SHAPE>
+            <TOOLTYPE>Drilling Tool</TOOLTYPE>
+            <WIDTH>2.0</WIDTH>
+          </HOLDER>
+          <DRILL>
+            <CHAMFER-HEIGHT>0.1</CHAMFER-HEIGHT>
+            <CUT-LENGTH>5.0</CUT-LENGTH>
+            <FLUTE-ANGLE>30.0</FLUTE-ANGLE>
+            <FLUTE-LENGTH>2.0</FLUTE-LENGTH>
+            <MATERIAL>Carbide</MATERIAL>
+            <NUMBER-OF-FLUTES>2</NUMBER-OF-FLUTES>
+            <NUMBER-OF-THREADS>16.0</NUMBER-OF-THREADS>
+            <SHANK-DIAMETER>0.5</SHANK-DIAMETER>
+            <SHOULDER-ANGLE>60.0</SHOULDER-ANGLE>
+            <TAP-TYPE>1</TAP-TYPE>
+            <TIP-ANGLE>118.0</TIP-ANGLE>
+            <TIP-DIAMETER>0.25</TIP-DIAMETER>
+            <TIP-LENGTH>0.3</TIP-LENGTH>
+            <CYCLE>0</CYCLE>
+            <DIAMETER>0.656</DIAMETER>
+            <DWELL>0.0</DWELL>
+            <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLI310.BMP</IMAGE>
+            <PECK-1>0.0</PECK-1>
+            <PECK-2>0.0</PECK-2>
+            <PECK-CLEARANCE>0.0</PECK-CLEARANCE>
+            <PITCH>0.0625</PITCH>
+            <RETRACT>0.05</RETRACT>
+            <TYPE>Reamer</TYPE>
+          </DRILL>
+          <TIME-LONG>0 HOURS, 0 MINUTES, 15 SECONDS</TIME-LONG>
+          <TIME-SHORT>00:00:15</TIME-SHORT>
+          <MIN-X>0.0</MIN-X>
+          <MIN-Y>-0.0001</MIN-Y>
+          <MIN-Z>0.0</MIN-Z>
+          <MAX-X>1.2</MAX-X>
+          <MAX-Y>0.0001</MAX-Y>
+          <MAX-Z>0.0</MAX-Z>
+          <OP>
+            <NAME>Lathe Drill</NAME>
+            <OPIDN>3</OPIDN>
+            <OPNUM>3</OPNUM>
+          </OP>
+        </TOOL-L>
+      </TOOL>
+      <TOOL>
+        <TOOL-L>
+          <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLB65.BMP</IMAGE>
+          <SPINDLE-SPEED-MAX>5000 RPM</SPINDLE-SPEED-MAX>
+          <SPINDLE-SPEED-MAX-VALUE>5000</SPINDLE-SPEED-MAX-VALUE>
+          <DESCRIPTION>T0265:2: General Turning Tool -  PDJNR 2525M 11 [R04]</DESCRIPTION>
+          <TYPE>General Turning Tool</TYPE>
+          <INSERT-UP>NO</INSERT-UP>
+          <METRIC>NO</METRIC>
+          <NAME>PDJNR 2525M 11 [R04]</NAME>
+          <NUMBER>2</NUMBER>
+          <SLOT>65</SLOT>
+          <STATION>59</STATION>
+          <TOP-TURRET>YES</TOP-TURRET>
+          <ALIAS>T0202</ALIAS>
+          <INFO>R0.0157</INFO>
+          <ACTIVE-SPINDLE>Left</ACTIVE-SPINDLE>
+          <ACTIVE-TURRET>Right</ACTIVE-TURRET>
+          <OFFSET-FRONT>2</OFFSET-FRONT>
+          <OFFSET-BACK>NA</OFFSET-BACK>
+          <HOMEPOS>D500.0, Z125.0</HOMEPOS>
+          <FAST-FEED>0.003 inch/rev</FAST-FEED>
+          <FAST-FEED-VALUE>0.003</FAST-FEED-VALUE>
+          <SLOW-FEED>0.0039 inch/rev</SLOW-FEED>
+          <SLOW-FEED-VALUE>0.0039</SLOW-FEED-VALUE>
+          <SPINDLE-SPEED>600 CSS</SPINDLE-SPEED>
+          <SPINDLE-SPEED-VALUE>600</SPINDLE-SPEED-VALUE>
+          <SPINDLE-DIRECTION>CCW</SPINDLE-DIRECTION>
+          <PCTMATLCSS>100.0</PCTMATLCSS>
+          <PCTMATLREV>100.0</PCTMATLREV>
+          <COOLANT-OP>Flood</COOLANT-OP>
+          <COOLANT-TL>Flood</COOLANT-TL>
+          <COOLANT>Flood</COOLANT>
+          <CLEARANCE-ANGLE>32.0</CLEARANCE-ANGLE>
+          <RAKE-ANGLE>87.0</RAKE-ANGLE>
+          <WIDTH>32.4</WIDTH>
+          <HEIGHT>30.0</HEIGHT>
+          <CENTER>0.4, 0.4</CENTER>
+          <COMPENSATION>Theoretical Sharp Corner</COMPENSATION>
+          <CENTER-COMP>NO</CENTER-COMP>
+          <CSS>YES</CSS>
+          <FACINGTOOL>NO</FACINGTOOL>
+          <HOLDER-ORIENT>5</HOLDER-ORIENT>
+          <IDTOOL>NO</IDTOOL>
+          <INSERT-TYPE>0</INSERT-TYPE>
+          <INVERTED>NO</INVERTED>
+          <LEFTHANDTOOL>NO</LEFTHANDTOOL>
+          <NEWTOOL>NO</NEWTOOL>
+          <NOSE-RADIUS>0.4</NOSE-RADIUS>
+          <ODTOOL>YES</ODTOOL>
+          <ORIENT>1</ORIENT>
+          <ROUNDSHANKHOLDER>NO</ROUNDSHANKHOLDER>
+          <SHARPCORNERCOMP>YES</SHARPCORNERCOMP>
+          <TIPCOMP>NO</TIPCOMP>
+          <TURRET-ANGLE>0.0</TURRET-ANGLE>
+          <TWOPNTCOMP>NO</TWOPNTCOMP>
+          <HOLDER>
+            <ANGLE>0.0</ANGLE>
+            <CE-END>32.0</CE-END>
+            <CE-SIDE>-3.0</CE-SIDE>
+            <CHAMFER-HEIGHT>0.0</CHAMFER-HEIGHT>
+            <CHAMFER-WIDTH>0.0</CHAMFER-WIDTH>
+            <HAND>Right</HAND>
+            <HEAD-LENGTH>30.0</HEAD-LENGTH>
+            <HEAD-WIDTH>6.0</HEAD-WIDTH>
+            <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLH65.BMP</IMAGE>
+            <LENGTH>150.0</LENGTH>
+            <METRIC>YES</METRIC>
+            <NAME>PDJNR 2525M 11</NAME>
+            <ORIENTATION>Vertical</ORIENTATION>
+            <SHANK-HEIGHT>25.0</SHANK-HEIGHT>
+            <SHANK-ROUND>NO</SHANK-ROUND>
+            <SHANK-WIDTH>25.0</SHANK-WIDTH>
+            <SHAPE>7</SHAPE>
+            <TOOLTYPE>General Turning Tool</TOOLTYPE>
+            <WIDTH>32.0</WIDTH>
+          </HOLDER>
+          <INSERT>
+            <IC-DIAMETER>11.0</IC-DIAMETER>
+            <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLI65.BMP</IMAGE>
+            <TYPE>0</TYPE>
+            <LENGTH>11.0</LENGTH>
+            <MATERIAL>Carbide</MATERIAL>
+            <METRIC>YES</METRIC>
+            <NAME>DNMG 11 04 04</NAME>
+            <RADIUS>0.0157</RADIUS>
+            <SHAPE>D (55 deg. diamond)</SHAPE>
+            <THICKNESS>4.76</THICKNESS>
+            <WIDTH>5.0</WIDTH>
+            <ANGLE>NA</ANGLE>
+            <BACKOFF-PCT>NA</BACKOFF-PCT>
+            <CUT-LENGTH>NA</CUT-LENGTH>
+            <END-LENGTH>NA</END-LENGTH>
+            <FINISH-ALLOW>NA</FINISH-ALLOW>
+            <FIRST-DOC>NA</FIRST-DOC>
+            <HEIGHT>NA</HEIGHT>
+            <LAST-DOC>NA</LAST-DOC>
+            <PITCH>NA</PITCH>
+            <POINT-LOC>NA</POINT-LOC>
+            <PULLOFF>NA</PULLOFF>
+            <SHANK-WIDTH>NA</SHANK-WIDTH>
+            <SPRING-CUTS>NA</SPRING-CUTS>
+            <STOCK-CLEARANCE>NA</STOCK-CLEARANCE>
+            <STYLE>NA</STYLE>
+            <THD-EXTERNAL>NA</THD-EXTERNAL>
+            <THD-FLAT-WIDTH>NA</THD-FLAT-WIDTH>
+            <THD-TYPE>NA</THD-TYPE>
+            <RELIEF-ANGLE>N (0 deg.)</RELIEF-ANGLE>
+            <XSECTION>E</XSECTION>
+            <FINISH-DOC>0.25</FINISH-DOC>
+            <OVERLAP>0.25</OVERLAP>
+            <RETRACT>0.0</RETRACT>
+            <ROUGH-DOC>2.0</ROUGH-DOC>
+            <X-OVERCUT>0.0</X-OVERCUT>
+          </INSERT>
+          <TIME-LONG>0 HOURS, 0 MINUTES, 25 SECONDS</TIME-LONG>
+          <TIME-SHORT>00:00:25</TIME-SHORT>
+          <MIN-X>-0.424</MIN-X>
+          <MIN-Y>0.0</MIN-Y>
+          <MIN-Z>0.0</MIN-Z>
+          <MAX-X>1.132</MAX-X>
+          <MAX-Y>0.9072</MAX-Y>
+          <MAX-Z>0.0</MAX-Z>
+          <OP>
+            <NAME>Lathe Finish</NAME>
+            <OPIDN>4</OPIDN>
+            <OPNUM>4</OPNUM>
+          </OP>
+          <OP>
+            <NAME>Lathe Finish</NAME>
+            <OPIDN>5</OPIDN>
+            <OPNUM>5</OPNUM>
+          </OP>
+        </TOOL-L>
+      </TOOL>
+      <TOOL>
+        <TOOL-L>
+          <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLB29.BMP</IMAGE>
+          <SPINDLE-SPEED-MAX>5000 RPM</SPINDLE-SPEED-MAX>
+          <SPINDLE-SPEED-MAX-VALUE>5000</SPINDLE-SPEED-MAX-VALUE>
+          <DESCRIPTION>T4429:44: Boring Bar - ID Finish .1875 dia. / 55 deg.</DESCRIPTION>
+          <TYPE>Boring Tool</TYPE>
+          <INSERT-UP>NO</INSERT-UP>
+          <METRIC>NO</METRIC>
+          <NAME>ID Finish .1875 dia. / 55 deg.</NAME>
+          <NUMBER>44</NUMBER>
+          <SLOT>29</SLOT>
+          <STATION>44</STATION>
+          <TOP-TURRET>YES</TOP-TURRET>
+          <ALIAS>T4444</ALIAS>
+          <INFO>R0.0078</INFO>
+          <ACTIVE-SPINDLE>Left</ACTIVE-SPINDLE>
+          <ACTIVE-TURRET>Right</ACTIVE-TURRET>
+          <OFFSET-FRONT>44</OFFSET-FRONT>
+          <OFFSET-BACK>NA</OFFSET-BACK>
+          <HOMEPOS>D16.0, Z7.0</HOMEPOS>
+          <FAST-FEED>0.0118 inch/rev</FAST-FEED>
+          <FAST-FEED-VALUE>0.0118</FAST-FEED-VALUE>
+          <SLOW-FEED>0.0 inch/min</SLOW-FEED>
+          <SLOW-FEED-VALUE>0.0</SLOW-FEED-VALUE>
+          <SPINDLE-SPEED>295 CSS</SPINDLE-SPEED>
+          <SPINDLE-SPEED-VALUE>295</SPINDLE-SPEED-VALUE>
+          <SPINDLE-DIRECTION>CCW</SPINDLE-DIRECTION>
+          <PCTMATLCSS>100.0</PCTMATLCSS>
+          <PCTMATLREV>100.0</PCTMATLREV>
+          <COOLANT-OP>Flood</COOLANT-OP>
+          <COOLANT-TL>Flood</COOLANT-TL>
+          <COOLANT>Flood</COOLANT>
+          <CLEARANCE-ANGLE>5.0</CLEARANCE-ANGLE>
+          <RAKE-ANGLE>60.0</RAKE-ANGLE>
+          <WIDTH>0.1172</WIDTH>
+          <HEIGHT>0.0983</HEIGHT>
+          <CENTER>0.00781, -0.00781</CENTER>
+          <COMPENSATION>Theoretical Sharp Corner</COMPENSATION>
+          <CENTER-COMP>NO</CENTER-COMP>
+          <CSS>NO</CSS>
+          <FACINGTOOL>NO</FACINGTOOL>
+          <HOLDER-ORIENT>8</HOLDER-ORIENT>
+          <IDTOOL>YES</IDTOOL>
+          <INSERT-TYPE>3</INSERT-TYPE>
+          <INVERTED>NO</INVERTED>
+          <LEFTHANDTOOL>NO</LEFTHANDTOOL>
+          <NEWTOOL>NO</NEWTOOL>
+          <NOSE-RADIUS>0.0078</NOSE-RADIUS>
+          <ODTOOL>NO</ODTOOL>
+          <ORIENT>8</ORIENT>
+          <ROUNDSHANKHOLDER>YES</ROUNDSHANKHOLDER>
+          <SHARPCORNERCOMP>YES</SHARPCORNERCOMP>
+          <TIPCOMP>NO</TIPCOMP>
+          <TURRET-ANGLE>0.0</TURRET-ANGLE>
+          <TWOPNTCOMP>NO</TWOPNTCOMP>
+          <HOLDER>
+            <ANGLE>0.0</ANGLE>
+            <CE-END>5.0</CE-END>
+            <CE-SIDE>-30.0</CE-SIDE>
+            <CHAMFER-HEIGHT>0.0938</CHAMFER-HEIGHT>
+            <CHAMFER-WIDTH>0.0938</CHAMFER-WIDTH>
+            <HAND>Right</HAND>
+            <HEAD-LENGTH>0.1875</HEAD-LENGTH>
+            <HEAD-WIDTH>1.25</HEAD-WIDTH>
+            <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLH29.BMP</IMAGE>
+            <LENGTH>4.0</LENGTH>
+            <METRIC>NO</METRIC>
+            <ORIENTATION>Horizontal</ORIENTATION>
+            <SHANK-HEIGHT>1.0</SHANK-HEIGHT>
+            <SHANK-ROUND>NO</SHANK-ROUND>
+            <SHANK-WIDTH>0.1875</SHANK-WIDTH>
+            <SHAPE>3</SHAPE>
+            <TOOLTYPE>Boring Tool</TOOLTYPE>
+            <WIDTH>0.1094</WIDTH>
+          </HOLDER>
+          <INSERT>
+            <IC-DIAMETER>0.0938</IC-DIAMETER>
+            <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLI29.BMP</IMAGE>
+            <TYPE>3</TYPE>
+            <LENGTH>0.0938</LENGTH>
+            <MATERIAL>Carbide</MATERIAL>
+            <METRIC>NO</METRIC>
+            <RADIUS>0.0078</RADIUS>
+            <SHAPE>D (55 deg. diamond)</SHAPE>
+            <THICKNESS>0.0781</THICKNESS>
+            <WIDTH>0.1563</WIDTH>
+            <ANGLE>NA</ANGLE>
+            <BACKOFF-PCT>NA</BACKOFF-PCT>
+            <CUT-LENGTH>NA</CUT-LENGTH>
+            <END-LENGTH>NA</END-LENGTH>
+            <FINISH-ALLOW>NA</FINISH-ALLOW>
+            <FIRST-DOC>NA</FIRST-DOC>
+            <HEIGHT>NA</HEIGHT>
+            <LAST-DOC>NA</LAST-DOC>
+            <PITCH>NA</PITCH>
+            <POINT-LOC>NA</POINT-LOC>
+            <PULLOFF>NA</PULLOFF>
+            <SHANK-WIDTH>NA</SHANK-WIDTH>
+            <SPRING-CUTS>NA</SPRING-CUTS>
+            <STOCK-CLEARANCE>NA</STOCK-CLEARANCE>
+            <STYLE>NA</STYLE>
+            <THD-EXTERNAL>NA</THD-EXTERNAL>
+            <THD-FLAT-WIDTH>NA</THD-FLAT-WIDTH>
+            <THD-TYPE>NA</THD-TYPE>
+            <RELIEF-ANGLE>N (0 deg.)</RELIEF-ANGLE>
+            <XSECTION>E</XSECTION>
+            <FINISH-DOC>0.01</FINISH-DOC>
+            <OVERLAP>0.01</OVERLAP>
+            <RETRACT>0.0</RETRACT>
+            <ROUGH-DOC>0.1</ROUGH-DOC>
+            <X-OVERCUT>0.0</X-OVERCUT>
+          </INSERT>
+          <TIME-LONG>0 HOURS, 0 MINUTES, 15 SECONDS</TIME-LONG>
+          <TIME-SHORT>00:00:15</TIME-SHORT>
+          <MIN-X>-0.02</MIN-X>
+          <MIN-Y>0.0</MIN-Y>
+          <MIN-Z>0.0</MIN-Z>
+          <MAX-X>1.0174</MAX-X>
+          <MAX-Y>0.5222</MAX-Y>
+          <MAX-Z>0.0</MAX-Z>
+          <OP>
+            <NAME>Lathe Rough</NAME>
+            <OPIDN>7</OPIDN>
+            <OPNUM>6</OPNUM>
+          </OP>
+          <OP>
+            <NAME>Lathe Finish</NAME>
+            <OPIDN>8</OPIDN>
+            <OPNUM>7</OPNUM>
+          </OP>
+        </TOOL-L>
+      </TOOL>
+      <TOOL>
+        <TOOL-M>
+          <COMMENT>1/4 CENTERDRILL</COMMENT>
+          <TIME-LONG>0 HOURS, 0 MINUTES, 7 SECONDS</TIME-LONG>
+          <TIME-SHORT>00:00:07</TIME-SHORT>
+          <COOLANT-OP>Flood</COOLANT-OP>
+          <COOLANT-TL>Flood</COOLANT-TL>
+          <COOLANT>Flood</COOLANT>
+          <CORNER-RADIUS>0.0</CORNER-RADIUS>
+          <CORNER-RADIUS-TYPE>None</CORNER-RADIUS-TYPE>
+          <DESCRIPTION>#2:1 - 0.2500 CENTER DRILL - 1/4 CENTERDRILL</DESCRIPTION>
+          <NAME>1/4 CENTERDRILL</NAME>
+          <DIAMETER>0.25</DIAMETER>
+          <RADIUS>0.125</RADIUS>
+          <DIAMETER-OFFSET>2</DIAMETER-OFFSET>
+          <FLUTES>2</FLUTES>
+          <LENGTH-OFFSET>2</LENGTH-OFFSET>
+          <MATERIAL>HSS</MATERIAL>
+          <METRIC>NO</METRIC>
+          <MC>CTRDRILL.MCX-9</MC>
+          <NUMBER>2</NUMBER>
+          <ALIAS>T0202</ALIAS>
+          <STATION>-1</STATION>
+          <ACTIVE-SPINDLE>Left</ACTIVE-SPINDLE>
+          <ACTIVE-TURRET>Right</ACTIVE-TURRET>
+          <FEEDRATE>5.0 inch/min</FEEDRATE>
+          <FEEDRATE-VALUE>5.0</FEEDRATE-VALUE>
+          <PLUNGE>1.0696 inch/min</PLUNGE>
+          <PLUNGE-VALUE>1.0696</PLUNGE-VALUE>
+          <RETRACT>1.0696 inch/min</RETRACT>
+          <RETRACT-VALUE>1.0696</RETRACT-VALUE>
+          <SPINDLE-SPEED-MAX>10000 RPM</SPINDLE-SPEED-MAX>
+          <SPINDLE-SPEED-MAX-VALUE>10000</SPINDLE-SPEED-MAX-VALUE>
+          <TIP-ANGLE>90.0</TIP-ANGLE>
+          <TYPE>Center Drill</TYPE>
+          <AGGREGATE>NO</AGGREGATE>
+          <ARBOR-DIAMETER>0.25</ARBOR-DIAMETER>
+          <ARBOR-RADIUS>0.125</ARBOR-RADIUS>
+          <OVERALL-LENGTH>3.0</OVERALL-LENGTH>
+          <FLUTE-LENGTH>2.0</FLUTE-LENGTH>
+          <FPT>0.0091</FPT>
+          <OVERALL-DIA>0.25</OVERALL-DIA>
+          <OVERALL-DIAMETER>0.25</OVERALL-DIAMETER>
+          <OVERALL-RADIUS>0.125</OVERALL-RADIUS>
+          <PILOT-DIAMETER>0.0</PILOT-DIAMETER>
+          <PILOT-RADIUS>0.0</PILOT-RADIUS>
+          <SFM>17.9974</SFM>
+          <SHANK-DIAMETER>0.25</SHANK-DIAMETER>
+          <SHANK-RADIUS>0.125</SHANK-RADIUS>
+          <SHOULDER-LENGTH>2.5</SHOULDER-LENGTH>
+          <SPINDLE-DIRECTION>CW</SPINDLE-DIRECTION>
+          <SPINDLE-SPEED>275 RPM</SPINDLE-SPEED>
+          <SPINDLE-SPEED-VALUE>275</SPINDLE-SPEED-VALUE>
+          <ROUGH-X>NA</ROUGH-X>
+          <ROUGH-Z>NA</ROUGH-Z>
+          <FINISH-X>NA</FINISH-X>
+          <FINISH-Z>NA</FINISH-Z>
+          <OUT-DIA>NA</OUT-DIA>
+          <ANGLE>90.0</ANGLE>
+          <CHIP-BREAK>10.0</CHIP-BREAK>
+          <DWELL>0.0</DWELL>
+          <PECK-CLR>20.0</PECK-CLR>
+          <PECK1>0.0</PECK1>
+          <PECK2>0.0</PECK2>
+          <ROOT-DIA>NA</ROOT-DIA>
+          <THD-COUNT>NA</THD-COUNT>
+          <THD-PITCH>NA</THD-PITCH>
+          <THREADS>NA</THREADS>
+          <SHIFT>NA</SHIFT>
+          <IMAGE3D>..\SST\SAMPLES\MILLTURN\MTOOL3D1.BMP</IMAGE3D>
+          <IMAGE2D>..\SST\SAMPLES\MILLTURN\MTOOL2D1.BMP</IMAGE2D>
+          <BITMAP>..\SST\SAMPLES\MILLTURN\_TTC2.BMP</BITMAP>
+          <IMAGE>..\SST\SAMPLES\MILLTURN\MTOOL3D1.BMP</IMAGE>
+          <HOLDER-DIAMETER-TOP>0.0</HOLDER-DIAMETER-TOP>
+          <HOLDER-DIAMETER-BOTTOM>0.0</HOLDER-DIAMETER-BOTTOM>
+          <HOLDER-DIAMETER-MIN>0.0</HOLDER-DIAMETER-MIN>
+          <HOLDER-DIAMETER-MAX>0.0</HOLDER-DIAMETER-MAX>
+          <HOLDER-DIAMETER>0.0</HOLDER-DIAMETER>
+          <HOLDER-LENGTH>0.0</HOLDER-LENGTH>
+          <HOLDER-NAME>DEFAULT HOLDER</HOLDER-NAME>
+          <HOLDER-LIB>NA</HOLDER-LIB>
+          <MIN-X>0.5119</MIN-X>
+          <MIN-Y>-0.2902</MIN-Y>
+          <MIN-Z>-0.0001</MIN-Z>
+          <MAX-X>0.5121</MAX-X>
+          <MAX-Y>0.6002</MAX-Y>
+          <MAX-Z>0.0001</MAX-Z>
+          <OP>
+            <NAME>C-Axis Cross Drill - Simple drill - no peck</NAME>
+            <OPIDN>11</OPIDN>
+            <OPNUM>8</OPNUM>
+          </OP>
+        </TOOL-M>
+      </TOOL>
+      <TOOL>
+        <TOOL-M>
+          <COMMENT>#7 DRILL</COMMENT>
+          <TIME-LONG>0 HOURS, 0 MINUTES, 38 SECONDS</TIME-LONG>
+          <TIME-SHORT>00:00:38</TIME-SHORT>
+          <COOLANT-OP>Flood</COOLANT-OP>
+          <COOLANT-TL>Flood</COOLANT-TL>
+          <COOLANT>Flood</COOLANT>
+          <CORNER-RADIUS>0.0</CORNER-RADIUS>
+          <CORNER-RADIUS-TYPE>None</CORNER-RADIUS-TYPE>
+          <DESCRIPTION>#90:2 - 0.2010 DRILL - #7 DRILL</DESCRIPTION>
+          <NAME>#7 DRILL</NAME>
+          <DIAMETER>0.201</DIAMETER>
+          <RADIUS>0.1005</RADIUS>
+          <DIAMETER-OFFSET>90</DIAMETER-OFFSET>
+          <FLUTES>2</FLUTES>
+          <LENGTH-OFFSET>90</LENGTH-OFFSET>
+          <MATERIAL>HSS</MATERIAL>
+          <METRIC>NO</METRIC>
+          <MC>DRILL.MCX-9</MC>
+          <NUMBER>90</NUMBER>
+          <ALIAS>T9090</ALIAS>
+          <STATION>-1</STATION>
+          <ACTIVE-SPINDLE>Left</ACTIVE-SPINDLE>
+          <ACTIVE-TURRET>Right</ACTIVE-TURRET>
+          <FEEDRATE>5.0 inch/min</FEEDRATE>
+          <FEEDRATE-VALUE>5.0</FEEDRATE-VALUE>
+          <PLUNGE>0.0021 inch/min</PLUNGE>
+          <PLUNGE-VALUE>0.0021</PLUNGE-VALUE>
+          <RETRACT>0.0021 inch/min</RETRACT>
+          <RETRACT-VALUE>0.0021</RETRACT-VALUE>
+          <SPINDLE-SPEED-MAX>10000 RPM</SPINDLE-SPEED-MAX>
+          <SPINDLE-SPEED-MAX-VALUE>10000</SPINDLE-SPEED-MAX-VALUE>
+          <TIP-ANGLE>118.0</TIP-ANGLE>
+          <TYPE>Drill</TYPE>
+          <AGGREGATE>NO</AGGREGATE>
+          <ARBOR-DIAMETER>0.201</ARBOR-DIAMETER>
+          <ARBOR-RADIUS>0.1005</ARBOR-RADIUS>
+          <OVERALL-LENGTH>3.0</OVERALL-LENGTH>
+          <FLUTE-LENGTH>2.0</FLUTE-LENGTH>
+          <FPT>0.0073</FPT>
+          <OVERALL-DIA>0.201</OVERALL-DIA>
+          <OVERALL-DIAMETER>0.201</OVERALL-DIAMETER>
+          <OVERALL-RADIUS>0.1005</OVERALL-RADIUS>
+          <PILOT-DIAMETER>0.0</PILOT-DIAMETER>
+          <PILOT-RADIUS>0.0</PILOT-RADIUS>
+          <SFM>17.9953</SFM>
+          <SHANK-DIAMETER>0.201</SHANK-DIAMETER>
+          <SHANK-RADIUS>0.1005</SHANK-RADIUS>
+          <SHOULDER-LENGTH>2.5</SHOULDER-LENGTH>
+          <SPINDLE-DIRECTION>CW</SPINDLE-DIRECTION>
+          <SPINDLE-SPEED>342 RPM</SPINDLE-SPEED>
+          <SPINDLE-SPEED-VALUE>342</SPINDLE-SPEED-VALUE>
+          <ROUGH-X>NA</ROUGH-X>
+          <ROUGH-Z>NA</ROUGH-Z>
+          <FINISH-X>NA</FINISH-X>
+          <FINISH-Z>NA</FINISH-Z>
+          <OUT-DIA>NA</OUT-DIA>
+          <ANGLE>118.0</ANGLE>
+          <CHIP-BREAK>15.0</CHIP-BREAK>
+          <DWELL>0.0</DWELL>
+          <PECK-CLR>15.0</PECK-CLR>
+          <PECK1>30.0</PECK1>
+          <PECK2>0.0</PECK2>
+          <ROOT-DIA>NA</ROOT-DIA>
+          <THD-COUNT>NA</THD-COUNT>
+          <THD-PITCH>NA</THD-PITCH>
+          <THREADS>NA</THREADS>
+          <SHIFT>NA</SHIFT>
+          <IMAGE3D>..\SST\SAMPLES\MILLTURN\MTOOL3D2.BMP</IMAGE3D>
+          <IMAGE2D>..\SST\SAMPLES\MILLTURN\MTOOL2D2.BMP</IMAGE2D>
+          <BITMAP>..\SST\SAMPLES\MILLTURN\_TTC4.BMP</BITMAP>
+          <IMAGE>..\SST\SAMPLES\MILLTURN\MTOOL3D2.BMP</IMAGE>
+          <HOLDER-DIAMETER-TOP>0.0</HOLDER-DIAMETER-TOP>
+          <HOLDER-DIAMETER-BOTTOM>0.0</HOLDER-DIAMETER-BOTTOM>
+          <HOLDER-DIAMETER-MIN>0.0</HOLDER-DIAMETER-MIN>
+          <HOLDER-DIAMETER-MAX>0.0</HOLDER-DIAMETER-MAX>
+          <HOLDER-DIAMETER>0.0</HOLDER-DIAMETER>
+          <HOLDER-LENGTH>0.0</HOLDER-LENGTH>
+          <HOLDER-NAME>DEFAULT HOLDER</HOLDER-NAME>
+          <HOLDER-LIB>NA</HOLDER-LIB>
+          <MIN-X>-0.0842</MIN-X>
+          <MIN-Y>-0.7706</MIN-Y>
+          <MIN-Z>-0.0001</MIN-Z>
+          <MAX-X>1.2762</MAX-X>
+          <MAX-Y>1.3888</MAX-Y>
+          <MAX-Z>0.0001</MAX-Z>
+          <OP>
+            <NAME>C-Axis Drill - Simple drill - no peck</NAME>
+            <OPIDN>10</OPIDN>
+            <OPNUM>9</OPNUM>
+          </OP>
+          <OP>
+            <NAME>C-Axis Drill - Simple drill - no peck</NAME>
+            <OPIDN>9</OPIDN>
+            <OPNUM>10</OPNUM>
+          </OP>
+        </TOOL-M>
+      </TOOL>
+      <TOOL>
+        <TOOL-M>
+          <COMMENT>3/8 FLAT ENDMILL</COMMENT>
+          <TIME-LONG>0 HOURS, 0 MINUTES, 28 SECONDS</TIME-LONG>
+          <TIME-SHORT>00:00:28</TIME-SHORT>
+          <COOLANT-OP>Flood</COOLANT-OP>
+          <COOLANT-TL>Flood</COOLANT-TL>
+          <COOLANT>Flood</COOLANT>
+          <CORNER-RADIUS>0.0</CORNER-RADIUS>
+          <CORNER-RADIUS-TYPE>None</CORNER-RADIUS-TYPE>
+          <DESCRIPTION>#38:3 - 0.3750 ENDMILL1 FLAT - 3/8 FLAT ENDMILL</DESCRIPTION>
+          <NAME>3/8 FLAT ENDMILL</NAME>
+          <DIAMETER>0.375</DIAMETER>
+          <RADIUS>0.1875</RADIUS>
+          <DIAMETER-OFFSET>38</DIAMETER-OFFSET>
+          <FLUTES>4</FLUTES>
+          <LENGTH-OFFSET>38</LENGTH-OFFSET>
+          <MATERIAL>HSS</MATERIAL>
+          <METRIC>NO</METRIC>
+          <MC>FLATMILL.MCX-9</MC>
+          <NUMBER>38</NUMBER>
+          <ALIAS>T3838</ALIAS>
+          <STATION>38</STATION>
+          <ACTIVE-SPINDLE>Left</ACTIVE-SPINDLE>
+          <ACTIVE-TURRET>Right</ACTIVE-TURRET>
+          <FEEDRATE>5.0 inch/min</FEEDRATE>
+          <FEEDRATE-VALUE>5.0</FEEDRATE-VALUE>
+          <PLUNGE>5.0 inch/min</PLUNGE>
+          <PLUNGE-VALUE>5.0</PLUNGE-VALUE>
+          <RETRACT>5.0 inch/min</RETRACT>
+          <RETRACT-VALUE>5.0</RETRACT-VALUE>
+          <SPINDLE-SPEED-MAX>10000 RPM</SPINDLE-SPEED-MAX>
+          <SPINDLE-SPEED-MAX-VALUE>10000</SPINDLE-SPEED-MAX-VALUE>
+          <TIP-ANGLE>180.0</TIP-ANGLE>
+          <TYPE>Endmill1 Flat</TYPE>
+          <AGGREGATE>NO</AGGREGATE>
+          <ARBOR-DIAMETER>0.375</ARBOR-DIAMETER>
+          <ARBOR-RADIUS>0.1875</ARBOR-RADIUS>
+          <OVERALL-LENGTH>3.0</OVERALL-LENGTH>
+          <FLUTE-LENGTH>2.0</FLUTE-LENGTH>
+          <FPT>0.0014</FPT>
+          <OVERALL-DIA>0.375</OVERALL-DIA>
+          <OVERALL-DIAMETER>0.375</OVERALL-DIAMETER>
+          <OVERALL-RADIUS>0.1875</OVERALL-RADIUS>
+          <PILOT-DIAMETER>0.0</PILOT-DIAMETER>
+          <PILOT-RADIUS>0.0</PILOT-RADIUS>
+          <SFM>88.3508</SFM>
+          <SHANK-DIAMETER>0.375</SHANK-DIAMETER>
+          <SHANK-RADIUS>0.1875</SHANK-RADIUS>
+          <SHOULDER-LENGTH>2.5</SHOULDER-LENGTH>
+          <SPINDLE-DIRECTION>CW</SPINDLE-DIRECTION>
+          <SPINDLE-SPEED>900 RPM</SPINDLE-SPEED>
+          <SPINDLE-SPEED-VALUE>900</SPINDLE-SPEED-VALUE>
+          <ROUGH-X>50.0</ROUGH-X>
+          <ROUGH-Z>50.0</ROUGH-Z>
+          <FINISH-X>25.0</FINISH-X>
+          <FINISH-Z>25.0</FINISH-Z>
+          <OUT-DIA>NA</OUT-DIA>
+          <ANGLE>NA</ANGLE>
+          <CHIP-BREAK>NA</CHIP-BREAK>
+          <DWELL>NA</DWELL>
+          <PECK-CLR>NA</PECK-CLR>
+          <PECK1>NA</PECK1>
+          <PECK2>NA</PECK2>
+          <ROOT-DIA>NA</ROOT-DIA>
+          <THD-COUNT>NA</THD-COUNT>
+          <THD-PITCH>NA</THD-PITCH>
+          <THREADS>NA</THREADS>
+          <SHIFT>NA</SHIFT>
+          <IMAGE3D>..\SST\SAMPLES\MILLTURN\MTOOL3D3.BMP</IMAGE3D>
+          <IMAGE2D>..\SST\SAMPLES\MILLTURN\MTOOL2D3.BMP</IMAGE2D>
+          <BITMAP>..\SST\SAMPLES\MILLTURN\_TTC11.BMP</BITMAP>
+          <IMAGE>..\SST\SAMPLES\MILLTURN\MTOOL3D3.BMP</IMAGE>
+          <HOLDER-DIAMETER-TOP>0.0</HOLDER-DIAMETER-TOP>
+          <HOLDER-DIAMETER-BOTTOM>0.0</HOLDER-DIAMETER-BOTTOM>
+          <HOLDER-DIAMETER-MIN>0.0</HOLDER-DIAMETER-MIN>
+          <HOLDER-DIAMETER-MAX>0.0</HOLDER-DIAMETER-MAX>
+          <HOLDER-DIAMETER>0.0</HOLDER-DIAMETER>
+          <HOLDER-LENGTH>0.0</HOLDER-LENGTH>
+          <HOLDER-NAME>DEFAULT HOLDER</HOLDER-NAME>
+          <HOLDER-LIB>NA</HOLDER-LIB>
+          <MIN-X>0.6795</MIN-X>
+          <MIN-Y>-0.1495</MIN-Y>
+          <MIN-Z>-0.31</MIN-Z>
+          <MAX-X>1.0758</MAX-X>
+          <MAX-Y>0.0705</MAX-Y>
+          <MAX-Z>0.31</MAX-Z>
+          <OP>
+            <NAME>Contour (2D)</NAME>
+            <OPIDN>12</OPIDN>
+            <OPNUM>11</OPNUM>
+          </OP>
+          <OP>
+            <NAME>Contour (2D)</NAME>
+            <OPIDN>13</OPIDN>
+            <OPNUM>12</OPNUM>
+          </OP>
+        </TOOL-M>
+      </TOOL>
+      <TOOL>
+        <TOOL-L>
+          <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLB40.BMP</IMAGE>
+          <SPINDLE-SPEED-MAX>5000 RPM</SPINDLE-SPEED-MAX>
+          <SPINDLE-SPEED-MAX-VALUE>5000</SPINDLE-SPEED-MAX-VALUE>
+          <DESCRIPTION>T0340:3: Drilling Tool - Spot Tool .75 Dia.</DESCRIPTION>
+          <TYPE>Drilling Tool</TYPE>
+          <INSERT-UP>NO</INSERT-UP>
+          <METRIC>NO</METRIC>
+          <NAME>Spot Tool .75 Dia.</NAME>
+          <NUMBER>3</NUMBER>
+          <SLOT>40</SLOT>
+          <STATION>3</STATION>
+          <TOP-TURRET>YES</TOP-TURRET>
+          <ALIAS>T0303</ALIAS>
+          <INFO>0.75 Dia.</INFO>
+          <ACTIVE-SPINDLE>Left</ACTIVE-SPINDLE>
+          <ACTIVE-TURRET>Right</ACTIVE-TURRET>
+          <OFFSET-FRONT>3</OFFSET-FRONT>
+          <OFFSET-BACK>NA</OFFSET-BACK>
+          <HOMEPOS>D16.0, Z7.0</HOMEPOS>
+          <FAST-FEED>10.0 inch/rev</FAST-FEED>
+          <FAST-FEED-VALUE>10.0</FAST-FEED-VALUE>
+          <SLOW-FEED>0.0 inch/min</SLOW-FEED>
+          <SLOW-FEED-VALUE>0.0</SLOW-FEED-VALUE>
+          <SPINDLE-SPEED>800 RPM</SPINDLE-SPEED>
+          <SPINDLE-SPEED-VALUE>800</SPINDLE-SPEED-VALUE>
+          <SPINDLE-DIRECTION>CCW</SPINDLE-DIRECTION>
+          <PCTMATLCSS>100.0</PCTMATLCSS>
+          <PCTMATLREV>100.0</PCTMATLREV>
+          <COOLANT-OP>Flood</COOLANT-OP>
+          <COOLANT-TL>Flood</COOLANT-TL>
+          <COOLANT>Flood</COOLANT>
+          <CLEARANCE-ANGLE>0.0</CLEARANCE-ANGLE>
+          <RAKE-ANGLE>0.0</RAKE-ANGLE>
+          <WIDTH>0.0</WIDTH>
+          <HEIGHT>0.0</HEIGHT>
+          <CENTER>0.0, 0.0</CENTER>
+          <COMPENSATION>Tip of Radius on C/L</COMPENSATION>
+          <CENTER-COMP>NO</CENTER-COMP>
+          <CSS>NO</CSS>
+          <FACINGTOOL>NO</FACINGTOOL>
+          <HOLDER-ORIENT>5</HOLDER-ORIENT>
+          <IDTOOL>YES</IDTOOL>
+          <INSERT-TYPE>4</INSERT-TYPE>
+          <INVERTED>NO</INVERTED>
+          <LEFTHANDTOOL>NO</LEFTHANDTOOL>
+          <NEWTOOL>NO</NEWTOOL>
+          <NOSE-RADIUS>0.0</NOSE-RADIUS>
+          <ODTOOL>NO</ODTOOL>
+          <ORIENT>5</ORIENT>
+          <ROUNDSHANKHOLDER>NO</ROUNDSHANKHOLDER>
+          <SHARPCORNERCOMP>NO</SHARPCORNERCOMP>
+          <TIPCOMP>YES</TIPCOMP>
+          <TURRET-ANGLE>0.0</TURRET-ANGLE>
+          <TWOPNTCOMP>NO</TWOPNTCOMP>
+          <HOLDER>
+            <ANGLE>0.0</ANGLE>
+            <CE-END>0.0</CE-END>
+            <CE-SIDE>0.0</CE-SIDE>
+            <CHAMFER-HEIGHT>0.625</CHAMFER-HEIGHT>
+            <CHAMFER-WIDTH>0.625</CHAMFER-WIDTH>
+            <HAND>Right</HAND>
+            <HEAD-LENGTH>5.0</HEAD-LENGTH>
+            <HEAD-WIDTH>2.0</HEAD-WIDTH>
+            <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLH40.BMP</IMAGE>
+            <LENGTH>6.5</LENGTH>
+            <METRIC>NO</METRIC>
+            <ORIENTATION>Horizontal</ORIENTATION>
+            <SHANK-HEIGHT>0.0</SHANK-HEIGHT>
+            <SHANK-ROUND>NO</SHANK-ROUND>
+            <SHANK-WIDTH>0.0</SHANK-WIDTH>
+            <SHAPE>0</SHAPE>
+            <TOOLTYPE>Drilling Tool</TOOLTYPE>
+            <WIDTH>2.0</WIDTH>
+          </HOLDER>
+          <DRILL>
+            <CHAMFER-HEIGHT>0.1</CHAMFER-HEIGHT>
+            <CUT-LENGTH>1.5</CUT-LENGTH>
+            <FLUTE-ANGLE>30.0</FLUTE-ANGLE>
+            <FLUTE-LENGTH>1.5</FLUTE-LENGTH>
+            <MATERIAL>Carbide</MATERIAL>
+            <NUMBER-OF-FLUTES>2</NUMBER-OF-FLUTES>
+            <NUMBER-OF-THREADS>16.0</NUMBER-OF-THREADS>
+            <SHANK-DIAMETER>0.75</SHANK-DIAMETER>
+            <SHOULDER-ANGLE>60.0</SHOULDER-ANGLE>
+            <TAP-TYPE>1</TAP-TYPE>
+            <TIP-ANGLE>90.0</TIP-ANGLE>
+            <TIP-DIAMETER>0.25</TIP-DIAMETER>
+            <TIP-LENGTH>0.3</TIP-LENGTH>
+            <CYCLE>0</CYCLE>
+            <DIAMETER>0.75</DIAMETER>
+            <DWELL>0.0</DWELL>
+            <IMAGE>..\SST\SAMPLES\MILLTURN\LTOOLI40.BMP</IMAGE>
+            <PECK-1>0.25</PECK-1>
+            <PECK-2>0.2</PECK-2>
+            <PECK-CLEARANCE>0.02</PECK-CLEARANCE>
+            <PITCH>0.0625</PITCH>
+            <RETRACT>0.05</RETRACT>
+            <TYPE>Countersink</TYPE>
+          </DRILL>
+          <TIME-LONG>0 HOURS, 0 MINUTES, 0 SECONDS</TIME-LONG>
+          <TIME-SHORT>00:00:00</TIME-SHORT>
+          <MIN-X>-0.1822</MIN-X>
+          <MIN-Y>-0.0001</MIN-Y>
+          <MIN-Z>0.0</MIN-Z>
+          <MAX-X>1.3</MAX-X>
+          <MAX-Y>0.0001</MAX-Y>
+          <MAX-Z>0.0</MAX-Z>
+          <OP>
+            <NAME>Lathe Drill</NAME>
+            <OPIDN>14</OPIDN>
+            <OPNUM>13</OPNUM>
+          </OP>
+        </TOOL-L>
+      </TOOL>
+    </TOOLS>
+    <OFFSETS>
+      <OFFSET>
+        <GCODE>G54</GCODE>
+        <NUMBER>0</NUMBER>
+        <ORIGIN>D0.0, Z0.0</ORIGIN>
+        <ORIGIN-WORLD>0.0, 0.0, 0.0</ORIGIN-WORLD>
+        <ORIGIN-VIEW>D0.0, Z0.0</ORIGIN-VIEW>
+        <PLANE-NAME>Right side</PLANE-NAME>
+        <PLANE-NUMBER>5</PLANE-NUMBER>
+        <VIEW>Right side</VIEW>
+        <VNUM>5</VNUM>
+        <OP>
+          <NAME>Lathe Face</NAME>
+          <OPIDN>1</OPIDN>
+          <OPNUM>1</OPNUM>
+        </OP>
+        <OP>
+          <NAME>Lathe Rough</NAME>
+          <OPIDN>2</OPIDN>
+          <OPNUM>2</OPNUM>
+        </OP>
+        <OP>
+          <NAME>Lathe Drill</NAME>
+          <OPIDN>3</OPIDN>
+          <OPNUM>3</OPNUM>
+        </OP>
+        <OP>
+          <NAME>Lathe Finish</NAME>
+          <OPIDN>4</OPIDN>
+          <OPNUM>4</OPNUM>
+        </OP>
+        <OP>
+          <NAME>Lathe Finish</NAME>
+          <OPIDN>5</OPIDN>
+          <OPNUM>5</OPNUM>
+        </OP>
+        <OP>
+          <NAME>Lathe Rough</NAME>
+          <OPIDN>7</OPIDN>
+          <OPNUM>6</OPNUM>
+        </OP>
+        <OP>
+          <NAME>Lathe Finish</NAME>
+          <OPIDN>8</OPIDN>
+          <OPNUM>7</OPNUM>
+        </OP>
+        <OP>
+          <NAME>Lathe Drill</NAME>
+          <OPIDN>14</OPIDN>
+          <OPNUM>13</OPNUM>
+        </OP>
+      </OFFSET>
+      <OFFSET>
+        <GCODE>G55</GCODE>
+        <NUMBER>1</NUMBER>
+        <ORIGIN>D0.0, Z0.0</ORIGIN>
+        <ORIGIN-WORLD>0.0, 0.0, 0.0</ORIGIN-WORLD>
+        <ORIGIN-VIEW>D0.0, Z0.0</ORIGIN-VIEW>
+        <PLANE-NAME>Back</PLANE-NAME>
+        <PLANE-NUMBER>3</PLANE-NUMBER>
+        <VIEW>Back</VIEW>
+        <VNUM>3</VNUM>
+        <OP>
+          <NAME>C-Axis Cross Drill - Simple drill - no peck</NAME>
+          <OPIDN>11</OPIDN>
+          <OPNUM>8</OPNUM>
+        </OP>
+      </OFFSET>
+      <OFFSET>
+        <GCODE>G56</GCODE>
+        <NUMBER>2</NUMBER>
+        <ORIGIN>D0.0, Z0.0</ORIGIN>
+        <ORIGIN-WORLD>0.0, 0.0, 0.0</ORIGIN-WORLD>
+        <ORIGIN-VIEW>D0.0, Z0.0</ORIGIN-VIEW>
+        <PLANE-NUMBER>21</PLANE-NUMBER>
+        <VNUM>21</VNUM>
+        <OP>
+          <NAME>C-Axis Drill - Simple drill - no peck</NAME>
+          <OPIDN>10</OPIDN>
+          <OPNUM>9</OPNUM>
+        </OP>
+      </OFFSET>
+      <OFFSET>
+        <GCODE>G57</GCODE>
+        <NUMBER>3</NUMBER>
+        <ORIGIN>D0.0, Z0.0</ORIGIN>
+        <ORIGIN-WORLD>0.0, 0.0, 0.0</ORIGIN-WORLD>
+        <ORIGIN-VIEW>D0.0, Z0.0</ORIGIN-VIEW>
+        <PLANE-NAME>NEW VIEW #1</PLANE-NAME>
+        <PLANE-NUMBER>19</PLANE-NUMBER>
+        <VIEW>NEW VIEW #1</VIEW>
+        <VNUM>19</VNUM>
+        <OP>
+          <NAME>C-Axis Drill - Simple drill - no peck</NAME>
+          <OPIDN>9</OPIDN>
+          <OPNUM>10</OPNUM>
+        </OP>
+      </OFFSET>
+      <OFFSET>
+        <GCODE>G58</GCODE>
+        <NUMBER>4</NUMBER>
+        <ORIGIN>D0.0, Z0.0</ORIGIN>
+        <ORIGIN-WORLD>0.0, 0.0, 0.0</ORIGIN-WORLD>
+        <ORIGIN-VIEW>D0.0, Z0.0</ORIGIN-VIEW>
+        <PLANE-NAME>Top</PLANE-NAME>
+        <PLANE-NUMBER>1</PLANE-NUMBER>
+        <VIEW>Top</VIEW>
+        <VNUM>1</VNUM>
+        <OP>
+          <NAME>Contour (2D)</NAME>
+          <OPIDN>12</OPIDN>
+          <OPNUM>11</OPNUM>
+        </OP>
+      </OFFSET>
+      <OFFSET>
+        <GCODE>G59</GCODE>
+        <NUMBER>5</NUMBER>
+        <ORIGIN>D0.0, Z0.0</ORIGIN>
+        <ORIGIN-WORLD>0.0, 0.0, 0.0</ORIGIN-WORLD>
+        <ORIGIN-VIEW>D0.0, Z0.0</ORIGIN-VIEW>
+        <PLANE-NAME>Bottom</PLANE-NAME>
+        <PLANE-NUMBER>4</PLANE-NUMBER>
+        <VIEW>Bottom</VIEW>
+        <VNUM>4</VNUM>
+        <OP>
+          <NAME>Contour (2D)</NAME>
+          <OPIDN>13</OPIDN>
+          <OPNUM>12</OPNUM>
+        </OP>
+      </OFFSET>
+    </OFFSETS>
+    <MIN-X>-0.424</MIN-X>
+    <MIN-Y>-0.7706</MIN-Y>
+    <MIN-Z>-0.31</MIN-Z>
+    <MAX-X>1.3</MAX-X>
+    <MAX-Y>1.3888</MAX-Y>
+    <MAX-Z>0.31</MAX-Z>
+    <TIME-LONG>0 HOURS, 2 MINUTES, 48 SECONDS</TIME-LONG>
+    <TIME-SHORT>00:02:48</TIME-SHORT>
+  </NCFILE>
+</SETUPSHEET>

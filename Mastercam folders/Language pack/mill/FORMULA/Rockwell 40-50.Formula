@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HST_Formula_Data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<toolpath name="Core roughing" target="COREROUGH">
+		<page name="Cut parameters" target="CUT_PARAMETERS__PAGE">
+			<group name="Stepdown" target="STEPDOWN__GROUP">
+				<param name="Stepdown" target="STEPDOWN">(@DIAMETER * 0.07)</param>
+				<param name="Min stepdown" target="MINIMUM_STEPDOWN">(@STEPDOWN * 0.25)</param>
+				<param name="Max profile stepover" target="MAXIMUM_STEPOVER">(@DIAMETER * 0.50)</param>
+			</group>
+			<group name="XY stepover" target="XY_STEPOVER__GROUP">
+				<param name="% of diameter" target="PERCENT_DIAMETER">26</param>
+				<param name="Max" target="PERCENT_MAXIMUM">(@DIAMETER * @PERCENT_DIAMETER)</param>
+				<param name="Min" target="PERCENT_MINIMUM">(@PERCENT_MAXIMUM * 0.55)</param>
+			</group>
+			<group name="Smoothing" target="SMOOTHING__GROUP">
+				<param name="Max radius" target="MAXIMUM_RADIUS">(@DIAMETER * 0.05)</param>
+				<param name="Profile tolerance" target="PROFILE_TOLERANCE">(@DIAMETER * 0.01)</param>
+				<param name="Offset tolerance" target="OFFSET_TOLERANCE">
+					Dim Offset
+					Dim Constant
+					Constant = 5.0
+					If @TOOL_TYPE = @BALL Then
+						Offset = @CORNER_RADIUS * 0.15 * 0.2
+					ElseIf @TOOL_TYPE = @BULL Or @TOOL_TYPE = @FLAT Then
+						Offset = @FLAT_RADIUS * 0.2
+					Else
+						Offset = @DIAMETER * 0.5 * 0.15 * 0.2
+					End If
+					result = Min(Constant, Offset)
+				</param>
+			</group>
+			<group name="Keep tool down within" target="KEEP_TOOL_DOWN_WITHIN__GROUP">
+				<param name="Distance" target="KEEP_TOOL_DOWN_DISTANCE">200.0mm</param>
+				<param name="% of tool diameter" target="KEEP_TOOL_DOWN_PERCENT">(@KEEP_TOOL_DOWN_DISTANCE / @DIAMETER * 100)</param>
+			</group>
+		</page>
+		<page name="Transitions" target="TRANSITIONS__PAGE">
+			<group name="Profile ramp" target="PROFILE_RAMP__GROUP">
+				<param name="Profile ramp" target="MINIMUM_PROFILE">(@CORNER_RADIUS * 2)</param>
+			</group>
+			<group name="Entry helix" target="ENTRY_HELIX__GROUP">
+				<param name="Radius" target="ENTRY_HELIX_RADIUS">
+					If @TOOL_TYPE = @BALL Then
+						result = @CORNER_RADIUS
+					ElseIf @TOOL_TYPE = @BULL Or @TOOL_TYPE = @FLAT Then
+						result = 1.9 * @FLAT_RADIUS
+					Else
+						result = 1.9 * @DIAMETER / 2
+					End If
+				</param>
+			</group>
+		</page>
+		<page name="Linking page" target="LINKING__PAGE">
+			<group name="Retracts" target="RETRACTS__GROUP">
+				<param name="Curl up" target="CURL_UP">((@STEPDOWN + 2.0mm) * 1.1)</param>
+				<param name="Curl down" target="CURL_DOWN">((@STEPDOWN + 2.0mm) * 1.1)</param>
+				<param name="Part clearance" target="PART_CLEARANCE">(@STEPDOWN + 2.0mm)</param>
+			</group>
+			<group name="Leads" target="LEADS__GROUP">
+				<param name="Max trimming distance" target="MAX_TRIMMING_DISTANCE">(Max (@VERTICAL_ARC_ENTRY * 1.1, @VERTICAL_ARC_EXIT * 1.1))</param>
+			</group>
+		</page>
+	</toolpath>
+	<toolpath name="Area clearance" target="AREACLEAR">
+		<page name="Cut parameters" target="CUT_PARAMETERS__PAGE">
+			<group name="Stepdown" target="STEPDOWN__GROUP">
+				<param name="Stepdown" target="STEPDOWN">(@DIAMETER * 0.07)</param>
+				<param name="Min stepdown" target="MINIMUM_STEPDOWN">(@STEPDOWN * 0.10)</param>
+				<param name="Max profile stepover" target="MAXIMUM_STEPOVER">(@DIAMETER * 0.50)</param>
+			</group>
+			<group name="XY stepover" target="XY_STEPOVER__GROUP">
+				<param name="% of diameter" target="PERCENT_DIAMETER">26</param>
+				<param name="Max" target="PERCENT_MAXIMUM">(@DIAMETER * @PERCENT_DIAMETER)</param>
+				<param name="Min" target="PERCENT_MINIMUM">(@PERCENT_MAXIMUM * 0.55)</param>
+			</group>
+			<group name="Smoothing" target="SMOOTHING__GROUP">
+				<param name="Max radius" target="MAXIMUM_RADIUS">(@DIAMETER * 0.05)</param>
+				<param name="Profile tolerance" target="PROFILE_TOLERANCE">(@DIAMETER * 0.01)</param>
+				<param name="Offset tolerance" target="OFFSET_TOLERANCE">
+					Dim Offset
+					Dim Constant
+					Constant = 5.0
+					If @TOOL_TYPE = @BALL Then
+						Offset = @CORNER_RADIUS * 0.15 * 0.2
+					ElseIf @TOOL_TYPE = @BULL Or @TOOL_TYPE = @FLAT Then
+						Offset = @FLAT_RADIUS * 0.2
+					Else
+						Offset = @DIAMETER * 0.5 * 0.15 * 0.2
+					End If
+					result = Min(Constant, Offset)
+				</param>
+			</group>
+			<group name="Keep tool down within" target="KEEP_TOOL_DOWN_WITHIN__GROUP">
+				<param name="Distance" target="KEEP_TOOL_DOWN_DISTANCE">200.0mm</param>
+				<param name="% of tool diameter" target="KEEP_TOOL_DOWN_PERCENT">(@KEEP_TOOL_DOWN_DISTANCE / @DIAMETER * 100)</param>
+			</group>
+		</page>
+		<page name="Transitions" target="TRANSITIONS__PAGE">
+			<group name="Profile ramp" target="PROFILE_RAMP__GROUP">
+				<param name="Profile ramp" target="MINIMUM_PROFILE">(@CORNER_RADIUS * 2)</param>
+			</group>
+			<group name="Entry helix" target="ENTRY_HELIX__GROUP">
+				<param name="Radius" target="ENTRY_HELIX_RADIUS">
+					If @TOOL_TYPE = @BALL Then
+						result = @CORNER_RADIUS
+					ElseIf @TOOL_TYPE = @BULL Or @TOOL_TYPE = @FLAT Then
+						result = 1.9 * @FLAT_RADIUS
+					Else
+						result = 1.9 * @DIAMETER / 2
+					End If
+				</param>
+			</group>
+		</page>
+		<page name="Linking page" target="LINKING__PAGE">
+			<group name="Retracts" target="RETRACTS__GROUP">
+				<param name="Curl up" target="CURL_UP">((@STEPDOWN + 2.0mm) * 1.1)</param>
+				<param name="Curl down" target="CURL_DOWN">((@STEPDOWN + 2.0mm) * 1.1)</param>
+				<param name="Part clearance" target="PART_CLEARANCE">(@STEPDOWN + 2.0mm)</param>
+			</group>
+			<group name="Leads" target="LEADS__GROUP">
+				<param name="Max trimming distance" target="MAX_TRIMMING_DISTANCE">(Max (@VERTICAL_ARC_ENTRY * 1.1, @VERTICAL_ARC_EXIT * 1.1))</param>
+			</group>
+		</page>
+	</toolpath>
+	<toolpath name="Rest roughing" target="RESTROUGH">
+		<page name="Cut parameters" target="CUT_PARAMETERS__PAGE">
+			<group name="Stepdown" target="STEPDOWN__GROUP">
+				<param name="Stepdown" target="STEPDOWN">(@DIAMETER * 0.07)</param>
+				<param name="Min stepdown" target="MINIMUM_STEPDOWN">(@STEPDOWN * 0.10)</param>
+				<param name="Max profile stepover" target="MAXIMUM_STEPOVER">(@DIAMETER * 0.50)</param>
+			</group>
+			<group name="XY stepover" target="XY_STEPOVER__GROUP">
+				<param name="% of diameter" target="PERCENT_DIAMETER">26</param>
+				<param name="Max" target="PERCENT_MAXIMUM">(@DIAMETER * @PERCENT_DIAMETER)</param>
+				<param name="Min" target="PERCENT_MINIMUM">(@PERCENT_MAXIMUM * 0.55)</param>
+			</group>
+			<group name="Smoothing" target="SMOOTHING__GROUP">
+				<param name="Max radius" target="MAXIMUM_RADIUS">(@DIAMETER * 0.05)</param>
+				<param name="Profile tolerance" target="PROFILE_TOLERANCE">(@DIAMETER * 0.01)</param>
+				<param name="Offset tolerance" target="OFFSET_TOLERANCE">
+					Dim Offset
+					Dim Constant
+					Constant = 5.0
+					If @TOOL_TYPE = @BALL Then
+						Offset = @CORNER_RADIUS * 0.15 * 0.2
+					ElseIf @TOOL_TYPE = @BULL Or @TOOL_TYPE = @FLAT Then
+						Offset = @FLAT_RADIUS * 0.2
+					Else
+						Offset = @DIAMETER * 0.5 * 0.15 * 0.2
+					End If
+					result = Min(Constant, Offset)
+				</param>
+			</group>
+			<group name="Keep tool down within" target="KEEP_TOOL_DOWN_WITHIN__GROUP">
+				<param name="Distance" target="KEEP_TOOL_DOWN_DISTANCE">200.0mm</param>
+				<param name="% of tool diameter" target="KEEP_TOOL_DOWN_PERCENT">(@KEEP_TOOL_DOWN_DISTANCE / @DIAMETER * 100)</param>
+			</group>
+		</page>
+		<page name="Transitions" target="TRANSITIONS__PAGE">
+			<group name="Profile ramp" target="PROFILE_RAMP__GROUP">
+				<param name="Profile ramp" target="MINIMUM_PROFILE">(@CORNER_RADIUS * 2)</param>
+			</group>
+			<group name="Entry helix" target="ENTRY_HELIX__GROUP">
+				<param name="Radius" target="ENTRY_HELIX_RADIUS">
+					If @TOOL_TYPE = @BALL Then
+						result = @CORNER_RADIUS
+					ElseIf @TOOL_TYPE = @BULL Or @TOOL_TYPE = @FLAT Then
+						result = 1.9 * @FLAT_RADIUS
+					Else
+						result = 1.9 * @DIAMETER / 2
+					End If
+				</param>
+			</group>
+		</page>
+		<page name="Linking page" target="LINKING__PAGE">
+			<group name="Retracts" target="RETRACTS__GROUP">
+				<param name="Curl up" target="CURL_UP">((@STEPDOWN + 2.0mm) * 1.1)</param>
+				<param name="Curl down" target="CURL_DOWN">((@STEPDOWN + 2.0mm) * 1.1)</param>
+				<param name="Part clearance" target="PART_CLEARANCE">(@STEPDOWN + 2.0mm)</param>
+			</group>
+			<group name="Leads" target="LEADS__GROUP">
+				<param name="Max trimming distance" target="MAX_TRIMMING_DISTANCE">(Max (@VERTICAL_ARC_ENTRY * 1.1, @VERTICAL_ARC_EXIT * 1.1))</param>
+			</group>
+		</page>
+	</toolpath>
+	<toolpath name="Waterline" target="WATERLINE">
+		<page name="Cut parameters" target="CUT_PARAMETERS__PAGE">
+			<group name="Stepdown" target="STEPDOWN__GROUP">
+				<param name="Stepdown" target="STEPDOWN">(@DIAMETER * 0.07)</param>
+				<param name="Min stepdown" target="MINIMUM_STEPDOWN">(@STEPDOWN * 0.10)</param>
+				<param name="Max profile stepover" target="MAXIMUM_STEPOVER">(@DIAMETER * 0.50)</param>
+			</group>
+			<group name="Smoothing" target="SMOOTHING__GROUP">
+				<param name="Max radius" target="MAXIMUM_RADIUS">(@DIAMETER * 0.05)</param>
+				<param name="Profile tolerance" target="PROFILE_TOLERANCE">(@DIAMETER * 0.01)</param>
+				<param name="Offset tolerance" target="OFFSET_TOLERANCE">
+					Dim Offset
+					Dim Constant
+					Constant = 5.0
+					If @TOOL_TYPE = @BALL Then
+						Offset = @CORNER_RADIUS * 0.15 * 0.2
+					ElseIf @TOOL_TYPE = @BULL Or @TOOL_TYPE = @FLAT Then
+						Offset = @FLAT_RADIUS * 0.2
+					Else
+						Offset = @DIAMETER * 0.5 * 0.15 * 0.2
+					End If
+					result = Min(Constant, Offset)
+				</param>
+			</group>
+			<group name="Keep tool down within" target="KEEP_TOOL_DOWN_WITHIN__GROUP">
+				<param name="Distance" target="KEEP_TOOL_DOWN_DISTANCE">(@STEPDOWN * 2)</param>
+				<param name="% of tool diameter" target="KEEP_TOOL_DOWN_PERCENT">(@KEEP_TOOL_DOWN_DISTANCE / @DIAMETER * 100)</param>
+			</group>
+		</page>
+		<page name="Linking page" target="LINKING__PAGE">
+			<group name="Retracts" target="RETRACTS__GROUP">
+				<param name="Curl up" target="CURL_UP">((@STEPDOWN + 2.0mm) * 1.1)</param>
+				<param name="Curl down" target="CURL_DOWN">((@STEPDOWN + 2.0mm) * 1.1)</param>
+				<param name="Part clearance" target="PART_CLEARANCE">(@STEPDOWN + 2.0mm)</param>
+			</group>
+			<group name="Leads" target="LEADS__GROUP">
+				<param name="Horizontal arc entry" target="HORIZONTAL_ARC_ENTRY">(@CORNER_RADIUS)</param>
+				<param name="Max trimming distance" target="MAX_TRIMMING_DISTANCE">(Max (@VERTICAL_ARC_ENTRY * 1.1, @VERTICAL_ARC_EXIT * 1.1))</param>
+			</group>
+		</page>
+	</toolpath>
+	<toolpath name="Scallop" target="SCALLOP">
+		<page name="Cut parameters" target="CUT_PARAMETERS__PAGE">
+			<group name="Stepover" target="STEPOVER__GROUP">
+				<param name="Stepover" target="STEPOVER">(@DIAMETER * 0.07)</param>
+			</group>
+			<group name="Keep tool down within" target="KEEP_TOOL_DOWN_WITHIN__GROUP">
+				<param name="Distance" target="KEEP_TOOL_DOWN_DISTANCE">(@STEPOVER * SQRT(1.0 + 1 / TAN (1.0)))</param>
+				<param name="% of tool diameter" target="KEEP_TOOL_DOWN_PERCENT">(@KEEP_TOOL_DOWN_DISTANCE / @DIAMETER * 100)</param>
+			</group>
+		</page>
+		<page name="Linking page" target="LINKING__PAGE">
+			<group name="Leads" target="LEADS__GROUP">
+				<param name="Max trimming distance" target="MAX_TRIMMING_DISTANCE">(Max (@VERTICAL_ARC_ENTRY * 1.1, @VERTICAL_ARC_EXIT * 1.1))</param>
+			</group>
+		</page>
+	</toolpath>
+	<toolpath name="Horizontal Area" target="HORIZONTAL_AREA">
+		<page name="Cut parameters" target="CUT_PARAMETERS__PAGE">
+			<group name="Depth cuts" target="DEPTH_CUTS__GROUP">
+				<param name="Stepdown" target="DEPTH_CUTS_STEPDOWN">(@DIAMETER * 0.07)</param>
+			</group>
+			<group name="XY stepover" target="XY_STEPOVER__GROUP">
+				<param name="% of diameter" target="PERCENT_DIAMETER">27</param>
+				<param name="Max" target="PERCENT_MAXIMUM">(@DIAMETER * @PERCENT_DIAMETER)</param>
+				<param name="Min" target="PERCENT_MINIMUM">(@PERCENT_MAXIMUM * 0.55)</param>
+			</group>
+			<group name="Smoothing" target="SMOOTHING__GROUP">
+				<param name="Max radius" target="MAXIMUM_RADIUS">(@DIAMETER * 0.05)</param>
+				<param name="Profile tolerance" target="PROFILE_TOLERANCE">(@DIAMETER * 0.01)</param>
+				<param name="Offset tolerance" target="OFFSET_TOLERANCE">
+					Dim Offset
+					Dim Constant
+					Constant = 5.0
+					If @TOOL_TYPE = @BALL Then
+						Offset = @CORNER_RADIUS * 0.15 * 0.2
+					ElseIf @TOOL_TYPE = @BULL Or @TOOL_TYPE = @FLAT Then
+						Offset = @FLAT_RADIUS * 0.2
+					Else
+						Offset = @DIAMETER * 0.5 * 0.15 * 0.2
+					End If
+					result = Min(Constant, Offset)
+				</param>
+			</group>
+			<group name="Keep tool down within" target="KEEP_TOOL_DOWN_WITHIN__GROUP">
+				<param name="Distance" target="KEEP_TOOL_DOWN_DISTANCE">200.0mm</param>
+				<param name="% of tool diameter" target="KEEP_TOOL_DOWN_PERCENT">(@KEEP_TOOL_DOWN_DISTANCE / @DIAMETER * 100)</param>
+			</group>
+		</page>
+		<page name="Transitions" target="TRANSITIONS__PAGE">
+			<group name="Profile ramp" target="PROFILE_RAMP__GROUP">
+				<param name="Preferred profile length" target="MINIMUM_PROFILE">(@CORNER_RADIUS * 2)</param>
+			</group>
+			<group name="Entry helix" target="ENTRY_HELIX__GROUP">
+				<param name="Radius" target="ENTRY_HELIX_RADIUS">
+					If @TOOL_TYPE = @BALL Then
+						result = @CORNER_RADIUS
+					ElseIf @TOOL_TYPE = @BULL Or @TOOL_TYPE = @FLAT Then
+						result = 1.9 * @FLAT_RADIUS
+					Else
+						result = 1.9 * @DIAMETER / 2
+					End If
+				</param>
+			</group>
+		</page>
+		<page name="Linking page" target="LINKING__PAGE">
+			<group name="Leads" target="LEADS__GROUP">
+				<param name="Max trimming distance" target="MAX_TRIMMING_DISTANCE">(Max (@VERTICAL_ARC_ENTRY * 1.1, @VERTICAL_ARC_EXIT * 1.1))</param>
+			</group>
+		</page>
+	</toolpath>
+	<toolpath name="Raster" target="RASTER">
+		<page name="Cut parameters" target="CUT_PARAMETERS__PAGE">
+			<group name="Stepover" target="STEPOVER__GROUP">
+				<param name="Stepover" target="STEPOVER">(@DIAMETER * 0.27)</param>
+			</group>
+			<group name="Keep tool down within" target="KEEP_TOOL_DOWN_WITHIN__GROUP">
+				<param name="Distance" target="KEEP_TOOL_DOWN_DISTANCE">(@STEPOVER * 2)</param>
+				<param name="% of tool diameter" target="KEEP_TOOL_DOWN_PERCENT">(@KEEP_TOOL_DOWN_DISTANCE / @DIAMETER * 100)</param>
+			</group>
+		</page>
+		<page name="Linking page" target="LINKING__PAGE">
+			<group name="Retracts" target="RETRACTS__GROUP">
+				<param name="Curl up" target="CURL_UP">((@STEPDOWN + 2.0mm) * 1.1)</param>
+				<param name="Curl down" target="CURL_DOWN">((@STEPDOWN + 2.0mm) * 1.1)</param>
+				<param name="Part clearance" target="PART_CLEARANCE">(@STEPDOWN + 2.0mm)</param>
+			</group>
+			<group name="Leads" target="LEADS__GROUP">
+				<param name="Max trimming distance" target="MAX_TRIMMING_DISTANCE">(Max (@VERTICAL_ARC_ENTRY * 1.1, @VERTICAL_ARC_EXIT * 1.1))</param>
+			</group>
+		</page>
+	</toolpath>
+	<toolpath name="Pencil" target="PENCIL">
+		<page name="Cut parameters" target="CUT_PARAMETERS__PAGE">
+			<group name="Stepover" target="STEPOVER__GROUP">
+				<param name="Stepover" target="STEPOVER">(@DIAMETER * 0.26)</param>
+			</group>
+			<group name="Keep tool down within" target="KEEP_TOOL_DOWN_WITHIN__GROUP">
+				<param name="Distance" target="KEEP_TOOL_DOWN_DISTANCE">2.0mm</param>
+				<param name="% of tool diameter" target="KEEP_TOOL_DOWN_PERCENT">(@KEEP_TOOL_DOWN_DISTANCE / @DIAMETER * 100)</param>
+			</group>
+		</page>
+		<page name="Linking page" target="LINKING__PAGE">
+			<group name="Retracts" target="RETRACTS__GROUP">
+				<param name="Curl up" target="CURL_UP">((@STEPDOWN + 2.0mm) * 1.1)</param>
+				<param name="Curl down" target="CURL_DOWN">((@STEPDOWN + 2.0mm) * 1.1)</param>
+				<param name="Part clearance" target="PART_CLEARANCE">(@STEPDOWN + 2.0mm)</param>
+			</group>
+			<group name="Leads" target="LEADS__GROUP">
+				<param name="Max trimming distance" target="MAX_TRIMMING_DISTANCE">(Max (@VERTICAL_ARC_ENTRY * 1.1, @VERTICAL_ARC_EXIT * 1.1))</param>
+			</group>
+		</page>
+	</toolpath>
+	<toolpath name="Radial" target="RADIAL">
+		<page name="Cut parameters" target="CUT_PARAMETERS__PAGE">
+			<group name="Passes" target="PASSES__GROUP">
+				<param name="Stepover" target="STEPOVER">(@DIAMETER * 0.10)</param>
+			</group>
+			<group name="Keep tool down within" target="KEEP_TOOL_DOWN_WITHIN__GROUP">
+				<param name="Distance" target="KEEP_TOOL_DOWN_DISTANCE">(@STEPOVER * SQRT(1.0 + 1 / TAN (1.0)))</param>
+				<param name="% of tool diameter" target="KEEP_TOOL_DOWN_PERCENT">(@KEEP_TOOL_DOWN_DISTANCE / @DIAMETER * 100)</param>
+			</group>
+		</page>
+		<page name="Linking page" target="LINKING__PAGE">
+			<group name="Leads" target="LEADS__GROUP">
+				<param name="Max trimming distance" target="MAX_TRIMMING_DISTANCE">(Max (@VERTICAL_ARC_ENTRY * 1.1, @VERTICAL_ARC_EXIT * 1.1))</param>
+			</group>
+		</page>
+	</toolpath>
+	<toolpath name="Spiral" target="SPIRAL">
+		<page name="Cut parameters" target="CUT_PARAMETERS__PAGE">
+			<group name="Passes" target="PASSES__GROUP">
+				<param name="Stepover" target="STEPOVER">(@DIAMETER * 0.10)</param>
+			</group>
+			<group name="Keep tool down within" target="KEEP_TOOL_DOWN_WITHIN__GROUP">
+				<param name="Distance" target="KEEP_TOOL_DOWN_DISTANCE">(@STEPOVER * SQRT(1.0 + 1 / TAN (1.0)))</param>
+				<param name="% of tool diameter" target="KEEP_TOOL_DOWN_PERCENT">(@KEEP_TOOL_DOWN_DISTANCE / @DIAMETER * 100)</param>
+			</group>
+		</page>
+		<page name="Linking page" target="LINKING__PAGE">
+			<group name="Leads" target="LEADS__GROUP">
+				<param name="Max trimming distance" target="MAX_TRIMMING_DISTANCE">(Max (@VERTICAL_ARC_ENTRY * 1.1, @VERTICAL_ARC_EXIT * 1.1))</param>
+			</group>
+		</page>
+	</toolpath>
+</HST_Formula_Data>

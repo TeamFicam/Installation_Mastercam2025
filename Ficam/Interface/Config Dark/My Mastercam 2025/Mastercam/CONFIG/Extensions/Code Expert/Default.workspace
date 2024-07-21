@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workspace xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn://Mastercam/Extensions/Workspace">
+  <Windows>
+    <Window>
+      <Key>
+        <Id>f7536527-0d83-42f6-a616-11ac4b9a9f4a</Id>
+      </Key>
+      <State>
+        <Comment>Main application window</Comment>
+        <Value>
+          <ControlStates>
+            <StateContainer>
+              <Type>DockSiteLayout</Type>
+              <States i:type="StringStates">
+                <Control>
+                  <Key>
+                    <Id>4c2a7545-7ac6-497c-a6f3-4f64c7351c0a</Id>
+                  </Key>
+                  <State>
+                    <Comment>Main document workspace dock site state</Comment>
+                    <Value>&lt;DockSiteLayout xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SerializationFormat="ToolWindowsOnly" Version="2"&gt;
+	&lt;AutoHideHost /&gt;
+	&lt;Content xsi:type="SplitContainer" Orientation="Horizontal" DockedSize="1010,487.333333333333"&gt;
+		&lt;UIElement xsi:type="ToolWindowContainer" DockedSize="328,1198" SelectedWindowUniqueId="820b6be4-5962-4ed4-b5cd-27be36d99173"&gt;
+			&lt;UIElement xsi:type="Track" ContainerDockedSize="328,1202" CreationDateTime="2024-06-21T13:24:27.2980032+02:00" UniqueId="85497a61-0672-44a2-a29f-9dc6bab09aa2" /&gt;
+			&lt;UIElement xsi:type="ToolWindowRef" UniqueId="820b6be4-5962-4ed4-b5cd-27be36d99173" /&gt;
+			&lt;UIElement xsi:type="ToolWindowRef" UniqueId="11d38a6b-b369-40bf-87b9-7be939c1f4d5" /&gt;
+		&lt;/UIElement&gt;
+		&lt;UIElement xsi:type="Workspace"&gt;
+			&lt;Content xsi:type="TabbedMdiHost"&gt;
+				&lt;Content xsi:type="TabbedMdiContainer" DockedSize="1010,487.333333333333" SelectedWindowUniqueId="a28b44e8-0126-46b7-b054-fcb9a29b327e" /&gt;
+			&lt;/Content&gt;
+		&lt;/UIElement&gt;
+	&lt;/Content&gt;
+	&lt;RaftingHosts&gt;
+		&lt;RaftingHost UniqueId="47c8b649-59eb-40c5-9060-5e3c35d1179b" Location="1199,734" Size="330,1200" WindowState="Normal"&gt;
+			&lt;AutoHideHost /&gt;
+			&lt;Content xsi:type="ToolWindowContainer" DockedSize="0,0"&gt;
+				&lt;UIElement xsi:type="Track" ContainerDockedSize="328,1198" CreationDateTime="2024-06-17T15:07:24.6305497+02:00" UniqueId="820b6be4-5962-4ed4-b5cd-27be36d99173" /&gt;
+				&lt;UIElement xsi:type="Track" ContainerDockedSize="328,1198" CreationDateTime="2024-06-17T15:07:24.6355084+02:00" UniqueId="11d38a6b-b369-40bf-87b9-7be939c1f4d5" /&gt;
+			&lt;/Content&gt;
+		&lt;/RaftingHost&gt;
+	&lt;/RaftingHosts&gt;
+	&lt;ToolWindows&gt;
+		&lt;ToolWindow UniqueId="820b6be4-5962-4ed4-b5cd-27be36d99173" SerializationId="MachineExplorerToolWindow" ContainerDockedSize="328,1198" IsOpen="true" LastActiveDateTime="2024-06-21T15:19:11.4951859+02:00" State="Docked" /&gt;
+		&lt;ToolWindow UniqueId="11d38a6b-b369-40bf-87b9-7be939c1f4d5" SerializationId="PropertyGridToolWindow" ContainerDockedSize="328,1198" IsOpen="true" LastActiveDateTime="2024-06-18T09:09:59.3805763+02:00" State="Docked" /&gt;
+		&lt;ToolWindow UniqueId="85497a61-0672-44a2-a29f-9dc6bab09aa2" SerializationId="FindReplaceToolWindow" ContainerDockedSize="328,1202" IsOpen="false" LastActiveDateTime="2024-06-21T13:24:27.2085927+02:00" State="Docked" /&gt;
+	&lt;/ToolWindows&gt;
+&lt;/DockSiteLayout&gt;</Value>
+                  </State>
+                </Control>
+              </States>
+            </StateContainer>
+          </ControlStates>
+          <DependentControlStates>
+            <DependentContainer>
+              <Key>
+                <Id>c44721df-9359-43cc-ac1a-0bd151c8ab37</Id>
+              </Key>
+              <State>
+                <Comment>Machine assembler document</Comment>
+                <Value>
+                  <StateContainer>
+                    <Type>GridColumnWidth</Type>
+                    <States i:type="GridLengthStates">
+                      <Control>
+                        <Key>
+                          <Id>4f4e6875-c67e-4b66-85a3-f26183bf9d7a</Id>
+                        </Key>
+                        <State>
+                          <Comment>Machine assembler main grid</Comment>
+                          <Value>
+                            <GridLength>
+                              <Unit>Star</Unit>
+                              <Value>1</Value>
+                            </GridLength>
+                            <GridLength>
+                              <Unit>Auto</Unit>
+                              <Value>1</Value>
+                            </GridLength>
+                            <GridLength>
+                              <Unit>Star</Unit>
+                              <Value>1</Value>
+                            </GridLength>
+                          </Value>
+                        </State>
+                      </Control>
+                    </States>
+                  </StateContainer>
+                </Value>
+              </State>
+            </DependentContainer>
+            <DependentContainer>
+              <Key>
+                <Id>60098228-c968-42d3-b1a3-06bdf43b22fe</Id>
+              </Key>
+              <State>
+                <Comment>Machine control document</Comment>
+                <Value>
+                  <StateContainer>
+                    <Type>DockSiteLayout</Type>
+                    <States i:type="StringStates">
+                      <Control>
+                        <Key>
+                          <Id>67dc3370-b97d-4a1b-ae0e-22252b444403</Id>
+                        </Key>
+                        <State>
+                          <Comment>Machine control document dock site state</Comment>
+                          <Value>&lt;DockSiteLayout xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SerializationFormat="ToolWindowsOnly" Version="2"&gt;
+	&lt;AutoHideHost /&gt;
+	&lt;Content xsi:type="SplitContainer" Orientation="Vertical" DockedSize="2212,1178"&gt;
+		&lt;UIElement xsi:type="Workspace" /&gt;
+		&lt;UIElement xsi:type="ToolWindowContainer" DockedSize="1264,111" SelectedWindowUniqueId="2fc88e9f-f5c4-4a16-9b2c-fd27daf25762"&gt;
+			&lt;UIElement xsi:type="ToolWindowRef" UniqueId="2fc88e9f-f5c4-4a16-9b2c-fd27daf25762" /&gt;
+			&lt;UIElement xsi:type="ToolWindowRef" UniqueId="88f9c0e6-8113-4b05-866b-d3c41c03eb52" /&gt;
+		&lt;/UIElement&gt;
+	&lt;/Content&gt;
+	&lt;ToolWindows&gt;
+		&lt;ToolWindow UniqueId="2fc88e9f-f5c4-4a16-9b2c-fd27daf25762" Name="OutputToolWindow" ContainerDockedSize="1264,111" IsOpen="true" LastActiveDateTime="2024-05-23T13:54:28.5338658+02:00" State="Docked" /&gt;
+		&lt;ToolWindow UniqueId="88f9c0e6-8113-4b05-866b-d3c41c03eb52" Name="WatchToolWindow" ContainerDockedSize="1264,111" IsOpen="true" State="Docked" /&gt;
+	&lt;/ToolWindows&gt;
+&lt;/DockSiteLayout&gt;</Value>
+                        </State>
+                      </Control>
+                    </States>
+                  </StateContainer>
+                </Value>
+              </State>
+            </DependentContainer>
+            <DependentContainer>
+              <Key>
+                <Id>94f51d40-af9f-4cf2-bb2e-2993454ed863</Id>
+              </Key>
+              <State>
+                <Comment>Sync manager document</Comment>
+                <Value>
+                  <StateContainer>
+                    <Type>SelectorSelectedIndex</Type>
+                    <States i:type="IntegerStates">
+                      <Control>
+                        <Key>
+                          <Id>0265b6b3-0274-488d-b1d8-1e7bef86e80b</Id>
+                        </Key>
+                        <State>
+                          <Comment>Sync manager document time line tab selection</Comment>
+                          <Value>1</Value>
+                        </State>
+                      </Control>
+                    </States>
+                  </StateContainer>
+                  <StateContainer>
+                    <Type>DockSiteLayout</Type>
+                    <States i:type="StringStates">
+                      <Control>
+                        <Key>
+                          <Id>75564a23-6221-42c1-a865-71d16fbb58bb</Id>
+                        </Key>
+                        <State>
+                          <Comment>Sync manager document dock site state</Comment>
+                          <Value>&lt;DockSiteLayout xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SerializationFormat="ToolWindowsOnly" Version="2"&gt;
+	&lt;AutoHideHost /&gt;
+	&lt;Content xsi:type="SplitContainer" Orientation="Vertical" DockedSize="1884,805"&gt;
+		&lt;UIElement xsi:type="SplitContainer" Orientation="Horizontal" DockedSize="406,200"&gt;
+			&lt;UIElement xsi:type="ToolWindowContainer" DockedSize="570,200" SelectedWindowUniqueId="cc0ff883-d72f-4749-b999-558ed01ef3bb"&gt;
+				&lt;UIElement xsi:type="ToolWindowRef" UniqueId="cc0ff883-d72f-4749-b999-558ed01ef3bb" /&gt;
+			&lt;/UIElement&gt;
+			&lt;UIElement xsi:type="Workspace" /&gt;
+		&lt;/UIElement&gt;
+		&lt;UIElement xsi:type="ToolWindowContainer" SelectedWindowUniqueId="31b63c35-e037-40a8-a849-088275566729"&gt;
+			&lt;UIElement xsi:type="ToolWindowRef" UniqueId="31b63c35-e037-40a8-a849-088275566729" /&gt;
+		&lt;/UIElement&gt;
+	&lt;/Content&gt;
+	&lt;ToolWindows&gt;
+		&lt;ToolWindow UniqueId="cc0ff883-d72f-4749-b999-558ed01ef3bb" SerializationId="OperationTreeToolWindow" ContainerDockedSize="570,200" IsOpen="true" LastActiveDateTime="2024-06-18T09:13:38.1960952+02:00" State="Docked" /&gt;
+		&lt;ToolWindow UniqueId="31b63c35-e037-40a8-a849-088275566729" SerializationId="TimelineToolWindow" IsOpen="true" LastActiveDateTime="2024-04-30T08:41:14.2586627+02:00" State="Docked" /&gt;
+	&lt;/ToolWindows&gt;
+&lt;/DockSiteLayout&gt;</Value>
+                        </State>
+                      </Control>
+                    </States>
+                  </StateContainer>
+                  <StateContainer>
+                    <Type>GridRowHeight</Type>
+                    <States i:type="GridLengthStates">
+                      <Control>
+                        <Key>
+                          <Id>33e21806-d777-4031-8030-28ec19b8495e</Id>
+                        </Key>
+                        <State>
+                          <Comment>Sync manager operation grid</Comment>
+                          <Value>
+                            <GridLength>
+                              <Unit>Star</Unit>
+                              <Value>1.5</Value>
+                            </GridLength>
+                            <GridLength>
+                              <Unit>Auto</Unit>
+                              <Value>1</Value>
+                            </GridLength>
+                            <GridLength>
+                              <Unit>Star</Unit>
+                              <Value>1</Value>
+                            </GridLength>
+                          </Value>
+                        </State>
+                      </Control>
+                    </States>
+                  </StateContainer>
+                </Value>
+              </State>
+            </DependentContainer>
+          </DependentControlStates>
+          <Placement>
+            <Flags>0</Flags>
+            <MaxPosition>
+              <X>-1</X>
+              <Y>-1</Y>
+            </MaxPosition>
+            <MinPosition>
+              <X>-1</X>
+              <Y>-1</Y>
+            </MinPosition>
+            <NormalPosition>
+              <Bottom>1203</Bottom>
+              <Left>721</Left>
+              <Right>2257</Right>
+              <Top>184</Top>
+            </NormalPosition>
+            <ShowCmd>1</ShowCmd>
+          </Placement>
+        </Value>
+      </State>
+    </Window>
+    <Window>
+      <Key>
+        <Id>76a8a466-1ca5-49a9-9af9-eacac3e62f0a</Id>
+      </Key>
+      <State>
+        <Comment>Machine control new token window</Comment>
+        <Value>
+          <Placement>
+            <Flags>0</Flags>
+            <MaxPosition>
+              <X>-1</X>
+              <Y>-1</Y>
+            </MaxPosition>
+            <MinPosition>
+              <X>-1</X>
+              <Y>-1</Y>
+            </MinPosition>
+            <NormalPosition>
+              <Bottom>532</Bottom>
+              <Left>266</Left>
+              <Right>911</Right>
+              <Top>266</Top>
+            </NormalPosition>
+            <ShowCmd>1</ShowCmd>
+          </Placement>
+        </Value>
+      </State>
+    </Window>
+    <Window>
+      <Key>
+        <Id>ec78a0fb-933c-4628-87d5-1bc29a031680</Id>
+      </Key>
+      <State>
+        <Comment>Editor go-to window</Comment>
+        <Value>
+          <Placement>
+            <Flags>0</Flags>
+            <MaxPosition>
+              <X>-1</X>
+              <Y>-1</Y>
+            </MaxPosition>
+            <MinPosition>
+              <X>-1</X>
+              <Y>-1</Y>
+            </MinPosition>
+            <NormalPosition>
+              <Bottom>338</Bottom>
+              <Left>38</Left>
+              <Right>728</Right>
+              <Top>38</Top>
+            </NormalPosition>
+            <ShowCmd>1</ShowCmd>
+          </Placement>
+        </Value>
+      </State>
+    </Window>
+    <Window>
+      <Key>
+        <Id>e5408d10-92f9-42e7-b577-c60d0888aad2</Id>
+      </Key>
+      <State>
+        <Comment>Application options window</Comment>
+        <Value>
+          <Placement>
+            <Flags>0</Flags>
+            <MaxPosition>
+              <X>-1</X>
+              <Y>-1</Y>
+            </MaxPosition>
+            <MinPosition>
+              <X>-1</X>
+              <Y>-1</Y>
+            </MinPosition>
+            <NormalPosition>
+              <Bottom>976</Bottom>
+              <Left>76</Left>
+              <Right>1276</Right>
+              <Top>76</Top>
+            </NormalPosition>
+            <ShowCmd>1</ShowCmd>
+          </Placement>
+        </Value>
+      </State>
+    </Window>
+  </Windows>
+</Workspace>

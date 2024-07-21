@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ActiveReportsLayout Version="3.1" PrintWidth="9360" DocumentName="ActiveReports Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-family: Arial; font-style: normal; font-variant: inherit; font-weight: normal; font-size: 10pt; font-size-adjust: inherit; font-stretch: inherit; color: rgb(0,0,0); background-repeat: inherit; background-attachment: inherit; opacity: inherit; word-spacing: inherit; letter-spacing: inherit; text-decoration: none; vertical-align: inherit; text-transform: inherit; text-align: inherit; text-indent: inherit; unicode-bidi: inherit; line-height: inherit; white-space: inherit; ddo-char-set: 0" />
+    <Style Name="Heading1" Value="font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: bold; font-size: 16pt; font-size-adjust: inherit; font-stretch: inherit" />
+    <Style Name="Heading2" Value="font-family: Times New Roman; font-style: italic; font-variant: inherit; font-weight: bold; font-size: 14pt; font-size-adjust: inherit; font-stretch: inherit" />
+    <Style Name="Heading3" Value="font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: bold; font-size: 13pt; font-size-adjust: inherit; font-stretch: inherit" />
+  </StyleSheet>
+  <Sections>
+    <Section Type="Detail" Name="Detail" Height="540" BackColor="16777215" KeepTogether="1">
+      <Control Type="AR.Field" Name="Data_NAME" DataField="NAME" Left="2250.72" Top="0" Width="7020" Height="270" Text="NAME" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt; font-style: italic; font-weight: bold" />
+      <Control Type="AR.Label" Name="Label1" Left="90.72" Top="0" Width="2070" Height="270" Caption="OPERATION INFO" Style="font-family: Arial Unicode MS; font-size: 8.25pt; font-style: italic; font-weight: normal" />
+      <Control Type="AR.Line" Name="Line" X1="9266.4" Y1="269.28" X2="90.72" Y2="269.28" />
+      <Control Type="AR.Subreport" Name="srpt_LOP" DataField="OPERATION-L" Tag="OPERATION-L" Left="0" Top="360" Width="9360" Height="90" ReportName="-Setup Sheet (OPERATION-L).rpx" />
+      <Control Type="AR.Subreport" Name="srpt_MOP" DataField="OPERATION-M" Tag="OPERATION-M" Left="0" Top="360" Width="9360" Height="90" ReportName="-Setup Sheet (OPERATION-M).rpx" />
+      <Control Type="AR.Subreport" Name="srpt_TOP" DataField="OPERATION-T" Tag="OPERATION-T" Left="0" Top="360" Width="9360" Height="90" ReportName="-Setup Sheet (OPERATION-T).rpx" />
+      <Control Type="AR.Subreport" Name="srpt_WOP" DataField="OPERATION-W" Tag="OPERATION-W" Left="0" Top="360" Width="9360" Height="90" ReportName="-Setup Sheet (OPERATION-W).rpx" />
+      <Control Type="AR.Subreport" Name="srpt_ROP" DataField="OPERATION-R" Tag="OPERATION-R" Left="0" Top="360" Width="9360" Height="90" ReportName="-Setup Sheet (OPERATION-R).rpx" />
+    </Section>
+  </Sections>
+  <ReportComponentTray />
+  <DataSources>
+    <XmlDataSource FileURL="..\SST\SAMPLES\MILLTURN\SSMT.xml" Pattern="//OPERATION" />
+  </DataSources>
+  <Script><![CDATA[public void Detail_Format()
+{
+	string m_machine = ((TextBox) rpt.ParentReport.ParentReport.Sections["Detail"].Controls["Data_NAME"]).Text;
+	string m_file = ((TextBox) rpt.ParentReport.Sections["Detail"].Controls["Data_NAME"]).Text;
+	string m_list = ((TextBox) rpt.Sections["Detail"].Controls["Data_NAME"]).Text;
+	rpt.Sections["Detail"].AddBookmark(m_machine + "\\" + m_file + "\\" + m_list);
+}]]></Script>
+  <PageSettings />
+  <Parameters />
+</ActiveReportsLayout>

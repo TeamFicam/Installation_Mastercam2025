@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.1" PrintWidth="9360" DocumentName="ActiveReports Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-family: Arial; font-style: normal; font-variant: inherit; font-weight: normal; font-size: 10pt; font-size-adjust: inherit; font-stretch: inherit; color: rgb(0,0,0); background-repeat: inherit; background-attachment: inherit; opacity: inherit; word-spacing: inherit; letter-spacing: inherit; text-decoration: none; vertical-align: inherit; text-transform: inherit; text-align: inherit; text-indent: inherit; unicode-bidi: inherit; line-height: inherit; white-space: inherit; ddo-char-set: 0" />
+    <Style Name="Heading1" Value="font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: bold; font-size: 16pt; font-size-adjust: inherit; font-stretch: inherit" />
+    <Style Name="Heading2" Value="font-family: Times New Roman; font-style: italic; font-variant: inherit; font-weight: bold; font-size: 14pt; font-size-adjust: inherit; font-stretch: inherit" />
+    <Style Name="Heading3" Value="font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: bold; font-size: 13pt; font-size-adjust: inherit; font-stretch: inherit" />
+  </StyleSheet>
+  <Sections>
+    <Section Type="Detail" Name="Detail" Height="973.9999" BackColor="16777215" KeepTogether="1">
+      <Control Type="AR.Subreport" Name="srpt_OP" DataField="OP" Tag="OP" BorderLeftStyle="1" BorderTopStyle="1" BorderRightStyle="1" BorderBottomStyle="1" Left="90" Top="810" Width="9180" Height="90" ReportName="-Setup Sheet (OP).rpx" />
+      <Control Type="AR.Label" Name="Label5" Left="180" Top="450" Width="864.0001" Height="270" Caption="NUMBER:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label6" Left="1613" Top="450" Width="720" Height="270" Caption="PLANE:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label7" Left="6041" Top="450" Width="720" Height="270" Caption="ORIGIN:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox7" DataField="ORIGIN-VIEW" Left="6760" Top="450" Width="2433" Height="270" Text="ORIGIN" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox6" DataField="PLANE" Left="2332" Top="450" Width="3664" Height="270" Text="PLANE-NAME" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox5" DataField="NUMBER" Left="1044" Top="450" Width="540" Height="270" Text="NUMBER" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label1" Left="90" Top="0" Width="9180" Height="270" Caption="OFFSET INFO" Style="font-family: Arial Unicode MS; font-size: 8.25pt; font-style: italic; font-weight: normal" />
+      <Control Type="AR.Line" Name="Line" X1="9270" Y1="270" X2="90" Y2="270" />
+      <Control Type="AR.Subreport" Name="srpt_CAPTURE" DataField="CAPTURE" Tag="CAPTURE" Left="0" Top="810" Width="9360" Height="90" ReportName="-Setup Sheet (CAPTURE).rpx" />
+      <Control Type="AR.Shape" Name="Shape1" Left="90" Top="360" Width="9180" Height="450" BackColor="16777215" RoundingRadius="9.999999" />
+    </Section>
+  </Sections>
+  <ReportComponentTray />
+  <DataSources>
+    <XmlDataSource FileURL="..\SST\SAMPLES\MILL\SSM.xml" Pattern="//OFFSET" />
+  </DataSources>
+  <PageSettings />
+  <Parameters />
+</ActiveReportsLayout>

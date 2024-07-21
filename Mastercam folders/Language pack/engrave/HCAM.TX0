@@ -1,0 +1,4155 @@
+                                       .
+ falsche Dateierweiterung (Suffix)     .
+ zu viele Dateien         (>FileMax)   .
+ falsches Dateiformat                  .
+Text löschen J/N:                      .
+ Installationsfehler !                 .
+ Nullposition eingeben (x,y)[mm]:      .
+ Endposition eingeben (x,y)[mm]:       .
+ Datei Schreibfehler                   .
+ Layer löschen J/N ?                   .
+ Programm beenden?                     .
+ Position 1 (x,y):                     .
+ Position 2 (x,y):                     .
+ Breite                                .
+ Höhe                                  .
+ weiter J/N?                           .
+ Drucker nicht bereit!                 .
+ Spline: <L> Stützpunkt <R> Abbruch    .
+ Eingabe nicht möglich!                .
+ Werkzeugdaten sind nicht erlaubt!     .
+ Gerade (rel.X, rel.Y):                .
+ Gerade (Radius,Winkel[Grad]):         .
+ EndPunkt (rel.X, rel.Y):              .
+ Gerade15 (Radius,Winkel[Grad]):       .
+ Radius X, Radius Y:                   .
+ markierte Bahnen löschen J/N ?        .
+ falsches Pix - Format                 .
+ Bereichsüberschreitung                .
+ Datei Lesefehler                      .
+ Abbrechen J/N                         .
+ Ausgabefeld zu groß (max 798*1020mm)  .
+ Bild löschen J/N?                     .
+ Position eingeben (x,y)[mm]:          .
+ Anzahl Ecken(3..20), Winkel(Grad):    .
+ Position 3 (x,y):                     .
+ Radius[mm]:                           .
+ Radius[mm], AW[°], Wl[°]:             .
+ Radius[mm], AW[°], EW[°]:             .
+ Sicherung übernehmen J/N ?            .
+Vektor                                 .
+ sichern J/N ?                         .
+ verdünnen/verdicken/skelettieren J/N? .
+ keine Daten!                          .
+ <L> setzen  <R> löschen               .
+ übernehmen J/N ?                      .
+ Weg auswählen:                        .
+ Maß %                                 .
+ Verzerrung %                          .
+ Winkel[°]                             .
+ Datei nicht gefunden!                 .
+ Endpunkt 1                            .
+ Endpunkt 2                            .
+ Teilbahn                              .
+ Ecke verschieben                      .
+ markierte Bahn löschen                .
+ Kreis verschieben                     .
+ Bereich setzen/löschen/invert. J/N ?  .
+ Fehler beim Schraffieren              .
+ Fehler!                               .
+ Zu wenig Platz auf Datenträger        .
+ Innenkreis - Radius [mm]:             .
+ Außenkreis - Radius [mm]:             .
+ zu wenig Stützpunkte                  .
+ Bild invertieren J/N ?                .
+ Ecke setzen                           .
+ Datenbereich überschritten!           .
+ Radius[mm], Scheiteltiefe[mm]:        .
+ zuerst ausgetauchte Position eingeben!.
+ spiegeln J/N ?                        .
+ Daten im AktLayer überschreiben J/N ? .
+Fräseroffset            [mm]:.........29
+Grafik Layer löschen               J/N:.
+Schild löschen:                        .
+ Markierung löschen J/N ?              .
+ Position eingeben (x);                .
+ Position eingeben (y);                .
+ Operation ist für 3D nicht erlaubt!   .
+ Eingabefehler: Bild > 0.001mm in X/Y  .
+ kein Text!                            .
+ verschieben rel.(X,Y):                .
+ verschieben (rel.X):                  .
+ verschieben (rel.Y):                  .
+ zuerst Bahn auswählen!                .
+ Stützpunkte überschreiben J/N ?       .
+ Sicherheit > Linienabstand/2          .
+ begrenzen J/N ?                       .
+Umkehrfehler                           .
+Unterbrechung                          .
+Rahmen:  ..............................9
+Arbeitsgrenzen einstellen    .........29
+Rahmen x0               [mm]:.........29
+Rahmen y0               [mm]:.........29
+Rahmen x1               [mm]:.........29
+Rahmen y1               [mm]:.........29
+Rand links        [+=%,-=mm]:.........29
+Rand unten        [+=%,-=mm]:.........29
+Rand rechts       [+=%,-=mm]:.........29
+Rand oben         [+=%,-=mm]:.........29
+Spantiefen bereits eingefügt oder      .
+Richtung D3A        [-1,0,1]:.........29
+   JA................................. 5
+ Nein................................. 5
+BildMaße           ...................19
+BildRahmen         ...................19
+Maß:     ............................. 9
+Maß%               ...................19
+Verzerrung         ...................19
+Verz:    ............................. 9
+X,Y,Z verzerren    ...................19
+VerzFakX:............................. 9
+VerzFakY:............................. 9
+VerzFakZ:............................. 9
+OffsetXY           ...................19
+BezugsPosition     ...................19
+Bild drehen        ...................19
+Winkel:  ............................. 9
+Ecken abrunden:     ..................20
+Eckenradius [mm]    ..................20
+Bezugspunkt verschieben (<R>=nein):    .
+Bezugspunkt XY [mm] oder Winkel [Grad]:.
+Der Dateiname ist  ...................19
+bereits vorhanden  ...................19
+überschreiben J/N ?...................19
+Datei löschen J/N ?...................19
+Pfad:          .......................15
+Dateien:       .......................15
+Verzeichnisse: .......................15
+Name:              ...................19
+Vorschau:          ...................19
+kann Datei nicht   ...................19
+anlegen            ...................19
+(Schreibschutz ?)! ...................19
+zu wenig Platz     ..................?19
+auf Datenträger!   ..................?19
+löschen!           ...................19
+Projektionsauflösung > Reliefauflösung!.
+Scanner Pixel X * Pixel Y:             .
+Mauer                        ..RelVTR.29
+Schraffieren / Abräumen:     .........29
+Linienabstand           [mm]:.........29
+Sicherheit              [mm]:.........29
+Schraffurwinkel          [°]:.........29
+innen Blockweise       [J/N]:.........29
+Port COM1..4          [1..4]:.........29
+Schrittauflösung        [mm]:.........29
+Geschwindig.Stufe   [1..100]:.........29
+Max. Vorschub        [m/min]:.........29
+Offset X                [mm]:.........29
+Offset Y                [mm]:.........29
+Stift #               [1..6]:.........29
+HP-GL Schnittstelle          .........29
+Fräserbahn 2D zeigen:                  .
+Abmaße X                          [mm]:.
+Abmaße Y                          [mm]:.
+Fräserweg Eingetaucht             [mm]:.
+Fräserweg Ausgetaucht             [mm]:.
+Fräserradius              (0..20) [mm]:.
+MCG ist nicht bereit                   .
+Übertragung wurde abgebrochen          .
+Schrittweite X/Y/Z Pos:                .
+Nullposition X:                        .
+Nullposition Y:                        .
+Nullposition Z:                        .
+Eintauchtiefe:                         .
+Vorschub eingetaucht[0..127]:          .
+Vorschub ausgetaucht[0..127]:          .
+MCG-Version           [0...]:.........29
+Nullposition X,Y [mm]:                 .
+MCG - Parameter              .........29
+MCG-Port              [1..4]:.........29
+MCG-Schrittaufl.[1=6400/2/3]:.........29
+MCG-Rampe            [4..31]:.........29
+Bezugspos mit JoySt[Ja/Nein]:.........29
+PosA markieren         [J/N]:.........29
+Calibrieren        [Ja/Nein]:.........29
+Arbeitsraum X           [mm]:.........29
+Arbeitsraum Y           [mm]:.........29
+Arbeitsraum Z           [mm]:.........29
+Spiegelung X       [Ja/Nein]:.........29
+Spiegelung Y       [Ja/Nein]:.........29
+Schnelleintauchen  [Ja/Nein]:.........29
+Maxischild Ausgabe ...................19
+Ausg.X:  ............................. 9
+Ausg.Y:  ............................. 9
+Überl.:  ............................. 9
+Abbruch mit <Esc>            .........29
+definiere Zwi.Speicher:               ??
+definiere Erg.Speicher:               ??
+zeichnen:                    .........29
+AktLayer Eingabe             .........29
+Ziel Layer                   .........29
+Layer Werkzeug               .........29
+OK      ...............................8
+Export  ...............................8
+Layer löschen                .........29
+Nach Bahnen und Strecken sortieren.    .
+Bahnen   zu Layer #         :...........
+Strecken zu Layer #         :...........
+Drehsinn prüfen und korrigieren J/N?   .
+schließen bis Fehler    [mm]:          .
+Datei enthält keine Layerinformation.  .
+Kreisauflösung       [3..80]:.........29
+Splineauflösung      [2..80]:.........29
+Alle temporäre Daten löschen J/N?      .
+Rahmen zeichnen        [J/N]:.........29
+Auto - Pan/Scrol       [J/N]:.........29
+Mittelpunkt X  (mx)     [mm]:.........29
+Mittelpunkt Y  (my)     [mm]:.........29
+Anfangsradius  (ar)     [mm]:.........29
+Endradius      (er)     [mm]:.........29
+Bahnabstand    (ba)     [mm]:.........29
+Anfangswinkel  (aw)      [°]:.........29
+Kreisauflösung (+/-ka)   [°]:.........29
+Vektoren:............................. 9
+  Speicherkap.[MByte]:................22
+Daten der Spirale:                     .
+Spirale abrunden                 [J/N]:.
+Akustiksignal          [J/N]:.........29
+Ausgabe - Maschinen-Parameter.........29
+Eintauchvorschub (-Z)[m/min]:.........29
+Freifahrposition X      [mm]:.........29
+Freifahrposition Y      [mm]:.........29
+Rundgravierdurchmesser  [mm]:.........29
+Steigung X              [mm]:.........29
+Steigung Y              [mm]:.........29
+Steigung Z              [mm]:.........29
+Rampe ab Winkel          [°]:.........29
+Freifahrposition Z      [mm]:.........29
+Anfahrposition X        [mm]:.........29
+Anfahrposition Y        [mm]:.........29
+Autosicherung in edit  [J/N]:.........29
+Fräszeit                         [sec]:.
+Projektions Parameter                  .
+Vektorisierungsauflösung X [mm]:       .
+Vektorisierungsauflösung Y [mm]:       .
+Datenquelle                    :       .
+Rechteckspirale                        .
+Fräsrichtung                    <F2,M>:.
+Fräseroffset                      [mm]:.
+Bahnabstand                       [mm]:.
+Rahmen fräsen            [J=Ja/N=Nein]:.
+Tiefe [mm]:                            .
+Flughöhe :                   .HProjekt29
+Eintaucht:                   .HProjekt29
+Kugelrad.:                   .HProjekt29
+Modus   ...............................8
+Mehrfachprojektion                     .
+ausführen J/N?                         .
+Polylinie löschen J/N?                 .
+J = neue Polylinie, N = edit Polylinie .
+Scheitel:                              .
+Scheitel Z:                            .
+Radius:                                .
+Fräserdaten:       ...................19
+ZKorrekt.=............................10
+RestFlugH=............................10
+Raster eingeben:                       .
+Anzahl Stützpunkte in X       [3..998]:.
+Anzahl Stützpunkte in Y       [3..998]:.
+Spiegelung  [X=horiz./Y=vert./0=keine]:.
+Eingabe Z-Betrag [N=normal/K=Kehrwert]:.
+Zeige Stützpunktdaten:                 .
+ Stützpunkteingabe:                    .
+ Zeile:..../....       Spalte:..../.....
+falsche Stützpunktzahl!                .
+Bilddaten stimmen nicht überein!       .
+Stützpunktdaten anpassen J/N ?         .
+X-Richt ...............................8
+Y-Richt ...............................8
+   keine...............................8
+  normal...............................8
+Kehrwert...............................8
+  WLayer...............................8
+HProjekt...............................8
+horizont...............................8
+vertikal...............................8
+Pos.auß................................8
+Neg.inn................................8
+ Fehler entfernt!            .........29
+leer ..................................5
+Alle Anfangs- und Endpunkte mar-       .
+kieren, die > MaxAbstand vom nächsten  .
+Anfangs- oder Endpunkt entfernt sind!  .
+MaxAbstand                  [0..100mm]:.
+Nicht ausgewertete Kommados:           .
+Strecken zu Bahnen verbinden           .
+Scanner Aufl.Grenze [dpi]    .........29
+Eingabeparameter             .........29
+Hintergrundfarbe            :.........29
+keine Zeichensätze installiert!        .
+Anzahl Skelettierschritte [1..10]:     .
+Skelettierschritt:                     .
+Scan Auflösung [dpi]         .........29
+Qualitätsstufe               .........29
+Bahnart                      .........29
+Scan - Einstellungen         .........29
+Helligkeitsstufe:                      .
+Contrast:                              .
+Auflösung:                             .
+zuerst Rahmen eingeben!                .
+Richtungsfehler in Polylinie           .
+Textzeilenhöhe [mm]:                   .
+Schräge Projektion nicht möglich!      .
+Text Verzerrungsfaktor:                .
+Textbreite [mm]:                       .
+Textneigung [°]:                       .
+Zeichenabstand [mm]:                   .
+Schild Rahmen Xmin                [mm]:.
+Kreisbeschriftungs Radius [mm]:        .
+Textwinkel [°]:                        .
+Zeichen löschen J/N ?                  .
+Zeilenabstand [mm]:                    .
+Schild Rahmen Ymin                [mm]:.
+max.KnickWinkel    (1..180°):.........29
+Kreisbogen-Toleranz (0..1mm):.........29
+Breite Linie berechnen       .........29
+Linienbreite b (0.2..50)[mm]:.........29
+Spuranzahl           (2..50):.........29
+Spur-Objektabstand a    [mm]:.........29
+Autosatz:                    .........29
+Anpassung XY über Höhe           [E/A]:.
+Höhenanpassung über Zeilenabstand[E/A]:.
+Breitenanpassung über Verzerrung [E/A]:.
+Feld Ausrichtung               [O,M,U]:.
+Zeilen Modus                 [L,Z,R,A]:.
+Zeilenabstand (relativ)     [0..100mm]:.
+Text Höhenfaktor [0.001..1000]:        .
+Einstellung BahnFinish[0..3]:.........29
+Vektor Finish                .........29
+Satznummer                  :.........29
+Werkzeug FDIN [J=Hand/N=Aut]:.........29
+Zeilenabstand                     [mm]:.
+Level [0..255]:              .RasterCu29
+Textradius oder Textwinkel <> 0        .
+Gesamttext ist zu hoch                 .
+Abmessung X*Y           [mm]:.........29
+ABSOLUT ...............................8
+relativ ...............................8
+zentrier...............................8
+Text Effekte                 .........29
+Größer            (Alt G)[%]:.........29
+Kleiner           (Alt K)[%]:.........29
+Hochgestellt      (Alt H)[%]:.........29
+Tiefgestellt      (Alt T)[%]:.........29
+Verzerrung X      (Alt V)[%]:.........29
+Neigung           (Alt N)[°]:.........29
+Sperren           (Alt F)[%]:.........29
+Parallelverschieb.(Alt P)[°]:.........29
+Text in Grafiklayer übernehmen         .
+........................................
+Zeichensätze:      ...................19
+U- links...............................8
+U-zentr................................8
+U-rechts...............................8
+ GROSSBU...............................8
+  GrKlBu...............................8
+ positiv...............................8
+ negativ...............................8
+Verzerr................................8
+  Breite...............................8
+    Oben...............................8
+   Mitte...............................8
+   Unten...............................8
+     ein...............................8
+     aus...............................8
+edit Typenschild .....................17
+Zeile(n):..............................9
+Zeile-1          .....................17
+Zeile+1          .....................17
+Ausgabe          .....................17
+Textanfang       .....................17
+<Esc> = Abbruch  .....................17
+Edit 3D - Bahnen                       .
+Arbeitsraum :.........................13
+Trennlinie               (0..max) [mm]:.
+Frästiefen Offset      (ñ999.999) [mm]:.
+Spiegeln                     [N,X,Y,Z]:.
+LG1-Exp.LDriver4 komp. [J/N]:....Export.
+Spiegelung Z nur mit Pos3D !           .
+Operationen mitz.[100..5000]:.........29
+Fehler: Bahnen oberhalb Material (Z<0) .
+Textzeile ist zu lang!                 .
+Falscher Dateiname, Richtig=           .
+    alle...............................8
+Streckenauswahl - beenden mit <Esc>    .
+Text vektorisiert in Grafiklayer       .
+übernehmen.                            .
+<F1> = Start;  <R>,<Esc> = Abbruch     .
+Layer   [A=alle Layer, E=einzel Layer]:.
+Layernummer                    [0..15]:.
+zuerst Zeichensatz auswählen           .
+Fehler: Gleiche Zeichensätze!          .
+Abmessungen sind zu groß!              .
+Zylinder waagerecht       (Start: <F1>).
+Zylinder senkrecht        (Start: <F1>).
+Kreissatz                 (Start: <F1>).
+Kugelsatz 1               (Start: <F1>).
+Kugelsatz 2               (Start: <F1>).
+Kugelverzerrung           (Start: <F1>).
+Abmaße X                          [mm]:.
+Abmaße Y                          [mm]:.
+kein Zeichensatz geladen!              .
+Konvertierung ADOBE Type 1 in .HZE     .
+Type 1 Zeichensatz : .................21
+Zielzeichensatz 0  : .................21
+Zielzeichensatz 1  : .................21
+Zuordnungstabelle  : .................21
+Zeichen laden    !                     .
+Zeichen speichern!                     .
+Zeichen ist belegt!                    .
+Alle Zeichen horizontal ausrichten J/N .
+Hole Quellen - Zeichensatz [ZSQ.HZE]!  .
+Hole Ziel - Zeichensatz    [ZSZ.HZE]!  .
+Alle Zeichensätze übersetzen           .
+Zeichensätze übersetzt             ...35
+Zeichensatz       :...................19
+Cursor-Fangraster    [0..50]:.........29
+Strecken in Konturen wandeln J/N?      .
+Falsche Grafikauflösung!               .
+auto Kerning wird abgebrochen          .
+Fräsradius (H=10):                     .
+Zeichenbreite:                         .
+X0 - Offset eingeben:                  .
+Zeichensatz korrigieren:     .........29
+Zeichensatz - Dateinamen :............26
+Y-Offset                    :.........29
+Maß - Anpassung             :.........29
+Fanglayer (zeichnen)  [-1..]:.........29
+HZE - Status:                          .
+Zeichensatz - Dateinamen :............26
+LZ-Nr.                   :............26
+Norm-Fräserradius    [mm]:............26
+Zeichensatz - Namen      :............26
+Scheitel X                        [mm]:.
+Scheitel Y                        [mm]:.
+Abbildungsradius                  [mm]:.
+Qualitätsstufe                  [1..5]:.
+Korrektur ist nicht möglich!           .
+Cursorkreis             [mm]:.........29
+Import in Layer trennen  J/N:.........29
+RasterCut / LineCut                    .
+Punktabstand [mm]:           .RastCut.29
+Werkzeug Spitzenradius   [0.01..1.0mm]:.
+Werkzeugwinkel                [1..85°]:.
+Rasterstufen                  [2..256]:.
+Verfahren            <F2>[1..4=Raster]:.
+gerade              ..........Relief..20
+ungerade            ..........Relief..20
+um 1 Pixel nach rechts.                .
+Radius, Tiefe(Z), Abstand(dZ)[mm]:     .
+Randbreite [mm]:                       .
+Bereich ZMin .. ZMax durch Fläche      .
+mit ZNeu ersetzen.                     .
+ZMin                              [mm]:.
+ZMax                              [mm]:.
+ZNeu                              [mm]:.
+Relief Anhebung (Schräge) hor(r)/ver(o).
+Relief Offset               rechts[mm]:.
+Relief Offset               oben  [mm]:.
+Relief Winkel Z     [-45Grad..+45Grad]:.
+Relief Winkel XY  [-360Grad..+360Grad]:.
+Relief vergröbern (Pixel entfernen!)   .
+Der Reliefdatensatz wird verändert!    .
+Maß XY ( < 100% )                 [%]: .
+Relief in X,Y,Z verzerren              .
+Maß X                   (1..10000)[%]: .
+Maß Y                   (1..10000)[%]: .
+Maß Z                   (1..10000)[%]: .
+Anpassung des Datenkopfes (Rel.Status) .
+Reliefskalierung X,Y,Z  (1..10000)[%]: .
+Relief - Fehler entfernen              .
+Schwarzwert [-50..+50%]:     .RasterCu29
+MaxFehler (0.01..10)[mm]:    .........29
+approximieren (Relief glätten)         .
+Ausreißer entfernen                    .
+Relief überarbeiten J/N ?              .
+Punkte korrigiert                      .
+Projektion         ...................19
+Wink.Z[°]:............................10
+2 Punkte in horizontaler Richtung      .
+2 Punkte in vertikaler Richtung        .
+3 Punkte eingeben                      .
+< >=Zeile  <S>=Seite  <Esc>=Abbruch    .
+Überprüfen Sie Ihre Sicherheitsbox!    .
+Grafiktext   J = löschen, N = erhalten .
+Position A         ...................19
+Position E         ...................19
+Gerade X,Y E       ...................19
+Gerade R,W E       ...................19
+Gerade15° R,W E    ...................19
+Freihandlinie      ...................19
+Vieleck Ecke/Umkr  ...................19
+Vieleck Grund/Umk  ...................19
+Vieleck Ecke/Inkr  ...................19
+Vieleck Grund/Ink  ...................19
+Stern              ...................19
+Bogen R,AW,WL      ...................19
+Bogen R,AW,EW      ...................19
+Bogen R,Sch        ...................19
+Bahnoptimierung[0.0001..0.1]:.........29
+Verfahren   :.........................13
+Werkzeug #............................10
+Abräumen    :.........................13
+AutoBlock   :.........................13
+<F1> Berechnungsstart  <Esc> Abbruch   .
+A=AbrBahn Z=Zeilen B=BahnPar K=keine   .
+J=Ja      N=Nein             .........29
+Autokorrektur 2D/3D                    .
+Kein oder fehlerhaftes Werkzeug!       .
+Autokorrektur 2D Grund 1..10 Werkzeuge .
+mindestens 1 Werkzeug eingeben         .
+FRes nicht in steigender Reihenfolge.  .
+Text wird nicht berücksichtigt.        .
+Autokorrektur Bahnopt. 1..10 Werkzeuge .
+AutoKorrektur - Parameter    .........29
+Abrundungswink. 2D [5..180°]:.........29
+Abrundungswink. 3D [5..180°]:.........29
+Gegenlauffräsen    [Ja/Nein]:.........29
+Überlapp. Zeilen Abräumen[%]:.........29
+Überl. paralleles Abräum.[%]:.........29
+Spiral-Eint.Umdreh. [0.5..5]:.........29
+Doppeltes Werkzeug!                    .
+zu wenig Speicher!                     .
+Eintauchbewegungen einfügen            .
+Projektionslayer - Auswahl:  .........29
+Eintauchverfahren [0=spiral, 1=schräg] .
+Eintauchbewegungen bereits eingefügt!  .
+Werkzeugwege:                          .
+ AbrBahn...............................8
+ Zeilenf...............................8
+ BahnPar...............................8
+   keine...............................8
+  2D Grund............................10
+  3D Grund............................10
+ 2D FrBahn............................10
+2D Spiegel............................10
+3D Spiegel............................10
+Text-/Grafiklayer FrKorr für 1 Werkzeug.
+Verfahren              [<CuLi>,<CuRe>]:.
+Abräumen  [Z=Zeilen B=BahnPar K=keine]:.
+Werkzeugeingabe                        .
+Werkzeug Farbe + Nummer           ....34
+Werkzeugnamen                     ....34
+Schneiden-/Schaftrad(.5..100)[mm] ....34
+Spitzenradius       (0.. 100)[mm] ....34
+Winkel              (0.. 90)  [°] ....34
+Kugelradius         (0.. 100)[mm] ....34
+Eintauchtiefe       (0..1000)[mm] ....34
+Flughöhe            (0..1000)[mm] ....34
+Arbeitsvorschub XY (0..99)[m/min] ....34
+Eintauchvorschub Z (0..99)[m/min] ....34
+Spindeldrehzahl   (<99999)[U/min] ....34
+Werkzeugstandweg    (<99999) [mm] ....34
+Wechselstation      (0..(9)999)   ....34
+lade Werkzeuge - bitte warten          .
+Export Kuhlmann .SOR         .........29
+Daten f.Reliefberechn. [J/N]:.........29
+Export 2D - Daten            .........29
+Export 3D - Daten            .........29
+Stricheingabe:                         .
+Strichteilung:                  [mm/°]:.
+Strichtyp:                   [(0)1..5]:.
+Strichlänge:                      [mm]:.
+Strichbreite:                     [mm]:.
+Skalenlänge [mm]:                      .
+Neigungswinkel [°]:                    .
+Skalenmodus O=oben / U=unten / Z=zentr:.
+Skalenradius [mm]:                     .
+Startwinkel [°]:                       .
+Endwinkel [°]:                         .
+Skalenmod. I=innen / A=außen / Z=zentr:.
+   innen...............................8
+   außen...............................8
+Kühlung ein            [J/N]:.........29
+kacheln            ...................19
+Anzahl X :............................10
+Anzahl Y :............................10
+Abstand X:............................10
+Abstand Y:............................10
+Reihe              ...................19
+Anzahl   :............................10
+AltX = spaz. rechts  AltY = spaz. links.
+AltG = Größer        AltK = Kleiner    .
+AltH = Hoch          AltT = Tief       .
+AltV = Verzerrung    AltN = Neigung    .
+AltP = Parallelver.  AltS = Sperren    .
+Eingaberaster X         [mm]:.........29
+Eingaberaster Y         [mm]:.........29
+Text an Strich:                  [J/N]:.
+Sk.Textart H=hor/K=Kreis/Z=zent/V=vert:.
+Schriftabstand [100mm]:                .
+  horiz................................8
+ kreisf................................8
+ vertik................................8
+Schriftrichtung P=pos. / N=neg.:       .
+SOR-Grafik                   .........29
+neu                          .........29
+Speichern unter              .........29
+Öffnen                       .........29
+Datei löschen                .........29
+Dateierweiterung             .........29
+Ende                         .........29
+Zeile:      ..........................12
+<F2>,<M> Auswahl   ...................19
+Suchstring:                            .
+Grafikdaten und/oder Text              .
+speichern unter                        .
+Werkzeuganpassung............Parameter17
+zeichnen        .............Parameter16
+Abbruch         .............Parameter16
+Clippe XY       .............Datei....16
+Ausstanzen      .............Datei....16
+Wandlung BAK-Datei nicht möglich!      .
+Spezial:        ........Datei.Spezial.16
+Edit 3D-Bahnen  ........Datei.Spezial.16
+FrOff Variabel  ........Datei.Spezial.16
+KonturAusgleich ........Datei.Spezial.16
+Trimmen 3D      ........Datei.Spezial.16
+Drucke PosListe ........Datei.Spezial.16
+Kreisbogen 2P,R     .........zeichnen.20
+großer Bogen neg.   .........zeichnen.20
+kleiner Bogen neg.  .........zeichnen.20
+kleiner Bogen pos.  .........zeichnen.20
+großer Bogen pos.   .........zeichnen.20
+Anzahl Layer        [16..50]:.........29
+Grundeinstellungen           .........29
+Zuerst Layer löschen!                  .
+Cursorform                  :.........29
+Fehler in Eckenbahn.                   .
+Berechnung evtl. variieren!            .
+Fehler bei Konturbildung     .........29
+Position anzeigen:                     .
+Achtung Skalierung X<>Y geht verloren! .
+zuerst Radius eingeben!                .
+Bahnoptimierung in 2D                  .
+Rundungsmaß            (0.001..1) [mm]:.
+Mindestausdehnung     (0.0005..1) [mm]:.
+Mindest-Stützpunktzahl        (1..100):.
+Bahnen schließen                 [J/N]:.
+Vektor Auflösung    (100..500000)[dpi]:.
+Grafik-Positionsmarke  [J/N]:         29
+Bahnen/Strecken glätten/interpolieren  .
+max. Knickwinkel          (1..180) [°]:.
+zulässige Toleranz    (0.001..10) [mm]:.
+Hole aus Layer:              .........29
+Direkte Maschinenausg. [J/N]:.........29
+keine EPS-Daten mit Füllung importieren.
+M- links...............................8
+M-zentr................................8
+M-rechts...............................8
+O- links...............................8
+O-zentr................................8
+O-rechts...............................8
+   links...............................8
+  zentr................................8
+  rechts...............................8
+AltZ = Laufende Nr.                    .
+Abmessung  x=.........................13
+Auflösung xy=.........................13
+Auflösung xy            [mm]:.........29
+Randhöhe z              [mm]:.........29
+Relief Rasterung             .........29
+Abtastzeilen in Horizontale drehen J/N?.
+DIN/ISO wird eingelesen                .
+AbsPos. X/Y ..........................12
+versch. X/Y ..........................12
+versch. X   ..........................12
+versch. Y   ..........................12
+Abbrechen   ..........................12
+Nullpos = RelZentr ...................19
+zentrieren         ...................19
+Fräsergrafik Level[J=Spiegel, N=Grund]:.
+offene Strecke(n)!                     .
+schlichten = JA, Vorfräsen = Nein      .
+Kreis MP(G2/G3) J=abs,N=rel.:.........29
+Import-Format J=3D ,N=2D    :.........29
+DIN/ISO Import               .........29
+Zeichensatz Zuordnung f(Höhe)          .
+Höhe bis             [mm]:  9999.999  :.
+Falsche Höheneingabe!                  .
+Eingabe wiederholen J/N                .
+Relief Bild Fräserkorrektur            .
+Werkzeug #                    [0..199]:.
+Verfahren                       [0..2]:.
+FrK mit  ..............................9
+Fehler in Werkzeugeingabe!             .
+Relief Autokorrektur                   .
+Verfahren       ......................16
+vorfräsen grob  ......................16
+vorfräsen fein  ......................16
+schlichten      ......................16
+lizenziert für:                        .
+Datei              ...........IconMenü19
+zeichnen           ...........IconMenü19
+edit               ...........IconMenü19
+CAM                ...........IconMenü19
+Relief VTR         ...........IconMenü19
+Relief             ...........IconMenü19
+Zylinder in Kontur ...........RelVTR..19
+Scheitellinie      ...........RelVTR..19
+Linien-Verlauf     ...........RelVTR..19
+kopieren           ...........RelVTR..19
+Spiegel - Schnitt  ...........RelVTR..19
+Planfläche         ...........RelVTR..19
+Schnitt            ...........RelVTR..19
+Abstand (A)[mm]              .RelVTR..29
+Drehwinkel (W)[°]            .RelVTR..29
+Dicke (D)[mm]                .RelVTR..29
+Flach (F)[mm]                .RelVTR..29
+Verrunden (R)[J/N]           .RelVTR..29
+Gitter             ...........RelVTR..19
+Gitterdaten        ...........RelVTR..19
+Skalierung         ...........RelVTR..19
+entmarkieren        .............Such.20
+Werkzeug #                    [0..199]:.
+Fräs-Spurabstand                  [mm]:.
+Verfahren    Block[0..3], Gesamt[4..7]:.
+DateiGröße       = ...................19
+Speichern auf mehrere Disketten J/N ?  .
+Neue Diskette einlegen!                .
+Spiegelverlauf laden..........Spiegel.20
+Achsentausch                 .........29
+Achse X                     =.........29
+Achse Y                     =.........29
+Achse Z                     =.........29
+Vorzeichenfehler                       .
+Fehler Achseneingabe                   .
+verschieben XY     ...................19
+verschieben X      ...................19
+verschieben Y      ...................19
+Basispunkt                             .
+2.Punkt der Spiegelachse               .
+Alte Objekte löschen J/N?              .
+Mitte markieren J/N ?                  .
+Konturbreite (0.001..100) [mm]:        .
+TextFeld ..............................8
+Bezug Rast  ..........................12
+Bezug frei  ..........................12
+Grafik      ..........................12
+Speichern   ..........................12
+Export Fräsdaten mit Werkzeug.........29
+Export Grafik ohne Werkzeug  .........29
+Spantiefenzustellung         .........29
+Zust Auft ............................10
+Neuer Linientyp                        .
++Zahl=Linie; -Zahl=Space; 0.0=Punkt    .
+Auswahl Linientyp:                     .
+Neu     ...............................8
+nur AktLayer        ..................20
+alle Layer          ..................20
+AktLayer   auf 0/0  ..................20
+alle Layer auf 0/0  ..................20
+Layer#1     Verfahren:     Erhebung[%]:.
+Layer#2     Verfahren:     Erhebung[%]:.
+Layer#3     Verfahren:     Erhebung[%]:.
+Seite anpassen         [J/N]:.Druck...29
+Grafikdruck                  .........29
+(<F9> für Hilfe)             .........29
+Bildschirmgrafik drucken J/N?          .
+Warte auf Schnittstelle!               .
+Achtung: Das Programm arbeitet mit     +
+zu wenig Farben.                       +
+Optimale Ergebnisse erhalten Sie mit   +
+24 bzw. 32-Bit-Farbtiefe!              .
+Programm Abbruch                       +
+wegen Datenfehler!                     .
+Bitte Benutzer-Code eingeben:          .
+Grautreppe          ..................20
+Grautreppe invers   ..................20
+Rote Palette        ..................20
+Rote Palette inv.   ..................20
+Blaue Palette       ..................20
+Blaue Palette inv.  ..................20
+Palette einstellen  ..................20
+Grafik max.         ..................20
+Grafik zentrieren   ..................20
+Rahmen zentrieren   ..................20
+Grafik verschieben  ..................20
+verschieben XY      ..................20
+verschieben X       ..................20
+verschieben Y       ..................20
+Höhe (Maß)          ..................20
+verzerren X         ..................20
+neigen              ..................20
+drehen              ..................20
+spiegeln X          ..................20
+spiegeln Y          ..................20
+übernehmen          ..................20
+UNIX - ASCII - Daten in DOS wandeln.   .
+UNIX - Text, umwandeln J/N?            .
+Datei enthält DOS-Text!                .
+Quadratisch zerr.   ..................20
+Zylinder waager.    ..................20
+Zylinder senkr.     ..................20
+Kreissatz           ..................20
+Kugelsatz 1         ..................20
+Kugelsatz 2         ..................20
+Kugelverzerrung     ..................20
+ Skalier...............................8
+ Clippen...............................8
+Zustellung1 [  <MaxEt], Skal/Clip ....34
+Zustellung2 [>Z1..MEt], Skal/Clip ....34
+Zustellung3 [>Z2..MEt], Skal/Clip ....34
+Zustelling4 [>Z3..MEt], Skal/Clip ....34
+Zustellung5 [>Z4..MEt], Skal/Clip ....34
+falsch angeordnete Blöcke!             .
+unbekannter Layer!                     .
+Zeichnung enthält 3D-Elemente!         .
+ADOBE Type1         ..................20
+alle Type1          ..................20
+Kuhlmann Norm.      ..................20
+Kuhlm. Sonderz.     ..................20
+LANG ZEI            ..................20
+LANG LZ1            ..................20
+installiere HZE     ..................20
+Texteingabe      ...............TypenS17
+Eingabe   ...................Parameter10
+Grundeinst...................Parameter10
+AutoKorr  ...................Parameter10
+TextEffekt...................Parameter10
+mitzeichn....................Parameter10
+Werkzeug wechseln                      +
+Station #                              +
+Wenn Fräsmotor steht!                  .
+Werkzeug #                             +
+einmessen                              .
+Nächstes Werkstück                     .
+Fräs-Ausgabe   .................MaschU15
+Werkstück:     .................MaschU15
+Fräsweg:       .................MaschU15
+Kontur:        .................MaschU15
+Vorschub XY/Z: .................MaschU15
+1. Werkzeug einmessen  [J/N]:.Maschine29
+Fräsoffset:    .................MaschU15
+Spindel:       .................MaschU15
+Fehler Schnittstelle #                 .
+Arbeitsbereich wird überschritten!     .
+Werkzeugwechselstation ungültig!       .
+Spannzange nicht eingemessen!          .
+Werkzeuglänge stimmt nicht!            .
+Keine Frästiefe gefunden!              .
+Kein Werkzeug angegeben!               .
+Ab Feld X x Y  ................Masch2.15
+Ab Werkzeug    ................Masch2.15
+Ab Schicht     ................Masch2.15
+Ab Kontur      ................Masch2.15
+Ab Position XY ................Masch2.15
+Ab Feld        ................Masch2.15
+Ab Feld X #[1..max]:         ..Masch2.29
+Ab Feld Y #[1..max]:         ..Masch2.29
+Ab Werkzeug    ................Masch2.15
+Schicht        ................Masch2.15
+Werkzeug #[1..max]:          ..Masch2.29
+Schicht  #[1..max]:          ..Masch2.29
+Ausgabe ab Marke...............Masch2.17
+Keine Position eingegeben!             .
+Eingabefaktor mm/inch        .Maschine29
+Steuerungsversion      [0..]:.Maschine29
+Eilgang [X/Y/Z/A]    [m/min]:.Maschine29
+Max.Vorschub [X/Y/Z/ [m/min]:.Maschine29
+Rampe                   [Nr]:.Maschine29
+Schrittauflösung    [Step/U]:.Maschine29
+max.Spindeldrehzahl  [U/min]:.Maschine29
+min.Spindeldrehzahl  [U/min]:.Maschine29
+Calibrieren            [J/N]:.Maschine29
+Joy-Stick Eingabe      [J/N]:.Maschine29
+Flughöhe global/lokal  [J/N]:.Maschine29
+globale Flughöhe        [mm]:.Maschine29
+Grenzen/Konstanten           .Maschine29
+Arbeitsraum (max) X     [mm]:.Maschine29
+Arbeitsraum (max) Y     [mm]:.Maschine29
+Arbeitsraum (max) Z     [mm]:.Maschine29
+Arbeitsraum (max) A      [°]:.Maschine29
+Steigung (Auflösung) X  [mm]:.Maschine29
+Steigung (Auflösung) Y  [mm]:.Maschine29
+Steigung (Auflösung) Z  [mm]:.Maschine29
+Steigung (Auflösung) A[Fakt]:.Maschine29
+Arbeitsraum                  .Maschine29
+Homeposition anfahren  [J/N]:.Maschine29
+Homeposition X          [mm]:.Maschine29
+Homeposition Y          [mm]:.Maschine29
+Homeposition Z          [mm]:.Maschine29
+Homeposition A           [°]:.Maschine29
+Sicherheitsebene Z      [mm]:.Maschine29
+Rückzugsposition             .Maschine29
+Achse A                     =.Maschine29
+Baudrate       [1200..57600]:.Maschine29
+Parität [N=keine,E=gerade,O]:.Maschine29
+Stopbits               [1/2]:.Maschine29
+Wortlänge              [7/8]:.Maschine29
+Handshake [Hardw./XON(1..4)]:.Maschine29
+Schnittstelle                .Maschine29
+4.Achse            [K/X/Y/Z]:.Maschine29
+Rund/Schalt/Tangential  Flag:.Maschine29
+Startposition X         [mm]:.Maschine29
+Startposition Y         [mm]:.Maschine29
+Startposition Z         [mm]:.Maschine29
+Startposition A          [°]:.Maschine29
+Untersetzung            Fakt:.Maschine29
+Radius 0                [mm]:.Maschine29
+Radius 1                [mm]:.Maschine29
+Neigung                  [°]:.Maschine29
+Austauchwinkel Tangent.  [°]:.Maschine29
+4.Achse (A)                  .Maschine29
+Mehrfachpositionierung [J/N]:.Maschine29
+Abstand X               [mm]:.Maschine29
+Abstand Y               [mm]:.Maschine29
+Anzahl X                [mm]:.Maschine29
+Anzahl Y                [mm]:.Maschine29
+Schildkante gravieren [0..3]:.Maschine29
+Schildkanten Werkz.#[0..199]:.Maschine29
+Werkstückzufuhr        [J/N]:.Maschine29
+Wiederholungen      [0..999]:.Maschine29
+Mehrfach..                   .Maschine29
+Mehrfachbearbeitung seriell und        +
+parallel nicht gleichzeitig!           .
+Grafikanzeige                 [J/N]:   .
+Arbeitsraum / Datengrenze     [J/N]:   .
+Linie / Fräserspur            [J/N]:   .
+Grafik Anzeigewinkel eingeben [J/N]:   .
+Grafikeinstellung                      .
+Absaugen               [J/N]:.Maschine29
+Sprühen                [J/N]:.Maschine29
+Frässpindel            [J/N]:.Maschine29
+Stop vor Werkstück     [J/N]:.Maschine29
+Stop vor Werkzeugwechs.[J/N]:.Maschine29
+Klemmen                [J/N]:.Maschine29
+Oberflächenantastung   [J/N]:.Maschine29
+Ofl.Antastvorschub   [m/min]:.Maschine29
+Ofl.Antastung alle  0..999mm:.Maschine29
+Z-Korr. nach Abtastung [J/N]:.Maschine29
+Fräsvorbereitung             .Maschine29
+Spannzange einmessen         .Maschine29
+Längenantastung             :.Maschine29
+Referenz Werkzeug #  [1..99]:.Maschine29
+Max. Antastweg          [mm]:.Maschine29
+Bruchtoleranz           [mm]:.Maschine29
+Antastvorschub       [m/min]:.Maschine29
+Antastposition Ax       [mm]:.Maschine29
+Antastposition Ay       [mm]:.Maschine29
+Antastposition Az       [mm]:.Maschine29
+Spannzangenposition Sz  [mm]:.Maschine29
+Werkzeug - Antastung         .Maschine29
+Werkzeuglänge Wl   [mm]  .....Maschine25
+Zuerst Referenzlänge bestimmen!        .
+autom.Werkzeugwechsel  [J/N]:.Maschine29
+Werkzeugwechsel              .Maschine29
+Bezugspunkt (NullP) BPx [mm]:.Maschine29
+Bezugspunkt (NullP) BPy [mm]:.Maschine29
+Bezugspunkt (NullP) BPz [mm]:.Maschine29
+zentrieren zum BP in X [J/N]:.Maschine29
+zentrieren zum BP in Y [J/N]:.Maschine29
+Spannmittel                  .Maschine29
+Fräsen komplett     ..........Maschine20
+Fräsen ab Marke     ..........Maschine20
+Grafik komplett     ..........Maschine20
+Grafik ab Marke     ..........Maschine20
+Zieldatei MMI:                         .
+Faktor    ....................Maschine10
+Grenzen   ....................Maschine10
+Raum      ....................Maschine10
+Rückzug   ....................Maschine10
+Achsen    ....................Maschine10
+Port      ....................Maschine10
+Antastung ....................Maschine10
+Längen    ....................Maschine10
+Wechsler  ....................Maschine10
+4.Achse   ....................Maschine10
+Spannmitt ....................Maschine10
+Mehrfach  ....................Maschine10
+Grafik    ....................Maschine10
+Vorbereit ....................Maschine10
+Frässpindel Verzögerung[sec]:.Maschine29
+Die veränderten Bahnen sind für eine   .
+anschließende Berechnung ungeeignet!   .
+Verfahren                       [1..5]:.
+1=Spirale im Kegel 2=Schräg im Kegel   .
+3=Schräg auf Bahn 9° 4=45° 5=63° 6=75° .
+Eintauchtiefe zu gering!               .
+Ungeeignetes Verfahren!                .
+WStat-Add. Fräswegkontrolle :..DIN/ISO29
+markiere Blockanfang..........TextEdit20
+markiere Blockende  ..........TextEdit20
+Block kopieren      ..........TextEdit20
+Block verschieben   ..........TextEdit20
+Block löschen       ..........TextEdit20
+Leerzeile einfügen  ..........TextEdit20
+Zeile löschen       ..........TextEdit20
+Zeichenfolge Suchen ..........TextEdit20
+weitersuchen        ..........TextEdit20
+ersetze Sonderzeich...........TextEdit20
+Datei - Auswahl     ..........TextEdit20
+Akt.Spannmittel     #[1..20]:.....mill29
+Spannmittel Eingabe #[1..20]:.....mill29
+Radius      (R)[mm] .........RadiusEin20
+Scheitel Z  (H)[mm] .........RadiusEin20
+Weite       (W)[mm] .........RadiusEin20
+erhaben       [J/N] .........RadiusEin20
+Verzerrung    Z (V) .........RadiusEin20
+Position [mm]       ..........Umform..20
+Drehwinkel [°]      ..........Umform..20
+Skala/Spiegeln [%]  ..........Umform..20
+Größe [mm]          ..........Umform..20
+Neigen [Grad]       ..........Umform..20
+Umformen            ..........Umform..20
+Duplikat zuweisen   ..........Umform..20
+Original zuweisen   ..........Umform..20
+spiegeln        ...............Layout.16
+Menü-Record         ........Parameter.20
+Editor Int/Ext      ........Parameter.20
+Verwenden Sie bitte nur die            .
+Originaldiskette mit geöffnetem        .
+Schreibschutz!                         .
+Warnung bei 3D-Edit.   [J/N]:..Param..29
+Warnung WZ-Daten-Edit  [J/N]:..Param..29
+<L>=xy; <F1>=ScrollZ; <F2>=Z; <R>=Ende .
+Höhe (Z)        ...............RelVTR.16
+kopieren        ...............Icon24.16
+Daten enthalten Eigenschaften          .
+löschen J/N?                           .
+Verzerren X     ...............operat.16
+Verzerren Y     ...............operat.16
+Auflösung X-Richtung    [mm]:..RelVTR.29
+Max.Punktzahl X      [3..50]:..RelVTR.29
+Auflösung Y-Richtung    [mm]:..RelVTR.29
+Max.Punktzahl Y      [3..50]:..RelVTR.29
+Z aus Hintergrund übernehmen:..RelVTR.29
+Surface                      ..RelVTR.29
+Ansichtswinkel               ..RelVTR.29
+Punkte editieren             ..RelVTR.29
+Methode         ...............RelVTR.16
+Werkzeug ohne Eintauchtiefe!           .
+Werkzeug ohne Spitzenradius!           .
+Werkzeug ohne Vorschub!                .
+Werkzeug ohne Stationsnummer!          .
+Die Übernahme der markierten Wege      .
+kann zu Fehlern führen!                .
+Rendern         ...............Relief.16
+Abstand         ...............Relief.16
+Lichtwinkel     ...............Relief.16
+Zeichnung       ...............Relief.16
+Kontrast        ...............Relief.16
+Relief speichern...............Relief.16
+fein            ...............Relief.16
+weich           ...............Relief.16
+hart            ...............Relief.16
+gering          ...............Relief.16
+stark           ...............Relief.16
+sehr stark      ...............Relief.16
+Werkstück       ...............Layout.16
+Fräsweg         ...............Layout.16
+sehr fein       ...............Layout.16
+mittel          ...............Layout.16
+grob            ...............Layout.16
+sehr grob       ...............Layout.16
+Volumen Ansicht ...............Layout.16
+Grenzen:        ...............Layout.16
+Palettenauswahl ...............Layout.16
+Pos-Höhe        ...............Layout.16
+Höhenlinie      ...............Layout.16
+Drehrichtung    ...............BahnVe.16
+Block   .......................TextZl..8
+Zeile   .......................TextZl..8
+Proportional [J/N]  ........Relief....20
+Diese Funktion wird nicht              .
+unterstützt.                           .
+WechselAbstandZ             :.Maschine29
+Wechselstation #     [1..99]:.Maschine29
+Wechsel Position X      [mm]:.Maschine29
+Wechsel Position Y      [mm]:.Maschine29
+Wechsel Position Z      [mm]:.Maschine29
+Wechsel Vorposition X   [mm]:.Maschine29
+Wechsel Vorposition Y   [mm]:.Maschine29
+Werkzeuglängen               .Maschine29
+Zustellungen        [2..999]:....WBahn29
+Bahn-/Layerorientiert  [J/N]:....WBahn29
+linear-/volumenorient. [J/N]:....WBahn29
+Sendeverzögerung  [0..255ms]:.Maschine29
+Projektionswinkel eingeben   .HProjekt29
+Winkel XY [+/-0..359.999°]:  .HProjekt29
+Winkel Z  [+/-0.. 79.999°]:  .HProjekt29
+Datei enthält Werkzeugdaten!           .
+Layer enthält 3D- oder Fräsdaten!      .
+Funktion kann zu Fehlern führen!       .
+Layerfarben/Werkzeugf. [J/N]:.Paramet.29
+Standardeinstellung    [J/N]:.Maschine29
+Grafik Einstellung           .Paramet.29
+Farben    ....................Paramet.10
+wurde geladen.               Multischr29
+Keine Stützpunkte gefunden!  Multischr29
+Layer und Stützpunkte        Multischr29
+Unzulässiger Dateiname       Multischr29
+wurde ignoriert!             Multischr29
+Bahncheck                    BahnCheck29
+Checkauflösung [0.001.. mm]: BahnCheck29
+Punkt Linie                  .........29
+Punktabstand 0,1..999,99[mm]:.........29
+Zu viele Punkte!                       .
+Bitte in mehrere Blöcke aufteilen!     .
+Fräserspur J=Spiegel/N=Grund:.Paramet.29
+Füllkontur J=genau/N=schnell:.Paramet.29
+Zeichenbreite anpassen [J/N]:.ZSEdit..29
+Z-Koordinate negativ!                  .
+Handwechsel, Station #       .Maschine29
+Nächstes Werkstück                     .
+Achtung: Werkzeug(e) mit Kugelradius!  .
+Werkzeug(e) ohne Spitzenradius!        .
+Export HP-GL        ..............HPGL20
+Export Datei        ..............HPGL20
+Export COM1..4      ..............HPGL20
+HP-GL - Parameter   ..............HPGL20
+Plotter-Parameter   ..............HPGL20
+Datei-Erweiterung (Suffix)  :.....HPGL29
+Zahlentrennung (","/" "/..) :.....HPGL29
+Projektion Obj-Daten         .MultSchr29
+Projektion 2D-Daten          .MultSchr29
+Relief - Datei - Status      .........29
+Dateigröße       [kB]:..........Relief22
+Größe X*Y*Z     [pix]:..........Relief22
+Ausdehnung X*Y*Z [mm]:..........Relief22
+NullVersch.X,Y,Z [mm]:..........Relief22
+Skalierung X,Y,Z     :..........Relief22
+Bitte Installationsdiskette            .
+in Laufwerk A: einlegen!               .
+Bitte Installationsnummer eingeben:    .
+Reihe Polar                  ..operat.29
+Mittelpunkt X           [mm]:..operat.29
+MittelPunkt Y           [mm]:..operat.29
+Abstand dXY             [mm]:..operat.29
+Anzahl                      :..operat.29
+Startwinkel           [Grad]:..operat.29
+Auszufüllender Winkel [Grad]:..operat.29
+Drehwinkel            [Grad]:..operat.29
+Objekte drehen         [J/N]:..operat.29
+Mittelpunkt X,Y[mm]:         ..operat.29
+vertikale Hilfslinie         .Hilfslin29
+horizontale Hilfslinie       .Hilfslin29
+zu viele Hilfslinien         .Hilfslin29
+Hilfslinien                  .Hilfslin29
+Neu horizontal               .Hilfslin29
+Neu vertikal                 .Hilfslin29
+verschieben                  .Hilfslin29
+alle löschen                 .Hilfslin29
+zeigen: aus                  .Hilfslin29
+zeigen: ein                  .Hilfslin29
+fangen: aus                  .Hilfslin29
+fangen: ein                  .Hilfslin29
+Eingabe nur bei Hilfslinie "zeigen"    .
+Eine neue Grafik beginnen.             .
+Eine Datei öffnen.                     .
+Letzte Grafik weiterbearbeiten.        .
+leer....................................
+Diese Auswahl nicht mehr anzeigen.     .
+Willkommen bei               .........29
+Hilfe                        .........29
+Starthilfe:                  .........29
+Programmhilfe:               .........29
+Maxi - Feld     ......................16
+Mater. X=..............................9
+Mater. Y=..............................9
+ArbFeldX=..............................9
+ArbFeldY=..............................9
+ÜberlapX=..............................9
+ÜberlapY=..............................9
+Feld ausgeben #              .........29
+Export beenden mit zurück!   .........29
+Stützpunktfehler - Daten löschen J/N?  .
+Zeile auswählen (x,y)[mm]:             .
+Grafikobjekt (x,y)[mm]:                .
+Schildzahl wird nicht erreicht!        .
+Bereichsüberschreitung(en)!            .
+Schildrand          ...........SerText20
+kein Rand (0)       ...........SerText20
+Rahmen (1)          ...........SerText20
+Ecken (2)           ...........SerText20
+Eckpunkte (3)       ...........SerText20
+Serienschilder               ..SerText29
+Block Breite            [mm]:..SerText29
+Block Höhe              [mm]:..SerText29
+Rahmen Abstand X        [mm]:..SerText29
+Rahmen Abstand Y        [mm]:..SerText29
+Rand links               [%]:..SerText29
+Rand unten               [%]:..SerText29
+Rand rechts              [%]:..SerText29
+Rand oben                [%]:..SerText29
+Ausrichtung (Modus)         :..SerText29
+Block Anzahl                :..SerText29
+max. Blockzeilenzahl [1..10]:..SerText29
+Schildrand fräsen     [0..3]:..SerText29
+Rand Werkzeug #             :..SerText29
+Stil    [J=GroßKlein/N=Groß]:..SerText29
+Font Namen                  :..SerText29
+Versalhöhe     [0,1..1000mm]:..SerText29
+Textverzerrung    [+/-0..10]:..SerText29
+Textbreite   [+/-0,1..999mm]:..SerText29
+Textneigung    [-45..45Grad]:..SerText29
+Textzeichenab      [0..10mm]:..SerText29
+Textzeilenab.     [0..100mm]:..SerText29
+Text Werkzeug #             :..SerText29
+Ausrichtung   .................SerText14
+<F2> = Layerauswahl          ..SerText29
+Text ist zu breit!                     .
+Serienschilder      ...........SerText20
+Schild Daten        ...........SerText20
+Text editieren      ...........SerText20
+Textliste erzeugen  ...........SerText20
+Matrix erzeugen     ...........SerText20
+Editor intern       .........Parameter20
+Editor Auswahl      .........Parameter20
+Auf Homeposition','freifahren [J/N]?   .
+spiegeln Z          ............Relief20
+Auszug XY           ............Relief20
+Rand addieren       ............Relief20
+Grenze Oben         ............Relief20
+Grenze Unten        ............Relief20
+Bild anpassen       ............Relief20
+skalieren %         ............Relief20
+verzerren XYZ       ............Relief20
+reduzieren [%]      ............Relief20
+stufen              ............Relief20
+anpassen            ............Relief20
+Bild - Daten                           .
+Dateigröße       [kB]:..........Relief22
+Größe X*Y*Z     [pix]:..........Relief22
+Ausdehnung Außen [mm]:..........Relief22
+NullVersch.X,Y,Z [mm]:..........Relief22
+Skalierung [mm]:      ..........Relief22
+Erster Vektor                .....edit29
+2. Vektor auf Bahn           .....edit29
+Steigung:                    .....edit29
+Stützpunkt:                  .....edit29
+Spline-Auflösung:            .....edit29
+approximieren ist nicht mehr möglich!  .
+reduzieren ist nicht mehr möglich!     .
+Fehler in Daten!                       .
+Eingabe ist nicht zulässig!            .
+Eingabe mit mind. 3 Stützpunkten!      .
+Texte werden nicht übernommen!         .
+Referenzwerkzeuglänge ist 0.           .
+Spannzange trotzdem einmessen?         .
+Spannzangenposition ist kleiner        .
+als die Referenzwerkzeuglänge.         .
+Zuerst Spannzange einmessen!           .
+Keine Daten für die Ausgabe!           .
+Spannmittelposition Z ist zu klein     .
+für die vorgesehene Frästiefe und      .
+für das vorgesehene Werkzeug!          .
+ISO-Ausgabe mit Werkzeugkorrektur      .
+(G41 / G40) J(Y) / N?                  .
+Zuerst Zeile auswählen!                .
+Kein Textfeld vorhanden!               .
+Hilfe:                       ..Paramet29
+Navigator:                   ..Paramet29
+Im Layer befinden sich bereits Daten.  .
+Keine Relief-Korrekturdaten vorhanden! .
+Keine Projektionsdaten vorhanden!      .
+Maschinen Parameter          ..millCON29
+Werkzeug                     ..millCON29
+Vorbereitung                 ..millCON29
+Textende         .............TextEdit17
+Dithern                                .
+Verfahren                [5..7=Dither]:.
+Spitenradius für kegeliges Werkzeug    .
+Werkzeugwinkel >0°!                    .
+Bestimmt die Grauwert-Auflösung        .
+Fräserbewegung: 1=senkrecht            .
+2=3D, 3=Zeilen, 4=schräg               .
+Mittlere Bildhelligkeit                .
+Fräser-Material-Abstand                .
+Grauwert-Grundlevel                    .
+5=grobes Dithern, 6=fein/großer ZlAbst..
+7=fein/kleiner Zeilenabst.             .
+Frästiefe im Material                  .
+siehe Rasterabstand                    .
+Radialabstand  (ba)     [mm]:.........29
+Strichtyp           ............Skala.20
+kein Strich         ............Skala.20
+Strich              ............Skala.20
+Rechteck            ............Skala.20
+Ellipse             ............Skala.20
+Dreieck liegend     ............Skala.20
+Dreieck stehend     ............Skala.20
+Relief Parameter             ..Relief.29
+gepackte Speicherung [J/N]:  ..Relief.29
+Reihenfolge    [J=steigend, N=fallend]:.
+Abrundung ist nicht möglich!           .
+max. Schichttiefe   (0.. FEt)[mm] ....34
+Spanbruchhub +Z     (0.. FEt)[mm] ....34
+Schlichtoffs. f(FrS)(0..<100) [%] ....34
+Ungeeignete Daten!                     .
+Zu viele Werkzeuge.                    .
+Layer werden benötigt!                 .
+Keine LDRIVER-Projektdaten vorhanden!  .
+Fräsdaten-Projekt   .........Fräsdaten20
+öffnen Obj.*.LG1    .........Fräsdaten20
+öffnen *.LDP        .........Fräsdaten20
+speichern *.LDP     .........Fräsdaten20
+Hilfe:                       ..Paramet29
+Layer# mit Ausstanzkontur:   ..Clippen29
+Ausstanzlayer <>             ..Clippen29
+Mastercam NCI Import         ..Import.29
+Freifahrposition             ..Export.29
+Textstil        ...............Text...16
+Richtung        ...............Text...16
+zentriere zu..  ...............operat.16
+Vieleck             .........zeichnen.20
+Kreisbogeneingabe   .........zeichnen.20
+duplizieren         .........operat...20
+Objekte spiegeln    .........operat...20
+Drehen+Spiegeln     .........operat...20
+Objekte drehen      .........operat...20
+2D-Offset Berechnung..........WBahn...20
+Parallelbahn(en)    ..........WBahn...20
+BahnParallele abr.  ..........WBahn...20
+FrBahn Grund        ..........WBahn...20
+FrBahn Eck          ..........WBahn...20
+StreckenParallele   ..........WBahn...20
+Maß 2 Pkt.X         .........operat...20
+Maß 2 Pkt.Y         .........operat...20
+Makro Export    .............operat...16
+Effekte in 2D   .............bearbeit.16
+Pixeledit           .........Relief...20
+ZeigePos            .........Relief...20
+SetzePos COPY       .........Relief...20
+Minimum OR          .........Relief...20
+Maximum AND         .........Relief...20
+Summe ADD           .........Relief...20
+Subtrakt SUB        .........Relief...20
+auftragen -> Max    .........Relief...20
+abtragen -> 0       .........Relief...20
+Interpolationspunkt eingeben           .
+4-Pkt. auf          .........Relief...20
+Mittelwert          .........Relief...20
+größten Wert        .........Relief...20
+kleinsten Wert      .........Relief...20
+Ersetze Z-Bereich                      .
+Relief entzerren    .........Relief...20
+Relief korrigieren  .........Relief...20
+ersetze Z-Breich    .........Relief...20
+horizontal 2P X     .........Relief...20
+horizontal 2P Y     .........Relief...20
+horizontal 3Pkt     .........Relief...20
+Keil (Schräge) XY   .........Relief...20
+Keil (Schräge) Wi   .........Relief...20
+In Z rastern:       .........Relief...20
+Stufen             :.........Relief...20
+skalieren           .........Relief...20
+filtern             .........Relief...20
+Fehlerpixel         .........Relief...20
+Ausreißer           .........Relief...20
+approximieren       .........Relief...20
+... Weiter:<L>;  Abbruch:<R> ...       .
+Import Font         .........ZSEdit...20
+Export Font         .........ZSEdit...20
+Ablage              .........ZSEdit...20
+einfügen            .........ZSEdit...20
+Eintauchverfahren   ..........WBahn...20
+Spirale im Kegel    ..........WBahn...20
+Schräge im Kegel    ..........WBahn...20
+Schräg auf Bahn 9°  ..........WBahn...20
+Schräg auf Bahn 45° ..........WBahn...20
+Schräg auf Bahn 63° ..........WBahn...20
+Schräg auf Bahn 75° ..........WBahn...20
+Zeilen genau Block  .........Spiegel..20
+Zeilen Raster Block .........Spiegel..20
+Kontur 2D Block     .........Spiegel..20
+Kontur 3D Block     .........Spiegel..20
+Zeilen genau Gesamt .........Spiegel..20
+Zeilen Raster Gesamt.........Spiegel..20
+Kontur 2D Gesamt    .........Spiegel..20
+Kontur 3D Gesamt    .........Spiegel..20
+Spiegelfläche       .........Spiegel..20
+Spiegelrelief       .........Spiegel..20
+Max.Spiegelbreite (Verfahren 3+7) [mm]:.
+0,4 = Zeilen genau                     .
+1,5 = Zeilen Raster                    .
+2,6 = Kontur 2D                        .
+3,7 = Kontur 3D                        .
+Verf.: 1 = rel. Offset f(PosZ)         .
+Verf.: 2 = Offset f(Zmax) bis Spiegel  .
+Verf.: 3 = absolute Höhe               .
+Endpunkt            ....KonstruktHilfe20
+Punkt               ....KonstruktHilfe20
+Konstruktionshilfe  ....KonstruktHilfe20
+Eingabe             ....KonstruktHilfe20
+Vektormitte         ....KonstruktHilfe20
+Objektmitte         ....KonstruktHilfe20
+Schnittpunkt        ....KonstruktHilfe20
+SPkt.auf Vekt.      ....KonstruktHilfe20
+Lot auf Vekt.       ....KonstruktHilfe20
+Extrempunkte        ....KonstruktHilfe20
+Hauptrichtung       ....KonstruktHilfe20
+Positionsliste Drucken                 .
+Konturen füllen        [J/N]:.Druck...29
+Eigenschaft nicht gefunden!            .
+Konturen sind nicht geschlossen!       .
+Bohrungsdurchm. (d)[mm]:..Eigenschaft.24
+Bohrung                 ..Eigenschaft.24
+Steigung        (s)[mm]:..Eigenschaft.24
+Spiralbohrung           ..Eigenschaft.24
+Tiefe Flachsenk (f)[mm]:..Eigenschaft.24
+Flachsenk-Durchm(D)[mm]:..Eigenschaft.24
+Senkungswinkel (wi) [°]:..Eigenschaft.24
+Senkung                 ..Eigenschaft.24
+keine Bohrung(en)!                     .
+Eigenschaften       ......Eigenschaft.20
+Ausbruch innen      ......Eigenschaft.20
+Umfräsung           ......Eigenschaft.20
+Tasche              ......Eigenschaft.20
+keine               ......Eigenschaft.20
+Kreisspirale        ......Flächenfräs.20
+Kreise              ......Flächenfräs.20
+Radialmäander       ......Flächenfräs.20
+Fräsrichtung        ......Flächenfräs.20
+Horizontal          ......Flächenfräs.20
+Vertikal            ......Flächenfräs.20
+Recht.pos von außen ......Flächenfräs.20
+Recht.neg von innen ......Flächenfräs.20
+Flächen fräsen      ......Flächenfräs.20
+Spirale             ......Flächenfräs.20
+Kreise              ......Flächenfräs.20
+Radial              ......Flächenfräs.20
+Rechteck            ......Flächenfräs.20
+Ziellayer      [0..LayerMax]:.WBahn...29
+Bohrungsdurchmesser            (d)[mm]:.
+Fräser ist für die Bohrung zu groß!    .
+Gewindeschleudern   ........3D-Zyklen.20
+Steigung                       (s)[mm]:.
+Tiefe Flachsenkung             (f)[mm]:.
+Flachsenkungsdurchmesser       (D)[mm]:.
+Senkungswinkel                (wi) [°]:.
+3D - Zyklen         ........3D-Zyklen.20
+Gewinde             ........3D-Zyklen.20
+Berechnen/Rastern        [J/N]:        .
+Rasterauflösung  [100-4800dpi]:        .
+Strecken in Konturen                   .
+Zeichen       : ..............Editor..16
+Ersetzen durch: ..............Editor..16
+Ersetze Sonderzeichen        .Editor..29
+Abräumen  ...................AutoKorr.10
+Spiegel   ...................AutoKorr.10
+Fräsergrafik    .............AutoKorr.16
+Grund           .............AutoKorr.16
+Reihenfolge     .............AutoKorr.16
+steigend        .............AutoKorr.16
+fallend         .............AutoKorr.16
+Offset              ..........WBahn...20
+LGF-2 - Text in ASCII [J/N]: .Ablauf..29
+Importziel [J=Grafik,N=SLD]: .Ablauf..29
+Ablauf Parameter             .Ablauf..29
+Abbruch: Datei enthält UNIX-Text!      .
+Keine Fräsdaten gefunden.              .
+Bitte überprüfen Sie Ihre Datei!       .
+Eingabehilfe        ..........SecMenü.20
+? Hilfe             ..........SecMenü.20
+Info                ..........SecMenü.20
+Parameter           ..........SecMenü.20
+Grafik NEU          ..........SecMenü.20
+Palette             ..........SecMenü.20
+Grafik Auswahl      ..........SecMenü.20
+Neues Relief anlegen         .Relief..29
+Nullpunkt x0[mm]:            .Relief..29
+Nullpunkt y0[mm]:            .Relief..29
+Nullpunkt z0[mm]:            .Relief..29
+Breite  (X)b[mm]:            .Relief..29
+Höhe    (Y)h[mm]:            .Relief..29
+Tiefe   (Z)t[mm]:            .Relief..29
+Auflösung dx[mm]:            .Relief..29
+Auflösung dy[mm]:            .Relief..29
+Z-Bereich mit Cursor eingeben -        .
+ weiter mit <R>!                       .
+Schichtrand         ..........Relief..20
+ Mitlauf..................FrKorr2D/3D..8
+ Gegenl...................FrKorr2D/3D..8
+2D+Ausspitzen       ......FrKorr2D/3D.20
+Korrekturrichtung   ......FrKorr2D/3D.20
+FrKorr 2D/3D        ......FrKorr2D/3D.20
+Zeilen unidirekt. ........AutoKorr....18
+Konturoffset    (+/-100)[mm]:          .
+Korrekturverfahren   (2D,3D):          .
+Korrekturrichtung           :          .
+Richtung (Mitlauf,Gegenlauf):          .
+Abrundungswinkel         [°]:          .
+Konturoffset ist zu klein!             .
+senkrecht           ........RasterCut.20
+Zeilen              ........RasterCut.20
+schräg von Mat.     ........RasterCut.20
+grobes Dithern           ...RasterCut.25
+mittleres Dithern        ...RasterCut.25
+feines Dithern           ...RasterCut.25
+Auto                ........BahnSort..20
+erster              ........BahnSort..20
+letzter             ........BahnSort..20
+ignorieren      ..........directmill..16
+Werkzeugauswahl ..........directmill..16
+Werkzeugfehler               ..directm29
+Verschiedene Geometrien mit gleicher   .
+ Stationsnummer!                       .
+Exportieren Sie erneut mit             .
+geänderten Werkzeugdaten!              .
+Eins nach Vorn      ........BahnSort..20
+Eins nach Hinten    ........BahnSort..20
+Reihenfolge umkehren........BahnSort..20
+Sort.Bahn/Strecke   ........BahnSort..20
+Sort.Innen/Außen    ........BahnSort..20
+Warnung!                     .ChkLayer29
+Kontur auswählen                       .
+Neuer Anfangspunkt                     .
+Eingabe nicht für offene Strecken!     .
+Werkzeug(e) im Datensatz               .
+Anpassung       ..................Text16
+Layer #   ................Multischräge10
+Wortabstand (Space)      [%]:.....Text29
+Daten für nicht aktivierte(n) Layer!   .
+Die Layerzahl wird erhöht!             .
+löschen = Textzeilen werden entfernt,  .
+erhalten = Textzeilen bleiben erhalten .
+Referenzwerkzeug entspricht nicht      .
+dem aktuellen Werkzeug!                .
+Joystick  .................millControl10
+AutoMeß   .................millControl10
+Datencheck vor Berechn.[J/N]:....AKorr29
+Abräumbahnen zuerst    [J/N]:....AKorr29
+Werkzeugauswahl                        .
+<M> : Werkzeugbibliothek               .
+Korrekturverfahren                     .
+2D(2D+3D): Ohne (mit) Ausspitzen.      .
+3D: Nur Ausspitzungen.                 .
+Ecke: Nur Eckenbahnen (FrS > 1 : 2,5). .
+Abräumverfahren                        .
+Für konturparallele Vefahren mit       .
+zusätzlicher Eingabe der Abräumbreite. .
+Abräumbreite                           .
+Nur für konturparallele Verfahren.     .
+Fräsbahnen berechnen zum               .
+Spiegel oder Grund.                    .
+Fräsbahnen berechnen für               .
+erhabene oder vertiefte Gravur.        .
+Grund   .........................AKorr.8
+Spiegel .........................AKorr.8
+ 2D     .........................AKorr.8
+ 2D+3D  .........................AKorr.8
+ Ecke   .........................AKorr.8
+ 3D     .........................AKorr.8
+nur Abräumkontur  ...............AKorr18
+zeilenförmig      ...............AKorr18
+bahnparallel Rad. ...............AKorr18
+keine Abräumbahn  ...............AKorr18
+bahnpar. Durchm.  ...............AKorr18
+erhaben .........................AKorr.8
+vertieft.........................AKorr.8
+Gleichzeitige Eingabe                  .
+3D und Grund ist nicht möglich!        .
+Eckenbearbeitung ist nicht möglich!    .
+Abräumen ist nicht möglich!            .
+markieren           .............Such.20
+alle entmarkieren   .............Such.20
+alle markieren      .............Such.20
+Fehler Bohrungsdurchmesser!            .
+Einrichten der Maschine.               .
+Vor dem Einrichten müssen die Parameter.
+(Grenzen, Raum, Rückzug, Achsen, Port) .
+vollständig und korrekt eingeben sein! .
+Für die Maschinentypen LANG MCG und    .
+Mimaki muß zum Einmessen die Maschine  .
+und die Verbindung eingeschaltet sein. .
+weiter    ....................Maschine10
+zurück    ....................Maschine10
+Referenzwerkzeug.                      .
+Referenzwerkzeug in die Frässpindel    .
+einsetzen, die Ausspannlänge des       .
+Werkzeugs messen und über Tastatur in  .
+Werkzeuglängen[RefWzNr] eingeben.      .
+Eingabe wiederholen!                   .
+Antastverfahren.                       .
+Werkzeug - Längenantastung bestimmen:  .
+- Automatisch (Meßdose),               .
+- man. Vermessung,                     .
+- Werkzeuglängen aus Tabelle.          .
+Meßpunkt......................Maschine 8
+ manuell......................Maschine 8
+ Tabelle......................Maschine 8
+Antastposition.                        .
+Antastposition in X, Y, Z mit der      .
+Maschine einmessen.                    .
+Zwischen Antastposition Z und Meßpunkt .
+muß genügend Abstand für das längste   .
+Werkzeug sein.                         .
+Diese Position wird mit der Maschine   .
+bei eingesetztem Referenzwerkzeug      .
+eingemessen.                           .
+Max. Messweg <= 45mm (bei 6400Schr/U). .
+Spannzangenposition.                   .
+Die Spannzangenposition muß größer     .
+als die längste Werkz.-Ausspannlänge   .
+sein, damit die Maschine genügend      .
+Freiraum zum Ausweichen besitzt.       .
+Spannmittelposition.                   .
+Vor der 1. Bearbeitung die Spannmittel .
+Position in X, Y, Z mit der Maschine   .
+einmessen.                             .
+Der Einrichtvorgang ist beendet.       .
+Sie können jetzt die Maschine mit      .
+"Fräsen .." starten.                   .
+Die Einrichthilfe ist für diesen       .
+Maschinentyp nicht vorgesehen!         .
+Flächen füllen         [J/N]:...Relief29
+Auflösung ist zu grob!                 .
+Wechselstation                         .
+Wechsel Vorposition                    .
+Eingabefehler!                         .
+Schrittauflösung nur 0,0025mm!         .
+Fehler RS232!                          .
+Polylinien Abmessungen       ...operat29
+Breite der Polylinie (b)[mm]:...operat29
+Höhe der Polylinie   (z)[mm]:...operat29
+Überschneidung(en) im Datensatz!       .
+Fehler in Kontur!                      .
+Grenzlinien         ............operat20
+Polylinien Grenzen  ............operat20
+Polylinien Import   ............operat20
+Polylinien Export   ............operat20
+Rahmen Import       ............operat20
+Rahmen Export       ............operat20
+Rahmenkontur verwenden [J/N]:...Layout29
+Unbekannte SLD-Version                 .
+lese nur Vektordaten und Text!         .
+Zeichen Drehsinn         .....FontEdit25
+drehe Zeichen            .....FontEdit25
+korrig. Zeichen Drehsinn .....FontEdit25
+korrig. Font Drehsinn    .....FontEdit25
+lösche Arb          ..........FontEdit20
+Layer enthält Werkzeugdaten.           .
+Layer enthält 3D - Daten.              .
+Layer enthält Werkzeug und 3D-Daten.   .
+Edit Position 3D (x,y,z)[mm]:          .
+Position 3D eingeben (x,y,z)[mm]:      .
+Layernamen in Werkzeugbibliothek       .
+Dateinamen ohne Laufwerk               .
+und ohne Erweiterung eingeben!         .
+Bogenpunkt verschieben                 .
+Keine geschlossene Kontur!             .
+mark.Schnittpunkte  ..........Schnittp20
+Schnittpkt. suchen  ..........Schnittp20
+Schnittpkt. löschen ..........Schnittp20
+Für diesen Layer sind Texte vorhanden. .
+Die Prüfung erfolgt komplett, jedoch   .
+ohne Ergebnisübernahme in den Layer!   .
+Bahnanzeige     ...........TestBahnAnz16
+Zeile vor       ...........TestBahnAnz16
+bis PosA        ...........TestBahnAnz16
+Edit            ...........TestBahnAnz16
+bis Ende        ...........TestBahnAnz16
+Mark Pos        ...........TestBahnAnz16
+Seite vor       ...........TestBahnAnz16
+Zeile zurück    ...........TestBahnAnz16
+Drehsinn        ................edit..16
+Polylinien Verzerrung    ....Effekte2D25
+lade Polylinie X         ....Effekte2D25
+lade Polylinie Y         ....Effekte2D25
+Verzerrung               ....Effekte2D25
+ Grafiklayer wechseln!                 .
+Streufeld           ..........Datei...20
+UNIX in DOS         ..........Datei...20
+Zu trennende Kontur wählen             .
+WLayer FrGrafik     ..........AKorr...20
+Grafik Parameter    ..........AKorr...20
+Grafik Fräserspur   ..........AKorr...20
+mark 3D Ausspitz    ..........AKorr...20
+mark 3D Level       ..........AKorr...20
+zeige Pos3D         ..........AKorr...20
+Norm Projektion     ..........AKorr...20
+Zoom Projektion     ..........AKorr...20
+Höchster Bearbeitungspunkt liegt bei   .
+Daten auf 0 verschieben J/N?           .
+ISO-Export nach:                       .
+Zuerst DIN/ISO-Daten auswählen!        .
+Vorschubgrenze      ..........Export..20
+bis Radius [mm]     ..........Export..20
+Polylinie nicht vorhanden!             .
+Schild-Navigator    ........Navigator.20
+öffnen              ........Navigator.20
+Neu / Grenzen       ........Navigator.20
+Werkzeuge           ........Navigator.20
+Texte eingeben      ........Navigator.20
+Texte editieren     ........Navigator.20
+Schild speichern    ........Navigator.20
+Ende Navigator      ........Navigator.20
+Frontplatten-Navig. ........Navigator.20
+Sign-Navigator      ........Navigator.20
+editieren           ........Navigator.20
+Werkzeugbahn        ........Navigator.20
+Stempel-Navigator   ........Navigator.20
+scannen             ........Navigator.20
+Vorbereiten         ........Navigator.20
+Autokorrektur       ........Navigator.20
+Projektionen        ........Navigator.20
+Vorlage speichern   ........Navigator.20
+Polylinien-Navigator........Navigator.20
+importieren         ........Navigator.20
+Schild              ........Navigator.20
+Frontplatte         ........Navigator.20
+Sign                ........Navigator.20
+Stempel             ........Navigator.20
+Polylinie           ........Navigator.20
+Zuerst Navigator einschalten!          .
+einrichten          ........ImportExp.20
+Programmwahl        ........ImportExp.20
+übergeben           ........ImportExp.20
+Exporthilfen        ........ImportExp.20
+Werkzeugedit Export ........ImportExp.20
+Werkzeugedit LG1Obj ........ImportExp.20
+ASCII-Senden COM1..4........ImportExp.20
+Test-Bahnanzeige    ........ImportExp.20
+Voraussetzungen     ........Parameter.20
+Eingaben            ........Parameter.20
+Sprache             ........Parameter.20
+Radius[mm], +/-dX[mm]:                 .
+Radius[mm], +/-dY[mm]:                 .
+Winkel[Grad], Abs(dX)[mm]:             .
+Winkel[Grad], Abs(dY)[mm]:             .
+Gerade              ........zeichnen..20
+Reihe linear        ........operat....20
+Konturband          ........WBahn.....20
+Kontur versetzen    ........operat....20
+außen               ........operat....20
+innen               ........operat....20
+rund                ........operat....20
+spitz               ........operat....20
+Original erhalten   ........operat....20
+Original löschen    ........operat....20
+berechnen           ........operat....20
+Aufteilung          ........Autokorr..20
+Linear              ........Autokorr..20
+Volumen             ........Autokorr..20
+Verdicken           ........Relief....20
+Level               ........Relief....20
+Wegeberechnung      ........Relief....20
+keine Berechnung    ........Relief....20
+schnell             ........Relief....20
+Standard            ........Relief....20
+exakt               ........Relief....20
+Maß X [mm]          ........Relief....20
+Maß Y [mm]          ........Relief....20
+Maß Z [mm]          ........Relief....20
+skalieren X [%]     ........Relief....20
+skalieren Y [%]     ........Relief....20
+skalieren Z [%]     ........Relief....20
+Relief Abmessungen  ........Relief....20
+Relief Skalieren    ........Relief....20
+Rand addieren       ........Relief....20
+Randbreite (B) [mm]          ..Relief.29
+Gleicher Level J/N?          ..Relief.29
+Randlevel (L) [mm]           ..Relief.29
+Maß XYZ             ........Relief....20
+Rand füllen         ........Relief....20
+Bandbreite              [mm]:..WBahn..29
+Schneidenradius   =          ..Layout.29
+Spitzenradius     =          ..Layout.29
+Winkel            =          ..Layout.29
+Kugelradius       =          ..Layout.29
+Eintauchtiefe     =          ..Layout.29
+Flughöhe          =          ..Layout.29
+Vorschub XY       =          ..Layout.29
+Eintauchvorschub Z=          ..Layout.29
+Spindeldrehzahl   =          ..Layout.29
+Standweg          =          ..Layout.29
+Wechselstation    =          ..Layout.29
+Wege Im Material  :          ..Layout.29
+Wege über Material:          ..Layout.29
+Total             :          ..Layout.29
+Werkzeug im Layer            ..Layout.29
+Layer Total:                 ..Layout.29
+Enthält 3D-Wege!             ..Layout.29
+Enthält 2D-Wege!             ..Layout.29
+Enthält nur Text!            ..Layout.29
+Enthält keine Daten!         ..Layout.29
+Grenze links-unten:          ..Layout.29
+Grenze rechts-oben:          ..Layout.29
+Ausdehnung        :          ..Layout.29
+Anzahl Vektoren   :          ..Layout.29
+Anzahl Textzeilen :          ..Layout.29
+Layerwerkzeug                ..Layout.29
+Wege Total:                  ..Layout.29
+Neues Werkzeug               ..millCON29
+Werkzeug ist bereits eingewechselt.    .
+Zum Einmessen Meßpunkt aktivieren!     .
+Zum Einrichten nur vermessenes         .
+Werkzeug verwenden.                    .
+Akt. Werkzeug #                        .
+1.Fräswerkzeug #                       .
+Werkzeug jetzt einmessen J/N?          .
+Relief-Schichtfräsen         ..Relief.29
+Werkzeugnummer [0..199]      ..Relief.29
+Schichtzahl (S)              ..Relief.29
+Bahnabstand f[FrS+FrK] (A)[%]..Relief.29
+Schraffurwinkel (Wi)[°]      ..Relief.29
+Konturparallel J/N           ..Relief.29
+Vorfräsoffset Z [mm]         ..Relief.29
+Schichtstärke [mm]           ..Relief.29
+Schichtstärke f[FrS+FrK] [%] ..Relief.29
+Konturparallel J/N  ...........Relief.20
+Schichten aus Reliefbild     ..Relief.29
+Relief - Daten               ..Relief.29
+Links Unten X*Y*Z[mm]:.........Relief.22
+Rechts Oben X*Y*Z[mm]:.........Relief.22
+Z-Offset [mm]:               ..Layout.29
+Z-Verschiebung [mm]          ..Spezia.29
+3D-Abmessung                 ..Layout.29
+nicht gefunden!              ..Layout.29
+Datei                 .........Layout.20
+Ablauf                .........Layout.20
+Anzahl Konturen   :          ..Layout.29
+Polylinien Basis liegt nicht auf 0/0!  .
+Export Datei/COM1..4   [J/N]:..HP-GL..29
+Verknüpfung           ....Projektionen20
+tiefster Punkt (OR)   ....Projektionen20
+höchster Punkt (AND)  ....Projektionen20
+Addition              ....Projektionen20
+stehender Kegel              ..Projekt29
+Spitzendurchmesser  d   [mm] ..Projekt29
+Grunddurchmesser    D   [mm] ..Projekt29
+Kegelwinkel         W [Grad] ..Projekt29
+Kegelhöhe           H   [mm] ..Projekt29
+Torus                        ..Projekt29
+Torusradius         r   [mm] ..Projekt29
+Radius              R   [mm] ..Projekt29
+Scheiteltiefe       Z   [mm] ..Projekt29
+Weite               W   [mm] ..Projekt29
+Abräumart                    ..Relief.29
+Rechteckspirale              ..Relief.29
+Ellipse bis Rand             ..Relief.29
+Ellipse bis Ecke             ..Relief.29
+Abräumen horizontal          ..Relief.29
+Abräumen vertikal            ..Relief.29
+Zeilen horizontal            ..Relief.29
+Zeilen vertikal              ..Relief.29
+Abräumen radial Kreis        ..Relief.29
+Zeilen radial Kreis          ..Relief.29
+Abräumen radial Rechteck     ..Relief.29
+Zeilen radial Rechteck       ..Relief.29
+Außen nach Innen             ..Relief.29
+Innen nach Außen             ..Relief.29
+Abräum Verfahren             ..Relief.29
+Abräum Richtung [I/A]        ..Relief.29
+Abräum Bahnabstand [%]       ..Relief.29
+Schichtabstand Z (1.Bahn) [%]..Relief.29
+Abräum Schichtzahl (1..99)   ..Relief.29
+Linientyp                    ..Linient29
+Linientyp wandeln            ..Linient29
+ersetze Punkte               ..Linient29
+Anzahl Textzeichen:          ..Layout.29
+leer ...................................
+Konturen füllen        [J/N]:..Paramet29
+Keine Daten gefunden!                  .
+Spiegeln 2D in               ..Layout.29
+Spiegelachsen-Mitte          ..Layout.29
+   Daten.......................Layout..8
+  Rahmen.......................Layout..8
+Radius(R)/Inradius(I)/Schräge(S)       .
+  Radius.......................Edit....8
+ Schräge.......................Edit....8
+    leer.......................Export..8
+Adresse Rundachse            ..Export.29
+ISO - Filter - Parameter     ..Export.29
+Hilfe J/N?                             .
+Abräumbahnen nachsort. [J/N]:..AKorr..29
+WZ-Block  .....................AKorr..10
+Werkzeug Block      ...........AKorr..20
+1=Dreieck, 2=Rechteck, 3=Ellipse:      .
+Breite (x)    (0,01..99.999)[mm]:      .
+Höhe (y)      (0,01..99.999)[mm]:      .
+Punkte ersetzen                        .
+3D-Wege bearbeiten  ...........WBahn..20
+Endpunkte 3D        ...........WBahn..20
+Knicklinie 3D       ...........WBahn..20
+3D-Bahnen auswählen - beenden mit <Esc>.
+Knicken mit Linie.. - beenden mit <Esc>.
+Trimmen mit Linie.. - beenden mit <Esc>.
+Spiegeltiefe(Z-Offset)Sz[mm]:..WBahn..29
+Schichttiefe          St[mm]:..WBahn..29
+Eintauchwinkel        Wi [°]:..WBahn..29
+In den Daten befinden sich             .
+ Werkzeugsätze.                        .
+Für alle Daten werden Zustellungen     .
+berechnet!                             .
+Es wurden doppelte Punkte gefunden.    .
+Überprüfen und korrigieren Sie Ihre    .
+Daten mit Bahnoptimierung!             .
+                                       .
+Nachkommastellen [3..8]      ..DXFExp.29
+Exportformat                 ..DXFExp.29
+DXF - Exportformat           ..DXFExp.29
+Ausgabeformat LDriver4 [J/N] ..Export.29
+LG1 Objekt-Format            ..Export.29
+Bahnart             ..........Scanner.20
+vorwiegend Bögen    ..........Scanner.20
+feine Linien+Bögen  ..........Scanner.20
+Linien, Ecken, Bögen..........Scanner.20
+Linien + Ecken      ..........Scanner.20
+grobe Linien, Ecken ..........Scanner.20
+Qualitätsstufe      ..........Scanner.20
+Hoch [0]            ..........Scanner.20
+Standard [1]        ..........Scanner.20
+Mittel [2]          ..........Scanner.20
+Mäßig [3]           ..........Scanner.20
+Gering [4]          ..........Scanner.20
+Grob [5]            ..........Scanner.20
+Glätten [J/N]:               .Scanner.29
+Inc Laufende Nummer +/-99999:.Paramet.29
+Papierrand Offset       [mm]:.Druck...29
+Mit Rahmen             [J/N]:.Druck...29
+Mit Abmessung          [J/N]:.Druck...29
+Hochformat             [J/N]:.Druck...29
+Seite anpassen               .Druck...29
+Konturen füllen              .Druck...29
+Mit Rahmen                   .Druck...29
+Mit Abmessung                .Druck...29
+Hochformat                   .Druck...29
+Zwischenablage               .Scanner.29
+Zu viele Textzeilen (>4000)!           .
+Fehler: Quell-u.Ziellayer sind gleich! .
+Ablauf - Auswahl             .AblEdit.29
+Neuer Ablauf                 .########29
+Ablauf ergänzen              .########29
+Daten eingeben J/N?                    .
+Werkzeug freifahren                    .
+Vor öffnen der Werkzeug-Klappe         .
+auf Homeposition freifahren J/N?       .
+Abräumzeilen verbinden [J/N]:.AutoKorr29
+Punkte * Auflösung <> Ausdehnung.      .
+Anzahl Punkte                .Relief..29
+Auflösung oder Ausdehnung runden?      .
+Auflösung       ..............Relief..16
+Ausdehnung      ..............Relief..10
+HP-GL-3D Parameter           .HP-GL...29
+Schnittauswahl  ..............PolyLin.16
+Stegbreite           (a)[mm]:.PolyLin.29
+Anfangswinkel        (ß) [°]:.PolyLin.29
+Linienbreite         (b)[mm]:.PolyLin.29
+Kontrollpunkt 1      (x)[mm]:.PolyLin.29
+Kontrollpunkt 1      (y)[mm]:.PolyLin.29
+Kontrollpunkt 2      (x)[mm]:.PolyLin.29
+Kontrollpunkt 2      (y)[mm]:.PolyLin.29
+Z spiegeln             [J/N]:.PolyLin.29
+Polylinie Diagonal           .PolyLin.29
+Polylinie Radius             .PolyLin.29
+Polylinie Parabel            .PolyLin.29
+Polylinie Bezier             .PolyLin.29
+Schräge             ..........RelVTR..20
+erzeugen            ..........RelVTR..20
+Verlauf             ..........RelVTR..20
+Linien-Ausgleich    ..........RelVTR..20
+Linieneingabe       ..........RelVTR..20
+Flächenhöhe         ..........RelVTR..20
+Rand+Planfläche     ..........RelVTR..20
+Randverlauf ein     ..........RelVTR..20
+Randverlauf aus     ..........RelVTR..20
+Strecke             ..........RelVTR..20
+Enden               ..........RelVTR..20
+Lage absolut x,y [mm]:                 .
+Verzerrung x,y(,z) [%]:                .
+Größe x,y(,z) [mm]:                    .
+Grundhöhe z [mm]:                      .
+Relief einfügen     ..........RelVTR..20
+Lage absolut x/y    ..........RelVTR..20
+Größe x/y/z         ..........RelVTR..20
+Verzerrung x/y/z    ..........RelVTR..20
+Drehung             ..........RelVTR..20
+Grundhöhe           ..........RelVTR..20
+Spiegeln            ..........RelVTR..20
+Radiusfilter        ..........RelEdit.20
+Export Auswahl      ..........RelDatei20
+Fräsdaten außerhalb des Arbeitsrahmens!.
+Interpol.       ..............RelVTR..16
+Aufl.verdopp.       ..........RelEdit.20
+Korrektur-Filter    ..........RelEdit.20
+Ableitung           ..........RelEdit.20
+Schärfen            ..........RelEdit.20
+Prägen              ..........RelEdit.20
+Zentrum             ..........RelVTR..20
+Scheitel Z          ..........RelVTR..20
+Radius X            ..........RelVTR..20
+Radius Y            ..........RelVTR..20
+Scheitel Z ist zu Groß!                .
+Bezugshöhe          ..........RelVTR..20
+Konturhöhe          ..........RelVTR..20
+Bezugspunkt         ..........RelVTR..20
+Bezugsvektor        ..........RelVTR..20
+Bezugsstrecke       ..........RelVTR..20
+Vektorbearbeitung   ..........operat..20
+Parallelvektor      ..........operat..20
+Vekt.schneiden      ..........operat..20
+Set Kontur          ..........operat..20
+Ausgabeart               [0...Masch...29
+Zum Arbeiten mit Werkzeugwechsel und   .
+Werkzeugvermessung muß der Parameter   .
+Ausgabeart gesetzt werden!             .
+Radiuseingabe nur bei                  .
+Einstellung edit "Zeile"!              .
+Nächster            ....KonstruktHilfe20
+Message Beep                :.Paramet.29
+ einfach...............................8
+waagerecht drehen   ..........operat..20
+senkrecht drehen    ..........operat..20
+Skalentext Erzeugung         .Skala...29
+Startgröße                   .Skala...29
+Increment                    .Skala...29
+Anzahl Textzeilen            .Skala...29
+Erste Zeile                  .Skala...29
+Letzte Zeile                 .Skala...29
+Font Sortierung     ..........FontEd..20
+nach Dateinamen     ..........FontEd..20
+nach Fontnamen      ..........FontEd..20
+Objekt Clr          ..........RelVTR..20
+Rundachse für ...   ..........DIN/ISO.20
+Koordinatensystem           :.HPGL3D..29
+vorherig......................HPGL3D...8
+Maschine......................HPGL3D...8
+eingest.......................HPGL3D...8
+Beschleunigungstabelle      :.HPGL3D..29
+  Gravur......................HPGL3D...8
+ Fräsung......................HPGL3D...8
+Reliefkopie zum Spiegeln               .
+erzeugen J/N?                          .
+Layertrennung aus [J/N]      .Export..29
+Layertrennung                .Export..29
+ist zu klein für die Bearbeitung!      .
+Grafikhintergrund            .Grafik..29
+Relief                       .Grafik..29
+Scanner                      .Grafik..29
+Auto Bahncheck               BahnCheck29
+keine Schichttiefe!          .millCont29
+Schneide Objekt     ....KonstruktHilfe20
+Werkzeug übernehmen (bei 3D):.ISO-Imp.29
+Text > Grafik       .....operat.Zeile.20
+Text erhalten       .....operat.Zeile.20
+Text löschen!       .....operat.Zeile.20
+in alle(Text)       .....operat.Zeile.20
+in Layer #          .....operat.Zeile.20
+Start               .....operat.Zeile.20
+NEUES               .....Parameter....20
+Kann Datei nicht lesen!                .
+Kommando-Repeat         [ms]:.Masch...29
+Bibliothek          ...........öffnen.20
+Reliefprojektion in Z [a/r]: .Relief..29
+Reliefprojektion             .Relief..29
+Bereichsüberschreitung nach Oben. Das  .
+Werkstück kann nicht bearbeitet werden..
+Wählen Sie Projektionsart=relativ oder .
+verschieben Sie das Werkstück!         .
+Kontur Abräumart    ..........Relief..20
+Abräumen mit Randkontur      .Relief..29
+Zeilen mit Randkontur        .Relief..29
+Konturparallel      ..........Relief..20
+Fehler im Ergebnis!                    .
+In den berechneten Wegen wurden        .
+mögliche Fehler festgestellt.          .
+Wählen Sie die Fehlerbehandlung!       .
+Kegelfehlerkorrektur         .Projekt.29
+Strichanordnung     ..........Skala...20
+Strichzahl          ..........Skala...20
+Einrichtwerkzeug #           .Maschine29
+Multi - Filter               .RelEdit.29
+Anteil Grob-Filter           .RelEdit.29
+Anteil Mittel-Filter         .RelEdit.29
+Anteil Approximierung        .RelEdit.29
+Anteil Ableitung             .RelEdit.29
+Neue Zeile -        ..........Text....20
+Bahnoptimierung        [J/N]:.........29
+Harmonisierung,     ..........Text....20
+Text in die Mitte   ..........Text....20
+Höhe + Breite       ..........Text....20
+bis Rahmen X/Y      ..........Text....20
+Zeilenabstand +     ..........Text....20
+Breite bis Rahmen   ..........Text....20
+Zeilenabstand       ..........Text....20
+bis Rahmen Y        ..........Text....20
+Verzerrung          ..........Text....20
+bis Rahmen X        ..........Text....20
+Daten in Aktlayer                      .
+Im ausgewählten Layer befinden sich    .
+bereits Daten!                         .
+hinzuladen      ..............AKorr...16
+überschreiben   ..............AKorr...16
+Bei senkrechten Zeilen:                .
+Reihenfolgen Auswahl         .dirmill.29
+mit Nullpunktmarke     [J/N]:.Layout..29
+mit Zentrierkreuz      [J/N]:.Layout..29
+mit Schildrahmen       [J/N]:.Layout..29
+innen (vertieft)       [J/N]:.Schraff.29
+Kontur mitspeichern    [J/N]:.Schraff.29
+Originalkontur löschen [J/N]:.FrKorr..29
+ Fräsweg......................WBahn....8
+    Band......................WBahn....8
+ FrGrund......................WBahn....8
+   FrEck......................WBahn....8
+ StrePar......................WBahn....8
+ Intarsi......................WBahn....8
+Intarsien (Inlay)   ..........WBahn...20
+Fräswege in 2D               .WBahn...29
+Blöcke erzeugt               .SerText.29
+Edit Parameter      ..........RelVTR..20
+Lage X      [mm]:   ..........RelVTR..20
+Lage Y      [mm]:   ..........RelVTR..20
+Lage Z      [mm]:   ..........RelVTR..20
+Verzerrung X [%]:   ..........RelVTR..20
+Verzerrung Y [%]:   ..........RelVTR..20
+Verzerrung Z [%]:   ..........RelVTR..20
+Drehung      [°]:   ..........RelVTR..20
+Z Minimum [mm]:     ..........RelVTR..20
+Z Maximum [mm]:     ..........RelVTR..20
+Z Aktuell [mm]:     ..........RelVTR..20
+Z Step    [mm]:     ..........RelVTR..20
+Farbdruck           ..........DrPix...20
+Farbdruck              [J/N]:.DrPix...29
+Objekt - Liste      ..........CAMedit.20
+An Stelle #         ..........CAMedit.20
+Fräs Grafik         ..........CAMedit.20
+Objekt Edit         ..........CAMedit.20
+Objekt Folge        ..........CAMedit.20
+Copy to Layer       ..........CAMedit.20
+Spantiefen          ..........CAMedit.20
+Objekt kann nicht editiert werden!     .
+Muster              ..........RelVTR..20
+Sand                ..........RelVTR..20
+Anfangs Offset      ..........Text....20
+End Offset          ..........Text....20
+Zeichenauswahl      ..........Text....20
+Innenecken können Fehler erzeugen!     .
+Linearer 3D-Verlauf ..........RelVTR..20
+Position Z0 [mm]:   ..........RelVTR..20
+Position Z1 [mm]:   ..........RelVTR..20
+Linearer 3D-Scheitel..........RelVTR..20
+Pos Z  <R>=Ende     ..........RelVTR..20
+versch. XY  <R>=Ende..........RelVTR..20
+ScrollM  <R>=Ende   ..........RelVTR..20
+Scroll Z            ..........RelVTR..20
+Pos Z               ..........RelVTR..20
+Pos Liste           ..........RelVTR..20
+Dichte              ..........RelVTR..20
+Ornamentpunkt       ..........RelVTR..20
+Kugel               ..........RelVTR..20
+Kegel               ..........RelVTR..20
+Zeilen-Menü         ..........Text....20
+Edit Kerning        ..........Text....20
+reduzieren [mm]     ..........Relief..20
+messen    ....................Relief..10
+Positionen messen   ..........Relief..20
+Messe Pos3D            [J/N]:.Relief..29
+Abräumen im Winkel           .Relief..29
+Zeilen im Winkel             .Relief..29
+Achtung: Alle verwendete Werkzeuge     .
+müssen <        ..............Maschine16
+sein!           ..............Maschine16
+Werkzeug #          [0..max]:.WBahn...29
+Konturen auswählen - beenden mit <Esc> .
+Verschmelzen/Ausstanzen      .operat..29
+Summe           ..............operat..16
+Gemeinsam       ..............operat..16
+Differenz       ..............operat..16
+Kontur(en) Block 1                     .
+Verschmelzen mit..                     .
+Glättstufe      ..............RelVTR..16
+Hgr-Bild        ..............CAD.....16
+Endhöhe         ..............RelVTR..16
+Startwert       ..............RelVTR..16
+Linienbreite    ..............RelVTR..16
+Spiegelverlauf               .RelVTR..29
+Endhöhe der Polylnie [mm]    .RelVTR..29
+Startwert [mm]               .RelVTR..29
+Breite der Polylinie [mm]    .RelVTR..29
+Startwinkel [°]              .RelVTR..29
+Endwinkel [°]                .RelVTR..29
+Abrollrichtung           [°]:.Projekt.29
+Abrollauflösung         [mm]:.Projekt.29
+Abrollen                     .Projekt.29
+Teile der Grafik liegen                .
+außerhalb des Reliefs!                 .
+Bezugspunkt liegt außerhalb            .
+des Reliefs!                           .
+Nur mit DatenQuelle = Grafik möglich!  .
+Flächen drehen      ..........Relief..20
+Ziellayer                [0..LayerMax]:.
+Passen Sie die      ..........Relief..20
+Reliefgröße an.     ..........Relief..20
+Verändern Sie die   ..........Relief..20
+Reliefgrenzen.      ..........Relief..20
+Wählen Sie die      ..........Paramet.20
+gewünschte Hilfe.   ..........Paramet.20
+Wählen Sie Ihre     ..........Navigat.20
+Benutzerführung.    ..........Navigat.20
+Werkzeuge editieren ..........ImpExp..20
+und Fräsdaten druck...........ImpExp..20
+oder ansehen.       ..........ImpExp..20
+Farbeinstellung     ..........Paramet.20
+für Relief und      ..........Paramet.20
+Projektionen.       ..........Paramet.20
+Wählen Sie die      ..........SerText.20
+Eingaben für Ihre   ..........SerText.20
+Serienschilder.     ..........SerText.20
+Wandeln Sie Text    ..........Text....20
+in Grafikwege.      ..........Text....20
+Wählen Sie Zyklen   ..........WBahn...20
+für markierte Wege. ..........WBahn...20
+Wählen Sie          ..........WBahn...20
+Eigenschaften für   ..........WBahn...20
+markierte Wege,     ..........WBahn...20
+die mit direct mill ..........WBahn...20
+berechnet werden.   ..........WBahn...20
+Wählen Sie den      ..........HP-GL...20
+HP-GL Ausgabefilter ..........HP-GL...20
+und die passenden   ..........HP-GL...20
+Parameter.          ..........HP-GL...20
+Fräsdaten           ..........Datei...20
+Volumenansicht      ..........Datei...20
+Geben Sie Bögen     ..........Zeichne.20
+über Tastatur ein.  ..........Zeichne.20
+Wählen Sie die      ..........Scanner.20
+Scan-Datenquelle.   ..........Scanner.20
+Char.Projektion     ..........RelVTR..20
+Füllen              ..........RelVTR..20
+Bidirektional          [J/N]:.WBahn...29
+Fräswege in Kontur           .Relief..29
+Fräswege auf Gesamtrelief    .Relief..29
+Berechnung Blockweise       :.AutoKorr29
+Menu - Form                 :.Paramet.29
+Relief Import       ..........Relief..20
+Bild- oder Flächendaten      .Relief..29
+als Relief einlesen.         .Relief..29
+LG1 Zeilen          ..........Relief..20
+ISO Zeilen          ..........Relief..20
+PCX-Bild            ..........Relief..20
+BMP-Bild            ..........Relief..20
+Relief Export       ..........Relief..20
+Relief als Bild-             .Relief..29
+oder Flächendaten            .Relief..29
+speichern.                   .Relief..29
+markiere BahnPos    ..........operat..20
+Gruppieren          ..........operat..20
+Gruppierung aufheben..........operat..20
+Mittellinie ..................FontEdit12
+1 sec   ......................FontEdit.8
+Taste   ......................FontEdit.8
+Font ist bereits vorhanden.            .
+Font sollte im HCAM-Verzeichnis sein.  .
+Gravierschrift berechnen.              .
+Fonts:                   .....FontEdit25
+Quellfont:               .....FontEdit25
+Zielfont:                .....FontEdit25
+Geometrie:                   .FontEdit29
+Offset für 1. Bahn [mm]<F2>: .FontEdit29
+Offset der Abräumwege [mm]:  .FontEdit29
+Eckenabrundung:          .....FontEdit25
+Berechnungsverfahren: ........FontEdit22
+Wegdarstellung:              .FontEdit29
+Pause nach Char:             .FontEdit29
+Zeichen korrigiert                     .
+Keine Fehler festgestellt              .
+Fehler in den Zeichen                  .
+Korrektur wurde abgebrochen!           .
+Übernehmen Sie den Zeichensatz mit     .
+Import Font . installiere HZE!         .
+Bitte Taste drücken!                   .
+Kontur-Verlauf           ....ReliefVTR25
+ReliefObj-Layer#:            .RelVTR..29
+kByte werden zur Berechnung benötigt.  .
+kByte sind auf dem Laufwerk frei!      .
+Stellen Sie weiteren Plattenspeicher   .
+zur Verfügung oder verringern Sie die  .
+Reliefauflösung!                       .
+Objekt Suche             ....ReliefVTR25
+Objekt Copy              ....ReliefVTR25
+Objekt Tausch            ....ReliefVTR25
+Grafikanzeige            ....ReliefVTR25
+Die Auswahl des aktuellen VTRLayers    .
+ist nicht erlaubt!                     .
+Der ausgewählte Layer enthält          .
+keine Objekt-Daten!                    .
+Obj.Layer einfügen       ....ReliefVTR25
+Kontur-Scheitel mit Ecke ....bearbeit.25
+Erzeugen Sie eine  ..........bearbeit.19
+3D-Scheitellinie   ..........bearbeit.19
+für ReliefVTR.     ..........bearbeit.19
+Schokolade         ..........Farben...19
+Zeige Gesamtgrenzen    [J/N]:.Layout..29
+Zeige Gesamtwege       [J/N]:.Layout..29
+Zeige leere Layer      [J/N]:.Layout..29
+Zeige Layergrenzen     [J/N]:.Layout..29
+Zeige Konturzahl       [J/N]:.Layout..29
+Zeige Vektorzahl       [J/N]:.Layout..29
+Zeige Textzeilenzahl   [J/N]:.Layout..29
+Zeige Textzeichenzahl  [J/N]:.Layout..29
+Zeige WZ/Layernamen    [J/N]:.Layout..29
+Zeige Werkzeug         [J/N]:.Layout..29
+Zeige Layerwege        [J/N]:.Layout..29
+Layerlisten-Parameter        .Layout..29
+Zeilenabstand            [%]:...Text..29
+Zeilenabstand           [mm]:...Text..29
+Zwischenraum            [mm]:...Text..29
+Frässpindel Verzögerung[sec]:.Maschine29
+WerkzSpannVerz.[500..4000ms]:.Maschine29
+alles     ....................ZOOM....10
+markiert  ....................ZOOM....10
+Altes Grafikobjekt:          .RelVTR..29
+Neues Grafikobjekt:          .RelVTR..29
+Grafiklayer = TextLayer                .
+kann doppelte Wege ergeben!            .
+Konturschachtelung  ..........bearb...20
+Aus dem Project-Verzeichnis können     .
+keine Projekte geladen werden!         .
+In das Project-Verzeichnis dürfen      .
+keine Projekte gespeichert werden!     .
+Kontur-Scheitel ohne Ecke....bearbeit.25
+Speichern mit Werkzeug [J/N]:.WBahn...29
+Befolgen Sie bitte die Hinweise unter  .
+'Parameter . Hilfe'.                   .
+Bei Fragen benutzen Sie bitte die      .
+Programmhilfe [?].                     .
+Neuerungen entnehmen Sie unter         .
+'Parameter . Hilfe . NEUES'.           .
+Die unerlaubte Weitergabe des          .
+Programmes an Dritte ist untersagt.    .
+Kreise sind nur in X-Y-Ebene zulässig. .
+Zweispindel X-Offset    [mm]:.Maschine29
+Zweispindel X-Offset ist <> 0!         .
+Mauerdaten          ..........RelVTR..20
+Objektliste         ..........RelVTR..20
+markiere in Layer   ..........SuchPos.20
+Leerwege sichtbar      [J/N]:.Paramet.29
+Fehler: Konturoffset > Bandbreite!     .
+wird auf ABSOLUT eingestellt!          .
+Relief in Z         ..........Relief..20
+verschiebe Z        ..........Relief..20
+oberster Punkt      ..........Relief..20
+unterster Punkt     ..........Relief..20
+Punkt wählen        ..........Relief..20
+Freistellen + Entformungsschräge       .
+Winkel der Entformungsschräge (W)  [°]:.
+Entf.Schräge nach Innen erzeugen [J/N]:.
+Berechnungsart exakt/spitz            :.
+Form nach Unten freistellen (F)   [mm]:.
+Freistellen mit Entf.Schräge     [J/N]:.
+Rand für Freist.Schräge addieren [J/N]:.
+Relief erhaben?                        .
+Haltestege          ..........bearb...20
+Stegbreite           (B)[mm]:.bearb...29
+Stegdicke            (D)[mm]:.bearb...29
+Das Reliefvolumen Bereich RZMin..RZMax .
+Die Relieffläche > RZMin               .
+Clippe XY           ..........Spezial.20
+3D-Wege bearbeiten  ..........Spezial.20
+man.Wechsel         ..........HP-GL...20
+aut.Wechsel         ..........HP-GL...20
+Layerauswahl        ..........Spezial.20
+Serielle Übertragung..........Exporth.20
+Sendeparameter      ..........Exporth.20
+Bitte zuerst Parameter einstellen!     .
+Bitte gültigen Dateinamen auswählen!   .
+Fehler im Pixelbild!                   .
+Relief Objekte      ..........RelVTR..20
+Kontur ist zu klein!                   .
+Bereich ist bereits in 3D!             .
+Versetzt für 3D        [J/N]:.bearb...29
+Winkel XY       ..............Relief..16
+Winkel YZ       ..............Relief..16
+3D-Effekt           ..........RelVTR..20
+Keine 3D-Daten!                        .
+Objekt          ..............RelVTR..16
+Objekt+Wege     ..............RelVTR..16
+Hintergrund Palette ..........Paramet.20
+Schlichtoffset   (0..10)[mm]:.RelAutok29
+Spiralauflösung (0,1..30)[°]:.RelAutok29
+Reliefkorrektur-Einstellung  .RelAutok29
+Optimierte Berechnung  [J/N]:.RelAutok29
+Import  ......................RelDatei.8
+Datenimport über Mastercam.            .
+Wählen Sie Ihre Importdatei.           .
+Speichern Sie in Mastercam unter       .
+Datei . Umwandeln . STL . Schreiben    .
+und beenden Sie Mastercam.             .
+LANG LDriver                 .Export..29
+Projekt Edit                 .Export..29
+Projekt Export (LDP).        .Export..29
+Export *.LDP                 .Export..29
+LDriver Ausgabe              .Export..29
+Kein LDriver EXE-Pfad vorhanden!       .
+Kein LDriver LDP-Pfad vorhanden!       .
+Normalkreis-Radius    R [mm]:.Polyring29
+2D Grafikdaten                         .
+3D Grafikdaten                         .
+2D Fräsdaten mit Werkzeug              .
+3D Fräsdaten mit Werkzeug              .
+Laser Schraffur:             .WBahn...29
+Richtungen                  :.WBahn...29
+Polyradius          ..........RelVTR..20
+Anleitung           ..........EStamp..20
+Passen Sie hier     ..........Layout..20
+Ihre Daten an.      ..........Layout..20
+Layout              ..........Layout..20
+spiegeln 2D         ..........Layout..20
+Maß2D X             ..........Layout..20
+Maß2D Y             ..........Layout..20
+Maß3D % Nullpunkt   ..........Layout..20
+Verzerrung X        ..........Layout..20
+Verzerrung Y        ..........Layout..20
+Verzerrung %        ..........Layout..20
+Verzerrung XYZ      ..........Layout..20
+BezugsPosXY         ..........Layout..20
+Layer Reihe         ..........Layout..20
+drehen in Grad      ..........Layout..20
+Höhe oder Breite    ..........Text....20
+PCX/BMP-Bild        ..........Relief..20
+Pixel-Interpol X:            .Relief..29
+Pixel-Interpol Y:            .Relief..29
+Grafiklayer löschen    [J/N]:.Datei...29
+Text löschen           [J/N]:.Datei...29
+Hilfslinien löschen    [J/N]:.Datei...29
+Arbeitsrahmen löschen  [J/N]:.Datei...29
+Fehlermarken löschen   [J/N]:.Datei...29
+Werkzeuglayer löschen  [J/N]:.Datei...29
+Projekt.Layer löschen  [J/N]:.Datei...29
+LDP-Sicherung löschen  [J/N]:.Datei...29
+Relief löschen         [J/N]:.Datei...29
+Scannerbild löschen    [J/N]:.Datei...29
+Bitte Spindeldrehzahl für FDIN         .
+als Faktor (0..127) eingeben!          .
+Durch Konturen eingeschlossene Fläche: .
+Serientext          ..........SerText.20
+Textzeilen-Menü     ..........Text....20
+Sich. Textparameter ..........Text....20
+InRadius.......................Edit....8
+Teach-in [J/N]?                        .
+Reliefhöhe beibehalten [J/N]?          .
+Smooth - Schlichten    [J/N]:.RelAutok29
+Smooth              ..........RelEdit.20
+Eingabeform         ..................20
+Datenselektion      ..........Maschin.20
+Werkzeugobjekt      ..........Maschin.20
+Wählen Sie einen Ausgabe-              .
+Startpunkt oder ein einzelnes          .
+Werkzeugobjekt für die Ausgabe         .
+Werkzeugselektion   ..........Maschin.20
+Die Werkzeugeinstellung ist für diesen .
+Keine Autokorrektur-Daten vorhanden.   .
+Auf aktuellen Grafiklayer umschalten?  .
+Lfd. Nummer   (Standard=<AltGr 3>):    .
+Textvariabele (Standard=<AltGr +>):    .
+Steuercode                   .SerText.29
+Abräumwege zusammen    [J/N]:.AutoKorr29
+Abräumbahnen nachsort. und             .
+Abräumwege zusammen                    .
+ist nicht gleichzeitig möglich!        .
+Nachsortieren ausschalten?             .
+Gegenform XZ        ..........Relief..20
+Altes               ..........Project.20
+Fehlerradius (Fr)                 [mm]:.
+Füllen (flach/rund)                   :.
+flach   ......................ReliefEd.8
+rund    ......................ReliefEd.8
+Unregelmäßigkeiten  ..........Relief..20
+ausfiltern bzw.     ..........Relief..20
+Relief glätten.     ..........Relief..20
+Formatfehler!                          .
+ASCII Stützpkt.     ..........Relief..20
+Durchmesser         ..........Relief..20
+Bearb.Werkzeugzahl:                    .
+Zahl der Abtastlinien:                 .
+Werkzeug# in der Spindel:              .
+Autom.Werkzeugwechsler:                .
+Längenantastung:                       .
+Geschätzte Zeit:    ..........Maschin.20
+Vorschub [m/min]:   ..........Maschin.20
+Pos.inn.......................WBahn....8
+Neg.auß.......................WBahn....8
+Recht.neg von außen ......Flächenfräs.20
+Recht.pos von innen ......Flächenfräs.20
+Rechteckspirale abgerundet             .
+Eckenradius                       [mm]:.
+Rechteck abgerundet ......Flächenfräs.20
+Position eingeben (x,y(,z))[mm]:       .
+Zentrierkreuz      ..........Hilfslin.19
+  Zeilen.....................Autokorr..8
+ Spalten.....................Autokorr..8
+Konturstart                 :.AutoKor.29
+Export ist für 3D-Daten nicht geeignet!.
+Verwenden Sie DXF bis Ver.12 (wird ab' .
+AutoCAD Ver.14 alternativ angeboten)!  .
+Rahmen-Nullpunkt    ..........Layout..20
+Prüfen Sie:                            .
+- Ist der Dongle-Teiber installiert?   .
+- Steckt die Box korrekt an LPT1,2,3?  .
+Überprüfen Sie z.B. mit 'mxcheck.exe'  .
+oder 'Systemsteuerung . WIBU-KEY'      .
+Hier muß eine HCAM-Box korrekt         .
+angezeigt werden!                      .
+- Befinden sich andere Geräte an der   .
+gleichen Schnittstelle?                .
+Ist ein Drucker an der gleichen        .
+Schnittstelle angeschlossen, so kann   .
+dieser nicht gleichzeitig auf die      .
+Schnittstelle zugreifen. Arbeiten Sie  .
+mit beiden Einrichtungen entweder      .
+zeitversetzt oder schließen Sie den    .
+Drucker an eine andere Schnittstelle   .
+an!                                    .
+- Befinden sich andere Dongel an der   .
+gleichen Schnittstelle?                .
+Dann schließen Sie die anderen         .
+Anwendungen. Viele Dongel sind nicht   .
+durchgängig, stecken Sie die           .
+HCAM-Hardware-Sicherung als erstes an  .
+den Rechner!                           .
+Bild glätten        ..........Scanner.20
+Bild verdoppeln     ..........Scanner.20
+verdoppeln+glätten  ..........Scanner.20
+Diashow zeigen [J/N]?                  .
+Das Grafikfenster sollte auf eine      .
+Auflösung 1024 x 768 pix oder höher    .
+eingestellt sein.                      .
+Hgr-Bild laden      ..........CAD.....20
+ProgrammNr., Kommentar:  ....ISO-Exp.R25
+blau intensiv       ..........Paramet.20
+Achssteigung        ..........Maschine20
+Arbeitsraumüberwachung [J/N]:.Maschine29
+Initialisierung     ..........Maschine20
+Passwort:           ..........Maschine20
+BFK-Version         ..........Maschine20
+Programmnummer      ..........Maschine20
+ Zentrum......................Zeichn...8
+Zentrum        Zx[mm]        .Zeichn..29
+Zentrum        Zy[mm]        .Zeichn..29
+Lochmitte      Mx[mm]        .Zeichn..29
+Lochmitte      My[mm]        .Zeichn..29
+Lagewinkel     LW[°]         .Zeichn..29
+Anfangswinkel  AW[°]         .Zeichn..29
+Überstr.Winkel UW[°]         .Zeichn..29
+Meßbreite      B [mm]        .Zeichn..29
+Endwinkel      EW[°]         .Zeichn..29
+Langloch-Lage                .Zeichn..29
+Zentrum Z                    .Zeichn..29
+Lochmitte M                  .Zeichn..29
+Winkel/Breite                .Zeichn..29
+LageWi LW[°]+Überstr.Wi UW[°].Zeichn..29
+LageWi LW[°]+Meßbreite B[mm] .Zeichn..29
+Anf.Wi AW[°]+Überstr.Wi UW[°].Zeichn..29
+Anf.Wi AW[°]+EndWinkel EW[°] .Zeichn..29
+Kreis-Langloch               .Zeichn..29
+Lage <F2>                    .Zeichn..29
+Hauptradius    R [mm]        .Zeichn..29
+Dicke          D [mm]        .Zeichn..29
+Winkel/Breite <F2>           .Zeichn..29
+Breite         B [mm]        .Zeichn..29
+Lineares Langloch            .Zeichn..29
+Langloch                     .Zeichn..29
+linear                       .Zeichn..29
+kreisf                       .Zeichn..29
+Richtungsskalierung          .RelVTR..29
+Verlauf linear?              .RelVTR..29
+Skalierrichtung              .RelVTR..29
+von links                    .RelVTR..29
+von rechts                   .RelVTR..29
+beide Seiten                 .RelVTR..29
+Richtungsfläche              .RelVTR..29
+Richt.Winkel                 .RelVTR..29
+Kurve löschen J/N?           .RelVTR..29
+Poly Ausgleich               .RelVTR..29
+Verlauf XY neu               .RelVTR..29
+Verlauf XY edit              .RelVTR..29
+Verlauf clr                  .RelVTR..29
+Verlauf linear               .RelVTR..29
+Verlauf parabol              .RelVTR..29
+Verlauf cubic                .RelVTR..29
+Kordel                       .RelVTR..29
+Querverlauf                  .RelVTR..29
+Querabstand                  .RelVTR..29
+Querwinkel                   .RelVTR..29
+Grafik mit Lineal      [J/N]:.Paramet.29
+Grafik mit Layerleiste [J/N]:.Paramet.29
+SchlWZ.Level 0 ausheben[J/N]:.RelKorr.29
+Fräsdaten ansehen            .RelKorr.29
+und exportieren.             .RelKorr.29
+Fräsdatenexport              .RelKorr.29
+PLayer Export                .RelKorr.29
+PLayer > AktLayer            .RelKorr.29
+nächste Berechnung           .RelKorr.29
+Datenexport und Berechnung abbrechen?  .
+Relief in einzelnen          .RelKorr.29
+Schichten bearbeiten.        .RelKorr.29
+Relief Einzelschichten       .RelKorr.29
+Schichtstärke                .RelKorr.29
+Schichtzahl [2..99]          .RelKorr.29
+Relief begrenzen             .RelKorr.29
+Grenz-Offset                 .RelKorr.29
+berechnen                    .RelKorr.29
+Klappensensor testen   [J/N]:.Maschine29
+Schichtaufteil.[gleich/Rest]:.Spantief29
+  gleich......................Spantief.8
+    Rest......................Spantief.8
+Vorfräsberechn.beschleunig. :.RelKorr.29
+Tangente an Kontur                     .
+Tangentiale Anbindung        .operat..29
+an eine Kontur erzeugen.     .operat..29
+Tangente                     .operat..29
+Punkt -> Kontur              .operat..29
+Kontur -> Kontur             .operat..29
+Spirale > Rechteck           .WBahn...29
+Relief Tiefengrenze überschritten!     .
+Vergrößern Sie die Einstellung         .
+Neues Relief . Tiefe!                  .
+Bitte Werkzeugnamen angeben!           .
+Erweit. Reliefdefinit[J/N]:  .Relief..29
+Reliefrand fortführen  [J/N]:.Relief..29
+Schraffur mit Kontur   [J/N]:.Relief..29
+Warnung: Werkzeugwinkel des            .
+Vorfräswerkzeuges ist kleiner als der  .
+Winkel des Schlichtwerkzeuges!         .
+Fräswege glätten             .Export..29
+Abräumzeilen verrunden [J/N]:.AutoKorr29
+Werkzeugobjekte     ..........Export..20
+sortieren.          ..........Export..20
+                    ..........Export..20
+Werkzeugfolge                .Export..29
+WSt steigende Folge (1,2,..) .Export..29
+WSt fallende Folge (5,4,..)  .Export..29
+Keine Werkzeuge im Datensatz!          .
+Datensatz enthält nur 1 Werkzeug!      .
+Skalenstrich        ..........Skala...20
+Textanordnung       ..........Skala...20
+Textrichtung        ..........Skala...20
+strahlenf.          ..........Skala...20
+PosA mitprojizieren       [J/N]:       .
+Text aus Datei      ..........Text....20
+lösche Text         ..........Text....20
+Textdatei laden     ..........Text....20
+Programm Parameter                     .
+Clr. Parameter      ..........Hilfe...20
+Randabstand ax [mm]          .bearbeit29
+Randabstand ay [mm]          .bearbeit29
+Bohrungen setzen             .bearbeit29
+Ecke                ..........bearbeit20
+Rand                ..........bearbeit20
+Bohrungen auf       ..........bearbeit20
+Platte setzen.      ..........bearbeit20
+Werkzeug im Datensatz                  .
+als Layerwerkzeug übernehmen           .
+und im Datensatz löschen J/N?          .
+Mehrere Werkzeuge im Datensatz         .
+können nicht übernommen werden!        .
+Layerwerkzeuge löschen [J/N]:.DateiNeu29
+Importvorgabe                .RelImp..29
+Relief Interpretation (1/2):           .
+Datenrichtung        (1..5):           .
+größer  ......................RelImp...8
+kleiner ......................RelImp...8
+beliebig......................RelImp...8
+links > ......................RelImp...8
+< rechts......................RelImp...8
+oben |  ......................RelImp...8
+unten | ......................RelImp...8
+Bohrzyklen         ...........Bohrzyk.19
+eingeben/          ...........Bohrzyk.19
+erzeugen.          ...........Bohrzyk.19
+Einzelbohrung      ...........Bohrzyk.19
+Bohrkreis          ...........Bohrzyk.19
+Bohrmatrix         ...........Bohrzyk.19
+Bohrplatte         ...........Bohrzyk.19
+Bohrkontur         ...........Bohrzyk.19
+Bohrkreisdurchmesser              [mm]:.
+Startwinkel                       [°] :.
+Bohrungszahl                          :.
+   Auto ......................ISO-Imp..8
+Name max. 8 Zeichen lang!              .
+Keinen Namen angegeben!                .
+Status                                 .
+Aktuelle Programminformationen         .
+entnehmen Sie bitte                    .
+der Internetseite www.AHSoftgravur.de  .
+Für Update, Fragen und weitere         .
+Informationen senden Sie bitte         .
+eine eMail an Info@AHSoftgravur.de     .
+Offset-Werkzeug          #[0..199]:    .
+Offset-Ziellayer     [0..LayerMax]:    .
+Schulter-Werkzeug #       [0..199]:    .
+Schulter-Ziellayer   [0..LayerMax]:    .
+Schulterbreite (Sb)[<= 2*FrS Offs]:    .
+Schultertiefe    (St)[0..FEt Offs]:    .
+Korrektur      [innen(w)/außen(m)]:    .
+Schlichtoffset X/Y     [<100% FrS]:    .
+  Offset......................Intarsi..8
+Schulter......................Intarsi..8
+Schultertiefe >=                       .
+Frästiefe Offsetwerkzeug!              .
+Kein Verlauf angegeben!                .
+Fehler bei der automatischen Kreis-    .
+erkennung. Versuchen Sie den Import mit.
+der Einstellung ABSOLUT und/oder       .
+relativ!                               .
+Import metrisch/Zoll   [J/N]:.DIN/ISO.29
+Zyklen - Eigenschaften                 .
+Vorschubminderung auf        [1..100%]:.
+Strecke verminderter Vorschub     [mm]:.
+3D-Eintauchwinkel               Wi [°]:.
+Wegesortierung               .BahnSort29
+alle Grafikwege              .BahnSort29
+Fräsblöcke                   .BahnSort29
+Manuelle Wegesortierung      .BahnSort29
+für Grafikwege oder          .BahnSort29
+Werkzeugfräswege.            .BahnSort29
+Abbruch: Nur einen Weg gefunden!       .
+Fräsdaten mit Werkzeuge können nur als .
+Fräsblöcke sortiert werden!            .
+Wählen Sie die Einstellung Fräsblöcke! .
+ballig    ....................RelVTR..10
+Schnitt übernehmen           .RelEdit.29
+Maschinenposition            .Maschine29
+ohne Werkzeugwechsel ausgeben?         .
+ReliefVTR-Navigator ........Navigator.20
+Project öffnen      ........Navigator.20
+Project speichern   ........Navigator.20
+Breite <= Dicke!                       .
+Gesamt Fräsweg [mm]:                   .
+Max. Frästiefe [mm]:                   .
+Maß Grenze X        .........operat...20
+Maß Grenze Y        .........operat...20
+skalieren / glätten          .RelVTR..29
+Clr. Daten          .........Start....20
+Polygon             .........operat...20
+Vollkreis           .........operat...20
+Kreisbogen          .........operat...20
+Spline              .........operat...20
+Wege - Info         .........operat...20
+Konturenzahl        .........operat...20
+Streckenzahl        .........operat...20
+Polygonpunkte       .........operat...20
+Ausdehnung dx [mm]  .........operat...20
+Ausdehnung dy [mm]  .........operat...20
+Zentrum mx [mm]     .........operat...20
+Zentrum my [mm]     .........operat...20
+Mitte 2er Punkte    .........zeichnen.20
+Breite dx               [mm]:.zeichn..29
+Höhe   dy               [mm]:.zeichn..29
+Eckenradius             [mm]:.zeichn..29
+Referenzpunkt               :.zeichn..29
+Bezugsposition X <F2>   [mm]:.zeichn..29
+Bezugsposition Y <F2>   [mm]:.zeichn..29
+Drehwinkel              [°] :.zeichn..29
+Rechteck Radius außen        .zeichn..29
+Rechteck Radius innen        .zeichn..29
+Rechteck abgeschrägt         .zeichn..29
+Rechteck - Objekt            .zeichn..29
+Eckenradius ist zu groß!               .
+um Kontur           ..........RelVTR..20
+Weg enthält zu viele Punkte!           .
+Werkzeug(e) aus AutoKorr     .Projekt.29
+Daten aus Layer #            .AutoKorr29
+kombi-Abräumen      ..........RelKorr.20
+kombi-Zeilen        ..........RelKorr.20
+Nesting                      .bearbeit29
+Nesting im AktLayer          .bearbeit29
+Nesting gesamt. Layer        .bearbeit29
+Manuelles Nesting der        .bearbeit29
+Fräswege oder Grafiken       .bearbeit29
+in einem Layer oder          .bearbeit29
+eines gesamten Layers.       .bearbeit29
+Verschieben mit <L>;                   .
+Drehen mit <F3>:+30° <F4>:-30°         .
+Eingabe beenden mit <R, Esc>           .
+Breite Strecke               .bearbeit29
+Strecke kürzen               .bearbeit29
+Fräswegedit                  .bearbeit29
+Strecken verbinden           .bearbeit29
+Position einfügen            .bearbeit29
+Vektor löschen               .bearbeit29
+Konturlayer                  .bearbeit29
+Richtungsmarke               .bearbeit29
+Grafik Norm                  .bearbeit29
+Grafik Zoom +                .bearbeit29
+Grafik Zoom -                .bearbeit29
+Grafik verschieben           .bearbeit29
+Werkzeuge gefunden.                    .
+Für die Bearbeitung ist nur            .
+ein Werkzeug zulässig!                 .
+unveränd......................AutoKorr.8
+InnenEck......................AutoKorr.8
+  Gerade......................AutoKorr.8
+Bohrreihe          ...........Bohrzyk.19
+Bohr. an PolyPkt.  ...........Bohrzyk.19
+Kein Offset angebenen!                 .
+Geschlossene Konturen versetzen Sie    .
+sicherer mit "Kontur versetzen"!       .
+Linie versetzen              .operat..29
+Hilfe im Editor        [J/N]:.Paramet.29
+Rechteck Innenecke           .Zeichnen29
+Raute                        .Zeichnen29
+Clr. Layer Werkzeuge   [J/N]:.Paramet.29
+Zu trimmenden Weg auswählen!           .
+Kein Weg markiert!                     .
+Trimmen mit..                          .
+EPS-Export                   .Export..29
+Wegeformat                  :.Export..29
+Konturmarkierung für        :.Export..29
+  Vektor......................Export...8
+  Spline......................Export...8
+STL-Lage  ....................Relief..10
+Einzufügendes Relief liegt nicht       .
+an der Stelle X=0 und Y=0.             .
+Ja = Relieflage beibehalten            .
+Nein = Relief in X/Y auf 0/0!          .
+Fräsabstand  [mm]:           .RelAKorr29
+Relief-Fräs-Diagnose         .RelAKorr29
+Fräsabstand [%]:             .RelAKorr29
+Original:  ...................RelAKorr11
+Korrigiert:...................RelAKorr11
+Fräsbild:  ...................RelAKorr11
+Restfläche:...................RelAKorr11
+Bereich auswählen, Abbruch mit <Esc,R>:.
+proportional   ...............operat..15
+einzeln        ...............operat..15
+deutsch             ..........Paramet.20
+englisch            ..........Paramet.20
+französisch         ..........Paramet.20
+niederländisch      ..........Paramet.20
+italienisch         ..........Paramet.20
+Notiz:                       .Datei...29
+Diashow             ..........Paramet.20
+Zum Anfang          ..........Paramet.20
+Autorun 1 sec       ..........Paramet.20
+Autorun 5 sec       ..........Paramet.20
+Autorun 10 sec      ..........Paramet.20
+edit Zeile          ..........CAD.....20
+operat.             ..........CAD.....20
+Parameter ....................Export..10
+DIN/ISO - Export                       .
+DIN/ISO FILTER:     ..........Export..20
+Vorzeichen Achse B:...........Export..19
+Vorzeichen Achse C:...........Export..19
+Fragen zum Programm ..........Paramet.20
+Falscher Benutzercode!                 .
+Parameter-Norm-Größe        :.AKorr...29
+verschieben mark. Wege [J/N]:.Paramet.29
+Alle Wege doppelt abfahren   .WBahn...29
+(hin und zurück) J/N?        .WBahn...29
+Weg hin =                    .WBahn...29
+Weg hin+zurück =             .WBahn...29
+Stegdicke > Eintauchtiefe (FEt)!       .
+Max. Schildzahl=             .SerSchil29
+Änderung wird erst mit erneutem Aufruf .
+der Projektionen wirksam!              .
+Anfahrbewegung               .bearb...29
+tangential ein               .bearb...29
+tangential ein/aus           .bearb...29
+3D auf Kontur                .bearb...29
+3D tangential                .bearb...29
+Eintauchwinkel               .bearb...29
+Tangentialwinkel             .bearb...29
+Kein Punkt auf Kontur!                 .
+Fräserradius   [0,001-100mm]:.WBahn...29
+Fräslinien-Abstand           .WBahn...29
+Strahl-Durchm. [0,001-1,0mm]:.WBahn...29
+Strahlabstand                .WBahn...29
+Laser-Richtung      ..........WBahn...20
+1 Richtung [0°]     ..........WBahn...20
+Richtungen          ..........WBahn...20
+Laser-3D-Schraffur           .RelAKorr29
+Schichtstärke           [mm]:.RelAKorr29
+Abbildungs-Richtung         :.RelAKorr29
+oben>unt......................RelAKorr.8
+unt>oben......................RelAKorr.8
+Abbildungs-Richtung          .RelAKorr29
+von oben nach unten          .RelAKorr29
+von unten nach oben          .RelAKorr29
+Wi ...........................operat...3
+ li...........................operat...3
+ un...........................operat...3
+ re...........................operat...3
+ ob...........................operat...3
+Daten überprüfen!                      .
+Projektionsauflösung < Reliefauflösung!.
+Auflösung anpassen J/N?                .
+ISO Auto-Export    ...........Export..19
+Vorschubminderung            .Anfahrbe29
+Ausfahrstrecke               .Anfahrbe29
+Vorschub            ..........Anfahrbe20
+Clipbereich Fast Grafik     :.Paramet.29
+Text               ...........Datei...19
+Datensicher.für Folgesitzung:.Paramet.29
+Schaftfräser mit Frästiefe             .
+> Werkzeug-Durchmesser!                .
+Werkzeug - Typ - Auswahl               .
+Schaftfräser   ...............Paramet.15
+Bohrer         ...............Paramet.15
+Gravierstichel ...............Paramet.15
+Ausspitzwerkz. ...............Paramet.15
+Relieffräser   ...............Paramet.15
+Max. Frästiefe    :          .Layout..29
+Abräumverfahren             :.WBahn...29
+Zeil.Uni......................WBahn....8
+Überlappung         [0..90%]:.WBahn...29
+Abräumen nur mit Korrekturverfahren    .
+2D oder 2D+3D!                         .
+Schneiden-/Schaftradius      .WZBibl..29
+Spitzenradius                .WZBibl..29
+Kugelradius                  .WZBibl..29
+Winkel                       .WZBibl..29
+Flughöhe                     .WZBibl..29
+Eintauchtiefe                .WZBibl..29
+Arbeitsvorschub XY           .WZBibl..29
+Eintauchvorschub Z           .WZBibl..29
+Spindeldrehzahl              .WZBibl..29
+Werkzeugstandweg             .WZBibl..29
+Neue Z-Position [mm]:        .Relief..29
+Reliefposition in Z =        .Relief..29
+Reliefnullpunkt              .Relief..29
+Kontrast dz-Grafik  [1..5]:  .Relief..29
+Reliefgrafik                 .Relief..29
+Standard Graubild            .Relief..29
+Kontrastbild (dZ-Grafik)     .Relief..29
+Kontrast dz-Grafik           .Relief..29
+Ab Startweg        ...........Export..19
+Wählen Sie den Startpunkt    .Export..29
+für einen wiederholten       .Export..29
+Teil-Export.                 .Export..29
+Ab Cursor-Kontur   ...........Export..19
+Ab Cursor-Position ...........Export..19
+Kontur             ...........Export..19
+Position           ...........Export..19
+Auswahl AktLayer                       .
+Programm Hilfe                         .
+Grafik alles                           .
+Grafik neuzeichnen                     .
+Grafik Positionsmarkierung             .
+Markierungswerkzeug                    .
+direct mill auto                       .
+Redo                                   .
+Undo                                   .
+Aktionsanzeige                         .
+Anzeige Layerdaten, Werkzeugeingabe    .
+Anzeige Fräsdaten in WLayer            .
+Anzeige Projektionsdaten               .
+Linie   ......................Paramete.8
+Punkt   ......................Paramete.8
+Pfadübergabe mit Leerzeichen läßt Write.
+nicht zu. Öffnen Sie die Datei manuell!.
+Verfahren (2D ../3D)        :.bearb...29
+2D wähl.......................bearb....8
+2D mark.......................bearb....8
+2D alle ......................bearb....8
+3D vers.......................bearb....8
+Kontur = Grenze für Werkzeug:.WBahn...29
+abrunden......................WBahn....8
+Schlichtoffset   [<100% FrS]:.WBahn...29
+Intarsien + Abräumen         .WBahn...29
+Intersien mit Schultern      .WBahn...29
+Restzeit     .................RelAKorr13
+Abbruch:   ...................MAchsen.11
+Daten sind bereits projiziert!         .
+Mehrachsen Bearbeitungen     .MAchsen.29
+Fräsdatenexport für          .MAchsen.29
+Mehrachsenbearbeitung        .MAchsen.29
+Export [X/Y/Z/B/C]           .MAchsen.29
+3-Achsen [X/Y/Z]             .MAchsen.29
+liegend [X/Y/Z/B]            .MAchsen.29
+stehend [X/Y/Z/B/C]          .MAchsen.29
+stehend von links            .MAchsen.29
+stehend von rechts           .MAchsen.29
+Export > Maschine            .MAchsen.29
+Export > Ziellayer           .MAchsen.29
+Grenzwinkel Achse A+        [°]:.MAchs32
+Grenzwinkel Achse A-        [°]:.MAchs32
+Grenzwinkel Achse B+        [°]:.MAchs32
+Grenzwinkel Achse B-        [°]:.MAchs32
+Grenzwinkel Achse C+        [°]:.MAchs32
+Grenzwinkel Achse C-        [°]:.MAchs32
+Anstellwinkel Achse A       [°]:.MAchs32
+Anstellwinkel Achse B       [°]:.MAchs32
+Anstellwinkel Achse C       [°]:.MAchs32
+senkrech......................MAchsen..8
+Z-parall......................MAchsen..8
+Umkehrspanne Winkel A/B     [°]:.MAchs32
+Oberfläch.Sicherheitsebene [mm]:.MAchs32
+Eintauchverfahren              :.MAchs32
+Projektionsverschiebung X  [mm]:.MAchs32
+Projektionsverschiebung Y  [mm]:.MAchs32
+Vorposition X              [mm]:.MAchs32
+Flughöhe Z                 [mm]:.MAchs32
+Proj.Verschiebung            .MAchsen.29
+PosA Projektionsabstand    [mm]:       .
+Fräsrichtung (Mitlauf,Gegenlauf)      :.
+Neuen Ablauf (*.TMA) wählen!           .
+Ablauf (*.TMA) wählen!                 .
+Vektordatei für "LOAD" auswählen!      .
+Beenden mit <Esc>!                     .
+Ablauf (*.TMA) editieren!              .
+Einen Fräsprogramm-          ....AblEd29
+Ablauf eingeben              ....AblEd29
+und editieren.               ....AblEd29
+Ablauf Edit                  ....AblEd29
+Neue Ablauf Datei            ....AblEd29
+Import LGF-2 [ABL]           ....AblEd29
+LOAD [LG1/H2R]               ....AblEd29
+edit Ablauf                  ....AblEd29
+Run Ablauf                   ....AblEd29
+Ablauf Kommandos             ....AblEd29
+Kleinster Vekt.[0,001-0,5mm]:.Masch...29
+Eilgang ...............................8
+ausschneiden        ...........operat.20
+Passen Sie die               ...Layout29
+Arbeitsgrenzen               ...Layout29
+an die Daten an.             ...Layout29
+Arbeit anpassen              ...Layout29
+Datenbreite:        ............Layout20
+Datenhöhe:          ............Layout20
+Breite/Höhe    .................Layout15
+Rand X/Y       .................Layout15
+Arbeitsbreite:      ............Layout20
+Arbeitshöhe:        ............Layout20
+Rand X:             ............Layout20
+Rand Y:             ............Layout20
+Arbeitszeit Sitzung          ...Info..29
+Gesamt Arbeitszeit           ...Info..29
+Tool-Nr.-Form  [n4,n6/.0,.1]:...DIN/I.29
+Mit WZ-Korrektur-Nr.   [J/N]:...DIN/I.29
+Spindelhochlaufzeit [sec]    ...DIN/I.29
+Werkzeugversatz              ...DIN/I.29
+Ser.Schnittstelle aktiv[J/N]:...Masch.29
+Hinweis:                     ...Masch.29
+Automatische Kantenmessung   ...Masch.29
+und Z-Level Antastung        ...Masch.29
+ist nur mit eingesetztem     ...Masch.29
+Kantentaster möglich!        ...Masch.29
+Spannmittel Positions Eingabe...Masch.29
+Spannmittelpos einmessen     ...Masch.29
+Rechteck Kantenmessung       ...Masch.29
+Kreis Außen-Kantenmessung    ...Masch.29
+Z-Level antasten             ...Masch.29
+<F2> Einmessen mit Maschine. ...Masch.29
+Nur Mitte X übernehmen!      ...Masch.29
+Nur Mitte Y übernehmen!      ...Masch.29
+Mitte X und Y übernehmen!    ...Masch.29
+Kein gültiger Wert vorhanden ...Masch.29
+Eingabe abbrechen!           ...Masch.29
+JA:    Meßvorgang mit Taste--...Masch.29
+Nein:  Manueller Meßvorgang--...Masch.29
+Kante mit Taster messen      ...Masch.29
+Kante manuell messen         ...Masch.29
+Manuellen Meßvorgang starten....Masch.29
+Fahren Sie mit der Maschine  ...Masch.29
+an die entsprechende Kante!  ...Masch.29
+Unzulässiger Achswechsel!    ...Masch.29
+Meß Startposition X [mm]     ...Masch.29
+Meß Startposition Y [mm]     ...Masch.29
+Meß Startposition Z [mm]     ...Masch.29
+Meß Richtung                 ...Masch.29
+Maximaler Meßweg [mm]        ...Masch.29
+Tastkugel Durchmesser [mm]   ...Masch.29
+Pos. links     .................Masch.15
+Pos. unten     .................Masch.15
+Pos. rechts    .................Masch.15
+Pos. oben      .................Masch.15
+Pos. 1         .................Masch.15
+Pos. 2         .................Masch.15
+Pos. 3         .................Masch.15
+Meßpunkt       .................Masch.15
+Meß Startposition            ...Masch.29
+Kante einmessen              ...Masch.29
+Rechteck-Kante einmessen.    ...Masch.29
+Kreis-Außenkante einmessen.  ...Masch.29
+Z-Level Antastung            ...Masch.29
+ist nur mit eingesetztem     ...Masch.29
+Kantentaster möglich!        ...Masch.29
+Z-Level Antastung ist        ...Masch.29
+nur mit LANG MCG und mit     ...Masch.29
+Kantentaster möglich!        ...Masch.29
+Einzelne oder alle Startpunkte         .
+sind leer. Werte mit Spannmittelpos.   .
+vorbelegen J/N?'                       .
+Kreis Innen-Kantenmessung    ...Masch.29
+Rechteck Spezialmessung      ...Masch.29
+Meßpunkt Y-Versatz (U)[mm]   ...Masch.29
+Zentrum       X [mm]         ...Masch.29
+Zentrum       Y [mm]         ...Masch.29
+Tastauflösung XY[mm]         ...Masch.29
+min Abtastweg Z [mm]         ...Masch.29
+max Abtastweg Z [mm]         ...Masch.29
+Tasterlänge     [mm]         ...Masch.29
+Tast-Grenzen                 ...Masch.29
+Multi-Head-Drill             ...BohrZ.29
+Keine Bohrung eingegeben!              .
+Wählen Sie die aktiven       ...BohrZ.29
+Werkzeuge (1..9)             ...BohrZ.29
+der Bohrbank.                ...BohrZ.29
+Menüauswahl         ............CAD...20
+Vorfräsqualität       (1..6):...Relief29
+Fräsqualität [1..6]          ...Relief29
+1:s.fein........................Relief.8
+2:  fein........................Relief.8
+3:  fein........................Relief.8
+4:  fein........................Relief.8
+5:  grob........................Relief.8
+6:s.grob........................Relief.8
+Toleranz    ....................Relief12
+Daten sind bereits geglättet!          .
+Vektorfilter        ............Export20
+Mindest-Vektorlänge [0.001..10mm]:     .
+Verlauf Radius               .RelVTR..29
+Spiegel - Scheitel ...........RelVTR..19
+Umkreis            ...........RelVTR..19
+Ballige Fläche     ...........RelVTR..19
+Randbreite         ...........RelVTR..19
+3D-Linie(n)        ...........RelVTR..19
+Komplette Hilfe mit [?] oder <F9>      .
+Hilfe Verzög.  [0..100*0,1s]:.Help....29
+Glättradius        ...........RelVTR..19
+Diskfenster Zeilen  [15..30]:.Disk....29
+Datenliste [SLD/LG1/H2R]               .
+Direktausgabe einrichten     .Export..29
+Fehler im Programm- oder Datenpfad!    .
+Kühlungsart [M8/M7] ..........DIN/ISO.20
+Konturband Breite.                     .
+Nur für Einstellung Konturband.        .
+Abräumwinkel                           .
+für Abräumzeilen (+/-360°).            .
+Werkzeug Spitzenversatz                .
+Kann im Bereich -kleinster Spitzenrad. .
+bis max.10,0mm eingestellt werden.     .
+Spitzenversatz überschreitet           .
+Spitzenradius des kleinsten Werkzeuges!.
+Eintauchtiefe überschreitet Schneide!  .
+Parameter konnten nicht sicher         .
+gespeichert werden!                    .
+Bezeichnung          :................22
+Bogenstart          ..................20
+Clear - Länge [mm]: ..................20
+Mehrfachtest [J/N]: ..................20
+Clear Ausspitzungen ..................20
+Bohrungsmarkierung [2D,..,0]:.Paramet.29
+  für 2D......................Paramet..8
+   2D+3D......................Paramet..8
+Kreisbogen  [abs/rel].........DIN/ISO.21
+Textposition außerhalb Grafikbereich!  .
+Arbeitsablauf       ..........Paramet.20
+Diese Datei enthält PDF-Daten.         .
+Bitte Exportieren Sie aus ADOBE im EPS/.
+AI-Format (für Freehand bis Ver.7.x)!  .
+Sie können die Verzerrung "automatisch".
+korrigieren, die Schilddaten "manuell" .
+korrigieren oder in "edit Zeile"       .
+einzelne Textzeilen korrigieren!       .
+automatisch ..................SerText.12
+manuell     ..................SerText.12
+Wählen Sie Layer mit Daten aus.        .
+Geben Sie zuerst Daten ein.            .
+Vgl. Programmhilfe zu                  .
+Warnung:                               .
+DXF ab Ver.13 kann verschlüsselte oder .
+nicht lesbare Bereiche enthalten.      .
+Vgl. Programmhilfe zu "Import DXF"     .
+ASCII in ANSI wandeln  [J/N]:.Paramet.29
+Zum Betrieb der Maschine muß das       .
+Programm eingerichtet werden!          .
+Beachten Sie bitte dazu die            .
+Programmhilfe [?] zu "Typ    :".       .
+Die Parameter sind soweit möglich      .
+voreingestellt. Speziell an die        .
+Maschine müssen besonders die          .
+Arbeitsgrenzen und die Schnittstellen- .
+Einstellungen (Baudrate) angepaßt      .
+werden.                                .
+Steuerungsintialisierung:              .
+Für einfache Tests ist die             .
+Standard vhf Initialisierungsdatei     .
+"vhf.dev" ausreichend. Für den         .
+professionellen Betrieb benötigen Sie  .
+eine an die Steuerung und Maschine     .
+angepaßte Datei. Diese                 .
+erhalten Sie von der Firma vhf.        .
+Wechsler öffnen z.Ant. [J/N]:.........29
+Keine Reliefdaten vorhanden!           .
+Layergrafik liegt nicht auf Relief!    .
+OPTicut "Start"     ..........Hilfe...20
+OPTicut "Expert"    ..........Hilfe...20
+Auto-Import einrichten       .AImport.29
+Importformat        ..........AImport.20
+Bahnoptimierung     ..........AImport.20
+gewünschte          ..........Hilfe...20
+Programmsprache     ..........Hilfe...20
+Installationsnummer:                   .
+Fordern Sie bitte mit dieser Nummer    .
+Ihre Freigabe per eMail an:            .
+n.u.                                   .
+Bitte vergessen Sie nicht Ihre         .
+Anschrift und Tel.Nr.                  .
+anzugeben!                             .
+Sie können die Programmausstattung mit .
+"Paramet . Hilfe . iSIGN/eSIGN Version".
+einstellen!                            .
+Scroll step         ..........RelVTR..20
+Daten Breite+Höhe runden     .Layout..29
+Falsche Versionsnummer!                .
+Die Freischaltung ist rechnergebunden. .
+Wenn Sie das Programm auf einem zweiten.
+Rechner installieren, senden Sie uns   .
+bitte auch diesen gemeldeten Code.     .
+Bitte Freigabecode eingeben:           .
+Falscher Freigabecode!                 .
+Pfeil   ......................Cursor...9
+Clr Leerzeilen               .Text....29
+Clr akt. Zeile               .Text....29
+Breiteneingabe               .Text....29
+Textbreite in mm             .Text....29
+Textbreite in Grad           .Text....29
+Rechnerleistung             :.Paramet.29
+WSt. aus Standwegüberwachung           .
+Nur für 2D Grafikdaten anwendbar!      .
+Aktlayer:           ..........RelProj.20
+Schneidenhöhe           [mm]:.T.Schne.29
+Schneidenwinkel          [°]:.T.Schne.29
+Schneiden Höhe/Winkel        .T.Schne.29
+Korrektur für Spitzenversatz(+/-) [mm]:.
+Schneidenwinkel < Werkz. Flankenwinkel!.
+Zu kleiner Spitzenversatz!             .
+Spitzenoffset [mm]           .T.Schne.29
+Schichttiefe [mm]            .T.Schne.29
+Spanschichttiefe [mm]:       .T.Schne.29
+Eintauchwinkel [°]:          .T.Schne.29
+Anzahl der gleichen Spantiefen:        .
+alle Schichten abräumen      .T.Schne.29
+letzte Schicht abräumen      .T.Schne.29
+Tiefe Schneide               .T.Schne.29
+Schneidenhöhe [mm]:          .T.Schne.29
+Schneidenwinkel [°]:         .T.Schne.29
+Spitzenversatz [mm]:         .T.Schne.29
+Fräswege für:                .T.Schne.29
+Der Spitzenversatz wird aus dem        .
+Werkzeug ermittelt!                    .
+Dateiname fehlerhaft!                  .
+Einen Programm-     ..........AutoAbl.20
+Ablauf erstellen    ..........AutoAbl.20
+und ausführen.      ..........AutoAbl.20
+Fehler in den Daten.                   .
+Überprüfen Sie das Ergebnis!           .
+Gauß-Krüger-Koordinaten      .Relief..29
+Skalierfaktor   [0.00001..1]:.Relief..29
+Zeilen Verlaufsrichtung[h/v]:.Relief..29
+Abrollen auf Relief          .Projekt.29
+Abrollen auf Zeile           .Projekt.29
+Abrollen auf Array           .Projekt.29
+Pendelbegrenz.Max.Ausd.XY  [mm]:.MAchs32
+Pendelbegrenz.Max.Winkeldiff[°]:.MAchs32
+Laser Parameter              .LaserExp29
+Parameter Array          WSt[1..16]...35
+Parameter Array              .LaserExp29
+Vector Velocity Limit   VL[0..1m/s]...35
+Vector Velocity Select  VS[0..1m/s]...35
+Accleration Vectors        AV[1..9]...35
+Accleration Circles        AC[1..9]...35
+Connect Angle            CA[0..45°]...35
+Connect Moves        CM[J=On/N=Off]...35
+Laser Min.Correct.Power LC[0..100%]...35
+Laser Frequency      LF[1..10000Hz]...35
+Laser Power             LP[0..100%]...35
+Tickle Dead Time      TA[1..1000us]...35
+Tickle Frequency  TB[1000..10000Hz]...35
+Tickle Power             TC[0..10%]...35
+Exhaust             ED[J=Ein/N=Aus]...35
+Air Assist          ED[J=Ein/N=Aus]...35
+external gas1(Prof.)ED[J=Ein/N=Aus]...35
+external gas2(Prof.)ED[J=Ein/N=Aus]...35
+Laser Schnittstelle          .LaserExp29
+Laser Bearbeitungspos        .LaserExp29
+Laser Export                 .LaserExp29
+Linienabstand           [mm]:.........29
+Parameter Array  (WSt 1..16):.........29
+Konturoffset   (+0..0,1)[mm]:.........29
+Konturen mit RundA.schalt.   .DIN/ISO.29
+Vorschubmind. 1.Bohrspan     [1..100%]:.
+Reduzieren Sie die Bildauflösung!      .
+Daten aus LSIGN.                       .
+Überprüfen Sie den Eintauchvorschub!   .
+PhotoMill Schraffur                    .
+Schraffurstufen                [1..32]:.
+Dichte                     [-20..100%]:.
+Helligkeit                 [-20..100%]:.
+Schraffur Konturabstand      [0..100%]:.
+Schraffur Winkel       [-2,-1,0..180°]:.
+Schraffur Richtungen            [1..6]:.
+Schraffurlinien verbinden        [J/N]:.
+Schraffur Konturen addieren      [J/N]:.
+Anleitung laden J/N?                   .
+Gewünschte Schildzahl        .........29
+Schildanzahl [2..9999]:      .........29
+Mit Kommentar [J/N]          .........29
+Min. zulässiger Leerweg [mm] .........29
+Lösche Leerweg               .........29
+Dateityp:   ..........................12
+Dateiname:  ..........................12
+Vorschau    ..........................12
+Ändern      ..........................12
+Projekt     ..........................12
+Pos3D - Z-Wert bestimmen     .........29
+LDriver 4.x mit PosA in 3D [J/N]:      .
+Sicherheitsabstand z        [mm]:      .
+Auswahl für Leerwege                   .
+Suchen in   ..........................12
+Dateinotiz Eingabe - max. 4x50 Zeichen..
+Textlänge beschneiden?                 .
+Alle Texte und Textzeilenparameter     .
+Alle Texte (nicht Parameter)           .
+lösche Text + Param ..Text_Aus_Datei.20.
+lösche Textzeilen   ..Text_Aus_Datei.20.
+Texte ersetzen      ..Text_Aus_Datei.20.
+Texte importieren   ..Text_Aus_Datei.20.
+Export KÖRNER nur mit Satznummern      .
+Satznummern geändert auf "1,2,3,.."    .
+Weg(e) im Material [mm]      ....Such.29
+abgeschrägt         ..........RelKette20
+verrundet           ..........RelKette20
+kein                ..........RelKette20
+verlängern          ..........RelKette20
+verkürzen           ..........RelKette20
+Kette               ..........RelKette20
+Streckung           ..........RelKette20
+Stärke              ..........RelKette20
+Mittenverbind.      ..........RelKette20
+Verbind.Glied       ..........RelKette20
+Längenausgleich     ..........RelKette20
+Automatik - Volumen Ansicht            .
+links     ....................Rel.Dat.10
+unten     ....................Rel.Dat.10
+rechts    ....................Rel.Dat.10
+oben      ....................Rel.Dat.10
+mm, Pkt.Mitte       ..........Rel.Dat.20
+mm, Pkt.Außen       ..........Rel.Dat.20
+Breite    ....................Rel.Dat.10
+Höhe      ....................Rel.Dat.10
+Relief Auszug                .Rel.Dat.29
+Maße in   ....................Rel.Dat.10
+ersetze akt. Relief          .Rel.Dat.29
+Projektionstol. (0..0,1)[mm]:.RelAKorr29
+Variable Technologie[J/N]    .DIN/ISO.29
+Speich.Werkzeugliste..........Export..20
+Grafik speichern    ..........Export..20
+Arbeitsbereich      ..........Export..20
+Grafikbereich       ..........Export..20
+Dateinamen          ..........Export..20
+Ecken   ......................SerSchil.8
+Eckpkt. ......................SerSchil.8
+Druckform                   :.Drucker.29
+Mittell.......................Drucker..8
+K.füllen......................Drucker..8
+breiteSp......................Drucker..8
+Strichstärke    (1..100)Pix.:.Drucker.29
+Vorschubfaktor      ..........WBahn...20
+Fr Mittellinie      ..........WBahn...20
+Breite FrSpur       ..........WBahn...20
+keine Leerwege      ..........WBahn...20
+zeige Leerwege      ..........WBahn...20
+kein Relief         ..........WBahn...20
+auf Relief          ..........WBahn...20
+Simulation          ..........WBahn...20
+variable Farben     ..........Farben..20
+Rot       ....................Farben..10
+Grün      ....................Farben..10
+Blau      ....................Farben..10
+Helligkeit....................Farben..10
+Sättigung ....................Farben..10
+Farbenauswahl       ..........Farben..20
+Schnecke            ..........RelVTR..20
+Beenden             ..........HCamDisk20
+Bearbeiten          ..........HCamDisk20
+Rückgängig          ..........HCamDisk20
+Ausschneiden        ..........HCamDisk20
+Kopieren            ..........HCamDisk20
+Einfügen            ..........HCamDisk20
+Löschen             ..........HCamDisk20
+Suchen              ..........HCamDisk20
+Weitersuchen        ..........HCamDisk20
+Ersetzen            ..........HCamDisk20
+Alles markieren     ..........HCamDisk20
+Abfrage             ..........HCamDisk20
+Geänderten Text übernehmen?            .
+Fehler              ..........HCamDisk20
+Lesefehler          ..........HCamDisk20
+Schreibfehler       ..........HCamDisk20
+Textdateien         ..........HCamDisk20
+Alle Dateien        ..........HCamDisk20
+Eigenschaften nur mit Aktlayer-Werkzeug.
+Haltesteg Anzahl                [0..4]:.
+1.Haltesteg bei Winkel    [-180..360°]:.
+Stegbreite                        [mm]:.
+Stegdicke                         [mm]:.
+3D Eingabe          ..........3DEffekt20
+Tiefe     ....................3DEffekt10
+WinkelXY  ....................3DEffekt10
+WinkelYZ  ....................3DEffekt10
+Band      ....................3DEffekt10
+unverändert         ..........3DEffekt20
+korrigieren         ..........3DEffekt20
+3D Form             ..........3DEffekt20
+3D Lage             ..........3DEffekt20
+Hammereffekt        ..........RelVTR..20
+Basiradius x        ..........RelVTR..20
+Basiradius y        ..........RelVTR..20
+Variation x         ..........RelVTR..20
+Variation y         ..........RelVTR..20
+Random Start        ..........RelVTR..20
+Formabstand X       ..........RelVTR..20
+Formabstand Y       ..........RelVTR..20
+Formtiefe z         ..........RelVTR..20
+Weave 1 Strecke     ..........RelVTR..20
+Höhenfaktor         ..........RelVTR..20
+Übergang            ..........RelVTR..20
+Innenbreite         ..........RelVTR..20
+keine               ..........RelVTR..20
+Mitte               ..........RelVTR..20
+Kreuzung            ..........RelVTR..20
+Kreuz.+Ausgl.       ..........RelVTR..20
+Bezier              ..........RelVTR..20
+nur erhaben         ..........RelVTR..20
+nur vertieft        ..........RelVTR..20
+beg. erhaben        ..........RelVTR..20
+beg. vertieft       ..........RelVTR..20
+Start+Ende          ..........RelVTR..20
+Weave               ..........RelVTR..20
+Querform            ..........RelVTR..20
+Kreuzfolge          ..........RelVTR..20
+Querhöhe            ..........RelVTR..20
+Ges.Breite          ..........RelVTR..20
+Querungspunkt       ..........RelVTR..20
+Auslaufende         ..........RelVTR..20
+Auslaufform         ..........RelVTR..20
+Auslauflänge        ..........RelVTR..20
+Das Programmverzeichnis enthält nicht  .
+erlaubte Zeichen. Dies kann mit einigen.
+Funktionen zu Fehlern führen!          .
+Linien              ..........Sersch..20
+Vakuum ein             [J/N]:.HPGL....29
+Wartezeit vor Start  [0,01s]:.HPGL....29
+Beschleunigung EA  1..4/1..4:.HPGL....29
+Fortgeschritt. Berechn.[J/N]:.AKorr...29
+Approximierung                         .
+Approximierung    [1(min)..200(max)]   .
+Approx.Begrenzung [1(min).. 10(max)]   .
+Eckenfilter       [1(min).. 10(max)]   .
+Punkt.Reduzierung [1(min).. 10(max)]   .
+Muster in Kontur    ..........ReliefVT20
+Änderung            ..........ReliefVT20
+Relief mitdrehen       [J/N]:.ReliefVT29
+Musterdrehung       ..........ReliefVT20
+Muster Offset X         [mm]:.ReliefVT29
+Muster Offset Y         [mm]:.ReliefVT29
+Abstands Faktor X  [0,1..10]:.ReliefVT29
+Abstands Faktor Y  [0,1..10]:.ReliefVT29
+Random Start        [0..100]:.ReliefVT29
+Muster Skalierung X[0,1..10]:.ReliefVT29
+Muster Skalierung Y[0,1..10]:.ReliefVT29
+Muster Skalierung Z[0,1..10]:.ReliefVT29
+Formenwahl          ..........ReliefVT20
+nächste Form        ..........ReliefVT20
+letzte Form         ..........ReliefVT20
+Ornament            ..........ReliefVT20
+Art                 ..........ReliefVT20
+Form Liste          ..........ReliefVT20
+Kein Relief ausgewählt!                .
+Muster entlang Linie..........ReliefVT20
+Musterabstand       ..........ReliefVT20
+mitdrehen           ..........ReliefVT20
+Skalierfolge        ..........ReliefVT20
+Folgenfaktor        ..........ReliefVT20
+Anfangshöhe    (za)     [mm]:.ReliefVT29
+Endhöhe        (ze)     [mm]:.ReliefVT29
+JA Ende   ....................ReliefVT10
+JA Anfang ....................ReliefVT10
+JA Beide  ....................ReliefVT10
+automat.......................DIN/ISO..8
+In Bitmap speichern          .Export..29
+Bildbreite              Pix.:.Export..29
+Bildhöhe                Pix.:.Export..29
+jpg Bildqualität    [1..100]:.Export..29
+LG1-Imp.LANG kompatibel[J/N]:.Paramet.29
+beidseitig      ..............RelVTR..16
+Seiten          ..............RelVTR..16
+Alle G0 auf FreifahrPosZ     .DINISO..29
+Anfahrlänge                  .Anfahrbe29
+Radius Faktor                .Anfahrbe29
+Abmessung       ..............RasterCu16
+Gesamtzahl Punkte (X*Y):     .RasterCu29
+schräg von FH   ..............RasterCu16
+Rastern:                               .
+3D-Rasterpunkte mit gleichem Abstand   .
+und unterscheidlicher Tiefe (Dicke)    .
+erzeugen.                              .
+Werkzeug Spitzenradius                 .
+0,01 .. 1,0mm                          .
+Standard = 0,05mm                      .
+Werkzeug Winkel zur Senkrechten        .
+1 .. 85°                               .
+Standard = 45°                         .
+Werkzeug Flughöhe                      .
+(Sicherheitsabstand über Material)     .
+0 .. 100mm, Standard = 0,5mm           .
+Abstand der Rasterpunkte               .
+0,1 .. 10mm                            .
+Standard = 0,5mm                       .
+Level für Schwarz (Kontrast)           .
+-50 .. +50                             .
+Standard = 0                           .
+Werkz. Spitzenradius:        .RasterCu29
+Werkzeugwinkel [°]:          .RasterCu29
+Dithern:                               .
+2D-Ditherpunkte mit variablem Abstand  .
+und gleicher Tiefe (Dicke)             .
+erzeugen.                              .
+0 .. 85°                               .
+Standard = 10°                         .
+Werkzeug Eintauchtiefe                 .
+(Frästiefe im Material)                .
+0 .. 10mm, Standard = 0,2mm            .
+Level für Schwarz (Helligkeit)         .
+0 .. 255                               .
+Standard = 0                           .
+Import Photo                 .Relief..29
+Ausdehnung PktMitte  :..........Relief22
+Bezugspunkt links oben/unten:.Sersch..29
+Falsche Programmversion!               .
+wurde im Programmverzeichnis           .
+nicht gefunden!                        .
+Benutzercode wurde bereits eingegeben! .
+Eintauchwinkel         (0..90)[°] ....34
+Menü Bereichswahl                      .
+Komplettmenü (complete)      .Sprache 29
+Schild/Beschriftung (label)  .Sprache 29
+einfaches Schild (plate)     .Sprache 29
+Serienschilder (serial plate).Sprache 29
+Frontplatte (panel)          .Sprache 29
+2D-Fräsung (2D-mill)         .Sprache 29
+3D-Stempel (3D-stamp)        .Sprache 29
+Relief (relief)              .Sprache 29
+Wählen Sie ein               .Sprache 29
+Menü für Ihre                .Sprache 29
+Arbeit.                      .Sprache 29
+Keine Bereichsmenüs vorhanden!         .
+Einstellungen                .HDentMil29
+Einstellungen laden          .HDentMil29
+Einstellungen editieren      .HDentMil29
+Schneide Vorfräswerkzeug ist zu kurz!  .
+Schneide Schlichtwerkzeug ist zu kurz! .
+Schneide FeinschlichtWZ ist zu kurz!   .
+Materialausdehnung X           [mm]    .
+Materialausdehnung Y           [mm]    .
+Materialausdehnung Z           [mm]    .
+Sicherheitsrand Materialgrenze [mm]    .
+Materialskalierung X (Faktor)          .
+Materialskalierung Y (Faktor)          .
+Materialskalierung Z (Faktor)          .
+Fräsdaten-Dateinamen eingeben [J/N]    .
+Material-/Ablaufdaten                  .
+Vorfräswerkzeug Nr.                    .
+Schneidenlänge                   [mm]  .
+Relief - XY - Auflösung          [mm]  .
+Freistellgrenze in Z             [mm]  .
+Freistell Schichtstärke          [mm]  .
+Freistellen mit Rechteck        [J/N]  .
+Freistell Vorschuberhöhung  50-300[%]  .
+Vorfräsverfahren                       .
+Schlichtoffset (vorfr.-schlicht.)[mm]  .
+Schichtstärke (Zkonstant)        [mm]  .
+Verdickung (Zkonstant)        [1..10]  .
+Approximierung (Zkonstant)   [0..200]  .
+Gegenlauffräsen (Zkonstant)     [J/N]  .
+Schraffur Fräsbahnabstand    [%(FrS)]  .
+Eintauchwinkel (10..90)           [°]  .
+Schichtbearbeitung            [1,2,3]  .
+Untere Freistellgrenze bei 180°   [%]  .
+Untere Freistellgrenze bei 0°     [%]  .
+Vorfräsdaten                           .
+Zkonstan......................HDentMil.8
+SchraffX......................HDentMil.8
+SchraffY......................HDentMil.8
+Schr.X+Y......................HDentMil.8
+Schlichtwerkzeug Nr.                   .
+Schneidenlänge                   [mm]  .
+Relief - XY - Auflösung          [mm]  .
+Schlichtverfahren                      .
+2D - Überfräsoffset              [mm]  .
+Fräsbahnabstand              [%(FrS)]  .
+Schlichtdaten                          .
+Feinschlichtwerkzeug Nr.               .
+Schneidenlänge                   [mm]  .
+Feinschlichtverfahren                  .
+Fräsbahnabstand              [%(FrS)]  .
+Feinschlichtdaten                      .
+Automatischen Aufruf für CNCTerm       .
+Dental Fräsdaten                       .
+STL-Pfad:   ..................HDentMil12
+STL-Datei:  ..................HDentMil12
+sich. Werkzeuge                        .
+lade  Werkzeuge                        .
+Material-/Ablaufdaten                  .
+Sichere Parameter [.PAT]               .
+Benutzercode                           .
+Fehler STL Datei!                      .
+Fehler STL/LG1 Datei!                  .
+Material Randüberschreitung!           .
+TizianCAM Materialdaten ZIRKON BLANKS  .
+Fräsbereich     ..............HDentMil16
+Blankauswahl    ..............HDentMil16
+Skalierung für Blank #                 .
+Wählen Sie zuerst einen Blank          .
+suche Grenze                           .
+Import STL Vorfräsen                   .
+FrKorr Vorfräsen                       .
+Z-konstantes Vorfräsen                 .
+Vorfräs-Schraffur in                   .
+Import STL Schlichten                  .
+FrKorr Schlichten                      .
+Import STL Feinschlichten              .
+FrKorr Feinschlichten                  .
+Import STL                             .
+Export Fräsdaten                       .
+lade Krone                             .
+lade Stege                             .
+lade Kante                             .
+zentriere STL                          .
+  Cursor......................CAMSort..8
+Anzeige         ..............CAMSort.16
+Daten-NP......................CAMSort..8
+Fehler in Parameterdatei!              .
+Freistell Fräsbahnabstand    [%(FrS)]  .
+max. Schichttiefe            .WZBib...29
+Spanbruchhub                 .WZBib...29
+Schlichtoffset               .WZBib...29
+kopiere         ..............WZBib...16
+aus WZ          ..............WZBib...16
+kopiere Werkzeug             .WZBib...29
+kopiere in Zwischenablage    .WZBib...29
+einfügen aus Zwischenablage  .WZBib...29
+kopiere in alle Werkzeuge    .WZBib...29
+kopiere in Werkzeug          .WZBib...29
+Eingabe abgebrochen          .WZBib...29
+Bitte überprüfen Sie die Einstellungen..
+vgl. Programmhilfe!                    .
+Vorläufige Nutzung noch      .Info....29
+Blankstärke     ..............HDentMil16
+STL-Flächen     ..............HDentMil16
+Kunststoff      ..............HDentMil16
+Zirkon          ..............HDentMil16
+Skalierung für ..   ..........HDentMil20
+Projekt Daten sichern J/N?             .
+Projekt löschen J/N?                   .
+Objekt löschen J/N?                    .
+Materialstärke               .HDentMil29
+Drehschritt [°]:             .HDentMil29
+Render Auflösung [mm]:       .HDentMil29
+Objekt auswählen             .HDentMil29
+Schnitt horizontal ...........HDentMil19
+Schnitt vertikal   ...........HDentMil19
+Drehung um                   .HDentMil29
+Schnittlinien                .HDentMil29
+Blankdicke ist zu gering!              .
+Werkzeugfolge Editor - Anzeige         .
+Zeige Eintauchtiefe    J/N:  .CAMSort.29
+Zeige Spitzenradius    J/N:  .CAMSort.29
+Zeige Werkzeugwinkel   J/N:  .CAMSort.29
+Zeige Kugelradius      J/N:  .CAMSort.29
+Zeige Vorschub XY      J/N:  .CAMSort.29
+Zeige Eintauchvorschub J/N:  .CAMSort.29
+Zeige Spindeldrehzhl   J/N:  .CAMSort.29
+Zeige Standweg         J/N:  .CAMSort.29
+Zeige Wechselstation   J/N:  .CAMSort.29
+Zeige Schichttiefe     J/N:  .CAMSort.29
+Zeige Eintauchwinkel   J/N:  .CAMSort.29
+Zeige Werkzeugnamen    J/N:  .CAMSort.29
+CAMSort Grafikeinstellung    .CAMSort.29
+dyn.Grafikdarstellung:       .CAMSort.29
+Grafik-Liniendarstellung:    .CAMSort.29
+max.Stützpunktzahl:          .CAMSort.29
+Drehschritt für <F3>, <F4>:  .CAMSort.29
+nStützp.......................CAMSort..8
+gr.WZObj......................CAMSort..8
+Fräsersp......................CAMSort..8
+Werkzeug Belegungsplan       .CAMSort.29
+Werkzeug Liste  ..............CAMSort.16
+WSt. neu belegen             .CAMSort.29
+WSt. editieren               .CAMSort.29
+Verschieben     ..............CAMSort.16
+Aktiv           ..............CAMSort.16
+Inaktiv         ..............CAMSort.16
+Edit Werkzeug   ..............CAMSort.16
+Autosort mark.WZ..............CAMSort.16
+Autosort alle WZ..............CAMSort.16
+Text Editor     ..............CAMSort.16
+Autosort        ..............CAMSort.16
+Objekte im Zwischenspeicher werden     .
+hinten angebunden!                     .
+Fehler in den Werkzeugen:'             .
+- WZ mit leerer WSt.(=0) oder'         .
+- verschiedene WSt. für gleiche WZ oder.
+- gleiche WSt. für verschiedene WZ.    .
+Werkzeugliste neu erzeugen J/N?        .
+Import LG1 in Obj.           .CAMSort.29
+Import LG1-Datei             .CAMSort.29
+Import Verzeichnis           .CAMSort.29
+Obj. übernehmen              .CAMSort.29
+mehrere LG1-Dateien in Objekt laden    .
+Fräser Mittellinie           .CAMSort.29
+Werkzeug Simulat.            .CAMSort.29
+keine Objekte gefunden!      .CAMSort.29
+Liste der Fräsobjekte (Objektliste)    .
+Fräsobjekt löschen J/N?                .
+Datensatz enthält mehr als             .
+Werkzeugobjekte!                       .
+Wählen Sie Werkzeugfolge . WZ Liste!   .
+Liste der Werkzeuge                    .
+Fräsobjekt auswählen                   .
+Fräsprojekt Daten sichern J/N?         .
+Fräsprojekt löschen J/N?               .
+Fräsobjekt tauschen J/N?               .
+Abräumen ohne Randkontur     .Relief..29
+Zeilen ohne Randkontur       .Relief..29
+Vektordaten zu Konturen verbinden J/N? .
+Der Fensterbereich ist zu klein.       .
+Wählen Sie ein größeres Fenster!       .
+Benutzercode wurde eingegeben.         .
+Einstellungen sollten nur für ein      .
+leeres Projekt geändert werden. Nach   .
+Änderung der Einstellungen können      .
+ältere Projekte evtl. nicht mehr       .
+fehlerfrei abgearbeitet werden.        .
+Rand-Verschiebe-Offset [mm]: .HDentalC29
+Stegdurchmesser(0,5..10)[mm]:.HDentalC29
+Steg Facetten        (3..45):.HDentalC29
+Für eine Arbeit werden mindestens die  .
+Dateien Krone.STL + Stege.STL benötigt!.
+Objekt wurde bereits abgearbeitet!     .
+Grafik > Fräsweg    ..........CAM.....20
+AktLayer: Grafik + Text                .
+Markierte Grafik                       .
+Fräsmarkierung aufheben [J/N]          .
+kein abgearbeitetes Objekt!            .
+Nach eine Parameteränderung sollte das .
+Programm neu gestartet werden.         .
+Programm jetzt beenden [J/N]?          .
+Keine Fräswege+Werkzeugdaten gefunden. .
+Wählen Sie einen Layer mit Fräswegen!  .
+Programmkopf                 .DIN/ISO.29
+Programmende                 .DIN/ISO.29
+Blankform Rechteck/Ellipse  :.HDentMi.29
+Blankabmessung in X     [mm]:.HDentMi.29
+Blankabmessung in Y     [mm]:.HDentMi.29
+Blankabmessung in Z     [mm]:.HDentMi.29
+Skalierung Kunststoff/Zirkon:.HDentMi.29
+Blankdaten                   .HDentMi.29
+Rechteck......................HDentMi..8
+ Ellipse......................HDentMi..8
+Kunstst.......................HDentMi..8
+  Zirkon......................HDentMi..8
+Neue Abeit beginnen?                   .
+Nein: Bestehende Arbeit fortstzen.     .
+Import Vektordaten           .RelProj.29
+Keine Vektordaten vorhanden!           .
+Keine projizierte Daten vorhanden!     .
+Schichtbearbeitung                     .
+Form freistellen                       .
+Zeilen optimiert             .RelKorr.29
+Zeilen im Konturblock        .RelKorr.29
+Rechteckspir. im Konturblock .RelKorr.29
+Kreisspirale im Konturblock  .RelKorr.29
+Spir. parallel z.Aussenkontur.RelKorr.29
+Außen >Innen..................RelKorr.12
+Innen >Außen..................RelKorr.12
+Zeilen optim..................RelKorr.12
+Rechte.Spir...................RelKorr.12
+Ellipse>Rand..................RelKorr.12
+Ellipse>Ecke..................RelKorr.12
+Abräumen Wi...................RelKorr.12
+  Zeilen Wi...................RelKorr.12
+Abr.radialKr..................RelKorr.12
+Zl.radialKr...................RelKorr.12
+Abr.radialRe..................RelKorr.12
+Zl.radialRe...................RelKorr.12
+Rechteck ru...................RelKorr.12
+Spir.-Rechte..................RelKorr.12
+Abr.mit Rand..................RelKorr.12
+Abr. o. Rand..................RelKorr.12
+Zeil.m. Rand..................RelKorr.12
+Zeil.o. Rand..................RelKorr.12
+Konturparall..................RelKorr.12
+Kombi Abräum..................RelKorr.12
+Kombi Zeilen..................RelKorr.12
+Zl.KontBlock..................RelKorr.12
+ReSpir.Block..................RelKorr.12
+KrSpir.Block..................RelKorr.12
+Konturspiral..................RelKorr.12
+Relief Schlicht - Berechnung           .
+Relief Vorfräs - Berechnung            .
+Import für Textzeilen        .AutoSch.29
+Von Zeile                    .AutoSch.29
+Bis Zeile                    .AutoSch.29
+Rand links              [mm]:.AutoSch.29
+Rand unten              [mm]:.AutoSch.29
+Rand rechts             [mm]:.AutoSch.29
+Rand oben               [mm]:.AutoSch.29
+Texteditor mit Zeilennummer [J/N]      .
+Auto - Verzerrungs Modus               .
+ individuell..................AutoSch.12
+ alle Zeilen..................AutoSch.12
+gleiche Höhe..................AutoSch.12
+Auto - Verzerr. E-Schild/Matrix        .
+Einzelschild..................AutoSch.12
+      Matrix..................AutoSch.12
+Matrix Anordnung                       .
+     mäander..................AutoSch.12
+  horizontal..................AutoSch.12
+    vertikal..................AutoSch.12
+Auto-Layout laden/speichern            .
+Lade Auto-Layout                       .
+Speichere Einzelschild - Layout        .
+Speichere Kolonnen - Layout            .
+Speichere Matrix - Layout              .
+Zeile.........................AutoSch. 5
+ H-Faktor.....................AutoSch. 9
+  Zl-Höhe.....................AutoSch. 9
+  Abstand.....................AutoSch. 9
+Schild Breite:             ...AutoSch.27
+Schild Höhe:               ...AutoSch.27
+Font:               ..........AutoSch.20
+Zeilenzahl:                ...AutoSch.27
+Bedeckung [%]:             ...AutoSch.27
+Orientierung:              ...AutoSch.27
+Fehler: Eingabe überbestimmt!          .
+Alle Zeilen Einstellungen              .
+Die Kolonnen Zeilenhöhe ist zu groß!   .
+Kolonne.......................AutoSch. 7
+   Breite.....................AutoSch. 9
+  Abstand.....................AutoSch. 9
+Orientier.....................AutoSch. 9
+Kolonnen                   ...AutoSch.27
+Anzahl Kolonnen:           ...AutoSch.27
+Zeilen pro Kolonne:        ...AutoSch.27
+Zeilenhöhe [mm]:           ...AutoSch.27
+Zeilen Bedeckung [%]:      ...AutoSch.27
+Kopfzeilenhöhe:            ...AutoSch.27
+Kopfzeilenabstand:         ...AutoSch.27
+Fußzeilenabstand:          ...AutoSch.27
+Fußzeilenhöhe:             ...AutoSch.27
+unlock   .....................AutoSch. 8
+lock     .....................AutoSch. 8
+Max. Zeilenzahl überschritten!         .
+Mit dem Material sind                  .
+Schilder möglich.                      .
+Spaltenzahl         ..........AutoSch.20
+Zeilenzahl          ..........AutoSch.20
+Schildmatrix                 .AutoSch.29
+Quelle:Kolonne               .AutoSch.29
+Quelle:Einzelschild          .AutoSch.29
+Material Breite:             .AutoSch.29
+Material Höhe:               .AutoSch.29
+Mat.Rand Links:              .AutoSch.29
+Mat.Rand Unten:              .AutoSch.29
+Mat.Rand Rechts:             .AutoSch.29
+Mat.Rand Oben:               .AutoSch.29
+Schild Abst.X:               .AutoSch.29
+Schild Abst.Y:               .AutoSch.29
+Schild Rand:                 .AutoSch.29
+Randlayer:                   .AutoSch.29
+Schild Anzahl:               .AutoSch.29
+Einzel- und         ..........AutoSch.20
+Mehrfachschild      ..........AutoSch.20
+einrichten.         ..........AutoSch.20
+Schild AutoLayout            .AutoSch.29
+Import Schild-Zeilen         .AutoSch.29
+Import Matrix Zeilen         .AutoSch.29
+RdWr Schildlayout            .AutoSch.29
+Schild Grenzen               .AutoSch.29
+Fehler in den DXF - Daten!             .
+Abräumwege zusammen und                .
+Abräumzeilen verrunden                 .
+Meß Vorschub (G188) [m/min]  .DINISO..29
+Zeige Unterseite       [J/N]:.HDental.29
+Z-Verschiebung -10..+10 [mm]:.HDental.29
+Überschneidung     0..1 [mm]:.HDental.29
+Drucker einrichten           .Export..29
+ minimal......................Paramet..8
+    hoch......................Paramet..8
+   aktiv......................Paramet..8
+Relief öffnen                .Relief..29
+Projektionsdaten in Layer sichern!     .
+Hintergrund Kontrast [1..10]:.CAD.....29
+Hintergrund invers     [J/N]:.CAD.....29
+Hintergrund Einstellung      .CAD.....29
+Arbeitsgrenzen aus Grafikhintergrund   .
+Typenschild                  .Typensch29
+Hintergrund laden            .Typensch29
+Layerwerkzeug eingeben       .Typensch29
+Hilfslinien eingeben         .Typensch29
+Text eingeben                .Typensch29
+Fräsweg Kontrolle            .Typensch29
+Fräsdaten Export             .Typensch29
+Hilfedateien wurden nicht gefunden!    .
+Bitte kopieren Sie die Hilfedateien    .
+in das Verzeichnis:                    .
+Fräsdaten Ansicht            .RasterCu29
+Fräspunkt                    .RasterCu29
+Relief Ansicht               .RasterCu29
+Render Ansicht               .RasterCu29
+Linien Ansicht               .RasterCu29
+Bitte richten Sie die Datenausgabe für .
+WinPC-NC mit <F2> korrekt ein!         .
+Clr. Textparameter  ..........Text....20
+Für diese Operation werden             .
+mindestens 2 Objekte benötigt!         .
+Art der senkrechten Bohrung           :.
+Standard......................3DZyklen 8
+MAchsenF......................3DZyklen 8
+RapidDri......................3DZyklen 8
+Schnitt Lage                :.PCNC-Dre29
+Abraeumabstand          [mm]:.PCNC-Dre29
+PCNC-Drehmaschine            .PCNC-Dre29
+Ungeeignete 3D - Daten                 .
+Lage oberhalb Y=0. Korrigieren         .
+Sie die Grenzlinie oder starten        .
+Sie mit der Einstellung relativ!       .
+Nur 1 Strecke ist erlaubt.             .
+Daten für PCNC-Drehmaschine            .
+speichern J/N?                         .
+skaliert......................PCNC-Dre29
+Streuung        ..............Rast.Cut16
+Invers [J/N]    ..............Rast.Cut16
+Eine Anleitung mit Arbeitsbeschrei-    .
+bungen und Beispieldaten kann unter    .
+"Extras . Anleitung" gestartet werden. .
+In den Daten befinden sich bereits     .
+Schichten.                             .
+Relief Farbe                 .Rast.Cut29
+Invers          ..............Rast.Cut16
+Relief Datei       ...........Menu....19
+Relief edit        ...........Menu....19
+Relief AutoKorr    ...........Menu....19
+Relief reduzieren            .ReliefDa29
+Zeilenraster       ...........RasterPh19
+Fraeswegabstand    ...........RasterPh19
+Schichtzahl        ...........RasterPh19
+3D Fraeszeilen aus Foto                .
+Linienabstand      ...........RasterPh19
+Kreuzschraffur [J/N]         .ReliefPh29
+Fraestiefe         ...........RasterPh19
+Werkzeug ohne ausreich. Kegelwinkel!   .
+Werkzeugvermessung           .DIN/ISO.29
+Nullpunktversch.             .DIN/ISO.29
+Relief fluten      ...........Relief..19
+Fluten             ...........Relief..19
+Eingabe in         ...........Relief..19
+Abstandsfaktor ist zu klein!           .
+Keine Rhinestone - Punkte im Ziellayer!.
+Punkt Grund-Abstand [mm]               .
+Punkt Mindest-Abstand [mm]             .
+  kein Ausgl..................Rhinest.13
+     nächster.................Rhinest.13
+Abst.verläng..................Rhinest.13
+Abst.verkürz..................Rhinest.13
+Abstand fallend (<1), steigend (>1)    .
+Rhinestone Strecken                    .
+Füllung                                .
+    Schraffur.................Rhinest.13
+ Bahnparallel.................Rhinest.13
+Konturoffset [mm]                      .
+Mit Kontur [J/N]                       .
+Rhinestone Flächen                     .
+Zeilen-Abstand Y [mm]                  .
+Raster Drehung [°]                     .
+Rhinestone Raster                      .
+Form                                   .
+ Spirale......................Rhinest..8
+  Kreise......................Rhinest..8
+Strahlen......................Rhinest..8
+Bahn-Abstand [mm]                      .
+Zentrum ermitteln [J/N]                .
+Rhinestone Füllfunktion                .
+Kreisdurchmesser [mm]                  .
+Erzeuge Kreise                         .
+Erzeuge Bohrzyklen                     .
+X-Versatz nächste Zeile [%]: .Zyklen..29
+ li > re......................Zyklen...8
+ re > li......................Zyklen...8
+ Mäander......................Zyklen...8
+ ob > un......................Zyklen...8
+ un > ob......................Zyklen...8
+Vorschub 1.Bohrspan  [m/min]:.Zyklen..29
+Vorschub Spanbruch   [m/min]:.Zyklen..29
+MAchsen - Bohrung            .Zyklen..29
+Werkzeug eingeben J/N?       .Zyklen..29
+Excel Zeilen wandeln         .Seriensc29
+Excel Text Import            .TextImpo29
+Excel-Schild                 .TextImpo29
+Importieren Sie zuerst                 .
+eine Excel - Datei!                    .
+Excel-Schild                 .TextImpo29
+Waehlen Sie eine Zeile.      .TextImpo29
+Zeilen #                     .TextImpo29
+Der letzte Import ist noch nicht       .
+vollstaendig abgearbeitet.             .
+Kein Trennungszeichen "Tab" gefunden!  .
+Schraffur                    .RasterPh29
+Kreuzschraffur               .RasterPh29
+Schraffur mäander            .RasterPh29
+Kreuzschraffur mäander       .RasterPh29
+Zeilen radial                .RasterPh29
+Zeilen radial mäander        .RasterPh29
+Zeilenzahl paßt nicht zum Excel-Text!  .
+Excel-Multischild            .TextImpo29
+Schild(er)                   .TextImpo29
+Spiegeltiefe versetzt die              .
+Fräsarbeit nach Unten.                 .
+Neue Gesamttiefe =                     .
+Wollen Sie das tun J/N?                .
+Minimaler Level              .RasterPh29
+Maximaler Level              .RasterPh29
+Bildformat wird nicht unterstützt!     .
+Wechsel Obj.Layer            .RelVTR  29
+
+
+
+
+Hinweis zur Übersetzung (Neue Texte):
+-------------------------------------
+- In der nachfolgende Liste sind die zuletzt geänderten Textzeilen
+  (Zeilennummern) notiert.
+- Ab 'Hinweis zur Übersetzung (Neue Texte):' nicht mehr übersetzen!
+- Textzeilenlänge konstant 40Char. beibehalten!
+- Übersetzt wird nur der Anzeigetext
+    Beispiel: 'Gegenform XZ        ..........Relief..20'
+    Ist zu übersetzen Char 1..20.
+    Der Bereich '..........Relief..20' bleibt unverändert.
+
+280502 ff:
+--------------------------
+Zeile 3294..3295    050105  Parameter . Spezial
+Zeile 3296..3300    060105  Datei - Dialog
+Zeile 3301          130105  edit . Position verschieben <F2>
+Zeile 3302..3304    180105  Export . LG1 Obj.
+Zeile 3308..3313    260105  Text aus Datei
+Zeile 3314..3315    090205  Export . DIN/ISO
+Zeile 3316          150205  Such . Wege - Info
+Zeile 3317..3327    210405  ReliefVTR . Kette
+Zeile 3328          220405  Volumen Ansicht
+Zeile 3329..3339    280405  Relief Datei . Relief Auszug
+Zeile 3340          280405  Relief AutoKorr
+Zeile 3341          090505  Export . DIN/ISO . BES
+Zeile 3342..3346    090505  Exporthilfen
+Zeile 3347..3348    200505  Serienschild
+Zeile 3349..3361    210505  Grafikdruck, Simulation
+Zeile 3362..3368    230505  Farbeneinstellung
+Zeile 3369          280505  ReliefVTR . Schnecke
+Zeile 3370..3387    300505  TextEdit
+Zeile 3387          010605  Eigenschaften
+Zeile 3389..3392    070605  Zyklen
+Zeile 3303          070605  Export LG1Obj . neuer Text
+Zeile 3393..3401    070605  ReliefVTR . 3D-Effekt
+
+Zeile 3438..3440    060705  Export . HPGL . Zünd 2D
+Zeile 3441          070705  AutoKorr . Parameter
+Zeile 3442..3446    041005  Scanner . Approximieren
+Zeile 2116          071005  Grafikdruck
+Zeile 1394          071005  Grafikdruck
+Zeile 1912..1914    071005  Grafikdruck
+Zeile 0756          071005  Grafikdruck
+Zeile 1921          161005  >4000
+Zeile 3447..3475    281005  ReliefVTR . Muster
+Zeile 3476          081105  Export DIN/ISO
+Zeile 3477..3480    211105  Export In Bitmap speichern
+Zeile 3481          100306  Eingabeparameter . Grundeinstell
+Zeile 3482..3483    250306  ReliefVTR . Strecke
+Zeile 3484          050506  Export . DIN/ISO . Eckelmann-NCmind
+Zeile 3485..3486    170506  CAD . bearbeit . Anfahrbewegung
+Zeile 1485..1490    110806  RasterCut
+Zeile 0442          110806  RasterCut
+Zeile 0472          110806  RasterCut
+Zeile 3487..3522    110806  RasterCut
+Zeile 3523          130806  Relief Import
+Zeile 3525          010107  Serienschild
+Zeile 3530          110607  CAMSort
+Zeile 3531..3541    260807  Sprache . Menü Bereichswahl
+Zeile 3544..3625    191007  e HDentalCAM
+Zeile 3626..3628    261007  CAMSort
+Zeile 3629..3630    021107  e HDentalCAM
+Zeile 3631..3641    061107  Werkzeugeingabe
+Zeile 3642..3643    071107  e HPGL - Export
+Zeile 3644          031207  e Info
+Zeile 3645..3661    170108  e HDentMill
+Zeile 3662..3719    210108  CAMSort
+Zeile 3722          170308  DXF-Import
+Zeile 0758          270308
+Zeile 3723..3724    270308  edit Zeile <F5>
+Zeile 3725          080408  Info
+Zeile 3726..3736    080411  e HDentalCAM
+Zeile 0378          080415  e Export
+Zeile 3737..3739    080419  e CAM
+Zeile 3740..3744    080428  e HDentalCAM
+Zeile 3745..3746    080812  e Haltestege + eSIGN2D (v)
+Zeile 3747..3748    080826  e Export DIN/ISO
+Zeile 3749..3758    080906  e HDentMill
+Zeile 3759..3763    131008  e eMillRelief
+Zeile 3764..3797    251008  e Relief AutoKorr
+Zeile 3798..3876    111108  e Schild AutoLayout
+Zeile 3877          181108  e Relef Import
+Zeile 3878..3879    011208  e AutoKorr
+Zeile 3880          021208  e DINISO
+Zeile 3881..3883    041208  e HDental
+Zeile 3884          100109  e Export
+Zeile 3885..3887    100109  e Parameter
+Zeile 2394          070509  e Laser Schraffur
+Zeile 3888..3889    250509  e Reliefprojektion eSIGN Art
+Zeile 3890..3892    060609  e CAD Hintergrundgrafik
+Zeile 3893..3900    080609  Typenschild
+Zeile 3901..3903    180609  Extras . Hilfe
+Zeile 3904..3907    300609  Raster Photo
+Zeile 3908          040709  STL - Import
+Zeile 3909..3910    060809  Direct Mill Auto
+Zeile 3911          070809  edit Zeile
+Zeile 3912..3913    080809  CAM - Edit
+Zeile 3914..3917    100909  3D Zyklen
+Zeile 3918..3928    291109  PCNC-Dreh
+Zeile 3929..3930    180110  RasterCut
+Zeile 3931..3933    180110  Start eSIGN2D
+Zeile 3934..3935    210110  Spantiefenzustell.
+Zeile 3936..3937    210110  RasterCut
+Zeile 3941          030210  Relief Datei, RasterPhoto
+Zeile 3942..3948    070210  RasterPhoto
+Zeile 3950..3951    190210  Export . DIN/ISO . ANDRONIC KM2060
+Zeile 3952..3954    240210  Relief
+Zeile 3955..3983    170510  Rhinestone Punkte
+Zeile 3984..3989    131110  Bohrzyklen spec.
+Zeile 3990..3993    181110  MAchsen Bohrung
+Zeile 3994          241210  Serienschild
+Zeile 3995..4004    060111  Schild . Excel Import
+Zeile 4005..4010    260111  RasterPhoto
+Zeile 4011..4013    280111  Schild . Excel Import
+Zeile 4014..4017    010211  Spantiefenzustellung
+Zeile 3198          010211  ReliefVTR
+Zeile 3199          010211  Layout
+Zeile 4018..4019    070211  RasterPhoto
+Zeile 3200          090211  Freigabe
+Zeile 4020          220211  Tiff - Import
+Zeile 4021          080311  ReliefVTR . Layer einfügen
+
+
+
+HCAM_de.tx0
+HCAM_nl.tx0
+HCAM_en.tx0
+HCAM_it.tx0
+HCAM_fr.tx0
+

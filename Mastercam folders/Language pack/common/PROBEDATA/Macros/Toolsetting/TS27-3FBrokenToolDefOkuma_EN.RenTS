@@ -1,0 +1,122 @@
+; Renishaw Productivity+ Custom Macro
+; Do NOT remove the preceeding line or this macro will not load
+; Definition File for TS27/R Contact Toolsetting Tool Length/Diameter Setting
+; Version: 0.01.
+
+[FileType]
+; Do NOT remove this section or this Custom Macro will not load
+Product		Renishaw Productivity+
+File		Custom Macro
+Version		0.07.002
+
+[MachineType]
+MACHINETYPE OKUMA
+
+[Toolsetting Type]
+"Contact"
+
+; Definition File Language - language of displayable text strings in this file
+[Language]
+English
+
+; Existing Menu Item in application that Custom Macro name and its Parent Menu are to appear under
+; FIELD CAN BE OMITTED
+[Existing Menu]
+"Tool setting"
+
+; Parent Menu - used as parent menu item text 
+; FIELD CAN BE OMITTED
+[Parent Menu]
+"Contact (TS27R, TS20, OTS...)"
+
+; Custom Macro Name - used as menu item text. ID MUST BE UNIQUE FOR EACH CUSTOM MACRO!
+; FIELD IS COMPULSORY
+[Custom Macro]
+; Name										ID
+"Five-Face Broken Tool - Length (Okuma)"			48880
+
+; This field specifies the default name given to a statement of this type
+; The name must NOT include any of the following characters and cannot start with a numeric character
+; {}[]/\:<>@~#-=+()*&^%$£!"`¬|;,.'?
+[Default Statement Name]
+"Broken_Tool_Length"
+
+; Name or Program Number of macro
+[MacroID]
+9858
+
+; Properties - Do not use IDs 1-19
+; Name										ID	Datatype	Default		Range		Category	Output Parameter	Metafile ID (optional)	Help Text			
+[Properties]
+
+"Use the Tool Diameter (D)"					20	YESNO		NO			{NA}		  100		-					12000				"Set this value to 'Yes' to specify the tool Diameter. Specifying the tool diameter enables the tool to be offset from the datum stylus. Without a D input, the tool is checked on-centre."
+"Tool Diameter (D)"							21	LINEAR		0			NE0		      100		CM_D				12000				"Applying the tool diameter causes the tool to be offset from the stylus centre line"
+
+"Tolerance value (H)"						22	YESNO		NO			{NA}		  100		CM_					12000				"The tolerance value when checking for a broken tool. If there is no H input, then the feed rate in #101 is used only if the tool is on centre and only one touch is used. I f the H value is less than 0.5 then the standard two touch feed rates are used."
+"Use Tolerance value (H)"					23	LINEAR		0.5			{NA}		  100		CM_H				12000				"Default value 0.5."
+
+"Use out of tolerance flag (M)"				24	YESNO		NO			{NA}		  100		-					12000				"Tool out of tolerance flag."
+"M1 Prevents alarm (M)"						25	INT			1			EQ0		   	  100		CM_M				12000				"Using M1 prevents a tool OUT OF TOLERANCE alarm from being raised NOTE #146 is the out of tolerance flag. It is set to 1 if the tool is out of tolerance and set to 0 if in tolerance."
+
+"Use Current Tool Change ID (T)"			28	YESNO		YES			{NA}		  100		-					12000				"When this value is set to 'Yes' the current tool change ID is used as the Length Offset Number. When set to 'No' you can specfy a Length Offset number."
+"Tool Length Offset Number (T)"				29	INT			0			GT0:LE999	  100		CM_T				12000				"Length Offset Number. This is the offset location in which the measured tool length is stored."
+
+"Use Rapid position above the stylus (Y)"	30	YESNO		NO			{NA}		  100		-					12000				"Sends the tool to a position above the stylus in a rapid move. if set to NO, the tool is positioned to #114 as set in the settings macro."
+"Rapid position above the stylus (Y)"		31	LINEAR		0			GT0			  100		CM_Y				12000				"Rapid to a position above the sylus."
+
+"Use Clearance position (Z)"				32	YESNO		NO			{NA}		  100		-					12000				"Set this value to 'Yes' to specify the clearance position above the stylus before and after the cycle is run. When set to 'No' the tool will retract to the home position before and after the cycle is run."
+"Clearance position (Z)"					33	LINEAR		0			GT0			  100		CM_Z				12000				"The tool moves to this clearance position above the stylus before and after the cycle is run."
+
+
+[Visibility]
+
+PROPERTIES	25
+CTRL_PROPS		24 ("Use out of tolerance flag (M)")
+CTRL_VALUES		2 ("YES")
+
+PROPERTIES	33
+CTRL_PROPS		32 ("Use Clearance position (Z)")
+CTRL_VALUES		2 ("YES")
+
+PROPERTIES	23
+CTRL_PROPS		22 ("Do Tolerance Check")
+CTRL_VALUES		2 ("YES")
+
+
+PROPERTIES	21
+CTRL_PROPS		20 ("Use the Tool Diameter (D)")
+CTRL_VALUES		2 ("YES")
+
+
+PROPERTIES	29
+CTRL_PROPS		28 ("Use Current Tool Change ID (T)")
+CTRL_VALUES		1 ("NO")
+
+PROPERTIES	31
+CTRL_PROPS		30 ("Rapid position above the stylus (Y)")
+CTRL_VALUES		2 ("YES")
+
+
+[Enums]
+; N.B. When post processing, the selected enum item ID will be outputted with the Output Parameter.
+;	e.g.	enum type			: YESNO
+;			selected enum item	: YES
+;			enum item value		: 1
+;			Output Parameter	: CM_B
+;			Output				= B1
+;												ID		Index (order in which they will appear)
+ENUM_NAME		MEAS_TYPE						
+ENUM_ITEM		"Broken_Tool_Length"			1		0
+
+
+[Categories]
+; Name							ID
+"Nominals"						100
+
+[Resources]
+; Path and File name of resource DLL containing metafiles (optional)
+PP_tsToolSettingRes.dll
+
+; The post processor section to call when post processing occurs
+[Post Section]
+TOOLSETTING_CUSTOMMACRO_TOOL_CHANGE_APPLY_H

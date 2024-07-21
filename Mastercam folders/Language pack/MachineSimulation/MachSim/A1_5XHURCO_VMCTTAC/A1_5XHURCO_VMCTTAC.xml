@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<machine_definition>
+  <machine_data name="A1_5XHURCO_VMCTTAC" version="1.4" units="metric" />
+  <axis id="A" type="rotation" x="1.00000000" y="0.00000000" z="0.00000000" minvalue="-100.000000" maxvalue="100.000000" valuetype="cont" rzx="0.00000000" rzy="0.00000000" rzz="100.00000000">
+    <geometry name="A1" geo="5xhurco_vttac_a1.stl" clrr="0.75294119" clrg="0.86274511" clrb="0.75294119" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+    <axis id="C" type="rotation" x="0.00000000" y="0.00000000" z="1.00000000" minvalue="-100001.000000" maxvalue="100001.000000" valuetype="cont" rzx="0.00000000" rzy="0.00000000" rzz="0.00000000">
+      <geometry name="C1" geo="5xhurco_vttac_c1.stl" clrr="1.00000000" clrg="0.98431373" clrb="0.94117647" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+      <transform id="workpiece_transform" initialvalue="1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000">
+        <geometry name="fixture" geo="fixture.stl" clrr="0.50196081" clrg="0.50196081" clrb="0.50196081" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="fixture" />
+        <geometry name="initialstock" geo="stock.stl" clrr="0.43137255" clrg="0.65882355" clrb="1.00000000" alpha="0.4" reflectivity="0.0" reflectivityBitmapFileName="" objtype="initialstock" />
+        <geometry name="stock" geo="stock.stl" clrr="0.43137255" clrg="0.65882355" clrb="1.00000000" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="stock" />
+        <geometry name="toolpath" geo="toolpath.asc" clrr="0.00000000" clrg="0.00000000" clrb="0.00000000" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" schema="toolpath.scm" objtype="toolpath" />
+        <geometry name="workpiece" geo="werkstueck.stl" clrr="0.50196081" clrg="0.50196081" clrb="0.50196081" alpha="0.0" reflectivity="0.1" reflectivityBitmapFileName="tablereflection.bmp" objtype="workpiece" />
+      </transform>
+    </axis>
+  </axis>
+  <axis id="X" type="translation" x="1.00000000" y="0.00000000" z="0.00000000" minvalue="-225.000007" maxvalue="225.000007" valuetype="cont">
+    <geometry name="X1" geo="5xhurco_vttac_x1.stl" clrr="1.00000000" clrg="0.98431373" clrb="0.94117647" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+    <axis id="Y" type="translation" x="0.00000000" y="1.00000000" z="0.00000000" minvalue="-200.000006" maxvalue="200.000006" valuetype="cont">
+      <geometry name="Y1" geo="5xhurco_vttac_y1.stl" clrr="0.75294119" clrg="0.86274511" clrb="0.75294119" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+      <axis id="Z" type="translation" x="0.00000000" y="0.00000000" z="1.00000000" minvalue="0.000000" maxvalue="381.000000" valuetype="cont">
+        <geometry name="Z1" geo="5xhurco_vttac_z1.stl" clrr="1.00000000" clrg="0.98431373" clrb="0.94117647" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+        <geometry name="Z2" geo="5xhurco_vttac_z2.stl" clrr="0.75294119" clrg="0.86274511" clrb="0.75294119" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+        <transform id="holder_transform" initialvalue="1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000">
+          <geometry name="tool" geo="tool.stl" alpha="0.0" reflectivity="0.1" reflectivityBitmapFileName="tablereflection.bmp" objtype="tool" cuttr="1.00000000" cuttg="0.50196081" cuttb="0.00000000" noncuttr="0.75294119" noncuttg="0.75294119" noncuttb="0.75294119" arborr="0.00000000" arborg="0.00000000" arborb="0.50196081" holderr="0.00000000" holderg="0.50196081" holderb="1.00000000" />
+        </transform>
+      </axis>
+    </axis>
+  </axis>
+  <geometry name="mh_BASE1" geo="5xhurco_vttac_base1.stl" clrr="0.75294119" clrg="0.86274511" clrb="0.75294119" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+  <geometry name="mh_BASE2" geo="5xhurco_vttac_base2.stl" clrr="0.00000000" clrg="0.50196081" clrb="0.50196081" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+  <geometry name="mh_BASE3" geo="5xhurco_vttac_base3.stl" clrr="1.00000000" clrg="0.98431373" clrb="0.94117647" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+  <collcheck id="cc1" name="cc1" group1="X1,Y1,Z1,Z2,tool" dynamic1="true" dynamic2="true" active="true" group2="A1,C1,workpiece" />
+</machine_definition>

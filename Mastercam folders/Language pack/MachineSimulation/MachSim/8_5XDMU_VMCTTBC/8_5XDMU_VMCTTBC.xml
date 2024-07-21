@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<machine_definition>
+    <machine_data name="8_5XDMU_VMCTTBC.xml" version="1.8" units="metric">
+        <view_transform initialvalue="1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000" />
+    </machine_data>
+    <axis id="B" type="rotation" x="0.00000000" y="0.70710683" z="-0.70710683" minvalue="-180.000000" maxvalue="180.000000" valuetype="cont" initial_value="0.000000" rzx="0.00000000" rzy="0.00000000" rzz="155.04899597">
+        <geometry name="B1" geo="5xdmu_vttbc_b1.stl" clrr="1.00000000" clrg="1.00000000" clrb="1.00000000" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="tablereflection.bmp" objtype="geometry" />
+        <axis id="C" type="rotation" x="0.00000000" y="0.00000000" z="1.00000000" minvalue="-100000.000000" maxvalue="100000.000000" valuetype="cont" initial_value="0.000000" rzx="0.00000000" rzy="0.00000000" rzz="0.00000000">
+            <geometry name="C1" geo="5xdmu_vttbc_c1.stl" clrr="0.65098041" clrg="0.79215688" clrb="0.94117647" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="tablereflection.bmp" objtype="geometry" />
+            <transform id="workpiece_transform" initialvalue="1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000">
+                <geometry name="fixture" geo="fixture.stl" clrr="0.50196081" clrg="0.00000000" clrb="0.50196081" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="fixture" />
+                <geometry name="initialstock" geo="initialstock.stl" clrr="0.27450982" clrg="0.50980395" clrb="0.70588237" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="initialstock" />
+                <geometry name="stock" geo="stock.stl" clrr="0.27450982" clrg="0.50980395" clrb="0.70588237" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="stock" />
+                <geometry name="toolpath" geo="toolpath.asc" clrr="0.80000001" clrg="0.80000001" clrb="0.80000001" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="toolpath" />
+                <geometry name="workpiece" geo="workpiece.stl" clrr="0.41176471" clrg="0.41176471" clrb="0.41176471" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="workpiece" />
+            </transform>
+        </axis>
+    </axis>
+    <axis id="X" type="translation" x="1.00000000" y="0.00000000" z="0.00000000" minvalue="-355.000001" maxvalue="355.000001" valuetype="cont" initial_value="0.000000">
+        <geometry name="X1" geo="5xdmu_vttbc_x1.stl" clrr="0.00000000" clrg="0.50196081" clrb="0.50196081" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+        <axis id="Y" type="translation" x="0.00000000" y="1.00000000" z="0.00000000" minvalue="-260.000000" maxvalue="260.000000" valuetype="cont" initial_value="0.000000">
+            <geometry name="Y1" geo="5xdmu_vttbc_y1.stl" clrr="0.75294119" clrg="0.86274511" clrb="0.75294119" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+            <axis id="Z" type="translation" x="0.00000000" y="0.00000000" z="1.00000000" minvalue="0.000000" maxvalue="520.000001" valuetype="cont" initial_value="0.000000">
+                <geometry name="Z1" geo="5xdmu_vttbc_z1.stl" clrr="1.00000000" clrg="1.00000000" clrb="1.00000000" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+                <geometry name="Z2" geo="5xdmu_vttbc_z2.stl" clrr="0.65098041" clrg="0.79215688" clrb="0.94117647" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+                <geometry name="Z3" geo="5xdmu_vttbc_z3.stl" clrr="0.00000000" clrg="0.50196081" clrb="0.50196081" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry" />
+                <transform id="holder_transform" initialvalue="1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000">
+                    <geometry name="tool" geo="tool.stl" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="tool" cuttr="1.00000000" cuttg="1.00000000" cuttb="0.00000000" noncuttr="0.86274511" noncuttg="0.86274511" noncuttb="0.86274511" arborr="0.66274512" arborg="0.66274512" arborb="0.66274512" holderr="0.41176471" holderg="0.41176471" holderb="0.41176471" />
+                </transform>
+            </axis>
+        </axis>
+    </axis>
+    <geometry name="mh_base1" geo="5xdmu_vttbc_base1.stl" clrr="0.75294119" clrg="0.86274511" clrb="0.75294119" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="tablereflection.bmp" objtype="geometry" />
+    <geometry name="mh_base2" geo="5xdmu_vttbc_base2.stl" clrr="0.75294119" clrg="0.86274511" clrb="0.75294119" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="tablereflection.bmp" objtype="geometry" />
+    <collcheck id="cc1" name="cc1" group1="workpiece,C1,B1,fixture" dynamic1="true" dynamic2="true" active="true" group2="tool,Z1,Z2,Z3" />
+</machine_definition>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.1" PrintWidth="9360" DocumentName="ActiveReports Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-family: Arial; font-style: normal; font-variant: inherit; font-weight: normal; font-size: 10pt; font-size-adjust: inherit; font-stretch: inherit; color: rgb(0,0,0); background-repeat: inherit; background-attachment: inherit; opacity: inherit; word-spacing: inherit; letter-spacing: inherit; text-decoration: none; vertical-align: inherit; text-transform: inherit; text-align: inherit; text-indent: inherit; unicode-bidi: inherit; line-height: inherit; white-space: inherit; ddo-char-set: 0" />
+    <Style Name="Heading1" Value="font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: bold; font-size: 16pt; font-size-adjust: inherit; font-stretch: inherit" />
+    <Style Name="Heading2" Value="font-family: Times New Roman; font-style: italic; font-variant: inherit; font-weight: bold; font-size: 14pt; font-size-adjust: inherit; font-stretch: inherit" />
+    <Style Name="Heading3" Value="font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: bold; font-size: 13pt; font-size-adjust: inherit; font-stretch: inherit" />
+  </StyleSheet>
+  <Sections>
+    <Section Type="Detail" Name="Detail" Height="4664" BackColor="16777215" KeepTogether="1">
+      <Control Type="AR.Shape" Name="Shape1" Left="89.28001" Top="360" Width="9180" Height="720" BackColor="16777215" RoundingRadius="9.999999" />
+      <Control Type="AR.Label" Name="Data_NAME" DataField="NAME" Left="2250" Top="0" Width="7020" Height="270" Caption="NAME" Style="font-family: Arial Unicode MS; font-size: 8.25pt; font-style: italic; font-weight: bold" />
+      <Control Type="AR.Shape" Name="Shape2" Left="90" Top="1170" Width="5040" Height="3240" BackColor="16777215" RoundingRadius="9.999999" />
+      <Control Type="AR.Label" Name="Label2" Left="180" Top="450" Width="1980" Height="270" Caption="CYCLE TIME:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox2" DataField="TIME-LONG" Left="2250" Top="450" Width="6930" Height="270" Text="TIME-LONG" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label3" Left="180" Top="720" Width="1980" Height="270" Caption="COMMENT:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox3" DataField="COMMENT" Left="2250" Top="720" Width="6930" Height="270" Text="COMMENT" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label4" Left="180" Top="2250" Width="1980" Height="270" Caption="CLEARANCE PLANE:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox4" DataField="CLEARANCE-PLANE" Left="2250" Top="2250" Width="2790" Height="270" Text="CLEARANCE-PLANE" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label5" Left="180" Top="2520" Width="1980" Height="270" Caption="RETRACT PLANE:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox5" DataField="RETRACT-PLANE" Left="2250" Top="2520" Width="2790" Height="270" Text="RETRACT-PLANE" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label6" Left="180" Top="2790" Width="1980" Height="270" Caption="FEED PLANE:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox6" DataField="FEED-PLANE" Left="2250" Top="2790" Width="2790" Height="270" Text="FEED-PLANE" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label7" Left="180" Top="3060" Width="1980" Height="270" Caption="DEPTH:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox7" DataField="DEPTH" Left="2250" Top="3060" Width="2790" Height="270" Text="DEPTH" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label8" Left="180" Top="3420" Width="1980" Height="270" Caption="STOCK TO LEAVE:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox8" DataField="STOCK-TO-LEAVE" Left="2250" Top="3420" Width="2790" Height="270" Text="STOCK-TO-LEAVE" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label9" Left="180" Top="1260" Width="1980" Height="270" Caption="PROGRAM NUMBER:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox9" DataField="PROG-NUM" Left="2250" Top="1260" Width="2790" Height="270" Text="PROG-NUM" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Subreport" Name="srpt_TOOL" DataField="TOOL" Tag="TOOL" Left="0" Top="4500" Width="9360" Height="90" ReportName="-Setup Sheet (MILL-TOOL).rpx" />
+      <Control Type="AR.Subreport" Name="srpt_BLOCK" DataField="BLOCK" Tag="BLOCK" Left="0" Top="4500" Width="9360" Height="90" ReportName="-Setup Sheet (BLOCK).rpx" />
+      <Control Type="AR.Field" Name="IMAGE_FILENAME" DataField="IMAGE" Visible="0" Left="5310" Top="4050" Width="3870" Height="270" Text="IMAGE_FILENAME" Multiline="0" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 9.75pt; text-align: center; white-space: nowrap" />
+      <Control Type="AR.Label" Name="IMAGE_NOT_FOUND" BorderLeftStyle="3" BorderTopStyle="3" BorderRightStyle="3" BorderBottomStyle="3" Left="5940" Top="2520" Width="2700" Height="720" Caption="IMAGE NOT AVAILABLE" Style="font-family: Arial Unicode MS; font-size: 8.25pt; text-align: center; vertical-align: middle" />
+      <Control Type="AR.Label" Name="Label1" Left="90" Top="0" Width="2070" Height="270" Caption="OPERATION INFO" Style="font-family: Arial Unicode MS; font-size: 8.25pt; font-style: italic; font-weight: normal" />
+      <Control Type="AR.Line" Name="Line" X1="9270" Y1="270" X2="90" Y2="270" />
+      <Control Type="AR.Label" Name="Label" Left="180" Top="1620" Width="1980" Height="270" Caption="SPINDLE SPEED:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox" DataField="SPINDLE-SPEED" Left="2250" Top="1620" Width="2790" Height="270" Text="SPINDLE-SPEED" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label10" Left="180" Top="1890" Width="1980" Height="270" Caption="FEEDRATE:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox10" DataField="FEEDRATE" Left="2250" Top="1890" Width="2790" Height="270" Text="FEEDRATE" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Image" Name="IMAGE_HOLDER" Left="5220" Top="1170" Width="4050" Height="3240" LineStyle="1" SizeMode="2" />
+      <Control Type="AR.Label" Name="Label11" Left="180" Top="4050" Width="1980" Height="270" Caption="WORK OFFSET:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox11" DataField="OFFSET/NUMBER" Left="2250" Top="4050" Width="2790" Height="270" Text="OFFSET/NUMBER" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Field" Name="TextBox12" DataField="COMP2TIP" Left="2250" Top="3690" Width="2790" Height="270" Text="COMP2TIP" CanGrow="0" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+      <Control Type="AR.Label" Name="Label12" Left="180" Top="3690" Width="1980" Height="270" Caption="COMP TO TIP:" Style="font-family: Arial Unicode MS; font-size: 8.25pt" />
+    </Section>
+  </Sections>
+  <ReportComponentTray />
+  <DataSources>
+    <XmlDataSource FileURL="..\SST\SAMPLES\MILL\SSM.xml" Pattern="//OPERATION" />
+  </DataSources>
+  <Script><![CDATA[public void Detail_Format()
+{
+    string m_machine = ((TextBox)rpt.ParentReport.ParentReport.Sections["Detail"].Controls["Data_NAME"]).Text;
+    string m_file = ((TextBox)rpt.ParentReport.Sections["Detail"].Controls["Data_NAME"]).Text;
+    string m_list = ((Label)rpt.Sections["Detail"].Controls["Data_NAME"]).Text;
+	rpt.Sections["Detail"].AddBookmark (m_machine + "\\" + m_file + "\\" + m_list);
+}]]></Script>
+  <PageSettings />
+  <Parameters />
+</ActiveReportsLayout>

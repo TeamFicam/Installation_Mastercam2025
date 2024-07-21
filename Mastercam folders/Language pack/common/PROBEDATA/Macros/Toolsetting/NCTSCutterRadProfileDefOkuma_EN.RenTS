@@ -1,0 +1,163 @@
+; Renishaw Productivity+ Custom Macro
+; Do NOT remove the preceeding line or this macro will not load
+; Definition File for Non-Contact Toolsetting Cutter Radius Profile Checking
+; Version: 0.01. 
+
+[FileType]
+; Do NOT remove this section or this Custom Macro will not load
+Product		Renishaw Productivity+
+File		Custom Macro
+Version		0.07.002
+
+[MachineType]
+MACHINETYPE OKUMA
+
+[Toolsetting Type]
+"Non Contact"
+
+; Definition File Language - language of displayable text strings in this file
+[Language]
+English
+
+; Existing Menu Item in application that Custom Macro name and its Parent Menu are to appear under
+; FIELD CAN BE OMITTED
+[Existing Menu]
+"Tool setting"
+
+; Parent Menu - used as parent menu item text. 
+; FIELD CAN BE OMITTED
+[Parent Menu]					
+"Non Contact (NC1, NC2, NC4...)"
+
+; Custom Macro Name - used as menu item text. ID MUST BE UNIQUE FOR EACH CUSTOM MACRO!
+; FIELD IS COMPULSORY
+[Custom Macro]
+; Name						ID
+"Profile Check - Radius (Okuma)"	48872
+
+; This field specifies the default name given to a statement of this type
+; The name must NOT include any of the following characters and cannot start with a numeric character
+; {}[]/\:<>@~#-=+()*&^%$£!"`¬|;,.'?
+[Default Statement Name]
+"Profile_Check_Radius"
+
+; Name or Program Number of macro
+[MacroID]
+9865
+
+; Properties - Do not use ID 1
+; Name									ID	Datatype	Default		Range		Category	Output Parameter	Metafile ID (optional)	Help Text			
+[Properties]
+"Checking Type (B)"						20	CHECK_TYPE	3			{NA}		100				CM_B				11050				"Specifies which tolerance profile limit is checked. The cycles specifying no retract move mean the tool does not retract first. These cycles are suitable for performing secondary profile checks on the same tool."				
+
+"Specifiy Number of Cutting Edges (C)"	21	YESNO		NO			{NA}		100				-					11050				"Set to 'Yes' to specify the number of cutting edges."
+"Number of Cutting Edges (C)"			22	INT			1			GE1			100				CM_C				11050				"The number of cutting edges on the tool. The spindle speed is then automatically adjusted to enable errors on each cutting edge to be checked. The cycle time using this method is significantly increased, unless the default feedrate 0.1 mm/rev (0.004 in/rev) is increased. If the input is 1 then the spindle speed is automatically adjusted for a cutter with a single cutting-edge to ensure it is properly checked.  This is also suitable for multiple-tooth cutters, when only the maximum/minimum cutting-edge profile needs to be checked."
+
+"Use Default Feedrate (F)"				23	YESNO		YES			{NA}		100				-					11050				"Use the macro's default value for feedrate per revolution. If specifying the number of cutting edges it is advised to not use the default feedrate to avoid increased cycle times."
+"Feedrate (F)"							24	LINEAR		0.1			GT0			100				CM_F				11050				"Feedrate specified as feed/rev for profile checking."
+
+"Use Default Tolerance (K)"				25	YESNO		YES			{NA}		100				-					11050				"Use the macro's default value for the cutter profile tolerance. Setting the value to 'No' allows a custom value to be input."
+"Tolerance (K)"							26	LINEAR		0.025		{NA}		100				CM_K				11050				"The tolerance value that defines when the cutter profile is out of limits."
+
+"Use Default Spindle Speed (S)"			27	YESNO		YES			{NA}		100				-					11050				"Use the macro's default value for spindle speed. Setting the value to 'No' allows a custom value to be input."
+"Spindle Speed (S)"						28	INT			3150		GT0			100				CM_S				11050				"Spindle speed at which profile checking takes place. This value is used for profile checking when the 'Number of Cutting Edges' has not been specified. Measurement cycles are optimised for a spindle speed of 3150 rev/min, though some tools (e.g. those that are unbalanced or large) must be run at slower speeds. It is responsibility of the User to set the spindle speed accordingly, with the minimum speed being 800 rev/min."
+
+"Use Current Tool Change ID (T)"		29	YESNO		YES			{NA}		100				-					11050				"If this value is set to 'Yes' the current tool change ID is used as the offset location in which the measured tool length is stored. Setting this value to 'No' allows a custom value to be input."
+"Length Offset Number (T)"				30	INT			0			GT0			100				CM_T				11050				"Length Offset Number. This is the offset location in which the measured tool length is stored. The default value is the current tool change ID."
+
+"Prevent Out of Tolerance Alarms (M1)"		31	YESNO	NO			{NA}		100				-					11050				"Tool out of tolerance flag. Setting this value to 'Yes' will not raise an Out of Tolerance alarm, but set a variable flag when tool is out of tolerance."
+"Flag to Prevent Out Of Tol Alarms (M1)"	40	INT		1			GT0:LE999	100				CM_M				11050				"The default value for this function is 1 and does not need to be altered. The Out Of Tol alarm will be prevented and a variable flag set if the tool is out of tolerance."
+
+"Use Default Retract Distance (Z)"		32	YESNO		YES			{NA}		100				-					11050				"Use the macro's default value for the retract distance after profile checking. Set this value to 'No' to specify a custom retract distance."
+"Retract Distance (Z)"					33	LINEAR		0.0			{NA}		100				CM_Z				11050				"The retract distance after profile checking. The tool reference point is retracted to this position."
+
+"Cutter Radius (R)"						34	LINEAR		0			GT0			101				CM_R				11050				"The cutter radius value."
+
+"Linear Distance (X)"					35	LINEAR		0			GE0			101				CM_X				11050				"The linear distance moved tangentially past the cutter radius profile. This value must be >= 0"
+
+"Height (H)"							36	LINEAR		0.0			GE0			101				CM_H				11050				"The height from the tool length offset position to the bottom of the radius profile. The value must be >= 0"
+
+"Start Position (J)"					37	LINEAR		0			GE0			101				CM_J				11050				"The start position adjustment relative to the cutter radius centre for profile checking."
+
+"Angle of Cutter Radius (Q)"			38	DOUBLE		0			GE0:LE90	101				CM_Q				11050				"Included angle of the cutter radius.  The value must be >= 0 degrees and <= 90 degrees."
+
+"Radial Distance (Y)"					39	LINEAR		0			GE0			101				CM_Y				11050				"The radial distance to the cutter radius centre. The value must be >= 0"
+
+
+[Visibility]
+
+PROPERTIES	22
+CTRL_PROPS		21 ("Specify Number of Cutting Edges")
+CTRL_VALUES		2 ("YES")
+
+PROPERTIES	27
+CTRL_PROPS		21 ("Specify Number of Cutting Edges")
+CTRL_VALUES		2 ("YES")
+
+PROPERTIES	28
+CTRL_PROPS		21 ("Specify Number of Cutting Edges")
+CTRL_VALUES		2 ("YES")
+
+;	PROPERTIES	23
+;	CTRL_PROPS		24 ("Use Default Feedrate")
+;	CTRL_VALUES		1 ("NO")
+
+PROPERTIES	26
+CTRL_PROPS		25 ("Use Default Tolerance")
+CTRL_VALUES		1 ("NO")
+
+PROPERTIES	28
+CTRL_PROPS		27 ("Use Default Spindle Speed")
+CTRL_VALUES		1 ("NO")
+
+PROPERTIES	24
+CTRL_PROPS		23 ("Use Default Feedrate")
+CTRL_VALUES		1 ("NO")
+
+PROPERTIES	30
+CTRL_PROPS		29 ("Use Current Tool Change ID")
+CTRL_VALUES		1 ("NO")
+
+PROPERTIES	33
+CTRL_PROPS		32 ("Use Default Retract Distance")
+CTRL_VALUES		1 ("NO")
+
+PROPERTIES	40
+CTRL_PROPS		31 ("Prevent Out of Tolerance Alarms (M1)")
+CTRL_VALUES		2 ("YES")
+
+
+[Enums]
+; ENUM_NAME - name of enum set
+; ENUM_ITEM - item text, ID and index
+; N.B. When post processing, the selected enum item ID will be outputted with the Output Parameter.
+;	e.g.	enum type			: YESNO
+;			selected enum item	: YES
+;			enum item value		: 1
+;			Output Parameter	: CM_B
+;			Output				= B1
+;													ID		Index (order in which they will appear)
+ENUM_NAME	CHECK_TYPE
+ENUM_ITEM	"Negative Profile"						1		2
+ENUM_ITEM	"Positive Profile"						2		1
+ENUM_ITEM	"Combined Profile"						3		0	
+ENUM_ITEM	"Negative Profile - No Retract"			4		4
+ENUM_ITEM	"Positive Profile - No Retract"			5		5
+ENUM_ITEM	"Combined Profile - No Retract"			6		3
+
+ENUM_NAME	TOL_ALARM						
+ENUM_ITEM	"Yes"									0		0
+ENUM_ITEM	"No"									1		1
+
+[Categories]
+; Name							ID
+"Nominals"						100
+"Tool Profile"					101
+
+[Resources]
+; File name of resource DLL containing metafiles (optional)
+PP_tsToolSettingRes.dll
+
+; The post processor section to call when post processing occurs
+[Post Section]
+TOOLSETTING_CUSTOMMACRO

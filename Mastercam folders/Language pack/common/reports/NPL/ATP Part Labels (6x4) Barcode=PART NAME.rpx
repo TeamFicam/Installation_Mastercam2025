@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.1" PrintWidth="8655" DocumentName="ActiveReports Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-family: Arial; font-style: normal; font-variant: inherit; font-weight: normal; font-size: 10pt; font-size-adjust: inherit; font-stretch: inherit; color: rgb(0,0,0); background-repeat: inherit; background-attachment: inherit; opacity: inherit; word-spacing: inherit; letter-spacing: inherit; text-decoration: none; vertical-align: inherit; text-transform: inherit; text-align: inherit; text-indent: inherit; unicode-bidi: inherit; line-height: inherit; white-space: inherit; ddo-char-set: 0" />
+    <Style Name="Heading1" Value="font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: bold; font-size: 16pt; font-size-adjust: inherit; font-stretch: inherit" />
+    <Style Name="Heading2" Value="font-family: Times New Roman; font-style: italic; font-variant: inherit; font-weight: bold; font-size: 14pt; font-size-adjust: inherit; font-stretch: inherit" />
+    <Style Name="Heading3" Value="font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: bold; font-size: 13pt; font-size-adjust: inherit; font-stretch: inherit" />
+  </StyleSheet>
+  <Sections>
+    <Section Type="Detail" Name="Detail" Height="5774" BackColor="16777215" KeepTogether="1">
+      <Control Type="AR.Label" Name="Label_NAME" Left="0" Top="90" Width="2160" Height="270" Caption="Name:" Style="font-weight: bold" />
+      <Control Type="AR.Label" Name="Label_WIDTH" Left="0" Top="900" Width="2160" Height="270.72" Caption="Width:" Style="font-weight: bold" />
+      <Control Type="AR.Label" Name="Label_LENGTH" Left="0" Top="630" Width="2160" Height="270.72" Caption="Length:" Style="font-weight: bold" />
+      <Control Type="AR.Label" Name="Label_MIN_QTY" Left="0" Top="1170" Width="2160" Height="270.72" Caption="Minimum Quantity:" Style="font-weight: bold" />
+      <Control Type="AR.Label" Name="lblUnitNumber" Left="0" Top="1440" Width="2160" Height="270.72" Caption="Unit Number:" Style="font-weight: bold" />
+      <Control Type="AR.Label" Name="Label_LABEL" Left="0" Top="360" Width="2160" Height="270" Caption="Label:" Style="font-weight: bold" />
+      <Control Type="AR.Field" Name="txtPartName" DataField="PART-NAME" Left="2250" Top="90" Width="2610" Height="288" Text="PART-NAME" Multiline="0" CanGrow="0" Style="white-space: nowrap" />
+      <Control Type="AR.Field" Name="txtLableID" DataField="PART-ID" Left="2250" Top="360" Width="2610" Height="288" Text="PART-ID" Multiline="0" CanGrow="0" Style="white-space: nowrap" />
+      <Control Type="AR.Field" Name="txtLength" DataField="PART-LENGTH" Left="2250" Top="630" Width="2610" Height="288" Text="PART-LENGTH" Multiline="0" CanGrow="0" Style="white-space: nowrap" />
+      <Control Type="AR.Field" Name="txtWidth" DataField="PART-WIDTH" Left="2250" Top="900" Width="2610" Height="288" Text="PART-WIDTH" Multiline="0" CanGrow="0" Style="white-space: nowrap" />
+      <Control Type="AR.Field" Name="txtQuantity" DataField="PART-QUANTITY" Left="2250" Top="1170" Width="2610" Height="288" Text="PART-QUANTITY" Multiline="0" CanGrow="0" Style="white-space: nowrap" />
+      <Control Type="AR.Field" Name="txtUnitNumber" DataField="PART-UNIT-NUMBER" Left="2250" Top="1440" Width="2610" Height="288" Text="PART-UNIT-NUMBER" Multiline="0" CanGrow="0" Style="white-space: nowrap" />
+      <Control Type="AR.Label" Name="lblMaterial" Left="0" Top="1717.5" Width="2160" Height="270.72" Caption="Material:" Style="font-weight: bold" />
+      <Control Type="AR.Field" Name="TextBox7" DataField="../../SHEET-MATERIAL" Left="2250" Top="1717.5" Width="2610" Height="288" Text="../../SHEET-MATERIAL" Multiline="0" CanGrow="0" Style="white-space: nowrap" />
+      <Control Type="AR.Label" Name="lblInvoice" Left="4950" Top="90" Width="1440" Height="270" Caption="Invoice:" Style="font-weight: bold" />
+      <Control Type="AR.Label" Name="lblOrderDate" Left="4950" Top="360" Width="1440" Height="270" Caption="Order Date:" Style="font-weight: bold" />
+      <Control Type="AR.Label" Name="lblDueDate" Left="4950" Top="630" Width="1440" Height="270.72" Caption="Due Date:" Style="font-weight: bold" />
+      <Control Type="AR.Barcode" Name="Barcode" DataField="PART-NAME" Left="4860" Top="4950" Width="3240" Height="720" BarStyle="6" Text="PART-NAME" CaptionPos="1" AutoSize="0" CODE128="0;0;0" />
+      <Control Type="AR.Image" Name="IMAGE_HOLDER" Left="4320" Top="2070" Width="4140" Height="2790" LineColor="16777215" LineWeight="0" SizeMode="2" />
+      <Control Type="AR.Field" Name="IMAGE_FILENAME" DataField="PART-IMAGE" Visible="0" Left="3510" Top="2430" Width="4950" Height="288" Text="IMAGE_FILENAME" Style="white-space: inherit" />
+      <Control Type="AR.Field" Name="txtSheetName" DataField="../../NAME" Left="90" Top="2070" Width="4230" Height="288" Text="../../NAME" Style="font-size: 10pt; font-style: normal; font-weight: bold; text-align: center; ddo-char-set: 1" />
+      <Control Type="AR.Field" Name="txtInvoice" DataField="../../../../JOB/INVOICE-NUMBER" Left="6480" Top="90" Width="2070" Height="288" Text="../../../../JOB/INVOICE-NUMBER" Multiline="0" CanGrow="0" Style="white-space: nowrap" />
+      <Control Type="AR.Field" Name="TextBox8" DataField="../../../../JOB/DUE-DATE" Left="6480" Top="630" Width="2070" Height="288" Text="../../../../JOB/DUE-DATE" Multiline="0" CanGrow="0" Style="white-space: nowrap" />
+      <Control Type="AR.Field" Name="TextBox9" DataField="../../../../JOB/ORDER-DATE" Left="6480" Top="360" Width="2070" Height="288" Text="../../../../JOB/ORDER-DATE" Multiline="0" CanGrow="0" Style="white-space: nowrap" />
+      <Control Type="AR.Field" Name="txtHeading1" DataField="../../../../JOB/HEADING-1" Left="0" Top="2700" Width="4230" Height="288" Text="../../../../JOB/HEADING-1" Multiline="0" CanGrow="0" Style="white-space: nowrap" />
+      <Control Type="AR.Field" Name="txtHeading2" DataField="../../../../JOB/HEADING-2" Left="0" Top="2970" Width="4230" Height="288" Text="../../../../JOB/HEADING-2" Multiline="0" CanGrow="0" Style="white-space: nowrap" />
+      <Control Type="AR.Field" Name="txtHeading3" DataField="../../../../JOB/HEADING-3" Left="0" Top="3240" Width="4230" Height="288" Text="../../../../JOB/HEADING-3" Multiline="0" CanGrow="0" Style="white-space: nowrap" />
+      <Control Type="AR.Field" Name="txtHeading4" DataField="../../../../JOB/HEADING-4" Left="0" Top="3510" Width="4230" Height="288" Text="../../../../JOB/HEADING-4" Multiline="0" CanGrow="0" Style="white-space: nowrap" />
+      <Control Type="AR.Field" Name="txtHeading5" DataField="../../../../JOB/HEADING-5" Left="0" Top="3780" Width="4230" Height="288" Text="../../../../JOB/HEADING-5" Multiline="0" CanGrow="0" Style="white-space: nowrap" />
+      <Control Type="AR.Label" Name="Label1" Left="0" Top="4050" Width="4230" Height="1170" Caption="" />
+      <Control Type="AR.Label" Name="IMAGE_NOT_FOUND" BorderLeftStyle="3" BorderTopStyle="3" BorderRightStyle="3" BorderBottomStyle="3" Left="5400" Top="3420" Width="2160" Height="360" Caption="IMAGE NOT FOUND" Style="text-align: center; vertical-align: middle" />
+      <Control Type="AR.Label" Name="Label4" Left="7290.721" Top="1457.28" Width="468.0008" Height="270.72" Caption="of" Style="font-weight: bold; text-align: center" />
+      <Control Type="AR.Field" Name="TextBox4" DataField="../../LABELS/LABEL/PART-LABEL-SHT2" Left="7774.56" Top="1169.28" Width="774.7204" Height="270.72" Text="PART-LABEL-SHT2" Multiline="0" CanGrow="0" Style="white-space: nowrap" />
+      <Control Type="AR.Label" Name="Label3" Left="4947.84" Top="1457.28" Width="1440" Height="270.72" Caption="Label # (JOB):" Style="font-weight: bold" />
+      <Control Type="AR.Field" Name="TextBox2" DataField="../../LABELS/LABEL/PART-LABEL-JOB1" Left="6477.84" Top="1457.28" Width="774.0009" Height="270.72" Text="PART-LABEL-JOB1" Multiline="0" CanGrow="0" Style="text-align: right; white-space: nowrap" />
+      <Control Type="AR.Label" Name="Label5" Left="7290.721" Top="1169.28" Width="468.0008" Height="270.72" Caption="of" Style="font-weight: bold; text-align: center" />
+      <Control Type="AR.Field" Name="TextBox1" DataField="../../LABELS/LABEL/PART-LABEL-SHT1" Left="6478.561" Top="1170.72" Width="774.7205" Height="270.72" Text="PART-LABEL-SHT1" Multiline="0" CanGrow="0" Style="text-align: right; white-space: nowrap" />
+      <Control Type="AR.Label" Name="Label2" Left="4947.84" Top="1170.72" Width="1440" Height="270.72" Caption="Label # (SHT):" Style="font-weight: bold" />
+      <Control Type="AR.Field" Name="TextBox3" DataField="../../LABELS/LABEL/PART-LABEL-JOB2" Left="7774.56" Top="1457.28" Width="774.7204" Height="270.72" Text="PART-LABEL-JOB2" Multiline="0" CanGrow="0" Style="white-space: nowrap" />
+    </Section>
+  </Sections>
+  <ReportComponentTray />
+  <DataSources>
+    <XmlDataSource FileURL="..\XML\Nesting.xml" Pattern="//NESTING/SHEETRESULT/SHEETS/SHEET/PARTS/PART" />
+  </DataSources>
+  <PageSettings />
+  <Parameters />
+</ActiveReportsLayout>

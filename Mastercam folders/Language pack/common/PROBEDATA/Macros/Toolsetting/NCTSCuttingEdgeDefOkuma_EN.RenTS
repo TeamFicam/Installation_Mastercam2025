@@ -1,0 +1,147 @@
+; Renishaw Productivity+ Custom Macro
+; Do NOT remove the preceeding line or this macro will not load
+; Definition File for Non-Contact Toolsetting Tool Cutting Edge Checking
+; Version: 0.01.
+
+[FileType]
+; Do NOT remove this section or this Custom Macro will not load
+Product		Renishaw Productivity+
+File		Custom Macro
+Version		0.07.002
+
+[MachineType]
+MACHINETYPE OKUMA
+
+[Toolsetting Type]
+"Non Contact"
+
+; Definition File Language - language of displayable text strings in this file
+[Language]
+English
+
+; Existing Menu Item in application that Custom Macro name and its Parent Menu are to appear under
+; FIELD CAN BE OMITTED
+[Existing Menu]
+"Tool setting"
+
+; Parent Menu - used as parent menu item text 
+; FIELD CAN BE OMITTED
+[Parent Menu]
+"Non Contact (NC1, NC2, NC4...)"
+
+; Custom Macro Name - used as menu item text. ID MUST BE UNIQUE FOR EACH CUSTOM MACRO!
+; FIELD IS COMPULSORY
+[Custom Macro]
+; Name									ID
+"Cutting Edge (Okuma)"							48875
+
+; This field specifies the default name given to a statement of this type
+; The name must NOT include any of the following characters and cannot start with a numeric character
+; {}[]/\:<>@~#-=+()*&^%$£!"`¬|;,.'?
+[Default Statement Name]
+"Cut_Edge_Check"
+
+; Name or Program Number of macro
+[MacroID]
+9862
+
+; Properties - Do not use ID 1
+; Name									ID	Datatype	Default		Range		Category	Output Parameter	Metafile ID (optional)	Help Text			
+[Properties]
+"Measurement Type (B)"					20	MEAS_TYPE	4			{NA}		100				CM_B				11054				"Type of Measurement to perform."
+
+"Number of Teeth (C)"					21	INT			0			GE1			100				CM_C				11054				"The number of teeth on the tool."
+
+"Prevent Out of Tolerance Alarms (M1)"		23	YESNO	NO			{NA}		100				-					11054				"Tool out of tolerance flag. Setting this value to 'Yes' will not raise an Out of Tolerance alarm, but set a variable flag when tool is out of tolerance."
+"Flag to Prevent Out Of Tol Alarms (M1)"	39	INT		1			GT0:LE999	100				CM_M				11054				"The default value for this function is 1 and does not need to be altered. The Out Of Tol alarm will be prevented and a variable flag set if the tool is out of tolerance."
+
+"Use Current Tool Change ID (D)"			24	YESNO		YES			{NA}		100				-					11054				"When this value is set to 'Yes' the current tool change ID is used as the Diameter Offset Number. When set to 'No' you can specfy a Diameter Offset number."
+"Tool Diameter Offset Number (D)"		25	INT			-			GT0:LE999	100				CM_D				11054				"Diameter Offset Number. This is the offset location in which the measured tool diameter/radius is stored."
+
+"Use Default Runout Tolerance (K)"		26	YESNO		YES			{NA}		100				-					11054				"Setting this value to 'Yes' will use the macro's default value."
+"Cutting Edge Run-out Tolerance (K)"	27	LINEAR		0.025		{NA}		100				CM_K				11054				"The tolerance value that defines when the tool cutting edge run-out is excessive."
+
+"Use Default Overtravel Distance (Q)"	28	YESNO		YES			{NA}		100				-					11054				"Use the toolsetting macro's default value for Overtravel Distance. Set this value to 'No' to specify a custom Overtravel Distance."
+"Overtravel Distance (Q)"				29	LINEAR		5.0			{NA}		100				CM_Q				11054				"Overtravel distance is the distance through the beam that the tool is permitted to move before a Beam Not Cut alarm is initiated."
+
+"Use Default Spindle Speed (S)"			30	YESNO		YES			{NA}		100				-					11054				"Use the toolsetting macro's default value for Spindle Speed. Set this value to 'No' to specify a custom Spindle Speed."
+"Spindle Speed (S)"						31	INT			3150		GT0			100				CM_S				11054				"Spindle speed at which length/diameter measurement takes place. The spindle speed for cutting edge checking is set automatically and is based on the minimum pulse signal delay of the control and the number of teeth on the tool. Measurement cycles are optimised for a spindle speed of 3150 rev/min, though some tools (e.g. those that are unbalanced or large) must be run at slower speeds. It is responsibility of the User to set the spindle speed accordingly, with the minimum speed being 800 rev/min."
+
+"Specify Tool Diameter (R)"				32	YESNO		NO			{NA}		100				-					11054				"If this is set to 'No' then the maximum tool diameter value is used."
+"Tool Diameter (R)"						33	LINEAR		-			GT0 		100				CM_R				11054				"This is the nominal diameter of the tool."
+
+"Use Default Measuring Height (Z)"		34	YESNO		YES			{NA}		100				-					11054				"Use the toolsetting macro's default value for the height at which a tool is measured. Setting this value to 'No' allows a height to be specified."
+"Measuring Height (Z)"					35	LINEAR		5.0			{NA}		100				CM_Z				11054				"Measuring height of tool. This is the Z-axis position from the end face of the tool at which measurement takes place."
+
+"Perform Cylinder Profile Check (X)"	22	YESNO		NO			{NA}		100				-					11054				"Is the value is set to 'Yes' Cylinder Profile Checking will be performed."
+"Cylinder Profile Distance (X)"			36	LINEAR		0.0			{NA}		101				CM_X				11054				"Cylinder profile checking distance, i.e. the spindle axis movement, while edge checking. The value is incremental from the Z input radial measuring position. It is used in conjunction with the F input feed rate."
+"Use Default Feedrate Per Rev (F)"		37	YESNO		YES			{NA}		101				-					11054				"Use the toolsetting macro's default value for Feedrate Per Rev. If this is set to 'No' you can specify a feedrate."
+"Feedrate per rev (F)"					38	DOUBLE		0.1			GT0			101				CM_F				11054				"Feedrate per revolution for cylinder profile checking when using the X input."
+
+[Visibility]
+
+PROPERTIES	25
+CTRL_PROPS		24 ("Use Current Tool Change ID")
+CTRL_VALUES		1 ("NO")
+
+PROPERTIES	27
+CTRL_PROPS		26 ("Use Default Runout Tolerance")
+CTRL_VALUES		1 ("NO")
+
+PROPERTIES	29
+CTRL_PROPS		28 ("Use Default Overtravel Distance")
+CTRL_VALUES		1 ("NO")
+
+PROPERTIES	31
+CTRL_PROPS		30 ("Use Default Spindle Speed")
+CTRL_VALUES		1 ("NO")
+
+PROPERTIES	33
+CTRL_PROPS		32 ("Specify Tool Diameter")
+CTRL_VALUES		2 ("YES")
+
+PROPERTIES	35
+CTRL_PROPS		34 ("Use Default Measuring Height")
+CTRL_VALUES		1 ("NO")
+
+PROPERTIES	38
+CTRL_PROPS		37 ("Use Default Feedrate Per Rev")
+CTRL_VALUES		1 ("NO")
+
+PROPERTIES	39
+CTRL_PROPS		23 ("Prevent Out of Tolerance Alarms (M1)")
+CTRL_VALUES		2 ("YES")
+
+PROPERTIES	101
+CTRL_PROPS		22 ("Perform Cylinder Profile Check")
+CTRL_VALUES		2 ("YES")
+
+[Enums]
+; N.B. When post processing, the selected enum item ID will be outputted with the Output Parameter.
+;	e.g.	enum type			: YESNO
+;			selected enum item	: YES
+;			enum item value		: 1
+;			Output Parameter	: CM_B
+;			Output				= B1
+;													ID		Index (order in which they will appear)
+ENUM_NAME		MEAS_TYPE						
+ENUM_ITEM		"Tool Radius"						2		0
+ENUM_ITEM		"Tool Length and Radius"			3		1
+ENUM_ITEM		"Cutting Edge Without Update"		4		2
+
+ENUM_NAME		TOL_ALARM						
+ENUM_ITEM		"Yes"								0		0
+ENUM_ITEM		"No"								1		1
+
+[Categories]
+; Name							ID
+"Macro Parameters"				100
+"Cylinder Profile Checking"		101
+
+[Resources]
+; File name of resource DLL containing metafiles (optional)
+PP_tsToolSettingRes.dll
+
+; The post processor section to call when post processing occurs
+[Post Section]
+TOOLSETTING_CUSTOMMACRO
