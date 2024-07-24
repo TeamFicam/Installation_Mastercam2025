@@ -1,0 +1,14 @@
+APPLICATION "Mastercam"
+
+# Point to the locations of your function and resource libraries.
+FUNC_DLL "SignaturePartsBrowser\SignaturePartsBrowser.dll"
+RES_DLL  "SAME"
+
+CATEGORY 3
+
+FUNCTION CPP "SignaturePartsBrowserEntry"
+ TIP  1
+ SPNG 18001
+ LPNG 18002
+ FCAT "Signature Parts"
+END_FUNCTION
