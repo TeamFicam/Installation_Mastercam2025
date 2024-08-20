@@ -1,0 +1,25 @@
+DROPDOWN START 1 "GView"
+FUNCTION Mastercam OnViewBack
+FUNCTION Mastercam OnViewLeft
+FUNCTION Mastercam OnViewBottom
+FUNCTION Mastercam OnViewIsoRev
+FUNCTION Mastercam OnViewTrimetric
+DROPDOWN END
+DROPDOWN START 0 "Right mouse button menu"
+FUNCTION Mastercam OnScreenZoom
+FUNCTION Mastercam OnScreenUnzoom
+FUNCTION Mastercam OnViewDynamicRotation
+FUNCTION Mastercam OnScreenFit
+SEPARATOR
+FUNCTION Mastercam OnViewTop
+FUNCTION Mastercam OnViewFront
+FUNCTION Mastercam OnViewRight
+FUNCTION Mastercam OnViewIsometric
+DDCOMMAND 1
+FUNCTION Mastercam OnPlanesQuickCplane
+SEPARATOR
+FUNCTION Mastercam delete_entities
+SEPARATOR
+FUNCTION Mastercam AnalyzeBtwnPtStart
+FUNCTION Mastercam AnalyzeStart
+DROPDOWN END
