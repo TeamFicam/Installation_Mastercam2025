@@ -13,11 +13,11 @@
           "Microsoft.Extensions.Hosting": "6.0.1",
           "Microsoft.WindowsAppSDK": "1.4.231008000",
           "Microsoft.Xaml.Behaviors.WinUI.Managed": "2.0.9",
-          "Octokit": "13.0.1",
+          "Newtonsoft.Json": "13.0.2",
           "VerifyUpdate.Core": "1.0.0",
-          "WinUIEx": "2.3.4",
+          "WinUIEx": "2.3.2",
           "runtimepack.Microsoft.NETCore.App.Runtime.win-x64": "7.0.20",
-          "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.31"
+          "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.34"
         },
         "runtime": {
           "VerifyUpdate.dll": {}
@@ -743,15 +743,15 @@
           }
         }
       },
-      "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.31": {
+      "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.34": {
         "runtime": {
           "Microsoft.Windows.SDK.NET.dll": {
             "assemblyVersion": "10.0.19041.24",
-            "fileVersion": "10.0.19041.31"
+            "fileVersion": "10.0.19041.34"
           },
           "WinRT.Runtime.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.0.4.44211"
+            "fileVersion": "2.0.8.46841"
           }
         }
       },
@@ -1193,14 +1193,6 @@
           }
         }
       },
-      "Octokit/13.0.1": {
-        "runtime": {
-          "lib/netstandard2.0/Octokit.dll": {
-            "assemblyVersion": "13.0.1.0",
-            "fileVersion": "13.0.1.0"
-          }
-        }
-      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
@@ -1230,14 +1222,14 @@
           "System.Text.Encodings.Web": "6.0.0"
         }
       },
-      "WinUIEx/2.3.4": {
+      "WinUIEx/2.3.2": {
         "dependencies": {
           "Microsoft.WindowsAppSDK": "1.4.231008000"
         },
         "runtime": {
           "lib/net6.0-windows10.0.18362/WinUIEx.dll": {
-            "assemblyVersion": "2.3.4.0",
-            "fileVersion": "2.3.4.0"
+            "assemblyVersion": "2.3.2.0",
+            "fileVersion": "2.3.2.0"
           }
         }
       },
@@ -1246,7 +1238,10 @@
           "Newtonsoft.Json": "13.0.2"
         },
         "runtime": {
-          "VerifyUpdate.Core.dll": {}
+          "VerifyUpdate.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -1262,7 +1257,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.31": {
+    "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.34": {
       "type": "runtimepack",
       "serviceable": false,
       "sha512": ""
@@ -1477,13 +1472,6 @@
       "path": "newtonsoft.json/13.0.2",
       "hashPath": "newtonsoft.json.13.0.2.nupkg.sha512"
     },
-    "Octokit/13.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-tjXTa2FXzbd3n17VWpi8UXe05EIJqHcWJW8C2kukftIve00duWiZL8x4i1vlZQ0zQ4RbRANbRc7J5K7Co/1spQ==",
-      "path": "octokit/13.0.1",
-      "hashPath": "octokit.13.0.1.nupkg.sha512"
-    },
     "System.Diagnostics.DiagnosticSource/6.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1519,12 +1507,12 @@
       "path": "system.text.json/6.0.0",
       "hashPath": "system.text.json.6.0.0.nupkg.sha512"
     },
-    "WinUIEx/2.3.4": {
+    "WinUIEx/2.3.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-wtptPKduMiTjfVhTQAcA7PHvY6NTAEkDj5zvW+4QbHg1YdUv8NFAU9CSH37OXBkBlHrsuyDIoHuF7xAMR8iqJw==",
-      "path": "winuiex/2.3.4",
-      "hashPath": "winuiex.2.3.4.nupkg.sha512"
+      "sha512": "sha512-YOUIU6k1psJC5JPn+TGh3NO8ZBlmCA8okhCgaG5BE04die0cjt53pwdzBC/42e/SNtOYybVMSUWF4cwPBHg8Bg==",
+      "path": "winuiex/2.3.2",
+      "hashPath": "winuiex.2.3.2.nupkg.sha512"
     },
     "VerifyUpdate.Core/1.0.0": {
       "type": "project",
