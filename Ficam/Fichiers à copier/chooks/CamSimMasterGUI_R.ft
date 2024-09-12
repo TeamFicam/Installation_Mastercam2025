@@ -1,0 +1,42 @@
+﻿###############################################################################
+# NETHook function table			
+###############################################################################
+#
+# Name		: CamSimMasterGUI_beta.ft
+# NETHook 	: CamSimMasterGUI_beta.dll
+# Date		: mai 18, 2022
+# Author	: cprov
+# Notes		: Contact sdk@mastercam.com for additional assistance.  
+#             Attention: Mick George
+# Language	: C#
+#
+###############################################################################
+
+
+######################
+# ASSIGN A UNIQUE NAME
+######################
+APPLICATION "_CamSimMasterGUI_R_"
+
+######################
+# NETHook LOCATION
+######################
+#
+FUNC_DLL   "CHOOKS\CamSimMasterGUI_R.dll"
+RES_DLL    "SAME"
+dnRES_NAME "CamSimMasterGUI.Resources.FunctionTable.NETHook"
+CATEGORY   "NET-Hook Add-In"
+
+##############################################################################
+# Public functions here
+##############################################################################
+#
+
+FUNCTION NET "Run"
+    dnSPNG "Run16"
+    dnLPNG "Run32"
+    dnTIP  "Run"
+END_FUNCTION
+
+#
+# EOF
