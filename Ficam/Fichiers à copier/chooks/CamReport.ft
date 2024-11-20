@@ -1,0 +1,42 @@
+﻿###############################################################################
+# NETHook function table			
+###############################################################################
+#
+# Name		: CamReport.ft
+# NETHook 	: CamReport.dll
+# Date		: janvier 07, 2021
+# Author	: cedric
+# Notes		: Contact sdk@mastercam.com for additional assistance.  
+#             Attention: Mick George
+# Language	: C#
+#
+###############################################################################
+
+
+######################
+# ASSIGN A UNIQUE NAME
+######################
+APPLICATION "_CamReport_"
+
+######################
+# NETHook LOCATION
+######################
+#
+FUNC_DLL   "CHOOKS\CamReport.dll"
+RES_DLL    "SAME"
+dnRES_NAME "CamReport.Resources.FunctionTable.NETHook"
+CATEGORY   "NET-Hook Add-In"
+
+##############################################################################
+# Public functions here
+##############################################################################
+#
+
+FUNCTION NET "Run"
+    dnSPNG "Run16"
+    dnLPNG "Run32"
+    dnTIP  "Run"
+END_FUNCTION
+
+#
+# EOF

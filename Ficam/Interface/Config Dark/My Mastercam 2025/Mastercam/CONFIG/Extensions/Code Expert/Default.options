@@ -1,0 +1,344 @@
+<?xml version="1.0"?>
+<Options xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn://Mastercam/Options">
+  <Option Id="cf905d38-e975-47df-8750-e9e1ab7595ac" ValueSource="AllDocuments.AreLineModificationMarksVisible">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+  <Option Id="289a4fff-3fa0-483b-bd0d-9d824de9c786" ValueSource="AllDocuments.AreWordWrapGlyphsVisible">
+    <Value xsi:type="xsd:boolean">false</Value>
+  </Option>
+  <Option Id="29c61fe8-c387-4cfd-8675-fa99445f74ba" ValueSource="AllDocuments.CanCutCopyBlankLineWhenNoSelection">
+    <Value xsi:type="xsd:boolean">false</Value>
+  </Option>
+  <Option Id="c838449f-6c49-47a5-b412-1501b597beb5" ValueSource="AllDocuments.CanCutCopyDragWithRtf">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+  <Option Id="7b8343ce-94b3-498d-b4e0-e947e872eebc" ValueSource="AllDocuments.CanCutCopyDragWithHtml">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+  <Option Id="68d4c0e9-c252-4a44-a36e-c04fac96e8d7" ValueSource="AllDocuments.CanScrollPastDocumentEnd">
+    <Value xsi:type="xsd:boolean">false</Value>
+  </Option>
+  <Option Id="4be8a77f-88b1-4b3c-a1a6-887019bcbb52" ValueSource="AllDocuments.IsWhitespaceVisible">
+    <Value xsi:type="xsd:boolean">false</Value>
+  </Option>
+  <Option Id="c911cbaa-7815-4634-807a-9541928cb5c0" ValueSource="AllDocuments.IsCurrentLineHighlightingEnabled">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+  <Option Id="4d776ccd-b5c6-4a99-b0a4-e737fa295571" ValueSource="AllDocuments.WordWrapMode">
+    <Value xsi:type="Enum">
+      <Value>None</Value>
+    </Value>
+  </Option>
+  <Option Id="ce1df9b9-fd63-4659-9734-359522e29099" ValueSource="AllDocuments.ScrollToCaretOnSelectAll">
+    <Value xsi:type="xsd:boolean">false</Value>
+  </Option>
+  <Option Id="efb64358-9547-43fc-a6f2-d03d2c58ab05" ValueSource="AllDocuments.AutoConvertTabsToSpaces">
+    <Value xsi:type="xsd:boolean">false</Value>
+  </Option>
+  <Option Id="a2fa6fcb-d3cf-413f-9e80-e38afbeccc39" ValueSource="AllDocuments.WhitespaceTrimModes">
+    <Value xsi:type="Enum">
+      <Value>None</Value>
+    </Value>
+  </Option>
+  <Option Id="1e3e9513-f2ab-4916-804c-264cda303fc7" ValueSource="AllDocuments.IsSelectionMarginVisible">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+  <Option Id="c74791bf-b902-468e-9e73-9bec98f55bca" ValueSource="AllDocuments.IsIndicatorMarginVisible">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+  <Option Id="47dfcf53-1065-4506-89bb-1425bd3faeb0" ValueSource="AllDocuments.IsLineNumberMarginVisible">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+  <Option Id="20e578fb-00eb-4299-98b8-393510adedce" ValueSource="AllDocuments.IsRulerMarginVisible">
+    <Value xsi:type="xsd:boolean">false</Value>
+  </Option>
+  <Option Id="02b05eb8-cdac-4e5c-ae15-536799d93f1b" ValueSource="AllDocuments.DefaultEncoding">
+    <Value xsi:type="xsd:int">-1</Value>
+  </Option>
+  <Option Id="e719128d-6e33-4708-9557-1c756505b555" ValueSource="InterfaceColors.Foreground">
+    <Value xsi:type="Color">
+      <A>255</A>
+      <R>0</R>
+      <G>0</G>
+      <B>0</B>
+    </Value>
+  </Option>
+  <Option Id="22ce8dbd-f563-4a48-ae4e-432834dfcc94" ValueSource="InterfaceColors.Background">
+    <Value xsi:type="Color">
+      <A>255</A>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </Value>
+  </Option>
+  <Option Id="6629bb96-0fd6-46cc-9730-97b250db99e0" ValueSource="InterfaceColors.ReadOnlyBackground">
+    <Value xsi:type="Color">
+      <A>255</A>
+      <R>175</R>
+      <G>175</G>
+      <B>175</B>
+    </Value>
+  </Option>
+  <Option Id="44ecbc30-19ef-4d02-a7fc-efacbf712d36" ValueSource="InterfaceColors.SelectionMarginBackground">
+    <Value xsi:type="Color">
+      <A>255</A>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </Value>
+  </Option>
+  <Option Id="409607e0-81b4-4a6b-b4ea-efedd97eb925" ValueSource="InterfaceColors.OutliningMarginBackground">
+    <Value xsi:type="Color">
+      <A>255</A>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </Value>
+  </Option>
+  <Option Id="dd5feace-2b90-4882-9e09-5fe395967887" ValueSource="InterfaceColors.CaretBrush">
+    <Value xsi:type="Color">
+      <A>255</A>
+      <R>0</R>
+      <G>0</G>
+      <B>0</B>
+    </Value>
+  </Option>
+  <Option Id="7751961d-7e2b-47f4-9c13-4c1d9b08a037" ValueSource="InterfaceColors.SelectionBackgroundActive">
+    <Value xsi:type="Color">
+      <A>255</A>
+      <R>204</R>
+      <G>204</G>
+      <B>204</B>
+    </Value>
+  </Option>
+  <Option Id="f7afdff3-b472-43d4-9587-462997d2ba9b" ValueSource="InterfaceColors.InactiveSelectionBackground">
+    <Value xsi:type="Color">
+      <A>255</A>
+      <R>245</R>
+      <G>222</G>
+      <B>179</B>
+    </Value>
+  </Option>
+  <Option Id="ad9662ed-a8cd-40e0-a89f-f0deee59bbbe" ValueSource="NCFileExtensions.Extensions">
+    <Value xsi:type="xsd:string" />
+  </Option>
+  <Option Id="6c00d956-2f8f-4abe-a401-9148396965e1" ValueSource="CommunicationsOptions.Communications">
+    <Value xsi:type="xsd:string">C:\Program Files\Mastercam 2025\common\Editors\CIMCOEdit\CimcoDNC.exe</Value>
+  </Option>
+  <Option Id="18f0d3f1-caee-42eb-ac42-1ae5d9af7c54" ValueSource="CommunicationsOptions.SendSwitch">
+    <Value xsi:type="xsd:string">/transmit</Value>
+  </Option>
+  <Option Id="fac34e39-3c62-4eef-9f23-98f584d5025b" ValueSource="CommunicationsOptions.ReceiveSwitch" />
+  <Option Id="44056524-f842-41d4-aa79-c6234ae66191" ValueSource="NCTabs.TabSize">
+    <Value xsi:type="xsd:int">4</Value>
+  </Option>
+  <Option Id="4424384f-61f3-457e-b7e9-25c7e6a2c21c" ValueSource="NCFontsAndColors.Styles">
+    <Value xsi:type="Collection" />
+  </Option>
+  <Option Id="712d005e-b752-42a0-a8cd-39626b1ca906" ValueSource="NCFontsAndColors.FontFamilyName">
+    <Value xsi:type="xsd:string">Courier New</Value>
+  </Option>
+  <Option Id="0f66162e-6ed6-4317-8717-c08a2e74bf36" ValueSource="NCFontsAndColors.FontSize">
+    <Value xsi:type="xsd:float">12</Value>
+  </Option>
+  <Option Id="02927035-a73d-4a29-8f1d-ab311aa3d8c4" ValueSource="NCConfig.Name">
+    <Value xsi:type="xsd:string">Fanuc Mill</Value>
+  </Option>
+  <Option Id="7df68822-af8f-4767-99ad-31963e3499fa" ValueSource="MPNETTabs.TabSize">
+    <Value xsi:type="xsd:int">4</Value>
+  </Option>
+  <Option Id="9379a578-8257-432f-8001-bfa2a120c9f6" ValueSource="MPNETFontsAndColors.Styles">
+    <Value xsi:type="Collection" />
+  </Option>
+  <Option Id="73154d36-d9f6-451e-bc33-ac78ff312e54" ValueSource="MPNETFontsAndColors.FontFamilyName">
+    <Value xsi:type="xsd:string">Courier New</Value>
+  </Option>
+  <Option Id="11b7cb62-9b6e-4875-bfe6-64e716ba9667" ValueSource="MPNETFontsAndColors.FontSize">
+    <Value xsi:type="xsd:float">12</Value>
+  </Option>
+  <Option Id="946fb688-3faf-418f-bd29-506770a1b4b4" ValueSource="BreakpointOptions.Save">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+  <Option Id="956a08bf-aed7-42ff-9a39-1a52013a7e2b" ValueSource="BreakpointOptions.AskBeforeDeletingAllBreakpoints">
+    <Value xsi:type="xsd:boolean">false</Value>
+  </Option>
+  <Option Id="8b9dad91-0ce4-43fa-ab1c-6b896d2beb0c" ValueSource="MPTabs.TabSize">
+    <Value xsi:type="xsd:int">4</Value>
+  </Option>
+  <Option Id="1b820b5a-f2ca-4ed4-8b92-e5d68ad1746f" ValueSource="MPFontsAndColors.Styles">
+    <Value xsi:type="Collection" />
+  </Option>
+  <Option Id="c72ab108-2471-43f5-a5e5-fdd5af07fbd7" ValueSource="MPFontsAndColors.FontFamilyName">
+    <Value xsi:type="xsd:string">Courier New</Value>
+  </Option>
+  <Option Id="9b70a737-d149-4c88-af59-1acc728b9e50" ValueSource="MPFontsAndColors.FontSize">
+    <Value xsi:type="xsd:float">12</Value>
+  </Option>
+  <Option Id="a46c4752-3c1f-4f3d-9d0f-94360d2b78b6" ValueSource="DefaultTextTabs.TabSize">
+    <Value xsi:type="xsd:int">4</Value>
+  </Option>
+  <Option Id="09e1ff1a-6f12-409d-ae8f-f132594e55fb" ValueSource="DefaultTextFontsAndColors.Styles">
+    <Value xsi:type="Collection" />
+  </Option>
+  <Option Id="5d9148f5-557f-49d7-a720-0f1cf8b1c21b" ValueSource="DefaultTextFontsAndColors.FontFamilyName">
+    <Value xsi:type="xsd:string">Courier New</Value>
+  </Option>
+  <Option Id="ec15a58e-a613-4036-97af-2b25283c4812" ValueSource="DefaultTextFontsAndColors.FontSize">
+    <Value xsi:type="xsd:float">12</Value>
+  </Option>
+  <Option Id="c5b82b00-d339-4fc0-aa85-2dfee594acdf" ValueSource="FileCompareOptions.FileCompare" />
+  <Option Id="eae4149a-49f0-4d59-a4cc-6e79ff8c9bef" ValueSource="ExternalApplicationOptions.ExternalApplication" />
+  <Option Id="b8ff330b-153d-4ccc-9647-898b795b799d" ValueSource="PostingOptions.ShowPreprocessingInformation">
+    <Value xsi:type="xsd:boolean">false</Value>
+  </Option>
+  <Option Id="ad6885c8-d049-4404-a5f1-78ae492d6b3a" ValueSource="PostingOptions.ShowPreprocessingWarnings">
+    <Value xsi:type="xsd:boolean">false</Value>
+  </Option>
+  <Option Id="d312585a-508d-4245-a1b0-bb9e0baefd13" ValueSource="PostingOptions.IOFTempFileAgeDaysBeforeCleanup">
+    <Value xsi:type="xsd:int">3</Value>
+  </Option>
+  <Option Id="6633127b-01db-45ea-aa44-f386a1e32476" ValueSource="PostingOptions.OverwriteMode">
+    <Value xsi:type="Enum">
+      <Value>Overwrite</Value>
+    </Value>
+  </Option>
+  <Option Id="d00c0df7-6d50-4fe4-b79f-593f91808157" ValueSource="PostingOptions.NCOutputFolder">
+    <Value xsi:type="xsd:string">C:\Users\Valentin\Documents\My Mastercam 2025\Mastercam\Mill Turn\NC</Value>
+  </Option>
+  <Option Id="aad7471d-849d-4961-9435-02e858582f77" ValueSource="PostingOptions.MessageMode">
+    <Value xsi:type="Enum">
+      <Value>Both</Value>
+    </Value>
+  </Option>
+  <Option Id="80e8e7b5-bc8a-4e96-95be-c988f6219b4b" ValueSource="DebuggerOutputOptions.IsEnabledCallStackMachineLayer">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+  <Option Id="7fa54705-b238-4a82-95e4-c3bd37f9bf0b" ValueSource="DebuggerOutputOptions.IsEnabledCallStackSetCallbacks">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+  <Option Id="0790ed48-5c2f-4c26-9162-9cc917016274" ValueSource="DebuggerOutputOptions.IsEnabledCallStackOutputCallbacks">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+  <Option Id="5ac23b8c-1f33-4dc8-ad79-6de91133cf64" ValueSource="DebuggerOutputOptions.IsEnabledCallStackBasePostBlocks">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+  <Option Id="5d6a2265-92d7-41bc-81db-8887bcf48bbf" ValueSource="DebuggerOutputOptions.IsEnabledCallStackUserPostBlocks">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+  <Option Id="6d8c47c7-7c8b-405b-8937-dab441d2f802" ValueSource="DebuggerOutputOptions.IsEnabledTrace">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+  <Option Id="1c329852-2333-487a-bfd0-ff7bed4caa4d" ValueSource="DebuggerOutputOptions.IsEnabledLineBuilding">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+  <Option Id="0948486a-920d-4e0d-86e5-a0690110e5b2" ValueSource="DebuggerOutputOptions.IsEnabledWarnings">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+  <Option Id="4657bd6b-7535-427f-9ca6-8eb93706c61f" ValueSource="DebuggerOutputOptions.IsEnabledInformation">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+  <Option Id="f1f365b2-2a19-4637-88ad-a71dce9ba2be" ValueSource="GAFControlOptions.EdgeHighlighting">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+  <Option Id="7e70628a-4157-418d-b4ea-ed9ce4ecb4fd" ValueSource="GAFControlOptions.EdgeHighlightColor">
+    <Value xsi:type="Color">
+      <A>255</A>
+      <R>0</R>
+      <G>0</G>
+      <B>0</B>
+    </Value>
+  </Option>
+  <Option Id="748e179d-99b8-4866-a3c1-becfaba00908" ValueSource="GAFControlOptions.EdgeHighlightComponentColorBlendPercent">
+    <Value xsi:type="xsd:int">0</Value>
+  </Option>
+  <Option Id="ce28aa93-00c1-4bc4-bd4b-e73e3ab55711" ValueSource="GAFControlOptions.SmoothVertexNormals">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+  <Option Id="e098a353-b468-4563-b0e8-7a09339d6976" ValueSource="GAFControlOptions.SharpEdgeCutoffAngle">
+    <Value xsi:type="xsd:double">30</Value>
+  </Option>
+  <Option Id="40b154f5-2d39-4be0-a672-5fb048df7c8b" ValueSource="GAFControlOptions.ShowFloor">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+  <Option Id="594ebea6-fae6-4dd9-9616-cb7c272719a7" ValueSource="GAFControlOptions.OccludedGlow">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+  <Option Id="49075855-bf37-4b56-9426-736dce5368cd" ValueSource="GAFControlOptions.SoftShadows">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+  <Option Id="932bb926-339e-421f-b814-5637eede8677" ValueSource="GAFControlOptions.ShadowMode">
+    <Value xsi:type="Enum">
+      <Value>On</Value>
+    </Value>
+  </Option>
+  <Option Id="25a9cd53-0e7d-4441-bf65-4212cba922a9" ValueSource="GAFControlOptions.BackdropPosition">
+    <Value xsi:type="Enum">
+      <Value>Tile</Value>
+    </Value>
+  </Option>
+  <Option Id="94d186a4-c483-4eb0-9e2e-df1ba5398bf7" ValueSource="SyncManagerOptions.DisplayAngleSymbol">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+  <Option Id="d8409dcb-9fe0-4713-b197-8c7f531a6688" ValueSource="SyncManagerOptions.DisplayAngleUnit">
+    <Value xsi:type="Enum">
+      <Value>Radian</Value>
+    </Value>
+  </Option>
+  <Option Id="81b339bb-277a-4b2d-8972-fa27f7323359" ValueSource="SyncManagerOptions.ShowStock">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+  <Option Id="a8afcace-ea9e-4674-b9e4-6190a39deae1" ValueSource="SyncManagerOptions.StockOpacity">
+    <Value xsi:type="xsd:double">0.2</Value>
+  </Option>
+  <Option Id="9ed0b8e3-d701-4dca-8274-8d42875ae4ab" ValueSource="SyncManagerOptions.ShowChuckAndJaws">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+  <Option Id="8ae461c4-70f8-40e2-8562-8cc9b1920245" ValueSource="SyncManagerOptions.ChuckAndJawsOpacity">
+    <Value xsi:type="xsd:double">0.5</Value>
+  </Option>
+  <Option Id="a7434c66-3d28-4043-ac41-f8d405c923f1" ValueSource="SyncManagerOptions.ShowFinishedComponent">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+  <Option Id="3d254dd4-0602-4cc9-b481-bda44b37e4c7" ValueSource="SyncManagerOptions.FinishedComponentOpacity">
+    <Value xsi:type="xsd:double">1</Value>
+  </Option>
+  <Option Id="96c4af18-36d9-4e0a-b5bc-576543f527ef" ValueSource="SyncManagerOptions.ShowApproach">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+  <Option Id="66c16b42-6b4f-4704-853e-defecead584f" ValueSource="SyncManagerOptions.ShowRetract">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+  <Option Id="3a64f098-9432-4949-8a5c-fc47c951478a" ValueSource="SyncManagerOptions.ShowLink">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+  <Option Id="a5578ee1-281a-401f-9735-1c4db050ce5f" ValueSource="SyncManagerOptions.ShowSelectedOperationsOnly">
+    <Value xsi:type="xsd:boolean">false</Value>
+  </Option>
+  <Option Id="4c8a38cf-941a-4dee-97a3-af693f533814" ValueSource="SyncManagerOptions.ShowExpandedOperationsOnly">
+    <Value xsi:type="xsd:boolean">false</Value>
+  </Option>
+  <Option Id="2d4b584d-00eb-4ead-8318-bd20c58e4126" ValueSource="SyncManagerOptions.SyncPointColor">
+    <Value xsi:type="Color">
+      <A>255</A>
+      <R>255</R>
+      <G>0</G>
+      <B>0</B>
+    </Value>
+  </Option>
+  <Option Id="9ddf2edb-c599-4c15-89ea-1cac6bc6042f" ValueSource="SyncManagerOptions.SyncPointAlternateColor">
+    <Value xsi:type="Color">
+      <A>255</A>
+      <R>0</R>
+      <G>0</G>
+      <B>255</B>
+    </Value>
+  </Option>
+  <Option Id="1eb55e6b-d92a-4981-a2f5-00a2acdf76a1" ValueSource="SimulationOptions.InitialView">
+    <Value xsi:type="Enum">
+      <Value>Optimized</Value>
+    </Value>
+  </Option>
+  <Option Id="81a47159-91d2-4e37-a76a-4e75c3a90b64" ValueSource="SimulationOptions.UseLastView">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+</Options>

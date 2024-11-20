@@ -1,0 +1,33 @@
+Zip2Go_(Contourning operation with saw).TXT
+
+19.07.2023 08:03:25
+
+Version: X0 MU0 SP0
+
+C:\Ncprog\Ficam\Contourning operation with saw.mcam
+
+Einheit: MM
+
+C:\Users\Good\Documents\My Mastercam 2023\Mastercam\config\mcamxm.config
+C:\Program Files\Mastercam 2023\Mastercam\Mastercam.FT
+C:\Users\Good\Documents\My Mastercam 2023\Mastercam\config\Mastercam.Workspace
+
+----------------------
+[ Router ]
+Groupe Machine-1
+
+C:\Bruno\PST\Diverse\Ficam\Plexial Composites\WEEKE BHP 210.pst
+C:\Program Files\Mastercam 2023\Mastercam\APPS\MP.DLL  (v25.0.15915.0)
+C:\Bruno\PST\Diverse\Ficam\Plexial Composites\WEEKE BHP 210.mcam-rmd
+C:\Bruno\PST\Diverse\Ficam\Plexial Composites\WEEKE BHP 210.mcam-control
+C:\Users\Public\Documents\Shared Mastercam 2023\Router\Tools\Router_mm.tooldb
+C:\Users\Public\Documents\Shared Mastercam 2023\Materials\Router.mcam-materials
+
+Groupe de parcours d'outil-1
+Sägen - Normale operation sawing
+C:\Users\Good\Documents\My Mastercam 2023\Mastercam\Router\NC\T.MPR
+
+Groupe de parcours d'outil-1
+Kontur (2D) - 
+C:\Users\Good\Documents\My Mastercam 2023\Mastercam\Router\NC\T.MPR
+

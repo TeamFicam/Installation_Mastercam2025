@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workspace xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn://Mastercam/Extensions/Workspace">
+  <Windows>
+    <Window>
+      <Key>
+        <Id>69d98d4c-71d7-433c-b4db-e1d78644caf2</Id>
+      </Key>
+      <State>
+        <Comment>Tool manager wizard window</Comment>
+        <Value>
+          <Placement>
+            <Flags>0</Flags>
+            <MaxPosition>
+              <X>-1</X>
+              <Y>-1</Y>
+            </MaxPosition>
+            <MinPosition>
+              <X>-1</X>
+              <Y>-1</Y>
+            </MinPosition>
+            <NormalPosition>
+              <Bottom>774</Bottom>
+              <Left>182</Left>
+              <Right>1184</Right>
+              <Top>182</Top>
+            </NormalPosition>
+            <ShowCmd>1</ShowCmd>
+          </Placement>
+        </Value>
+      </State>
+    </Window>
+  </Windows>
+</Workspace>

@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<Options xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn://Mastercam/Options">
+  <Option Id="f1f365b2-2a19-4637-88ad-a71dce9ba2be" ValueSource="GAFControlOptions.EdgeHighlighting">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+  <Option Id="7e70628a-4157-418d-b4ea-ed9ce4ecb4fd" ValueSource="GAFControlOptions.EdgeHighlightColor">
+    <Value xsi:type="Color">
+      <A>255</A>
+      <R>0</R>
+      <G>0</G>
+      <B>0</B>
+    </Value>
+  </Option>
+  <Option Id="748e179d-99b8-4866-a3c1-becfaba00908" ValueSource="GAFControlOptions.EdgeHighlightComponentColorBlendPercent">
+    <Value xsi:type="xsd:int">0</Value>
+  </Option>
+  <Option Id="ce28aa93-00c1-4bc4-bd4b-e73e3ab55711" ValueSource="GAFControlOptions.SmoothVertexNormals">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+  <Option Id="e098a353-b468-4563-b0e8-7a09339d6976" ValueSource="GAFControlOptions.SharpEdgeCutoffAngle">
+    <Value xsi:type="xsd:double">30</Value>
+  </Option>
+  <Option Id="40b154f5-2d39-4be0-a672-5fb048df7c8b" ValueSource="GAFControlOptions.ShowFloor">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+  <Option Id="594ebea6-fae6-4dd9-9616-cb7c272719a7" ValueSource="GAFControlOptions.OccludedGlow">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+  <Option Id="49075855-bf37-4b56-9426-736dce5368cd" ValueSource="GAFControlOptions.SoftShadows">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+  <Option Id="932bb926-339e-421f-b814-5637eede8677" ValueSource="GAFControlOptions.ShadowMode">
+    <Value xsi:type="Enum">
+      <Value>On</Value>
+    </Value>
+  </Option>
+  <Option Id="25a9cd53-0e7d-4441-bf65-4212cba922a9" ValueSource="GAFControlOptions.BackdropPosition">
+    <Value xsi:type="Enum">
+      <Value>Tile</Value>
+    </Value>
+  </Option>
+  <Option Id="86c216c0-d968-447f-8337-1ae1f0196a10" ValueSource="GeneralOptions.IsMetric">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+  <Option Id="c2194187-d0b6-473f-86b0-2923db4b9dc7" ValueSource="GeneralOptions.NumRecentSearches">
+    <Value xsi:type="xsd:int">15</Value>
+  </Option>
+  <Option Id="e8bc574f-4408-445c-8fd2-967bc6c29142" ValueSource="GeneralOptions.ShowToolTipPreview">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+  <Option Id="2caa4aaf-114e-4ef5-8505-ea1d82b5aed6" ValueSource="GeneralOptions.ToolTipPreviewHoverTime">
+    <Value xsi:type="xsd:double">0.5</Value>
+  </Option>
+  <Option Id="9c970141-b450-4d0a-8664-69e460bf3dc0" ValueSource="GeneralOptions.AutoNaming">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+  <Option Id="b24a0d59-992d-499c-9060-e5253d08ef9d" ValueSource="GeneralOptions.RenderImportedToolInWizard">
+    <Value xsi:type="xsd:boolean">true</Value>
+  </Option>
+</Options>

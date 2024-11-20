@@ -1,0 +1,27 @@
+Zip2Go_HASP.TXT   (19.07.2023 08:03:27)
+
+Seriennr.: 63385
+Benutzertyp: Reseller
+Zeitlimitiert: true
+
+Softwarewartung... 
+Ablaufdatum: 29.02.2024
+Abgelaufen am: false
+
+Produkte... 
+
+DESIGN: 400
+MILL: 400 - 3D
+ROUTER: 400 - 3D
+LATHE: 400 - Level 1
+WIRE: 400 - Level 2
+ART: 400 - Level 1
+MCforSW Mill: 400 - 3D
+MCforSW Lathe: 400 - 
+MILLTURN - Nein
+
+Optionen... 
+
+Solids: true
+5-Achsen: true
+
