@@ -20,31 +20,26 @@
                     <Comment>Main document workspace dock site state</Comment>
                     <Value>&lt;DockSiteLayout xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SerializationFormat="ToolWindowsOnly" Version="2"&gt;
 	&lt;AutoHideHost /&gt;
-	&lt;Content xsi:type="SplitContainer" Orientation="Horizontal" DockedSize="1010,487.333333333333"&gt;
-		&lt;UIElement xsi:type="ToolWindowContainer" DockedSize="328,1198" SelectedWindowUniqueId="820b6be4-5962-4ed4-b5cd-27be36d99173"&gt;
-			&lt;UIElement xsi:type="Track" ContainerDockedSize="328,1202" CreationDateTime="2024-06-21T13:24:27.2980032+02:00" UniqueId="85497a61-0672-44a2-a29f-9dc6bab09aa2" /&gt;
-			&lt;UIElement xsi:type="ToolWindowRef" UniqueId="820b6be4-5962-4ed4-b5cd-27be36d99173" /&gt;
-			&lt;UIElement xsi:type="ToolWindowRef" UniqueId="11d38a6b-b369-40bf-87b9-7be939c1f4d5" /&gt;
+	&lt;Content xsi:type="SplitContainer" Orientation="Horizontal" DockedSize="2548,1202"&gt;
+		&lt;UIElement xsi:type="ToolWindowContainer" DockedSize="0,0"&gt;
+			&lt;UIElement xsi:type="Track" ContainerDockedSize="328,829.333333333333" CreationDateTime="2025-01-07T15:40:54.3108834+01:00" UniqueId="85497a61-0672-44a2-a29f-9dc6bab09aa2" /&gt;
 		&lt;/UIElement&gt;
 		&lt;UIElement xsi:type="Workspace"&gt;
 			&lt;Content xsi:type="TabbedMdiHost"&gt;
-				&lt;Content xsi:type="TabbedMdiContainer" DockedSize="1010,487.333333333333" SelectedWindowUniqueId="a28b44e8-0126-46b7-b054-fcb9a29b327e" /&gt;
+				&lt;Content xsi:type="TabbedMdiContainer" DockedSize="2548,1202" SelectedWindowUniqueId="74bc7541-4da5-435f-bc62-1b86df5aaef4" /&gt;
 			&lt;/Content&gt;
 		&lt;/UIElement&gt;
+		&lt;UIElement xsi:type="ToolWindowContainer" DockedSize="344,200" SelectedWindowUniqueId="739a12dc-8d4e-4e73-865a-937b333cb1ab"&gt;
+			&lt;UIElement xsi:type="ToolWindowRef" UniqueId="739a12dc-8d4e-4e73-865a-937b333cb1ab" /&gt;
+		&lt;/UIElement&gt;
+		&lt;UIElement xsi:type="ToolWindowContainer" DockedSize="538,200" SelectedWindowUniqueId="50adc3f5-4382-4621-86e6-edaf1301d0bc"&gt;
+			&lt;UIElement xsi:type="ToolWindowRef" UniqueId="50adc3f5-4382-4621-86e6-edaf1301d0bc" /&gt;
+		&lt;/UIElement&gt;
 	&lt;/Content&gt;
-	&lt;RaftingHosts&gt;
-		&lt;RaftingHost UniqueId="47c8b649-59eb-40c5-9060-5e3c35d1179b" Location="1199,734" Size="330,1200" WindowState="Normal"&gt;
-			&lt;AutoHideHost /&gt;
-			&lt;Content xsi:type="ToolWindowContainer" DockedSize="0,0"&gt;
-				&lt;UIElement xsi:type="Track" ContainerDockedSize="328,1198" CreationDateTime="2024-06-17T15:07:24.6305497+02:00" UniqueId="820b6be4-5962-4ed4-b5cd-27be36d99173" /&gt;
-				&lt;UIElement xsi:type="Track" ContainerDockedSize="328,1198" CreationDateTime="2024-06-17T15:07:24.6355084+02:00" UniqueId="11d38a6b-b369-40bf-87b9-7be939c1f4d5" /&gt;
-			&lt;/Content&gt;
-		&lt;/RaftingHost&gt;
-	&lt;/RaftingHosts&gt;
 	&lt;ToolWindows&gt;
-		&lt;ToolWindow UniqueId="820b6be4-5962-4ed4-b5cd-27be36d99173" SerializationId="MachineExplorerToolWindow" ContainerDockedSize="328,1198" IsOpen="true" LastActiveDateTime="2024-06-21T15:19:11.4951859+02:00" State="Docked" /&gt;
-		&lt;ToolWindow UniqueId="11d38a6b-b369-40bf-87b9-7be939c1f4d5" SerializationId="PropertyGridToolWindow" ContainerDockedSize="328,1198" IsOpen="true" LastActiveDateTime="2024-06-18T09:09:59.3805763+02:00" State="Docked" /&gt;
-		&lt;ToolWindow UniqueId="85497a61-0672-44a2-a29f-9dc6bab09aa2" SerializationId="FindReplaceToolWindow" ContainerDockedSize="328,1202" IsOpen="false" LastActiveDateTime="2024-06-21T13:24:27.2085927+02:00" State="Docked" /&gt;
+		&lt;ToolWindow UniqueId="739a12dc-8d4e-4e73-865a-937b333cb1ab" SerializationId="MachineExplorerToolWindow" ContainerDockedSize="344,200" IsOpen="true" LastActiveDateTime="2025-01-10T15:24:53.1008722+01:00" State="Docked" /&gt;
+		&lt;ToolWindow UniqueId="50adc3f5-4382-4621-86e6-edaf1301d0bc" SerializationId="PropertyGridToolWindow" ContainerDockedSize="538,200" IsOpen="true" LastActiveDateTime="2025-01-10T15:25:10.3545593+01:00" State="Docked" /&gt;
+		&lt;ToolWindow UniqueId="85497a61-0672-44a2-a29f-9dc6bab09aa2" SerializationId="FindReplaceToolWindow" ContainerDockedSize="328,829.333333333333" IsOpen="false" LastActiveDateTime="2025-01-06T12:20:42.9028224+01:00" State="Docked" /&gt;
 	&lt;/ToolWindows&gt;
 &lt;/DockSiteLayout&gt;</Value>
                   </State>
@@ -108,7 +103,7 @@
                           <Comment>Machine control document dock site state</Comment>
                           <Value>&lt;DockSiteLayout xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SerializationFormat="ToolWindowsOnly" Version="2"&gt;
 	&lt;AutoHideHost /&gt;
-	&lt;Content xsi:type="SplitContainer" Orientation="Vertical" DockedSize="2212,1178"&gt;
+	&lt;Content xsi:type="SplitContainer" Orientation="Vertical" DockedSize="626,803"&gt;
 		&lt;UIElement xsi:type="Workspace" /&gt;
 		&lt;UIElement xsi:type="ToolWindowContainer" DockedSize="1264,111" SelectedWindowUniqueId="2fc88e9f-f5c4-4a16-9b2c-fd27daf25762"&gt;
 			&lt;UIElement xsi:type="ToolWindowRef" UniqueId="2fc88e9f-f5c4-4a16-9b2c-fd27daf25762" /&gt;
@@ -159,7 +154,7 @@
                           <Comment>Sync manager document dock site state</Comment>
                           <Value>&lt;DockSiteLayout xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SerializationFormat="ToolWindowsOnly" Version="2"&gt;
 	&lt;AutoHideHost /&gt;
-	&lt;Content xsi:type="SplitContainer" Orientation="Vertical" DockedSize="1884,805"&gt;
+	&lt;Content xsi:type="SplitContainer" Orientation="Vertical" DockedSize="1652,1178"&gt;
 		&lt;UIElement xsi:type="SplitContainer" Orientation="Horizontal" DockedSize="406,200"&gt;
 			&lt;UIElement xsi:type="ToolWindowContainer" DockedSize="570,200" SelectedWindowUniqueId="cc0ff883-d72f-4749-b999-558ed01ef3bb"&gt;
 				&lt;UIElement xsi:type="ToolWindowRef" UniqueId="cc0ff883-d72f-4749-b999-558ed01ef3bb" /&gt;
@@ -171,7 +166,7 @@
 		&lt;/UIElement&gt;
 	&lt;/Content&gt;
 	&lt;ToolWindows&gt;
-		&lt;ToolWindow UniqueId="cc0ff883-d72f-4749-b999-558ed01ef3bb" SerializationId="OperationTreeToolWindow" ContainerDockedSize="570,200" IsOpen="true" LastActiveDateTime="2024-06-18T09:13:38.1960952+02:00" State="Docked" /&gt;
+		&lt;ToolWindow UniqueId="cc0ff883-d72f-4749-b999-558ed01ef3bb" SerializationId="OperationTreeToolWindow" ContainerDockedSize="570,200" IsOpen="true" LastActiveDateTime="2025-01-10T15:46:11.3321942+01:00" State="Docked" /&gt;
 		&lt;ToolWindow UniqueId="31b63c35-e037-40a8-a849-088275566729" SerializationId="TimelineToolWindow" IsOpen="true" LastActiveDateTime="2024-04-30T08:41:14.2586627+02:00" State="Docked" /&gt;
 	&lt;/ToolWindows&gt;
 &lt;/DockSiteLayout&gt;</Value>
@@ -209,9 +204,33 @@
                 </Value>
               </State>
             </DependentContainer>
+            <DependentContainer>
+              <Key>
+                <Id>2a73b794-a578-4158-9004-37c6cc0ade6d</Id>
+              </Key>
+              <State>
+                <Comment>Editor document</Comment>
+                <Value>
+                  <StateContainer>
+                    <Type>SyntaxEditorZoom</Type>
+                    <States i:type="DoubleStates">
+                      <Control>
+                        <Key>
+                          <Id>3d3606ae-5edb-4634-b095-caa1075e334d</Id>
+                        </Key>
+                        <State>
+                          <Comment>Editor document zoom level</Comment>
+                          <Value>2</Value>
+                        </State>
+                      </Control>
+                    </States>
+                  </StateContainer>
+                </Value>
+              </State>
+            </DependentContainer>
           </DependentControlStates>
           <Placement>
-            <Flags>0</Flags>
+            <Flags>2</Flags>
             <MaxPosition>
               <X>-1</X>
               <Y>-1</Y>
@@ -221,12 +240,12 @@
               <Y>-1</Y>
             </MinPosition>
             <NormalPosition>
-              <Bottom>1203</Bottom>
-              <Left>721</Left>
-              <Right>2257</Right>
-              <Top>184</Top>
+              <Bottom>1153</Bottom>
+              <Left>657</Left>
+              <Right>2193</Right>
+              <Top>134</Top>
             </NormalPosition>
-            <ShowCmd>1</ShowCmd>
+            <ShowCmd>3</ShowCmd>
           </Placement>
         </Value>
       </State>
